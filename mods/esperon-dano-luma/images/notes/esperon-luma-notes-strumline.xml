@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="esperon-luma-notes-strumline.png">
+  <SubTexture name="staticLeft0" x="0" y="0" width="176" height="176" frameX="0" frameY="0" frameWidth="176" frameHeight="176" />
+  <SubTexture name="staticDown0" x="176" y="0" width="176" height="176" frameX="0" frameY="0" frameWidth="176" frameHeight="176" />
+  <SubTexture name="staticUp0" x="352" y="0" width="176" height="176" frameX="0" frameY="0" frameWidth="176" frameHeight="176" />
+  <SubTexture name="staticRight0" x="528" y="0" width="176" height="176" frameX="0" frameY="0" frameWidth="176" frameHeight="176" />
+  <SubTexture name="pressLeft0" x="0" y="176" width="176" height="176" frameX="0" frameY="0" frameWidth="176" frameHeight="176" />
+  <SubTexture name="pressDown0" x="176" y="176" width="176" height="176" frameX="0" frameY="0" frameWidth="176" frameHeight="176" />
+  <SubTexture name="pressUp0" x="352" y="176" width="176" height="176" frameX="0" frameY="0" frameWidth="176" frameHeight="176" />
+  <SubTexture name="pressRight0" x="528" y="176" width="176" height="176" frameX="0" frameY="0" frameWidth="176" frameHeight="176" />
+  <SubTexture name="confirmLeft0" x="0" y="352" width="176" height="176" frameX="0" frameY="0" frameWidth="176" frameHeight="176" />
+  <SubTexture name="confirmDown0" x="176" y="352" width="176" height="176" frameX="0" frameY="0" frameWidth="176" frameHeight="176" />
+  <SubTexture name="confirmUp0" x="352" y="352" width="176" height="176" frameX="0" frameY="0" frameWidth="176" frameHeight="176" />
+  <SubTexture name="confirmRight0" x="528" y="352" width="176" height="176" frameX="0" frameY="0" frameWidth="176" frameHeight="176" />
+</TextureAtlas>
