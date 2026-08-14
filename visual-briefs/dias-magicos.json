@@ -71,7 +71,16 @@
         "images/ui/esperon-dias-magicos-notes/num7.png",
         "images/ui/esperon-dias-magicos-notes/num8.png",
         "images/ui/esperon-dias-magicos-notes/num9.png"
-      ]
+      ],
+      "health_bar": {
+        "implementation": "Módulo HScript de inicialización única: createFilledBar(opponentColor, playerColor) y updateBar().",
+        "script": "scripts/EsperonDiasMagicosHudV2.hxc",
+        "preview": "images/ui/esperon-dias-magicos-notes/healthbar-theme.png",
+        "opponent_color": "0xFF7BB4FF",
+        "player_color": "0xFFFFCD59",
+        "no_per_frame_updates": true,
+        "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST"
+      }
     }
   }
 }

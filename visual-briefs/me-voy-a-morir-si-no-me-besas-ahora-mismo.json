@@ -71,7 +71,16 @@
         "images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num7.png",
         "images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num8.png",
         "images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num9.png"
-      ]
+      ],
+      "health_bar": {
+        "implementation": "Módulo HScript de inicialización única: createFilledBar(opponentColor, playerColor) y updateBar().",
+        "script": "scripts/EsperonMeVoyAMorirSiNoMeBesasAhoraMismoHudV2.hxc",
+        "preview": "images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/healthbar-theme.png",
+        "opponent_color": "0xFFDDB75F",
+        "player_color": "0xFF9C42E0",
+        "no_per_frame_updates": true,
+        "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST"
+      }
     }
   }
 }

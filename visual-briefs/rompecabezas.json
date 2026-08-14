@@ -71,7 +71,16 @@
         "images/ui/esperon-rompecabezas-notes/num7.png",
         "images/ui/esperon-rompecabezas-notes/num8.png",
         "images/ui/esperon-rompecabezas-notes/num9.png"
-      ]
+      ],
+      "health_bar": {
+        "implementation": "Módulo HScript de inicialización única: createFilledBar(opponentColor, playerColor) y updateBar().",
+        "script": "scripts/EsperonRompecabezasHudV2.hxc",
+        "preview": "images/ui/esperon-rompecabezas-notes/healthbar-theme.png",
+        "opponent_color": "0xFFF9B23D",
+        "player_color": "0xFF44C1DD",
+        "no_per_frame_updates": true,
+        "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST"
+      }
     }
   }
 }

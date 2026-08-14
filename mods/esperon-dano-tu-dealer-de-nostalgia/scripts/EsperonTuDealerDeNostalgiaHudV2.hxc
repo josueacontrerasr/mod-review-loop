@@ -1,0 +1,24 @@
+import funkin.play.PlayState;
+
+/**
+ * HUD visual V2 para Tu Dealer de Nostalgia.
+ * Solo recoloriza la barra de vida al inicio del conteo.
+ * No modifica audio, BPM, offsets, chart, notas ni eventos musicales.
+ */
+class EsperonTuDealerDeNostalgiaHudV2 extends Module
+{
+  function new()
+  {
+    super("Esperón HUD — Tu Dealer de Nostalgia", 1, {state: PlayState});
+  }
+
+  override function onCountdownStart(event)
+  {
+    super.onCountdownStart(event);
+    if (PlayState.instance == null || PlayState.instance.healthBar == null) return;
+    if (PlayState.instance.iconP1 == null) return;
+    if (PlayState.instance.iconP1.characterId != "esperon-tu-dealer-de-nostalgia") return;
+    PlayState.instance.healthBar.createFilledBar(0xFF62A7AB, 0xFFD5746D);
+    PlayState.instance.healthBar.updateBar();
+  }
+}

@@ -71,7 +71,16 @@
         "images/ui/esperon-cortamos-y-volvemos-notes/num7.png",
         "images/ui/esperon-cortamos-y-volvemos-notes/num8.png",
         "images/ui/esperon-cortamos-y-volvemos-notes/num9.png"
-      ]
+      ],
+      "health_bar": {
+        "implementation": "Módulo HScript de inicialización única: createFilledBar(opponentColor, playerColor) y updateBar().",
+        "script": "scripts/EsperonCortamosYVolvemosHudV2.hxc",
+        "preview": "images/ui/esperon-cortamos-y-volvemos-notes/healthbar-theme.png",
+        "opponent_color": "0xFF529AC2",
+        "player_color": "0xFFDD5849",
+        "no_per_frame_updates": true,
+        "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST"
+      }
     }
   }
 }

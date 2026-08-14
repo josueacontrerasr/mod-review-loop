@@ -8,5 +8,14 @@
     "chart_sha256": "ee8e9db547d66e5effe3c958686ad5c1c79f2536e2288d932d307abaad099c76",
     "inst_sha256": "89fefd4b4b61e2b7814520788f980d423635d22b0b4dd78de4045052493bdb30"
   },
-  "status": "PASS_NO_MUSICAL_DATA_CHANGED"
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonRompecabezasHudV2.hxc",
+    "class": "EsperonRompecabezasHudV2",
+    "player_character_id": "esperon-rompecabezas",
+    "opponent_color": "0xFFF9B23D",
+    "player_color": "0xFF44C1DD",
+    "preview": "images/ui/esperon-rompecabezas-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
 }

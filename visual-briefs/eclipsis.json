@@ -71,7 +71,16 @@
         "images/ui/esperon-eclipsis-notes/num7.png",
         "images/ui/esperon-eclipsis-notes/num8.png",
         "images/ui/esperon-eclipsis-notes/num9.png"
-      ]
+      ],
+      "health_bar": {
+        "implementation": "Módulo HScript de inicialización única: createFilledBar(opponentColor, playerColor) y updateBar().",
+        "script": "scripts/EsperonEclipsisHudV2.hxc",
+        "preview": "images/ui/esperon-eclipsis-notes/healthbar-theme.png",
+        "opponent_color": "0xFFF7A94F",
+        "player_color": "0xFF9060D1",
+        "no_per_frame_updates": true,
+        "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST"
+      }
     }
   }
 }

@@ -71,7 +71,16 @@
         "images/ui/esperon-arcoloria-notes/num7.png",
         "images/ui/esperon-arcoloria-notes/num8.png",
         "images/ui/esperon-arcoloria-notes/num9.png"
-      ]
+      ],
+      "health_bar": {
+        "implementation": "Módulo HScript de inicialización única: createFilledBar(opponentColor, playerColor) y updateBar().",
+        "script": "scripts/EsperonArcoloriaHudV2.hxc",
+        "preview": "images/ui/esperon-arcoloria-notes/healthbar-theme.png",
+        "opponent_color": "0xFF4BCFBA",
+        "player_color": "0xFFE960A9",
+        "no_per_frame_updates": true,
+        "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST"
+      }
     }
   }
 }

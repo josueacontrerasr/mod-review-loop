@@ -71,7 +71,16 @@
         "images/ui/esperon-mi-hogar-notes/num7.png",
         "images/ui/esperon-mi-hogar-notes/num8.png",
         "images/ui/esperon-mi-hogar-notes/num9.png"
-      ]
+      ],
+      "health_bar": {
+        "implementation": "Módulo HScript de inicialización única: createFilledBar(opponentColor, playerColor) y updateBar().",
+        "script": "scripts/EsperonMiHogarHudV2.hxc",
+        "preview": "images/ui/esperon-mi-hogar-notes/healthbar-theme.png",
+        "opponent_color": "0xFF7FBEA2",
+        "player_color": "0xFFEE8F4D",
+        "no_per_frame_updates": true,
+        "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST"
+      }
     }
   }
 }

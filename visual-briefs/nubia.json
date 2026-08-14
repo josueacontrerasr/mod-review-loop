@@ -71,7 +71,16 @@
         "images/ui/esperon-nubia-notes/num7.png",
         "images/ui/esperon-nubia-notes/num8.png",
         "images/ui/esperon-nubia-notes/num9.png"
-      ]
+      ],
+      "health_bar": {
+        "implementation": "Módulo HScript de inicialización única: createFilledBar(opponentColor, playerColor) y updateBar().",
+        "script": "scripts/EsperonNubiaHudV2.hxc",
+        "preview": "images/ui/esperon-nubia-notes/healthbar-theme.png",
+        "opponent_color": "0xFFC6B7F5",
+        "player_color": "0xFF70AFE8",
+        "no_per_frame_updates": true,
+        "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST"
+      }
     }
   }
 }

@@ -71,7 +71,16 @@
         "images/ui/esperon-dano-notes/num7.png",
         "images/ui/esperon-dano-notes/num8.png",
         "images/ui/esperon-dano-notes/num9.png"
-      ]
+      ],
+      "health_bar": {
+        "implementation": "Módulo HScript de inicialización única: createFilledBar(opponentColor, playerColor) y updateBar().",
+        "script": "scripts/EsperonDanoHudV2.hxc",
+        "preview": "images/ui/esperon-dano-notes/healthbar-theme.png",
+        "opponent_color": "0xFF558AC2",
+        "player_color": "0xFFD24569",
+        "no_per_frame_updates": true,
+        "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST"
+      }
     }
   }
 }

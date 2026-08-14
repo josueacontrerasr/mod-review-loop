@@ -71,7 +71,16 @@
         "images/ui/esperon-meteora-notes/num7.png",
         "images/ui/esperon-meteora-notes/num8.png",
         "images/ui/esperon-meteora-notes/num9.png"
-      ]
+      ],
+      "health_bar": {
+        "implementation": "Módulo HScript de inicialización única: createFilledBar(opponentColor, playerColor) y updateBar().",
+        "script": "scripts/EsperonMeteoraHudV2.hxc",
+        "preview": "images/ui/esperon-meteora-notes/healthbar-theme.png",
+        "opponent_color": "0xFF5C65E4",
+        "player_color": "0xFFFF7546",
+        "no_per_frame_updates": true,
+        "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST"
+      }
     }
   }
 }

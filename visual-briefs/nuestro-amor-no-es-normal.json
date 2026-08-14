@@ -71,7 +71,16 @@
         "images/ui/esperon-nuestro-amor-no-es-normal-notes/num7.png",
         "images/ui/esperon-nuestro-amor-no-es-normal-notes/num8.png",
         "images/ui/esperon-nuestro-amor-no-es-normal-notes/num9.png"
-      ]
+      ],
+      "health_bar": {
+        "implementation": "Módulo HScript de inicialización única: createFilledBar(opponentColor, playerColor) y updateBar().",
+        "script": "scripts/EsperonNuestroAmorNoEsNormalHudV2.hxc",
+        "preview": "images/ui/esperon-nuestro-amor-no-es-normal-notes/healthbar-theme.png",
+        "opponent_color": "0xFFDDBE5F",
+        "player_color": "0xFFA442E0",
+        "no_per_frame_updates": true,
+        "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST"
+      }
     }
   }
 }

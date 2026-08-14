@@ -8,5 +8,14 @@
     "chart_sha256": "2968fc1df197b0588e5ad264c9588ad42dac1270458459020a9344cfd55c472f",
     "inst_sha256": "7a9e2384ab6aa7af27474131e265ed9abde4bc0ccdb6c746456f3e7dcd254fa0"
   },
-  "status": "PASS_NO_MUSICAL_DATA_CHANGED"
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonTristellaHudV2.hxc",
+    "class": "EsperonTristellaHudV2",
+    "player_character_id": "esperon-tristella",
+    "opponent_color": "0xFF7E5ED6",
+    "player_color": "0xFFFFCD48",
+    "preview": "images/ui/esperon-tristella-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
 }
