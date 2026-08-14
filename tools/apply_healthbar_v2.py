@@ -106,7 +106,7 @@ def apply(mod: Path) -> Path:
     script_path.parent.mkdir(parents=True, exist_ok=True)
     script_path.write_text(healthbar_script(class_id, title, player_id, secondary, primary), encoding="utf-8")
     style_id = f"esperon-{slug}-notes"
-    preview = mod / "images/ui" / style_id / "healthbar-theme.png"
+    preview = mod / "shared/images/ui" / style_id / "healthbar-theme.png"
     draw_healthbar_preview(preview, palette["primary"], palette["secondary"], palette["dark"])
     manifest_path = mod / "_polymod_meta.json"
     manifest = read_json(manifest_path)

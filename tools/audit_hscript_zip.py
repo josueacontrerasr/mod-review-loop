@@ -9,7 +9,7 @@ import re
 import zipfile
 from pathlib import Path
 
-VERSION = "2.1.1"
+VERSION = "2.1.2"
 EXTENDS_RE = re.compile(r"\bclass\s+(\w+)\s+extends\s+([\w.]+)")
 IMPORT_RE = re.compile(r"^\s*import\s+([^;]+);", re.MULTILINE)
 
@@ -60,7 +60,7 @@ def main() -> int:
         "status": "PASS" if len(packages) == 20 and hscript_count == 20 else "REVIEW_REQUIRED",
         "limitations": ["La auditoría de texto no sustituye el parser ni el runtime de FNF Mobile V-Slice 0.8.6."],
     }
-    output = root / "qa-lab" / "session-hscript" / "hscript-zip-inventory-v2.1.1.json"
+    output = root / "qa-lab" / "session-hscript" / "hscript-zip-inventory-v2.1.2.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({key: payload[key] for key in ("packages", "hscript_files", "module_superclass_files", "status")}, ensure_ascii=False))

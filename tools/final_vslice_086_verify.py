@@ -27,8 +27,11 @@ def main() -> int:
         song = songs[0].name if len(songs) == 1 else None
         metadata_path = mod / 'data' / 'songs' / str(song) / f'{song}-metadata.json'
         chart_path = mod / 'data' / 'songs' / str(song) / f'{song}-chart.json'
+        manifest_path = mod / 'data' / 'songs' / str(song) / 'manifest.json'
         metadata = load(metadata_path)
         chart = load(chart_path)
+        if not manifest_path.is_file():
+            problems.append({'code': 'SONG_MANIFEST', 'detail': str(manifest_path.relative_to(mod))})
         if metadata.get('version') != '2.2.4':
             problems.append({'code': 'METADATA_SCHEMA', 'detail': str(metadata.get('version'))})
         if chart.get('version') != '2.0.0':
@@ -40,8 +43,9 @@ def main() -> int:
             asset_path = data.get('assetPath') or data.get('asset_path')
             if asset_path:
                 normalized_path = str(asset_path).removeprefix('shared:')
-                candidate_png = mod / 'images' / f'{normalized_path}.png'
-                candidate_xml = mod / 'images' / f'{normalized_path}.xml'
+                image_root = mod / 'shared' / 'images' if str(asset_path).startswith('shared:') else mod / 'images'
+                candidate_png = image_root / f'{normalized_path}.png'
+                candidate_xml = image_root / f'{normalized_path}.xml'
                 if not candidate_png.is_file() or not candidate_xml.is_file():
                     problems.append({'code': 'ASSET_RESOLUTION', 'detail': f'{resource.relative_to(mod)} -> {asset_path}'})
         # Freeplay-facing static assets: mod icon and character icons must resolve. A dedicated Freeplay cover contract is not assumed.

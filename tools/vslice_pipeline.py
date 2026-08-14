@@ -240,8 +240,8 @@ def build_mod(audio: Path, output_root: Path) -> Path:
     (mod / "data/songs" / song_slug).mkdir(parents=True)
     (mod / "data/characters").mkdir(parents=True)
     (mod / "data/stages").mkdir(parents=True)
-    (mod / "images/characters").mkdir(parents=True)
-    (mod / "images/stages").mkdir(parents=True)
+    (mod / "shared/images/characters").mkdir(parents=True)
+    (mod / "shared/images/stages").mkdir(parents=True)
     (mod / "images/icons").mkdir(parents=True)
     (mod / "songs" / song_slug).mkdir(parents=True)
 
@@ -257,17 +257,18 @@ def build_mod(audio: Path, output_root: Path) -> Path:
     metadata = {"version": METADATA_VERSION, "songName": title, "artist": "Esperón", "charter": "Manus AI — chart de referencia", "offsets": {}, "playData": {"difficulties": ["easy", "normal", "hard"], "characters": {"player": player_id, "opponent": rival_id, "playerVocals": [], "opponentVocals": []}, "stage": stage_id, "noteStyle": "funkin", "ratings": {"easy": 0, "normal": 1, "hard": 2}}, "timeChanges": [{"t": 0, "b": 0, "bpm": bpm, "bt": [4, 4, 4, 4]}], "generatedBy": "Friday Night Funkin' - 0.8.6"}
     write_json(mod / "data/songs" / song_slug / f"{song_slug}-metadata.json", metadata)
     write_json(mod / "data/songs" / song_slug / f"{song_slug}-chart.json", build_chart(final_duration * 1000, bpm))
+    write_json(mod / "data/songs" / song_slug / "manifest.json", {"version": "1.0.0", "songId": song_slug})
     write_json(mod / "data/characters" / f"{player_id}.json", character_data(f"Esperón {title}", f"shared:characters/{player_id}", True))
     write_json(mod / "data/characters" / f"{rival_id}.json", character_data(f"Rival {title}", f"shared:characters/{rival_id}", False))
     write_json(mod / "data/stages" / f"{stage_id}.json", {"version": "1.0.1", "name": f"Escenario {title}", "cameraZoom": 0.92, "props": [{"assetPath": f"shared:stages/{stage_id}", "position": [-140, -75], "scale": [1.15, 1.15], "scroll": [0.85, 0.85], "zIndex": -10, "alpha": 1.0}]})
 
-    player_png = mod / "images/characters" / f"{player_id}.png"
-    rival_png = mod / "images/characters" / f"{rival_id}.png"
+    player_png = mod / "shared/images/characters" / f"{player_id}.png"
+    rival_png = mod / "shared/images/characters" / f"{rival_id}.png"
     draw_character_sheet(player_png, primary, secondary, rival=False)
     draw_character_sheet(rival_png, secondary, primary, rival=True)
     write_sparrow_xml(player_png.with_suffix(".xml"), player_png.name)
     write_sparrow_xml(rival_png.with_suffix(".xml"), rival_png.name)
-    draw_stage(mod / "images/stages" / f"{stage_id}.png", primary, secondary, dark)
+    draw_stage(mod / "shared/images/stages" / f"{stage_id}.png", primary, secondary, dark)
     draw_icon(mod / "images/icons" / f"{player_id}.png", primary, secondary)
     draw_icon(mod / "images/icons" / f"{rival_id}.png", secondary, primary)
 
@@ -313,6 +314,27 @@ def validate_mod(mod: Path) -> dict[str, Any]:
                     errors.append(f"Personaje no resuelto: {char!r}")
             if not isinstance(stage, str) or not (mod / "data/stages" / f"{stage}.json").is_file():
                 errors.append(f"Escenario no resuelto: {stage!r}")
+            for resource in sorted(list((mod / "data/characters").glob("*.json")) + list((mod / "data/stages").glob("*.json")) + list((mod / "data/notestyles").glob("*.json"))):
+                data = read_json(resource)
+                if not data:
+                    continue
+                paths = []
+                def collect(value: Any) -> None:
+                    if isinstance(value, dict):
+                        for key, child in value.items():
+                            if key == "assetPath" and isinstance(child, str):
+                                paths.append(child)
+                            else:
+                                collect(child)
+                    elif isinstance(value, list):
+                        for child in value:
+                            collect(child)
+                collect(data)
+                for asset_path in paths:
+                    normalized_path = asset_path.removeprefix("shared:")
+                    image_root = mod / "shared/images" if asset_path.startswith("shared:") else mod / "images"
+                    if not (image_root / f"{normalized_path}.png").is_file() and not (image_root / f"{normalized_path}.xml").is_file():
+                        errors.append(f"Asset no resuelto: {resource.relative_to(mod)} -> {asset_path}")
         if chart:
             for difficulty, notes in chart.get("notes", {}).items():
                 previous = -1.0
@@ -331,7 +353,7 @@ def validate_mod(mod: Path) -> dict[str, Any]:
         try:
             root = ET.parse(xml_path).getroot()
             names = {node.attrib.get("name") for node in root.findall("SubTexture")}
-            is_character_atlas = xml_path.parent == mod / "images" / "characters"
+            is_character_atlas = xml_path.parent == mod / "shared/images" / "characters"
             valid_names = (all(any(name == pose or name.startswith(pose) for name in names) for pose in POSES) if is_character_atlas else bool(names))
             if root.tag != "TextureAtlas" or not valid_names or not xml_path.with_suffix(".png").is_file():
                 errors.append(f"Atlas inválido: {xml_path.relative_to(mod)}")

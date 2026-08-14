@@ -7,7 +7,7 @@ import shutil
 import sys
 from pathlib import Path
 
-VERSION = "2.1.1"
+VERSION = "2.1.2"
 
 
 def delivery_name(song: str) -> str:

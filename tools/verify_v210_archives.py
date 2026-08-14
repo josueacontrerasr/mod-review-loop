@@ -7,7 +7,7 @@ import json
 import zipfile
 from pathlib import Path
 
-VERSION = "2.1.1"
+VERSION = "2.1.2"
 
 
 def require(entries: set[str], path: str, errors: list[str]) -> None:
@@ -74,7 +74,7 @@ def main() -> int:
         "reports": reports,
         "status": "PASS" if len(packages) == 20 and not collection_errors and all(report["status"] == "PASS" for report in reports) else "ERRORS_FOUND",
     }
-    output = root / "qa-lab" / "session-30min" / "v2.1.1-archive-verification.json"
+    output = root / "qa-lab" / "session-30min" / "v2.1.2-archive-verification.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({key: payload[key] for key in ("packages", "passed", "collection", "status")}, ensure_ascii=False))
