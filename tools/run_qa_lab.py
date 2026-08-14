@@ -181,6 +181,16 @@ def zip_checks(root: Path, mod: Path) -> list[dict]:
                 roots = {name.split("/")[0] for name in names if name and not name.startswith("__MACOSX")}
                 if len(roots) != 1:
                     issues.append(problem("ZIP_ROOT", "high", archive, f"Se esperó una raíz, hay {sorted(roots)}"))
+                forbidden = {"CREDITS.txt", "LICENSE.txt", "INSTALACION_MOVIL.txt", "audio-evidence.json", "sync-report.json", "visual-v2-integrity.json"}
+                for name in names:
+                    if name.endswith("/"):
+                        continue
+                    relative = name.split("/", 1)[1] if "/" in name else name
+                    basename = name.rsplit("/", 1)[-1]
+                    if basename in forbidden or any(token in name.split("/") for token in ("qa-lab", "artifacts", "previews", "reports", "logs")):
+                        issues.append(problem("ZIP_RUNTIME_AUXILIARY", "high", archive, f"Archivo auxiliar dentro del ZIP: {name}"))
+                    if "/" not in relative and basename != "_polymod_meta.json" and not basename.endswith(".hxc"):
+                        issues.append(problem("ZIP_ROOT_AUXILIARY", "high", archive, f"Archivo inesperado en raíz runtime: {name}"))
         except zipfile.BadZipFile as exc:
             issues.append(problem("ZIP_INVALID", "high", archive, str(exc)))
     return issues

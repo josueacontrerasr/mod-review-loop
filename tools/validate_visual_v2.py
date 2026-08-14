@@ -74,7 +74,10 @@ def mod_report(mod: Path) -> dict:
     for label in ("sick", "good", "bad", "shit", *[f"num{i}" for i in range(10)]):
         if not (mod / "images/ui" / style_id / f"{label}.png").is_file():
             errors.append(f"Asset HUD ausente: {label}.png")
-    integrity_path = mod / "visual-v2-integrity.json"
+    song_id = chart_paths[0].parent.name
+    integrity_path = ROOT / "qa-lab" / "rebuild-v220" / "evidence" / song_id / "visual-v2-integrity.json"
+    if not integrity_path.is_file():
+        integrity_path = mod / "visual-v2-integrity.json"
     integrity = load(integrity_path, errors) if integrity_path.is_file() else {}
     if integrity.get("status") != "PASS_NO_MUSICAL_DATA_CHANGED":
         errors.append("No existe evidencia de integridad visual-only")
@@ -84,7 +87,7 @@ def mod_report(mod: Path) -> dict:
     if protected.get("inst_sha256") != sha256(inst_paths[0]):
         errors.append("El instrumental cambió después de la integración visual")
     manifest_version = load(mod / "_polymod_meta.json", errors).get("mod_version")
-    if manifest_version not in {"1.1.0", "1.2.0"}:
+    if manifest_version not in {"1.1.0", "1.2.0", "2.2.0"}:
         errors.append("La versión del manifiesto no corresponde a una revisión visual V2")
     healthbar = integrity.get("healthbar_v2")
     if manifest_version == "1.2.0":
@@ -99,8 +102,7 @@ def mod_report(mod: Path) -> dict:
                 errors.append("Módulo HScript no declara createFilledBar")
             if not isinstance(preview, str) or not (mod / preview).is_file():
                 errors.append("Preview de barra de vida ausente")
-    if (mod / "sync-report.json").is_file():
-        warnings.append("Audio Sync Test y playtest móvil siguen pendientes; la actualización fue visual-only.")
+    warnings.append("Audio Sync Test y playtest móvil siguen pendientes; la actualización fue visual-only.")
     return {"mod": mod.name, "status": "PASS" if not errors else "ERROR", "errors": errors, "warnings": warnings}
 
 

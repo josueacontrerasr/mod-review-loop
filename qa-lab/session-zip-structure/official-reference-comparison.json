@@ -3,20 +3,20 @@
   "target": "FNF Mobile V-Slice 0.8.6",
   "references": [
     {
-      "file": "MoonLightMobile.zip",
-      "bytes": 12674189,
-      "sha256": "6a5c26b185f876603a9edd5fc25e158d84a7a3f5bcf80a6fda4d0a44c15e8ce8",
+      "file": "v-slice_yo_la_conoci_en_un_taxi.zip",
+      "bytes": 10901967,
+      "sha256": "a85b589fdc72139dd85d934de218d1a52747aa92a6f9cee3939ed6f3d30cfa88",
       "error": null,
-      "entries": 69,
+      "entries": 32,
       "roots": [
-        "MoonLight Mobile"
+        "[V-Slice] Yo la Conoci en un Taxi"
       ],
       "root_count": 1,
       "manifest_paths": [
-        "MoonLight Mobile/_polymod_meta.json"
+        "[V-Slice] Yo la Conoci en un Taxi/_polymod_meta.json"
       ],
       "direct_manifest_paths": [
-        "MoonLight Mobile/_polymod_meta.json"
+        "[V-Slice] Yo la Conoci en un Taxi/_polymod_meta.json"
       ],
       "top_level_files": [],
       "forbidden_work_files": [],
@@ -24,28 +24,28 @@
       "manifest_at_root": true,
       "structure_status": "PASS",
       "manifest": {
-        "path": "MoonLight Mobile/_polymod_meta.json",
+        "path": "[V-Slice] Yo la Conoci en un Taxi/_polymod_meta.json",
         "id": null,
-        "title": "fnf erect mashups week 1-7",
-        "api_version": "0.7.0",
+        "title": "En camino al club",
+        "api_version": "0.7.3",
         "mod_version": "1.0.0"
       }
     },
     {
-      "file": "fnf_el_chavo_del_8_v2__7638d.zip",
-      "bytes": 90586362,
-      "sha256": "4e2f3a546c1fb33e200a021de30e293cde2c5198201063e5153036fa547fd1ba",
+      "file": "tse_disable_shader_v25.zip",
+      "bytes": 31384,
+      "sha256": "f151a48a29c4f01bd2172e9853800da3a45671c3c3d8553282edcd1bfb96a91f",
       "error": null,
-      "entries": 264,
+      "entries": 28,
       "roots": [
-        "FNF El Chavo del 8 T2"
+        "Disable Shader V2.5"
       ],
       "root_count": 1,
       "manifest_paths": [
-        "FNF El Chavo del 8 T2/_polymod_meta.json"
+        "Disable Shader V2.5/_polymod_meta.json"
       ],
       "direct_manifest_paths": [
-        "FNF El Chavo del 8 T2/_polymod_meta.json"
+        "Disable Shader V2.5/_polymod_meta.json"
       ],
       "top_level_files": [],
       "forbidden_work_files": [],
@@ -53,52 +53,50 @@
       "manifest_at_root": true,
       "structure_status": "PASS",
       "manifest": {
-        "path": "FNF El Chavo del 8 T2/_polymod_meta.json",
+        "path": "Disable Shader V2.5/_polymod_meta.json",
         "id": null,
-        "title": "El Chavo del 8 FNF T2 Android",
-        "api_version": "0.6.4",
-        "mod_version": "1.3.0"
+        "title": "Disable Shader V2.5",
+        "api_version": "0.8.4",
+        "mod_version": "1.0.0"
       }
     },
     {
-      "file": "vs_huggy_wuggy_c6a32.zip",
-      "bytes": 16315607,
-      "sha256": "13452d3d934fc98f40c7ab98814db118450a5d1b9b23ccb9f7e8224c8ed64b35",
+      "file": "its-been-so-long.zip",
+      "bytes": 23573661,
+      "sha256": "aafb2d93ca4b9af6d8a5fe4df3990a546d2285d9d57c7d431d7a28af9ac0abd3",
       "error": null,
-      "entries": 41,
+      "entries": 53,
       "roots": [
-        "README.md",
-        "_polymod_icon.png",
-        "_polymod_meta.json",
-        "data",
-        "images",
-        "scripts",
-        "shared",
-        "songs"
+        "it's-been-so-long"
       ],
-      "root_count": 8,
+      "root_count": 1,
       "manifest_paths": [
-        "_polymod_meta.json"
+        "it's-been-so-long/_polymod_meta.json"
       ],
-      "direct_manifest_paths": [],
-      "top_level_files": [
-        "README.md",
-        "_polymod_icon.png",
-        "_polymod_meta.json"
+      "direct_manifest_paths": [
+        "it's-been-so-long/_polymod_meta.json"
       ],
+      "top_level_files": [],
       "forbidden_work_files": [],
-      "single_root": false,
-      "manifest_at_root": false,
-      "structure_status": "REVIEW_REQUIRED"
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "it's-been-so-long/_polymod_meta.json",
+        "id": null,
+        "title": "Its-been-so-long",
+        "api_version": "0.8.0",
+        "mod_version": "1.0.0"
+      }
     }
   ],
   "esperon_individual_zips": [
     {
-      "file": "Mod-Arcoloria-V2.1.3.zip",
-      "bytes": 3579740,
-      "sha256": "eadd24c840bd48647a10a5b18c3dba98e8222d33e4da1cfbb58011dd88876ce1",
+      "file": "Mod-Arcoloria-V2.2.0.zip",
+      "bytes": 3577313,
+      "sha256": "6acc19535a9406904b799fc9efc11876ca448a7240cb8ba82f308d8568e92e90",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-arcoloria"
       ],
@@ -119,15 +117,15 @@
         "id": null,
         "title": "Esperón — Arcoloria",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Cortamos-Y-Volvemos-V2.1.3.zip",
-      "bytes": 3257408,
-      "sha256": "306bc71a754bbdb208331402c87ed1b234634c561e4c9afcddcad9ad80b1b6ac",
+      "file": "Mod-Cortamos-Y-Volvemos-V2.2.0.zip",
+      "bytes": 3254811,
+      "sha256": "2b4f20d0452ea18e458b3c4c5d05bc0a90172fb73195c2a3f4829d22b5b6c5a7",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-cortamos-y-volvemos"
       ],
@@ -148,15 +146,15 @@
         "id": null,
         "title": "Esperón — Cortamos y Volvemos",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Dano-V2.1.3.zip",
-      "bytes": 3221231,
-      "sha256": "fd242ff2923d2757c8d5310345e579e22b1d6326124733e04c04321410985312",
+      "file": "Mod-Dano-V2.2.0.zip",
+      "bytes": 3218884,
+      "sha256": "d780cebda77fe26649d999d1f26bc12b38aba01df6243493bbaec92024eb6515",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-dano"
       ],
@@ -177,15 +175,15 @@
         "id": null,
         "title": "Esperón — Daño",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Dias-Magicos-V2.1.3.zip",
-      "bytes": 3802212,
-      "sha256": "d792b69adaa840125b169b68ea3b48a03253ec1b9ed09723414cb0f1459b0780",
+      "file": "Mod-Dias-Magicos-V2.2.0.zip",
+      "bytes": 3799713,
+      "sha256": "72fc530135454f0c4e58f7f0eaa6add1de3368cddff6f7e4338e2d38e2e86d73",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-dias-magicos"
       ],
@@ -206,15 +204,15 @@
         "id": null,
         "title": "Esperón — Días Mágicos",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Eclipsis-V2.1.3.zip",
-      "bytes": 4121162,
-      "sha256": "b71159572a37108462cea1a42ebfddfce2692563a63978558d4662ee454cceec",
+      "file": "Mod-Eclipsis-V2.2.0.zip",
+      "bytes": 4118745,
+      "sha256": "f442e17557ecfc7a3192f9d6c97cbb453e64d0bd276458af420bec4ea0cd2da5",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-eclipsis"
       ],
@@ -235,15 +233,15 @@
         "id": null,
         "title": "Esperón — Eclipsis",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Fango-V2.1.3.zip",
-      "bytes": 3605362,
-      "sha256": "9675e96d162db64a4e1ff7a513d983b5bd85dc6408792b265d61908a76bf9368",
+      "file": "Mod-Fango-V2.2.0.zip",
+      "bytes": 3603009,
+      "sha256": "2fe94db1c426c101a2b212539486f04a70548e3a7062b6b7ea4d9fdd6f52f811",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-fango"
       ],
@@ -264,15 +262,15 @@
         "id": null,
         "title": "Esperón — Fango",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Luma-V2.1.3.zip",
-      "bytes": 3793989,
-      "sha256": "1963091af717fa6f1d319b22120b22699d8eea741da60184bf85792b0af22113",
+      "file": "Mod-Luma-V2.2.0.zip",
+      "bytes": 3791637,
+      "sha256": "01a5ba0ab3fcd98d263f790fe61d29cb1bff4ca1752d47734c9f7ec1020375cf",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-luma"
       ],
@@ -293,15 +291,15 @@
         "id": null,
         "title": "Esperón — Luma",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Maraton-De-Peliculas-V2.1.3.zip",
-      "bytes": 3668497,
-      "sha256": "776004bf11272a9936291f48fd3cf692ba92ac8f88bab2ae9591ce732aef7a3a",
+      "file": "Mod-Maraton-De-Peliculas-V2.2.0.zip",
+      "bytes": 3665884,
+      "sha256": "1c26d7fe9b60e967028cdce2d658624ee58a5e9ca531dd945810dd1d5d348d72",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-maraton-de-peliculas"
       ],
@@ -322,15 +320,15 @@
         "id": null,
         "title": "Esperón — Maratón de Películas",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Me-Voy-A-Morir-Si-No-Me-Besas-Ahora-Mismo-V2.1.3.zip",
-      "bytes": 3240301,
-      "sha256": "ab9530b27540a86938a3cb9f0b533c22490aa73545d4e707c14c7679b6925241",
+      "file": "Mod-Me-Voy-A-Morir-Si-No-Me-Besas-Ahora-Mismo-V2.2.0.zip",
+      "bytes": 3237335,
+      "sha256": "67fd60bd6263bf39eb9715a85a8457777597efe19e0b57dec22c4902d7ec7f79",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo"
       ],
@@ -351,15 +349,15 @@
         "id": null,
         "title": "Esperón — Me Voy A Morir Si No Me Besas Ahora Mismo",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Meteora-V2.1.3.zip",
-      "bytes": 3076936,
-      "sha256": "3c8e86a4e530a6e3edaa0a87ac974a70bb3042a6ba0055fe945f71b85d971d75",
+      "file": "Mod-Meteora-V2.2.0.zip",
+      "bytes": 3074541,
+      "sha256": "9843f6aa6cdc6bc29ee689a24b523df4646edf8f42ab4c101d58016c4efdef70",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-meteora"
       ],
@@ -380,15 +378,15 @@
         "id": null,
         "title": "Esperón — Meteora",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Mi-Hogar-V2.1.3.zip",
-      "bytes": 2793239,
-      "sha256": "7fc44779b4c14649e5105200c5a3d9b529b9e3e061b9fb78a05c316f4e358785",
+      "file": "Mod-Mi-Hogar-V2.2.0.zip",
+      "bytes": 2790816,
+      "sha256": "cce78e67af5f224eca93d6fbb297604b7e8180083686205218dc58d92f81ca75",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-mi-hogar"
       ],
@@ -409,15 +407,15 @@
         "id": null,
         "title": "Esperón — Mi Hogar",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Nubia-V2.1.3.zip",
-      "bytes": 3744068,
-      "sha256": "46ba7de20009fb0d787c642d8ad76c445ba1968e5b00bdc31472070b20174dc3",
+      "file": "Mod-Nubia-V2.2.0.zip",
+      "bytes": 3741703,
+      "sha256": "979c6e26b0ffe1ae33d6e038a805a01c22ac19c8929cfc08dc2ac00e8a05096c",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-nubia"
       ],
@@ -438,15 +436,15 @@
         "id": null,
         "title": "Esperón — Nubia",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Nuestro-Amor-No-Es-Normal-V2.1.3.zip",
-      "bytes": 2776089,
-      "sha256": "ea55452b5e8691897a9268fbf6adda7a098eb3c5c1a180e574d6020fbeda3de0",
+      "file": "Mod-Nuestro-Amor-No-Es-Normal-V2.2.0.zip",
+      "bytes": 2773388,
+      "sha256": "d7b812676ab51278d307959bae18832b13d71b87869fac17fb8a5304de48fc25",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-nuestro-amor-no-es-normal"
       ],
@@ -467,15 +465,15 @@
         "id": null,
         "title": "Esperón — Nuestro Amor No es Normal",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Peligrosa-V2.1.3.zip",
-      "bytes": 4075434,
-      "sha256": "889b4c77a7a36aaf18470b87fbc9e0b6415daccc3d2417ae112482e71b323298",
+      "file": "Mod-Peligrosa-V2.2.0.zip",
+      "bytes": 4073012,
+      "sha256": "d5921f61b0705b7e7c2abe603f17a392970b883bc17796d9d8cefd8977b132d7",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-peligrosa"
       ],
@@ -496,15 +494,15 @@
         "id": null,
         "title": "Esperón — Peligrosa",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Rompecabezas-V2.1.3.zip",
-      "bytes": 3491959,
-      "sha256": "65715511d3eb9cda8b7b63a5ad6c3912ea99a1fe272959743e5116089fc34c96",
+      "file": "Mod-Rompecabezas-V2.2.0.zip",
+      "bytes": 3489479,
+      "sha256": "31c0da108a75bacef6604b65de0728381e406f074561478b4ad457e6fb6a851c",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-rompecabezas"
       ],
@@ -525,15 +523,15 @@
         "id": null,
         "title": "Esperón — Rompecabezas",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Solare-V2.1.3.zip",
-      "bytes": 3644683,
-      "sha256": "725b5a90ea93949eec57cf955f57847f1b865c961d2cdf60330d5e26a6a044b3",
+      "file": "Mod-Solare-V2.2.0.zip",
+      "bytes": 3642305,
+      "sha256": "42c48ad82d4e947ef95da3f677101e3b0c8ef1be44fc2f7610ac78a95f820350",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-solare"
       ],
@@ -554,15 +552,15 @@
         "id": null,
         "title": "Esperón — Solare",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Tristella-V2.1.3.zip",
-      "bytes": 3706980,
-      "sha256": "7791b97b52f467bf161d911653452e206cdaf66927fac2e448b0421520197d2d",
+      "file": "Mod-Tristella-V2.2.0.zip",
+      "bytes": 3704551,
+      "sha256": "03b12c6d8b027cc9b0fe93761e3864e71acc85135491d713c3401461af712944",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-tristella"
       ],
@@ -583,15 +581,15 @@
         "id": null,
         "title": "Esperón — Tristella",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Tu-Dealer-De-Nostalgia-V2.1.3.zip",
-      "bytes": 3215076,
-      "sha256": "7a12c6d9a11e01eb06b728d3379cd3278295716526cb7fdee73b66ba6e20a5c0",
+      "file": "Mod-Tu-Dealer-De-Nostalgia-V2.2.0.zip",
+      "bytes": 3212432,
+      "sha256": "00e68eb214ddd5280e67b50ab3e8fd63debcb6e0237c6905f0ea07dac3cc002b",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-tu-dealer-de-nostalgia"
       ],
@@ -612,15 +610,15 @@
         "id": null,
         "title": "Esperón — Tu Dealer de Nostalgia",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Un-Poco-Bien-Un-Poco-Mal-V2.1.3.zip",
-      "bytes": 3465862,
-      "sha256": "ccb755138767163493a95df34088c15841d9e29b684e360ca8d644bdbf282569",
+      "file": "Mod-Un-Poco-Bien-Un-Poco-Mal-V2.2.0.zip",
+      "bytes": 3463194,
+      "sha256": "4ed0502d7abaa4c55cb0d66683c7723ce2c0361dd7ad5820173a55c3d72c4898",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-un-poco-bien-un-poco-mal"
       ],
@@ -641,15 +639,15 @@
         "id": null,
         "title": "Esperón — Un Poco Bien un Poco Mal",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     },
     {
-      "file": "Mod-Volver-A-Vernos-V2.1.3.zip",
-      "bytes": 3035342,
-      "sha256": "9397cb13c0108bd046b8a2ef432bcd5feb03897439deb38bb583ea16bca21397",
+      "file": "Mod-Volver-A-Vernos-V2.2.0.zip",
+      "bytes": 3032814,
+      "sha256": "a64a81714e88ce6cc8d6ad3f4d74b2c3177600b002082c8f8ae450fbd7eeb3ef",
       "error": null,
-      "entries": 76,
+      "entries": 70,
       "roots": [
         "esperon-dano-volver-a-vernos"
       ],
@@ -670,19 +668,19 @@
         "id": null,
         "title": "Esperón — Volver a Vernos",
         "api_version": "0.8.6",
-        "mod_version": "2.1.3"
+        "mod_version": "2.2.0"
       }
     }
   ],
   "esperon_collection_zips": [
     {
-      "file": "Mod-Esperon-Coleccion-V2.1.3.zip",
-      "bytes": 69108393,
-      "sha256": "1c1d9ab14931104709991a4aad1f6554b5b41f5193a00a3a997c439399f44d9b",
+      "file": "Mod-Esperon-Coleccion-V2.2.0.zip",
+      "bytes": 69069933,
+      "sha256": "69ff3377065d9d01314e710bee3bbffb156128999bb15d8bee3927dbf8ad60bf",
       "error": null,
       "entries": 22,
       "roots": [
-        "Mod-Esperon-Coleccion-V2.1.3"
+        "Mod-Esperon-Coleccion-V2.2.0"
       ],
       "root_count": 1,
       "manifest_paths": [],

@@ -10,7 +10,7 @@ from zipfile import ZipFile
 ROOT = Path('/home/ubuntu/mod-review-loop-production')
 SOURCE_ROOT = ROOT / 'mods'
 DELIVERY = ROOT / 'Mods .zip terminados'
-VERSION = '2.1.3'
+VERSION = '2.2.0'
 
 
 def read_json_source(path: Path):
@@ -186,11 +186,11 @@ def main() -> int:
         'zip_passed': sum(item['status'] == 'PASS' for item in zip_reports),
         'source_errors': sum(item['status'] == 'ERROR' for item in source_reports),
         'zip_errors': sum(item['status'] == 'ERROR' for item in zip_reports),
-        'root_cause_confirmed': 'Missing data/levels/*.json prevents FreeplayState from enumerating these songs.',
+        'root_cause_confirmed': 'V2.2.0 includes visible data/levels/*.json links and playData.album for Freeplay/Story Mode discovery.',
         'status': 'PASS' if len(source_reports) == 20 and len(zip_reports) == 20 and all(item['status'] == 'PASS' for item in reports) else 'DISCOVERY_ERRORS_FOUND',
         'reports': reports,
     }
-    output = ROOT / 'qa-lab/wide-research-v212/discovery-visibility-audit.json'
+    output = ROOT / 'qa-lab/rebuild-v220/discovery-visibility-audit.json'
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({key: payload[key] for key in ('status', 'source_count', 'zip_count', 'source_passed', 'zip_passed', 'source_errors', 'zip_errors')}, ensure_ascii=False))
     return 0 if payload['status'] == 'PASS' else 1

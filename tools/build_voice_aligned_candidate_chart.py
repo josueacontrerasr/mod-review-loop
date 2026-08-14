@@ -145,10 +145,12 @@ def main() -> int:
     args.output_dir.mkdir(parents=True, exist_ok=True)
     write_json(args.output_dir / f"{song_id}-anchors-candidates.json", {"anchors": anchors})
     write_json(args.output_dir / f"{song_id}-alignment-evidence.json", evidence)
-    write_json(mod / "sync-report.json", {
+    evidence_dir = ROOT / "qa-lab" / "rebuild-v220" / "evidence" / song_id
+    evidence_dir.mkdir(parents=True, exist_ok=True)
+    write_json(evidence_dir / "sync-report.json", {
         "scope": "AUTO_VOCAL_ONSET_CANDIDATE_CHART",
         "status": "REQUIRES_HUMAN_REVIEW",
-        "evidence": str((args.output_dir / f"{song_id}-alignment-evidence.json").relative_to(mod.parent.parent) if args.output_dir.is_relative_to(mod.parent.parent) else args.output_dir / f"{song_id}-alignment-evidence.json"),
+        "evidence": str((args.output_dir / f"{song_id}-alignment-evidence.json").relative_to(ROOT) if args.output_dir.is_relative_to(ROOT) else args.output_dir / f"{song_id}-alignment-evidence.json"),
         "limitations": evidence["limitations"]
     })
     print(json.dumps({"song": song_id, "onsets": len(times), "bpm": round(bpm, 3), "mode": evidence["analysis_mode"]}, ensure_ascii=False))

@@ -113,7 +113,10 @@ def apply(mod: Path) -> Path:
     manifest["mod_version"] = VERSION
     manifest["description"] = f"Mod V-Slice candidato para {title}; HUD, note style y flechas geométricas V2. Requiere Audio Sync Test y playtest móvil."
     write_json(manifest_path, manifest)
-    integrity_path = mod / "visual-v2-integrity.json"
+    song_id = chart_path.parent.name
+    integrity_path = ROOT / "qa-lab" / "rebuild-v220" / "evidence" / song_id / "visual-v2-integrity.json"
+    if not integrity_path.is_file():
+        integrity_path = mod / "visual-v2-integrity.json"
     integrity = read_json(integrity_path)
     after = {"chart_sha256": sha256(chart_path), "inst_sha256": sha256(inst_path)}
     if before != after:

@@ -306,8 +306,9 @@ def apply_to_mod(mod: Path) -> Path:
     manifest["mod_version"] = QUALITY_VERSION
     manifest["description"] = f"Mod V-Slice candidato para {title}; Visual V2 con note style y HUD temático. Requiere Audio Sync Test y playtest móvil."
     write_json(manifest_path, manifest)
-    update_text(mod / "CREDITS.txt", "VISUAL_V2:", f"VISUAL_V2: note style, receptores, juicios y combo geométricos originales para {title}.")
-    update_text(mod / "INSTALACION_MOVIL.txt", "VISUAL_V2:", f"VISUAL_V2: el mod usa el note style {style_id}; comprobar su carga antes del playtest móvil.")
+    docs_dir = ROOT / "docs" / "mod-documentation-v220" / slug
+    docs_dir.mkdir(parents=True, exist_ok=True)
+    (docs_dir / "visual-v2-notes.txt").write_text(f"VISUAL_V2: note style, receptores, juicios y combo geométricos originales para {title}.\nVISUAL_V2: comprobar carga y playtest móvil para {style_id}.\n", encoding="utf-8")
 
     brief["visual_system_v2"]["status"] = "INTEGRATED_PENDING_MOBILE_PLAYTEST"
     brief["visual_system_v2"]["note_style"]["files"] = [
@@ -323,7 +324,7 @@ def apply_to_mod(mod: Path) -> Path:
     protected_after = {"chart_sha256": sha256(chart_paths[0]), "inst_sha256": sha256(next((mod / "songs").rglob("Inst.ogg")))}
     if protected_before != protected_after:
         raise RuntimeError(f"Integridad musical violada en {mod.name}")
-    write_json(mod / "visual-v2-integrity.json", {"scope": "VISUAL_ONLY", "protected_before": protected_before, "protected_after": protected_after, "status": "PASS_NO_MUSICAL_DATA_CHANGED"})
+    write_json(ROOT / "qa-lab" / "visual-evidence-v2" / slug / "visual-v2-integrity.json", {"scope": "VISUAL_ONLY", "protected_before": protected_before, "protected_after": protected_after, "status": "PASS_NO_MUSICAL_DATA_CHANGED"})
 
     archive = ROOT / "dist" / f"{mod.name}-v{QUALITY_VERSION}.zip"
     archive.parent.mkdir(parents=True, exist_ok=True)

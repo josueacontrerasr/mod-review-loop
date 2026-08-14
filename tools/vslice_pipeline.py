@@ -253,7 +253,7 @@ def build_mod(audio: Path, output_root: Path) -> Path:
         raise RuntimeError(f"No se pudo convertir {audio.name}: {converted.stderr}")
     final_duration = probe_duration(inst)
 
-    write_json(mod / "_polymod_meta.json", {"title": f"Esperón — {title}", "description": f"Mod V-Slice candidato para {title}; requiere Audio Sync Test y playtest móvil.", "contributors": [{"name": "Manus AI", "role": "Producción técnica y assets geométricos"}], "api_version": API_VERSION, "mod_version": "1.0.0", "license": "Custom — see LICENSE.txt"})
+    write_json(mod / "_polymod_meta.json", {"title": f"Esperón — {title}", "description": f"Mod V-Slice candidato para {title}; requiere Audio Sync Test y playtest móvil.", "contributors": [{"name": "Manus AI", "role": "Producción técnica y assets geométricos"}], "api_version": API_VERSION, "mod_version": "1.0.0", "license": "Custom — documentación externa en docs/mod-documentation/<song-id>/"})
     metadata = {"version": METADATA_VERSION, "songName": title, "artist": "Esperón", "charter": "Manus AI — chart de referencia", "offsets": {}, "playData": {"difficulties": ["easy", "normal", "hard"], "characters": {"player": player_id, "opponent": rival_id, "playerVocals": [], "opponentVocals": []}, "stage": stage_id, "noteStyle": "funkin", "ratings": {"easy": 0, "normal": 1, "hard": 2}}, "timeChanges": [{"t": 0, "b": 0, "bpm": bpm, "bt": [4, 4, 4, 4]}], "generatedBy": "Friday Night Funkin' - 0.8.6"}
     write_json(mod / "data/songs" / song_slug / f"{song_slug}-metadata.json", metadata)
     write_json(mod / "data/songs" / song_slug / f"{song_slug}-chart.json", build_chart(final_duration * 1000, bpm))
@@ -275,11 +275,14 @@ def build_mod(audio: Path, output_root: Path) -> Path:
     brief = {"song": title, "song_slug": song_slug, "theme": theme, "palette": {"primary": "#%02X%02X%02X" % primary, "secondary": "#%02X%02X%02X" % secondary, "dark": "#%02X%02X%02X" % dark}, "characters": {"player": player_id, "rival": rival_id, "style": "Formas geométricas originales: cabeza circular, torso rectangular y extremidades triangulares."}, "stage": {"id": stage_id, "style": "Fondo degradado y estructuras geométricas estáticas, sin shaders ni partículas."}, "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"}
     write_json(ROOT / "visual-briefs" / f"{song_slug}.json", brief)
     evidence = {"source": str(audio.relative_to(ROOT)), "source_sha256": sha256(audio), "instrumental": str(inst.relative_to(mod)), "instrumental_sha256": sha256(inst), "source_duration_seconds": duration, "instrumental_duration_seconds": final_duration, "bpm_candidate": bpm, "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"}
-    write_json(mod / "audio-evidence.json", evidence)
-    write_json(mod / "sync-report.json", {"scope": "STATIC_GRID_COHERENCE_ONLY", "review_basis": "AUTO_GENERATED_REFERENCE_CHART", "status": "REQUIRES_MANUAL_REVIEW", "limitations": ["El BPM y las notas son candidatos automatizados.", "Audio Sync Test y playtest móvil son obligatorios antes de declarar sincronización."]})
-    (mod / "CREDITS.txt").write_text(f"MOD: Esperón — {title}\nVERSION: 1.0.0\nASSETS: personajes y escenario geométricos originales generados para {title}.\nAUDIO: archivo fuente del repositorio; confirmar derechos antes de distribución pública.\n", encoding="utf-8")
-    (mod / "LICENSE.txt").write_text("Los assets geométricos y scripts de este mod pueden reutilizarse con atribución a Manus AI. El audio permanece sujeto a los derechos de sus titulares; no redistribuir sin autorización.\n", encoding="utf-8")
-    (mod / "INSTALACION_MOVIL.txt").write_text(f"Extraer la carpeta {mod_id} directamente en la carpeta mods de FNF Mobile V-Slice. Antes de jugar, abrir {title} en Chart Editor y ejecutar Audio Sync Test.\n", encoding="utf-8")
+    evidence_root = ROOT / "qa-lab" / "pipeline-evidence" / song_slug
+    write_json(evidence_root / "audio-evidence.json", evidence)
+    write_json(evidence_root / "sync-report.json", {"scope": "STATIC_GRID_COHERENCE_ONLY", "review_basis": "AUTO_GENERATED_REFERENCE_CHART", "status": "REQUIRES_MANUAL_REVIEW", "limitations": ["El BPM y las notas son candidatos automatizados.", "Audio Sync Test y playtest móvil son obligatorios antes de declarar sincronización."]})
+    docs_root = ROOT / "docs" / "mod-documentation" / song_slug
+    docs_root.mkdir(parents=True, exist_ok=True)
+    (docs_root / "CREDITS.txt").write_text(f"MOD: Esperón — {title}\nVERSION: 1.0.0\nASSETS: personajes y escenario geométricos originales generados para {title}.\nAUDIO: archivo fuente del repositorio; confirmar derechos antes de distribución pública.\n", encoding="utf-8")
+    (docs_root / "LICENSE.txt").write_text("Los assets geométricos y scripts de este mod pueden reutilizarse con atribución a Manus AI. El audio permanece sujeto a los derechos de sus titulares; no redistribuir sin autorización.\n", encoding="utf-8")
+    (docs_root / "INSTALACION_MOVIL.txt").write_text(f"Extraer la carpeta {mod_id} directamente en la carpeta mods de FNF Mobile V-Slice. Antes de jugar, abrir {title} en Chart Editor y ejecutar Audio Sync Test.\n", encoding="utf-8")
     return mod
 
 
@@ -359,12 +362,8 @@ def validate_mod(mod: Path) -> dict[str, Any]:
                 errors.append(f"Atlas inválido: {xml_path.relative_to(mod)}")
         except Exception as exc:
             errors.append(f"XML inválido: {xml_path.relative_to(mod)} ({exc})")
-    for required in ("CREDITS.txt", "LICENSE.txt", "INSTALACION_MOVIL.txt", "audio-evidence.json", "sync-report.json"):
-        if not (mod / required).is_file():
-            errors.append(f"Documento requerido ausente: {required}")
-    sync = read_json(mod / "sync-report.json")
-    if sync and sync.get("status") != "PASS":
-        warnings.append("REQUIERE_VALIDACION_MANUAL: Audio Sync Test y playtest móvil pendientes")
+    # La documentación y evidencia viven fuera del árbol runtime; el motor no las necesita para cargar el mod.
+    warnings.append("REQUIERE_VALIDACION_MANUAL: Audio Sync Test y playtest móvil pendientes")
     return {"mod": mod.name, "status": "PASS" if not errors else "ERROR_ESTRUCTURAL", "errors": errors, "warnings": warnings}
 
 

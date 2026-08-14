@@ -1,0 +1,50 @@
+{
+  "audit": "CROSS_VALIDATION_VSLICE_086",
+  "parallel": true,
+  "status": "PASS",
+  "results": [
+    {
+      "name": "official_reference_comparison",
+      "command": [
+        "python3",
+        "tools/audit_zip_structure.py",
+        ".",
+        "--reference",
+        "/home/ubuntu/upload/v-slice_yo_la_conoci_en_un_taxi.zip",
+        "--reference",
+        "/home/ubuntu/upload/tse_disable_shader_v25.zip",
+        "--reference",
+        "/home/ubuntu/upload/its-been-so-long.zip",
+        "--delivery-dir",
+        "Mods .zip terminados"
+      ],
+      "returncode": 0,
+      "stdout": "{\"references\": 3, \"individual_zips\": 20, \"collection_zips\": 1, \"status\": \"PASS\"}\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "name": "sync_ui_static",
+      "command": [
+        "python3",
+        "tools/validate_sync_ui_v2.py",
+        "."
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"mods\": 20, \"passed\": 20, \"warnings\": 19}\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "name": "zip_install_layout",
+      "command": [
+        "python3",
+        "tools/validate_zip_install_layout.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"packages\": 20, \"passed\": 20, \"collection\": \"Mod-Esperon-Coleccion-V2.2.0.zip\", \"status\": \"PASS\"}\n",
+      "stderr": "",
+      "status": "PASS"
+    }
+  ]
+}

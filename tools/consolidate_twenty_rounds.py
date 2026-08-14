@@ -19,7 +19,12 @@ def main() -> int:
         for report in current["reports"]:
             fingerprints[report["mod"]].add(report["fingerprint_sha256"])
     for mod in sorted((root / "mods").glob("esperon-dano-*")):
-        sync = json.loads((mod / "sync-report.json").read_text(encoding="utf-8"))
+        song_dirs = sorted((mod / "data" / "songs").glob("*"))
+        song = song_dirs[0].name if len(song_dirs) == 1 else mod.name.removeprefix("esperon-dano-")
+        evidence_path = root / "qa-lab" / "rebuild-v220" / "evidence" / song / "sync-report.json"
+        if not evidence_path.is_file():
+            evidence_path = root / "qa-lab" / "pipeline-evidence" / song / "sync-report.json"
+        sync = json.loads(evidence_path.read_text(encoding="utf-8")) if evidence_path.is_file() else {"status": "EVIDENCE_MISSING"}
         sync_statuses[mod.name] = str(sync.get("status"))
     unstable = sorted(name for name, values in fingerprints.items() if len(values) != 1)
     errors = sum(current["errors"] for current in rounds)

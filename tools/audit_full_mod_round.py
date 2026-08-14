@@ -108,14 +108,17 @@ def audit_mod(root: Path, mod: Path) -> dict[str, Any]:
                 previous = float(note["t"])
                 if "l" in note and (not isinstance(note["l"], (int, float)) or note["l"] <= 0):
                     errors.append(f"{difficulty}[{index}]: hold inválido")
-    sync = mod / "sync-report.json"
+    evidence_song = next(iter((mod / "data" / "songs").glob("*"))).name
+    sync = root / "qa-lab" / "rebuild-v220" / "evidence" / evidence_song / "sync-report.json"
+    if not sync.is_file():
+        sync = mod / "sync-report.json"
     if sync.is_file():
         status = json.loads(sync.read_text(encoding="utf-8")).get("status")
         if status != "PASS":
             warnings.append(f"sync-report={status}; requiere Audio Sync Test/playtest si no existe evidencia manual")
-    zip_path = root / "dist" / f"{mod.name}-v2.0.0.zip"
+    zip_path = root / "Mods .zip terminados" / f"Mod-{mod.name.removeprefix('esperon-dano-').title().replace('-', '-')}-V2.2.0.zip"
     if not zip_path.is_file():
-        errors.append("ZIP v2.0.0 ausente")
+        errors.append("ZIP V2.2.0 ausente")
     else:
         try:
             with zipfile.ZipFile(zip_path) as archive:

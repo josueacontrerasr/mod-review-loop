@@ -54,12 +54,7 @@ def repair_non_musical(mod: Path) -> list[str]:
         return changes
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     title = str(manifest.get("title", mod.name))
-    for filename in ("CREDITS.txt", "LICENSE.txt", "INSTALACION_MOVIL.txt"):
-        target = mod / filename
-        if not target.is_file():
-            target.write_text(safe_text(title, filename), encoding="utf-8")
-            changes.append(f"Se repuso {filename}")
-    required = {"description": f"Mod V-Slice de {title}; requiere Audio Sync Test y playtest móvil.", "license": "Custom — see LICENSE.txt", "contributors": [{"name": "Manus AI", "role": "Automatización técnica"}]}
+    required = {"description": f"Mod V-Slice de {title} con árbol runtime limpio; requiere Audio Sync Test y playtest móvil.", "license": "Custom — documentación externa en docs/mod-documentation-v220/", "contributors": [{"name": "Manus AI", "role": "Automatización técnica"}]}
     changed_manifest = False
     for key, value in required.items():
         if not manifest.get(key):

@@ -50,7 +50,7 @@ def inspect_zip(path: Path, collection: bool = False) -> tuple[bool, str]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("root", nargs="?", default=".")
-    parser.add_argument("--latest-version", default="2.1.3")
+    parser.add_argument("--latest-version", default="2.2.0")
     parser.add_argument("--include-collection", action="store_true")
     args = parser.parse_args()
     root = Path(args.root).resolve()

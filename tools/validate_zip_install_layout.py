@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Valida la estructura real de instalación de los ZIP v2.1.3."""
+"""Valida la estructura real de instalación de los ZIP v2.2.0 con política de runtime limpio."""
 from __future__ import annotations
 
 import json
 import zipfile
 from pathlib import Path
 
-VERSION = "2.1.3"
+VERSION = "2.2.0"
 
 
 def require(names: set[str], path: str, errors: list[str]) -> None:
@@ -49,9 +49,19 @@ def validate_package(path: Path) -> dict:
             errors.append(f"raíz inesperada={root}")
         prefix = root + "/"
         require(names, prefix + "_polymod_meta.json", errors)
-        require(names, prefix + "CREDITS.txt", errors)
-        require(names, prefix + "LICENSE.txt", errors)
-        require(names, prefix + "INSTALACION_MOVIL.txt", errors)
+        allowed_root_files = {"_polymod_meta.json"}
+        for info in archive.infolist():
+            raw_name = info.filename.rstrip("/")
+            if not raw_name.startswith(prefix):
+                continue
+            relative = raw_name[len(prefix):]
+            if "/" not in relative and not info.is_dir() and relative not in allowed_root_files:
+                errors.append(f"archivo auxiliar en raíz del mod: {relative}")
+        forbidden_aux = {"CREDITS.txt", "LICENSE.txt", "INSTALACION_MOVIL.txt", "audio-evidence.json", "sync-report.json", "visual-v2-integrity.json"}
+        for name in names:
+            basename = name.rsplit("/", 1)[-1]
+            if basename in forbidden_aux or any(token in name.split("/") for token in ("qa-lab", "artifacts", "previews", "reports")):
+                errors.append(f"archivo auxiliar presente: {name}")
         song = root.removeprefix("esperon-dano-")
         song_prefix = prefix + f"data/songs/{song}/"
         require(names, song_prefix + f"{song}-metadata.json", errors)
@@ -132,7 +142,7 @@ def main() -> int:
             for package in packages:
                 require(names, f"{collection_root}/mods/{package.name}", collection_errors)
     payload = {"scope": "VSLICE_086_INSTALL_LAYOUT", "version": VERSION, "packages": len(packages), "passed": sum(item["status"] == "PASS" for item in reports), "collection": collection.name, "collection_errors": collection_errors, "reports": reports, "status": "PASS" if len(packages) == 20 and not collection_errors and all(item["status"] == "PASS" for item in reports) else "ERRORS_FOUND"}
-    output = root / "qa-lab" / "session-zip-structure" / "v2.1.3-install-layout.json"
+    output = root / "qa-lab" / "rebuild-v220" / "v2.2.0-install-layout.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({key: payload[key] for key in ("packages", "passed", "collection", "status")}, ensure_ascii=False))
