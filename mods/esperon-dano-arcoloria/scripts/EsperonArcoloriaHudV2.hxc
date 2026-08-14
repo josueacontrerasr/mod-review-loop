@@ -5,6 +5,8 @@ import funkin.play.PlayState;
  * Solo recoloriza la barra de vida al inicio del conteo.
  * No modifica audio, BPM, offsets, chart, notas ni eventos musicales.
  */
+import funkin.modding.module.Module;
+
 class EsperonArcoloriaHudV2 extends Module
 {
   function new()

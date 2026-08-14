@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "tu-dealer-de-nostalgia",
+  "mod": "esperon-dano-tu-dealer-de-nostalgia",
+  "audio_duration_ms": 201224.127,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "8ca83da059fc3ad315fd2c48de5e2b0ff990ba77da35a093622f9d0d76270840",
+  "difficulties": {
+    "easy": {
+      "production_notes": 59,
+      "valid_notes": 59,
+      "candidate_vocal_notes": 241,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 174.15,
+      "within_75ms_of_candidate_percent": 23.729
+    },
+    "normal": {
+      "production_notes": 118,
+      "valid_notes": 118,
+      "candidate_vocal_notes": 362,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 162.54,
+      "within_75ms_of_candidate_percent": 30.508
+    },
+    "hard": {
+      "production_notes": 118,
+      "valid_notes": 118,
+      "candidate_vocal_notes": 482,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 98.685,
+      "within_75ms_of_candidate_percent": 42.373
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

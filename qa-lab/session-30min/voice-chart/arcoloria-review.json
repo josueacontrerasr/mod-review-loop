@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "arcoloria",
+  "mod": "esperon-dano-arcoloria",
+  "audio_duration_ms": 212834.104,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "e515649058cde69a5edffd90d68eb39dd28ce51692a50f5fc7afbdba8a445e62",
+  "difficulties": {
+    "easy": {
+      "production_notes": 77,
+      "valid_notes": 77,
+      "candidate_vocal_notes": 197,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 197.369,
+      "within_75ms_of_candidate_percent": 27.273
+    },
+    "normal": {
+      "production_notes": 154,
+      "valid_notes": 154,
+      "candidate_vocal_notes": 296,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 162.54,
+      "within_75ms_of_candidate_percent": 35.065
+    },
+    "hard": {
+      "production_notes": 154,
+      "valid_notes": 154,
+      "candidate_vocal_notes": 394,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 104.49,
+      "within_75ms_of_candidate_percent": 47.403
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

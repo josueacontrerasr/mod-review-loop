@@ -7,7 +7,12 @@ import shutil
 import sys
 from pathlib import Path
 
-VERSION = "2.1.0"
+VERSION = "2.1.1"
+
+
+def delivery_name(song: str) -> str:
+    display = "-".join(part[:1].upper() + part[1:] for part in song.split("-") if part)
+    return f"Mod-{display}-V{VERSION}.zip"
 
 
 def write_json(path: Path, data: object) -> None:
@@ -58,7 +63,7 @@ def main() -> int:
         write_json(brief_path, brief)
         delivery = root / "Mods .zip terminados"
         delivery.mkdir(parents=True, exist_ok=True)
-        destination = delivery / f"{mod.name}-v{VERSION}.zip"
+        destination = delivery / delivery_name(song)
         if destination.exists():
             destination.unlink()
         shutil.make_archive(str(destination.with_suffix("")), "zip", root_dir=mod.parent, base_dir=mod.name)

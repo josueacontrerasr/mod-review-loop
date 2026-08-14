@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "cortamos-y-volvemos",
+  "mod": "esperon-dano-cortamos-y-volvemos",
+  "audio_duration_ms": 207818.594,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "19b132be8c442bffd49eaab2a4667fa0abe044ec49bd01293de179087f23d17a",
+  "difficulties": {
+    "easy": {
+      "production_notes": 85,
+      "valid_notes": 85,
+      "candidate_vocal_notes": 289,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 162.54,
+      "within_75ms_of_candidate_percent": 34.118
+    },
+    "normal": {
+      "production_notes": 170,
+      "valid_notes": 170,
+      "candidate_vocal_notes": 434,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 92.88,
+      "within_75ms_of_candidate_percent": 40.588
+    },
+    "hard": {
+      "production_notes": 170,
+      "valid_notes": 170,
+      "candidate_vocal_notes": 578,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 69.66,
+      "within_75ms_of_candidate_percent": 50.588
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

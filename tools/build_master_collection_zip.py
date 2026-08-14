@@ -8,7 +8,7 @@ import sys
 import zipfile
 from pathlib import Path
 
-VERSION = "2.1.0"
+VERSION = "2.1.1"
 COLLECTION = f"Mod-Esperon-Coleccion-V{VERSION}"
 
 
@@ -23,7 +23,7 @@ def sha256(path: Path) -> str:
 def main() -> int:
     root = Path(sys.argv[1] if len(sys.argv) > 1 else ".").resolve()
     delivery = root / "Mods .zip terminados"
-    zips = sorted(path for path in delivery.glob("Mod-*-V2.1.0.zip") if path.name != f"{COLLECTION}.zip")
+    zips = sorted(path for path in delivery.glob(f"Mod-*-V{VERSION}.zip") if path.name != f"{COLLECTION}.zip")
     if len(zips) != 20:
         raise SystemExit(f"Se esperaban 20 ZIP individuales v{VERSION}; se encontraron {len(zips)}.")
     audit_path = root / "reports" / "consolidado_20_rondas.json"
@@ -41,7 +41,7 @@ def main() -> int:
             "synchronization_conclusion": audit.get("synchronization_conclusion", "REQUIRES_HUMAN_REVIEW")
         }
     }
-    readme = """# Colección Esperón — Mods FNF Mobile V-Slice v2.1.0
+    readme = """# Colección Esperón — Mods FNF Mobile V-Slice v2.1.1
 
 Este archivo contiene los 20 ZIPs individuales instalables. Extrae **solo un ZIP individual** directamente en la carpeta `mods/` de FNF Mobile V-Slice 0.8.6, o extrae todos si deseas instalar la colección completa.
 

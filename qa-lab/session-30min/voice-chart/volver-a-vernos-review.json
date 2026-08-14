@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "volver-a-vernos",
+  "mod": "esperon-dano-volver-a-vernos",
+  "audio_duration_ms": 186734.875,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "27fd06913d57d3cb400f1df9b8797ae4c3e50dcdb926c0fdd1db0cd7aa8ee4a8",
+  "difficulties": {
+    "easy": {
+      "production_notes": 78,
+      "valid_notes": 78,
+      "candidate_vocal_notes": 202,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 307.664,
+      "within_75ms_of_candidate_percent": 14.103
+    },
+    "normal": {
+      "production_notes": 155,
+      "valid_notes": 155,
+      "candidate_vocal_notes": 303,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 255.419,
+      "within_75ms_of_candidate_percent": 20.0
+    },
+    "hard": {
+      "production_notes": 155,
+      "valid_notes": 155,
+      "candidate_vocal_notes": 403,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 197.37,
+      "within_75ms_of_candidate_percent": 24.516
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

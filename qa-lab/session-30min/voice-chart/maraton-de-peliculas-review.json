@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "maraton-de-peliculas",
+  "mod": "esperon-dano-maraton-de-peliculas",
+  "audio_duration_ms": 231270.748,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "d31acf66c1e577a86e284c3ab55cfbea2ccb8c77ee49bd35ac08a0ae1927bf26",
+  "difficulties": {
+    "easy": {
+      "production_notes": 116,
+      "valid_notes": 116,
+      "candidate_vocal_notes": 288,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 203.174,
+      "within_75ms_of_candidate_percent": 23.276
+    },
+    "normal": {
+      "production_notes": 231,
+      "valid_notes": 231,
+      "candidate_vocal_notes": 432,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 58.05,
+      "within_75ms_of_candidate_percent": 53.68
+    },
+    "hard": {
+      "production_notes": 231,
+      "valid_notes": 231,
+      "candidate_vocal_notes": 575,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 11.61,
+      "within_75ms_of_candidate_percent": 68.831
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

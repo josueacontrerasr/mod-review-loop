@@ -1,0 +1,474 @@
+{
+  "scope": "HScript_ZIP_INVENTORY",
+  "version": "2.1.1",
+  "delivery_folder": "Mods .zip terminados",
+  "packages": 20,
+  "hscript_files": 20,
+  "module_superclass_files": 20,
+  "entries": [
+    {
+      "package": "Mod-Arcoloria-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-arcoloria/scripts/EsperonArcoloriaHudV2.hxc",
+          "sha256": "f46feb8f12f2b87663822fe3c36dd25e005cf12815e4b846df5fb986ff827433",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonArcoloriaHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Cortamos-Y-Volvemos-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-cortamos-y-volvemos/scripts/EsperonCortamosYVolvemosHudV2.hxc",
+          "sha256": "b7e6f7ef72b610839590ee4dc12a18319600927a6543abc2e9c2e5e5bcc9fc75",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonCortamosYVolvemosHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Dano-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-dano/scripts/EsperonDanoHudV2.hxc",
+          "sha256": "13d5718e1bbe4c953703a485b3c1c0c9d0cb2555be7f5c729f7595c1abd12def",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonDanoHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Dias-Magicos-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-dias-magicos/scripts/EsperonDiasMagicosHudV2.hxc",
+          "sha256": "6f27868c0eb06838efafe691d33b70eeab4882a60d08b4f7e9c64e06cf3a95d8",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonDiasMagicosHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Eclipsis-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-eclipsis/scripts/EsperonEclipsisHudV2.hxc",
+          "sha256": "15e1055d8ac45d745e46fc6cee077746b3db222cf299e4dfed69e29e45b8196d",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonEclipsisHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Fango-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-fango/scripts/EsperonFangoHudV2.hxc",
+          "sha256": "c9b5cde80dd014a3c876c2c8ba1eb4501272b770c32c9a7f164cf98d797b1727",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonFangoHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Luma-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-luma/scripts/EsperonLumaHudV2.hxc",
+          "sha256": "ffd0557459fb71ee17211a1bc4034d3c3aa76c7bd8dc21736086b0ad7d48f822",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonLumaHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Maraton-De-Peliculas-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-maraton-de-peliculas/scripts/EsperonMaratonDePeliculasHudV2.hxc",
+          "sha256": "4aab262a3a360464eca6e15b499d259848e2e32faf68b55f337f0fd00125afe6",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonMaratonDePeliculasHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Me-Voy-A-Morir-Si-No-Me-Besas-Ahora-Mismo-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/scripts/EsperonMeVoyAMorirSiNoMeBesasAhoraMismoHudV2.hxc",
+          "sha256": "7ff49a4bcbc20552c03b3895fbfc4400e8a8f8a64c81e5aa04099abab269e331",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonMeVoyAMorirSiNoMeBesasAhoraMismoHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Meteora-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-meteora/scripts/EsperonMeteoraHudV2.hxc",
+          "sha256": "3e664cfa4c7e174feffaee4237d183b8126601b0702a4a45148128a8f931ec8a",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonMeteoraHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Mi-Hogar-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-mi-hogar/scripts/EsperonMiHogarHudV2.hxc",
+          "sha256": "3ca4a99c7dcd848c53215ffe105021e9a5166cb327eb840c1da7bc27195fb2b1",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonMiHogarHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Nubia-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-nubia/scripts/EsperonNubiaHudV2.hxc",
+          "sha256": "2dc127c7d1024dafb14fec61ecd6abbc921130ecb40654e47ae765a1676d7be0",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonNubiaHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Nuestro-Amor-No-Es-Normal-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-nuestro-amor-no-es-normal/scripts/EsperonNuestroAmorNoEsNormalHudV2.hxc",
+          "sha256": "197d8227469e95b49bfeac5a21a50c2a546e801c0df6a50955ea5b5cc75ee9a0",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonNuestroAmorNoEsNormalHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Peligrosa-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-peligrosa/scripts/EsperonPeligrosaHudV2.hxc",
+          "sha256": "e4833d57d9110649491665ecedea3e8ddffa3c39ca6fd61f25560989cace9e05",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonPeligrosaHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Rompecabezas-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-rompecabezas/scripts/EsperonRompecabezasHudV2.hxc",
+          "sha256": "0aebd51a84ad3e00092ab9a2119f167def66a8f1817907b3d0f096dbd7f6f498",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonRompecabezasHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Solare-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-solare/scripts/EsperonSolareHudV2.hxc",
+          "sha256": "e10bd1805f927d369279ea847178a607cd4ba8965b2ee66dc64f02a99cfa1348",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonSolareHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Tristella-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-tristella/scripts/EsperonTristellaHudV2.hxc",
+          "sha256": "795febb899e150c6a5dee4bcba51435f4c9d949d848e42c816d45c1384f99a67",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonTristellaHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Tu-Dealer-De-Nostalgia-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-tu-dealer-de-nostalgia/scripts/EsperonTuDealerDeNostalgiaHudV2.hxc",
+          "sha256": "94bbf18cb03d439af27b6cfe55fbb06ec447f75ed9687954a6756cb04965922a",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonTuDealerDeNostalgiaHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Un-Poco-Bien-Un-Poco-Mal-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-un-poco-bien-un-poco-mal/scripts/EsperonUnPocoBienUnPocoMalHudV2.hxc",
+          "sha256": "cfd739ab66e519afaa106eefe77f85a67af736bf91523f8b17fa495c3cd9b328",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonUnPocoBienUnPocoMalHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    },
+    {
+      "package": "Mod-Volver-A-Vernos-V2.1.1.zip",
+      "scripts": [
+        {
+          "path": "esperon-dano-volver-a-vernos/scripts/EsperonVolverAVernosHudV2.hxc",
+          "sha256": "3bbb740568f2c935e1a60ab59fbd88849940a48d936503819d36f231cf546c66",
+          "imports": [
+            "funkin.play.PlayState",
+            "funkin.modding.module.Module"
+          ],
+          "extends": [
+            {
+              "class": "EsperonVolverAVernosHudV2",
+              "base": "Module"
+            }
+          ],
+          "has_playstate_import": true,
+          "has_module_import": true,
+          "has_module_superclass": true,
+          "parse_shape": "PASS"
+        }
+      ]
+    }
+  ],
+  "status": "PASS",
+  "limitations": [
+    "La auditoría de texto no sustituye el parser ni el runtime de FNF Mobile V-Slice 0.8.6."
+  ]
+}

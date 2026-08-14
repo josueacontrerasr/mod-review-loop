@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "nuestro-amor-no-es-normal",
+  "mod": "esperon-dano-nuestro-amor-no-es-normal",
+  "audio_duration_ms": 165929.796,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "40cb03c55cb6f6984dca90de9e5e2fbfc7a487d593ad379af17bafee6ea49cb8",
+  "difficulties": {
+    "easy": {
+      "production_notes": 60,
+      "valid_notes": 60,
+      "candidate_vocal_notes": 200,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 220.59,
+      "within_75ms_of_candidate_percent": 30.0
+    },
+    "normal": {
+      "production_notes": 119,
+      "valid_notes": 119,
+      "candidate_vocal_notes": 300,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 185.759,
+      "within_75ms_of_candidate_percent": 36.975
+    },
+    "hard": {
+      "production_notes": 119,
+      "valid_notes": 119,
+      "candidate_vocal_notes": 399,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 58.05,
+      "within_75ms_of_candidate_percent": 57.143
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "nubia",
+  "mod": "esperon-dano-nubia",
+  "audio_duration_ms": 227137.596,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "e08bde65f4e64d5cce2e1e0b502907940eea85be09ea42914c465ecc02e39090",
+  "difficulties": {
+    "easy": {
+      "production_notes": 75,
+      "valid_notes": 75,
+      "candidate_vocal_notes": 202,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 313.47,
+      "within_75ms_of_candidate_percent": 12.0
+    },
+    "normal": {
+      "production_notes": 149,
+      "valid_notes": 149,
+      "candidate_vocal_notes": 303,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 220.589,
+      "within_75ms_of_candidate_percent": 30.201
+    },
+    "hard": {
+      "production_notes": 149,
+      "valid_notes": 149,
+      "candidate_vocal_notes": 404,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 92.88,
+      "within_75ms_of_candidate_percent": 44.295
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "un-poco-bien-un-poco-mal",
+  "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+  "audio_duration_ms": 217617.415,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "56f4e62f62788944081913cfc75980277df438c80681edc02743163c4edd036a",
+  "difficulties": {
+    "easy": {
+      "production_notes": 48,
+      "valid_notes": 48,
+      "candidate_vocal_notes": 185,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 307.665,
+      "within_75ms_of_candidate_percent": 22.917
+    },
+    "normal": {
+      "production_notes": 95,
+      "valid_notes": 95,
+      "candidate_vocal_notes": 277,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 232.2,
+      "within_75ms_of_candidate_percent": 25.263
+    },
+    "hard": {
+      "production_notes": 95,
+      "valid_notes": 95,
+      "candidate_vocal_notes": 369,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 139.319,
+      "within_75ms_of_candidate_percent": 37.895
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}
