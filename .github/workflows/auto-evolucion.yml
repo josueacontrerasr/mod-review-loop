@@ -36,6 +36,9 @@ jobs:
       - name: Revisar ZIPs V-Slice sin tocar contenido musical
         run: python tools/auto_evolution.py --output artifacts/reports
 
+      - name: Validar note styles y HUD V2 sin tocar contenido musical
+        run: python tools/validate_visual_v2.py --output artifacts/reports/visual-v2-validation.json
+
       - name: Publicar reportes de la ejecución
         if: always()
         uses: actions/upload-artifact@v4
