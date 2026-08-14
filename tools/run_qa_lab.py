@@ -27,7 +27,7 @@ ROUND_FOCUS = {
     5: "png-xml-sparrow", 6: "characters-animations", 7: "stage-cover-hud", 8: "notes-ui",
     9: "ogg-integrity", 10: "chart-structure", 11: "tempo-offset-drift", 12: "voice-chart-deep",
     13: "visual-animation-deep", 14: "scripts-ui", 15: "android-vfs", 16: "individual-zips",
-    17: "master-collection", 18: "static-load-simulation", 19: "regression", 20: "final-signature",
+    17: "master-collection", 18: "static-load-and-discovery", 19: "regression", 20: "final-signature",
 }
 
 
@@ -211,6 +211,58 @@ def json_and_reference_checks(mod: Path) -> tuple[list[dict], dict[str, Any]]:
     return issues, data
 
 
+def discovery_checks(mod: Path, song: str) -> list[dict]:
+    issues: list[dict] = []
+    song_dir = mod / "data" / "songs" / song
+    metadata_path = song_dir / f"{song}-metadata.json"
+    try:
+        metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+        return [problem("DISCOVERY_METADATA_INVALID", "high", metadata_path, str(exc))]
+    play_data = metadata.get("playData", {}) if isinstance(metadata.get("playData"), dict) else {}
+    if not isinstance(play_data.get("album"), str) or not play_data.get("album"):
+        issues.append(problem("DISCOVERY_ALBUM_MISSING", "high", metadata_path, "playData.album es obligatorio para el album de Freeplay"))
+    if metadata.get("album") is not None:
+        issues.append(problem("DISCOVERY_ALBUM_MISWIRED", "high", metadata_path, "album está fuera de playData"))
+    levels_root = mod / "data" / "levels"
+    level_paths = sorted(levels_root.glob("*.json")) if levels_root.is_dir() else []
+    if not level_paths:
+        issues.append(problem("DISCOVERY_LEVEL_MISSING", "high", levels_root, "FreeplayState enumera canciones mediante LevelRegistry y levels"))
+        return issues
+    linked = False
+    for level_path in level_paths:
+        try:
+            level = json.loads(level_path.read_text(encoding="utf-8"))
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+            issues.append(problem("DISCOVERY_LEVEL_INVALID", "high", level_path, str(exc)))
+            continue
+        if level.get("version") not in ("1.0.0", "1.0.1", "1.0.2"):
+            issues.append(problem("DISCOVERY_LEVEL_SCHEMA", "high", level_path, "Schema de level no compatible"))
+        if level.get("visible") is False:
+            issues.append(problem("DISCOVERY_LEVEL_HIDDEN", "high", level_path, "visible=false"))
+        if song in level.get("songs", []):
+            linked = True
+        else:
+            issues.append(problem("DISCOVERY_SONG_NOT_LINKED", "high", level_path, f"{song} no aparece en songs[]"))
+        title_asset = level.get("titleAsset")
+        if not isinstance(title_asset, str) or not ((mod / "images" / f"{title_asset}.png").is_file() or (mod / "images" / title_asset).is_file()):
+            issues.append(problem("DISCOVERY_TITLE_ASSET", "high", level_path, f"titleAsset no resuelve: {title_asset}"))
+        for prop in level.get("props", []):
+            if not isinstance(prop, dict) or not isinstance(prop.get("assetPath"), str):
+                issues.append(problem("DISCOVERY_PROP_ASSET", "high", level_path, "prop assetPath inválido"))
+                continue
+            asset_path = mod / "images" / prop["assetPath"]
+            if prop.get("animations"):
+                resolved = (Path(str(asset_path) + ".png").is_file() and Path(str(asset_path) + ".xml").is_file()) or asset_path.is_file()
+            else:
+                resolved = asset_path.is_file() or Path(str(asset_path) + ".png").is_file()
+            if not resolved:
+                issues.append(problem("DISCOVERY_PROP_ASSET", "high", level_path, f"prop no resuelve: {prop['assetPath']}"))
+    if not linked:
+        issues.append(problem("DISCOVERY_NO_LINK", "high", levels_root, f"Ningún level enlaza {song}"))
+    return issues
+
+
 def candidate_checks(root: Path, song: str) -> list[dict]:
     issues: list[dict] = []
     report = root / "sync-candidates" / "results" / song / "sync-candidate-report.json"
@@ -256,7 +308,7 @@ def audit_mod(root: Path, mod: Path, round_no: int, make_previews: bool) -> dict
     json_issues, metrics = json_and_reference_checks(mod)
     image_issues, image_info = image_checks(mod)
     xml_issues, frame_counts = xml_checks(mod, image_info)
-    issues += json_issues + image_issues + xml_issues + chart_checks(mod) + audio_checks(mod) + zip_checks(root, mod)
+    issues += json_issues + image_issues + xml_issues + chart_checks(mod) + audio_checks(mod) + zip_checks(root, mod) + discovery_checks(mod, song)
     specialized: dict[str, Any] = {}
     if round_no == 12:
         voice_issues = candidate_checks(root, song)
@@ -296,7 +348,10 @@ def main() -> int:
     root = args.root.resolve()
     qa_root = root / "qa-lab"
     if args.clean and qa_root.exists():
-        shutil.rmtree(qa_root)
+        # Limpiar solo salidas generadas por la ejecución; preservar evidencia histórica y Wide Research rastreada.
+        for generated_dir in (qa_root / "artifacts", qa_root / "rounds", qa_root / "previews", qa_root / "final"):
+            if generated_dir.exists():
+                shutil.rmtree(generated_dir)
     mods = sorted(path for path in (root / "mods").glob("esperon-dano-*") if path.is_dir())
     if len(mods) != 20:
         raise SystemExit(f"Se esperaban 20 mods, se encontraron {len(mods)}")

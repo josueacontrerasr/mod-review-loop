@@ -1,0 +1,1815 @@
+{
+  "audit": "DISCOVERY_VISIBILITY_VSLICE_086",
+  "target": "FNF Mobile V-Slice 0.8.6",
+  "parallel": true,
+  "source_count": 20,
+  "zip_count": 20,
+  "source_passed": 20,
+  "zip_passed": 20,
+  "source_errors": 0,
+  "zip_errors": 0,
+  "root_cause_confirmed": "Missing data/levels/*.json prevents FreeplayState from enumerating these songs.",
+  "status": "PASS",
+  "reports": [
+    {
+      "mod": "esperon-dano-arcoloria",
+      "source": true,
+      "song": "arcoloria",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-arcoloria.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Arcoloria",
+          "titleAsset": "storymenu/esperon-arcoloria",
+          "visible": true,
+          "songs": [
+            "arcoloria"
+          ],
+          "capsule": {
+            "name": "Arcoloria",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-arcoloria",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-cortamos-y-volvemos",
+      "source": true,
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-cortamos-y-volvemos.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Cortamos y Volvemos",
+          "titleAsset": "storymenu/esperon-cortamos-y-volvemos",
+          "visible": true,
+          "songs": [
+            "cortamos-y-volvemos"
+          ],
+          "capsule": {
+            "name": "Cortamos y Volvemos",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-cortamos-y-volvemos",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-dano",
+      "source": true,
+      "song": "dano",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-dano.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Daño",
+          "titleAsset": "storymenu/esperon-dano",
+          "visible": true,
+          "songs": [
+            "dano"
+          ],
+          "capsule": {
+            "name": "Daño",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-dano",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-dias-magicos",
+      "source": true,
+      "song": "dias-magicos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-dias-magicos.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Días Mágicos",
+          "titleAsset": "storymenu/esperon-dias-magicos",
+          "visible": true,
+          "songs": [
+            "dias-magicos"
+          ],
+          "capsule": {
+            "name": "Días Mágicos",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-dias-magicos",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-eclipsis",
+      "source": true,
+      "song": "eclipsis",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-eclipsis.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Eclipsis",
+          "titleAsset": "storymenu/esperon-eclipsis",
+          "visible": true,
+          "songs": [
+            "eclipsis"
+          ],
+          "capsule": {
+            "name": "Eclipsis",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-eclipsis",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-fango",
+      "source": true,
+      "song": "fango",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-fango.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Fango",
+          "titleAsset": "storymenu/esperon-fango",
+          "visible": true,
+          "songs": [
+            "fango"
+          ],
+          "capsule": {
+            "name": "Fango",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-fango",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-luma",
+      "source": true,
+      "song": "luma",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-luma.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Luma",
+          "titleAsset": "storymenu/esperon-luma",
+          "visible": true,
+          "songs": [
+            "luma"
+          ],
+          "capsule": {
+            "name": "Luma",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-luma",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-maraton-de-peliculas",
+      "source": true,
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-maraton-de-peliculas.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Maratón de Películas",
+          "titleAsset": "storymenu/esperon-maraton-de-peliculas",
+          "visible": true,
+          "songs": [
+            "maraton-de-peliculas"
+          ],
+          "capsule": {
+            "name": "Maratón de Películas",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-maraton-de-peliculas",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "source": true,
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Me Voy A Morir Si No Me Besas Ahora Mismo",
+          "titleAsset": "storymenu/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "visible": true,
+          "songs": [
+            "me-voy-a-morir-si-no-me-besas-ahora-mismo"
+          ],
+          "capsule": {
+            "name": "Me Voy A Morir Si No Me Besas Ahora Mismo",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-meteora",
+      "source": true,
+      "song": "meteora",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-meteora.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Meteora",
+          "titleAsset": "storymenu/esperon-meteora",
+          "visible": true,
+          "songs": [
+            "meteora"
+          ],
+          "capsule": {
+            "name": "Meteora",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-meteora",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-mi-hogar",
+      "source": true,
+      "song": "mi-hogar",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-mi-hogar.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Mi Hogar",
+          "titleAsset": "storymenu/esperon-mi-hogar",
+          "visible": true,
+          "songs": [
+            "mi-hogar"
+          ],
+          "capsule": {
+            "name": "Mi Hogar",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-mi-hogar",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-nubia",
+      "source": true,
+      "song": "nubia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-nubia.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Nubia",
+          "titleAsset": "storymenu/esperon-nubia",
+          "visible": true,
+          "songs": [
+            "nubia"
+          ],
+          "capsule": {
+            "name": "Nubia",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-nubia",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-nuestro-amor-no-es-normal",
+      "source": true,
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-nuestro-amor-no-es-normal.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Nuestro Amor No es Normal",
+          "titleAsset": "storymenu/esperon-nuestro-amor-no-es-normal",
+          "visible": true,
+          "songs": [
+            "nuestro-amor-no-es-normal"
+          ],
+          "capsule": {
+            "name": "Nuestro Amor No es Normal",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-nuestro-amor-no-es-normal",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-peligrosa",
+      "source": true,
+      "song": "peligrosa",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-peligrosa.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Peligrosa",
+          "titleAsset": "storymenu/esperon-peligrosa",
+          "visible": true,
+          "songs": [
+            "peligrosa"
+          ],
+          "capsule": {
+            "name": "Peligrosa",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-peligrosa",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-rompecabezas",
+      "source": true,
+      "song": "rompecabezas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-rompecabezas.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Rompecabezas",
+          "titleAsset": "storymenu/esperon-rompecabezas",
+          "visible": true,
+          "songs": [
+            "rompecabezas"
+          ],
+          "capsule": {
+            "name": "Rompecabezas",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-rompecabezas",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-solare",
+      "source": true,
+      "song": "solare",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-solare.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Solare",
+          "titleAsset": "storymenu/esperon-solare",
+          "visible": true,
+          "songs": [
+            "solare"
+          ],
+          "capsule": {
+            "name": "Solare",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-solare",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-tristella",
+      "source": true,
+      "song": "tristella",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-tristella.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Tristella",
+          "titleAsset": "storymenu/esperon-tristella",
+          "visible": true,
+          "songs": [
+            "tristella"
+          ],
+          "capsule": {
+            "name": "Tristella",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-tristella",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-tu-dealer-de-nostalgia",
+      "source": true,
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-tu-dealer-de-nostalgia.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Tu Dealer de Nostalgia",
+          "titleAsset": "storymenu/esperon-tu-dealer-de-nostalgia",
+          "visible": true,
+          "songs": [
+            "tu-dealer-de-nostalgia"
+          ],
+          "capsule": {
+            "name": "Tu Dealer de Nostalgia",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-tu-dealer-de-nostalgia",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+      "source": true,
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-un-poco-bien-un-poco-mal.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Un Poco Bien un Poco Mal",
+          "titleAsset": "storymenu/esperon-un-poco-bien-un-poco-mal",
+          "visible": true,
+          "songs": [
+            "un-poco-bien-un-poco-mal"
+          ],
+          "capsule": {
+            "name": "Un Poco Bien un Poco Mal",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-un-poco-bien-un-poco-mal",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "esperon-dano-volver-a-vernos",
+      "source": true,
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-volver-a-vernos.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Volver a Vernos",
+          "titleAsset": "storymenu/esperon-volver-a-vernos",
+          "visible": true,
+          "songs": [
+            "volver-a-vernos"
+          ],
+          "capsule": {
+            "name": "Volver a Vernos",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-volver-a-vernos",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Arcoloria-V2.1.3.zip",
+      "source": false,
+      "song": "arcoloria",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-arcoloria.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Arcoloria",
+          "titleAsset": "storymenu/esperon-arcoloria",
+          "visible": true,
+          "songs": [
+            "arcoloria"
+          ],
+          "capsule": {
+            "name": "Arcoloria",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-arcoloria",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Cortamos-Y-Volvemos-V2.1.3.zip",
+      "source": false,
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-cortamos-y-volvemos.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Cortamos y Volvemos",
+          "titleAsset": "storymenu/esperon-cortamos-y-volvemos",
+          "visible": true,
+          "songs": [
+            "cortamos-y-volvemos"
+          ],
+          "capsule": {
+            "name": "Cortamos y Volvemos",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-cortamos-y-volvemos",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Dano-V2.1.3.zip",
+      "source": false,
+      "song": "dano",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-dano.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Daño",
+          "titleAsset": "storymenu/esperon-dano",
+          "visible": true,
+          "songs": [
+            "dano"
+          ],
+          "capsule": {
+            "name": "Daño",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-dano",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Dias-Magicos-V2.1.3.zip",
+      "source": false,
+      "song": "dias-magicos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-dias-magicos.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Días Mágicos",
+          "titleAsset": "storymenu/esperon-dias-magicos",
+          "visible": true,
+          "songs": [
+            "dias-magicos"
+          ],
+          "capsule": {
+            "name": "Días Mágicos",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-dias-magicos",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Eclipsis-V2.1.3.zip",
+      "source": false,
+      "song": "eclipsis",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-eclipsis.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Eclipsis",
+          "titleAsset": "storymenu/esperon-eclipsis",
+          "visible": true,
+          "songs": [
+            "eclipsis"
+          ],
+          "capsule": {
+            "name": "Eclipsis",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-eclipsis",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Fango-V2.1.3.zip",
+      "source": false,
+      "song": "fango",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-fango.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Fango",
+          "titleAsset": "storymenu/esperon-fango",
+          "visible": true,
+          "songs": [
+            "fango"
+          ],
+          "capsule": {
+            "name": "Fango",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-fango",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Luma-V2.1.3.zip",
+      "source": false,
+      "song": "luma",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-luma.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Luma",
+          "titleAsset": "storymenu/esperon-luma",
+          "visible": true,
+          "songs": [
+            "luma"
+          ],
+          "capsule": {
+            "name": "Luma",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-luma",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Maraton-De-Peliculas-V2.1.3.zip",
+      "source": false,
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-maraton-de-peliculas.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Maratón de Películas",
+          "titleAsset": "storymenu/esperon-maraton-de-peliculas",
+          "visible": true,
+          "songs": [
+            "maraton-de-peliculas"
+          ],
+          "capsule": {
+            "name": "Maratón de Películas",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-maraton-de-peliculas",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Me-Voy-A-Morir-Si-No-Me-Besas-Ahora-Mismo-V2.1.3.zip",
+      "source": false,
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Me Voy A Morir Si No Me Besas Ahora Mismo",
+          "titleAsset": "storymenu/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "visible": true,
+          "songs": [
+            "me-voy-a-morir-si-no-me-besas-ahora-mismo"
+          ],
+          "capsule": {
+            "name": "Me Voy A Morir Si No Me Besas Ahora Mismo",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Meteora-V2.1.3.zip",
+      "source": false,
+      "song": "meteora",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-meteora.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Meteora",
+          "titleAsset": "storymenu/esperon-meteora",
+          "visible": true,
+          "songs": [
+            "meteora"
+          ],
+          "capsule": {
+            "name": "Meteora",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-meteora",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Mi-Hogar-V2.1.3.zip",
+      "source": false,
+      "song": "mi-hogar",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-mi-hogar.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Mi Hogar",
+          "titleAsset": "storymenu/esperon-mi-hogar",
+          "visible": true,
+          "songs": [
+            "mi-hogar"
+          ],
+          "capsule": {
+            "name": "Mi Hogar",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-mi-hogar",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Nubia-V2.1.3.zip",
+      "source": false,
+      "song": "nubia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-nubia.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Nubia",
+          "titleAsset": "storymenu/esperon-nubia",
+          "visible": true,
+          "songs": [
+            "nubia"
+          ],
+          "capsule": {
+            "name": "Nubia",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-nubia",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Nuestro-Amor-No-Es-Normal-V2.1.3.zip",
+      "source": false,
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-nuestro-amor-no-es-normal.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Nuestro Amor No es Normal",
+          "titleAsset": "storymenu/esperon-nuestro-amor-no-es-normal",
+          "visible": true,
+          "songs": [
+            "nuestro-amor-no-es-normal"
+          ],
+          "capsule": {
+            "name": "Nuestro Amor No es Normal",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-nuestro-amor-no-es-normal",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Peligrosa-V2.1.3.zip",
+      "source": false,
+      "song": "peligrosa",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-peligrosa.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Peligrosa",
+          "titleAsset": "storymenu/esperon-peligrosa",
+          "visible": true,
+          "songs": [
+            "peligrosa"
+          ],
+          "capsule": {
+            "name": "Peligrosa",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-peligrosa",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Rompecabezas-V2.1.3.zip",
+      "source": false,
+      "song": "rompecabezas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-rompecabezas.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Rompecabezas",
+          "titleAsset": "storymenu/esperon-rompecabezas",
+          "visible": true,
+          "songs": [
+            "rompecabezas"
+          ],
+          "capsule": {
+            "name": "Rompecabezas",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-rompecabezas",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Solare-V2.1.3.zip",
+      "source": false,
+      "song": "solare",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-solare.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Solare",
+          "titleAsset": "storymenu/esperon-solare",
+          "visible": true,
+          "songs": [
+            "solare"
+          ],
+          "capsule": {
+            "name": "Solare",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-solare",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Tristella-V2.1.3.zip",
+      "source": false,
+      "song": "tristella",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-tristella.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Tristella",
+          "titleAsset": "storymenu/esperon-tristella",
+          "visible": true,
+          "songs": [
+            "tristella"
+          ],
+          "capsule": {
+            "name": "Tristella",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-tristella",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Tu-Dealer-De-Nostalgia-V2.1.3.zip",
+      "source": false,
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-tu-dealer-de-nostalgia.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Tu Dealer de Nostalgia",
+          "titleAsset": "storymenu/esperon-tu-dealer-de-nostalgia",
+          "visible": true,
+          "songs": [
+            "tu-dealer-de-nostalgia"
+          ],
+          "capsule": {
+            "name": "Tu Dealer de Nostalgia",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-tu-dealer-de-nostalgia",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Un-Poco-Bien-Un-Poco-Mal-V2.1.3.zip",
+      "source": false,
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-un-poco-bien-un-poco-mal.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Un Poco Bien un Poco Mal",
+          "titleAsset": "storymenu/esperon-un-poco-bien-un-poco-mal",
+          "visible": true,
+          "songs": [
+            "un-poco-bien-un-poco-mal"
+          ],
+          "capsule": {
+            "name": "Un Poco Bien un Poco Mal",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-un-poco-bien-un-poco-mal",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    },
+    {
+      "mod": "Mod-Volver-A-Vernos-V2.1.3.zip",
+      "source": false,
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "level_count": 1,
+      "levels": [
+        {
+          "file": "data/levels/esperon-volver-a-vernos.json",
+          "json_error": null,
+          "version": "1.0.2",
+          "name": "ESPERÓN — Volver a Vernos",
+          "titleAsset": "storymenu/esperon-volver-a-vernos",
+          "visible": true,
+          "songs": [
+            "volver-a-vernos"
+          ],
+          "capsule": {
+            "name": "Volver a Vernos",
+            "offsets": [
+              0,
+              0
+            ]
+          },
+          "title_asset_resolved": true,
+          "song_linked": true,
+          "props_resolved": true
+        }
+      ],
+      "playData_album": "esperon-volver-a-vernos",
+      "metadata_root_album": null,
+      "songVariations": [],
+      "declared_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ]
+    }
+  ]
+}

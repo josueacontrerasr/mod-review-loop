@@ -7,7 +7,7 @@ import shutil
 import sys
 from pathlib import Path
 
-VERSION = "2.1.2"
+VERSION = "2.1.3"
 
 
 def delivery_name(song: str) -> str:
@@ -41,7 +41,7 @@ def main() -> int:
         manifest_path = mod / "_polymod_meta.json"
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         manifest["mod_version"] = VERSION
-        manifest["description"] = "Mod V-Slice 0.8.6 con HUD, flechas, animaciones vocales y carátula Freeplay personalizada; requiere Audio Sync Test y playtest móvil para confirmar sincronía."
+        manifest["description"] = "Mod V-Slice 0.8.6 con registro Freeplay/Story Mode, HUD, flechas, animaciones vocales y carátula personalizada; requiere Audio Sync Test y playtest móvil para confirmar sincronía."
         manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         song_dirs = list((mod / "data" / "songs").glob("*"))
         song = song_dirs[0].name

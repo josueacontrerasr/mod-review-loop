@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Valida la estructura real de instalación de los ZIP v2.1.2."""
+"""Valida la estructura real de instalación de los ZIP v2.1.3."""
 from __future__ import annotations
 
 import json
 import zipfile
 from pathlib import Path
 
-VERSION = "2.1.2"
+VERSION = "2.1.3"
 
 
 def require(names: set[str], path: str, errors: list[str]) -> None:
@@ -75,6 +75,39 @@ def validate_package(path: Path) -> dict:
         chart = json.loads(archive.read(song_prefix + f"{song}-chart.json").decode("utf-8"))
         manifest = json.loads(archive.read(prefix + "_polymod_meta.json").decode("utf-8"))
         song_manifest = json.loads(archive.read(song_prefix + "manifest.json").decode("utf-8"))
+        play_data = metadata.get("playData", {}) if isinstance(metadata.get("playData", {}), dict) else {}
+        album_id = play_data.get("album")
+        if not isinstance(album_id, str) or not album_id:
+            errors.append("playData.album ausente")
+        if metadata.get("album") is not None:
+            errors.append("album fuera de playData")
+        if isinstance(album_id, str) and album_id:
+            album_path = prefix + f"data/ui/freeplay/albums/{album_id}.json"
+            require(names, album_path, errors)
+            if album_path in names:
+                album = json.loads(archive.read(album_path).decode("utf-8"))
+                if album.get("version") != "1.0.3": errors.append("album version")
+                for asset_key in ("albumArtAsset", "albumTitleAsset"):
+                    asset_value = album.get(asset_key)
+                    if not isinstance(asset_value, str):
+                        errors.append(f"{asset_key} ausente")
+                    else:
+                        asset_exists(names, root, asset_value, errors)
+        level_names = sorted(name for name in names if name.startswith(prefix + "data/levels/") and name.endswith(".json"))
+        if not level_names:
+            errors.append("data/levels ausente")
+        for level_path in level_names:
+            level_data = json.loads(archive.read(level_path).decode("utf-8"))
+            if level_data.get("version") != "1.0.2": errors.append(f"level version: {level_path}")
+            if level_data.get("visible") is False: errors.append(f"level invisible: {level_path}")
+            if song not in level_data.get("songs", []): errors.append(f"song absent from level: {level_path}")
+            title_asset = level_data.get("titleAsset")
+            if not isinstance(title_asset, str):
+                errors.append(f"titleAsset ausente: {level_path}")
+            else:
+                asset_exists(names, root, title_asset, errors)
+            for asset_path in collect_asset_paths(level_data):
+                asset_exists(names, root, asset_path, errors)
         if manifest.get("api_version") != "0.8.6": errors.append("api_version")
         if manifest.get("mod_version") != VERSION: errors.append("mod_version")
         if metadata.get("version") != "2.2.4": errors.append("metadata version")
@@ -99,7 +132,7 @@ def main() -> int:
             for package in packages:
                 require(names, f"{collection_root}/mods/{package.name}", collection_errors)
     payload = {"scope": "VSLICE_086_INSTALL_LAYOUT", "version": VERSION, "packages": len(packages), "passed": sum(item["status"] == "PASS" for item in reports), "collection": collection.name, "collection_errors": collection_errors, "reports": reports, "status": "PASS" if len(packages) == 20 and not collection_errors and all(item["status"] == "PASS" for item in reports) else "ERRORS_FOUND"}
-    output = root / "qa-lab" / "session-zip-structure" / "v2.1.2-install-layout.json"
+    output = root / "qa-lab" / "session-zip-structure" / "v2.1.3-install-layout.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({key: payload[key] for key in ("packages", "passed", "collection", "status")}, ensure_ascii=False))

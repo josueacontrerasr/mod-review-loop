@@ -1,0 +1,39 @@
+{
+  "version": "1.0.2",
+  "name": "ESPERÓN — Peligrosa",
+  "capsule": {
+    "name": "Peligrosa",
+    "offsets": [
+      0,
+      0
+    ]
+  },
+  "titleAsset": "storymenu/esperon-peligrosa",
+  "props": [
+    {
+      "assetPath": "storymenu/props/esperon-peligrosa-opponent",
+      "scale": 0.72,
+      "danceEvery": 2,
+      "offsets": [
+        40,
+        70
+      ],
+      "animations": []
+    },
+    {
+      "assetPath": "storymenu/props/esperon-peligrosa-player",
+      "scale": 0.72,
+      "danceEvery": 2,
+      "offsets": [
+        190,
+        70
+      ],
+      "animations": []
+    }
+  ],
+  "visible": true,
+  "songs": [
+    "peligrosa"
+  ],
+  "background": "#1F6B65"
+}

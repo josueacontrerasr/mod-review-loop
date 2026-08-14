@@ -1,0 +1,39 @@
+{
+  "version": "1.0.2",
+  "name": "ESPERÓN — Daño",
+  "capsule": {
+    "name": "Daño",
+    "offsets": [
+      0,
+      0
+    ]
+  },
+  "titleAsset": "storymenu/esperon-dano",
+  "props": [
+    {
+      "assetPath": "storymenu/props/esperon-dano-opponent",
+      "scale": 0.72,
+      "danceEvery": 2,
+      "offsets": [
+        40,
+        70
+      ],
+      "animations": []
+    },
+    {
+      "assetPath": "storymenu/props/esperon-dano-player",
+      "scale": 0.72,
+      "danceEvery": 2,
+      "offsets": [
+        190,
+        70
+      ],
+      "animations": []
+    }
+  ],
+  "visible": true,
+  "songs": [
+    "dano"
+  ],
+  "background": "#1F6B23"
+}

@@ -33,9 +33,32 @@ def check_mod(mod: Path, root: Path) -> dict:
         return {"mod": mod.name, "status": "ERROR", "errors": ["Debe existir exactamente una canción"], "warnings": []}
     song_dir = song_dirs[0]
     song = song_dir.name
+    levels = sorted((mod / "data" / "levels").glob("*.json")) if (mod / "data" / "levels").is_dir() else []
+    if not levels:
+        errors.append("Level de Story/Freeplay ausente")
+    else:
+        linked_level = False
+        for level_path in levels:
+            level_data = load(level_path)
+            if level_data.get("version") not in ("1.0.0", "1.0.1", "1.0.2"):
+                errors.append(f"Level {level_path.name}: schema inválido")
+            if level_data.get("visible") is False:
+                errors.append(f"Level {level_path.name}: visible=false")
+            if song in level_data.get("songs", []):
+                linked_level = True
+            title_asset = level_data.get("titleAsset")
+            if not isinstance(title_asset, str) or not ((mod / "images" / f"{title_asset}.png").is_file() or (mod / "images" / title_asset).is_file()):
+                errors.append(f"Level {level_path.name}: titleAsset no resuelto")
+        if not linked_level:
+            errors.append("Ningún level enlaza la canción en songs[]")
     metadata = load(song_dir / f"{song}-metadata.json")
     chart = load(song_dir / f"{song}-chart.json")
-    style = metadata.get("playData", {}).get("noteStyle")
+    play_data = metadata.get("playData", {})
+    if not isinstance(play_data.get("album"), str) or not play_data.get("album"):
+        errors.append("playData.album ausente")
+    if metadata.get("album") is not None:
+        errors.append("album fuera de playData")
+    style = play_data.get("noteStyle")
     if not isinstance(style, str) or not (mod / "data" / "notestyles" / f"{style}.json").is_file():
         errors.append("Note style no resuelto")
     chars = metadata.get("playData", {}).get("characters", {})

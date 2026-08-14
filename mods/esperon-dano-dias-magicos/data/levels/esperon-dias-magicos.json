@@ -1,0 +1,39 @@
+{
+  "version": "1.0.2",
+  "name": "ESPERÓN — Días Mágicos",
+  "capsule": {
+    "name": "Días Mágicos",
+    "offsets": [
+      0,
+      0
+    ]
+  },
+  "titleAsset": "storymenu/esperon-dias-magicos",
+  "props": [
+    {
+      "assetPath": "storymenu/props/esperon-dias-magicos-opponent",
+      "scale": 0.72,
+      "danceEvery": 2,
+      "offsets": [
+        40,
+        70
+      ],
+      "animations": []
+    },
+    {
+      "assetPath": "storymenu/props/esperon-dias-magicos-player",
+      "scale": 0.72,
+      "danceEvery": 2,
+      "offsets": [
+        190,
+        70
+      ],
+      "animations": []
+    }
+  ],
+  "visible": true,
+  "songs": [
+    "dias-magicos"
+  ],
+  "background": "#436B1F"
+}

@@ -93,6 +93,8 @@
   "sync_status": {
     "status": "REQUIRES_HUMAN_REVIEW",
     "basis": "Chart candidato generado desde actividad/onsets de audio y validación estática; no equivale a Audio Sync Test.",
-    "warnings": []
+    "warnings": [
+      "La actividad vocal proviene de mezcla completa: necesita revisión humana prioritaria"
+    ]
   }
 }
