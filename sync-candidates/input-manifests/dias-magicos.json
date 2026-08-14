@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "dias-magicos",
+  "mod": "esperon-dano-dias-magicos",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-dias-magicos/songs/dias-magicos/Inst.ogg",
+    "sha256": "bf6ef3049d2f3fb97e14bcbd1a53e6783c64fc624d22ba642012acd78fbfbcb6",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "243.623764"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-metadata.json",
+    "sha256": "c2ef2b7ec37811e329c716f3ff033cb21feeb17e38d297b5b42baa4c06b26f6a"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-chart.json",
+    "sha256": "a322fe731d18e3a76c8ba54127151a1d921cbecda8012f24d11bfe01e638c16c"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

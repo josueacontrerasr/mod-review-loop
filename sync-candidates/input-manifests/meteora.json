@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "meteora",
+  "mod": "esperon-dano-meteora",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-meteora/songs/meteora/Inst.ogg",
+    "sha256": "1e0563abea61a2e7d1f5b67e1242af0f79af3152df22661636de18bbdf6d4126",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "193.004263"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-meteora/data/songs/meteora/meteora-metadata.json",
+    "sha256": "126086d45193b30586b8547aea9501e60e1b5887ea774b1397ceb90ae4fbde19"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-meteora/data/songs/meteora/meteora-chart.json",
+    "sha256": "0bbfc8ff96bae05a391732b083fdda579b6c9c93730e3712048390302674c63f"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

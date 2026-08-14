@@ -1,0 +1,57 @@
+{
+  "scope": "AUDIO_SYNC_CANDIDATE_ONLY",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "tristella",
+  "mod": "esperon-dano-tristella",
+  "analysis_mode": "FULL_MIX_PROXY",
+  "audio": {
+    "path": "mods/esperon-dano-tristella/songs/tristella/Inst.ogg",
+    "sha256": "7a9e2384ab6aa7af27474131e265ed9abde4bc0ccdb6c746456f3e7dcd254fa0",
+    "duration_ms": 238515.374,
+    "sample_rate": 22050
+  },
+  "parameters": {
+    "hop_length": 256,
+    "sample_rate": 22050,
+    "minimum_note_spacing_ms": 150.0
+  },
+  "tempo": {
+    "librosa_beat_bpm": 69.837,
+    "median_beat_interval_bpm": 69.837,
+    "agreement_delta_percent": 0.0
+  },
+  "counts": {
+    "onsets": 845,
+    "beats": 274,
+    "candidate_base_notes": 711,
+    "easy_notes": 356,
+    "normal_notes": 534,
+    "hard_notes": 711
+  },
+  "candidate_self_coherence": {
+    "mean_distance_to_detected_onset_ms": 0.0,
+    "max_distance_to_detected_onset_ms": 0.0
+  },
+  "promotion_blockers": [
+    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
+    "No hay stems vocales distribuidos y verificados por strumline.",
+    "Falta Audio Sync Test documentado en Chart Editor.",
+    "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
+  ],
+  "proposed_metadata_patch": {
+    "timeChanges": [
+      {
+        "t": 0,
+        "b": 0,
+        "bpm": 69.837,
+        "bt": [
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "status": "CANDIDATE_DO_NOT_APPLY_AUTOMATICALLY"
+  }
+}

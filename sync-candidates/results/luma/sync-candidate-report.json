@@ -1,0 +1,57 @@
+{
+  "scope": "AUDIO_SYNC_CANDIDATE_ONLY",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "luma",
+  "mod": "esperon-dano-luma",
+  "analysis_mode": "FULL_MIX_PROXY",
+  "audio": {
+    "path": "mods/esperon-dano-luma/songs/luma/Inst.ogg",
+    "sha256": "f57aab6f0c6e3e98ba630e7ebb9d295f4e634eda2f001eda69533f423044020a",
+    "duration_ms": 238004.535,
+    "sample_rate": 22050
+  },
+  "parameters": {
+    "hop_length": 256,
+    "sample_rate": 22050,
+    "minimum_note_spacing_ms": 150.0
+  },
+  "tempo": {
+    "librosa_beat_bpm": 71.777,
+    "median_beat_interval_bpm": 71.777,
+    "agreement_delta_percent": 0.0
+  },
+  "counts": {
+    "onsets": 565,
+    "beats": 265,
+    "candidate_base_notes": 519,
+    "easy_notes": 260,
+    "normal_notes": 390,
+    "hard_notes": 519
+  },
+  "candidate_self_coherence": {
+    "mean_distance_to_detected_onset_ms": 0.0,
+    "max_distance_to_detected_onset_ms": 0.0
+  },
+  "promotion_blockers": [
+    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
+    "No hay stems vocales distribuidos y verificados por strumline.",
+    "Falta Audio Sync Test documentado en Chart Editor.",
+    "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
+  ],
+  "proposed_metadata_patch": {
+    "timeChanges": [
+      {
+        "t": 0,
+        "b": 0,
+        "bpm": 71.777,
+        "bt": [
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "status": "CANDIDATE_DO_NOT_APPLY_AUTOMATICALLY"
+  }
+}

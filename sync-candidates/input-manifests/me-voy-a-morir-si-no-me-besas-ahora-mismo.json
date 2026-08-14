@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+  "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Inst.ogg",
+    "sha256": "eeaa6ad77ae4998d46771ee6d0084539adb28f4ed961d35164d063a08bbc47d8",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "190.589388"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-metadata.json",
+    "sha256": "a6f42446dbb69e85e2d16c14b8933937e283494b90e6834100ba827f9903bdec"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart.json",
+    "sha256": "cb3adb663035aa2ec3a2e2cdb0e2edc86d2cc2cd42812f99f4616213fb3c58a7"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

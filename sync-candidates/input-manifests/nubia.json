@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "nubia",
+  "mod": "esperon-dano-nubia",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-nubia/songs/nubia/Inst.ogg",
+    "sha256": "37e40f97d67c76514a7557043bfb67193b6c8d26a6ba75a756d44f8364d88e5b",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "227.137596"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-nubia/data/songs/nubia/nubia-metadata.json",
+    "sha256": "bf3c9d89a548efbbfeb47c993ecad8c1fadc7d8027c3b2ac9f283806d7dfbcfb"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-nubia/data/songs/nubia/nubia-chart.json",
+    "sha256": "afec10e71fe102c031ca7f681d9c2075beacc41eb88b5382463a182296c1b1db"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

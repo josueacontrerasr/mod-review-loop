@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "nuestro-amor-no-es-normal",
+  "mod": "esperon-dano-nuestro-amor-no-es-normal",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-nuestro-amor-no-es-normal/songs/nuestro-amor-no-es-normal/Inst.ogg",
+    "sha256": "5577326b03124e4fd9d390616b071c01ebe5d154de92fb1443fa1892d2249fb5",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "165.929796"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-metadata.json",
+    "sha256": "cd3173ba901bdd6aa29e316088696e7e0f01e3f551d08c3f8a6ae1421f0814fe"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart.json",
+    "sha256": "2a0a33a907cfd35577e1cf8c7cd543410f7a68251cd4bcdc222031ed0f46628b"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

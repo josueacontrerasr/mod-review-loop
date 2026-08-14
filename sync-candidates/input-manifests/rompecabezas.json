@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "rompecabezas",
+  "mod": "esperon-dano-rompecabezas",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-rompecabezas/songs/rompecabezas/Inst.ogg",
+    "sha256": "89fefd4b4b61e2b7814520788f980d423635d22b0b4dd78de4045052493bdb30",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "215.574059"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-metadata.json",
+    "sha256": "b5a6144a33b0bb79b975db6bb90895a2e97dd67b281050f50f87247ba1503146"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-chart.json",
+    "sha256": "70730eedc2685b3ed6ee3412f2a1a8d2b85ee0430e38a85d82b1708bb8c15a80"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

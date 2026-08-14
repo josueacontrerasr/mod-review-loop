@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "cortamos-y-volvemos",
+  "mod": "esperon-dano-cortamos-y-volvemos",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-cortamos-y-volvemos/songs/cortamos-y-volvemos/Inst.ogg",
+    "sha256": "971cb444926f259fb3ff49f79c95d2d3dd873002c3d4f8cefd05fe13b7c14255",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "207.818594"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-metadata.json",
+    "sha256": "76f9e80840e224c28da07e1e4d99cd00d55029f832ecee663c789751bc84ef93"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-chart.json",
+    "sha256": "02f9875018b9ce9acce0d3620068c155ad11098acd909a53a35c914a6a2f11d9"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

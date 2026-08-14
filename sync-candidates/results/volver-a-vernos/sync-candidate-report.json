@@ -1,0 +1,57 @@
+{
+  "scope": "AUDIO_SYNC_CANDIDATE_ONLY",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "volver-a-vernos",
+  "mod": "esperon-dano-volver-a-vernos",
+  "analysis_mode": "FULL_MIX_PROXY",
+  "audio": {
+    "path": "mods/esperon-dano-volver-a-vernos/songs/volver-a-vernos/Inst.ogg",
+    "sha256": "f44a6699d82293176adcd397e591f164c5fdc00a632fe3b0698b7544da887ca3",
+    "duration_ms": 186734.875,
+    "sample_rate": 22050
+  },
+  "parameters": {
+    "hop_length": 256,
+    "sample_rate": 22050,
+    "minimum_note_spacing_ms": 150.0
+  },
+  "tempo": {
+    "librosa_beat_bpm": 166.709,
+    "median_beat_interval_bpm": 172.265,
+    "agreement_delta_percent": 3.333
+  },
+  "counts": {
+    "onsets": 780,
+    "beats": 516,
+    "candidate_base_notes": 640,
+    "easy_notes": 320,
+    "normal_notes": 480,
+    "hard_notes": 640
+  },
+  "candidate_self_coherence": {
+    "mean_distance_to_detected_onset_ms": 0.0,
+    "max_distance_to_detected_onset_ms": 0.0
+  },
+  "promotion_blockers": [
+    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
+    "No hay stems vocales distribuidos y verificados por strumline.",
+    "Falta Audio Sync Test documentado en Chart Editor.",
+    "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
+  ],
+  "proposed_metadata_patch": {
+    "timeChanges": [
+      {
+        "t": 0,
+        "b": 0,
+        "bpm": 166.709,
+        "bt": [
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "status": "CANDIDATE_DO_NOT_APPLY_AUTOMATICALLY"
+  }
+}

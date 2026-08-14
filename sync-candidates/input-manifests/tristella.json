@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "tristella",
+  "mod": "esperon-dano-tristella",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-tristella/songs/tristella/Inst.ogg",
+    "sha256": "7a9e2384ab6aa7af27474131e265ed9abde4bc0ccdb6c746456f3e7dcd254fa0",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "238.515374"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-tristella/data/songs/tristella/tristella-metadata.json",
+    "sha256": "efcc7e7c99613eb3c0ed716d0a550f1a17e95c4688cc2da2f559d9ddb75764c0"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-tristella/data/songs/tristella/tristella-chart.json",
+    "sha256": "b96321fbab5c66e7fe0e0dfce78b44375e2e369e9c47b15407e60e5719e873ef"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

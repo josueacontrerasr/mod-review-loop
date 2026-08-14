@@ -1,0 +1,57 @@
+{
+  "scope": "AUDIO_SYNC_CANDIDATE_ONLY",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "cortamos-y-volvemos",
+  "mod": "esperon-dano-cortamos-y-volvemos",
+  "analysis_mode": "FULL_MIX_PROXY",
+  "audio": {
+    "path": "mods/esperon-dano-cortamos-y-volvemos/songs/cortamos-y-volvemos/Inst.ogg",
+    "sha256": "971cb444926f259fb3ff49f79c95d2d3dd873002c3d4f8cefd05fe13b7c14255",
+    "duration_ms": 207818.594,
+    "sample_rate": 22050
+  },
+  "parameters": {
+    "hop_length": 256,
+    "sample_rate": 22050,
+    "minimum_note_spacing_ms": 150.0
+  },
+  "tempo": {
+    "librosa_beat_bpm": 172.266,
+    "median_beat_interval_bpm": 172.265,
+    "agreement_delta_percent": 0.0
+  },
+  "counts": {
+    "onsets": 927,
+    "beats": 576,
+    "candidate_base_notes": 748,
+    "easy_notes": 374,
+    "normal_notes": 561,
+    "hard_notes": 748
+  },
+  "candidate_self_coherence": {
+    "mean_distance_to_detected_onset_ms": 0.0,
+    "max_distance_to_detected_onset_ms": 0.0
+  },
+  "promotion_blockers": [
+    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
+    "No hay stems vocales distribuidos y verificados por strumline.",
+    "Falta Audio Sync Test documentado en Chart Editor.",
+    "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
+  ],
+  "proposed_metadata_patch": {
+    "timeChanges": [
+      {
+        "t": 0,
+        "b": 0,
+        "bpm": 172.266,
+        "bt": [
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "status": "CANDIDATE_DO_NOT_APPLY_AUTOMATICALLY"
+  }
+}

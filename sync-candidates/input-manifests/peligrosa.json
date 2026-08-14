@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "peligrosa",
+  "mod": "esperon-dano-peligrosa",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-peligrosa/songs/peligrosa/Inst.ogg",
+    "sha256": "6d04a1495947e29eea7b82506095f95294c17e68402bdac95844f5da095501ad",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "237.122177"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-metadata.json",
+    "sha256": "c93b9cf82cf6c38f7b5aca9464c4a56363f75be251cea17d42005e49d90b88a6"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-chart.json",
+    "sha256": "2f2a2e453d8fc41acb9ff991b0f5c3cdeaa7e527c48b390926e746e43ac8e8df"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}
