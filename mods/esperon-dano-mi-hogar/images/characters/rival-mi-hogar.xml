@@ -1,8 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <TextureAtlas imagePath="rival-mi-hogar.png">
-  <SubTexture name="Idle" x="0" y="0" width="256" height="384" frameX="0" frameY="0" frameWidth="256" frameHeight="384" />
-  <SubTexture name="Left" x="256" y="0" width="256" height="384" frameX="0" frameY="0" frameWidth="256" frameHeight="384" />
-  <SubTexture name="Down" x="512" y="0" width="256" height="384" frameX="0" frameY="0" frameWidth="256" frameHeight="384" />
-  <SubTexture name="Up" x="768" y="0" width="256" height="384" frameX="0" frameY="0" frameWidth="256" frameHeight="384" />
-  <SubTexture name="Right" x="1024" y="0" width="256" height="384" frameX="0" frameY="0" frameWidth="256" frameHeight="384" />
+  <SubTexture name="Idle0" x="0" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="Idle1" x="128" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="Left0" x="256" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="Left1" x="384" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="Down0" x="512" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="Down1" x="640" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="Up0" x="768" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="Up1" x="896" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="Right0" x="1024" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="Right1" x="1152" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="LeftHold0" x="1280" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="LeftHold1" x="1408" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="DownHold0" x="1536" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="DownHold1" x="1664" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="UpHold0" x="1792" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="UpHold1" x="1920" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="RightHold0" x="2048" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
+  <SubTexture name="RightHold1" x="2176" y="0" width="128" height="192" frameX="0" frameY="0" frameWidth="128" frameHeight="192" />
 </TextureAtlas>

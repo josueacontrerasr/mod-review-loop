@@ -36,8 +36,8 @@ jobs:
       - name: Revisar ZIPs V-Slice sin tocar contenido musical
         run: python tools/auto_evolution.py --output artifacts/reports
 
-      - name: Validar note styles y HUD V2 sin tocar contenido musical
-        run: python tools/validate_visual_v2.py --output artifacts/reports/visual-v2-validation.json
+      - name: Validar charts candidatos, animaciones vocales, note styles y HUD V2 sin tocar contenido musical
+        run: python tools/validate_sync_ui_v2.py .
 
       - name: Publicar reportes de la ejecución
         if: always()
@@ -46,6 +46,8 @@ jobs:
           name: auto-evolucion-${{ github.run_id }}
           path: |
             artifacts/reports/**
+            artifacts/sync-ui-v2-validation.json
+            artifacts/ui-audit/**
             dist/esperon-dano-*.zip
           if-no-files-found: warn
           retention-days: 30
