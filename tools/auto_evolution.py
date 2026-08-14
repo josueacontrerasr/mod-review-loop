@@ -21,7 +21,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION_RE = re.compile(r"^(esperon-dano-.+)-v(\d+)\.(\d+)\.(\d+)\.zip$")
+VERSION_RE = re.compile(r"^(Mod-.+)-V(\d+\.\d+\.\d+)\.zip$")
 
 spec = importlib.util.spec_from_file_location("vslice_pipeline", ROOT / "tools" / "vslice_pipeline.py")
 if spec is None or spec.loader is None:
@@ -31,7 +31,9 @@ spec.loader.exec_module(pipeline)
 
 
 def within_cutoff() -> tuple[bool, str]:
-    raw = os.environ.get("EVOLUTION_UNTIL_CST", "2026-08-14T11:00:00-05:00")
+    raw = os.environ.get("EVOLUTION_UNTIL_CST")
+    if not raw:
+        return True, "NOT_CONFIGURED"
     cutoff = datetime.fromisoformat(raw)
     current = datetime.now(ZoneInfo("America/Chicago"))
     return current < cutoff, cutoff.isoformat()
@@ -73,11 +75,12 @@ def next_version(stem: str) -> tuple[str, str]:
     match = VERSION_RE.match(stem)
     if not match:
         raise ValueError(f"Nombre de ZIP inválido: {stem}")
-    mod, major, minor, patch = match.groups()
-    return mod, f"{int(major)}.{int(minor)}.{int(patch) + 1}"
+    mod, version = match.groups()
+    major, minor, patch = (int(part) for part in version.split("."))
+    return mod, f"{major}.{minor}.{patch + 1}"
 
 
-def audit_zip(zip_path: Path, output: Path) -> dict:
+def audit_zip(zip_path: Path, output: Path, delivery_dir: Path, history_dir: Path) -> dict:
     report: dict = {"zip": zip_path.name, "status": "PASS", "changes": [], "errors": [], "warnings": []}
     with tempfile.TemporaryDirectory(prefix="vslice-review-") as temp_dir:
         temp = Path(temp_dir)
@@ -104,10 +107,19 @@ def audit_zip(zip_path: Path, output: Path) -> dict:
                     report["final"] = final
                     if final["status"] == "PASS":
                         mod_id, version = next_version(zip_path.name)
-                        target = ROOT / "dist" / f"{mod_id}-v{version}.zip"
+                        target = delivery_dir / f"{mod_id}-V{version}.zip"
+                        delivery_dir.mkdir(parents=True, exist_ok=True)
+                        history_dir.mkdir(parents=True, exist_ok=True)
+                        if target.exists():
+                            target.unlink()
                         shutil.make_archive(str(target.with_suffix("")), "zip", root_dir=temp, base_dir=mod.name)
+                        archived = history_dir / zip_path.name
+                        if archived.exists():
+                            archived.unlink()
+                        shutil.move(str(zip_path), str(archived))
                         report["changes"] = repairs
                         report["new_zip"] = target.relative_to(ROOT).as_posix()
+                        report["archived_zip"] = archived.relative_to(ROOT).as_posix()
                         report["status"] = "REPAIRED"
                     else:
                         report["errors"].extend(final["errors"])
@@ -126,6 +138,8 @@ def audit_zip(zip_path: Path, output: Path) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", default="artifacts/reports")
+    parser.add_argument("--delivery-dir", default="Mods .zip terminados")
+    parser.add_argument("--history-dir", default="dist/historico")
     args = parser.parse_args()
     allowed, cutoff = within_cutoff()
     destination = ROOT / args.output
@@ -135,7 +149,10 @@ def main() -> int:
         (destination / "auto-evolucion-report.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(json.dumps(payload, ensure_ascii=False))
         return 0
-    reports = [audit_zip(path, destination) for path in sorted((ROOT / "dist").glob("esperon-dano-*.zip"))]
+    delivery_dir = ROOT / args.delivery_dir
+    history_dir = ROOT / args.history_dir
+    zip_paths = sorted(path for path in delivery_dir.glob("Mod-*-V*.zip") if path.name != "Mod-Esperon-Coleccion-V2.1.0.zip")
+    reports = [audit_zip(path, destination, delivery_dir, history_dir) for path in zip_paths]
     payload = {"status": "PASS" if all(item["status"] in {"PASS", "REPAIRED"} for item in reports) else "ERRORS_FOUND", "cutoff_cst": cutoff, "reports": reports, "changes_applied": [change for item in reports for change in item.get("changes", [])]}
     (destination / "auto-evolucion-report.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"status": payload["status"], "zips": len(reports), "repairs": len(payload["changes_applied"])}, ensure_ascii=False))

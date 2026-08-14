@@ -17,8 +17,7 @@ jobs:
   review:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    env:
-      EVOLUTION_UNTIL_CST: '2026-08-14T11:00:00-05:00'
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,10 +33,13 @@ jobs:
         run: python -m pip install --upgrade pip Pillow
 
       - name: Revisar ZIPs V-Slice sin tocar contenido musical
-        run: python tools/auto_evolution.py --output artifacts/reports
+        run: python tools/auto_evolution.py --delivery-dir 'Mods .zip terminados' --history-dir dist/historico --output artifacts/reports
 
       - name: Validar charts candidatos, animaciones vocales, note styles y HUD V2 sin tocar contenido musical
         run: python tools/validate_sync_ui_v2.py .
+
+      - name: Reconstruir colección solo si cambió un ZIP vigente
+        run: python tools/build_master_collection_zip.py .
 
       - name: Publicar reportes de la ejecución
         if: always()
@@ -48,7 +50,7 @@ jobs:
             artifacts/reports/**
             artifacts/sync-ui-v2-validation.json
             artifacts/ui-audit/**
-            dist/esperon-dano-*.zip
+            Mods .zip terminados/*.zip
           if-no-files-found: warn
           retention-days: 30
 
@@ -57,17 +59,19 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git add dist
+          git add -- 'Mods .zip terminados' tools/auto_evolution.py
+          # La colección grande se conserva como artifact/release; no bloquea commits por límite de blob.
+          git reset -- 'Mods .zip terminados/Mod-Esperon-Coleccion-V*.zip' 2>/dev/null || true
           if git diff --cached --quiet; then
             echo 'No hay correcciones válidas que versionar.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          mapfile -t zips < <(git diff --cached --name-only -- 'dist/esperon-dano-*.zip')
+          mapfile -t zips < <(git diff --cached --name-only -- 'Mods .zip terminados/*.zip')
           for zip in "${zips[@]}"; do
             base=$(basename "$zip" .zip)
-            if [[ "$base" =~ ^(esperon-dano-.+)-v([0-9]+\.[0-9]+\.[0-9]+)$ ]]; then
+            if [[ "$base" =~ ^(Mod-.+)-V([0-9]+\.[0-9]+\.[0-9]+)$ ]]; then
               git commit "$zip" -m "Versión ${BASH_REMATCH[2]} de ${BASH_REMATCH[1]} - revisión automática"
             fi
           done

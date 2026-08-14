@@ -56,7 +56,9 @@ def main() -> int:
             "warnings": report.get("warnings", [])
         }
         write_json(brief_path, brief)
-        destination = root / "dist" / f"{mod.name}-v{VERSION}.zip"
+        delivery = root / "Mods .zip terminados"
+        delivery.mkdir(parents=True, exist_ok=True)
+        destination = delivery / f"{mod.name}-v{VERSION}.zip"
         if destination.exists():
             destination.unlink()
         shutil.make_archive(str(destination.with_suffix("")), "zip", root_dir=mod.parent, base_dir=mod.name)

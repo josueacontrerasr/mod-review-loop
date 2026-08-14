@@ -2,8 +2,8 @@
 """Comprueba que los paquetes v2.1.0 contienen los assets Freeplay V-Slice requeridos."""
 from __future__ import annotations
 
+import argparse
 import json
-import sys
 import zipfile
 from pathlib import Path
 
@@ -16,12 +16,18 @@ def require(entries: set[str], path: str, errors: list[str]) -> None:
 
 
 def main() -> int:
-    root = Path(sys.argv[1] if len(sys.argv) > 1 else ".").resolve()
-    packages = sorted((root / "dist").glob(f"esperon-dano-*-v{VERSION}.zip"))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("root", nargs="?", default=".")
+    parser.add_argument("--delivery-dir", default="Mods .zip terminados")
+    args = parser.parse_args()
+    root = Path(args.root).resolve()
+    delivery = root / args.delivery_dir
+    packages = sorted(path for path in delivery.glob(f"Mod-*-V{VERSION}.zip") if path.name != f"Mod-Esperon-Coleccion-V{VERSION}.zip")
     reports = []
     for package in packages:
-        mod_id = package.name.removesuffix(f"-v{VERSION}.zip")
-        song = mod_id.removeprefix("esperon-dano-")
+        display_song = package.name.removesuffix(f"-V{VERSION}.zip").removeprefix("Mod-")
+        song = display_song.lower()
+        mod_id = f"esperon-dano-{song}"
         album_id = f"esperon-{song}"
         prefix = f"{mod_id}/"
         errors: list[str] = []
@@ -46,19 +52,21 @@ def main() -> int:
                     errors.append("metadata no enlaza el álbum Freeplay")
         reports.append({"package": package.name, "song": song, "status": "PASS" if not errors else "ERROR", "errors": errors})
 
-    collection = root / "dist" / f"esperon-vslice-086-collection-v{VERSION}.zip"
+    collection = delivery / f"Mod-Esperon-Coleccion-V{VERSION}.zip"
     collection_errors: list[str] = []
     if not collection.is_file():
         collection_errors.append("falta colección")
     else:
         with zipfile.ZipFile(collection) as archive:
             contents = set(archive.namelist())
+            collection_root = f"Mod-Esperon-Coleccion-V{VERSION}"
             for package in packages:
-                require(contents, package.name, collection_errors)
+                require(contents, f"{collection_root}/mods/{package.name}", collection_errors)
 
     payload = {
         "scope": "VSLICE_086_FREEPLAY_ARCHIVE_VERIFICATION",
         "version": VERSION,
+        "delivery_folder": delivery.relative_to(root).as_posix(),
         "packages": len(packages),
         "passed": sum(report["status"] == "PASS" for report in reports),
         "collection": collection.name,

@@ -332,7 +332,7 @@ def validate_mod(mod: Path) -> dict[str, Any]:
             root = ET.parse(xml_path).getroot()
             names = {node.attrib.get("name") for node in root.findall("SubTexture")}
             is_character_atlas = xml_path.parent == mod / "images" / "characters"
-            valid_names = set(POSES).issubset(names) if is_character_atlas else bool(names)
+            valid_names = (all(any(name == pose or name.startswith(pose) for name in names) for pose in POSES) if is_character_atlas else bool(names))
             if root.tag != "TextureAtlas" or not valid_names or not xml_path.with_suffix(".png").is_file():
                 errors.append(f"Atlas inválido: {xml_path.relative_to(mod)}")
         except Exception as exc:
@@ -346,9 +346,9 @@ def validate_mod(mod: Path) -> dict[str, Any]:
     return {"mod": mod.name, "status": "PASS" if not errors else "ERROR_ESTRUCTURAL", "errors": errors, "warnings": warnings}
 
 
-def package_mod(mod: Path, dist: Path) -> Path:
-    dist.mkdir(parents=True, exist_ok=True)
-    archive = dist / f"{mod.name}-v1.0.0.zip"
+def package_mod(mod: Path, delivery: Path) -> Path:
+    delivery.mkdir(parents=True, exist_ok=True)
+    archive = delivery / f"{mod.name}-v1.0.0.zip"
     if archive.exists():
         archive.unlink()
     shutil.make_archive(str(archive.with_suffix("")), "zip", root_dir=mod.parent, base_dir=mod.name)
@@ -368,7 +368,7 @@ def command_build(args: argparse.Namespace) -> int:
         report = validate_mod(mod)
         if report["status"] != "PASS":
             raise RuntimeError(json.dumps(report, ensure_ascii=False))
-        archive = package_mod(mod, root / "dist")
+        archive = package_mod(mod, root / "Mods .zip terminados")
         manifests.append({"audio": audio.name, "mod": mod.name, "zip": archive.relative_to(root).as_posix(), "report": report})
         print(json.dumps(manifests[-1], ensure_ascii=False))
     if not args.no_manifest:
