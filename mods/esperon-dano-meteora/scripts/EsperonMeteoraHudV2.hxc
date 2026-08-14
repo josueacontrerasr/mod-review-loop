@@ -1,0 +1,24 @@
+import funkin.play.PlayState;
+
+/**
+ * HUD visual V2 para Meteora.
+ * Solo recoloriza la barra de vida al inicio del conteo.
+ * No modifica audio, BPM, offsets, chart, notas ni eventos musicales.
+ */
+class EsperonMeteoraHudV2 extends Module
+{
+  function new()
+  {
+    super("Esperón HUD — Meteora", 1, {state: PlayState});
+  }
+
+  override function onCountdownStart(event)
+  {
+    super.onCountdownStart(event);
+    if (PlayState.instance == null || PlayState.instance.healthBar == null) return;
+    if (PlayState.instance.iconP1 == null) return;
+    if (PlayState.instance.iconP1.characterId != "esperon-meteora") return;
+    PlayState.instance.healthBar.createFilledBar(0xFF5C65E4, 0xFFFF7546);
+    PlayState.instance.healthBar.updateBar();
+  }
+}

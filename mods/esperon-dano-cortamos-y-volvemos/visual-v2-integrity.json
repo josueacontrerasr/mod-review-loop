@@ -8,5 +8,14 @@
     "chart_sha256": "e0e2dd1e8572ba8c826a84f1d0a437f6d929bd1e87fb0c08a90acdcd6ee16891",
     "inst_sha256": "971cb444926f259fb3ff49f79c95d2d3dd873002c3d4f8cefd05fe13b7c14255"
   },
-  "status": "PASS_NO_MUSICAL_DATA_CHANGED"
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonCortamosYVolvemosHudV2.hxc",
+    "class": "EsperonCortamosYVolvemosHudV2",
+    "player_character_id": "esperon-cortamos-y-volvemos",
+    "opponent_color": "0xFF529AC2",
+    "player_color": "0xFFDD5849",
+    "preview": "images/ui/esperon-cortamos-y-volvemos-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
 }

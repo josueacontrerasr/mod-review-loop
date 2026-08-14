@@ -8,5 +8,14 @@
     "chart_sha256": "704ded9533d525fcdba66666f826dbc545171eabd5e25c26edfbee907b0b897e",
     "inst_sha256": "2aa5c4a389ae25e3d6ed054d54037e42e26433b50e2f9265a8d8fac083bdbc91"
   },
-  "status": "PASS_NO_MUSICAL_DATA_CHANGED"
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonFangoHudV2.hxc",
+    "class": "EsperonFangoHudV2",
+    "player_character_id": "esperon-fango",
+    "opponent_color": "0xFFCDA84C",
+    "player_color": "0xFF6F9748",
+    "preview": "images/ui/esperon-fango-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
 }

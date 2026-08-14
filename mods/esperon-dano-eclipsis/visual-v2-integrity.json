@@ -8,5 +8,14 @@
     "chart_sha256": "775e6dc8f2765c98b93f1cc1bf418f9b0699c038b5f9a3d0e159529b15fcd15a",
     "inst_sha256": "91846ef3394e6fc1a070b36defa46305f3bb0885641158db773e7c38fe62cdb1"
   },
-  "status": "PASS_NO_MUSICAL_DATA_CHANGED"
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonEclipsisHudV2.hxc",
+    "class": "EsperonEclipsisHudV2",
+    "player_character_id": "esperon-eclipsis",
+    "opponent_color": "0xFFF7A94F",
+    "player_color": "0xFF9060D1",
+    "preview": "images/ui/esperon-eclipsis-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
 }

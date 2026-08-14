@@ -8,5 +8,14 @@
     "chart_sha256": "1e47df76831a108ac35203d309be1321112edfc3355b30b1e8000c118cae597f",
     "inst_sha256": "5f7a2b1282f04efc439d0ed7de03bb546fda48fea1fd6b31bb04357e1a95f136"
   },
-  "status": "PASS_NO_MUSICAL_DATA_CHANGED"
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonMiHogarHudV2.hxc",
+    "class": "EsperonMiHogarHudV2",
+    "player_character_id": "esperon-mi-hogar",
+    "opponent_color": "0xFF7FBEA2",
+    "player_color": "0xFFEE8F4D",
+    "preview": "images/ui/esperon-mi-hogar-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
 }
