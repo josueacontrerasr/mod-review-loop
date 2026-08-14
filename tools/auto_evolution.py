@@ -151,7 +151,7 @@ def main() -> int:
         return 0
     delivery_dir = ROOT / args.delivery_dir
     history_dir = ROOT / args.history_dir
-    zip_paths = sorted(path for path in delivery_dir.glob("Mod-*-V*.zip") if path.name != "Mod-Esperon-Coleccion-V2.1.0.zip")
+    zip_paths = sorted(path for path in delivery_dir.glob("Mod-*-V*.zip") if not path.name.startswith("Mod-Esperon-Coleccion-V"))
     reports = [audit_zip(path, destination, delivery_dir, history_dir) for path in zip_paths]
     payload = {"status": "PASS" if all(item["status"] in {"PASS", "REPAIRED"} for item in reports) else "ERRORS_FOUND", "cutoff_cst": cutoff, "reports": reports, "changes_applied": [change for item in reports for change in item.get("changes", [])]}
     (destination / "auto-evolucion-report.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
