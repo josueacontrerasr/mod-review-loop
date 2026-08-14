@@ -331,7 +331,9 @@ def validate_mod(mod: Path) -> dict[str, Any]:
         try:
             root = ET.parse(xml_path).getroot()
             names = {node.attrib.get("name") for node in root.findall("SubTexture")}
-            if root.tag != "TextureAtlas" or not set(POSES).issubset(names) or not xml_path.with_suffix(".png").is_file():
+            is_character_atlas = xml_path.parent == mod / "images" / "characters"
+            valid_names = set(POSES).issubset(names) if is_character_atlas else bool(names)
+            if root.tag != "TextureAtlas" or not valid_names or not xml_path.with_suffix(".png").is_file():
                 errors.append(f"Atlas inválido: {xml_path.relative_to(mod)}")
         except Exception as exc:
             errors.append(f"XML inválido: {xml_path.relative_to(mod)} ({exc})")
