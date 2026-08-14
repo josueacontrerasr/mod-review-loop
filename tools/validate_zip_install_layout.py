@@ -49,7 +49,7 @@ def validate_package(path: Path) -> dict:
             errors.append(f"raíz inesperada={root}")
         prefix = root + "/"
         require(names, prefix + "_polymod_meta.json", errors)
-        allowed_root_files = {"_polymod_meta.json"}
+        allowed_root_files = {"_polymod_meta.json", "_polymod_icon.png", "_polymod_icon.astc"}
         for info in archive.infolist():
             raw_name = info.filename.rstrip("/")
             if not raw_name.startswith(prefix):

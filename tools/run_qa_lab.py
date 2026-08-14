@@ -189,7 +189,7 @@ def zip_checks(root: Path, mod: Path) -> list[dict]:
                     basename = name.rsplit("/", 1)[-1]
                     if basename in forbidden or any(token in name.split("/") for token in ("qa-lab", "artifacts", "previews", "reports", "logs")):
                         issues.append(problem("ZIP_RUNTIME_AUXILIARY", "high", archive, f"Archivo auxiliar dentro del ZIP: {name}"))
-                    if "/" not in relative and basename != "_polymod_meta.json" and not basename.endswith(".hxc"):
+                    if "/" not in relative and basename not in {"_polymod_meta.json", "_polymod_icon.png", "_polymod_icon.astc"} and not basename.endswith(".hxc"):
                         issues.append(problem("ZIP_ROOT_AUXILIARY", "high", archive, f"Archivo inesperado en raíz runtime: {name}"))
         except zipfile.BadZipFile as exc:
             issues.append(problem("ZIP_INVALID", "high", archive, str(exc)))

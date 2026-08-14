@@ -1,0 +1,142 @@
+{
+  "audit": "TODO_MASS_TO_V220_PATTERN_COMPARISON",
+  "read_only": true,
+  "todo": {
+    "direct_candidates": 13,
+    "manifest_mods": 12,
+    "non_mod_candidates": 1,
+    "api_versions": {
+      "0.8.4": 9,
+      "0.8.5": 3
+    },
+    "root_files_frequency": {
+      "_polymod_meta.json": 12,
+      "data": 11,
+      "scripts": 9,
+      "_polymod_icon.astc": 1,
+      "events": 1,
+      "flash-files": 1,
+      "fonts": 2,
+      "images": 11,
+      "music": 2,
+      "shaders": 3,
+      "shared": 8,
+      "songs": 9,
+      "sounds": 2,
+      "videos": 3,
+      "NoteKindsHandler.hxc": 1,
+      "extraEventsSaveHandler.hxc": 1,
+      "flash files": 1,
+      "SickAltAnim.hxc": 1,
+      "_polymod_icon.png": 5,
+      "BadAppleEvent.hxc": 1,
+      "LICENSE": 1,
+      "README.md": 1
+    },
+    "root_directories_frequency": {
+      "data": 11,
+      "scripts": 9,
+      "events": 1,
+      "flash-files": 1,
+      "fonts": 2,
+      "images": 11,
+      "music": 2,
+      "shaders": 3,
+      "shared": 8,
+      "songs": 9,
+      "sounds": 2,
+      "videos": 3,
+      "flash files": 1
+    },
+    "nested_txt_or_markdown_count": 12,
+    "nested_txt_or_markdown_locations": [
+      [
+        "TODO/KAPI MIX V2 1.1 [OPT MOBILE]",
+        "shared/images/kapiv2/dvd.txt"
+      ],
+      [
+        "TODO/poppyplaytime",
+        "music/readme.txt"
+      ],
+      [
+        "TODO/poppyplaytime",
+        "shared/images/characters/readme.txt"
+      ],
+      [
+        "TODO/poppyplaytime",
+        "sounds/readme.txt"
+      ],
+      [
+        "TODO/telepatia",
+        "images/fonts/some fonts.txt"
+      ],
+      [
+        "TODO/telepatia",
+        "images/freeplay/icons/Your freeplay icons here!.txt"
+      ],
+      [
+        "TODO/telepatia",
+        "images/icons/Your Character icon here.txt"
+      ],
+      [
+        "TODO/telepatia",
+        "images/soundtray/your volume shitty sprites idk.txt"
+      ],
+      [
+        "TODO/telepatia",
+        "shared/images/characters/Your XML and PNG characters here.txt"
+      ],
+      [
+        "TODO/telepatia",
+        "shared/images/freeplay/icons/Your freeplay icons here!.txt"
+      ],
+      [
+        "TODO/telepatia",
+        "shared/images/transitionSwag/stickers-set-1/Your stickers here.txt"
+      ],
+      [
+        "TODO/v-slice_timebar_132",
+        "README.md"
+      ]
+    ],
+    "non_mod_candidates_detail": [
+      {
+        "candidate": "TODO/Xonada V-SLICE PORT By XxAxemxX",
+        "root_files": [
+          "images",
+          "shared",
+          "songs"
+        ],
+        "root_dirs": [
+          "images",
+          "shared",
+          "songs"
+        ],
+        "file_count": 23
+      }
+    ]
+  },
+  "v220": {
+    "individual_zip_count": 20,
+    "root_file_frequency": {
+      "_polymod_meta.json": 20
+    },
+    "root_text_file_count": 0,
+    "auxiliary_path_count": 0,
+    "runtime_root_policy": [
+      "_polymod_meta.json"
+    ],
+    "all_have_required_runtime_dirs_by_observed_paths": true,
+    "all_have_single_root": true,
+    "all_have_crc": true
+  },
+  "comparison": {
+    "TODO_is_mass_container_not_single_mod": true,
+    "V220_matches_runtime_root_manifest_policy": true,
+    "V220_has_no_root_text_or_aux_files": true,
+    "TODO_text_files_are_optional_placeholders_or_documentation": true,
+    "api_difference_is_version_age_not_layout_failure": true,
+    "status": "PASS_NO_MOD_CHANGES_REQUIRED"
+  },
+  "conclusion": "TODO.zip contiene 12 mods con manifiesto y 1 candidato sin manifiesto; no es un único patrón de mod. Sus 12 archivos TXT/MD son placeholders o documentación opcional en subcarpetas; uno es README.md de un mod utilitario. Los 20 V2.2.0 siguen un subconjunto runtime más limpio y coherente con las referencias: una raíz, _polymod_meta.json, data/images/songs y assets/scripts según proceda. No se requiere modificar los mods por esta comparación."
+}

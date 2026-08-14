@@ -11,6 +11,7 @@ REFS = [
     Path('/home/ubuntu/upload/v-slice_yo_la_conoci_en_un_taxi.zip'),
     Path('/home/ubuntu/upload/tse_disable_shader_v25.zip'),
     Path('/home/ubuntu/upload/its-been-so-long.zip'),
+    Path('/home/ubuntu/upload/TODO.zip'),
 ]
 PROD = Path('/home/ubuntu/mod-review-loop-production')
 DELIVERY = PROD / 'Mods .zip terminados'
@@ -114,6 +115,7 @@ def main() -> int:
         'target': 'FNF Mobile V-Slice 0.8.6',
         'read_only': True,
         'reference_count': len(refs_results),
+        'reference_mass_zip': '/home/ubuntu/upload/TODO.zip',
         'current_individual_count': len(current_results),
         'collection_count': len(collection_results),
         'reference_common_root_files': common_ref_root_files,
@@ -124,7 +126,7 @@ def main() -> int:
         'reference_root_counts': {item['name']: item.get('root_count') for item in refs_results},
         'current_root_counts': {item['name']: item.get('root_count') for item in current_results},
         'results': results,
-        'status': 'PASS_READ_ONLY' if len(refs_results) == 3 and len(current_results) == 20 and all(item['status'] == 'PASS' for item in results) else 'STRUCTURE_REVIEW_REQUIRED',
+        'status': 'PASS_READ_ONLY' if len(refs_results) == 4 and len(current_results) == 20 and all(item['status'] == 'PASS' for item in results) else 'STRUCTURE_REVIEW_REQUIRED',
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
