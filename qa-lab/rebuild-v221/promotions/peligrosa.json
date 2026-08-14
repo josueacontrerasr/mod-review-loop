@@ -1,0 +1,67 @@
+{
+  "status": "PROMOTED_WITH_REVIEW_REQUIRED",
+  "song": "peligrosa",
+  "mod": "esperon-dano-peligrosa",
+  "before": {
+    "metadata_sha256": "6d8a2a2f46b0f4adb528be9b7ac9ea25c050b69d6e2548f0d9347e3b54dd9ba0",
+    "chart_sha256": "2f2a2e453d8fc41acb9ff991b0f5c3cdeaa7e527c48b390926e746e43ac8e8df",
+    "inst_sha256": "6d04a1495947e29eea7b82506095f95294c17e68402bdac95844f5da095501ad",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "237.122177"
+      }
+    }
+  },
+  "after": {
+    "metadata_sha256": "e3093924f001b83bef78b434ba227d242d4bbe617d410b097b5fa7424b1312d1",
+    "chart_sha256": "d612df150771bce89ed019cbf009ceb54eff4b0eaf1f32ceb376dcb9a0746774",
+    "inst_sha256": "eedc916dbadc5510a2044521a081f476dfba9cb12f5bd2aa08552b819e1eb4a3",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "237.122177"
+      }
+    },
+    "voices_sha256": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf",
+    "voices_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "237.122177"
+      }
+    }
+  },
+  "evidence": {
+    "vocal_stem": "sync-candidates/vocal-stems/peligrosa/vocals.wav",
+    "no_vocals": "sync-candidates/vocal-stems/peligrosa/demucs-work/htdemucs/Esperón  Peligrosa/no_vocals.wav",
+    "isolated_chart": "sync-candidates/voice-aligned-charts/peligrosa/peligrosa-chart.json",
+    "cross_validation": "qa-lab/rebuild-v221/cross-validation-candidate-summary.json",
+    "reconstruction_audit": "qa-lab/rebuild-v221/demucs-reconstruction-audit.json"
+  },
+  "guarantees": [
+    "No BPM or offset values were changed by this promotion.",
+    "All notes remain on player directions 4..7.",
+    "Audio Sync Test and mobile playtest are still required for a human PASS."
+  ]
+}

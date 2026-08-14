@@ -1,0 +1,67 @@
+{
+  "status": "PROMOTED_WITH_REVIEW_REQUIRED",
+  "song": "maraton-de-peliculas",
+  "mod": "esperon-dano-maraton-de-peliculas",
+  "before": {
+    "metadata_sha256": "9234100bd45ccf8400236f4de16e0511882e2f199b1ae22a5ef2f0b320654ac3",
+    "chart_sha256": "851a76b36209895a5999abea9d31c9ed9419ba7733edb2b999a25ac6785f3522",
+    "inst_sha256": "fe40584d050dcdac69eecf89a5b062a7568b2c83984037207ce3efbf5a66c79d",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "231.270748"
+      }
+    }
+  },
+  "after": {
+    "metadata_sha256": "be16756c42c97d2b4863ac58d61f2cd6323ccbaa0a15e2a7f821bbfd76edee9a",
+    "chart_sha256": "da1666bb06ef1826639edf69e35ffeae0d529f0930a9e1a78022a92530d0b070",
+    "inst_sha256": "f4347aa912ef3419bb38edc14e43866223b2ea069071b449dae7d6bde8d0eb6a",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "231.270748"
+      }
+    },
+    "voices_sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29",
+    "voices_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "231.270748"
+      }
+    }
+  },
+  "evidence": {
+    "vocal_stem": "sync-candidates/vocal-stems/maraton-de-peliculas/vocals.wav",
+    "no_vocals": "sync-candidates/vocal-stems/maraton-de-peliculas/demucs-work/htdemucs/Esperón  Maratón de Películas/no_vocals.wav",
+    "isolated_chart": "sync-candidates/voice-aligned-charts/maraton-de-peliculas/maraton-de-peliculas-chart.json",
+    "cross_validation": "qa-lab/rebuild-v221/cross-validation-candidate-summary.json",
+    "reconstruction_audit": "qa-lab/rebuild-v221/demucs-reconstruction-audit.json"
+  },
+  "guarantees": [
+    "No BPM or offset values were changed by this promotion.",
+    "All notes remain on player directions 4..7.",
+    "Audio Sync Test and mobile playtest are still required for a human PASS."
+  ]
+}

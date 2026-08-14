@@ -1,0 +1,372 @@
+{
+  "status": "PASS",
+  "songs": 20,
+  "detector": "analyze_vocal_activity.py",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "independent_onsets": 445,
+      "production_notes": 154,
+      "candidate_notes": 85,
+      "production": {
+        "match120_pct": 58.442,
+        "median_ms": 69.66,
+        "p90_ms": 601.397,
+        "max_ms": 3088.254
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "independent_onsets": 696,
+      "production_notes": 170,
+      "candidate_notes": 200,
+      "production": {
+        "match120_pct": 71.176,
+        "median_ms": 69.66,
+        "p90_ms": 198.531,
+        "max_ms": 684.989
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "dano",
+      "independent_onsets": 808,
+      "production_notes": 209,
+      "candidate_notes": 220,
+      "production": {
+        "match120_pct": 72.727,
+        "median_ms": 46.44,
+        "p90_ms": 292.572,
+        "max_ms": 1300.318
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "independent_onsets": 594,
+      "production_notes": 195,
+      "candidate_notes": 189,
+      "production": {
+        "match120_pct": 49.744,
+        "median_ms": 127.71,
+        "p90_ms": 1530.195,
+        "max_ms": 12550.385
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "eclipsis",
+      "independent_onsets": 502,
+      "production_notes": 188,
+      "candidate_notes": 119,
+      "production": {
+        "match120_pct": 52.128,
+        "median_ms": 116.1,
+        "p90_ms": 676.861,
+        "max_ms": 5967.528
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "fango",
+      "independent_onsets": 457,
+      "production_notes": 118,
+      "candidate_notes": 141,
+      "production": {
+        "match120_pct": 50.0,
+        "median_ms": 121.905,
+        "p90_ms": 327.401,
+        "max_ms": 1683.447
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "luma",
+      "independent_onsets": 450,
+      "production_notes": 178,
+      "candidate_notes": 96,
+      "production": {
+        "match120_pct": 59.551,
+        "median_ms": 81.269,
+        "p90_ms": 579.338,
+        "max_ms": 2565.805
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "independent_onsets": 653,
+      "production_notes": 231,
+      "candidate_notes": 119,
+      "production": {
+        "match120_pct": 70.996,
+        "median_ms": 11.61,
+        "p90_ms": 243.809,
+        "max_ms": 615.329
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "independent_onsets": 332,
+      "production_notes": 127,
+      "candidate_notes": 109,
+      "production": {
+        "match120_pct": 52.756,
+        "median_ms": 104.49,
+        "p90_ms": 457.433,
+        "max_ms": 3541.044
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "meteora",
+      "independent_onsets": 416,
+      "production_notes": 198,
+      "candidate_notes": 72,
+      "production": {
+        "match120_pct": 40.909,
+        "median_ms": 168.344,
+        "p90_ms": 743.039,
+        "max_ms": 11772.517
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "independent_onsets": 342,
+      "production_notes": 131,
+      "candidate_notes": 129,
+      "production": {
+        "match120_pct": 51.908,
+        "median_ms": 116.099,
+        "p90_ms": 2519.365,
+        "max_ms": 7047.256
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "nubia",
+      "independent_onsets": 442,
+      "production_notes": 149,
+      "candidate_notes": 111,
+      "production": {
+        "match120_pct": 55.705,
+        "median_ms": 81.27,
+        "p90_ms": 824.308,
+        "max_ms": 1428.027
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "independent_onsets": 490,
+      "production_notes": 119,
+      "candidate_notes": 132,
+      "production": {
+        "match120_pct": 68.908,
+        "median_ms": 58.05,
+        "p90_ms": 301.859,
+        "max_ms": 580.499
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "peligrosa",
+      "independent_onsets": 757,
+      "production_notes": 229,
+      "candidate_notes": 197,
+      "production": {
+        "match120_pct": 64.629,
+        "median_ms": 69.66,
+        "p90_ms": 633.904,
+        "max_ms": 8870.023
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "independent_onsets": 544,
+      "production_notes": 190,
+      "candidate_notes": 103,
+      "production": {
+        "match120_pct": 63.684,
+        "median_ms": 23.22,
+        "p90_ms": 314.631,
+        "max_ms": 719.819
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "solare",
+      "independent_onsets": 628,
+      "production_notes": 307,
+      "candidate_notes": 119,
+      "production": {
+        "match120_pct": 95.114,
+        "median_ms": 0.0,
+        "p90_ms": 34.83,
+        "max_ms": 383.13
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "tristella",
+      "independent_onsets": 487,
+      "production_notes": 215,
+      "candidate_notes": 127,
+      "production": {
+        "match120_pct": 56.279,
+        "median_ms": 92.88,
+        "p90_ms": 390.095,
+        "max_ms": 6478.368
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "independent_onsets": 582,
+      "production_notes": 118,
+      "candidate_notes": 186,
+      "production": {
+        "match120_pct": 61.864,
+        "median_ms": 81.27,
+        "p90_ms": 421.442,
+        "max_ms": 1625.397
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "independent_onsets": 411,
+      "production_notes": 95,
+      "candidate_notes": 69,
+      "production": {
+        "match120_pct": 49.474,
+        "median_ms": 127.71,
+        "p90_ms": 1019.356,
+        "max_ms": 4876.19
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "independent_onsets": 479,
+      "production_notes": 155,
+      "candidate_notes": 75,
+      "production": {
+        "match120_pct": 38.71,
+        "median_ms": 162.54,
+        "p90_ms": 3411.011,
+        "max_ms": 10240.0
+      },
+      "candidate": {
+        "match120_pct": 100.0,
+        "median_ms": 0.0,
+        "p90_ms": 0.0,
+        "max_ms": 0.0
+      }
+    }
+  ],
+  "limitations": [
+    "Onsets independientes siguen siendo candidatos y no identifican sílabas/personajes.",
+    "No sustituye Audio Sync Test ni playtest móvil.",
+    "No se modificó producción."
+  ]
+}

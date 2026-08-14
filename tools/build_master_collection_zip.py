@@ -8,7 +8,7 @@ import sys
 import zipfile
 from pathlib import Path
 
-VERSION = "2.2.0"
+VERSION = "2.2.1"
 COLLECTION = f"Mod-Esperon-Coleccion-V{VERSION}"
 
 
@@ -41,7 +41,7 @@ def main() -> int:
             "synchronization_conclusion": audit.get("synchronization_conclusion", "REQUIRES_HUMAN_REVIEW")
         }
     }
-    readme = """# Colección Esperón — Mods FNF Mobile V-Slice v2.2.0
+    readme = """# Colección Esperón — Mods FNF Mobile V-Slice v2.2.1
 
 Este archivo contiene los 20 ZIPs individuales instalables. Extrae **solo un ZIP individual** directamente en la carpeta `mods/` de FNF Mobile V-Slice 0.8.6, o extrae todos si deseas instalar la colección completa.
 

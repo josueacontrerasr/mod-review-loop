@@ -1,0 +1,67 @@
+{
+  "status": "PROMOTED_WITH_REVIEW_REQUIRED",
+  "song": "arcoloria",
+  "mod": "esperon-dano-arcoloria",
+  "before": {
+    "metadata_sha256": "00b40aab02c9803d40d30781dc9ac1dd8a306df6ec1b3db5e500b6198e249aa2",
+    "chart_sha256": "a66835c3b7c206d4c1988df45a98439893945e77d759e610f021d0f3c01568d4",
+    "inst_sha256": "6f5ae49728c0bf5962b80d12c0ae6ff1c6221add55094af07baf146457277645",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "212.834104"
+      }
+    }
+  },
+  "after": {
+    "metadata_sha256": "6c0b0cf985236c2d21797d16490509bca4d34e339993c946f94fd65d2c2e3818",
+    "chart_sha256": "f44c70f7a62ade9e28964d9280f21784a0582a37993e4713ca0551605d28175c",
+    "inst_sha256": "c9d6043842dbfb735102809f4d9860263249f2915703c74b2539b09421763437",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "212.834104"
+      }
+    },
+    "voices_sha256": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282",
+    "voices_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "212.834104"
+      }
+    }
+  },
+  "evidence": {
+    "vocal_stem": "sync-candidates/vocal-stems/arcoloria/vocals.wav",
+    "no_vocals": "sync-candidates/vocal-stems/arcoloria/demucs-work/htdemucs/Esperón  Arcoloria (Letra)/no_vocals.wav",
+    "isolated_chart": "sync-candidates/voice-aligned-charts/arcoloria/arcoloria-chart.json",
+    "cross_validation": "qa-lab/rebuild-v221/cross-validation-candidate-summary.json",
+    "reconstruction_audit": "qa-lab/rebuild-v221/demucs-reconstruction-audit.json"
+  },
+  "guarantees": [
+    "No BPM or offset values were changed by this promotion.",
+    "All notes remain on player directions 4..7.",
+    "Audio Sync Test and mobile playtest are still required for a human PASS."
+  ]
+}

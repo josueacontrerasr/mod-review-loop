@@ -1,0 +1,67 @@
+{
+  "status": "PROMOTED_WITH_REVIEW_REQUIRED",
+  "song": "tu-dealer-de-nostalgia",
+  "mod": "esperon-dano-tu-dealer-de-nostalgia",
+  "before": {
+    "metadata_sha256": "88591a04babd30e9fbf13cd701b47634147b619dcce409b54878747742312a54",
+    "chart_sha256": "a20fe90c187e3979b4b852fbe877985edd397c8d1b406499e4a50632b6642dc8",
+    "inst_sha256": "7feba08bdbda9b6f0a96734d56ee91cce0e906930dc243dc4cfadfde57b420e6",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "201.224127"
+      }
+    }
+  },
+  "after": {
+    "metadata_sha256": "b3389f6e19be0de4281facf7c7abae4635ff2b3b7e2326de67d485afa48939ae",
+    "chart_sha256": "0cbdb4ec004f8de932823142c55464a7ae15afc7f763b130f520ffb60d32b30c",
+    "inst_sha256": "e9685a8b77720f30e7f93a39b58ccfa295ba195fbcca2a22ab80765b27dee981",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "201.224127"
+      }
+    },
+    "voices_sha256": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f",
+    "voices_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "201.224127"
+      }
+    }
+  },
+  "evidence": {
+    "vocal_stem": "sync-candidates/vocal-stems/tu-dealer-de-nostalgia/vocals.wav",
+    "no_vocals": "sync-candidates/vocal-stems/tu-dealer-de-nostalgia/demucs-work/htdemucs/Esperón  Tu Dealer de Nostalgia (LETRA)/no_vocals.wav",
+    "isolated_chart": "sync-candidates/voice-aligned-charts/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json",
+    "cross_validation": "qa-lab/rebuild-v221/cross-validation-candidate-summary.json",
+    "reconstruction_audit": "qa-lab/rebuild-v221/demucs-reconstruction-audit.json"
+  },
+  "guarantees": [
+    "No BPM or offset values were changed by this promotion.",
+    "All notes remain on player directions 4..7.",
+    "Audio Sync Test and mobile playtest are still required for a human PASS."
+  ]
+}

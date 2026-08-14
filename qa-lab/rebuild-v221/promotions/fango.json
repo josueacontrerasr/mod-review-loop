@@ -1,0 +1,67 @@
+{
+  "status": "PROMOTED_WITH_REVIEW_REQUIRED",
+  "song": "fango",
+  "mod": "esperon-dano-fango",
+  "before": {
+    "metadata_sha256": "15d86a8fb1bef5b7b95d506d42097d52988dfb06cde916b0c6ef9fdd0a01aa7a",
+    "chart_sha256": "399afba2cf4e18b94e2b0756b185be42106483bf6ed9afce758fabf716797291",
+    "inst_sha256": "2aa5c4a389ae25e3d6ed054d54037e42e26433b50e2f9265a8d8fac083bdbc91",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "210.697868"
+      }
+    }
+  },
+  "after": {
+    "metadata_sha256": "3f73b5cd68a9502da0ecadcbed19ea1684030101ea313232bf38f87048e76370",
+    "chart_sha256": "83e830cf6ffb6f3f9e6cbf1692fa9d6420ce02fca392cb6c30e0b863b4f07076",
+    "inst_sha256": "40a0f3d26913562278893293d0f679b587c9b803be704573eafc79140060e628",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "210.697868"
+      }
+    },
+    "voices_sha256": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595",
+    "voices_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "210.697868"
+      }
+    }
+  },
+  "evidence": {
+    "vocal_stem": "sync-candidates/vocal-stems/fango/vocals.wav",
+    "no_vocals": "sync-candidates/vocal-stems/fango/demucs-work/htdemucs/Esperón  Fango/no_vocals.wav",
+    "isolated_chart": "sync-candidates/voice-aligned-charts/fango/fango-chart.json",
+    "cross_validation": "qa-lab/rebuild-v221/cross-validation-candidate-summary.json",
+    "reconstruction_audit": "qa-lab/rebuild-v221/demucs-reconstruction-audit.json"
+  },
+  "guarantees": [
+    "No BPM or offset values were changed by this promotion.",
+    "All notes remain on player directions 4..7.",
+    "Audio Sync Test and mobile playtest are still required for a human PASS."
+  ]
+}

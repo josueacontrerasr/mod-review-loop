@@ -50,6 +50,12 @@ jobs:
             artifacts/reports/**
             artifacts/sync-ui-v2-validation.json
             artifacts/ui-audit/**
+            qa-lab/rebuild-v221/**
+            sync-candidates/chart-vocal-comparisons/**
+            sync-candidates/chart-vocal-candidate-comparisons/**
+            sync-candidates/voice-aligned-charts/**
+            sync-candidates/vocal-activity/**
+            sync-candidates/vocal-stems/*/stem-evidence.json
             Mods .zip terminados/*.zip
           if-no-files-found: warn
           retention-days: 30

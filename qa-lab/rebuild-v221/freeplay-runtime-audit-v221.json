@@ -1,0 +1,1870 @@
+{
+  "audit": "FREEPLAY_RUNTIME_V221",
+  "target": "FNF Mobile V-Slice 0.8.6",
+  "mods": 20,
+  "passed": 20,
+  "errors": 0,
+  "status": "PASS",
+  "reports": [
+    {
+      "mod": "esperon-dano-arcoloria",
+      "song": "arcoloria",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-arcoloria",
+        "art_asset": "freeplay/albums/esperon-arcoloria-art",
+        "art_png": "images/freeplay/albums/esperon-arcoloria-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-arcoloria-title",
+          "png": "images/freeplay/albums/esperon-arcoloria-title.png",
+          "xml": "images/freeplay/albums/esperon-arcoloria-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-arcoloria",
+          "assetPath": "shared:characters/esperon-arcoloria",
+          "png": "shared/images/characters/esperon-arcoloria.png",
+          "xml": "shared/images/characters/esperon-arcoloria.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-arcoloria",
+          "assetPath": "shared:characters/rival-arcoloria",
+          "png": "shared/images/characters/rival-arcoloria.png",
+          "xml": "shared/images/characters/rival-arcoloria.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-arcoloria",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-arcoloria",
+            "png": "shared/images/stages/escenario-arcoloria.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-arcoloria.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-cortamos-y-volvemos",
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-cortamos-y-volvemos",
+        "art_asset": "freeplay/albums/esperon-cortamos-y-volvemos-art",
+        "art_png": "images/freeplay/albums/esperon-cortamos-y-volvemos-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-cortamos-y-volvemos-title",
+          "png": "images/freeplay/albums/esperon-cortamos-y-volvemos-title.png",
+          "xml": "images/freeplay/albums/esperon-cortamos-y-volvemos-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-cortamos-y-volvemos",
+          "assetPath": "shared:characters/esperon-cortamos-y-volvemos",
+          "png": "shared/images/characters/esperon-cortamos-y-volvemos.png",
+          "xml": "shared/images/characters/esperon-cortamos-y-volvemos.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-cortamos-y-volvemos",
+          "assetPath": "shared:characters/rival-cortamos-y-volvemos",
+          "png": "shared/images/characters/rival-cortamos-y-volvemos.png",
+          "xml": "shared/images/characters/rival-cortamos-y-volvemos.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-cortamos-y-volvemos",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-cortamos-y-volvemos",
+            "png": "shared/images/stages/escenario-cortamos-y-volvemos.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-cortamos-y-volvemos.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-dano",
+      "song": "dano",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-dano",
+        "art_asset": "freeplay/albums/esperon-dano-art",
+        "art_png": "images/freeplay/albums/esperon-dano-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-dano-title",
+          "png": "images/freeplay/albums/esperon-dano-title.png",
+          "xml": "images/freeplay/albums/esperon-dano-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-dano",
+          "assetPath": "shared:characters/esperon-dano",
+          "png": "shared/images/characters/esperon-dano.png",
+          "xml": "shared/images/characters/esperon-dano.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-dano",
+          "assetPath": "shared:characters/rival-dano",
+          "png": "shared/images/characters/rival-dano.png",
+          "xml": "shared/images/characters/rival-dano.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-dano",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-dano",
+            "png": "shared/images/stages/escenario-dano.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-dano.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-dias-magicos",
+      "song": "dias-magicos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-dias-magicos",
+        "art_asset": "freeplay/albums/esperon-dias-magicos-art",
+        "art_png": "images/freeplay/albums/esperon-dias-magicos-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-dias-magicos-title",
+          "png": "images/freeplay/albums/esperon-dias-magicos-title.png",
+          "xml": "images/freeplay/albums/esperon-dias-magicos-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-dias-magicos",
+          "assetPath": "shared:characters/esperon-dias-magicos",
+          "png": "shared/images/characters/esperon-dias-magicos.png",
+          "xml": "shared/images/characters/esperon-dias-magicos.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-dias-magicos",
+          "assetPath": "shared:characters/rival-dias-magicos",
+          "png": "shared/images/characters/rival-dias-magicos.png",
+          "xml": "shared/images/characters/rival-dias-magicos.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-dias-magicos",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-dias-magicos",
+            "png": "shared/images/stages/escenario-dias-magicos.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-dias-magicos.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-eclipsis",
+      "song": "eclipsis",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-eclipsis",
+        "art_asset": "freeplay/albums/esperon-eclipsis-art",
+        "art_png": "images/freeplay/albums/esperon-eclipsis-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-eclipsis-title",
+          "png": "images/freeplay/albums/esperon-eclipsis-title.png",
+          "xml": "images/freeplay/albums/esperon-eclipsis-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-eclipsis",
+          "assetPath": "shared:characters/esperon-eclipsis",
+          "png": "shared/images/characters/esperon-eclipsis.png",
+          "xml": "shared/images/characters/esperon-eclipsis.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-eclipsis",
+          "assetPath": "shared:characters/rival-eclipsis",
+          "png": "shared/images/characters/rival-eclipsis.png",
+          "xml": "shared/images/characters/rival-eclipsis.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-eclipsis",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-eclipsis",
+            "png": "shared/images/stages/escenario-eclipsis.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-eclipsis.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-fango",
+      "song": "fango",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-fango",
+        "art_asset": "freeplay/albums/esperon-fango-art",
+        "art_png": "images/freeplay/albums/esperon-fango-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-fango-title",
+          "png": "images/freeplay/albums/esperon-fango-title.png",
+          "xml": "images/freeplay/albums/esperon-fango-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-fango",
+          "assetPath": "shared:characters/esperon-fango",
+          "png": "shared/images/characters/esperon-fango.png",
+          "xml": "shared/images/characters/esperon-fango.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-fango",
+          "assetPath": "shared:characters/rival-fango",
+          "png": "shared/images/characters/rival-fango.png",
+          "xml": "shared/images/characters/rival-fango.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-fango",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-fango",
+            "png": "shared/images/stages/escenario-fango.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-fango.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-luma",
+      "song": "luma",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-luma",
+        "art_asset": "freeplay/albums/esperon-luma-art",
+        "art_png": "images/freeplay/albums/esperon-luma-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-luma-title",
+          "png": "images/freeplay/albums/esperon-luma-title.png",
+          "xml": "images/freeplay/albums/esperon-luma-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-luma",
+          "assetPath": "shared:characters/esperon-luma",
+          "png": "shared/images/characters/esperon-luma.png",
+          "xml": "shared/images/characters/esperon-luma.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-luma",
+          "assetPath": "shared:characters/rival-luma",
+          "png": "shared/images/characters/rival-luma.png",
+          "xml": "shared/images/characters/rival-luma.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-luma",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-luma",
+            "png": "shared/images/stages/escenario-luma.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-luma.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-maraton-de-peliculas",
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-maraton-de-peliculas",
+        "art_asset": "freeplay/albums/esperon-maraton-de-peliculas-art",
+        "art_png": "images/freeplay/albums/esperon-maraton-de-peliculas-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-maraton-de-peliculas-title",
+          "png": "images/freeplay/albums/esperon-maraton-de-peliculas-title.png",
+          "xml": "images/freeplay/albums/esperon-maraton-de-peliculas-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-maraton-de-peliculas",
+          "assetPath": "shared:characters/esperon-maraton-de-peliculas",
+          "png": "shared/images/characters/esperon-maraton-de-peliculas.png",
+          "xml": "shared/images/characters/esperon-maraton-de-peliculas.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-maraton-de-peliculas",
+          "assetPath": "shared:characters/rival-maraton-de-peliculas",
+          "png": "shared/images/characters/rival-maraton-de-peliculas.png",
+          "xml": "shared/images/characters/rival-maraton-de-peliculas.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-maraton-de-peliculas",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-maraton-de-peliculas",
+            "png": "shared/images/stages/escenario-maraton-de-peliculas.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-maraton-de-peliculas.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+        "art_asset": "freeplay/albums/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-art",
+        "art_png": "images/freeplay/albums/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title",
+          "png": "images/freeplay/albums/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title.png",
+          "xml": "images/freeplay/albums/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "assetPath": "shared:characters/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "png": "shared/images/characters/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.png",
+          "xml": "shared/images/characters/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "assetPath": "shared:characters/rival-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "png": "shared/images/characters/rival-me-voy-a-morir-si-no-me-besas-ahora-mismo.png",
+          "xml": "shared/images/characters/rival-me-voy-a-morir-si-no-me-besas-ahora-mismo.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+            "png": "shared/images/stages/escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-meteora",
+      "song": "meteora",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-meteora",
+        "art_asset": "freeplay/albums/esperon-meteora-art",
+        "art_png": "images/freeplay/albums/esperon-meteora-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-meteora-title",
+          "png": "images/freeplay/albums/esperon-meteora-title.png",
+          "xml": "images/freeplay/albums/esperon-meteora-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-meteora",
+          "assetPath": "shared:characters/esperon-meteora",
+          "png": "shared/images/characters/esperon-meteora.png",
+          "xml": "shared/images/characters/esperon-meteora.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-meteora",
+          "assetPath": "shared:characters/rival-meteora",
+          "png": "shared/images/characters/rival-meteora.png",
+          "xml": "shared/images/characters/rival-meteora.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-meteora",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-meteora",
+            "png": "shared/images/stages/escenario-meteora.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-meteora.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-mi-hogar",
+      "song": "mi-hogar",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-mi-hogar",
+        "art_asset": "freeplay/albums/esperon-mi-hogar-art",
+        "art_png": "images/freeplay/albums/esperon-mi-hogar-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-mi-hogar-title",
+          "png": "images/freeplay/albums/esperon-mi-hogar-title.png",
+          "xml": "images/freeplay/albums/esperon-mi-hogar-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-mi-hogar",
+          "assetPath": "shared:characters/esperon-mi-hogar",
+          "png": "shared/images/characters/esperon-mi-hogar.png",
+          "xml": "shared/images/characters/esperon-mi-hogar.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-mi-hogar",
+          "assetPath": "shared:characters/rival-mi-hogar",
+          "png": "shared/images/characters/rival-mi-hogar.png",
+          "xml": "shared/images/characters/rival-mi-hogar.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-mi-hogar",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-mi-hogar",
+            "png": "shared/images/stages/escenario-mi-hogar.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-mi-hogar.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-nubia",
+      "song": "nubia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-nubia",
+        "art_asset": "freeplay/albums/esperon-nubia-art",
+        "art_png": "images/freeplay/albums/esperon-nubia-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-nubia-title",
+          "png": "images/freeplay/albums/esperon-nubia-title.png",
+          "xml": "images/freeplay/albums/esperon-nubia-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-nubia",
+          "assetPath": "shared:characters/esperon-nubia",
+          "png": "shared/images/characters/esperon-nubia.png",
+          "xml": "shared/images/characters/esperon-nubia.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-nubia",
+          "assetPath": "shared:characters/rival-nubia",
+          "png": "shared/images/characters/rival-nubia.png",
+          "xml": "shared/images/characters/rival-nubia.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-nubia",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-nubia",
+            "png": "shared/images/stages/escenario-nubia.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-nubia.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-nuestro-amor-no-es-normal",
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-nuestro-amor-no-es-normal",
+        "art_asset": "freeplay/albums/esperon-nuestro-amor-no-es-normal-art",
+        "art_png": "images/freeplay/albums/esperon-nuestro-amor-no-es-normal-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-nuestro-amor-no-es-normal-title",
+          "png": "images/freeplay/albums/esperon-nuestro-amor-no-es-normal-title.png",
+          "xml": "images/freeplay/albums/esperon-nuestro-amor-no-es-normal-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-nuestro-amor-no-es-normal",
+          "assetPath": "shared:characters/esperon-nuestro-amor-no-es-normal",
+          "png": "shared/images/characters/esperon-nuestro-amor-no-es-normal.png",
+          "xml": "shared/images/characters/esperon-nuestro-amor-no-es-normal.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-nuestro-amor-no-es-normal",
+          "assetPath": "shared:characters/rival-nuestro-amor-no-es-normal",
+          "png": "shared/images/characters/rival-nuestro-amor-no-es-normal.png",
+          "xml": "shared/images/characters/rival-nuestro-amor-no-es-normal.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-nuestro-amor-no-es-normal",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-nuestro-amor-no-es-normal",
+            "png": "shared/images/stages/escenario-nuestro-amor-no-es-normal.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-nuestro-amor-no-es-normal.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-peligrosa",
+      "song": "peligrosa",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-peligrosa",
+        "art_asset": "freeplay/albums/esperon-peligrosa-art",
+        "art_png": "images/freeplay/albums/esperon-peligrosa-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-peligrosa-title",
+          "png": "images/freeplay/albums/esperon-peligrosa-title.png",
+          "xml": "images/freeplay/albums/esperon-peligrosa-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-peligrosa",
+          "assetPath": "shared:characters/esperon-peligrosa",
+          "png": "shared/images/characters/esperon-peligrosa.png",
+          "xml": "shared/images/characters/esperon-peligrosa.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-peligrosa",
+          "assetPath": "shared:characters/rival-peligrosa",
+          "png": "shared/images/characters/rival-peligrosa.png",
+          "xml": "shared/images/characters/rival-peligrosa.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-peligrosa",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-peligrosa",
+            "png": "shared/images/stages/escenario-peligrosa.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-peligrosa.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-rompecabezas",
+      "song": "rompecabezas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-rompecabezas",
+        "art_asset": "freeplay/albums/esperon-rompecabezas-art",
+        "art_png": "images/freeplay/albums/esperon-rompecabezas-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-rompecabezas-title",
+          "png": "images/freeplay/albums/esperon-rompecabezas-title.png",
+          "xml": "images/freeplay/albums/esperon-rompecabezas-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-rompecabezas",
+          "assetPath": "shared:characters/esperon-rompecabezas",
+          "png": "shared/images/characters/esperon-rompecabezas.png",
+          "xml": "shared/images/characters/esperon-rompecabezas.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-rompecabezas",
+          "assetPath": "shared:characters/rival-rompecabezas",
+          "png": "shared/images/characters/rival-rompecabezas.png",
+          "xml": "shared/images/characters/rival-rompecabezas.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-rompecabezas",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-rompecabezas",
+            "png": "shared/images/stages/escenario-rompecabezas.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-rompecabezas.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-solare",
+      "song": "solare",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-solare",
+        "art_asset": "freeplay/albums/esperon-solare-art",
+        "art_png": "images/freeplay/albums/esperon-solare-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-solare-title",
+          "png": "images/freeplay/albums/esperon-solare-title.png",
+          "xml": "images/freeplay/albums/esperon-solare-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-solare",
+          "assetPath": "shared:characters/esperon-solare",
+          "png": "shared/images/characters/esperon-solare.png",
+          "xml": "shared/images/characters/esperon-solare.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-solare",
+          "assetPath": "shared:characters/rival-solare",
+          "png": "shared/images/characters/rival-solare.png",
+          "xml": "shared/images/characters/rival-solare.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-solare",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-solare",
+            "png": "shared/images/stages/escenario-solare.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-solare.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-tristella",
+      "song": "tristella",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-tristella",
+        "art_asset": "freeplay/albums/esperon-tristella-art",
+        "art_png": "images/freeplay/albums/esperon-tristella-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-tristella-title",
+          "png": "images/freeplay/albums/esperon-tristella-title.png",
+          "xml": "images/freeplay/albums/esperon-tristella-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-tristella",
+          "assetPath": "shared:characters/esperon-tristella",
+          "png": "shared/images/characters/esperon-tristella.png",
+          "xml": "shared/images/characters/esperon-tristella.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-tristella",
+          "assetPath": "shared:characters/rival-tristella",
+          "png": "shared/images/characters/rival-tristella.png",
+          "xml": "shared/images/characters/rival-tristella.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-tristella",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-tristella",
+            "png": "shared/images/stages/escenario-tristella.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-tristella.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-tu-dealer-de-nostalgia",
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-tu-dealer-de-nostalgia",
+        "art_asset": "freeplay/albums/esperon-tu-dealer-de-nostalgia-art",
+        "art_png": "images/freeplay/albums/esperon-tu-dealer-de-nostalgia-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-tu-dealer-de-nostalgia-title",
+          "png": "images/freeplay/albums/esperon-tu-dealer-de-nostalgia-title.png",
+          "xml": "images/freeplay/albums/esperon-tu-dealer-de-nostalgia-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-tu-dealer-de-nostalgia",
+          "assetPath": "shared:characters/esperon-tu-dealer-de-nostalgia",
+          "png": "shared/images/characters/esperon-tu-dealer-de-nostalgia.png",
+          "xml": "shared/images/characters/esperon-tu-dealer-de-nostalgia.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-tu-dealer-de-nostalgia",
+          "assetPath": "shared:characters/rival-tu-dealer-de-nostalgia",
+          "png": "shared/images/characters/rival-tu-dealer-de-nostalgia.png",
+          "xml": "shared/images/characters/rival-tu-dealer-de-nostalgia.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-tu-dealer-de-nostalgia",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-tu-dealer-de-nostalgia",
+            "png": "shared/images/stages/escenario-tu-dealer-de-nostalgia.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-tu-dealer-de-nostalgia.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-un-poco-bien-un-poco-mal",
+        "art_asset": "freeplay/albums/esperon-un-poco-bien-un-poco-mal-art",
+        "art_png": "images/freeplay/albums/esperon-un-poco-bien-un-poco-mal-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-un-poco-bien-un-poco-mal-title",
+          "png": "images/freeplay/albums/esperon-un-poco-bien-un-poco-mal-title.png",
+          "xml": "images/freeplay/albums/esperon-un-poco-bien-un-poco-mal-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-un-poco-bien-un-poco-mal",
+          "assetPath": "shared:characters/esperon-un-poco-bien-un-poco-mal",
+          "png": "shared/images/characters/esperon-un-poco-bien-un-poco-mal.png",
+          "xml": "shared/images/characters/esperon-un-poco-bien-un-poco-mal.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-un-poco-bien-un-poco-mal",
+          "assetPath": "shared:characters/rival-un-poco-bien-un-poco-mal",
+          "png": "shared/images/characters/rival-un-poco-bien-un-poco-mal.png",
+          "xml": "shared/images/characters/rival-un-poco-bien-un-poco-mal.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-un-poco-bien-un-poco-mal",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-un-poco-bien-un-poco-mal",
+            "png": "shared/images/stages/escenario-un-poco-bien-un-poco-mal.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-un-poco-bien-un-poco-mal.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-volver-a-vernos",
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-volver-a-vernos",
+        "art_asset": "freeplay/albums/esperon-volver-a-vernos-art",
+        "art_png": "images/freeplay/albums/esperon-volver-a-vernos-art.png",
+        "title": {
+          "asset": "freeplay/albums/esperon-volver-a-vernos-title",
+          "png": "images/freeplay/albums/esperon-volver-a-vernos-title.png",
+          "xml": "images/freeplay/albums/esperon-volver-a-vernos-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "characters": [
+        {
+          "id": "esperon-volver-a-vernos",
+          "assetPath": "shared:characters/esperon-volver-a-vernos",
+          "png": "shared/images/characters/esperon-volver-a-vernos.png",
+          "xml": "shared/images/characters/esperon-volver-a-vernos.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        },
+        {
+          "id": "rival-volver-a-vernos",
+          "assetPath": "shared:characters/rival-volver-a-vernos",
+          "png": "shared/images/characters/rival-volver-a-vernos.png",
+          "xml": "shared/images/characters/rival-volver-a-vernos.xml",
+          "frames": [
+            "Idle0",
+            "Idle1",
+            "Left0",
+            "Left1",
+            "Down0",
+            "Down1",
+            "Up0",
+            "Up1",
+            "Right0",
+            "Right1",
+            "LeftHold0",
+            "LeftHold1",
+            "DownHold0",
+            "DownHold1",
+            "UpHold0",
+            "UpHold1",
+            "RightHold0",
+            "RightHold1"
+          ],
+          "errors": []
+        }
+      ],
+      "stage": {
+        "id": "escenario-volver-a-vernos",
+        "props": [
+          {
+            "assetPath": "shared:stages/escenario-volver-a-vernos",
+            "png": "shared/images/stages/escenario-volver-a-vernos.png",
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      "story_levels": [
+        "esperon-volver-a-vernos.json"
+      ]
+    }
+  ]
+}

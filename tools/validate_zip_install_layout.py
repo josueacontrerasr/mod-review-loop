@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Valida la estructura real de instalación de los ZIP v2.2.0 con política de runtime limpio."""
+"""Valida la estructura real de instalación de los ZIP v2.2.1 con política de runtime limpio."""
 from __future__ import annotations
 
 import json
 import zipfile
 from pathlib import Path
 
-VERSION = "2.2.0"
+VERSION = "2.2.1"
 
 
 def require(names: set[str], path: str, errors: list[str]) -> None:
@@ -142,7 +142,7 @@ def main() -> int:
             for package in packages:
                 require(names, f"{collection_root}/mods/{package.name}", collection_errors)
     payload = {"scope": "VSLICE_086_INSTALL_LAYOUT", "version": VERSION, "packages": len(packages), "passed": sum(item["status"] == "PASS" for item in reports), "collection": collection.name, "collection_errors": collection_errors, "reports": reports, "status": "PASS" if len(packages) == 20 and not collection_errors and all(item["status"] == "PASS" for item in reports) else "ERRORS_FOUND"}
-    output = root / "qa-lab" / "rebuild-v220" / "v2.2.0-install-layout.json"
+    output = root / "qa-lab" / "rebuild-v221" / "v2.2.1-install-layout.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({key: payload[key] for key in ("packages", "passed", "collection", "status")}, ensure_ascii=False))

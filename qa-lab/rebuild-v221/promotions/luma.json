@@ -1,0 +1,67 @@
+{
+  "status": "PROMOTED_WITH_REVIEW_REQUIRED",
+  "song": "luma",
+  "mod": "esperon-dano-luma",
+  "before": {
+    "metadata_sha256": "0d4bc34ba23cbf5055c6a331aa53e9cec8334818469fdba16a6a8138f599af1d",
+    "chart_sha256": "5e9eef1689fc979a3c8917c747e62b903962c7cac05249c943d0102cbd315427",
+    "inst_sha256": "f57aab6f0c6e3e98ba630e7ebb9d295f4e634eda2f001eda69533f423044020a",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "238.004535"
+      }
+    }
+  },
+  "after": {
+    "metadata_sha256": "4381842601aaa9dc8a4b585bd03bd50f1892c3022b6bb477318c38c250ccc11c",
+    "chart_sha256": "71a5141ccbcffddf1e597f32eb6d7e8c23e4b9e34c545eecdd70d073ae8ac7fc",
+    "inst_sha256": "ea04b8654bc702ed1e4db2c2f582dc774026fea9da199d018a97c42c6494f3b9",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "238.004535"
+      }
+    },
+    "voices_sha256": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae",
+    "voices_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "238.004535"
+      }
+    }
+  },
+  "evidence": {
+    "vocal_stem": "sync-candidates/vocal-stems/luma/vocals.wav",
+    "no_vocals": "sync-candidates/vocal-stems/luma/demucs-work/htdemucs/Esperón  Luma (LETRA)/no_vocals.wav",
+    "isolated_chart": "sync-candidates/voice-aligned-charts/luma/luma-chart.json",
+    "cross_validation": "qa-lab/rebuild-v221/cross-validation-candidate-summary.json",
+    "reconstruction_audit": "qa-lab/rebuild-v221/demucs-reconstruction-audit.json"
+  },
+  "guarantees": [
+    "No BPM or offset values were changed by this promotion.",
+    "All notes remain on player directions 4..7.",
+    "Audio Sync Test and mobile playtest are still required for a human PASS."
+  ]
+}

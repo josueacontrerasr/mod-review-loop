@@ -1,0 +1,67 @@
+{
+  "status": "PROMOTED_WITH_REVIEW_REQUIRED",
+  "song": "rompecabezas",
+  "mod": "esperon-dano-rompecabezas",
+  "before": {
+    "metadata_sha256": "e70b4b5f8252bee70a69104f88ee9e340bc29cd873a6b15c801082dc6ed43def",
+    "chart_sha256": "70730eedc2685b3ed6ee3412f2a1a8d2b85ee0430e38a85d82b1708bb8c15a80",
+    "inst_sha256": "89fefd4b4b61e2b7814520788f980d423635d22b0b4dd78de4045052493bdb30",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "215.574059"
+      }
+    }
+  },
+  "after": {
+    "metadata_sha256": "1ab3dd05ebc9b7db5715286b7b6b058ddc6c5bb6de6f4b6e50fffff3ed34f246",
+    "chart_sha256": "641ea58aedef024fe32465bd4bc9470c8abb80babdedaf24d695aa3bcc54aa50",
+    "inst_sha256": "bc393a00dbf9aa19df07d4cdc218eb8587fd1770a3b446feba7dd31c0e06c3a4",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "215.574059"
+      }
+    },
+    "voices_sha256": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a",
+    "voices_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "215.574059"
+      }
+    }
+  },
+  "evidence": {
+    "vocal_stem": "sync-candidates/vocal-stems/rompecabezas/vocals.wav",
+    "no_vocals": "sync-candidates/vocal-stems/rompecabezas/demucs-work/htdemucs/Esperón  Rompecabezas __ Letra/no_vocals.wav",
+    "isolated_chart": "sync-candidates/voice-aligned-charts/rompecabezas/rompecabezas-chart.json",
+    "cross_validation": "qa-lab/rebuild-v221/cross-validation-candidate-summary.json",
+    "reconstruction_audit": "qa-lab/rebuild-v221/demucs-reconstruction-audit.json"
+  },
+  "guarantees": [
+    "No BPM or offset values were changed by this promotion.",
+    "All notes remain on player directions 4..7.",
+    "Audio Sync Test and mobile playtest are still required for a human PASS."
+  ]
+}

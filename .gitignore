@@ -8,3 +8,10 @@ __pycache__/
 # Directorios temporales de extracción y revisión
 .tmp/
 review-work/
+
+# Stems WAV y workspaces Demucs: evidencia pesada, nunca runtime ni commit
+sync-candidates/vocal-stems/**/*.wav
+sync-candidates/vocal-stems/**/demucs-work/
+
+# La colección maestra se publica como asset de Release; supera el límite de 100 MB de GitHub
+Mods .zip terminados/Mod-Esperon-Coleccion-*.zip

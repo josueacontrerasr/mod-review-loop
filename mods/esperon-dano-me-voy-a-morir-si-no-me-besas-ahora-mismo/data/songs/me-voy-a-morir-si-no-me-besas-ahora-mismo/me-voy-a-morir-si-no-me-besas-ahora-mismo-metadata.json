@@ -2,7 +2,7 @@
   "version": "2.2.4",
   "songName": "Me Voy A Morir Si No Me Besas Ahora Mismo",
   "artist": "Esperón",
-  "charter": "Manus AI — chart candidato guiado por actividad vocal",
+  "charter": "Manus AI — chart vocalmente alineado por stem; requiere Audio Sync Test móvil",
   "offsets": {},
   "playData": {
     "difficulties": [
@@ -13,7 +13,9 @@
     "characters": {
       "player": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
       "opponent": "rival-me-voy-a-morir-si-no-me-besas-ahora-mismo",
-      "playerVocals": [],
+      "playerVocals": [
+        "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo"
+      ],
       "opponentVocals": []
     },
     "stage": "escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo",
@@ -39,5 +41,5 @@
       ]
     }
   ],
-  "generatedBy": "Friday Night Funkin' - 0.8.6; timing candidate requires manual sync review"
+  "generatedBy": "Friday Night Funkin' - 0.8.6; Demucs vocal/instrumental split and independent onset cross-validation; BPM/offset unchanged"
 }
