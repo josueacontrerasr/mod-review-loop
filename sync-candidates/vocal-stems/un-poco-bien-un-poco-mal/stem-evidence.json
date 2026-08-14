@@ -1,0 +1,54 @@
+{
+  "scope": "VOCAL_STEM_EVIDENCE_ONLY",
+  "song": "un-poco-bien-un-poco-mal",
+  "method": {
+    "tool": "Demucs",
+    "model": "htdemucs",
+    "device": "cpu",
+    "segment_seconds": 7.0,
+    "overlap": 0.1,
+    "concurrency": 1
+  },
+  "source_m4a": {
+    "path": "Esperón  Un Poco Bien un Poco Mal _Letra_.m4a",
+    "sha256": "f758b96c473efeec48e00b72094860aa6110dd7fe7f99d2d90a5bb33c48b6c57",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        {
+          "codec_name": "png"
+        }
+      ],
+      "format": {
+        "duration": "217.617415"
+      }
+    }
+  },
+  "vocal_stem": {
+    "path": "sync-candidates/vocal-stems/un-poco-bien-un-poco-mal/vocals.wav",
+    "sha256": "56f4e62f62788944081913cfc75980277df438c80681edc02743163c4edd036a",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "217.617415"
+      }
+    }
+  },
+  "status": "SEPARATED_REQUIRES_HUMAN_QUALITY_REVIEW",
+  "limitations": [
+    "La separación puede contener sangrado instrumental, coros o artefactos.",
+    "El stem no identifica por sí solo personaje/strumline ni aprueba sincronía."
+  ]
+}

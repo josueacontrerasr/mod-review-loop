@@ -1,0 +1,54 @@
+{
+  "scope": "VOCAL_STEM_EVIDENCE_ONLY",
+  "song": "rompecabezas",
+  "method": {
+    "tool": "Demucs",
+    "model": "htdemucs",
+    "device": "cpu",
+    "segment_seconds": 7.0,
+    "overlap": 0.1,
+    "concurrency": 1
+  },
+  "source_m4a": {
+    "path": "Esperón  Rompecabezas __ Letra.m4a",
+    "sha256": "aa90374b6a8fb00fb93ac2ddc8915d23607543c02cc6936f2cd106ebf1b8436b",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        {
+          "codec_name": "png"
+        }
+      ],
+      "format": {
+        "duration": "215.574059"
+      }
+    }
+  },
+  "vocal_stem": {
+    "path": "sync-candidates/vocal-stems/rompecabezas/vocals.wav",
+    "sha256": "2def69b62053e1d516fc700197a083b6355fce5fee72559e9535196d8050ca42",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "215.574059"
+      }
+    }
+  },
+  "status": "SEPARATED_REQUIRES_HUMAN_QUALITY_REVIEW",
+  "limitations": [
+    "La separación puede contener sangrado instrumental, coros o artefactos.",
+    "El stem no identifica por sí solo personaje/strumline ni aprueba sincronía."
+  ]
+}

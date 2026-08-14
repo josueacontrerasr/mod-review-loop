@@ -3,12 +3,16 @@
   "status": "MANUAL_REVIEW_REQUIRED",
   "song": "maraton-de-peliculas",
   "mod": "esperon-dano-maraton-de-peliculas",
-  "analysis_mode": "FULL_MIX_PROXY",
+  "analysis_mode": "VOCAL_STEM",
   "audio": {
     "path": "mods/esperon-dano-maraton-de-peliculas/songs/maraton-de-peliculas/Inst.ogg",
     "sha256": "fe40584d050dcdac69eecf89a5b062a7568b2c83984037207ce3efbf5a66c79d",
     "duration_ms": 231270.748,
     "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/maraton-de-peliculas/vocals.wav",
+    "sha256": "d31acf66c1e577a86e284c3ab55cfbea2ccb8c77ee49bd35ac08a0ae1927bf26"
   },
   "parameters": {
     "hop_length": 256,
@@ -21,20 +25,19 @@
     "agreement_delta_percent": 0.0
   },
   "counts": {
-    "onsets": 829,
-    "beats": 520,
-    "candidate_base_notes": 738,
-    "easy_notes": 369,
-    "normal_notes": 554,
-    "hard_notes": 738
+    "onsets": 662,
+    "beats": 518,
+    "candidate_base_notes": 575,
+    "easy_notes": 288,
+    "normal_notes": 432,
+    "hard_notes": 575
   },
   "candidate_self_coherence": {
     "mean_distance_to_detected_onset_ms": 0.0,
     "max_distance_to_detected_onset_ms": 0.0
   },
   "promotion_blockers": [
-    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
-    "No hay stems vocales distribuidos y verificados por strumline.",
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
     "Falta Audio Sync Test documentado en Chart Editor.",
     "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
   ],

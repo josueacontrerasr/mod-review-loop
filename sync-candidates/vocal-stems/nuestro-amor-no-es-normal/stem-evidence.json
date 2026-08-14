@@ -1,0 +1,54 @@
+{
+  "scope": "VOCAL_STEM_EVIDENCE_ONLY",
+  "song": "nuestro-amor-no-es-normal",
+  "method": {
+    "tool": "Demucs",
+    "model": "htdemucs",
+    "device": "cpu",
+    "segment_seconds": 7.0,
+    "overlap": 0.1,
+    "concurrency": 1
+  },
+  "source_m4a": {
+    "path": "Esperón  Nuestro Amor No es Normal (Audio).m4a",
+    "sha256": "644de498d910fca13cebd0f042e15ec9cc51ac5471745bff0af5207626983591",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        {
+          "codec_name": "png"
+        }
+      ],
+      "format": {
+        "duration": "165.929796"
+      }
+    }
+  },
+  "vocal_stem": {
+    "path": "sync-candidates/vocal-stems/nuestro-amor-no-es-normal/vocals.wav",
+    "sha256": "40cb03c55cb6f6984dca90de9e5e2fbfc7a487d593ad379af17bafee6ea49cb8",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "165.929796"
+      }
+    }
+  },
+  "status": "SEPARATED_REQUIRES_HUMAN_QUALITY_REVIEW",
+  "limitations": [
+    "La separación puede contener sangrado instrumental, coros o artefactos.",
+    "El stem no identifica por sí solo personaje/strumline ni aprueba sincronía."
+  ]
+}

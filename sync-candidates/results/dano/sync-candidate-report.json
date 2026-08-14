@@ -3,12 +3,16 @@
   "status": "MANUAL_REVIEW_REQUIRED",
   "song": "dano",
   "mod": "esperon-dano-dano",
-  "analysis_mode": "FULL_MIX_PROXY",
+  "analysis_mode": "VOCAL_STEM",
   "audio": {
     "path": "mods/esperon-dano-dano/songs/dano/Inst.ogg",
     "sha256": "a316e3b7a34445e163c14b766e8788f40f5919319e6d5bbf7bcded6c175ea3ee",
     "duration_ms": 206425.397,
     "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/dano/vocals.wav",
+    "sha256": "914de102669d464dbfd632e3d3b7bffb99bfbadc9d289c580b48e1b0668d5313"
   },
   "parameters": {
     "hop_length": 256,
@@ -16,25 +20,24 @@
     "minimum_note_spacing_ms": 150.0
   },
   "tempo": {
-    "librosa_beat_bpm": 126.048,
-    "median_beat_interval_bpm": 126.048,
+    "librosa_beat_bpm": 95.703,
+    "median_beat_interval_bpm": 95.703,
     "agreement_delta_percent": 0.0
   },
   "counts": {
-    "onsets": 1081,
-    "beats": 423,
-    "candidate_base_notes": 778,
-    "easy_notes": 389,
-    "normal_notes": 584,
-    "hard_notes": 778
+    "onsets": 808,
+    "beats": 307,
+    "candidate_base_notes": 604,
+    "easy_notes": 302,
+    "normal_notes": 453,
+    "hard_notes": 604
   },
   "candidate_self_coherence": {
     "mean_distance_to_detected_onset_ms": 0.0,
     "max_distance_to_detected_onset_ms": 0.0
   },
   "promotion_blockers": [
-    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
-    "No hay stems vocales distribuidos y verificados por strumline.",
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
     "Falta Audio Sync Test documentado en Chart Editor.",
     "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
   ],
@@ -43,7 +46,7 @@
       {
         "t": 0,
         "b": 0,
-        "bpm": 126.048,
+        "bpm": 95.703,
         "bt": [
           4,
           4,

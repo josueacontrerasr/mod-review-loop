@@ -3,12 +3,16 @@
   "status": "MANUAL_REVIEW_REQUIRED",
   "song": "dias-magicos",
   "mod": "esperon-dano-dias-magicos",
-  "analysis_mode": "FULL_MIX_PROXY",
+  "analysis_mode": "VOCAL_STEM",
   "audio": {
     "path": "mods/esperon-dano-dias-magicos/songs/dias-magicos/Inst.ogg",
     "sha256": "bf6ef3049d2f3fb97e14bcbd1a53e6783c64fc624d22ba642012acd78fbfbcb6",
     "duration_ms": 243623.764,
     "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/dias-magicos/vocals.wav",
+    "sha256": "411b78cb429e5197b648289e6366a9f49a2cae978b34d3d9393e794716333682"
   },
   "parameters": {
     "hop_length": 256,
@@ -16,25 +20,24 @@
     "minimum_note_spacing_ms": 150.0
   },
   "tempo": {
-    "librosa_beat_bpm": 139.675,
+    "librosa_beat_bpm": 135.999,
     "median_beat_interval_bpm": 139.675,
-    "agreement_delta_percent": 0.0
+    "agreement_delta_percent": 2.703
   },
   "counts": {
-    "onsets": 481,
-    "beats": 564,
-    "candidate_base_notes": 465,
-    "easy_notes": 233,
-    "normal_notes": 349,
-    "hard_notes": 465
+    "onsets": 565,
+    "beats": 499,
+    "candidate_base_notes": 516,
+    "easy_notes": 258,
+    "normal_notes": 387,
+    "hard_notes": 516
   },
   "candidate_self_coherence": {
     "mean_distance_to_detected_onset_ms": 0.0,
     "max_distance_to_detected_onset_ms": 0.0
   },
   "promotion_blockers": [
-    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
-    "No hay stems vocales distribuidos y verificados por strumline.",
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
     "Falta Audio Sync Test documentado en Chart Editor.",
     "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
   ],
@@ -43,7 +46,7 @@
       {
         "t": 0,
         "b": 0,
-        "bpm": 139.675,
+        "bpm": 135.999,
         "bt": [
           4,
           4,

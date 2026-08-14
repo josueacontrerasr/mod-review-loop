@@ -3,12 +3,16 @@
   "status": "MANUAL_REVIEW_REQUIRED",
   "song": "fango",
   "mod": "esperon-dano-fango",
-  "analysis_mode": "FULL_MIX_PROXY",
+  "analysis_mode": "VOCAL_STEM",
   "audio": {
     "path": "mods/esperon-dano-fango/songs/fango/Inst.ogg",
     "sha256": "2aa5c4a389ae25e3d6ed054d54037e42e26433b50e2f9265a8d8fac083bdbc91",
     "duration_ms": 210697.868,
     "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/fango/vocals.wav",
+    "sha256": "43502f303595de9bc07645152a36d0c6668ffe75925fb7fd7a1f0b3b6643a929"
   },
   "parameters": {
     "hop_length": 256,
@@ -16,25 +20,24 @@
     "minimum_note_spacing_ms": 150.0
   },
   "tempo": {
-    "librosa_beat_bpm": 90.666,
-    "median_beat_interval_bpm": 90.666,
+    "librosa_beat_bpm": 120.185,
+    "median_beat_interval_bpm": 120.185,
     "agreement_delta_percent": 0.0
   },
   "counts": {
-    "onsets": 555,
-    "beats": 311,
-    "candidate_base_notes": 493,
-    "easy_notes": 247,
-    "normal_notes": 370,
-    "hard_notes": 493
+    "onsets": 456,
+    "beats": 416,
+    "candidate_base_notes": 399,
+    "easy_notes": 200,
+    "normal_notes": 300,
+    "hard_notes": 399
   },
   "candidate_self_coherence": {
     "mean_distance_to_detected_onset_ms": 0.0,
     "max_distance_to_detected_onset_ms": 0.0
   },
   "promotion_blockers": [
-    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
-    "No hay stems vocales distribuidos y verificados por strumline.",
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
     "Falta Audio Sync Test documentado en Chart Editor.",
     "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
   ],
@@ -43,7 +46,7 @@
       {
         "t": 0,
         "b": 0,
-        "bpm": 90.666,
+        "bpm": 120.185,
         "bt": [
           4,
           4,

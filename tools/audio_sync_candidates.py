@@ -77,7 +77,7 @@ def nearest_distances(points: list[float], references: list[float]) -> list[floa
     return result
 
 
-def analyze(mod: Path, root: Path, output_root: Path) -> dict:
+def analyze(mod: Path, root: Path, output_root: Path, vocal_stem: Path | None = None) -> dict:
     song_dirs = [path for path in (mod / "data" / "songs").iterdir() if path.is_dir()]
     if len(song_dirs) != 1:
         raise ValueError(f"{mod.name}: se esperaba exactamente una canción")
@@ -88,7 +88,9 @@ def analyze(mod: Path, root: Path, output_root: Path) -> dict:
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     if hash_file(audio) != manifest["final_audio"]["sha256"]:
         raise ValueError(f"{song}: el hash del audio cambió respecto al manifiesto")
-    y, sr = librosa.load(audio, sr=SAMPLE_RATE, mono=True)
+    analysis_audio = vocal_stem if vocal_stem and vocal_stem.is_file() else audio
+    analysis_mode = "VOCAL_STEM" if analysis_audio != audio else "FULL_MIX_PROXY"
+    y, sr = librosa.load(analysis_audio, sr=SAMPLE_RATE, mono=True)
     duration_ms = len(y) * 1000.0 / sr
     onset_env = librosa.onset.onset_strength(y=y, sr=sr, hop_length=HOP_LENGTH)
     onset_frames = librosa.onset.onset_detect(onset_envelope=onset_env, sr=sr, hop_length=HOP_LENGTH, backtrack=True, units="frames")
@@ -116,18 +118,23 @@ def analyze(mod: Path, root: Path, output_root: Path) -> dict:
         "status": "MANUAL_REVIEW_REQUIRED",
         "song": song,
         "mod": mod.name,
-        "analysis_mode": "FULL_MIX_PROXY",
+        "analysis_mode": analysis_mode,
         "audio": {"path": audio.relative_to(root).as_posix(), "sha256": hash_file(audio), "duration_ms": round(duration_ms, 3), "sample_rate": sr},
+        "analysis_audio": {"path": analysis_audio.relative_to(root).as_posix(), "sha256": hash_file(analysis_audio)},
         "parameters": {"hop_length": HOP_LENGTH, "sample_rate": SAMPLE_RATE, "minimum_note_spacing_ms": MIN_NOTE_SPACING_MS},
         "tempo": {"librosa_beat_bpm": round(bpm_tracker, 3), "median_beat_interval_bpm": None if bpm_median is None else round(bpm_median, 3), "agreement_delta_percent": bpm_delta_pct},
         "counts": {"onsets": len(onset_ms), "beats": len(beat_ms), "candidate_base_notes": len(candidates), "easy_notes": len(chart["notes"]["easy"]), "normal_notes": len(chart["notes"]["normal"]), "hard_notes": len(chart["notes"]["hard"])},
         "candidate_self_coherence": {"mean_distance_to_detected_onset_ms": None if not distances else round(float(np.mean(distances)), 3), "max_distance_to_detected_onset_ms": None if not distances else round(float(np.max(distances)), 3)},
-        "promotion_blockers": [
+        "promotion_blockers": ([
+            "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
+            "Falta Audio Sync Test documentado en Chart Editor.",
+            "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
+        ] if analysis_mode == "VOCAL_STEM" else [
             "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
             "No hay stems vocales distribuidos y verificados por strumline.",
             "Falta Audio Sync Test documentado en Chart Editor.",
             "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
-        ],
+        ]),
         "proposed_metadata_patch": {"timeChanges": [{"t": 0, "b": 0, "bpm": round(bpm_tracker, 3), "bt": [4, 4, 4, 4]}], "status": "CANDIDATE_DO_NOT_APPLY_AUTOMATICALLY"}
     }
     write_json(output / "candidate-chart.json", chart)
@@ -141,10 +148,12 @@ def main() -> int:
     parser.add_argument("root", type=Path)
     parser.add_argument("--mod", type=Path, required=True)
     parser.add_argument("--output", type=Path, default=Path("sync-candidates/results"))
+    parser.add_argument("--vocal-stem", type=Path, help="Stem vocal aislado; se usa solo para candidatos.")
     args = parser.parse_args()
     root = args.root.resolve()
     output = args.output if args.output.is_absolute() else root / args.output
-    result = analyze(args.mod.resolve(), root, output)
+    vocal_stem = args.vocal_stem.resolve() if args.vocal_stem else None
+    result = analyze(args.mod.resolve(), root, output, vocal_stem)
     print(json.dumps(result, ensure_ascii=False))
     return 0
 

@@ -3,12 +3,16 @@
   "status": "MANUAL_REVIEW_REQUIRED",
   "song": "peligrosa",
   "mod": "esperon-dano-peligrosa",
-  "analysis_mode": "FULL_MIX_PROXY",
+  "analysis_mode": "VOCAL_STEM",
   "audio": {
     "path": "mods/esperon-dano-peligrosa/songs/peligrosa/Inst.ogg",
     "sha256": "6d04a1495947e29eea7b82506095f95294c17e68402bdac95844f5da095501ad",
     "duration_ms": 237122.177,
     "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/peligrosa/vocals.wav",
+    "sha256": "e33fec864e2120615154e1e0f2c98e79fedddcf76c7919acaafa88f5eecc7849"
   },
   "parameters": {
     "hop_length": 256,
@@ -16,25 +20,24 @@
     "minimum_note_spacing_ms": 150.0
   },
   "tempo": {
-    "librosa_beat_bpm": 92.285,
-    "median_beat_interval_bpm": 93.963,
-    "agreement_delta_percent": 1.818
+    "librosa_beat_bpm": 184.57,
+    "median_beat_interval_bpm": 184.571,
+    "agreement_delta_percent": 0.0
   },
   "counts": {
-    "onsets": 1171,
-    "beats": 359,
-    "candidate_base_notes": 899,
-    "easy_notes": 450,
-    "normal_notes": 675,
-    "hard_notes": 899
+    "onsets": 772,
+    "beats": 666,
+    "candidate_base_notes": 633,
+    "easy_notes": 317,
+    "normal_notes": 475,
+    "hard_notes": 633
   },
   "candidate_self_coherence": {
     "mean_distance_to_detected_onset_ms": 0.0,
     "max_distance_to_detected_onset_ms": 0.0
   },
   "promotion_blockers": [
-    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
-    "No hay stems vocales distribuidos y verificados por strumline.",
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
     "Falta Audio Sync Test documentado en Chart Editor.",
     "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
   ],
@@ -43,7 +46,7 @@
       {
         "t": 0,
         "b": 0,
-        "bpm": 92.285,
+        "bpm": 184.57,
         "bt": [
           4,
           4,

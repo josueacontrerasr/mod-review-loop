@@ -3,12 +3,16 @@
   "status": "MANUAL_REVIEW_REQUIRED",
   "song": "luma",
   "mod": "esperon-dano-luma",
-  "analysis_mode": "FULL_MIX_PROXY",
+  "analysis_mode": "VOCAL_STEM",
   "audio": {
     "path": "mods/esperon-dano-luma/songs/luma/Inst.ogg",
     "sha256": "f57aab6f0c6e3e98ba630e7ebb9d295f4e634eda2f001eda69533f423044020a",
     "duration_ms": 238004.535,
     "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/luma/vocals.wav",
+    "sha256": "63e63c1951f5b5b53b5b4d3e0b5b09a3c2b4885a057f07b58f7be10f0070aba1"
   },
   "parameters": {
     "hop_length": 256,
@@ -16,25 +20,24 @@
     "minimum_note_spacing_ms": 150.0
   },
   "tempo": {
-    "librosa_beat_bpm": 71.777,
-    "median_beat_interval_bpm": 71.777,
+    "librosa_beat_bpm": 107.666,
+    "median_beat_interval_bpm": 107.666,
     "agreement_delta_percent": 0.0
   },
   "counts": {
-    "onsets": 565,
-    "beats": 265,
-    "candidate_base_notes": 519,
-    "easy_notes": 260,
-    "normal_notes": 390,
-    "hard_notes": 519
+    "onsets": 445,
+    "beats": 375,
+    "candidate_base_notes": 401,
+    "easy_notes": 201,
+    "normal_notes": 301,
+    "hard_notes": 401
   },
   "candidate_self_coherence": {
     "mean_distance_to_detected_onset_ms": 0.0,
     "max_distance_to_detected_onset_ms": 0.0
   },
   "promotion_blockers": [
-    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
-    "No hay stems vocales distribuidos y verificados por strumline.",
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
     "Falta Audio Sync Test documentado en Chart Editor.",
     "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
   ],
@@ -43,7 +46,7 @@
       {
         "t": 0,
         "b": 0,
-        "bpm": 71.777,
+        "bpm": 107.666,
         "bt": [
           4,
           4,

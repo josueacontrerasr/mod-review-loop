@@ -1,0 +1,54 @@
+{
+  "scope": "VOCAL_STEM_EVIDENCE_ONLY",
+  "song": "cortamos-y-volvemos",
+  "method": {
+    "tool": "Demucs",
+    "model": "htdemucs",
+    "device": "cpu",
+    "segment_seconds": 7.0,
+    "overlap": 0.1,
+    "concurrency": 1
+  },
+  "source_m4a": {
+    "path": "Esperón  Cortamos y Volvemos (Letra).m4a",
+    "sha256": "269a75a3cfbeca43c1371b74044bccf3c13e3e77302578ef158c5f4f7c114da0",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        {
+          "codec_name": "png"
+        }
+      ],
+      "format": {
+        "duration": "207.818594"
+      }
+    }
+  },
+  "vocal_stem": {
+    "path": "sync-candidates/vocal-stems/cortamos-y-volvemos/vocals.wav",
+    "sha256": "19b132be8c442bffd49eaab2a4667fa0abe044ec49bd01293de179087f23d17a",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "207.818594"
+      }
+    }
+  },
+  "status": "SEPARATED_REQUIRES_HUMAN_QUALITY_REVIEW",
+  "limitations": [
+    "La separación puede contener sangrado instrumental, coros o artefactos.",
+    "El stem no identifica por sí solo personaje/strumline ni aprueba sincronía."
+  ]
+}

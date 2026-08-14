@@ -3,12 +3,16 @@
   "status": "MANUAL_REVIEW_REQUIRED",
   "song": "solare",
   "mod": "esperon-dano-solare",
-  "analysis_mode": "FULL_MIX_PROXY",
+  "analysis_mode": "VOCAL_STEM",
   "audio": {
     "path": "mods/esperon-dano-solare/songs/solare/Inst.ogg",
     "sha256": "92baeb05e1b4bcfa60d34afff84b53f063d7dc61e3550f07ed79d93b85e9b313",
     "duration_ms": 223515.283,
     "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/solare/vocals.wav",
+    "sha256": "9e23b81ace79520e0c861c50e5fe7b5208cd854ed0c2839151c86c5c71fd148e"
   },
   "parameters": {
     "hop_length": 256,
@@ -16,25 +20,24 @@
     "minimum_note_spacing_ms": 150.0
   },
   "tempo": {
-    "librosa_beat_bpm": 95.703,
-    "median_beat_interval_bpm": 95.703,
+    "librosa_beat_bpm": 126.048,
+    "median_beat_interval_bpm": 126.048,
     "agreement_delta_percent": 0.0
   },
   "counts": {
-    "onsets": 818,
-    "beats": 349,
-    "candidate_base_notes": 677,
-    "easy_notes": 339,
-    "normal_notes": 508,
-    "hard_notes": 677
+    "onsets": 633,
+    "beats": 449,
+    "candidate_base_notes": 563,
+    "easy_notes": 282,
+    "normal_notes": 423,
+    "hard_notes": 563
   },
   "candidate_self_coherence": {
     "mean_distance_to_detected_onset_ms": 0.0,
     "max_distance_to_detected_onset_ms": 0.0
   },
   "promotion_blockers": [
-    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
-    "No hay stems vocales distribuidos y verificados por strumline.",
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
     "Falta Audio Sync Test documentado en Chart Editor.",
     "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
   ],
@@ -43,7 +46,7 @@
       {
         "t": 0,
         "b": 0,
-        "bpm": 95.703,
+        "bpm": 126.048,
         "bt": [
           4,
           4,

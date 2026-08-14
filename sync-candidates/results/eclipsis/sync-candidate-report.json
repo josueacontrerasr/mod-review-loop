@@ -3,12 +3,16 @@
   "status": "MANUAL_REVIEW_REQUIRED",
   "song": "eclipsis",
   "mod": "esperon-dano-eclipsis",
-  "analysis_mode": "FULL_MIX_PROXY",
+  "analysis_mode": "VOCAL_STEM",
   "audio": {
     "path": "mods/esperon-dano-eclipsis/songs/eclipsis/Inst.ogg",
     "sha256": "91846ef3394e6fc1a070b36defa46305f3bb0885641158db773e7c38fe62cdb1",
     "duration_ms": 257091.338,
     "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/eclipsis/vocals.wav",
+    "sha256": "1b986685ab48e1cac70371ef03f1a9c1ba7cba095c76d1fbd835ac6191b1539c"
   },
   "parameters": {
     "hop_length": 256,
@@ -21,20 +25,19 @@
     "agreement_delta_percent": 0.0
   },
   "counts": {
-    "onsets": 905,
-    "beats": 456,
-    "candidate_base_notes": 757,
-    "easy_notes": 379,
-    "normal_notes": 568,
-    "hard_notes": 757
+    "onsets": 515,
+    "beats": 447,
+    "candidate_base_notes": 477,
+    "easy_notes": 239,
+    "normal_notes": 358,
+    "hard_notes": 477
   },
   "candidate_self_coherence": {
     "mean_distance_to_detected_onset_ms": 0.0,
     "max_distance_to_detected_onset_ms": 0.0
   },
   "promotion_blockers": [
-    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
-    "No hay stems vocales distribuidos y verificados por strumline.",
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
     "Falta Audio Sync Test documentado en Chart Editor.",
     "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
   ],

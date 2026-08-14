@@ -3,12 +3,16 @@
   "status": "MANUAL_REVIEW_REQUIRED",
   "song": "nubia",
   "mod": "esperon-dano-nubia",
-  "analysis_mode": "FULL_MIX_PROXY",
+  "analysis_mode": "VOCAL_STEM",
   "audio": {
     "path": "mods/esperon-dano-nubia/songs/nubia/Inst.ogg",
     "sha256": "37e40f97d67c76514a7557043bfb67193b6c8d26a6ba75a756d44f8364d88e5b",
     "duration_ms": 227137.596,
     "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/nubia/vocals.wav",
+    "sha256": "e08bde65f4e64d5cce2e1e0b502907940eea85be09ea42914c465ecc02e39090"
   },
   "parameters": {
     "hop_length": 256,
@@ -21,20 +25,19 @@
     "agreement_delta_percent": 0.0
   },
   "counts": {
-    "onsets": 561,
+    "onsets": 440,
     "beats": 527,
-    "candidate_base_notes": 511,
-    "easy_notes": 256,
-    "normal_notes": 384,
-    "hard_notes": 511
+    "candidate_base_notes": 404,
+    "easy_notes": 202,
+    "normal_notes": 303,
+    "hard_notes": 404
   },
   "candidate_self_coherence": {
     "mean_distance_to_detected_onset_ms": 0.0,
     "max_distance_to_detected_onset_ms": 0.0
   },
   "promotion_blockers": [
-    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
-    "No hay stems vocales distribuidos y verificados por strumline.",
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
     "Falta Audio Sync Test documentado en Chart Editor.",
     "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
   ],

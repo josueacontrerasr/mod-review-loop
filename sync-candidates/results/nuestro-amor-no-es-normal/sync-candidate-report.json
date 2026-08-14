@@ -3,12 +3,16 @@
   "status": "MANUAL_REVIEW_REQUIRED",
   "song": "nuestro-amor-no-es-normal",
   "mod": "esperon-dano-nuestro-amor-no-es-normal",
-  "analysis_mode": "FULL_MIX_PROXY",
+  "analysis_mode": "VOCAL_STEM",
   "audio": {
     "path": "mods/esperon-dano-nuestro-amor-no-es-normal/songs/nuestro-amor-no-es-normal/Inst.ogg",
     "sha256": "5577326b03124e4fd9d390616b071c01ebe5d154de92fb1443fa1892d2249fb5",
     "duration_ms": 165929.796,
     "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/nuestro-amor-no-es-normal/vocals.wav",
+    "sha256": "40cb03c55cb6f6984dca90de9e5e2fbfc7a487d593ad379af17bafee6ea49cb8"
   },
   "parameters": {
     "hop_length": 256,
@@ -17,24 +21,23 @@
   },
   "tempo": {
     "librosa_beat_bpm": 101.333,
-    "median_beat_interval_bpm": 101.333,
-    "agreement_delta_percent": 0.0
+    "median_beat_interval_bpm": 103.359,
+    "agreement_delta_percent": 2.0
   },
   "counts": {
-    "onsets": 657,
-    "beats": 267,
-    "candidate_base_notes": 525,
-    "easy_notes": 263,
-    "normal_notes": 394,
-    "hard_notes": 525
+    "onsets": 486,
+    "beats": 265,
+    "candidate_base_notes": 399,
+    "easy_notes": 200,
+    "normal_notes": 300,
+    "hard_notes": 399
   },
   "candidate_self_coherence": {
     "mean_distance_to_detected_onset_ms": 0.0,
     "max_distance_to_detected_onset_ms": 0.0
   },
   "promotion_blockers": [
-    "La mezcla completa no identifica de forma fiable qué picos pertenecen a voces.",
-    "No hay stems vocales distribuidos y verificados por strumline.",
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
     "Falta Audio Sync Test documentado en Chart Editor.",
     "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
   ],
