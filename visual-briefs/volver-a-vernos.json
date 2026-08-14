@@ -16,5 +16,62 @@
     "id": "escenario-volver-a-vernos",
     "style": "Fondo degradado y estructuras geométricas estáticas, sin shaders ni partículas."
   },
-  "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"
+  "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST",
+  "visual_system_v2": {
+    "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST",
+    "rule": "No modifica audio, BPM, offsets, timeChanges ni datos de notas.",
+    "note_style": {
+      "id": "esperon-volver-a-vernos-notes",
+      "fallback": "funkin",
+      "motif": "reencuentro crepuscular",
+      "arrow_shape": "flecha entrelazada",
+      "receptor_shape": "receptor espejo",
+      "asset_paths": {
+        "notes": "shared:notes/esperon-volver-a-vernos-notes-notes",
+        "strumline": "shared:notes/esperon-volver-a-vernos-notes-strumline"
+      },
+      "directions": {
+        "left": "La silueta apunta a la izquierda y conserva un borde oscuro de alto contraste.",
+        "down": "La silueta apunta abajo y usa el segundo tono de la paleta como cara interior.",
+        "up": "La silueta apunta arriba y destaca el motivo temático en el vértice superior.",
+        "right": "La silueta apunta a la derecha y refleja la composición izquierda sin invertir el motivo central."
+      },
+      "states": [
+        "static",
+        "press",
+        "confirm",
+        "confirm_hold"
+      ],
+      "files": [
+        "data/notestyles/esperon-volver-a-vernos-notes.json",
+        "images/notes/esperon-volver-a-vernos-notes-notes.png",
+        "images/notes/esperon-volver-a-vernos-notes-notes.xml",
+        "images/notes/esperon-volver-a-vernos-notes-strumline.png",
+        "images/notes/esperon-volver-a-vernos-notes-strumline.xml"
+      ]
+    },
+    "hud": {
+      "scope": "tema visual de gameplay mediante iconos existentes y assets de judgement/combo propios del note style; no inyecta scripts de HUD sin API pública probada",
+      "health_bar_theme": "barra de horizonte",
+      "judgement_style": "placa geométrica reencuentro crepuscular",
+      "combo_style": "numerales con acento reencuentro crepuscular",
+      "mobile_readability": "contraste alto, borde oscuro de 6 px y zonas transparentes fuera del sprite",
+      "files": [
+        "images/ui/esperon-volver-a-vernos-notes/sick.png",
+        "images/ui/esperon-volver-a-vernos-notes/good.png",
+        "images/ui/esperon-volver-a-vernos-notes/bad.png",
+        "images/ui/esperon-volver-a-vernos-notes/shit.png",
+        "images/ui/esperon-volver-a-vernos-notes/num0.png",
+        "images/ui/esperon-volver-a-vernos-notes/num1.png",
+        "images/ui/esperon-volver-a-vernos-notes/num2.png",
+        "images/ui/esperon-volver-a-vernos-notes/num3.png",
+        "images/ui/esperon-volver-a-vernos-notes/num4.png",
+        "images/ui/esperon-volver-a-vernos-notes/num5.png",
+        "images/ui/esperon-volver-a-vernos-notes/num6.png",
+        "images/ui/esperon-volver-a-vernos-notes/num7.png",
+        "images/ui/esperon-volver-a-vernos-notes/num8.png",
+        "images/ui/esperon-volver-a-vernos-notes/num9.png"
+      ]
+    }
+  }
 }
