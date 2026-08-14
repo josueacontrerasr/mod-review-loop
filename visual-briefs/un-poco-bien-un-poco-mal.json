@@ -87,13 +87,12 @@
     "note_style": "esperon-un-poco-bien-un-poco-mal-notes",
     "notes": "Cuatro direcciones, receptores y sostenidos geométricos transparentes derivados de la paleta de la canción.",
     "hud": "Juicios, combo, iconos y barra de vida temática vinculados al mod.",
-    "vocal_animation": "Atlas Sparrow de 18 cuadros por personaje: idle, cuatro direcciones de canto y cuatro poses hold en secuencia multi-frame."
+    "vocal_animation": "Atlas Sparrow de 18 cuadros por personaje: idle, cuatro direcciones de canto y cuatro poses hold en secuencia multi-frame.",
+    "freeplay_album": "Carátula 512×512 y rótulo 512×128 declarados en el registro Album 1.0.3 y enlazados desde playData.album."
   },
   "sync_status": {
     "status": "REQUIRES_HUMAN_REVIEW",
     "basis": "Chart candidato generado desde actividad/onsets de audio y validación estática; no equivale a Audio Sync Test.",
-    "warnings": [
-      "La actividad vocal proviene de mezcla completa: necesita revisión humana prioritaria"
-    ]
+    "warnings": []
   }
 }

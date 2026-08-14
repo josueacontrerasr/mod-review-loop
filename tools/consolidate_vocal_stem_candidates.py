@@ -26,14 +26,23 @@ def main() -> int:
         evidence_path = root / "sync-candidates" / "vocal-stems" / song / "stem-evidence.json"
         report_path = root / "sync-candidates" / "results" / song / "sync-candidate-report.json"
         errors = []
+        warnings = []
+        stem_status = "NOT_AVAILABLE"
         if not evidence_path.is_file():
             errors.append("falta evidencia del stem")
             evidence = {}
         else:
             evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
             stem = root / evidence["vocal_stem"]["path"]
-            if not stem.is_file() or sha256(stem) != evidence["vocal_stem"]["sha256"]:
+            if not stem.is_file():
+                # WAVs are intentionally excluded from the repository; retain a reproducible evidence-only state.
+                warnings.append("stem no materializado localmente; se conserva SHA-256 publicado")
+                stem_status = "EVIDENCE_ONLY"
+            elif sha256(stem) != evidence["vocal_stem"]["sha256"]:
                 errors.append("hash del stem no coincide")
+                stem_status = "HASH_MISMATCH"
+            else:
+                stem_status = "HASH_VERIFIED"
         if not report_path.is_file():
             errors.append("falta reporte vocal")
             report = {}
@@ -51,13 +60,15 @@ def main() -> int:
             "song": song,
             "status": "PASS" if not errors else "ERROR",
             "errors": errors,
+            "warnings": warnings,
+            "stem_status": stem_status,
             "candidate_base_notes": report.get("counts", {}).get("candidate_base_notes"),
             "vocal_stem_sha256": evidence.get("vocal_stem", {}).get("sha256"),
         })
     note_counts = [entry["candidate_base_notes"] for entry in entries if isinstance(entry["candidate_base_notes"], int)]
     payload = {
         "scope": "VOCAL_STEM_CANDIDATE_CONSOLIDATION",
-        "status": "PASS" if all(entry["status"] == "PASS" for entry in entries) else "ERRORS_FOUND",
+        "status": ("ERRORS_FOUND" if any(entry["status"] != "PASS" for entry in entries) else ("PASS" if all(entry["stem_status"] == "HASH_VERIFIED" for entry in entries) else "PASS_EVIDENCE_ONLY")),
         "songs": len(entries),
         "passed": sum(entry["status"] == "PASS" for entry in entries),
         "analysis_mode": "VOCAL_STEM",
@@ -77,7 +88,7 @@ def main() -> int:
     output = root / "sync-candidates" / "vocal-stem-consolidation.json"
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({key: payload[key] for key in ("status", "songs", "passed", "analysis_mode", "promotion_status")}, ensure_ascii=False))
-    return 0 if payload["status"] == "PASS" else 1
+    return 0 if payload["status"] in ("PASS", "PASS_EVIDENCE_ONLY") else 1
 
 if __name__ == "__main__":
     raise SystemExit(main())
