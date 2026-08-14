@@ -1,0 +1,50 @@
+{
+  "audit": "CROSS_VALIDATION_VSLICE_086",
+  "parallel": true,
+  "status": "PASS",
+  "results": [
+    {
+      "name": "official_reference_comparison",
+      "command": [
+        "python3",
+        "tools/audit_zip_structure.py",
+        ".",
+        "--reference",
+        "/home/ubuntu/upload/MoonLightMobile.zip",
+        "--reference",
+        "/home/ubuntu/upload/fnf_el_chavo_del_8_v2__7638d.zip",
+        "--reference",
+        "/home/ubuntu/upload/vs_huggy_wuggy_c6a32.zip",
+        "--delivery-dir",
+        "Mods .zip terminados"
+      ],
+      "returncode": 0,
+      "stdout": "{\"references\": 3, \"individual_zips\": 20, \"collection_zips\": 1, \"status\": \"PASS\"}\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "name": "sync_ui_static",
+      "command": [
+        "python3",
+        "tools/validate_sync_ui_v2.py",
+        "."
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"mods\": 20, \"passed\": 20, \"warnings\": 19}\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "name": "zip_install_layout",
+      "command": [
+        "python3",
+        "tools/validate_zip_install_layout.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"packages\": 20, \"passed\": 20, \"collection\": \"Mod-Esperon-Coleccion-V2.1.2.zip\", \"status\": \"PASS\"}\n",
+      "stderr": "",
+      "status": "PASS"
+    }
+  ]
+}
