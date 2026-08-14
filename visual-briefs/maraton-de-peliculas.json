@@ -1,0 +1,20 @@
+{
+  "song": "Maratón de Películas",
+  "song_slug": "maraton-de-peliculas",
+  "theme": "maratón cinematográfico",
+  "palette": {
+    "primary": "#E5484C",
+    "secondary": "#F5C755",
+    "dark": "#2F284C"
+  },
+  "characters": {
+    "player": "esperon-maraton-de-peliculas",
+    "rival": "rival-maraton-de-peliculas",
+    "style": "Formas geométricas originales: cabeza circular, torso rectangular y extremidades triangulares."
+  },
+  "stage": {
+    "id": "escenario-maraton-de-peliculas",
+    "style": "Fondo degradado y estructuras geométricas estáticas, sin shaders ni partículas."
+  },
+  "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"
+}

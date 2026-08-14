@@ -1,0 +1,20 @@
+{
+  "song": "Fango",
+  "song_slug": "fango",
+  "theme": "pantano luminoso",
+  "palette": {
+    "primary": "#6F9748",
+    "secondary": "#CDA84C",
+    "dark": "#283D2F"
+  },
+  "characters": {
+    "player": "esperon-fango",
+    "rival": "rival-fango",
+    "style": "Formas geométricas originales: cabeza circular, torso rectangular y extremidades triangulares."
+  },
+  "stage": {
+    "id": "escenario-fango",
+    "style": "Fondo degradado y estructuras geométricas estáticas, sin shaders ni partículas."
+  },
+  "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"
+}

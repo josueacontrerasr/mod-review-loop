@@ -1,0 +1,37 @@
+{
+  "version": "1.0.2",
+  "name": "Rival Eclipsis",
+  "renderType": "sparrow",
+  "assetPath": "shared:characters/rival-eclipsis",
+  "flipX": false,
+  "offsets": [
+    0,
+    0
+  ],
+  "cameraOffsets": [
+    0,
+    0
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Left"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Down"
+    },
+    {
+      "name": "singUP",
+      "prefix": "Up"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Right"
+    }
+  ]
+}

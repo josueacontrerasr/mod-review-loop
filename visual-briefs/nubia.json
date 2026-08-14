@@ -1,0 +1,20 @@
+{
+  "song": "Nubia",
+  "song_slug": "nubia",
+  "theme": "nubes azuladas",
+  "palette": {
+    "primary": "#70AFE8",
+    "secondary": "#C6B7F5",
+    "dark": "#2A4170"
+  },
+  "characters": {
+    "player": "esperon-nubia",
+    "rival": "rival-nubia",
+    "style": "Formas geométricas originales: cabeza circular, torso rectangular y extremidades triangulares."
+  },
+  "stage": {
+    "id": "escenario-nubia",
+    "style": "Fondo degradado y estructuras geométricas estáticas, sin shaders ni partículas."
+  },
+  "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"
+}

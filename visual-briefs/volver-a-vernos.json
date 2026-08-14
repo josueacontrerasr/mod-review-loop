@@ -1,0 +1,20 @@
+{
+  "song": "Volver a Vernos",
+  "song_slug": "volver-a-vernos",
+  "theme": "reencuentro crepuscular",
+  "palette": {
+    "primary": "#EF7CB0",
+    "secondary": "#6FA1E5",
+    "dark": "#36305D"
+  },
+  "characters": {
+    "player": "esperon-volver-a-vernos",
+    "rival": "rival-volver-a-vernos",
+    "style": "Formas geométricas originales: cabeza circular, torso rectangular y extremidades triangulares."
+  },
+  "stage": {
+    "id": "escenario-volver-a-vernos",
+    "style": "Fondo degradado y estructuras geométricas estáticas, sin shaders ni partículas."
+  },
+  "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"
+}

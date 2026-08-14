@@ -1,0 +1,20 @@
+{
+  "song": "Peligrosa",
+  "song_slug": "peligrosa",
+  "theme": "peligro carmesí",
+  "palette": {
+    "primary": "#E6444A",
+    "secondary": "#FFB041",
+    "dark": "#331729"
+  },
+  "characters": {
+    "player": "esperon-peligrosa",
+    "rival": "rival-peligrosa",
+    "style": "Formas geométricas originales: cabeza circular, torso rectangular y extremidades triangulares."
+  },
+  "stage": {
+    "id": "escenario-peligrosa",
+    "style": "Fondo degradado y estructuras geométricas estáticas, sin shaders ni partículas."
+  },
+  "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"
+}
