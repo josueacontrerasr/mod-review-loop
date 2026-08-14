@@ -44,7 +44,8 @@ def class_name(slug: str) -> str:
 
 
 def healthbar_script(class_id: str, visible_name: str, player_id: str, opponent_color: str, player_color: str) -> str:
-    return f'''import funkin.play.PlayState;
+    return f'''import funkin.modding.module.Module;
+import funkin.play.PlayState;
 
 /**
  * HUD visual V2 para {visible_name}.
