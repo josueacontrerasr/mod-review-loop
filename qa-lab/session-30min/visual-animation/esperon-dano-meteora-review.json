@@ -3,7 +3,7 @@
   "mod": "esperon-dano-meteora",
   "status": "PASS",
   "coverage": {
-    "pngs": 22,
+    "pngs": 24,
     "xmls": 4,
     "character_pngs": 2,
     "stage_pngs": 1,
@@ -12,14 +12,14 @@
     "character_atlases": 2
   },
   "budget": {
-    "decoded_rgba_bytes": 11417600,
-    "decoded_rgba_mib": 10.889,
-    "png_source_bytes": 122390,
-    "png_source_mib": 0.117
+    "decoded_rgba_bytes": 12728320,
+    "decoded_rgba_mib": 12.139,
+    "png_source_bytes": 145520,
+    "png_source_mib": 0.139
   },
   "atlases": [
     {
-      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-meteora/images/characters/esperon-meteora.xml",
+      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-meteora/shared/images/characters/esperon-meteora.xml",
       "frames": 18,
       "prefixes": [
         "Down",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-meteora/images/characters/rival-meteora.xml",
+      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-meteora/shared/images/characters/rival-meteora.xml",
       "frames": 18,
       "prefixes": [
         "Down",
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-meteora/images/notes/esperon-meteora-notes-notes.xml",
+      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-meteora/shared/images/notes/esperon-meteora-notes-notes.xml",
       "frames": 4,
       "prefixes": [
         "noteDown",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-meteora/images/notes/esperon-meteora-notes-strumline.xml",
+      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-meteora/shared/images/notes/esperon-meteora-notes-strumline.xml",
       "frames": 12,
       "prefixes": [
         "confirmDown",

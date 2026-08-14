@@ -3,7 +3,7 @@
   "mod": "esperon-dano-mi-hogar",
   "status": "PASS",
   "coverage": {
-    "pngs": 22,
+    "pngs": 24,
     "xmls": 4,
     "character_pngs": 2,
     "stage_pngs": 1,
@@ -12,14 +12,14 @@
     "character_atlases": 2
   },
   "budget": {
-    "decoded_rgba_bytes": 11417600,
-    "decoded_rgba_mib": 10.889,
-    "png_source_bytes": 125656,
-    "png_source_mib": 0.12
+    "decoded_rgba_bytes": 12728320,
+    "decoded_rgba_mib": 12.139,
+    "png_source_bytes": 148331,
+    "png_source_mib": 0.141
   },
   "atlases": [
     {
-      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-mi-hogar/images/characters/esperon-mi-hogar.xml",
+      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-mi-hogar/shared/images/characters/esperon-mi-hogar.xml",
       "frames": 18,
       "prefixes": [
         "Down",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-mi-hogar/images/characters/rival-mi-hogar.xml",
+      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-mi-hogar/shared/images/characters/rival-mi-hogar.xml",
       "frames": 18,
       "prefixes": [
         "Down",
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-mi-hogar/images/notes/esperon-mi-hogar-notes-notes.xml",
+      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-mi-hogar/shared/images/notes/esperon-mi-hogar-notes-notes.xml",
       "frames": 4,
       "prefixes": [
         "noteDown",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-mi-hogar/images/notes/esperon-mi-hogar-notes-strumline.xml",
+      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-mi-hogar/shared/images/notes/esperon-mi-hogar-notes-strumline.xml",
       "frames": 12,
       "prefixes": [
         "confirmDown",

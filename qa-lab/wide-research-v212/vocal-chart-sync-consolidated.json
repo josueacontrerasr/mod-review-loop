@@ -1,0 +1,733 @@
+{
+  "scope": "WIDE_RESEARCH_VOCAL_CHART_SYNC_AUDIT",
+  "songs": 20,
+  "passed_structural": 20,
+  "analysis_mode": "VOCAL_STEM",
+  "structural_status": "PASS",
+  "evidence_status": "PASS_EVIDENCE_ONLY",
+  "promotion_status": "ALL_MANUAL_REVIEW_REQUIRED",
+  "engine_confirmation": "REQUIRED: Audio Sync Test y playtest móvil no se ejecutan en el sandbox.",
+  "automatic_policy": "No se modifican BPM, offsets, timeChanges ni charts de producción por similitud automática.",
+  "entries": [
+    {
+      "song": "arcoloria",
+      "mod": "esperon-dano-arcoloria",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "e515649058cde69a5edffd90d68eb39dd28ce51692a50f5fc7afbdba8a445e62",
+      "difficulties": {
+        "easy": {
+          "production_notes": 77,
+          "valid_notes": 77,
+          "candidate_vocal_notes": 197,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 197.369,
+          "within_75ms_of_candidate_percent": 27.273
+        },
+        "normal": {
+          "production_notes": 154,
+          "valid_notes": 154,
+          "candidate_vocal_notes": 296,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 162.54,
+          "within_75ms_of_candidate_percent": 35.065
+        },
+        "hard": {
+          "production_notes": 154,
+          "valid_notes": 154,
+          "candidate_vocal_notes": 394,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 104.49,
+          "within_75ms_of_candidate_percent": 47.403
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "mod": "esperon-dano-cortamos-y-volvemos",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "19b132be8c442bffd49eaab2a4667fa0abe044ec49bd01293de179087f23d17a",
+      "difficulties": {
+        "easy": {
+          "production_notes": 85,
+          "valid_notes": 85,
+          "candidate_vocal_notes": 289,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 162.54,
+          "within_75ms_of_candidate_percent": 34.118
+        },
+        "normal": {
+          "production_notes": 170,
+          "valid_notes": 170,
+          "candidate_vocal_notes": 434,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 92.88,
+          "within_75ms_of_candidate_percent": 40.588
+        },
+        "hard": {
+          "production_notes": 170,
+          "valid_notes": 170,
+          "candidate_vocal_notes": 578,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 69.66,
+          "within_75ms_of_candidate_percent": 50.588
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "dano",
+      "mod": "esperon-dano-dano",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "914de102669d464dbfd632e3d3b7bffb99bfbadc9d289c580b48e1b0668d5313",
+      "difficulties": {
+        "easy": {
+          "production_notes": 105,
+          "valid_notes": 105,
+          "candidate_vocal_notes": 302,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 185.759,
+          "within_75ms_of_candidate_percent": 20.0
+        },
+        "normal": {
+          "production_notes": 209,
+          "valid_notes": 209,
+          "candidate_vocal_notes": 453,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 116.1,
+          "within_75ms_of_candidate_percent": 36.842
+        },
+        "hard": {
+          "production_notes": 209,
+          "valid_notes": 209,
+          "candidate_vocal_notes": 604,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 69.66,
+          "within_75ms_of_candidate_percent": 50.239
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "dias-magicos",
+      "mod": "esperon-dano-dias-magicos",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "411b78cb429e5197b648289e6366a9f49a2cae978b34d3d9393e794716333682",
+      "difficulties": {
+        "easy": {
+          "production_notes": 98,
+          "valid_notes": 98,
+          "candidate_vocal_notes": 258,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 267.029,
+          "within_75ms_of_candidate_percent": 18.367
+        },
+        "normal": {
+          "production_notes": 195,
+          "valid_notes": 195,
+          "candidate_vocal_notes": 387,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 208.979,
+          "within_75ms_of_candidate_percent": 33.333
+        },
+        "hard": {
+          "production_notes": 195,
+          "valid_notes": 195,
+          "candidate_vocal_notes": 516,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 150.929,
+          "within_75ms_of_candidate_percent": 39.487
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "eclipsis",
+      "mod": "esperon-dano-eclipsis",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "1b986685ab48e1cac70371ef03f1a9c1ba7cba095c76d1fbd835ac6191b1539c",
+      "difficulties": {
+        "easy": {
+          "production_notes": 94,
+          "valid_notes": 94,
+          "candidate_vocal_notes": 239,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 255.419,
+          "within_75ms_of_candidate_percent": 19.149
+        },
+        "normal": {
+          "production_notes": 188,
+          "valid_notes": 188,
+          "candidate_vocal_notes": 358,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 185.76,
+          "within_75ms_of_candidate_percent": 29.787
+        },
+        "hard": {
+          "production_notes": 188,
+          "valid_notes": 188,
+          "candidate_vocal_notes": 477,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 116.1,
+          "within_75ms_of_candidate_percent": 38.298
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "fango",
+      "mod": "esperon-dano-fango",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "43502f303595de9bc07645152a36d0c6668ffe75925fb7fd7a1f0b3b6643a929",
+      "difficulties": {
+        "easy": {
+          "production_notes": 59,
+          "valid_notes": 59,
+          "candidate_vocal_notes": 200,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 208.979,
+          "within_75ms_of_candidate_percent": 11.864
+        },
+        "normal": {
+          "production_notes": 118,
+          "valid_notes": 118,
+          "candidate_vocal_notes": 300,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 162.54,
+          "within_75ms_of_candidate_percent": 19.492
+        },
+        "hard": {
+          "production_notes": 118,
+          "valid_notes": 118,
+          "candidate_vocal_notes": 399,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 127.71,
+          "within_75ms_of_candidate_percent": 29.661
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "luma",
+      "mod": "esperon-dano-luma",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "63e63c1951f5b5b53b5b4d3e0b5b09a3c2b4885a057f07b58f7be10f0070aba1",
+      "difficulties": {
+        "easy": {
+          "production_notes": 89,
+          "valid_notes": 89,
+          "candidate_vocal_notes": 201,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 267.03,
+          "within_75ms_of_candidate_percent": 17.978
+        },
+        "normal": {
+          "production_notes": 178,
+          "valid_notes": 178,
+          "candidate_vocal_notes": 301,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 185.76,
+          "within_75ms_of_candidate_percent": 31.461
+        },
+        "hard": {
+          "production_notes": 178,
+          "valid_notes": 178,
+          "candidate_vocal_notes": 401,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 92.88,
+          "within_75ms_of_candidate_percent": 45.506
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "mod": "esperon-dano-maraton-de-peliculas",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "d31acf66c1e577a86e284c3ab55cfbea2ccb8c77ee49bd35ac08a0ae1927bf26",
+      "difficulties": {
+        "easy": {
+          "production_notes": 116,
+          "valid_notes": 116,
+          "candidate_vocal_notes": 288,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 203.174,
+          "within_75ms_of_candidate_percent": 23.276
+        },
+        "normal": {
+          "production_notes": 231,
+          "valid_notes": 231,
+          "candidate_vocal_notes": 432,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 58.05,
+          "within_75ms_of_candidate_percent": 53.68
+        },
+        "hard": {
+          "production_notes": 231,
+          "valid_notes": 231,
+          "candidate_vocal_notes": 575,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 11.61,
+          "within_75ms_of_candidate_percent": 68.831
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "e98f0f69a10ab4368731d232aa25cc7998e888eb05ca3595ae675d7bd4ac31d4",
+      "difficulties": {
+        "easy": {
+          "production_notes": 64,
+          "valid_notes": 64,
+          "candidate_vocal_notes": 141,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 307.665,
+          "within_75ms_of_candidate_percent": 18.75
+        },
+        "normal": {
+          "production_notes": 127,
+          "valid_notes": 127,
+          "candidate_vocal_notes": 211,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 255.42,
+          "within_75ms_of_candidate_percent": 25.984
+        },
+        "hard": {
+          "production_notes": 127,
+          "valid_notes": 127,
+          "candidate_vocal_notes": 281,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 127.709,
+          "within_75ms_of_candidate_percent": 35.433
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "meteora",
+      "mod": "esperon-dano-meteora",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "99cb15bb7b5a605a05a05427c16ad2a0e40e4326a0ea44f8fe20b7e6b32f5d89",
+      "difficulties": {
+        "easy": {
+          "production_notes": 99,
+          "valid_notes": 99,
+          "candidate_vocal_notes": 196,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 232.199,
+          "within_75ms_of_candidate_percent": 18.182
+        },
+        "normal": {
+          "production_notes": 198,
+          "valid_notes": 198,
+          "candidate_vocal_notes": 294,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 197.37,
+          "within_75ms_of_candidate_percent": 28.283
+        },
+        "hard": {
+          "production_notes": 198,
+          "valid_notes": 198,
+          "candidate_vocal_notes": 392,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 174.149,
+          "within_75ms_of_candidate_percent": 36.869
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "mi-hogar",
+      "mod": "esperon-dano-mi-hogar",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "539a7feaa3f4d77da06752f29d2c5ed27a89044feb666b274ae7f6c0f5ed64ce",
+      "difficulties": {
+        "easy": {
+          "production_notes": 66,
+          "valid_notes": 66,
+          "candidate_vocal_notes": 137,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 313.47,
+          "within_75ms_of_candidate_percent": 21.212
+        },
+        "normal": {
+          "production_notes": 131,
+          "valid_notes": 131,
+          "candidate_vocal_notes": 206,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 220.589,
+          "within_75ms_of_candidate_percent": 29.771
+        },
+        "hard": {
+          "production_notes": 131,
+          "valid_notes": 131,
+          "candidate_vocal_notes": 274,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 139.32,
+          "within_75ms_of_candidate_percent": 41.221
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "nubia",
+      "mod": "esperon-dano-nubia",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "e08bde65f4e64d5cce2e1e0b502907940eea85be09ea42914c465ecc02e39090",
+      "difficulties": {
+        "easy": {
+          "production_notes": 75,
+          "valid_notes": 75,
+          "candidate_vocal_notes": 202,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 313.47,
+          "within_75ms_of_candidate_percent": 12.0
+        },
+        "normal": {
+          "production_notes": 149,
+          "valid_notes": 149,
+          "candidate_vocal_notes": 303,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 220.589,
+          "within_75ms_of_candidate_percent": 30.201
+        },
+        "hard": {
+          "production_notes": 149,
+          "valid_notes": 149,
+          "candidate_vocal_notes": 404,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 92.88,
+          "within_75ms_of_candidate_percent": 44.295
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "mod": "esperon-dano-nuestro-amor-no-es-normal",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "40cb03c55cb6f6984dca90de9e5e2fbfc7a487d593ad379af17bafee6ea49cb8",
+      "difficulties": {
+        "easy": {
+          "production_notes": 60,
+          "valid_notes": 60,
+          "candidate_vocal_notes": 200,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 220.59,
+          "within_75ms_of_candidate_percent": 30.0
+        },
+        "normal": {
+          "production_notes": 119,
+          "valid_notes": 119,
+          "candidate_vocal_notes": 300,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 185.759,
+          "within_75ms_of_candidate_percent": 36.975
+        },
+        "hard": {
+          "production_notes": 119,
+          "valid_notes": 119,
+          "candidate_vocal_notes": 399,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 58.05,
+          "within_75ms_of_candidate_percent": 57.143
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "peligrosa",
+      "mod": "esperon-dano-peligrosa",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "e33fec864e2120615154e1e0f2c98e79fedddcf76c7919acaafa88f5eecc7849",
+      "difficulties": {
+        "easy": {
+          "production_notes": 115,
+          "valid_notes": 115,
+          "candidate_vocal_notes": 317,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 197.369,
+          "within_75ms_of_candidate_percent": 22.609
+        },
+        "normal": {
+          "production_notes": 229,
+          "valid_notes": 229,
+          "candidate_vocal_notes": 475,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 139.319,
+          "within_75ms_of_candidate_percent": 33.624
+        },
+        "hard": {
+          "production_notes": 229,
+          "valid_notes": 229,
+          "candidate_vocal_notes": 633,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 92.88,
+          "within_75ms_of_candidate_percent": 43.668
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "rompecabezas",
+      "mod": "esperon-dano-rompecabezas",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "2def69b62053e1d516fc700197a083b6355fce5fee72559e9535196d8050ca42",
+      "difficulties": {
+        "easy": {
+          "production_notes": 95,
+          "valid_notes": 95,
+          "candidate_vocal_notes": 245,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 185.76,
+          "within_75ms_of_candidate_percent": 24.211
+        },
+        "normal": {
+          "production_notes": 190,
+          "valid_notes": 190,
+          "candidate_vocal_notes": 368,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 116.099,
+          "within_75ms_of_candidate_percent": 46.316
+        },
+        "hard": {
+          "production_notes": 190,
+          "valid_notes": 190,
+          "candidate_vocal_notes": 490,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 34.83,
+          "within_75ms_of_candidate_percent": 58.421
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "solare",
+      "mod": "esperon-dano-solare",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "9e23b81ace79520e0c861c50e5fe7b5208cd854ed0c2839151c86c5c71fd148e",
+      "difficulties": {
+        "easy": {
+          "production_notes": 154,
+          "valid_notes": 154,
+          "candidate_vocal_notes": 282,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 145.125,
+          "within_75ms_of_candidate_percent": 46.104
+        },
+        "normal": {
+          "production_notes": 307,
+          "valid_notes": 307,
+          "candidate_vocal_notes": 423,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 0.0,
+          "within_75ms_of_candidate_percent": 66.124
+        },
+        "hard": {
+          "production_notes": 307,
+          "valid_notes": 307,
+          "candidate_vocal_notes": 563,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 0.0,
+          "within_75ms_of_candidate_percent": 90.879
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "tristella",
+      "mod": "esperon-dano-tristella",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "65bb7400f5919be5c3d355bd81cf297dd17ff4e0af40f579fe1f2be7c979202c",
+      "difficulties": {
+        "easy": {
+          "production_notes": 108,
+          "valid_notes": 108,
+          "candidate_vocal_notes": 220,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 272.835,
+          "within_75ms_of_candidate_percent": 25.926
+        },
+        "normal": {
+          "production_notes": 215,
+          "valid_notes": 215,
+          "candidate_vocal_notes": 330,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 174.15,
+          "within_75ms_of_candidate_percent": 33.023
+        },
+        "hard": {
+          "production_notes": 215,
+          "valid_notes": 215,
+          "candidate_vocal_notes": 440,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 104.49,
+          "within_75ms_of_candidate_percent": 41.86
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "mod": "esperon-dano-tu-dealer-de-nostalgia",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "8ca83da059fc3ad315fd2c48de5e2b0ff990ba77da35a093622f9d0d76270840",
+      "difficulties": {
+        "easy": {
+          "production_notes": 59,
+          "valid_notes": 59,
+          "candidate_vocal_notes": 241,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 174.15,
+          "within_75ms_of_candidate_percent": 23.729
+        },
+        "normal": {
+          "production_notes": 118,
+          "valid_notes": 118,
+          "candidate_vocal_notes": 362,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 162.54,
+          "within_75ms_of_candidate_percent": 30.508
+        },
+        "hard": {
+          "production_notes": 118,
+          "valid_notes": 118,
+          "candidate_vocal_notes": 482,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 98.685,
+          "within_75ms_of_candidate_percent": 42.373
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "56f4e62f62788944081913cfc75980277df438c80681edc02743163c4edd036a",
+      "difficulties": {
+        "easy": {
+          "production_notes": 48,
+          "valid_notes": 48,
+          "candidate_vocal_notes": 185,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 307.665,
+          "within_75ms_of_candidate_percent": 22.917
+        },
+        "normal": {
+          "production_notes": 95,
+          "valid_notes": 95,
+          "candidate_vocal_notes": 277,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 232.2,
+          "within_75ms_of_candidate_percent": 25.263
+        },
+        "hard": {
+          "production_notes": 95,
+          "valid_notes": 95,
+          "candidate_vocal_notes": 369,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 139.319,
+          "within_75ms_of_candidate_percent": 37.895
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    },
+    {
+      "song": "volver-a-vernos",
+      "mod": "esperon-dano-volver-a-vernos",
+      "analysis_mode": "VOCAL_STEM",
+      "stem_sha256": "27fd06913d57d3cb400f1df9b8797ae4c3e50dcdb926c0fdd1db0cd7aa8ee4a8",
+      "difficulties": {
+        "easy": {
+          "production_notes": 78,
+          "valid_notes": 78,
+          "candidate_vocal_notes": 202,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 307.664,
+          "within_75ms_of_candidate_percent": 14.103
+        },
+        "normal": {
+          "production_notes": 155,
+          "valid_notes": 155,
+          "candidate_vocal_notes": 303,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 255.419,
+          "within_75ms_of_candidate_percent": 20.0
+        },
+        "hard": {
+          "production_notes": 155,
+          "valid_notes": 155,
+          "candidate_vocal_notes": 403,
+          "invalid_notes": 0,
+          "median_nearest_candidate_ms": 197.37,
+          "within_75ms_of_candidate_percent": 24.516
+        }
+      },
+      "structural_issues": [],
+      "high_issue_count": 0,
+      "decision": "NO_AUTOMATED_CHANGE",
+      "mobile_confirmation": "REQUIRED"
+    }
+  ]
+}
