@@ -1,0 +1,10 @@
+# Artefactos y logs efímeros de validación
+artifacts/
+build-logs/
+reports/
+__pycache__/
+*.py[cod]
+
+# Directorios temporales de extracción y revisión
+.tmp/
+review-work/

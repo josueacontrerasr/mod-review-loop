@@ -1,0 +1,20 @@
+{
+  "song": "Un Poco Bien un Poco Mal",
+  "song_slug": "un-poco-bien-un-poco-mal",
+  "theme": "abstracción geométrica",
+  "palette": {
+    "primary": "#E06542",
+    "secondary": "#5FDD8B",
+    "dark": "#191B43"
+  },
+  "characters": {
+    "player": "esperon-un-poco-bien-un-poco-mal",
+    "rival": "rival-un-poco-bien-un-poco-mal",
+    "style": "Formas geométricas originales: cabeza circular, torso rectangular y extremidades triangulares."
+  },
+  "stage": {
+    "id": "escenario-un-poco-bien-un-poco-mal",
+    "style": "Fondo degradado y estructuras geométricas estáticas, sin shaders ni partículas."
+  },
+  "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"
+}

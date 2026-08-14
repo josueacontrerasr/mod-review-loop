@@ -1,0 +1,20 @@
+{
+  "song": "Cortamos y Volvemos",
+  "song_slug": "cortamos-y-volvemos",
+  "theme": "cine fragmentado",
+  "palette": {
+    "primary": "#DD5849",
+    "secondary": "#529AC2",
+    "dark": "#242030"
+  },
+  "characters": {
+    "player": "esperon-cortamos-y-volvemos",
+    "rival": "rival-cortamos-y-volvemos",
+    "style": "Formas geométricas originales: cabeza circular, torso rectangular y extremidades triangulares."
+  },
+  "stage": {
+    "id": "escenario-cortamos-y-volvemos",
+    "style": "Fondo degradado y estructuras geométricas estáticas, sin shaders ni partículas."
+  },
+  "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"
+}

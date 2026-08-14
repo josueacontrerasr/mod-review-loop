@@ -1,0 +1,37 @@
+{
+  "version": "1.0.2",
+  "name": "Esperón Me Voy A Morir Si No Me Besas Ahora Mismo",
+  "renderType": "sparrow",
+  "assetPath": "shared:characters/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+  "flipX": true,
+  "offsets": [
+    0,
+    0
+  ],
+  "cameraOffsets": [
+    0,
+    0
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Left"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Down"
+    },
+    {
+      "name": "singUP",
+      "prefix": "Up"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Right"
+    }
+  ]
+}

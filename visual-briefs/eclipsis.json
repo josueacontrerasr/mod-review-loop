@@ -1,0 +1,20 @@
+{
+  "song": "Eclipsis",
+  "song_slug": "eclipsis",
+  "theme": "eclipse violeta",
+  "palette": {
+    "primary": "#9060D1",
+    "secondary": "#F7A94F",
+    "dark": "#16152D"
+  },
+  "characters": {
+    "player": "esperon-eclipsis",
+    "rival": "rival-eclipsis",
+    "style": "Formas geométricas originales: cabeza circular, torso rectangular y extremidades triangulares."
+  },
+  "stage": {
+    "id": "escenario-eclipsis",
+    "style": "Fondo degradado y estructuras geométricas estáticas, sin shaders ni partículas."
+  },
+  "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"
+}

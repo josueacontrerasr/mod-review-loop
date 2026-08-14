@@ -1,0 +1,20 @@
+{
+  "song": "Tristella",
+  "song_slug": "tristella",
+  "theme": "triple estrella",
+  "palette": {
+    "primary": "#FFCD48",
+    "secondary": "#7E5ED6",
+    "dark": "#231E48"
+  },
+  "characters": {
+    "player": "esperon-tristella",
+    "rival": "rival-tristella",
+    "style": "Formas geométricas originales: cabeza circular, torso rectangular y extremidades triangulares."
+  },
+  "stage": {
+    "id": "escenario-tristella",
+    "style": "Fondo degradado y estructuras geométricas estáticas, sin shaders ni partículas."
+  },
+  "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"
+}
