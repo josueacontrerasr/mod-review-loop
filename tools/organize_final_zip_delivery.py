@@ -34,7 +34,7 @@ def inspect_zip(path: Path, collection: bool = False) -> tuple[bool, str]:
                 return False, f"CRC inválido: {broken}"
             roots = {name.split("/")[0] for name in archive.namelist() if name and not name.startswith("__MACOSX")}
             if collection:
-                single_root = f"Mod-Esperon-Coleccion-V2.1.0"
+                single_root = next((root for root in roots if root.startswith("Mod-Esperon-Coleccion-V")), "")
                 if roots == {single_root}:
                     return True, "colección autocontenida"
                 if len(roots) == 20 and all(root.endswith(".zip") for root in roots):
@@ -50,7 +50,7 @@ def inspect_zip(path: Path, collection: bool = False) -> tuple[bool, str]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("root", nargs="?", default=".")
-    parser.add_argument("--latest-version", default="2.1.0")
+    parser.add_argument("--latest-version", default="2.1.3")
     parser.add_argument("--include-collection", action="store_true")
     args = parser.parse_args()
     root = Path(args.root).resolve()
