@@ -53,7 +53,7 @@ def check_mod(mod: Path, root: Path) -> dict:
         for name, prefix in REQUIRED_ANIMS.items():
             if found.get(name) != prefix:
                 errors.append(f"{role}: animación {name} no declarada")
-        atlas = mod / "images" / "characters" / f"{character_id}.xml"
+        atlas = mod / "shared" / "images" / "characters" / f"{character_id}.xml"
         if not atlas.is_file():
             errors.append(f"{role}: atlas XML ausente")
             continue
@@ -97,7 +97,7 @@ def check_mod(mod: Path, root: Path) -> dict:
             warnings.append("Estado de evidencia inesperado")
         if evidence.get("analysis_mode") != "VOCAL_STEM":
             warnings.append("La actividad vocal proviene de mezcla completa: necesita revisión humana prioritaria")
-    if not (mod / "images" / "ui" / style / "healthbar-theme.png").is_file():
+    if not (mod / "shared" / "images" / "ui" / style / "healthbar-theme.png").is_file():
         errors.append("Asset de barra de vida temática ausente")
     if not list((mod / "scripts").glob("*.hxc")):
         errors.append("Script de HUD ausente")
