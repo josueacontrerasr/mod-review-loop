@@ -16,16 +16,16 @@
     "chart_version": "2.0.0",
     "note_style_version": "1.0.0",
     "player_lanes": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "opponent_lanes": [
       0,
       1,
       2,
       3
+    ],
+    "opponent_lanes": [
+      4,
+      5,
+      6,
+      7
     ],
     "album_prefix": "freeplay/albumRoll/",
     "fallback_note_style": "funkin"
@@ -41,7 +41,7 @@
     ],
     "preserve_original_audio": true,
     "candidate_analysis_only_until_all_gates_pass": true,
-    "chart_generation_mode": "VOCAL_SYLLABLE_ALIGNED",
+    "chart_generation_mode": "VOCAL_SYLLABLE_ALIGNED_VOWEL_MAPPED_PLAYER_LANES_0_3",
     "instrumental_can_generate_notes": false,
     "internal_initial_anchor_tolerance_ms": 5,
     "internal_initial_section_drift_tolerance_ms": 10
@@ -70,8 +70,8 @@
     "si-te-vas"
   ],
   "release_policy": {
-    "current_mod_version": "2.6.4",
-    "change_summary": "Lanes de jugador 4..7; Freeplay con álbum PNG/XML oficial; charts silábicos vocales con cola RMS y holds proporcionales; 21 mods"
+    "current_mod_version": "2.6.6",
+    "change_summary": "Lanes de jugador d=0..3; Freeplay con álbum PNG/XML oficial; charts silábicos con mapeo A=0/E=2/I=3/O-U=1, cola RMS y holds proporcionales; 21 mods"
   },
   "qa_policy": {
     "rounds": 20,
@@ -79,7 +79,7 @@
     "difficulties_per_mod": 3,
     "runtime_zip_must_exclude_evidence": true,
     "no_artificial_version_bumps": true,
-    "playstate_required_chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.4 syllable-aligned vocal chart player lanes",
+    "playstate_required_chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
     "freeplay_cover_dimensions": [
       512,
       512
@@ -87,19 +87,19 @@
     "complete_delivery_zip": "Esperon-Completo.zip",
     "freeplay_album_art_asset_pattern": "freeplay/albumRoll/<album>-art",
     "freeplay_album_title_requires_png_xml": true,
-    "vocal_hold_threshold_ms": 200
+    "vocal_hold_threshold_ms": 180
   },
   "branch_policy": {
     "main_expected_commit": "91d3a8dcf6fcf7760eb2ea8e70308f100a70c80f",
     "stable_branch_prefix": "f75a74f",
     "no_automatic_merge_or_release_on_divergence": true
   },
-  "mod_version": "2.6.5",
+  "mod_version": "2.6.6",
   "songs_count": 21,
   "mods_per_qa_round": 21,
   "qa_rounds": 20,
   "qa_reviews_expected": 420,
-  "chart_generation_mode": "VOCAL_SYLLABLE_ALIGNED_PLAYER_LANES_CYCLING_4_7",
+  "chart_generation_mode": "VOCAL_SYLLABLE_ALIGNED_VOWEL_MAPPED_PLAYER_LANES_0_3",
   "chart_syllable_policy": {
     "one_note_per_syllable": true,
     "interjections_are_separate_notes": true,
@@ -108,5 +108,5 @@
   },
   "complete_delivery_zip": "Esperon-Completo.zip",
   "freeplay_capsule_policy": "LEVEL_TITLE_ASSET_AND_ALBUM_ROLL_VERIFIED",
-  "player_lane_contract": "d=4..7 with chronological direction cycle 4,5,6,7"
+  "player_lane_contract": "d=0..3 with vowel mapping A=0,E=2,I=3,O/U=1"
 }
