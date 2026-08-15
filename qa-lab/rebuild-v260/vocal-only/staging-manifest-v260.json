@@ -1,0 +1,251 @@
+{
+  "scope": "VOCAL_ONLY_STAGING_V260",
+  "executed_at": "2026-08-15T17:28:06.152194+00:00",
+  "songs": 20,
+  "status": "PASS",
+  "production_modified": false,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "production_chart": "mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/arcoloria/chart-vocal-only.json",
+      "notes": {
+        "easy": 17,
+        "normal": 50,
+        "hard": 56
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "production_chart": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/cortamos-y-volvemos/chart-vocal-only.json",
+      "notes": {
+        "easy": 247,
+        "normal": 572,
+        "hard": 731
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "dano",
+      "production_chart": "mods/esperon-dano-dano/data/songs/dano/dano-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/dano/chart-vocal-only.json",
+      "notes": {
+        "easy": 260,
+        "normal": 601,
+        "hard": 777
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "dias-magicos",
+      "production_chart": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/dias-magicos/chart-vocal-only.json",
+      "notes": {
+        "easy": 249,
+        "normal": 654,
+        "hard": 804
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "eclipsis",
+      "production_chart": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/eclipsis/chart-vocal-only.json",
+      "notes": {
+        "easy": 230,
+        "normal": 611,
+        "hard": 746
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "fango",
+      "production_chart": "mods/esperon-dano-fango/data/songs/fango/fango-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/fango/chart-vocal-only.json",
+      "notes": {
+        "easy": 191,
+        "normal": 518,
+        "hard": 656
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "luma",
+      "production_chart": "mods/esperon-dano-luma/data/songs/luma/luma-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/luma/chart-vocal-only.json",
+      "notes": {
+        "easy": 81,
+        "normal": 247,
+        "hard": 295
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "production_chart": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/maraton-de-peliculas/chart-vocal-only.json",
+      "notes": {
+        "easy": 189,
+        "normal": 529,
+        "hard": 596
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "production_chart": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/me-voy-a-morir-si-no-me-besas-ahora-mismo/chart-vocal-only.json",
+      "notes": {
+        "easy": 140,
+        "normal": 416,
+        "hard": 506
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "meteora",
+      "production_chart": "mods/esperon-dano-meteora/data/songs/meteora/meteora-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/meteora/chart-vocal-only.json",
+      "notes": {
+        "easy": 110,
+        "normal": 295,
+        "hard": 324
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "mi-hogar",
+      "production_chart": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/mi-hogar/chart-vocal-only.json",
+      "notes": {
+        "easy": 148,
+        "normal": 405,
+        "hard": 506
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "nubia",
+      "production_chart": "mods/esperon-dano-nubia/data/songs/nubia/nubia-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/nubia/chart-vocal-only.json",
+      "notes": {
+        "easy": 185,
+        "normal": 520,
+        "hard": 630
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "production_chart": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/nuestro-amor-no-es-normal/chart-vocal-only.json",
+      "notes": {
+        "easy": 155,
+        "normal": 393,
+        "hard": 520
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "peligrosa",
+      "production_chart": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/peligrosa/chart-vocal-only.json",
+      "notes": {
+        "easy": 262,
+        "normal": 656,
+        "hard": 804
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "rompecabezas",
+      "production_chart": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/rompecabezas/chart-vocal-only.json",
+      "notes": {
+        "easy": 213,
+        "normal": 571,
+        "hard": 693
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "solare",
+      "production_chart": "mods/esperon-dano-solare/data/songs/solare/solare-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/solare/chart-vocal-only.json",
+      "notes": {
+        "easy": 176,
+        "normal": 465,
+        "hard": 580
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "tristella",
+      "production_chart": "mods/esperon-dano-tristella/data/songs/tristella/tristella-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/tristella/chart-vocal-only.json",
+      "notes": {
+        "easy": 214,
+        "normal": 607,
+        "hard": 756
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "production_chart": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/tu-dealer-de-nostalgia/chart-vocal-only.json",
+      "notes": {
+        "easy": 197,
+        "normal": 522,
+        "hard": 659
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "production_chart": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/un-poco-bien-un-poco-mal/chart-vocal-only.json",
+      "notes": {
+        "easy": 141,
+        "normal": 455,
+        "hard": 563
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    },
+    {
+      "song": "volver-a-vernos",
+      "production_chart": "mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v260/vocal-only/volver-a-vernos/chart-vocal-only.json",
+      "notes": {
+        "easy": 167,
+        "normal": 470,
+        "hard": 573
+      },
+      "preserved_events": true,
+      "preserved_timeChanges": true
+    }
+  ],
+  "errors": [],
+  "policy": "Staging only; production mods are untouched."
+}

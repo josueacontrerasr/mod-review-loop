@@ -1,0 +1,93 @@
+name: QA vocal-only V-Slice V2.6.0
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/10 * * * *'
+  push:
+    paths:
+      - 'mods/**'
+      - 'Mods .zip terminados/**'
+      - 'config/fnf_target.json'
+      - 'tools/*vocal_only*v260.py'
+      - 'tools/validate_v260_vocal_runtime.py'
+      - 'tools/validate_v260_vocal_zips.py'
+      - 'tools/independent_vad_gate_v260.py'
+      - 'tools/full_contract_asset_audit_v260.py'
+      - 'tools/mobile_headless_loader_v260.py'
+      - '.github/workflows/qa-vocal-only-v260.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: qa-vocal-only-v260-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  FNF_VERSION: '0.8.6'
+
+jobs:
+  vocal-only-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias de audio y QA
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip Pillow numpy scipy soundfile librosa
+          ffmpeg -version
+          ffprobe -version
+
+      - name: Congelar fuentes vocales
+        run: python tools/prepare_vocal_only_sources_v260.py . --workers 4
+
+      - name: Regenerar candidatos exclusivamente desde Voices
+        run: python tools/build_vocal_only_candidates_v260.py . --workers 4
+
+      - name: Validar procedencia vocal y VAD independiente
+        run: |
+          python tools/validate_vocal_only_candidates_v260.py .
+          python tools/independent_vad_gate_v260.py . --workers 4
+          python tools/probe_vocal_only_runtime_inputs_v260.py .
+
+      - name: Validar runtime V-Slice 0.8.6 y assets
+        run: |
+          python tools/validate_v260_vocal_runtime.py . --workers 8
+          python tools/full_contract_asset_audit_v260.py . --workers 4
+          python tools/mobile_headless_loader_v260.py . --workers 4
+
+      - name: Verificar ZIPs V2.6.0 y QA 20x20
+        run: |
+          python tools/package_v260_vocal_only.py
+          python tools/validate_v260_vocal_zips.py .
+          python tools/qa_vocal_only_staged_v260.py . --rounds 20 --workers 8
+
+      - name: Publicar artifacts vocal-only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-vocal-only-v260-${{ github.run_id }}
+          path: |
+            qa-lab/rebuild-v260/vocal-only/**
+            qa-lab/rebuild-v260/full-contract-asset-audit-v260.json
+            qa-lab/rebuild-v260/mobile-loader-v260.json
+            Mods .zip terminados/*.zip
+            config/fnf_target.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Declarar política segura
+        run: |
+          echo 'V2.6.0 vocal-only: solo Voices-*.ogg genera notas.'
+          echo 'Inst.ogg es contexto; no se usa para generar charts.'
+          echo 'El workflow valida y publica artifacts; no hace commits ni Releases automáticos.'

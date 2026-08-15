@@ -1,0 +1,1618 @@
+{
+  "scope": "VOCAL_ONLY_PRODUCTION_COMPARISON_V260",
+  "executed_at": "2026-08-15T17:26:26.567062+00:00",
+  "target_version": "0.8.6",
+  "songs": 20,
+  "difficulties": 60,
+  "passed": 20,
+  "status": "PASS",
+  "totals": {
+    "production_notes": 30077,
+    "production_outside_vocal_segment": 10492,
+    "candidate_notes": 24904,
+    "production_outside_percent": 34.884
+  },
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 364,
+          "production_inside_vocal_segment": 13,
+          "production_outside_vocal_segment": 351,
+          "candidate_notes": 17,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 17,
+            "target": 364,
+            "matched_120ms": 11,
+            "coverage_percent": 64.706,
+            "mean_ms": 152.296,
+            "max_ms": 655.964
+          },
+          "production_vs_candidate": {
+            "source": 364,
+            "target": 17,
+            "matched_120ms": 11,
+            "coverage_percent": 3.022,
+            "mean_ms": 7949.023,
+            "max_ms": 36188.3
+          },
+          "candidate_density_delta_percent": -95.33
+        },
+        "normal": {
+          "production_notes": 474,
+          "production_inside_vocal_segment": 20,
+          "production_outside_vocal_segment": 454,
+          "candidate_notes": 50,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 50,
+            "target": 474,
+            "matched_120ms": 31,
+            "coverage_percent": 62.0,
+            "mean_ms": 140.365,
+            "max_ms": 655.964
+          },
+          "production_vs_candidate": {
+            "source": 474,
+            "target": 50,
+            "matched_120ms": 31,
+            "coverage_percent": 6.54,
+            "mean_ms": 5920.795,
+            "max_ms": 36188.3
+          },
+          "candidate_density_delta_percent": -89.451
+        },
+        "hard": {
+          "production_notes": 566,
+          "production_inside_vocal_segment": 27,
+          "production_outside_vocal_segment": 539,
+          "candidate_notes": 56,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 56,
+            "target": 566,
+            "matched_120ms": 40,
+            "coverage_percent": 71.429,
+            "mean_ms": 122.423,
+            "max_ms": 655.964
+          },
+          "production_vs_candidate": {
+            "source": 566,
+            "target": 56,
+            "matched_120ms": 41,
+            "coverage_percent": 7.244,
+            "mean_ms": 5779.082,
+            "max_ms": 36188.3
+          },
+          "candidate_density_delta_percent": -90.106
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 434,
+          "production_inside_vocal_segment": 317,
+          "production_outside_vocal_segment": 117,
+          "candidate_notes": 247,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 247,
+            "target": 434,
+            "matched_120ms": 175,
+            "coverage_percent": 70.85,
+            "mean_ms": 88.649,
+            "max_ms": 313.47
+          },
+          "production_vs_candidate": {
+            "source": 434,
+            "target": 247,
+            "matched_120ms": 175,
+            "coverage_percent": 40.323,
+            "mean_ms": 694.82,
+            "max_ms": 11279.093
+          },
+          "candidate_density_delta_percent": -43.088
+        },
+        "normal": {
+          "production_notes": 563,
+          "production_inside_vocal_segment": 404,
+          "production_outside_vocal_segment": 159,
+          "candidate_notes": 572,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 572,
+            "target": 563,
+            "matched_120ms": 419,
+            "coverage_percent": 73.252,
+            "mean_ms": 82.315,
+            "max_ms": 394.739
+          },
+          "production_vs_candidate": {
+            "source": 563,
+            "target": 572,
+            "matched_120ms": 407,
+            "coverage_percent": 72.291,
+            "mean_ms": 487.268,
+            "max_ms": 11279.093
+          },
+          "candidate_density_delta_percent": 1.599
+        },
+        "hard": {
+          "production_notes": 777,
+          "production_inside_vocal_segment": 567,
+          "production_outside_vocal_segment": 210,
+          "candidate_notes": 731,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 731,
+            "target": 777,
+            "matched_120ms": 636,
+            "coverage_percent": 87.004,
+            "mean_ms": 62.354,
+            "max_ms": 394.739
+          },
+          "production_vs_candidate": {
+            "source": 777,
+            "target": 731,
+            "matched_120ms": 578,
+            "coverage_percent": 74.389,
+            "mean_ms": 421.134,
+            "max_ms": 11279.093
+          },
+          "candidate_density_delta_percent": -5.92
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 438,
+          "production_inside_vocal_segment": 321,
+          "production_outside_vocal_segment": 117,
+          "candidate_notes": 260,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 260,
+            "target": 438,
+            "matched_120ms": 159,
+            "coverage_percent": 61.154,
+            "mean_ms": 104.467,
+            "max_ms": 325.079
+          },
+          "production_vs_candidate": {
+            "source": 438,
+            "target": 260,
+            "matched_120ms": 159,
+            "coverage_percent": 36.301,
+            "mean_ms": 801.711,
+            "max_ms": 11308.118
+          },
+          "candidate_density_delta_percent": -40.639
+        },
+        "normal": {
+          "production_notes": 625,
+          "production_inside_vocal_segment": 465,
+          "production_outside_vocal_segment": 160,
+          "candidate_notes": 601,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 601,
+            "target": 625,
+            "matched_120ms": 487,
+            "coverage_percent": 81.032,
+            "mean_ms": 72.142,
+            "max_ms": 267.029
+          },
+          "production_vs_candidate": {
+            "source": 625,
+            "target": 601,
+            "matched_120ms": 459,
+            "coverage_percent": 73.44,
+            "mean_ms": 626.446,
+            "max_ms": 11122.358
+          },
+          "candidate_density_delta_percent": -3.84
+        },
+        "hard": {
+          "production_notes": 869,
+          "production_inside_vocal_segment": 646,
+          "production_outside_vocal_segment": 223,
+          "candidate_notes": 777,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 777,
+            "target": 869,
+            "matched_120ms": 709,
+            "coverage_percent": 91.248,
+            "mean_ms": 53.933,
+            "max_ms": 220.59
+          },
+          "production_vs_candidate": {
+            "source": 869,
+            "target": 777,
+            "matched_120ms": 644,
+            "coverage_percent": 74.108,
+            "mean_ms": 629.27,
+            "max_ms": 11122.358
+          },
+          "candidate_density_delta_percent": -10.587
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 397,
+          "production_inside_vocal_segment": 311,
+          "production_outside_vocal_segment": 86,
+          "candidate_notes": 249,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 249,
+            "target": 397,
+            "matched_120ms": 132,
+            "coverage_percent": 53.012,
+            "mean_ms": 122.254,
+            "max_ms": 452.789
+          },
+          "production_vs_candidate": {
+            "source": 397,
+            "target": 249,
+            "matched_120ms": 132,
+            "coverage_percent": 33.249,
+            "mean_ms": 1576.091,
+            "max_ms": 20607.71
+          },
+          "candidate_density_delta_percent": -37.28
+        },
+        "normal": {
+          "production_notes": 572,
+          "production_inside_vocal_segment": 443,
+          "production_outside_vocal_segment": 129,
+          "candidate_notes": 654,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 654,
+            "target": 572,
+            "matched_120ms": 452,
+            "coverage_percent": 69.113,
+            "mean_ms": 113.703,
+            "max_ms": 1039.093
+          },
+          "production_vs_candidate": {
+            "source": 572,
+            "target": 654,
+            "matched_120ms": 439,
+            "coverage_percent": 76.748,
+            "mean_ms": 1737.711,
+            "max_ms": 20607.71
+          },
+          "candidate_density_delta_percent": 14.336
+        },
+        "hard": {
+          "production_notes": 669,
+          "production_inside_vocal_segment": 515,
+          "production_outside_vocal_segment": 154,
+          "candidate_notes": 804,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 804,
+            "target": 669,
+            "matched_120ms": 608,
+            "coverage_percent": 75.622,
+            "mean_ms": 100.382,
+            "max_ms": 975.238
+          },
+          "production_vs_candidate": {
+            "source": 669,
+            "target": 804,
+            "matched_120ms": 509,
+            "coverage_percent": 76.084,
+            "mean_ms": 1577.56,
+            "max_ms": 20607.71
+          },
+          "candidate_density_delta_percent": 20.179
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 400,
+          "production_inside_vocal_segment": 331,
+          "production_outside_vocal_segment": 69,
+          "candidate_notes": 230,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 230,
+            "target": 400,
+            "matched_120ms": 162,
+            "coverage_percent": 70.435,
+            "mean_ms": 103.783,
+            "max_ms": 359.91
+          },
+          "production_vs_candidate": {
+            "source": 400,
+            "target": 230,
+            "matched_120ms": 163,
+            "coverage_percent": 40.75,
+            "mean_ms": 526.614,
+            "max_ms": 15592.199
+          },
+          "candidate_density_delta_percent": -42.5
+        },
+        "normal": {
+          "production_notes": 557,
+          "production_inside_vocal_segment": 471,
+          "production_outside_vocal_segment": 86,
+          "candidate_notes": 611,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 611,
+            "target": 557,
+            "matched_120ms": 465,
+            "coverage_percent": 76.105,
+            "mean_ms": 101.934,
+            "max_ms": 864.943
+          },
+          "production_vs_candidate": {
+            "source": 557,
+            "target": 611,
+            "matched_120ms": 456,
+            "coverage_percent": 81.867,
+            "mean_ms": 296.45,
+            "max_ms": 15139.41
+          },
+          "candidate_density_delta_percent": 9.695
+        },
+        "hard": {
+          "production_notes": 658,
+          "production_inside_vocal_segment": 541,
+          "production_outside_vocal_segment": 117,
+          "candidate_notes": 746,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 746,
+            "target": 658,
+            "matched_120ms": 585,
+            "coverage_percent": 78.418,
+            "mean_ms": 94.864,
+            "max_ms": 864.943
+          },
+          "production_vs_candidate": {
+            "source": 658,
+            "target": 746,
+            "matched_120ms": 527,
+            "coverage_percent": 80.091,
+            "mean_ms": 381.771,
+            "max_ms": 15139.41
+          },
+          "candidate_density_delta_percent": 13.374
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 355,
+          "production_inside_vocal_segment": 270,
+          "production_outside_vocal_segment": 85,
+          "candidate_notes": 191,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 191,
+            "target": 355,
+            "matched_120ms": 120,
+            "coverage_percent": 62.827,
+            "mean_ms": 116.13,
+            "max_ms": 731.429
+          },
+          "production_vs_candidate": {
+            "source": 355,
+            "target": 191,
+            "matched_120ms": 121,
+            "coverage_percent": 34.085,
+            "mean_ms": 393.202,
+            "max_ms": 8022.495
+          },
+          "candidate_density_delta_percent": -46.197
+        },
+        "normal": {
+          "production_notes": 479,
+          "production_inside_vocal_segment": 368,
+          "production_outside_vocal_segment": 111,
+          "candidate_notes": 518,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 518,
+            "target": 479,
+            "matched_120ms": 369,
+            "coverage_percent": 71.236,
+            "mean_ms": 100.758,
+            "max_ms": 731.429
+          },
+          "production_vs_candidate": {
+            "source": 479,
+            "target": 518,
+            "matched_120ms": 366,
+            "coverage_percent": 76.409,
+            "mean_ms": 201.878,
+            "max_ms": 7511.656
+          },
+          "candidate_density_delta_percent": 8.142
+        },
+        "hard": {
+          "production_notes": 596,
+          "production_inside_vocal_segment": 456,
+          "production_outside_vocal_segment": 140,
+          "candidate_notes": 656,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 656,
+            "target": 596,
+            "matched_120ms": 507,
+            "coverage_percent": 77.287,
+            "mean_ms": 90.26,
+            "max_ms": 824.308
+          },
+          "production_vs_candidate": {
+            "source": 596,
+            "target": 656,
+            "matched_120ms": 457,
+            "coverage_percent": 76.678,
+            "mean_ms": 216.918,
+            "max_ms": 7511.656
+          },
+          "candidate_density_delta_percent": 10.067
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 360,
+          "production_inside_vocal_segment": 94,
+          "production_outside_vocal_segment": 266,
+          "candidate_notes": 81,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 81,
+            "target": 360,
+            "matched_120ms": 61,
+            "coverage_percent": 75.309,
+            "mean_ms": 100.691,
+            "max_ms": 348.3
+          },
+          "production_vs_candidate": {
+            "source": 360,
+            "target": 81,
+            "matched_120ms": 61,
+            "coverage_percent": 16.944,
+            "mean_ms": 1406.533,
+            "max_ms": 13722.994
+          },
+          "candidate_density_delta_percent": -77.5
+        },
+        "normal": {
+          "production_notes": 458,
+          "production_inside_vocal_segment": 105,
+          "production_outside_vocal_segment": 353,
+          "candidate_notes": 247,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 247,
+            "target": 458,
+            "matched_120ms": 145,
+            "coverage_percent": 58.704,
+            "mean_ms": 184.232,
+            "max_ms": 2054.966
+          },
+          "production_vs_candidate": {
+            "source": 458,
+            "target": 247,
+            "matched_120ms": 143,
+            "coverage_percent": 31.223,
+            "mean_ms": 1114.38,
+            "max_ms": 13722.994
+          },
+          "candidate_density_delta_percent": -46.07
+        },
+        "hard": {
+          "production_notes": 552,
+          "production_inside_vocal_segment": 141,
+          "production_outside_vocal_segment": 411,
+          "candidate_notes": 295,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 295,
+            "target": 552,
+            "matched_120ms": 197,
+            "coverage_percent": 66.78,
+            "mean_ms": 162.343,
+            "max_ms": 2054.966
+          },
+          "production_vs_candidate": {
+            "source": 552,
+            "target": 295,
+            "matched_120ms": 186,
+            "coverage_percent": 33.696,
+            "mean_ms": 992.632,
+            "max_ms": 13722.994
+          },
+          "candidate_density_delta_percent": -46.558
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 426,
+          "production_inside_vocal_segment": 245,
+          "production_outside_vocal_segment": 181,
+          "candidate_notes": 189,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 189,
+            "target": 426,
+            "matched_120ms": 106,
+            "coverage_percent": 56.085,
+            "mean_ms": 124.669,
+            "max_ms": 789.478
+          },
+          "production_vs_candidate": {
+            "source": 426,
+            "target": 189,
+            "matched_120ms": 106,
+            "coverage_percent": 24.883,
+            "mean_ms": 1794.491,
+            "max_ms": 23428.934
+          },
+          "candidate_density_delta_percent": -55.634
+        },
+        "normal": {
+          "production_notes": 657,
+          "production_inside_vocal_segment": 402,
+          "production_outside_vocal_segment": 255,
+          "candidate_notes": 529,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 529,
+            "target": 657,
+            "matched_120ms": 388,
+            "coverage_percent": 73.346,
+            "mean_ms": 107.288,
+            "max_ms": 928.798
+          },
+          "production_vs_candidate": {
+            "source": 657,
+            "target": 529,
+            "matched_120ms": 386,
+            "coverage_percent": 58.752,
+            "mean_ms": 1460.604,
+            "max_ms": 23428.934
+          },
+          "candidate_density_delta_percent": -19.482
+        },
+        "hard": {
+          "production_notes": 759,
+          "production_inside_vocal_segment": 445,
+          "production_outside_vocal_segment": 314,
+          "candidate_notes": 596,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 596,
+            "target": 759,
+            "matched_120ms": 462,
+            "coverage_percent": 77.517,
+            "mean_ms": 99.591,
+            "max_ms": 928.798
+          },
+          "production_vs_candidate": {
+            "source": 759,
+            "target": 596,
+            "matched_120ms": 430,
+            "coverage_percent": 56.653,
+            "mean_ms": 1507.89,
+            "max_ms": 23428.934
+          },
+          "candidate_density_delta_percent": -21.476
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 271,
+          "production_inside_vocal_segment": 223,
+          "production_outside_vocal_segment": 48,
+          "candidate_notes": 140,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 140,
+            "target": 271,
+            "matched_120ms": 93,
+            "coverage_percent": 66.429,
+            "mean_ms": 114.358,
+            "max_ms": 592.109
+          },
+          "production_vs_candidate": {
+            "source": 271,
+            "target": 140,
+            "matched_120ms": 93,
+            "coverage_percent": 34.317,
+            "mean_ms": 628.845,
+            "max_ms": 12480.726
+          },
+          "candidate_density_delta_percent": -48.339
+        },
+        "normal": {
+          "production_notes": 352,
+          "production_inside_vocal_segment": 291,
+          "production_outside_vocal_segment": 61,
+          "candidate_notes": 416,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 416,
+            "target": 352,
+            "matched_120ms": 278,
+            "coverage_percent": 66.827,
+            "mean_ms": 131.673,
+            "max_ms": 1288.707
+          },
+          "production_vs_candidate": {
+            "source": 352,
+            "target": 416,
+            "matched_120ms": 272,
+            "coverage_percent": 77.273,
+            "mean_ms": 387.747,
+            "max_ms": 12097.597
+          },
+          "candidate_density_delta_percent": 18.182
+        },
+        "hard": {
+          "production_notes": 407,
+          "production_inside_vocal_segment": 339,
+          "production_outside_vocal_segment": 68,
+          "candidate_notes": 506,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 506,
+            "target": 407,
+            "matched_120ms": 347,
+            "coverage_percent": 68.577,
+            "mean_ms": 121.411,
+            "max_ms": 1335.148
+          },
+          "production_vs_candidate": {
+            "source": 407,
+            "target": 506,
+            "matched_120ms": 313,
+            "coverage_percent": 76.904,
+            "mean_ms": 371.134,
+            "max_ms": 12097.597
+          },
+          "candidate_density_delta_percent": 24.324
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 323,
+          "production_inside_vocal_segment": 137,
+          "production_outside_vocal_segment": 186,
+          "candidate_notes": 110,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 110,
+            "target": 323,
+            "matched_120ms": 70,
+            "coverage_percent": 63.636,
+            "mean_ms": 113.725,
+            "max_ms": 487.619
+          },
+          "production_vs_candidate": {
+            "source": 323,
+            "target": 110,
+            "matched_120ms": 70,
+            "coverage_percent": 21.672,
+            "mean_ms": 879.141,
+            "max_ms": 15702.494
+          },
+          "candidate_density_delta_percent": -65.944
+        },
+        "normal": {
+          "production_notes": 469,
+          "production_inside_vocal_segment": 208,
+          "production_outside_vocal_segment": 261,
+          "candidate_notes": 295,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 295,
+            "target": 469,
+            "matched_120ms": 213,
+            "coverage_percent": 72.203,
+            "mean_ms": 121.747,
+            "max_ms": 2223.311
+          },
+          "production_vs_candidate": {
+            "source": 469,
+            "target": 295,
+            "matched_120ms": 211,
+            "coverage_percent": 44.989,
+            "mean_ms": 552.712,
+            "max_ms": 15470.295
+          },
+          "candidate_density_delta_percent": -37.1
+        },
+        "hard": {
+          "production_notes": 559,
+          "production_inside_vocal_segment": 253,
+          "production_outside_vocal_segment": 306,
+          "candidate_notes": 324,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 324,
+            "target": 559,
+            "matched_120ms": 261,
+            "coverage_percent": 80.556,
+            "mean_ms": 105.529,
+            "max_ms": 2223.311
+          },
+          "production_vs_candidate": {
+            "source": 559,
+            "target": 324,
+            "matched_120ms": 253,
+            "coverage_percent": 45.259,
+            "mean_ms": 497.817,
+            "max_ms": 15354.195
+          },
+          "candidate_density_delta_percent": -42.039
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 237,
+          "production_inside_vocal_segment": 199,
+          "production_outside_vocal_segment": 38,
+          "candidate_notes": 148,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 148,
+            "target": 237,
+            "matched_120ms": 95,
+            "coverage_percent": 64.189,
+            "mean_ms": 114.256,
+            "max_ms": 661.768
+          },
+          "production_vs_candidate": {
+            "source": 237,
+            "target": 148,
+            "matched_120ms": 95,
+            "coverage_percent": 40.084,
+            "mean_ms": 1199.477,
+            "max_ms": 19539.592
+          },
+          "candidate_density_delta_percent": -37.553
+        },
+        "normal": {
+          "production_notes": 322,
+          "production_inside_vocal_segment": 264,
+          "production_outside_vocal_segment": 58,
+          "candidate_notes": 405,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 405,
+            "target": 322,
+            "matched_120ms": 279,
+            "coverage_percent": 68.889,
+            "mean_ms": 126.821,
+            "max_ms": 905.578
+          },
+          "production_vs_candidate": {
+            "source": 322,
+            "target": 405,
+            "matched_120ms": 264,
+            "coverage_percent": 81.988,
+            "mean_ms": 1476.703,
+            "max_ms": 19365.442
+          },
+          "candidate_density_delta_percent": 25.776
+        },
+        "hard": {
+          "production_notes": 397,
+          "production_inside_vocal_segment": 315,
+          "production_outside_vocal_segment": 82,
+          "candidate_notes": 506,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 506,
+            "target": 397,
+            "matched_120ms": 371,
+            "coverage_percent": 73.32,
+            "mean_ms": 118.463,
+            "max_ms": 905.578
+          },
+          "production_vs_candidate": {
+            "source": 397,
+            "target": 506,
+            "matched_120ms": 315,
+            "coverage_percent": 79.345,
+            "mean_ms": 1784.31,
+            "max_ms": 19365.442
+          },
+          "candidate_density_delta_percent": 27.456
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 358,
+          "production_inside_vocal_segment": 240,
+          "production_outside_vocal_segment": 118,
+          "candidate_notes": 185,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 185,
+            "target": 358,
+            "matched_120ms": 126,
+            "coverage_percent": 68.108,
+            "mean_ms": 111.519,
+            "max_ms": 847.528
+          },
+          "production_vs_candidate": {
+            "source": 358,
+            "target": 185,
+            "matched_120ms": 126,
+            "coverage_percent": 35.196,
+            "mean_ms": 445.022,
+            "max_ms": 10025.215
+          },
+          "candidate_density_delta_percent": -48.324
+        },
+        "normal": {
+          "production_notes": 495,
+          "production_inside_vocal_segment": 327,
+          "production_outside_vocal_segment": 168,
+          "candidate_notes": 520,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 520,
+            "target": 495,
+            "matched_120ms": 344,
+            "coverage_percent": 66.154,
+            "mean_ms": 129.842,
+            "max_ms": 1021.678
+          },
+          "production_vs_candidate": {
+            "source": 495,
+            "target": 520,
+            "matched_120ms": 336,
+            "coverage_percent": 67.879,
+            "mean_ms": 266.525,
+            "max_ms": 9688.526
+          },
+          "candidate_density_delta_percent": 5.051
+        },
+        "hard": {
+          "production_notes": 581,
+          "production_inside_vocal_segment": 384,
+          "production_outside_vocal_segment": 197,
+          "candidate_notes": 630,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 630,
+            "target": 581,
+            "matched_120ms": 454,
+            "coverage_percent": 72.063,
+            "mean_ms": 111.428,
+            "max_ms": 1114.558
+          },
+          "production_vs_candidate": {
+            "source": 581,
+            "target": 630,
+            "matched_120ms": 398,
+            "coverage_percent": 68.503,
+            "mean_ms": 250.863,
+            "max_ms": 9688.526
+          },
+          "candidate_density_delta_percent": 8.434
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 319,
+          "production_inside_vocal_segment": 209,
+          "production_outside_vocal_segment": 110,
+          "candidate_notes": 155,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 155,
+            "target": 319,
+            "matched_120ms": 116,
+            "coverage_percent": 74.839,
+            "mean_ms": 97.112,
+            "max_ms": 348.299
+          },
+          "production_vs_candidate": {
+            "source": 319,
+            "target": 155,
+            "matched_120ms": 116,
+            "coverage_percent": 36.364,
+            "mean_ms": 374.94,
+            "max_ms": 2101.405
+          },
+          "candidate_density_delta_percent": -51.411
+        },
+        "normal": {
+          "production_notes": 453,
+          "production_inside_vocal_segment": 289,
+          "production_outside_vocal_segment": 164,
+          "candidate_notes": 393,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 393,
+            "target": 453,
+            "matched_120ms": 315,
+            "coverage_percent": 80.153,
+            "mean_ms": 82.407,
+            "max_ms": 574.694
+          },
+          "production_vs_candidate": {
+            "source": 453,
+            "target": 393,
+            "matched_120ms": 309,
+            "coverage_percent": 68.212,
+            "mean_ms": 169.626,
+            "max_ms": 2020.136
+          },
+          "candidate_density_delta_percent": -13.245
+        },
+        "hard": {
+          "production_notes": 555,
+          "production_inside_vocal_segment": 360,
+          "production_outside_vocal_segment": 195,
+          "candidate_notes": 520,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 520,
+            "target": 555,
+            "matched_120ms": 418,
+            "coverage_percent": 80.385,
+            "mean_ms": 76.38,
+            "max_ms": 574.694
+          },
+          "production_vs_candidate": {
+            "source": 555,
+            "target": 520,
+            "matched_120ms": 382,
+            "coverage_percent": 68.829,
+            "mean_ms": 161.996,
+            "max_ms": 2020.136
+          },
+          "candidate_density_delta_percent": -6.306
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 448,
+          "production_inside_vocal_segment": 338,
+          "production_outside_vocal_segment": 110,
+          "candidate_notes": 262,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 262,
+            "target": 448,
+            "matched_120ms": 168,
+            "coverage_percent": 64.122,
+            "mean_ms": 106.816,
+            "max_ms": 766.258
+          },
+          "production_vs_candidate": {
+            "source": 448,
+            "target": 262,
+            "matched_120ms": 168,
+            "coverage_percent": 37.5,
+            "mean_ms": 582.028,
+            "max_ms": 11215.238
+          },
+          "candidate_density_delta_percent": -41.518
+        },
+        "normal": {
+          "production_notes": 612,
+          "production_inside_vocal_segment": 462,
+          "production_outside_vocal_segment": 150,
+          "candidate_notes": 656,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 656,
+            "target": 612,
+            "matched_120ms": 483,
+            "coverage_percent": 73.628,
+            "mean_ms": 94.375,
+            "max_ms": 766.258
+          },
+          "production_vs_candidate": {
+            "source": 612,
+            "target": 656,
+            "matched_120ms": 460,
+            "coverage_percent": 75.163,
+            "mean_ms": 413.368,
+            "max_ms": 11215.238
+          },
+          "candidate_density_delta_percent": 7.19
+        },
+        "hard": {
+          "production_notes": 826,
+          "production_inside_vocal_segment": 618,
+          "production_outside_vocal_segment": 208,
+          "candidate_notes": 804,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 804,
+            "target": 826,
+            "matched_120ms": 665,
+            "coverage_percent": 82.711,
+            "mean_ms": 76.288,
+            "max_ms": 766.258
+          },
+          "production_vs_candidate": {
+            "source": 826,
+            "target": 804,
+            "matched_120ms": 631,
+            "coverage_percent": 76.392,
+            "mean_ms": 422.829,
+            "max_ms": 11215.238
+          },
+          "candidate_density_delta_percent": -2.663
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 399,
+          "production_inside_vocal_segment": 285,
+          "production_outside_vocal_segment": 114,
+          "candidate_notes": 213,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 213,
+            "target": 399,
+            "matched_120ms": 126,
+            "coverage_percent": 59.155,
+            "mean_ms": 115.691,
+            "max_ms": 476.009
+          },
+          "production_vs_candidate": {
+            "source": 399,
+            "target": 213,
+            "matched_120ms": 128,
+            "coverage_percent": 32.08,
+            "mean_ms": 411.79,
+            "max_ms": 11551.927
+          },
+          "candidate_density_delta_percent": -46.617
+        },
+        "normal": {
+          "production_notes": 543,
+          "production_inside_vocal_segment": 398,
+          "production_outside_vocal_segment": 145,
+          "candidate_notes": 571,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 571,
+            "target": 543,
+            "matched_120ms": 393,
+            "coverage_percent": 68.827,
+            "mean_ms": 99.559,
+            "max_ms": 835.918
+          },
+          "production_vs_candidate": {
+            "source": 543,
+            "target": 571,
+            "matched_120ms": 392,
+            "coverage_percent": 72.192,
+            "mean_ms": 215.629,
+            "max_ms": 11551.927
+          },
+          "candidate_density_delta_percent": 5.157
+        },
+        "hard": {
+          "production_notes": 690,
+          "production_inside_vocal_segment": 506,
+          "production_outside_vocal_segment": 184,
+          "candidate_notes": 693,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 693,
+            "target": 690,
+            "matched_120ms": 544,
+            "coverage_percent": 78.499,
+            "mean_ms": 80.616,
+            "max_ms": 835.918
+          },
+          "production_vs_candidate": {
+            "source": 690,
+            "target": 693,
+            "matched_120ms": 512,
+            "coverage_percent": 74.203,
+            "mean_ms": 185.145,
+            "max_ms": 11551.927
+          },
+          "candidate_density_delta_percent": 0.435
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 424,
+          "production_inside_vocal_segment": 250,
+          "production_outside_vocal_segment": 174,
+          "candidate_notes": 176,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 176,
+            "target": 424,
+            "matched_120ms": 105,
+            "coverage_percent": 59.659,
+            "mean_ms": 119.629,
+            "max_ms": 371.52
+          },
+          "production_vs_candidate": {
+            "source": 424,
+            "target": 176,
+            "matched_120ms": 105,
+            "coverage_percent": 24.764,
+            "mean_ms": 456.006,
+            "max_ms": 7430.385
+          },
+          "candidate_density_delta_percent": -58.491
+        },
+        "normal": {
+          "production_notes": 573,
+          "production_inside_vocal_segment": 343,
+          "production_outside_vocal_segment": 230,
+          "candidate_notes": 465,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 465,
+            "target": 573,
+            "matched_120ms": 344,
+            "coverage_percent": 73.978,
+            "mean_ms": 90.783,
+            "max_ms": 557.279
+          },
+          "production_vs_candidate": {
+            "source": 573,
+            "target": 465,
+            "matched_120ms": 343,
+            "coverage_percent": 59.86,
+            "mean_ms": 224.47,
+            "max_ms": 7174.966
+          },
+          "candidate_density_delta_percent": -18.848
+        },
+        "hard": {
+          "production_notes": 729,
+          "production_inside_vocal_segment": 413,
+          "production_outside_vocal_segment": 316,
+          "candidate_notes": 580,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 580,
+            "target": 729,
+            "matched_120ms": 463,
+            "coverage_percent": 79.828,
+            "mean_ms": 79.318,
+            "max_ms": 557.279
+          },
+          "production_vs_candidate": {
+            "source": 729,
+            "target": 580,
+            "matched_120ms": 425,
+            "coverage_percent": 58.299,
+            "mean_ms": 434.801,
+            "max_ms": 7453.606
+          },
+          "candidate_density_delta_percent": -20.439
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 362,
+          "production_inside_vocal_segment": 294,
+          "production_outside_vocal_segment": 68,
+          "candidate_notes": 214,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 214,
+            "target": 362,
+            "matched_120ms": 146,
+            "coverage_percent": 68.224,
+            "mean_ms": 106.606,
+            "max_ms": 615.329
+          },
+          "production_vs_candidate": {
+            "source": 362,
+            "target": 214,
+            "matched_120ms": 146,
+            "coverage_percent": 40.331,
+            "mean_ms": 615.938,
+            "max_ms": 13003.175
+          },
+          "candidate_density_delta_percent": -40.884
+        },
+        "normal": {
+          "production_notes": 484,
+          "production_inside_vocal_segment": 382,
+          "production_outside_vocal_segment": 102,
+          "candidate_notes": 607,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 607,
+            "target": 484,
+            "matched_120ms": 399,
+            "coverage_percent": 65.733,
+            "mean_ms": 116.807,
+            "max_ms": 1102.948
+          },
+          "production_vs_candidate": {
+            "source": 484,
+            "target": 607,
+            "matched_120ms": 386,
+            "coverage_percent": 79.752,
+            "mean_ms": 513.058,
+            "max_ms": 13003.175
+          },
+          "candidate_density_delta_percent": 25.413
+        },
+        "hard": {
+          "production_notes": 591,
+          "production_inside_vocal_segment": 471,
+          "production_outside_vocal_segment": 120,
+          "candidate_notes": 756,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 756,
+            "target": 591,
+            "matched_120ms": 539,
+            "coverage_percent": 71.296,
+            "mean_ms": 101.894,
+            "max_ms": 754.649
+          },
+          "production_vs_candidate": {
+            "source": 591,
+            "target": 756,
+            "matched_120ms": 476,
+            "coverage_percent": 80.541,
+            "mean_ms": 436.268,
+            "max_ms": 13003.175
+          },
+          "candidate_density_delta_percent": 27.919
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 390,
+          "production_inside_vocal_segment": 273,
+          "production_outside_vocal_segment": 117,
+          "candidate_notes": 197,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 197,
+            "target": 390,
+            "matched_120ms": 140,
+            "coverage_percent": 71.066,
+            "mean_ms": 92.438,
+            "max_ms": 441.179
+          },
+          "production_vs_candidate": {
+            "source": 390,
+            "target": 197,
+            "matched_120ms": 140,
+            "coverage_percent": 35.897,
+            "mean_ms": 1042.74,
+            "max_ms": 12190.476
+          },
+          "candidate_density_delta_percent": -49.487
+        },
+        "normal": {
+          "production_notes": 505,
+          "production_inside_vocal_segment": 363,
+          "production_outside_vocal_segment": 142,
+          "candidate_notes": 522,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 522,
+            "target": 505,
+            "matched_120ms": 357,
+            "coverage_percent": 68.391,
+            "mean_ms": 102.499,
+            "max_ms": 580.498
+          },
+          "production_vs_candidate": {
+            "source": 505,
+            "target": 522,
+            "matched_120ms": 351,
+            "coverage_percent": 69.505,
+            "mean_ms": 692.035,
+            "max_ms": 11784.127
+          },
+          "candidate_density_delta_percent": 3.366
+        },
+        "hard": {
+          "production_notes": 665,
+          "production_inside_vocal_segment": 496,
+          "production_outside_vocal_segment": 169,
+          "candidate_notes": 659,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 659,
+            "target": 665,
+            "matched_120ms": 529,
+            "coverage_percent": 80.273,
+            "mean_ms": 80.204,
+            "max_ms": 580.498
+          },
+          "production_vs_candidate": {
+            "source": 665,
+            "target": 659,
+            "matched_120ms": 477,
+            "coverage_percent": 71.729,
+            "mean_ms": 590.424,
+            "max_ms": 11784.127
+          },
+          "candidate_density_delta_percent": -0.902
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 314,
+          "production_inside_vocal_segment": 186,
+          "production_outside_vocal_segment": 128,
+          "candidate_notes": 141,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 141,
+            "target": 314,
+            "matched_120ms": 80,
+            "coverage_percent": 56.738,
+            "mean_ms": 124.622,
+            "max_ms": 499.229
+          },
+          "production_vs_candidate": {
+            "source": 314,
+            "target": 141,
+            "matched_120ms": 81,
+            "coverage_percent": 25.796,
+            "mean_ms": 410.638,
+            "max_ms": 2362.63
+          },
+          "candidate_density_delta_percent": -55.096
+        },
+        "normal": {
+          "production_notes": 420,
+          "production_inside_vocal_segment": 251,
+          "production_outside_vocal_segment": 169,
+          "candidate_notes": 455,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 455,
+            "target": 420,
+            "matched_120ms": 284,
+            "coverage_percent": 62.418,
+            "mean_ms": 179.011,
+            "max_ms": 1555.737
+          },
+          "production_vs_candidate": {
+            "source": 420,
+            "target": 455,
+            "matched_120ms": 271,
+            "coverage_percent": 64.524,
+            "mean_ms": 183.465,
+            "max_ms": 1567.347
+          },
+          "candidate_density_delta_percent": 8.333
+        },
+        "hard": {
+          "production_notes": 500,
+          "production_inside_vocal_segment": 305,
+          "production_outside_vocal_segment": 195,
+          "candidate_notes": 563,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 563,
+            "target": 500,
+            "matched_120ms": 368,
+            "coverage_percent": 65.364,
+            "mean_ms": 163.117,
+            "max_ms": 1671.837
+          },
+          "production_vs_candidate": {
+            "source": 500,
+            "target": 563,
+            "matched_120ms": 328,
+            "coverage_percent": 65.6,
+            "mean_ms": 168.623,
+            "max_ms": 1567.347
+          },
+          "candidate_density_delta_percent": 12.6
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "errors": [],
+      "difficulties": {
+        "easy": {
+          "production_notes": 380,
+          "production_inside_vocal_segment": 257,
+          "production_outside_vocal_segment": 123,
+          "candidate_notes": 167,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 167,
+            "target": 380,
+            "matched_120ms": 124,
+            "coverage_percent": 74.251,
+            "mean_ms": 95.487,
+            "max_ms": 696.599
+          },
+          "production_vs_candidate": {
+            "source": 380,
+            "target": 167,
+            "matched_120ms": 125,
+            "coverage_percent": 32.895,
+            "mean_ms": 303.112,
+            "max_ms": 3297.234
+          },
+          "candidate_density_delta_percent": -56.053
+        },
+        "normal": {
+          "production_notes": 476,
+          "production_inside_vocal_segment": 311,
+          "production_outside_vocal_segment": 165,
+          "candidate_notes": 470,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 470,
+            "target": 476,
+            "matched_120ms": 323,
+            "coverage_percent": 68.723,
+            "mean_ms": 93.176,
+            "max_ms": 429.569
+          },
+          "production_vs_candidate": {
+            "source": 476,
+            "target": 470,
+            "matched_120ms": 316,
+            "coverage_percent": 66.387,
+            "mean_ms": 120.051,
+            "max_ms": 3123.084
+          },
+          "candidate_density_delta_percent": -1.261
+        },
+        "hard": {
+          "production_notes": 643,
+          "production_inside_vocal_segment": 427,
+          "production_outside_vocal_segment": 216,
+          "candidate_notes": 573,
+          "candidate_outside_vocal_segment": 0,
+          "candidate_vs_production": {
+            "source": 573,
+            "target": 643,
+            "matched_120ms": 457,
+            "coverage_percent": 79.756,
+            "mean_ms": 73.712,
+            "max_ms": 429.569
+          },
+          "production_vs_candidate": {
+            "source": 643,
+            "target": 573,
+            "matched_120ms": 432,
+            "coverage_percent": 67.185,
+            "mean_ms": 113.012,
+            "max_ms": 3123.084
+          },
+          "candidate_density_delta_percent": -10.886
+        }
+      },
+      "policy": "Production chart is reference only; candidate has voice provenance."
+    }
+  ],
+  "promotion": "BLOCKED_UNTIL_REVIEW"
+}

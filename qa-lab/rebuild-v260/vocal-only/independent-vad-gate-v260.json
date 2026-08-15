@@ -1,0 +1,516 @@
+{
+  "scope": "INDEPENDENT_VAD_GATE_V260",
+  "executed_at": "2026-08-15T17:33:15.742277+00:00",
+  "target_version": "0.8.6",
+  "frame_ms": 20,
+  "sample_rate": 16000,
+  "hangover_ms": 200,
+  "songs": 20,
+  "difficulties": 60,
+  "passed": 20,
+  "failed": 0,
+  "status": "PASS",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.03269748389720917,
+      "threshold": 0.13078993558883667,
+      "segment_count": 128,
+      "difficulties": {
+        "easy": {
+          "notes": 17,
+          "matched": 17,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 50,
+          "matched": 50,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 56,
+          "matched": 56,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.0054216692224144936,
+      "threshold": 0.035376910120248795,
+      "segment_count": 49,
+      "difficulties": {
+        "easy": {
+          "notes": 247,
+          "matched": 247,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 572,
+          "matched": 571,
+          "coverage_percent": 99.825
+        },
+        "hard": {
+          "notes": 731,
+          "matched": 730,
+          "coverage_percent": 99.863
+        }
+      }
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.002953223418444395,
+      "threshold": 0.02965705841779709,
+      "segment_count": 34,
+      "difficulties": {
+        "easy": {
+          "notes": 260,
+          "matched": 260,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 601,
+          "matched": 601,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 777,
+          "matched": 777,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.00030583865009248257,
+      "threshold": 0.030635200440883636,
+      "segment_count": 20,
+      "difficulties": {
+        "easy": {
+          "notes": 249,
+          "matched": 249,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 654,
+          "matched": 653,
+          "coverage_percent": 99.847
+        },
+        "hard": {
+          "notes": 804,
+          "matched": 803,
+          "coverage_percent": 99.876
+        }
+      }
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.0028386269696056843,
+      "threshold": 0.04291534423828125,
+      "segment_count": 44,
+      "difficulties": {
+        "easy": {
+          "notes": 230,
+          "matched": 230,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 611,
+          "matched": 611,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 746,
+          "matched": 746,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.002340201986953616,
+      "threshold": 0.04684554785490036,
+      "segment_count": 42,
+      "difficulties": {
+        "easy": {
+          "notes": 191,
+          "matched": 191,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 518,
+          "matched": 518,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 656,
+          "matched": 656,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.02887680009007454,
+      "threshold": 0.11550720036029816,
+      "segment_count": 144,
+      "difficulties": {
+        "easy": {
+          "notes": 81,
+          "matched": 81,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 247,
+          "matched": 247,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 295,
+          "matched": 295,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.020991135388612747,
+      "threshold": 0.08396454155445099,
+      "segment_count": 79,
+      "difficulties": {
+        "easy": {
+          "notes": 189,
+          "matched": 189,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 529,
+          "matched": 529,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 596,
+          "matched": 596,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.0003674240433610976,
+      "threshold": 0.05291049927473068,
+      "segment_count": 29,
+      "difficulties": {
+        "easy": {
+          "notes": 140,
+          "matched": 140,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 416,
+          "matched": 416,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 506,
+          "matched": 506,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.021692538633942604,
+      "threshold": 0.08677015453577042,
+      "segment_count": 42,
+      "difficulties": {
+        "easy": {
+          "notes": 110,
+          "matched": 110,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 295,
+          "matched": 295,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 324,
+          "matched": 324,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.00035798607859760523,
+      "threshold": 0.015512797050178051,
+      "segment_count": 22,
+      "difficulties": {
+        "easy": {
+          "notes": 148,
+          "matched": 148,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 405,
+          "matched": 405,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 506,
+          "matched": 506,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.019024278968572617,
+      "threshold": 0.07609711587429047,
+      "segment_count": 59,
+      "difficulties": {
+        "easy": {
+          "notes": 185,
+          "matched": 185,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 520,
+          "matched": 520,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 630,
+          "matched": 630,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.012151923961937428,
+      "threshold": 0.07132366299629211,
+      "segment_count": 67,
+      "difficulties": {
+        "easy": {
+          "notes": 155,
+          "matched": 155,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 393,
+          "matched": 393,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 520,
+          "matched": 520,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.0004443807411007583,
+      "threshold": 0.04444635659456253,
+      "segment_count": 30,
+      "difficulties": {
+        "easy": {
+          "notes": 262,
+          "matched": 262,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 656,
+          "matched": 656,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 804,
+          "matched": 804,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.00977984257042408,
+      "threshold": 0.03911937028169632,
+      "segment_count": 29,
+      "difficulties": {
+        "easy": {
+          "notes": 213,
+          "matched": 213,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 571,
+          "matched": 571,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 693,
+          "matched": 693,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.0274508073925972,
+      "threshold": 0.1098032295703888,
+      "segment_count": 61,
+      "difficulties": {
+        "easy": {
+          "notes": 176,
+          "matched": 176,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 465,
+          "matched": 465,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 580,
+          "matched": 580,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.0019748713821172714,
+      "threshold": 0.04652080312371254,
+      "segment_count": 31,
+      "difficulties": {
+        "easy": {
+          "notes": 214,
+          "matched": 214,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 607,
+          "matched": 607,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 756,
+          "matched": 756,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.009197590872645378,
+      "threshold": 0.04813050106167793,
+      "segment_count": 37,
+      "difficulties": {
+        "easy": {
+          "notes": 197,
+          "matched": 197,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 522,
+          "matched": 522,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 659,
+          "matched": 659,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.013947751373052597,
+      "threshold": 0.08692672848701477,
+      "segment_count": 47,
+      "difficulties": {
+        "easy": {
+          "notes": 141,
+          "matched": 141,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 455,
+          "matched": 455,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 563,
+          "matched": 563,
+          "coverage_percent": 100.0
+        }
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "errors": [],
+      "noise_floor": 0.008779877796769142,
+      "threshold": 0.056059662252664566,
+      "segment_count": 29,
+      "difficulties": {
+        "easy": {
+          "notes": 167,
+          "matched": 167,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 470,
+          "matched": 470,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 573,
+          "matched": 573,
+          "coverage_percent": 100.0
+        }
+      }
+    }
+  ],
+  "policy": "Independent CPU VAD is a gate against notes outside vocal activity; it never uses Inst.ogg."
+}

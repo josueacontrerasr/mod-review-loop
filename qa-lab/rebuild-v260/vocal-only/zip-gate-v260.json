@@ -1,0 +1,334 @@
+{
+  "scope": "VSLICE_086_VOCAL_ONLY_ZIP_GATE_V260",
+  "executed_at": "2026-08-15T17:33:07.357200+00:00",
+  "target_version": "0.8.6",
+  "mod_version": "2.6.0",
+  "packages": 20,
+  "passed": 20,
+  "collection_members": 20,
+  "collection_error": null,
+  "status": "PASS",
+  "rows": [
+    {
+      "package": "Mod-Arcoloria-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/arcoloria/arcoloria-chart.json"
+      ],
+      "audio_files": [
+        "songs/arcoloria/Voices-esperon-arcoloria.ogg",
+        "songs/arcoloria/Inst.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonArcoloriaHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Cortamos-Y-Volvemos-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/cortamos-y-volvemos/cortamos-y-volvemos-chart.json"
+      ],
+      "audio_files": [
+        "songs/cortamos-y-volvemos/Voices-esperon-cortamos-y-volvemos.ogg",
+        "songs/cortamos-y-volvemos/Inst.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonCortamosYVolvemosHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Dano-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/dano/dano-chart.json"
+      ],
+      "audio_files": [
+        "songs/dano/Voices-esperon-dano.ogg",
+        "songs/dano/Inst.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonDanoHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Dias-Magicos-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/dias-magicos/dias-magicos-chart.json"
+      ],
+      "audio_files": [
+        "songs/dias-magicos/Inst.ogg",
+        "songs/dias-magicos/Voices-esperon-dias-magicos.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonDiasMagicosHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Eclipsis-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/eclipsis/eclipsis-chart.json"
+      ],
+      "audio_files": [
+        "songs/eclipsis/Voices-esperon-eclipsis.ogg",
+        "songs/eclipsis/Inst.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonEclipsisHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Fango-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/fango/fango-chart.json"
+      ],
+      "audio_files": [
+        "songs/fango/Inst.ogg",
+        "songs/fango/Voices-esperon-fango.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonFangoHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Luma-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/luma/luma-chart.json"
+      ],
+      "audio_files": [
+        "songs/luma/Voices-esperon-luma.ogg",
+        "songs/luma/Inst.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonLumaHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Maraton-De-Peliculas-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json"
+      ],
+      "audio_files": [
+        "songs/maraton-de-peliculas/Voices-esperon-maraton-de-peliculas.ogg",
+        "songs/maraton-de-peliculas/Inst.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonMaratonDePeliculasHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Me-Voy-A-Morir-Si-No-Me-Besas-Ahora-Mismo-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart.json"
+      ],
+      "audio_files": [
+        "songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg",
+        "songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Inst.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonMeVoyAMorirSiNoMeBesasAhoraMismoHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Meteora-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/meteora/meteora-chart.json"
+      ],
+      "audio_files": [
+        "songs/meteora/Voices-esperon-meteora.ogg",
+        "songs/meteora/Inst.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonMeteoraHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Mi-Hogar-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/mi-hogar/mi-hogar-chart.json"
+      ],
+      "audio_files": [
+        "songs/mi-hogar/Inst.ogg",
+        "songs/mi-hogar/Voices-esperon-mi-hogar.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonMiHogarHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Nubia-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/nubia/nubia-chart.json"
+      ],
+      "audio_files": [
+        "songs/nubia/Inst.ogg",
+        "songs/nubia/Voices-esperon-nubia.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonNubiaHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Nuestro-Amor-No-Es-Normal-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart.json"
+      ],
+      "audio_files": [
+        "songs/nuestro-amor-no-es-normal/Voices-esperon-nuestro-amor-no-es-normal.ogg",
+        "songs/nuestro-amor-no-es-normal/Inst.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonNuestroAmorNoEsNormalHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Peligrosa-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/peligrosa/peligrosa-chart.json"
+      ],
+      "audio_files": [
+        "songs/peligrosa/Voices-esperon-peligrosa.ogg",
+        "songs/peligrosa/Inst.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonPeligrosaHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Rompecabezas-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/rompecabezas/rompecabezas-chart.json"
+      ],
+      "audio_files": [
+        "songs/rompecabezas/Inst.ogg",
+        "songs/rompecabezas/Voices-esperon-rompecabezas.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonRompecabezasHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Solare-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/solare/solare-chart.json"
+      ],
+      "audio_files": [
+        "songs/solare/Inst.ogg",
+        "songs/solare/Voices-esperon-solare.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonSolareHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Tristella-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/tristella/tristella-chart.json"
+      ],
+      "audio_files": [
+        "songs/tristella/Voices-esperon-tristella.ogg",
+        "songs/tristella/Inst.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonTristellaHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Tu-Dealer-De-Nostalgia-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json"
+      ],
+      "audio_files": [
+        "songs/tu-dealer-de-nostalgia/Inst.ogg",
+        "songs/tu-dealer-de-nostalgia/Voices-esperon-tu-dealer-de-nostalgia.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonTuDealerDeNostalgiaHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Un-Poco-Bien-Un-Poco-Mal-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart.json"
+      ],
+      "audio_files": [
+        "songs/un-poco-bien-un-poco-mal/Voices-esperon-un-poco-bien-un-poco-mal.ogg",
+        "songs/un-poco-bien-un-poco-mal/Inst.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonUnPocoBienUnPocoMalHudV2.hxc"
+      ]
+    },
+    {
+      "package": "Mod-Volver-A-Vernos-V2.6.0.zip",
+      "status": "PASS",
+      "errors": [],
+      "entries": 45,
+      "charts": [
+        "data/songs/volver-a-vernos/volver-a-vernos-chart.json"
+      ],
+      "audio_files": [
+        "songs/volver-a-vernos/Inst.ogg",
+        "songs/volver-a-vernos/Voices-esperon-volver-a-vernos.ogg"
+      ],
+      "scripts": [
+        "scripts/EsperonVolverAVernosHudV2.hxc"
+      ]
+    }
+  ],
+  "instrumental_used_for_generation": false
+}

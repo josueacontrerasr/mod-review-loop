@@ -1,0 +1,314 @@
+{
+  "scope": "VOCAL_ONLY_PROMOTION_V260",
+  "executed_at": "2026-08-15T17:30:29.945650+00:00",
+  "target_version": "0.8.6",
+  "mod_version": "2.6.0",
+  "songs": 20,
+  "promoted": 20,
+  "status": "PASS",
+  "production_modified": true,
+  "instrumental_used_for_generation": false,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "chart_sha256_before": "196898ba3e553f21e8b7c2a5d63b7ca1af03e8ea5af9d033ce2b13229efa4c3a",
+      "chart_sha256_after": "4d0c59881fe6caec06ce703c21ac2cd48a772c76e9b9e4d0c6b210ad4e1cda04",
+      "manifest_sha256_before": "e0eddfadafb88e6456620ec06a5b9f64fab47f862ff7752337026bda7afc5a5d",
+      "manifest_sha256_after": "2f2d4b54c235410e05d38cd104f76d6d66de217b9d7fc87675dd0ff5a2b8d7c7",
+      "source_vocal_sha256": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282",
+      "notes": {
+        "easy": 17,
+        "normal": 50,
+        "hard": 56
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "chart_sha256_before": "06a39b5d025452c62b66089b2605f55c47c6375dcf04885d58a98a19d400cc7b",
+      "chart_sha256_after": "761ba0b0dbff856e3f0f0a45a799d10f6779b708d73a43781222cd3d984fc77d",
+      "manifest_sha256_before": "587b7b0473adf73cdf834d5d2b11be9aea3cd5e8de40de78c2598768fbea1320",
+      "manifest_sha256_after": "61e8b122cc6eff335c688797c9770b3e328634665cfcfe9124d505ae2798884b",
+      "source_vocal_sha256": "0ec71bd2381a39212b549071a8ba617fd36753b9b0ea5343757d5e6224d745c1",
+      "notes": {
+        "easy": 247,
+        "normal": 572,
+        "hard": 731
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "dano",
+      "chart_sha256_before": "11ee78bbf9602f7744044081a15b3a5557deaa45fcf3902e3286d9a8d18ba33f",
+      "chart_sha256_after": "134623a5e6a1a2b7e392fd2b5db41a0377580cadc40a389bfed1a738565f4a0d",
+      "manifest_sha256_before": "8cf0dc558b8dc4f662aa5cc5a8915914810784c5c1a8f9a82790e36333448a19",
+      "manifest_sha256_after": "b9946475dc2e253f82808f1d653c6fdcaa19d83f5e242382e83d1825cff539c2",
+      "source_vocal_sha256": "bcef47cacf8685fd1d0f06918bdf577394cb4537771dc9b0bcf9956a0a4cd253",
+      "notes": {
+        "easy": 260,
+        "normal": 601,
+        "hard": 777
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "dias-magicos",
+      "chart_sha256_before": "abd56087ddb1354244d5c68b48afb9f5b3460f14d32754341d57114b1a37c789",
+      "chart_sha256_after": "ac2256914e4d04411fb9617caa4443c50784b0984322d4a42b8ec34664df293b",
+      "manifest_sha256_before": "fc3659651acbc5c419e12941dde5f28af537ae739ad5e14fdb6a88032edf0b4f",
+      "manifest_sha256_after": "f9e28d3f260cf7068b2ea99e8523f5c9b4ef9b2e11564fc45b1bbdc4518483d3",
+      "source_vocal_sha256": "96fd2c6aeccdc860a4e519b7bcb2156d723d75934fc6856c4fa766e238350422",
+      "notes": {
+        "easy": 249,
+        "normal": 654,
+        "hard": 804
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "eclipsis",
+      "chart_sha256_before": "48c2c17bcdecf53a12faa46dd2eb5d4b8a4eec4aac70348f131000e2527879dc",
+      "chart_sha256_after": "3efef7b9215f2b3b33787162dd46d056f0ee891e23bfd4e60b627c2d9dae9446",
+      "manifest_sha256_before": "70ec6420afd64cb31eb8a39aa6095d4c0ee3f54e07b73c2cc6a629a9a1e2ac28",
+      "manifest_sha256_after": "510f60a854d8e224e0e9de47466f461d042096f4a23293ab86b4e5520ab975c5",
+      "source_vocal_sha256": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98",
+      "notes": {
+        "easy": 230,
+        "normal": 611,
+        "hard": 746
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "fango",
+      "chart_sha256_before": "3bbf098d32f7da615babe36e60b3bf690097b3a123141da4a02bc7a61a7e64cd",
+      "chart_sha256_after": "3f8780df9fa42cd94282728245b9ebceaec9a677328735a2136733cc9b918b15",
+      "manifest_sha256_before": "11d48a56d067f01a547808826806b93f511de24e076a3440217c75e8db9a3c40",
+      "manifest_sha256_after": "d91cbc7f3e245d928be6dc174c67df8fce176f2022b08a89db149cee2cfba525",
+      "source_vocal_sha256": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595",
+      "notes": {
+        "easy": 191,
+        "normal": 518,
+        "hard": 656
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "luma",
+      "chart_sha256_before": "a43018bc67da3adcba3998f57c282255ec93fecd0834cf29843d34640bcf089b",
+      "chart_sha256_after": "41d0788315979d0bf189f9bebd442c653b8fc3783077bc9373cbc3329b9b40c3",
+      "manifest_sha256_before": "8961ed2bbf56e8aba9c9b425bbc239f7740a19efb479c0e98125d1a0cfedacde",
+      "manifest_sha256_after": "9341100ba7e59e5c5bf81083bce28048521a447fc0a7cf6a856010ae38b9f753",
+      "source_vocal_sha256": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae",
+      "notes": {
+        "easy": 81,
+        "normal": 247,
+        "hard": 295
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "chart_sha256_before": "4c9315a37f36bd6408cc5b8b37b42bd3fd44861debcc86899b91f65c8f190adc",
+      "chart_sha256_after": "f6afc91d41083e2d0e0fe0b3360f5eb4926a0cb7b6a5a4b0c860610a00bbc92a",
+      "manifest_sha256_before": "248d2808eea666e375ec6cf68d89caeb44a6bf6b2b8391f958d5ec1cf779ea66",
+      "manifest_sha256_after": "f70c26a68948250c113adbb289f0147a30bbdeef6276ae269bc3c0ef0e778dba",
+      "source_vocal_sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29",
+      "notes": {
+        "easy": 189,
+        "normal": 529,
+        "hard": 596
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "chart_sha256_before": "fbc194ea40d8c47445fe8c281d25e2a4a5d27c5329befa4ef81c1902fe3e914a",
+      "chart_sha256_after": "624e8841e7c6e7bdafe854ef34eeda8f9ef76f80433957d8b1ab9649a7ecef4c",
+      "manifest_sha256_before": "1244afe9ccfe37c844c0357f455d883a576a21560c37b5e941d79df6a2840754",
+      "manifest_sha256_after": "0bcbc4454d9de10b5df34a949f5f38025866182a542febcd6b6da28a9f9dbce9",
+      "source_vocal_sha256": "c7b009564ad9e319f244ef9068116e900b19a1e6b963ef9ab92b12d895454968",
+      "notes": {
+        "easy": 140,
+        "normal": 416,
+        "hard": 506
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "meteora",
+      "chart_sha256_before": "c26e08db8250ab015665f5566ce8e8f2ce26718220130adf428d26fd6100881c",
+      "chart_sha256_after": "649648b4b521199cfe87d52264f22e78f8256f36e83c3b9087a2564a48453dfa",
+      "manifest_sha256_before": "e91ce5b068bb526d775fc8e2aa4f88bceeef9b5b7ef868cffe5004dd005d616f",
+      "manifest_sha256_after": "6ae34681d1b07f3897ecea903306fce02c9ccde09615b354fe90926b9698ce91",
+      "source_vocal_sha256": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387",
+      "notes": {
+        "easy": 110,
+        "normal": 295,
+        "hard": 324
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "mi-hogar",
+      "chart_sha256_before": "6c8491e951a0b857c43a6609b68cf96512ef7d52fc670387d8dd49c81266f8c3",
+      "chart_sha256_after": "6a4a599e5ce2352d685bf3984e545a32de3b2514f72d60e6c273ad16fab6383b",
+      "manifest_sha256_before": "daabd845bb8cf7587ffa0af03154a6dca03793a8cbcb2639a6f94d22eb06b350",
+      "manifest_sha256_after": "556c7bddc2ba0599d5acd7549c5deb92fb0d46c040c937523c55526c14ded8e5",
+      "source_vocal_sha256": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2",
+      "notes": {
+        "easy": 148,
+        "normal": 405,
+        "hard": 506
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "nubia",
+      "chart_sha256_before": "c5bce7f0aee083c31fb1240f37502c0c2b901655968ab2d19257cd397aff04b6",
+      "chart_sha256_after": "79f3ae77f1b14ed2a750239c486fd4446c08a8e58f64b6237bc75d66874b8b7e",
+      "manifest_sha256_before": "aa78b0b9bada624792ef397c9a551d99ff10b7859b66e08e1ef0bba785513c12",
+      "manifest_sha256_after": "97b93c56adb34beca6e23fc0d23a29afee58d6b85d77648035954d4e57b9995d",
+      "source_vocal_sha256": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43",
+      "notes": {
+        "easy": 185,
+        "normal": 520,
+        "hard": 630
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "chart_sha256_before": "4105d443cf39f825cae5e330e76fc5b12c44d0a779026dde03ae015972aee622",
+      "chart_sha256_after": "ac5ac6ed6790cf6afab0f80db4af7f2c6719f589425f8c9447cb66622c1ad635",
+      "manifest_sha256_before": "b259f17c1139c551cdee274b4e9c1bd52ee71d21d140cd123c39e8b5e6ea0b1d",
+      "manifest_sha256_after": "88bded6db213093f15d5a38c8b6549886336ad7c6f2c1503c9157489544f84d7",
+      "source_vocal_sha256": "20d6a77f8924b647d65e0de5da9a54cf74f0635f1d3de658030a3dc214de303d",
+      "notes": {
+        "easy": 155,
+        "normal": 393,
+        "hard": 520
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "peligrosa",
+      "chart_sha256_before": "310f2694fd772532252a88541d4fc1eace63b94fa5d90ee7b7b97499a4c0d7ba",
+      "chart_sha256_after": "94525d47dffbe2c16f3fb66b030138d5f205b720c8c49a145be55b7fd3f998cc",
+      "manifest_sha256_before": "fc77f932e8413158d65fc72d08a9fdcf1d1d42aea281b57525c8ca3cfc7d05b4",
+      "manifest_sha256_after": "53af27b81084fd572d08431c3c636c0ea3f16d787a81f9ce759305ac3af475f9",
+      "source_vocal_sha256": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf",
+      "notes": {
+        "easy": 262,
+        "normal": 656,
+        "hard": 804
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "rompecabezas",
+      "chart_sha256_before": "1bafc9ea3f3d2eada24c9f695e5591dfd283da7c5dab11e1a081cdbfd344ea13",
+      "chart_sha256_after": "d8885d069f784f489ed6f87cc1d20b2f9e49968a5e1cb0150516e9d165abd455",
+      "manifest_sha256_before": "93b1a1110b058c8fd04303238454c5fd789a01d24495012b1ebf32beec77bd4f",
+      "manifest_sha256_after": "1d8622bbb28550f28d9cc138c8b274f9739662e3e9525dc923e13bfe5c13a076",
+      "source_vocal_sha256": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a",
+      "notes": {
+        "easy": 213,
+        "normal": 571,
+        "hard": 693
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "solare",
+      "chart_sha256_before": "53724434fb222eb02f24221cd4a4d77495cccae56c3ec99795d1237950d3c632",
+      "chart_sha256_after": "73b663c5f70a872645990017ad906f20725cd09ee15dba23665dad50418a68bb",
+      "manifest_sha256_before": "f37c62bc427636558001be067ae3318e3446c77624838810f68758852781faf1",
+      "manifest_sha256_after": "783600999cec8a016837c900a92a3e20b9e037166a91861189416586176e3641",
+      "source_vocal_sha256": "a52a6af6ccb47ec8124d2761030dd114572bbf03c7416d82fa6eb6b2afc9edf8",
+      "notes": {
+        "easy": 176,
+        "normal": 465,
+        "hard": 580
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "tristella",
+      "chart_sha256_before": "0a0a13a88ffbdab556caa808b9454844b297563c2774b566fca55f423c1511cd",
+      "chart_sha256_after": "22f97292e2df3b32826698de180e77f2f8b1ceddaeb7acafe900e39c28a4f22a",
+      "manifest_sha256_before": "7bdc1d68cbd8ee1e9a28e46c7a409850205d8d10dc9282f14764119d545c780d",
+      "manifest_sha256_after": "f7ab4eb4392bc22fd71f0112f457f013fffe2ea7e8ce3750d26992f0be494f8a",
+      "source_vocal_sha256": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198",
+      "notes": {
+        "easy": 214,
+        "normal": 607,
+        "hard": 756
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "chart_sha256_before": "fc81d75428666f049a9c5f9710115fde652868551800fa7bbcda268ca5213f1d",
+      "chart_sha256_after": "634dcf7be462181adf9010b16dbc5463d23966f19dff846670e588c04696cbc8",
+      "manifest_sha256_before": "95e90bdb2e7b3005e9b7c7cde7b2c560fecd11378d65de70219fa6e1687dfc45",
+      "manifest_sha256_after": "fb258dfc2a05d95a58b8d0c6037edf7c376cae26759524d539ce51d7f7833118",
+      "source_vocal_sha256": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f",
+      "notes": {
+        "easy": 197,
+        "normal": 522,
+        "hard": 659
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "chart_sha256_before": "9ae2aaaaa97a7723de4d965d316d3f8b4deca46031eb9175b9394d3dde95f84c",
+      "chart_sha256_after": "0ef3b5d4718fe815cd96b4018230798d3daf82a960ac08a1937282b6c9139412",
+      "manifest_sha256_before": "30efed5a06076600e66322b7d63817da92288cfc63658163fbd74dabc3847696",
+      "manifest_sha256_after": "9829d3cf25bf7a3df985898687f590eb098e2d4f863419f7c910720f2c1d6778",
+      "source_vocal_sha256": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229",
+      "notes": {
+        "easy": 141,
+        "normal": 455,
+        "hard": 563
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    },
+    {
+      "song": "volver-a-vernos",
+      "chart_sha256_before": "f226ecf391a4a54e4d58992f5a9b170c873dc8ccb2a187ef4061c1b613e65549",
+      "chart_sha256_after": "2e4e55da95d28f799ea8526ecee8545ce9bba0bb05fe7a179debd71b417337dd",
+      "manifest_sha256_before": "dd521e583004d9d95503e6d50cd70935d0349b40a6a6f7ea80a1143821261ed6",
+      "manifest_sha256_after": "119b7483260db3c2daab02e2a212393ee73ccd0caadd76ad4611ab85f4ce4409",
+      "source_vocal_sha256": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14",
+      "notes": {
+        "easy": 167,
+        "normal": 470,
+        "hard": 573
+      },
+      "instrumental_used_for_generation": false,
+      "version": "2.6.0"
+    }
+  ],
+  "policy": "Solo charts y manifests versionados fueron modificados; audio y assets permanecen intactos."
+}

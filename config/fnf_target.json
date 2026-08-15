@@ -25,6 +25,8 @@
     "secondary": ["Inst.ogg"],
     "preserve_original_audio": true,
     "candidate_analysis_only_until_all_gates_pass": true,
+    "chart_generation_mode": "VOCAL_ONLY",
+    "instrumental_can_generate_notes": false,
     "internal_initial_anchor_tolerance_ms": 5,
     "internal_initial_section_drift_tolerance_ms": 10
   },
@@ -50,6 +52,10 @@
     "un-poco-bien-un-poco-mal",
     "volver-a-vernos"
   ],
+  "release_policy": {
+    "current_mod_version": "2.6.0",
+    "change_summary": "Charts regenerados exclusivamente desde Voices-*.ogg; no se generan notas desde Inst.ogg"
+  },
   "qa_policy": {
     "rounds": 20,
     "mods_per_round": 20,

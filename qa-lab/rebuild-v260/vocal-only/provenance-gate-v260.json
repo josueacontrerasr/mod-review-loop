@@ -1,0 +1,978 @@
+{
+  "scope": "VOCAL_ONLY_PROVENANCE_GATE_V260",
+  "executed_at": "2026-08-15T17:33:08.038460+00:00",
+  "target_version": "0.8.6",
+  "songs": 20,
+  "difficulties": 60,
+  "passed": 20,
+  "failed": 0,
+  "status": "PASS",
+  "instrumental_used_for_generation": false,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 17,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 50,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 56,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 247,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 572,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 731,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 260,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 601,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 777,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 249,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 654,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 804,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 230,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 611,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 746,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 191,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 518,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 656,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 81,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 247,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 295,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 189,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 529,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 596,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 140,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 416,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 506,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 110,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 295,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 324,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 148,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 405,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 506,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 185,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 520,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 630,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 155,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 393,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 520,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 262,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 656,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 804,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 213,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 571,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 693,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 176,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 465,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 580,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 214,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 607,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 756,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 197,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 522,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 659,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 141,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 455,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 563,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "difficulties": {
+        "easy": {
+          "notes": 167,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "normal": {
+          "notes": 470,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "hard": {
+          "notes": 573,
+          "source_errors": 0,
+          "outside_vocal_segments": 0,
+          "coverage_within_vocal_segment_percent": 100.0,
+          "ordered": true,
+          "lane_domain": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "instrumental_used_for_generation": false
+    }
+  ],
+  "policy": "Cualquier nota sin origen voice o fuera de segmento vocal bloquea promoción.",
+  "limitations": [
+    "La procedencia vocal del stem no identifica por sí sola sílaba o cantante.",
+    "Audio Sync Test y playtest móvil siguen siendo obligatorios."
+  ]
+}
