@@ -1,0 +1,471 @@
+{
+  "scope": "V262_CANDIDATE_PRODUCTION_COMPARISON",
+  "executed_at": "2026-08-15T19:07:34.337213+00:00",
+  "songs": 21,
+  "same_count": 21,
+  "different_count": 0,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 9,
+          "production": 9,
+          "same": true
+        },
+        "normal": {
+          "candidate": 12,
+          "production": 12,
+          "same": true
+        },
+        "hard": {
+          "candidate": 17,
+          "production": 17,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 91,
+          "production": 91,
+          "same": true
+        },
+        "normal": {
+          "candidate": 292,
+          "production": 292,
+          "same": true
+        },
+        "hard": {
+          "candidate": 482,
+          "production": 482,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "dano",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-dano/data/songs/dano/dano-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 59,
+          "production": 59,
+          "same": true
+        },
+        "normal": {
+          "candidate": 274,
+          "production": 274,
+          "same": true
+        },
+        "hard": {
+          "candidate": 468,
+          "production": 468,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 113,
+          "production": 113,
+          "same": true
+        },
+        "normal": {
+          "candidate": 329,
+          "production": 329,
+          "same": true
+        },
+        "hard": {
+          "candidate": 520,
+          "production": 520,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "eclipsis",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 97,
+          "production": 97,
+          "same": true
+        },
+        "normal": {
+          "candidate": 318,
+          "production": 318,
+          "same": true
+        },
+        "hard": {
+          "candidate": 497,
+          "production": 497,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "fango",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-fango/data/songs/fango/fango-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 100,
+          "production": 100,
+          "same": true
+        },
+        "normal": {
+          "candidate": 266,
+          "production": 266,
+          "same": true
+        },
+        "hard": {
+          "candidate": 431,
+          "production": 431,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "luma",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-luma/data/songs/luma/luma-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 21,
+          "production": 21,
+          "same": true
+        },
+        "normal": {
+          "candidate": 55,
+          "production": 55,
+          "same": true
+        },
+        "hard": {
+          "candidate": 87,
+          "production": 87,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 86,
+          "production": 86,
+          "same": true
+        },
+        "normal": {
+          "candidate": 222,
+          "production": 222,
+          "same": true
+        },
+        "hard": {
+          "candidate": 343,
+          "production": 343,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 81,
+          "production": 81,
+          "same": true
+        },
+        "normal": {
+          "candidate": 230,
+          "production": 230,
+          "same": true
+        },
+        "hard": {
+          "candidate": 342,
+          "production": 342,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "meteora",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-meteora/data/songs/meteora/meteora-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 41,
+          "production": 41,
+          "same": true
+        },
+        "normal": {
+          "candidate": 120,
+          "production": 120,
+          "same": true
+        },
+        "hard": {
+          "candidate": 191,
+          "production": 191,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 72,
+          "production": 72,
+          "same": true
+        },
+        "normal": {
+          "candidate": 206,
+          "production": 206,
+          "same": true
+        },
+        "hard": {
+          "candidate": 311,
+          "production": 311,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "nubia",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-nubia/data/songs/nubia/nubia-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 96,
+          "production": 96,
+          "same": true
+        },
+        "normal": {
+          "candidate": 259,
+          "production": 259,
+          "same": true
+        },
+        "hard": {
+          "candidate": 403,
+          "production": 403,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 79,
+          "production": 79,
+          "same": true
+        },
+        "normal": {
+          "candidate": 231,
+          "production": 231,
+          "same": true
+        },
+        "hard": {
+          "candidate": 370,
+          "production": 370,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "peligrosa",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 103,
+          "production": 103,
+          "same": true
+        },
+        "normal": {
+          "candidate": 312,
+          "production": 312,
+          "same": true
+        },
+        "hard": {
+          "candidate": 499,
+          "production": 499,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 87,
+          "production": 87,
+          "same": true
+        },
+        "normal": {
+          "candidate": 267,
+          "production": 267,
+          "same": true
+        },
+        "hard": {
+          "candidate": 430,
+          "production": 430,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "si-te-vas",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 84,
+          "production": 84,
+          "same": true
+        },
+        "normal": {
+          "candidate": 255,
+          "production": 255,
+          "same": true
+        },
+        "hard": {
+          "candidate": 448,
+          "production": 448,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "solare",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-solare/data/songs/solare/solare-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 99,
+          "production": 99,
+          "same": true
+        },
+        "normal": {
+          "candidate": 269,
+          "production": 269,
+          "same": true
+        },
+        "hard": {
+          "candidate": 402,
+          "production": 402,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "tristella",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-tristella/data/songs/tristella/tristella-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 102,
+          "production": 102,
+          "same": true
+        },
+        "normal": {
+          "candidate": 310,
+          "production": 310,
+          "same": true
+        },
+        "hard": {
+          "candidate": 498,
+          "production": 498,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 80,
+          "production": 80,
+          "same": true
+        },
+        "normal": {
+          "candidate": 273,
+          "production": 273,
+          "same": true
+        },
+        "hard": {
+          "candidate": 420,
+          "production": 420,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 86,
+          "production": 86,
+          "same": true
+        },
+        "normal": {
+          "candidate": 263,
+          "production": 263,
+          "same": true
+        },
+        "hard": {
+          "candidate": 407,
+          "production": 407,
+          "same": true
+        }
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "same_as_production": true,
+      "production_chart": "mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-chart.json",
+      "comparison": {
+        "easy": {
+          "candidate": 65,
+          "production": 65,
+          "same": true
+        },
+        "normal": {
+          "candidate": 229,
+          "production": 229,
+          "same": true
+        },
+        "hard": {
+          "candidate": 387,
+          "production": 387,
+          "same": true
+        }
+      }
+    }
+  ]
+}

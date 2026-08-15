@@ -1,4 +1,4 @@
-name: QA PlayState Vocal Freeplay V2.6.1
+name: QA PlayState Vocal Freeplay V2.6.2
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: qa-playstate-vocal-freeplay-v261-${{ github.ref }}
+  group: qa-playstate-vocal-freeplay-v262-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -29,26 +29,26 @@ jobs:
           sudo apt-get install -y ffmpeg
           python -m pip install --disable-pip-version-check --no-input pillow
           ffprobe -version
-      - name: Validate PlayState default variation and 60 difficulties
-        run: python3 tools/resolve_playstate_v260.py . --workers 8 --variations default
+      - name: Validate PlayState default variation and 63 difficulties
+        run: python3 tools/resolve_playstate_v262.py . --workers 8 --variations default
       - name: Validate production vocal-only charts
-        run: python3 tools/validate_production_vocal_v261.py . --workers 8
+        run: python3 tools/validate_production_v262.py . --workers 8
       - name: Validate V-Slice contracts, Freeplay covers and assets
-        run: python3 tools/validate_v261_contracts_assets.py . --workers 8
+        run: python3 tools/validate_v262_contracts_assets.py . --workers 8
       - name: Rebuild deterministic ZIPs for CI artifact
-        run: python3 tools/package_esperon_complete_v261.py .
+        run: python3 tools/package_esperon_complete_v262.py .
       - name: Validate Esperon individual and complete ZIPs
-        run: python3 tools/validate_esperon_complete_v261.py . --workers 8
+        run: python3 tools/validate_esperon_complete_v262.py . --workers 8
       - name: Validate Android headless loader
-        run: python3 tools/mobile_headless_loader_v260.py . --workers 8
-      - name: Run 20 rounds x 20 mods QA
-        run: python3 tools/run_qa_v261_20x20.py > qa-lab/rebuild-v260/playstate-fix/qa-20x20-v261-ci.stdout
-      - name: Upload V2.6.1 evidence and ZIPs
+        run: python3 tools/mobile_headless_loader_v262.py . --workers 8
+      - name: Run 20 rounds x 21 mods QA
+        run: python3 tools/run_qa_v262_20x21.py > qa-lab/rebuild-v260/playstate-fix/qa-20x21-v262-ci.stdout
+      - name: Upload V2.6.2 evidence and ZIPs
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: esperon-v261-playstate-vocal-freeplay-${{ github.run_id }}
+          name: esperon-v262-playstate-vocal-freeplay-${{ github.run_id }}
           if-no-files-found: error
           path: |
-            qa-lab/rebuild-v260/playstate-fix/**
+            qa-lab/rebuild-v262/playstate-fix/**
             Mods .zip terminados/*.zip
