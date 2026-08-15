@@ -43,11 +43,11 @@ jobs:
       - name: Validar contrato runtime V2.3.0 de stages, personajes, note styles, álbumes y dificultades
         run: python tools/validate_v230_runtime.py .
 
+      - name: Reconstruir colección V2.3.0 en el runner
+        run: python tools/build_collection_v230.py .
+
       - name: Validar ZIPs individuales y colección V2.3.0
         run: python tools/validate_v230_zips.py .
-
-      - name: Reconstruir colección V2.3.0 solo si cambió un ZIP vigente
-        run: python tools/build_collection_v230.py .
 
       - name: Publicar reportes de la ejecución
         if: always()
