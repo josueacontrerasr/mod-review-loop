@@ -14,7 +14,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # La evolución histórica V2.5.1 no debe mutar main ni la rama V2.6.3.
   review:
+    if: github.ref_name != 'main' && github.ref_name != 'auto/syllable-sync-v263'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     

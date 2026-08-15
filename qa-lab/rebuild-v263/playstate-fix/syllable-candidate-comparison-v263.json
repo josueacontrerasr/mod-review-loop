@@ -1,0 +1,727 @@
+{
+  "scope": "V263_SYLLABLE_CANDIDATE_COMPARISON",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "songs": 21,
+  "parallel_workers": 6,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "voice": "mods/esperon-dano-arcoloria/songs/arcoloria/Voices-esperon-arcoloria.ogg",
+      "duration_ms": 212834.125,
+      "syllables": 444,
+      "interjections": 10,
+      "holds": 82,
+      "low_confidence": 64,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 60.0,
+        "over_120ms": 10
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 264,
+          "production_notes": 9,
+          "median_nearest_ms": 8775.533,
+          "p95_nearest_ms": 40262.364
+        },
+        "normal": {
+          "candidate_notes": 444,
+          "production_notes": 12,
+          "median_nearest_ms": 7110.589,
+          "p95_nearest_ms": 26028.202
+        },
+        "hard": {
+          "candidate_notes": 444,
+          "production_notes": 17,
+          "median_nearest_ms": 5224.739,
+          "p95_nearest_ms": 26028.202
+        }
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "voice": "mods/esperon-dano-cortamos-y-volvemos/songs/cortamos-y-volvemos/Voices-esperon-cortamos-y-volvemos.ogg",
+      "duration_ms": 207818.625,
+      "syllables": 642,
+      "interjections": 8,
+      "holds": 29,
+      "low_confidence": 106,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 49.5,
+        "over_120ms": 17
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 339,
+          "production_notes": 91,
+          "median_nearest_ms": 686.621,
+          "p95_nearest_ms": 3188.213
+        },
+        "normal": {
+          "candidate_notes": 642,
+          "production_notes": 292,
+          "median_nearest_ms": 217.223,
+          "p95_nearest_ms": 2341.043
+        },
+        "hard": {
+          "candidate_notes": 642,
+          "production_notes": 482,
+          "median_nearest_ms": 82.812,
+          "p95_nearest_ms": 1392.471
+        }
+      }
+    },
+    {
+      "song": "dano",
+      "voice": "mods/esperon-dano-dano/songs/dano/Voices-esperon-dano.ogg",
+      "duration_ms": 206425.438,
+      "syllables": 877,
+      "interjections": 21,
+      "holds": 10,
+      "low_confidence": 131,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 100.0,
+        "over_120ms": 38
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 451,
+          "production_notes": 59,
+          "median_nearest_ms": 894.127,
+          "p95_nearest_ms": 4636.87
+        },
+        "normal": {
+          "candidate_notes": 877,
+          "production_notes": 274,
+          "median_nearest_ms": 265.431,
+          "p95_nearest_ms": 1292.417
+        },
+        "hard": {
+          "candidate_notes": 877,
+          "production_notes": 468,
+          "median_nearest_ms": 114.966,
+          "p95_nearest_ms": 655.737
+        }
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "voice": "mods/esperon-dano-dias-magicos/songs/dias-magicos/Voices-esperon-dias-magicos.ogg",
+      "duration_ms": 243623.812,
+      "syllables": 439,
+      "interjections": 43,
+      "holds": 42,
+      "low_confidence": 83,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 40.2,
+        "over_120ms": 7
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 256,
+          "production_notes": 113,
+          "median_nearest_ms": 685.362,
+          "p95_nearest_ms": 2768.736
+        },
+        "normal": {
+          "candidate_notes": 439,
+          "production_notes": 329,
+          "median_nearest_ms": 245.76,
+          "p95_nearest_ms": 1465.116
+        },
+        "hard": {
+          "candidate_notes": 439,
+          "production_notes": 520,
+          "median_nearest_ms": 86.485,
+          "p95_nearest_ms": 846.529
+        }
+      }
+    },
+    {
+      "song": "eclipsis",
+      "voice": "mods/esperon-dano-eclipsis/songs/eclipsis/Voices-esperon-eclipsis.ogg",
+      "duration_ms": 257091.375,
+      "syllables": 608,
+      "interjections": 25,
+      "holds": 77,
+      "low_confidence": 100,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 66.5,
+        "over_120ms": 20
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 348,
+          "production_notes": 97,
+          "median_nearest_ms": 907.063,
+          "p95_nearest_ms": 4409.922
+        },
+        "normal": {
+          "candidate_notes": 608,
+          "production_notes": 318,
+          "median_nearest_ms": 239.523,
+          "p95_nearest_ms": 1868.737
+        },
+        "hard": {
+          "candidate_notes": 608,
+          "production_notes": 497,
+          "median_nearest_ms": 125.986,
+          "p95_nearest_ms": 1273.444
+        }
+      }
+    },
+    {
+      "song": "fango",
+      "voice": "mods/esperon-dano-fango/songs/fango/Voices-esperon-fango.ogg",
+      "duration_ms": 210697.875,
+      "syllables": 539,
+      "interjections": 31,
+      "holds": 40,
+      "low_confidence": 131,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 110.333,
+        "over_120ms": 23
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 299,
+          "production_notes": 100,
+          "median_nearest_ms": 817.256,
+          "p95_nearest_ms": 6988.288
+        },
+        "normal": {
+          "candidate_notes": 539,
+          "production_notes": 266,
+          "median_nearest_ms": 296.1,
+          "p95_nearest_ms": 5866.011
+        },
+        "hard": {
+          "candidate_notes": 539,
+          "production_notes": 431,
+          "median_nearest_ms": 131.837,
+          "p95_nearest_ms": 5866.011
+        }
+      }
+    },
+    {
+      "song": "luma",
+      "voice": "mods/esperon-dano-luma/songs/luma/Voices-esperon-luma.ogg",
+      "duration_ms": 238004.562,
+      "syllables": 481,
+      "interjections": 22,
+      "holds": 79,
+      "low_confidence": 106,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 40.0,
+        "over_120ms": 10
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 290,
+          "production_notes": 21,
+          "median_nearest_ms": 4165.0,
+          "p95_nearest_ms": 14159.404
+        },
+        "normal": {
+          "candidate_notes": 481,
+          "production_notes": 55,
+          "median_nearest_ms": 2509.864,
+          "p95_nearest_ms": 10866.009
+        },
+        "hard": {
+          "candidate_notes": 481,
+          "production_notes": 87,
+          "median_nearest_ms": 1486.009,
+          "p95_nearest_ms": 10724.921
+        }
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "voice": "mods/esperon-dano-maraton-de-peliculas/songs/maraton-de-peliculas/Voices-esperon-maraton-de-peliculas.ogg",
+      "duration_ms": 231270.75,
+      "syllables": 526,
+      "interjections": 33,
+      "holds": 57,
+      "low_confidence": 125,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 1790.0,
+        "over_120ms": 93
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 295,
+          "production_notes": 86,
+          "median_nearest_ms": 1536.032,
+          "p95_nearest_ms": 17961.544
+        },
+        "normal": {
+          "candidate_notes": 526,
+          "production_notes": 222,
+          "median_nearest_ms": 559.932,
+          "p95_nearest_ms": 13801.842
+        },
+        "hard": {
+          "candidate_notes": 526,
+          "production_notes": 343,
+          "median_nearest_ms": 246.655,
+          "p95_nearest_ms": 13801.842
+        }
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "voice": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg",
+      "duration_ms": 190589.438,
+      "syllables": 289,
+      "interjections": 19,
+      "holds": 81,
+      "low_confidence": 34,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 30.0,
+        "over_120ms": 1
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 190,
+          "production_notes": 81,
+          "median_nearest_ms": 665.17,
+          "p95_nearest_ms": 3235.265
+        },
+        "normal": {
+          "candidate_notes": 289,
+          "production_notes": 230,
+          "median_nearest_ms": 259.342,
+          "p95_nearest_ms": 1623.025
+        },
+        "hard": {
+          "candidate_notes": 289,
+          "production_notes": 342,
+          "median_nearest_ms": 97.755,
+          "p95_nearest_ms": 1020.317
+        }
+      }
+    },
+    {
+      "song": "meteora",
+      "voice": "mods/esperon-dano-meteora/songs/meteora/Voices-esperon-meteora.ogg",
+      "duration_ms": 193004.312,
+      "syllables": 485,
+      "interjections": 27,
+      "holds": 45,
+      "low_confidence": 89,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 170.0,
+        "over_120ms": 32
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 274,
+          "production_notes": 41,
+          "median_nearest_ms": 1476.032,
+          "p95_nearest_ms": 9160.625
+        },
+        "normal": {
+          "candidate_notes": 485,
+          "production_notes": 120,
+          "median_nearest_ms": 672.154,
+          "p95_nearest_ms": 3455.47
+        },
+        "hard": {
+          "candidate_notes": 485,
+          "production_notes": 191,
+          "median_nearest_ms": 424.104,
+          "p95_nearest_ms": 2362.122
+        }
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "voice": "mods/esperon-dano-mi-hogar/songs/mi-hogar/Voices-esperon-mi-hogar.ogg",
+      "duration_ms": 174242.562,
+      "syllables": 328,
+      "interjections": 6,
+      "holds": 37,
+      "low_confidence": 36,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 86.5,
+        "over_120ms": 12
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 183,
+          "production_notes": 72,
+          "median_nearest_ms": 923.696,
+          "p95_nearest_ms": 4998.839
+        },
+        "normal": {
+          "candidate_notes": 328,
+          "production_notes": 206,
+          "median_nearest_ms": 384.048,
+          "p95_nearest_ms": 2432.762
+        },
+        "hard": {
+          "candidate_notes": 328,
+          "production_notes": 311,
+          "median_nearest_ms": 143.299,
+          "p95_nearest_ms": 995.73
+        }
+      }
+    },
+    {
+      "song": "nubia",
+      "voice": "mods/esperon-dano-nubia/songs/nubia/Voices-esperon-nubia.ogg",
+      "duration_ms": 227137.625,
+      "syllables": 580,
+      "interjections": 23,
+      "holds": 64,
+      "low_confidence": 45,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 740.0,
+        "over_120ms": 110
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 328,
+          "production_notes": 96,
+          "median_nearest_ms": 677.166,
+          "p95_nearest_ms": 3529.296
+        },
+        "normal": {
+          "candidate_notes": 580,
+          "production_notes": 259,
+          "median_nearest_ms": 399.002,
+          "p95_nearest_ms": 1427.767
+        },
+        "hard": {
+          "candidate_notes": 580,
+          "production_notes": 403,
+          "median_nearest_ms": 177.007,
+          "p95_nearest_ms": 1073.319
+        }
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "voice": "mods/esperon-dano-nuestro-amor-no-es-normal/songs/nuestro-amor-no-es-normal/Voices-esperon-nuestro-amor-no-es-normal.ogg",
+      "duration_ms": 165929.812,
+      "syllables": 398,
+      "interjections": 10,
+      "holds": 40,
+      "low_confidence": 35,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 210.0,
+        "over_120ms": 30
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 220,
+          "production_notes": 79,
+          "median_nearest_ms": 683.946,
+          "p95_nearest_ms": 2987.843
+        },
+        "normal": {
+          "candidate_notes": 398,
+          "production_notes": 231,
+          "median_nearest_ms": 272.177,
+          "p95_nearest_ms": 2159.643
+        },
+        "hard": {
+          "candidate_notes": 398,
+          "production_notes": 370,
+          "median_nearest_ms": 106.803,
+          "p95_nearest_ms": 1333.786
+        }
+      }
+    },
+    {
+      "song": "peligrosa",
+      "voice": "mods/esperon-dano-peligrosa/songs/peligrosa/Voices-esperon-peligrosa.ogg",
+      "duration_ms": 237122.188,
+      "syllables": 653,
+      "interjections": 48,
+      "holds": 38,
+      "low_confidence": 69,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 106.667,
+        "over_120ms": 32
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 361,
+          "production_notes": 103,
+          "median_nearest_ms": 942.109,
+          "p95_nearest_ms": 4826.145
+        },
+        "normal": {
+          "candidate_notes": 653,
+          "production_notes": 312,
+          "median_nearest_ms": 335.215,
+          "p95_nearest_ms": 3144.154
+        },
+        "hard": {
+          "candidate_notes": 653,
+          "production_notes": 499,
+          "median_nearest_ms": 143.152,
+          "p95_nearest_ms": 2038.508
+        }
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "voice": "mods/esperon-dano-rompecabezas/songs/rompecabezas/Voices-esperon-rompecabezas.ogg",
+      "duration_ms": 215574.062,
+      "syllables": 591,
+      "interjections": 15,
+      "holds": 68,
+      "low_confidence": 70,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 210.0,
+        "over_120ms": 50
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 330,
+          "production_notes": 87,
+          "median_nearest_ms": 875.136,
+          "p95_nearest_ms": 6078.515
+        },
+        "normal": {
+          "candidate_notes": 591,
+          "production_notes": 267,
+          "median_nearest_ms": 324.603,
+          "p95_nearest_ms": 5709.025
+        },
+        "hard": {
+          "candidate_notes": 591,
+          "production_notes": 430,
+          "median_nearest_ms": 122.88,
+          "p95_nearest_ms": 1891.655
+        }
+      }
+    },
+    {
+      "song": "si-te-vas",
+      "voice": "mods/esperon-dano-si-te-vas/songs/si-te-vas/Voices-esperon-si-te-vas.ogg",
+      "duration_ms": 225372.938,
+      "syllables": 497,
+      "interjections": 25,
+      "holds": 57,
+      "low_confidence": 71,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 50.667,
+        "over_120ms": 15
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 279,
+          "production_notes": 84,
+          "median_nearest_ms": 765.215,
+          "p95_nearest_ms": 4104.091
+        },
+        "normal": {
+          "candidate_notes": 497,
+          "production_notes": 255,
+          "median_nearest_ms": 297.755,
+          "p95_nearest_ms": 2287.252
+        },
+        "hard": {
+          "candidate_notes": 497,
+          "production_notes": 448,
+          "median_nearest_ms": 99.705,
+          "p95_nearest_ms": 1329.909
+        }
+      }
+    },
+    {
+      "song": "solare",
+      "voice": "mods/esperon-dano-solare/songs/solare/Voices-esperon-solare.ogg",
+      "duration_ms": 223515.312,
+      "syllables": 576,
+      "interjections": 23,
+      "holds": 58,
+      "low_confidence": 84,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 30.0,
+        "over_120ms": 3
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 325,
+          "production_notes": 99,
+          "median_nearest_ms": 985.646,
+          "p95_nearest_ms": 3862.041
+        },
+        "normal": {
+          "candidate_notes": 576,
+          "production_notes": 269,
+          "median_nearest_ms": 366.066,
+          "p95_nearest_ms": 2851.491
+        },
+        "hard": {
+          "candidate_notes": 576,
+          "production_notes": 402,
+          "median_nearest_ms": 181.248,
+          "p95_nearest_ms": 1962.392
+        }
+      }
+    },
+    {
+      "song": "tristella",
+      "voice": "mods/esperon-dano-tristella/songs/tristella/Voices-esperon-tristella.ogg",
+      "duration_ms": 238515.375,
+      "syllables": 521,
+      "interjections": 29,
+      "holds": 88,
+      "low_confidence": 66,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 30.0,
+        "over_120ms": 5
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 318,
+          "production_notes": 102,
+          "median_nearest_ms": 841.474,
+          "p95_nearest_ms": 4953.043
+        },
+        "normal": {
+          "candidate_notes": 521,
+          "production_notes": 310,
+          "median_nearest_ms": 263.447,
+          "p95_nearest_ms": 4484.376
+        },
+        "hard": {
+          "candidate_notes": 521,
+          "production_notes": 498,
+          "median_nearest_ms": 148.299,
+          "p95_nearest_ms": 3847.098
+        }
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "voice": "mods/esperon-dano-tu-dealer-de-nostalgia/songs/tu-dealer-de-nostalgia/Voices-esperon-tu-dealer-de-nostalgia.ogg",
+      "duration_ms": 201224.188,
+      "syllables": 502,
+      "interjections": 76,
+      "holds": 38,
+      "low_confidence": 87,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 110.0,
+        "over_120ms": 25
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 299,
+          "production_notes": 80,
+          "median_nearest_ms": 949.002,
+          "p95_nearest_ms": 5506.889
+        },
+        "normal": {
+          "candidate_notes": 502,
+          "production_notes": 273,
+          "median_nearest_ms": 337.302,
+          "p95_nearest_ms": 3221.149
+        },
+        "hard": {
+          "candidate_notes": 502,
+          "production_notes": 420,
+          "median_nearest_ms": 123.334,
+          "p95_nearest_ms": 2216.463
+        }
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "voice": "mods/esperon-dano-un-poco-bien-un-poco-mal/songs/un-poco-bien-un-poco-mal/Voices-esperon-un-poco-bien-un-poco-mal.ogg",
+      "duration_ms": 217617.438,
+      "syllables": 399,
+      "interjections": 5,
+      "holds": 74,
+      "low_confidence": 73,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 60.8,
+        "over_120ms": 16
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 236,
+          "production_notes": 86,
+          "median_nearest_ms": 1236.077,
+          "p95_nearest_ms": 6333.566
+        },
+        "normal": {
+          "candidate_notes": 399,
+          "production_notes": 263,
+          "median_nearest_ms": 404.014,
+          "p95_nearest_ms": 3222.002
+        },
+        "hard": {
+          "candidate_notes": 399,
+          "production_notes": 407,
+          "median_nearest_ms": 167.256,
+          "p95_nearest_ms": 1757.705
+        }
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "voice": "mods/esperon-dano-volver-a-vernos/songs/volver-a-vernos/Voices-esperon-volver-a-vernos.ogg",
+      "duration_ms": 186734.938,
+      "syllables": 657,
+      "interjections": 35,
+      "holds": 41,
+      "low_confidence": 80,
+      "energy_nearest_ms": {
+        "median": 0.0,
+        "p95": 67.334,
+        "over_120ms": 22
+      },
+      "candidate_vs_production": {
+        "easy": {
+          "candidate_notes": 366,
+          "production_notes": 65,
+          "median_nearest_ms": 974.467,
+          "p95_nearest_ms": 3278.606
+        },
+        "normal": {
+          "candidate_notes": 657,
+          "production_notes": 229,
+          "median_nearest_ms": 380.442,
+          "p95_nearest_ms": 2310.032
+        },
+        "hard": {
+          "candidate_notes": 657,
+          "production_notes": 387,
+          "median_nearest_ms": 157.052,
+          "p95_nearest_ms": 1095.279
+        }
+      }
+    }
+  ],
+  "interpretation": [
+    "Energy-nearest metrics are diagnostic, not syllable truth.",
+    "Candidate-vs-production deltas identify where the new method materially changes timing.",
+    "Low-confidence and high-error segments require review before promotion."
+  ]
+}

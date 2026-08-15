@@ -1,0 +1,1787 @@
+{
+  "scope": "PLAYSTATE_VARIATION_RESOLVER_V263",
+  "executed_at": "2026-08-15T20:43:22.128847+00:00",
+  "target_version": "0.8.6",
+  "variations": [
+    "default"
+  ],
+  "songs": 21,
+  "song_cases": 21,
+  "cases": 63,
+  "passed": 63,
+  "failed": 0,
+  "status": "PASS",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-metadata.json",
+      "chart_path": "mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 285,
+        "normal": 449,
+        "hard": 449
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "arcoloria",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-metadata.json",
+      "chart_path": "mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 285,
+        "normal": 449,
+        "hard": 449
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "arcoloria",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-metadata.json",
+      "chart_path": "mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 285,
+        "normal": 449,
+        "hard": 449
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-metadata.json",
+      "chart_path": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 338,
+        "normal": 647,
+        "hard": 647
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-metadata.json",
+      "chart_path": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 338,
+        "normal": 647,
+        "hard": 647
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-metadata.json",
+      "chart_path": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 338,
+        "normal": 647,
+        "hard": 647
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "dano",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-dano/data/songs/dano/dano-metadata.json",
+      "chart_path": "mods/esperon-dano-dano/data/songs/dano/dano-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 390,
+        "normal": 734,
+        "hard": 734
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "dano",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-dano/data/songs/dano/dano-metadata.json",
+      "chart_path": "mods/esperon-dano-dano/data/songs/dano/dano-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 390,
+        "normal": 734,
+        "hard": 734
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "dano",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-dano/data/songs/dano/dano-metadata.json",
+      "chart_path": "mods/esperon-dano-dano/data/songs/dano/dano-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 390,
+        "normal": 734,
+        "hard": 734
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "dias-magicos",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-metadata.json",
+      "chart_path": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 257,
+        "normal": 461,
+        "hard": 461
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "dias-magicos",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-metadata.json",
+      "chart_path": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 257,
+        "normal": 461,
+        "hard": 461
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "dias-magicos",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-metadata.json",
+      "chart_path": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 257,
+        "normal": 461,
+        "hard": 461
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "eclipsis",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-metadata.json",
+      "chart_path": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 347,
+        "normal": 612,
+        "hard": 612
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "eclipsis",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-metadata.json",
+      "chart_path": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 347,
+        "normal": 612,
+        "hard": 612
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "eclipsis",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-metadata.json",
+      "chart_path": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 347,
+        "normal": 612,
+        "hard": 612
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "fango",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-fango/data/songs/fango/fango-metadata.json",
+      "chart_path": "mods/esperon-dano-fango/data/songs/fango/fango-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 351,
+        "normal": 631,
+        "hard": 631
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "fango",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-fango/data/songs/fango/fango-metadata.json",
+      "chart_path": "mods/esperon-dano-fango/data/songs/fango/fango-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 351,
+        "normal": 631,
+        "hard": 631
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "fango",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-fango/data/songs/fango/fango-metadata.json",
+      "chart_path": "mods/esperon-dano-fango/data/songs/fango/fango-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 351,
+        "normal": 631,
+        "hard": 631
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "luma",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-luma/data/songs/luma/luma-metadata.json",
+      "chart_path": "mods/esperon-dano-luma/data/songs/luma/luma-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 281,
+        "normal": 481,
+        "hard": 481
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "luma",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-luma/data/songs/luma/luma-metadata.json",
+      "chart_path": "mods/esperon-dano-luma/data/songs/luma/luma-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 281,
+        "normal": 481,
+        "hard": 481
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "luma",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-luma/data/songs/luma/luma-metadata.json",
+      "chart_path": "mods/esperon-dano-luma/data/songs/luma/luma-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 281,
+        "normal": 481,
+        "hard": 481
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-metadata.json",
+      "chart_path": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 330,
+        "normal": 588,
+        "hard": 588
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-metadata.json",
+      "chart_path": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 330,
+        "normal": 588,
+        "hard": 588
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-metadata.json",
+      "chart_path": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 330,
+        "normal": 588,
+        "hard": 588
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-metadata.json",
+      "chart_path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 178,
+        "normal": 289,
+        "hard": 289
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-metadata.json",
+      "chart_path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 178,
+        "normal": 289,
+        "hard": 289
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-metadata.json",
+      "chart_path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 178,
+        "normal": 289,
+        "hard": 289
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "meteora",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-meteora/data/songs/meteora/meteora-metadata.json",
+      "chart_path": "mods/esperon-dano-meteora/data/songs/meteora/meteora-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 330,
+        "normal": 584,
+        "hard": 584
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "meteora",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-meteora/data/songs/meteora/meteora-metadata.json",
+      "chart_path": "mods/esperon-dano-meteora/data/songs/meteora/meteora-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 330,
+        "normal": 584,
+        "hard": 584
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "meteora",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-meteora/data/songs/meteora/meteora-metadata.json",
+      "chart_path": "mods/esperon-dano-meteora/data/songs/meteora/meteora-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 330,
+        "normal": 584,
+        "hard": 584
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "mi-hogar",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-metadata.json",
+      "chart_path": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 181,
+        "normal": 325,
+        "hard": 325
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "mi-hogar",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-metadata.json",
+      "chart_path": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 181,
+        "normal": 325,
+        "hard": 325
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "mi-hogar",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-metadata.json",
+      "chart_path": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 181,
+        "normal": 325,
+        "hard": 325
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "nubia",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-nubia/data/songs/nubia/nubia-metadata.json",
+      "chart_path": "mods/esperon-dano-nubia/data/songs/nubia/nubia-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 235,
+        "normal": 411,
+        "hard": 411
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "nubia",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-nubia/data/songs/nubia/nubia-metadata.json",
+      "chart_path": "mods/esperon-dano-nubia/data/songs/nubia/nubia-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 235,
+        "normal": 411,
+        "hard": 411
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "nubia",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-nubia/data/songs/nubia/nubia-metadata.json",
+      "chart_path": "mods/esperon-dano-nubia/data/songs/nubia/nubia-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 235,
+        "normal": 411,
+        "hard": 411
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-metadata.json",
+      "chart_path": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 179,
+        "normal": 321,
+        "hard": 321
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-metadata.json",
+      "chart_path": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 179,
+        "normal": 321,
+        "hard": 321
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-metadata.json",
+      "chart_path": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 179,
+        "normal": 321,
+        "hard": 321
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "peligrosa",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-metadata.json",
+      "chart_path": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 369,
+        "normal": 666,
+        "hard": 666
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "peligrosa",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-metadata.json",
+      "chart_path": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 369,
+        "normal": 666,
+        "hard": 666
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "peligrosa",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-metadata.json",
+      "chart_path": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 369,
+        "normal": 666,
+        "hard": 666
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "rompecabezas",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-metadata.json",
+      "chart_path": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 325,
+        "normal": 591,
+        "hard": 591
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "rompecabezas",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-metadata.json",
+      "chart_path": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 325,
+        "normal": 591,
+        "hard": 591
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "rompecabezas",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-metadata.json",
+      "chart_path": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 325,
+        "normal": 591,
+        "hard": 591
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "solare",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-solare/data/songs/solare/solare-metadata.json",
+      "chart_path": "mods/esperon-dano-solare/data/songs/solare/solare-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 323,
+        "normal": 572,
+        "hard": 572
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "solare",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-solare/data/songs/solare/solare-metadata.json",
+      "chart_path": "mods/esperon-dano-solare/data/songs/solare/solare-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 323,
+        "normal": 572,
+        "hard": 572
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "solare",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-solare/data/songs/solare/solare-metadata.json",
+      "chart_path": "mods/esperon-dano-solare/data/songs/solare/solare-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 323,
+        "normal": 572,
+        "hard": 572
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "tristella",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-tristella/data/songs/tristella/tristella-metadata.json",
+      "chart_path": "mods/esperon-dano-tristella/data/songs/tristella/tristella-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 315,
+        "normal": 527,
+        "hard": 527
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "tristella",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-tristella/data/songs/tristella/tristella-metadata.json",
+      "chart_path": "mods/esperon-dano-tristella/data/songs/tristella/tristella-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 315,
+        "normal": 527,
+        "hard": 527
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "tristella",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-tristella/data/songs/tristella/tristella-metadata.json",
+      "chart_path": "mods/esperon-dano-tristella/data/songs/tristella/tristella-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 315,
+        "normal": 527,
+        "hard": 527
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-metadata.json",
+      "chart_path": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 289,
+        "normal": 509,
+        "hard": 509
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-metadata.json",
+      "chart_path": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 289,
+        "normal": 509,
+        "hard": 509
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-metadata.json",
+      "chart_path": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 289,
+        "normal": 509,
+        "hard": 509
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-metadata.json",
+      "chart_path": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 238,
+        "normal": 407,
+        "hard": 407
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-metadata.json",
+      "chart_path": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 238,
+        "normal": 407,
+        "hard": 407
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-metadata.json",
+      "chart_path": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 238,
+        "normal": 407,
+        "hard": 407
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "volver-a-vernos",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-metadata.json",
+      "chart_path": "mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 357,
+        "normal": 657,
+        "hard": 657
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "volver-a-vernos",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-metadata.json",
+      "chart_path": "mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 357,
+        "normal": 657,
+        "hard": 657
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "volver-a-vernos",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-metadata.json",
+      "chart_path": "mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 357,
+        "normal": 657,
+        "hard": 657
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    },
+    {
+      "song": "si-te-vas",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-metadata.json",
+      "chart_path": "mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.2 Si Te Vas stem-separated vocal-only pipeline",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 277,
+        "normal": 483,
+        "hard": 483
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "easy"
+    },
+    {
+      "song": "si-te-vas",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-metadata.json",
+      "chart_path": "mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.2 Si Te Vas stem-separated vocal-only pipeline",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 277,
+        "normal": 483,
+        "hard": 483
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "normal"
+    },
+    {
+      "song": "si-te-vas",
+      "variation": "default",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "metadata_path": "mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-metadata.json",
+      "chart_path": "mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-chart.json",
+      "metadata_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.2 Si Te Vas stem-separated vocal-only pipeline",
+      "chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.3 syllable-aligned vocal chart",
+      "metadata_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "chart_difficulties": [
+        "easy",
+        "hard",
+        "normal"
+      ],
+      "notes": {
+        "easy": 277,
+        "normal": 483,
+        "hard": 483
+      },
+      "variation_resolution": "base filenames for default",
+      "difficulty": "hard"
+    }
+  ],
+  "engine_contract": {
+    "default_metadata": "<id>-metadata.json",
+    "default_chart": "<id>-chart.json",
+    "variation_metadata": "<id>-metadata-<variation>.json",
+    "variation_chart": "<id>-chart-<variation>.json",
+    "required_chart_generatedBy": true
+  }
+}
