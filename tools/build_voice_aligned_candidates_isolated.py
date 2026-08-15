@@ -55,7 +55,7 @@ def make_chart(times: list[float]) -> dict:
         chosen=times[::step]
         notes=[]
         for i,t in enumerate(chosen):
-            note={"t":round(t,3),"d":4+(i%4)}
+            note={"t":round(t,3),"d":i%4}
             # Holds only where there is a clearly long vocal gap; this keeps
             # sustained notes conservative rather than inventing overlaps.
             if difficulty == "hard" and i+1 < len(chosen):

@@ -199,7 +199,9 @@ def build_chart(duration_ms: float, bpm: float) -> dict[str, Any]:
     current = start
     counter = 0
     while current < end:
-        owner = 4 if (counter // 16) % 2 == 0 else 0
+        # V-Slice oficial: lanes 0-3 son la strumline del jugador; no alternar
+        # automáticamente a 4-7, porque esa segunda strumline puede ocultarse en Mobile.
+        owner = 0
         lane = counter % 4
         if counter % 4 == 0:
             notes["easy"].append({"t": round(current, 3), "d": owner + lane})

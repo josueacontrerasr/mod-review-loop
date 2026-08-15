@@ -86,9 +86,9 @@ def check_mod(mod: Path, root: Path) -> dict:
             if not any(tag.startswith(prefix) for tag in tags):
                 errors.append(f"{role}: atlas sin cuadros para {prefix}")
         if role == "player":
-            players = {4, 5, 6, 7}
+            players = {0, 1, 2, 3}
         else:
-            opponents = {0, 1, 2, 3}
+            opponents = {4, 5, 6, 7}
     total_notes = 0
     vocal_side_notes = 0
     for difficulty in ("easy", "normal", "hard"):

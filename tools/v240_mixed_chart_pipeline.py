@@ -85,7 +85,7 @@ def add_rhythm_notes(base:list[dict[str,Any]], rhythm_events:list[dict[str,Any]]
         _,v_err=nearest(t,vocal_times)
         # Keep rhythm events even if they are not vocal, but avoid micro-fills inside a vocal attack.
         if v_err is not None and v_err<55: continue
-        candidates.append({'t':round(t,3),'d':4+((len(candidates)*2 + (1 if diff=='hard' else 0))%4),'_family':'rhythm'})
+        candidates.append({'t':round(t,3),'d':((len(candidates)*2 + (1 if diff=='hard' else 0))%4),'_family':'rhythm'})
         if len(candidates)>=max_add: break
     result.extend({k:v for k,v in n.items() if not k.startswith('_')} for n in candidates)
     result.sort(key=lambda n:(float(n['t']),int(n['d'])))

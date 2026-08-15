@@ -61,7 +61,7 @@ def difficulty_notes(times: list[float], difficulty: str) -> list[dict[str, floa
         selected = times
     notes: list[dict[str, float | int]] = []
     for index, timestamp in enumerate(selected):
-        notes.append({"t": timestamp, "d": 4 + (index % 4)})
+        notes.append({"t": timestamp, "d": index % 4})
     return notes
 
 

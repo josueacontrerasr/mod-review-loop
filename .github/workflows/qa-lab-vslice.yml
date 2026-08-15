@@ -9,10 +9,10 @@ on:
       - 'Mods .zip terminados/**'
       - 'sync-candidates/**'
       - 'tools/run_qa_lab.py'
-      - 'tools/validate_v240_runtime.py'
-      - 'tools/validate_v240_zips.py'
-      - 'tools/run_qa_v240_20x20.py'
-      - 'qa-lab/rebuild-v240/**'
+      - 'tools/validate_v250_runtime.py'
+      - 'tools/validate_v250_zips.py'
+      - 'tools/run_qa_v250_20x20.py'
+      - 'qa-lab/rebuild-v250/**'
       - '.github/workflows/qa-lab-vslice.yml'
 
 permissions:
@@ -49,14 +49,14 @@ jobs:
       - name: Ejecutar 20 rondas QA históricas
         run: python tools/run_qa_lab.py . --rounds 20 --clean --previews --workers 4
 
-      - name: Reempaquetar ZIPs y colección V2.4.0 en el runner
-        run: python tools/package_v240_fixed.py
+      - name: Reempaquetar ZIPs y colección V2.5.0 en el runner
+        run: python tools/package_v250_fixed.py
 
-      - name: Ejecutar QA paralelo V2.4.0 (20 rondas × 20 mods)
+      - name: Ejecutar QA paralelo V2.5.0 (20 rondas × 20 mods)
         run: |
-          python tools/validate_v240_runtime.py .
-          python tools/validate_v240_zips.py
-          python tools/run_qa_v240_20x20.py
+          python tools/validate_v250_runtime.py .
+          python tools/validate_v250_zips.py
+          python tools/run_qa_v250_20x20.py
 
       - name: Publicar artifacts de QA
         if: always()
@@ -68,11 +68,11 @@ jobs:
             qa-lab/baseline/**
             qa-lab/final/**
             qa-lab/previews/**
-            qa-lab/rebuild-v240/**
+            qa-lab/rebuild-v250/**
           if-no-files-found: warn
           retention-days: 30
 
       - name: Declarar política segura
         run: |
-          echo 'Este workflow valida y empaqueta V2.4.0; no modifica charts, audio ni assets.'
+          echo 'Este workflow valida y empaqueta V2.5.0; no modifica charts, audio ni assets.'
           echo 'Las correcciones deben pasar gates, rollback y revalidación en una rama de entrega separada.'

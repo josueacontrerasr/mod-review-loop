@@ -196,7 +196,7 @@ def build_hard_notes(normal_notes: list[dict[str, Any]], events: list[dict[str, 
                 continue
         if any(abs(t - existing) < 75.0 for existing in existing_times + [float(x["t"]) for x in additions]):
             continue
-        lane = 4 + (len(additions) % 4)
+        lane = len(additions) % 4
         additions.append({"t": round(t, 3), "d": lane})
         if len(result) + len(additions) >= target:
             break

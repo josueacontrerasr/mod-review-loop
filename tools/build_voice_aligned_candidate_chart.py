@@ -104,7 +104,7 @@ def main() -> int:
     tempo, beat_frames = librosa.beat.beat_track(y=reference, sr=ref_sr, hop_length=256)
     bpm = float(np.asarray(tempo).reshape(-1)[0])
     beat_ms = [round(float(frame) * 256 * 1000.0 / ref_sr, 3) for frame in beat_frames]
-    owner = 4 if args.singer_side == "player" else 0
+    owner = 0 if args.singer_side == "player" else 4
     chart = {
         "version": "2.0.0",
         "scrollSpeed": {"easy": 0.9, "normal": 1.0, "hard": 1.12},
