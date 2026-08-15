@@ -1,0 +1,56 @@
+name: QA PlayState Vocal Freeplay V2.6.5
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/10 * * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: qa-playstate-vocal-freeplay-v265-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  full-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout exact branch commit
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deterministic validation dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --disable-pip-version-check --no-input pillow
+          ffprobe -version
+      - name: Validate PlayState default variation and 63 difficulties
+        run: python3 tools/resolve_playstate_v265.py . --workers 8 --variations default
+      - name: Validate production vocal-only charts
+        run: python3 tools/validate_production_v265.py . --workers 8
+      - name: Validate V-Slice contracts, Freeplay covers and assets
+        run: python3 tools/validate_v265_contracts_assets.py . --workers 8
+      - name: Validate Freeplay capsule and album assets
+        run: python3 tools/validate_freeplay_capsule_v265.py .
+      - name: Rebuild deterministic ZIPs for CI artifact
+        run: python3 tools/package_esperon_complete_v265.py .
+      - name: Validate Esperon individual and complete ZIPs
+        run: python3 tools/validate_esperon_complete_v265.py . --workers 8
+      - name: Validate Android headless loader
+        run: python3 tools/mobile_headless_loader_v265.py . --workers 8
+      - name: Run 20 rounds x 21 mods QA
+        run: python3 tools/run_qa_v265_20x21.py > qa-lab/rebuild-v265/playstate-fix/qa-20x21-v265-ci.stdout
+      - name: Upload V2.6.5 evidence and ZIPs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: esperon-v265-playstate-vocal-syllable-freeplay-${{ github.run_id }}
+          if-no-files-found: error
+          path: |
+            qa-lab/rebuild-v265/playstate-fix/**
+            Mods .zip terminados/*.zip

@@ -1,0 +1,123 @@
+# Official titleAsset references
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:25:import funkin.data.story.level.LevelRegistry;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:387:    // programmatically adds the songs via LevelRegistry and SongRegistry
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:388:    for (levelId in LevelRegistry.instance.listSortedLevelIds())
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:390:      var level:Null<Level> = LevelRegistry.instance.fetchEntry(levelId);
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:634:      var curSong:Null<FreeplaySongData> = currentCapsule?.freeplayData;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:708:      albumRoll.albumId = currentCapsule.freeplayData?.data.getAlbumId(currentDifficulty, currentVariation);
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:1371:    var daSong:Null<FreeplaySongData> = currentCapsule.freeplayData;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:1864:      var targetSongID = currentCapsule?.freeplayData?.data.id ?? 'unknown';
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:1870:          return cap.alive && cap.freeplayData != null;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:1874:            return cap?.freeplayData?.data.songName;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:1890:        targetSongID = currentCapsule?.freeplayData?.data.id ?? 'unknown';
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:1913:      var targetSongID = grpCapsules.members[curSelected]?.freeplayData?.data.id ?? 'unknown';
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:1921:          return cap.alive && cap.freeplayData != null;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:1925:            return cap?.freeplayData?.data.songName;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:1941:        targetSongID = grpCapsules.members[curSelected]?.freeplayData?.data.id ?? 'unknown';
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2323:      var song:Null<FreeplaySongData> = grpCapsules.members[index].freeplayData;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2392:    var daSong:Null<FreeplaySongData> = currentCapsule.freeplayData;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2418:      daSong = currentCapsule.freeplayData;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2509:        if (songCapsule.freeplayData != null)
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2511:          songCapsule.initData(songCapsule.freeplayData);
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2566:      return cap.alive && cap.freeplayData != null;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2608:    var targetSongId:String = targetSongCap?.freeplayData?.data.id ?? 'unknown';
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2656:    var targetSongId:String = cap?.freeplayData?.data.id ?? 'unknown';
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2665:    var targetLevelId:Null<String> = cap?.freeplayData?.levelId;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2736:    var targetSongId:String = cap?.freeplayData?.data.id ?? 'unknown';
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2745:    var targetLevelId:Null<String> = cap?.freeplayData?.levelId;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2808:        Paths.setCurrentLevel(cap?.freeplayData?.levelId);
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2920:    var songScore:Null<SaveScoreData> = Save.instance.getSongScore(currentCapsule.freeplayData?.data.id ?? '', currentDifficulty, currentVariation);
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2924:    rememberedSongId = currentCapsule.freeplayData?.data.id;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2926:    if (currentCapsule.freeplayData == null) albumRoll.albumId = null;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2929:    currentCapsule.refreshDisplay(currentCapsule.freeplayData == null);
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2958:      // switchBackingImage(currentCapsule.freeplayData);
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:2991:      var previewSong:Null<Song> = daSongCapsule?.freeplayData?.data;
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:3019:          start: daSongCapsule?.freeplayData?.previewStartTime,
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:3020:          end: daSongCapsule?.freeplayData?.previewEndTime
+qa-lab/rebuild-v264/official-freeplay-v086/FreeplayState.hx:3082:    var targetSong = selectedCapsule?.freeplayData;
+qa-lab/rebuild-v265/baseline-v265.md:10:- Alcance V2.6.5: auditar por separado la asignación real de strumline/HUD y la carátula de la cápsula Freeplay (`data/levels` + `images/storymenu`), sin volver a abrir las imágenes adjuntas.
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:3:mods/esperon-dano-arcoloria/data/levels/esperon-arcoloria.json:11:  "titleAsset": "storymenu/esperon-arcoloria",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:7:mods/esperon-dano-cortamos-y-volvemos/data/levels/esperon-cortamos-y-volvemos.json:11:  "titleAsset": "storymenu/esperon-cortamos-y-volvemos",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:11:mods/esperon-dano-dano/data/levels/esperon-dano.json:11:  "titleAsset": "storymenu/esperon-dano",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:15:mods/esperon-dano-dias-magicos/data/levels/esperon-dias-magicos.json:11:  "titleAsset": "storymenu/esperon-dias-magicos",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:19:mods/esperon-dano-eclipsis/data/levels/esperon-eclipsis.json:11:  "titleAsset": "storymenu/esperon-eclipsis",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:23:mods/esperon-dano-fango/data/levels/esperon-fango.json:11:  "titleAsset": "storymenu/esperon-fango",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:27:mods/esperon-dano-luma/data/levels/esperon-luma.json:11:  "titleAsset": "storymenu/esperon-luma",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:31:mods/esperon-dano-maraton-de-peliculas/data/levels/esperon-maraton-de-peliculas.json:11:  "titleAsset": "storymenu/esperon-maraton-de-peliculas",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:35:mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/levels/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.json:11:  "titleAsset": "storymenu/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:39:mods/esperon-dano-meteora/data/levels/esperon-meteora.json:11:  "titleAsset": "storymenu/esperon-meteora",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:43:mods/esperon-dano-mi-hogar/data/levels/esperon-mi-hogar.json:11:  "titleAsset": "storymenu/esperon-mi-hogar",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:47:mods/esperon-dano-nubia/data/levels/esperon-nubia.json:11:  "titleAsset": "storymenu/esperon-nubia",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:51:mods/esperon-dano-nuestro-amor-no-es-normal/data/levels/esperon-nuestro-amor-no-es-normal.json:11:  "titleAsset": "storymenu/esperon-nuestro-amor-no-es-normal",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:55:mods/esperon-dano-peligrosa/data/levels/esperon-peligrosa.json:11:  "titleAsset": "storymenu/esperon-peligrosa",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:59:mods/esperon-dano-rompecabezas/data/levels/esperon-rompecabezas.json:11:  "titleAsset": "storymenu/esperon-rompecabezas",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:63:mods/esperon-dano-si-te-vas/data/levels/esperon-si-te-vas.json:11:  "titleAsset": "storymenu/esperon-si-te-vas",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:67:mods/esperon-dano-solare/data/levels/esperon-solare.json:11:  "titleAsset": "storymenu/esperon-solare",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:71:mods/esperon-dano-tristella/data/levels/esperon-tristella.json:11:  "titleAsset": "storymenu/esperon-tristella",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:75:mods/esperon-dano-tu-dealer-de-nostalgia/data/levels/esperon-tu-dealer-de-nostalgia.json:11:  "titleAsset": "storymenu/esperon-tu-dealer-de-nostalgia",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:79:mods/esperon-dano-un-poco-bien-un-poco-mal/data/levels/esperon-un-poco-bien-un-poco-mal.json:11:  "titleAsset": "storymenu/esperon-un-poco-bien-un-poco-mal",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:83:mods/esperon-dano-volver-a-vernos/data/levels/esperon-volver-a-vernos.json:11:  "titleAsset": "storymenu/esperon-volver-a-vernos",
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:87:## storymenu files
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:88:mods/esperon-dano-arcoloria/images/storymenu/esperon-arcoloria.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:89:mods/esperon-dano-arcoloria/images/storymenu/props/esperon-arcoloria-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:90:mods/esperon-dano-arcoloria/images/storymenu/props/esperon-arcoloria-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:91:mods/esperon-dano-cortamos-y-volvemos/images/storymenu/esperon-cortamos-y-volvemos.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:92:mods/esperon-dano-cortamos-y-volvemos/images/storymenu/props/esperon-cortamos-y-volvemos-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:93:mods/esperon-dano-cortamos-y-volvemos/images/storymenu/props/esperon-cortamos-y-volvemos-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:94:mods/esperon-dano-dano/images/storymenu/esperon-dano.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:95:mods/esperon-dano-dano/images/storymenu/props/esperon-dano-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:96:mods/esperon-dano-dano/images/storymenu/props/esperon-dano-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:97:mods/esperon-dano-dias-magicos/images/storymenu/esperon-dias-magicos.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:98:mods/esperon-dano-dias-magicos/images/storymenu/props/esperon-dias-magicos-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:99:mods/esperon-dano-dias-magicos/images/storymenu/props/esperon-dias-magicos-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:100:mods/esperon-dano-eclipsis/images/storymenu/esperon-eclipsis.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:101:mods/esperon-dano-eclipsis/images/storymenu/props/esperon-eclipsis-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:102:mods/esperon-dano-eclipsis/images/storymenu/props/esperon-eclipsis-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:103:mods/esperon-dano-fango/images/storymenu/esperon-fango.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:104:mods/esperon-dano-fango/images/storymenu/props/esperon-fango-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:105:mods/esperon-dano-fango/images/storymenu/props/esperon-fango-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:106:mods/esperon-dano-luma/images/storymenu/esperon-luma.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:107:mods/esperon-dano-luma/images/storymenu/props/esperon-luma-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:108:mods/esperon-dano-luma/images/storymenu/props/esperon-luma-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:109:mods/esperon-dano-maraton-de-peliculas/images/storymenu/esperon-maraton-de-peliculas.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:110:mods/esperon-dano-maraton-de-peliculas/images/storymenu/props/esperon-maraton-de-peliculas-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:111:mods/esperon-dano-maraton-de-peliculas/images/storymenu/props/esperon-maraton-de-peliculas-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:112:mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/storymenu/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:113:mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/storymenu/props/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:114:mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/storymenu/props/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:115:mods/esperon-dano-meteora/images/storymenu/esperon-meteora.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:116:mods/esperon-dano-meteora/images/storymenu/props/esperon-meteora-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:117:mods/esperon-dano-meteora/images/storymenu/props/esperon-meteora-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:118:mods/esperon-dano-mi-hogar/images/storymenu/esperon-mi-hogar.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:119:mods/esperon-dano-mi-hogar/images/storymenu/props/esperon-mi-hogar-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:120:mods/esperon-dano-mi-hogar/images/storymenu/props/esperon-mi-hogar-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:121:mods/esperon-dano-nubia/images/storymenu/esperon-nubia.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:122:mods/esperon-dano-nubia/images/storymenu/props/esperon-nubia-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:123:mods/esperon-dano-nubia/images/storymenu/props/esperon-nubia-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:124:mods/esperon-dano-nuestro-amor-no-es-normal/images/storymenu/esperon-nuestro-amor-no-es-normal.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:125:mods/esperon-dano-nuestro-amor-no-es-normal/images/storymenu/props/esperon-nuestro-amor-no-es-normal-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:126:mods/esperon-dano-nuestro-amor-no-es-normal/images/storymenu/props/esperon-nuestro-amor-no-es-normal-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:127:mods/esperon-dano-peligrosa/images/storymenu/esperon-peligrosa.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:128:mods/esperon-dano-peligrosa/images/storymenu/props/esperon-peligrosa-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:129:mods/esperon-dano-peligrosa/images/storymenu/props/esperon-peligrosa-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:130:mods/esperon-dano-rompecabezas/images/storymenu/esperon-rompecabezas.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:131:mods/esperon-dano-rompecabezas/images/storymenu/props/esperon-rompecabezas-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:132:mods/esperon-dano-rompecabezas/images/storymenu/props/esperon-rompecabezas-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:133:mods/esperon-dano-si-te-vas/images/storymenu/esperon-si-te-vas.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:134:mods/esperon-dano-si-te-vas/images/storymenu/props/esperon-si-te-vas-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:135:mods/esperon-dano-si-te-vas/images/storymenu/props/esperon-si-te-vas-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:136:mods/esperon-dano-solare/images/storymenu/esperon-solare.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:137:mods/esperon-dano-solare/images/storymenu/props/esperon-solare-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:138:mods/esperon-dano-solare/images/storymenu/props/esperon-solare-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:139:mods/esperon-dano-tristella/images/storymenu/esperon-tristella.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:140:mods/esperon-dano-tristella/images/storymenu/props/esperon-tristella-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:141:mods/esperon-dano-tristella/images/storymenu/props/esperon-tristella-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:142:mods/esperon-dano-tu-dealer-de-nostalgia/images/storymenu/esperon-tu-dealer-de-nostalgia.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:143:mods/esperon-dano-tu-dealer-de-nostalgia/images/storymenu/props/esperon-tu-dealer-de-nostalgia-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:144:mods/esperon-dano-tu-dealer-de-nostalgia/images/storymenu/props/esperon-tu-dealer-de-nostalgia-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:145:mods/esperon-dano-un-poco-bien-un-poco-mal/images/storymenu/esperon-un-poco-bien-un-poco-mal.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:146:mods/esperon-dano-un-poco-bien-un-poco-mal/images/storymenu/props/esperon-un-poco-bien-un-poco-mal-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:147:mods/esperon-dano-un-poco-bien-un-poco-mal/images/storymenu/props/esperon-un-poco-bien-un-poco-mal-player.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:148:mods/esperon-dano-volver-a-vernos/images/storymenu/esperon-volver-a-vernos.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:149:mods/esperon-dano-volver-a-vernos/images/storymenu/props/esperon-volver-a-vernos-opponent.png
+qa-lab/rebuild-v265/freeplay-capsule-reproduction-v265.txt:150:mods/esperon-dano-volver-a-vernos/images/storymenu/props/esperon-volver-a-vernos-player.png

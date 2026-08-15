@@ -1,0 +1,173 @@
+# Freeplay/capsule inventory
+## level definitions
+mods/esperon-dano-arcoloria/data/levels/esperon-arcoloria.json:11:  "titleAsset": "storymenu/esperon-arcoloria",
+mods/esperon-dano-arcoloria/data/levels/esperon-arcoloria.json:34:  "visible": true,
+mods/esperon-dano-arcoloria/data/levels/esperon-arcoloria.json:35:  "songs": [
+mods/esperon-dano-arcoloria/data/levels/esperon-arcoloria.json:38:  "background": "#6B5B1F"
+mods/esperon-dano-cortamos-y-volvemos/data/levels/esperon-cortamos-y-volvemos.json:11:  "titleAsset": "storymenu/esperon-cortamos-y-volvemos",
+mods/esperon-dano-cortamos-y-volvemos/data/levels/esperon-cortamos-y-volvemos.json:34:  "visible": true,
+mods/esperon-dano-cortamos-y-volvemos/data/levels/esperon-cortamos-y-volvemos.json:35:  "songs": [
+mods/esperon-dano-cortamos-y-volvemos/data/levels/esperon-cortamos-y-volvemos.json:38:  "background": "#1F5B6B"
+mods/esperon-dano-dano/data/levels/esperon-dano.json:11:  "titleAsset": "storymenu/esperon-dano",
+mods/esperon-dano-dano/data/levels/esperon-dano.json:34:  "visible": true,
+mods/esperon-dano-dano/data/levels/esperon-dano.json:35:  "songs": [
+mods/esperon-dano-dano/data/levels/esperon-dano.json:38:  "background": "#1F6B23"
+mods/esperon-dano-dias-magicos/data/levels/esperon-dias-magicos.json:11:  "titleAsset": "storymenu/esperon-dias-magicos",
+mods/esperon-dano-dias-magicos/data/levels/esperon-dias-magicos.json:34:  "visible": true,
+mods/esperon-dano-dias-magicos/data/levels/esperon-dias-magicos.json:35:  "songs": [
+mods/esperon-dano-dias-magicos/data/levels/esperon-dias-magicos.json:38:  "background": "#436B1F"
+mods/esperon-dano-eclipsis/data/levels/esperon-eclipsis.json:11:  "titleAsset": "storymenu/esperon-eclipsis",
+mods/esperon-dano-eclipsis/data/levels/esperon-eclipsis.json:34:  "visible": true,
+mods/esperon-dano-eclipsis/data/levels/esperon-eclipsis.json:35:  "songs": [
+mods/esperon-dano-eclipsis/data/levels/esperon-eclipsis.json:38:  "background": "#6B311F"
+mods/esperon-dano-fango/data/levels/esperon-fango.json:11:  "titleAsset": "storymenu/esperon-fango",
+mods/esperon-dano-fango/data/levels/esperon-fango.json:34:  "visible": true,
+mods/esperon-dano-fango/data/levels/esperon-fango.json:35:  "songs": [
+mods/esperon-dano-fango/data/levels/esperon-fango.json:38:  "background": "#616B1F"
+mods/esperon-dano-luma/data/levels/esperon-luma.json:11:  "titleAsset": "storymenu/esperon-luma",
+mods/esperon-dano-luma/data/levels/esperon-luma.json:34:  "visible": true,
+mods/esperon-dano-luma/data/levels/esperon-luma.json:35:  "songs": [
+mods/esperon-dano-luma/data/levels/esperon-luma.json:38:  "background": "#1F696B"
+mods/esperon-dano-maraton-de-peliculas/data/levels/esperon-maraton-de-peliculas.json:11:  "titleAsset": "storymenu/esperon-maraton-de-peliculas",
+mods/esperon-dano-maraton-de-peliculas/data/levels/esperon-maraton-de-peliculas.json:34:  "visible": true,
+mods/esperon-dano-maraton-de-peliculas/data/levels/esperon-maraton-de-peliculas.json:35:  "songs": [
+mods/esperon-dano-maraton-de-peliculas/data/levels/esperon-maraton-de-peliculas.json:38:  "background": "#1F4D6B"
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/levels/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.json:11:  "titleAsset": "storymenu/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/levels/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.json:34:  "visible": true,
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/levels/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.json:35:  "songs": [
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/levels/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.json:38:  "background": "#396B1F"
+mods/esperon-dano-meteora/data/levels/esperon-meteora.json:11:  "titleAsset": "storymenu/esperon-meteora",
+mods/esperon-dano-meteora/data/levels/esperon-meteora.json:34:  "visible": true,
+mods/esperon-dano-meteora/data/levels/esperon-meteora.json:35:  "songs": [
+mods/esperon-dano-meteora/data/levels/esperon-meteora.json:38:  "background": "#1F586B"
+mods/esperon-dano-mi-hogar/data/levels/esperon-mi-hogar.json:11:  "titleAsset": "storymenu/esperon-mi-hogar",
+mods/esperon-dano-mi-hogar/data/levels/esperon-mi-hogar.json:34:  "visible": true,
+mods/esperon-dano-mi-hogar/data/levels/esperon-mi-hogar.json:35:  "songs": [
+mods/esperon-dano-mi-hogar/data/levels/esperon-mi-hogar.json:38:  "background": "#6B421F"
+mods/esperon-dano-nubia/data/levels/esperon-nubia.json:11:  "titleAsset": "storymenu/esperon-nubia",
+mods/esperon-dano-nubia/data/levels/esperon-nubia.json:34:  "visible": true,
+mods/esperon-dano-nubia/data/levels/esperon-nubia.json:35:  "songs": [
+mods/esperon-dano-nubia/data/levels/esperon-nubia.json:38:  "background": "#1F376B"
+mods/esperon-dano-nuestro-amor-no-es-normal/data/levels/esperon-nuestro-amor-no-es-normal.json:11:  "titleAsset": "storymenu/esperon-nuestro-amor-no-es-normal",
+mods/esperon-dano-nuestro-amor-no-es-normal/data/levels/esperon-nuestro-amor-no-es-normal.json:34:  "visible": true,
+mods/esperon-dano-nuestro-amor-no-es-normal/data/levels/esperon-nuestro-amor-no-es-normal.json:35:  "songs": [
+mods/esperon-dano-nuestro-amor-no-es-normal/data/levels/esperon-nuestro-amor-no-es-normal.json:38:  "background": "#6B3D1F"
+mods/esperon-dano-peligrosa/data/levels/esperon-peligrosa.json:11:  "titleAsset": "storymenu/esperon-peligrosa",
+mods/esperon-dano-peligrosa/data/levels/esperon-peligrosa.json:34:  "visible": true,
+mods/esperon-dano-peligrosa/data/levels/esperon-peligrosa.json:35:  "songs": [
+mods/esperon-dano-peligrosa/data/levels/esperon-peligrosa.json:38:  "background": "#1F6B65"
+mods/esperon-dano-rompecabezas/data/levels/esperon-rompecabezas.json:11:  "titleAsset": "storymenu/esperon-rompecabezas",
+mods/esperon-dano-rompecabezas/data/levels/esperon-rompecabezas.json:34:  "visible": true,
+mods/esperon-dano-rompecabezas/data/levels/esperon-rompecabezas.json:35:  "songs": [
+mods/esperon-dano-rompecabezas/data/levels/esperon-rompecabezas.json:38:  "background": "#6B291F"
+mods/esperon-dano-si-te-vas/data/levels/esperon-si-te-vas.json:11:  "titleAsset": "storymenu/esperon-si-te-vas",
+mods/esperon-dano-si-te-vas/data/levels/esperon-si-te-vas.json:34:  "visible": true,
+mods/esperon-dano-si-te-vas/data/levels/esperon-si-te-vas.json:35:  "songs": [
+mods/esperon-dano-si-te-vas/data/levels/esperon-si-te-vas.json:38:  "background": "#0E3E46"
+mods/esperon-dano-solare/data/levels/esperon-solare.json:11:  "titleAsset": "storymenu/esperon-solare",
+mods/esperon-dano-solare/data/levels/esperon-solare.json:34:  "visible": true,
+mods/esperon-dano-solare/data/levels/esperon-solare.json:35:  "songs": [
+mods/esperon-dano-solare/data/levels/esperon-solare.json:38:  "background": "#6B1F2B"
+mods/esperon-dano-tristella/data/levels/esperon-tristella.json:11:  "titleAsset": "storymenu/esperon-tristella",
+mods/esperon-dano-tristella/data/levels/esperon-tristella.json:34:  "visible": true,
+mods/esperon-dano-tristella/data/levels/esperon-tristella.json:35:  "songs": [
+mods/esperon-dano-tristella/data/levels/esperon-tristella.json:38:  "background": "#6B231F"
+mods/esperon-dano-tu-dealer-de-nostalgia/data/levels/esperon-tu-dealer-de-nostalgia.json:11:  "titleAsset": "storymenu/esperon-tu-dealer-de-nostalgia",
+mods/esperon-dano-tu-dealer-de-nostalgia/data/levels/esperon-tu-dealer-de-nostalgia.json:34:  "visible": true,
+mods/esperon-dano-tu-dealer-de-nostalgia/data/levels/esperon-tu-dealer-de-nostalgia.json:35:  "songs": [
+mods/esperon-dano-tu-dealer-de-nostalgia/data/levels/esperon-tu-dealer-de-nostalgia.json:38:  "background": "#4C1F6B"
+mods/esperon-dano-un-poco-bien-un-poco-mal/data/levels/esperon-un-poco-bien-un-poco-mal.json:11:  "titleAsset": "storymenu/esperon-un-poco-bien-un-poco-mal",
+mods/esperon-dano-un-poco-bien-un-poco-mal/data/levels/esperon-un-poco-bien-un-poco-mal.json:34:  "visible": true,
+mods/esperon-dano-un-poco-bien-un-poco-mal/data/levels/esperon-un-poco-bien-un-poco-mal.json:35:  "songs": [
+mods/esperon-dano-un-poco-bien-un-poco-mal/data/levels/esperon-un-poco-bien-un-poco-mal.json:38:  "background": "#6B2E1F"
+mods/esperon-dano-volver-a-vernos/data/levels/esperon-volver-a-vernos.json:11:  "titleAsset": "storymenu/esperon-volver-a-vernos",
+mods/esperon-dano-volver-a-vernos/data/levels/esperon-volver-a-vernos.json:34:  "visible": true,
+mods/esperon-dano-volver-a-vernos/data/levels/esperon-volver-a-vernos.json:35:  "songs": [
+mods/esperon-dano-volver-a-vernos/data/levels/esperon-volver-a-vernos.json:38:  "background": "#1F306B"
+## storymenu files
+mods/esperon-dano-arcoloria/images/storymenu/esperon-arcoloria.png
+mods/esperon-dano-arcoloria/images/storymenu/props/esperon-arcoloria-opponent.png
+mods/esperon-dano-arcoloria/images/storymenu/props/esperon-arcoloria-player.png
+mods/esperon-dano-cortamos-y-volvemos/images/storymenu/esperon-cortamos-y-volvemos.png
+mods/esperon-dano-cortamos-y-volvemos/images/storymenu/props/esperon-cortamos-y-volvemos-opponent.png
+mods/esperon-dano-cortamos-y-volvemos/images/storymenu/props/esperon-cortamos-y-volvemos-player.png
+mods/esperon-dano-dano/images/storymenu/esperon-dano.png
+mods/esperon-dano-dano/images/storymenu/props/esperon-dano-opponent.png
+mods/esperon-dano-dano/images/storymenu/props/esperon-dano-player.png
+mods/esperon-dano-dias-magicos/images/storymenu/esperon-dias-magicos.png
+mods/esperon-dano-dias-magicos/images/storymenu/props/esperon-dias-magicos-opponent.png
+mods/esperon-dano-dias-magicos/images/storymenu/props/esperon-dias-magicos-player.png
+mods/esperon-dano-eclipsis/images/storymenu/esperon-eclipsis.png
+mods/esperon-dano-eclipsis/images/storymenu/props/esperon-eclipsis-opponent.png
+mods/esperon-dano-eclipsis/images/storymenu/props/esperon-eclipsis-player.png
+mods/esperon-dano-fango/images/storymenu/esperon-fango.png
+mods/esperon-dano-fango/images/storymenu/props/esperon-fango-opponent.png
+mods/esperon-dano-fango/images/storymenu/props/esperon-fango-player.png
+mods/esperon-dano-luma/images/storymenu/esperon-luma.png
+mods/esperon-dano-luma/images/storymenu/props/esperon-luma-opponent.png
+mods/esperon-dano-luma/images/storymenu/props/esperon-luma-player.png
+mods/esperon-dano-maraton-de-peliculas/images/storymenu/esperon-maraton-de-peliculas.png
+mods/esperon-dano-maraton-de-peliculas/images/storymenu/props/esperon-maraton-de-peliculas-opponent.png
+mods/esperon-dano-maraton-de-peliculas/images/storymenu/props/esperon-maraton-de-peliculas-player.png
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/storymenu/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.png
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/storymenu/props/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-opponent.png
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/storymenu/props/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-player.png
+mods/esperon-dano-meteora/images/storymenu/esperon-meteora.png
+mods/esperon-dano-meteora/images/storymenu/props/esperon-meteora-opponent.png
+mods/esperon-dano-meteora/images/storymenu/props/esperon-meteora-player.png
+mods/esperon-dano-mi-hogar/images/storymenu/esperon-mi-hogar.png
+mods/esperon-dano-mi-hogar/images/storymenu/props/esperon-mi-hogar-opponent.png
+mods/esperon-dano-mi-hogar/images/storymenu/props/esperon-mi-hogar-player.png
+mods/esperon-dano-nubia/images/storymenu/esperon-nubia.png
+mods/esperon-dano-nubia/images/storymenu/props/esperon-nubia-opponent.png
+mods/esperon-dano-nubia/images/storymenu/props/esperon-nubia-player.png
+mods/esperon-dano-nuestro-amor-no-es-normal/images/storymenu/esperon-nuestro-amor-no-es-normal.png
+mods/esperon-dano-nuestro-amor-no-es-normal/images/storymenu/props/esperon-nuestro-amor-no-es-normal-opponent.png
+mods/esperon-dano-nuestro-amor-no-es-normal/images/storymenu/props/esperon-nuestro-amor-no-es-normal-player.png
+mods/esperon-dano-peligrosa/images/storymenu/esperon-peligrosa.png
+mods/esperon-dano-peligrosa/images/storymenu/props/esperon-peligrosa-opponent.png
+mods/esperon-dano-peligrosa/images/storymenu/props/esperon-peligrosa-player.png
+mods/esperon-dano-rompecabezas/images/storymenu/esperon-rompecabezas.png
+mods/esperon-dano-rompecabezas/images/storymenu/props/esperon-rompecabezas-opponent.png
+mods/esperon-dano-rompecabezas/images/storymenu/props/esperon-rompecabezas-player.png
+mods/esperon-dano-si-te-vas/images/storymenu/esperon-si-te-vas.png
+mods/esperon-dano-si-te-vas/images/storymenu/props/esperon-si-te-vas-opponent.png
+mods/esperon-dano-si-te-vas/images/storymenu/props/esperon-si-te-vas-player.png
+mods/esperon-dano-solare/images/storymenu/esperon-solare.png
+mods/esperon-dano-solare/images/storymenu/props/esperon-solare-opponent.png
+mods/esperon-dano-solare/images/storymenu/props/esperon-solare-player.png
+mods/esperon-dano-tristella/images/storymenu/esperon-tristella.png
+mods/esperon-dano-tristella/images/storymenu/props/esperon-tristella-opponent.png
+mods/esperon-dano-tristella/images/storymenu/props/esperon-tristella-player.png
+mods/esperon-dano-tu-dealer-de-nostalgia/images/storymenu/esperon-tu-dealer-de-nostalgia.png
+mods/esperon-dano-tu-dealer-de-nostalgia/images/storymenu/props/esperon-tu-dealer-de-nostalgia-opponent.png
+mods/esperon-dano-tu-dealer-de-nostalgia/images/storymenu/props/esperon-tu-dealer-de-nostalgia-player.png
+mods/esperon-dano-un-poco-bien-un-poco-mal/images/storymenu/esperon-un-poco-bien-un-poco-mal.png
+mods/esperon-dano-un-poco-bien-un-poco-mal/images/storymenu/props/esperon-un-poco-bien-un-poco-mal-opponent.png
+mods/esperon-dano-un-poco-bien-un-poco-mal/images/storymenu/props/esperon-un-poco-bien-un-poco-mal-player.png
+mods/esperon-dano-volver-a-vernos/images/storymenu/esperon-volver-a-vernos.png
+mods/esperon-dano-volver-a-vernos/images/storymenu/props/esperon-volver-a-vernos-opponent.png
+mods/esperon-dano-volver-a-vernos/images/storymenu/props/esperon-volver-a-vernos-player.png
+## album files
+mods/esperon-dano-arcoloria/data/ui/freeplay/albums/esperon-arcoloria.json
+mods/esperon-dano-cortamos-y-volvemos/data/ui/freeplay/albums/esperon-cortamos-y-volvemos.json
+mods/esperon-dano-dano/data/ui/freeplay/albums/esperon-dano.json
+mods/esperon-dano-dias-magicos/data/ui/freeplay/albums/esperon-dias-magicos.json
+mods/esperon-dano-eclipsis/data/ui/freeplay/albums/esperon-eclipsis.json
+mods/esperon-dano-fango/data/ui/freeplay/albums/esperon-fango.json
+mods/esperon-dano-luma/data/ui/freeplay/albums/esperon-luma.json
+mods/esperon-dano-maraton-de-peliculas/data/ui/freeplay/albums/esperon-maraton-de-peliculas.json
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/ui/freeplay/albums/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.json
+mods/esperon-dano-meteora/data/ui/freeplay/albums/esperon-meteora.json
+mods/esperon-dano-mi-hogar/data/ui/freeplay/albums/esperon-mi-hogar.json
+mods/esperon-dano-nubia/data/ui/freeplay/albums/esperon-nubia.json
+mods/esperon-dano-nuestro-amor-no-es-normal/data/ui/freeplay/albums/esperon-nuestro-amor-no-es-normal.json
+mods/esperon-dano-peligrosa/data/ui/freeplay/albums/esperon-peligrosa.json
+mods/esperon-dano-rompecabezas/data/ui/freeplay/albums/esperon-rompecabezas.json
+mods/esperon-dano-si-te-vas/data/ui/freeplay/albums/esperon-si-te-vas.json
+mods/esperon-dano-solare/data/ui/freeplay/albums/esperon-solare.json
+mods/esperon-dano-tristella/data/ui/freeplay/albums/esperon-tristella.json
+mods/esperon-dano-tu-dealer-de-nostalgia/data/ui/freeplay/albums/esperon-tu-dealer-de-nostalgia.json
+mods/esperon-dano-un-poco-bien-un-poco-mal/data/ui/freeplay/albums/esperon-un-poco-bien-un-poco-mal.json
+mods/esperon-dano-volver-a-vernos/data/ui/freeplay/albums/esperon-volver-a-vernos.json
+## placeholder strings in runtime assets/data
