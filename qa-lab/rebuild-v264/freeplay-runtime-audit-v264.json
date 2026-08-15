@@ -1,0 +1,556 @@
+{
+  "audit": "FREEPLAY_RUNTIME_V264",
+  "target": "FNF Mobile V-Slice 0.8.6",
+  "mods": 21,
+  "passed": 21,
+  "errors": 0,
+  "status": "PASS",
+  "reports": [
+    {
+      "mod": "esperon-dano-arcoloria",
+      "song": "arcoloria",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-arcoloria",
+        "art_asset": "freeplay/albumRoll/esperon-arcoloria-art",
+        "art_png": "images/freeplay/albumRoll/esperon-arcoloria-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-arcoloria-title",
+          "png": "images/freeplay/albumRoll/esperon-arcoloria-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-arcoloria-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-arcoloria.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-cortamos-y-volvemos",
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-cortamos-y-volvemos",
+        "art_asset": "freeplay/albumRoll/esperon-cortamos-y-volvemos-art",
+        "art_png": "images/freeplay/albumRoll/esperon-cortamos-y-volvemos-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-cortamos-y-volvemos-title",
+          "png": "images/freeplay/albumRoll/esperon-cortamos-y-volvemos-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-cortamos-y-volvemos-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-cortamos-y-volvemos.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-dano",
+      "song": "dano",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-dano",
+        "art_asset": "freeplay/albumRoll/esperon-dano-art",
+        "art_png": "images/freeplay/albumRoll/esperon-dano-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-dano-title",
+          "png": "images/freeplay/albumRoll/esperon-dano-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-dano-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-dano.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-dias-magicos",
+      "song": "dias-magicos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-dias-magicos",
+        "art_asset": "freeplay/albumRoll/esperon-dias-magicos-art",
+        "art_png": "images/freeplay/albumRoll/esperon-dias-magicos-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-dias-magicos-title",
+          "png": "images/freeplay/albumRoll/esperon-dias-magicos-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-dias-magicos-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-dias-magicos.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-eclipsis",
+      "song": "eclipsis",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-eclipsis",
+        "art_asset": "freeplay/albumRoll/esperon-eclipsis-art",
+        "art_png": "images/freeplay/albumRoll/esperon-eclipsis-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-eclipsis-title",
+          "png": "images/freeplay/albumRoll/esperon-eclipsis-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-eclipsis-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-eclipsis.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-fango",
+      "song": "fango",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-fango",
+        "art_asset": "freeplay/albumRoll/esperon-fango-art",
+        "art_png": "images/freeplay/albumRoll/esperon-fango-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-fango-title",
+          "png": "images/freeplay/albumRoll/esperon-fango-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-fango-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-fango.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-luma",
+      "song": "luma",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-luma",
+        "art_asset": "freeplay/albumRoll/esperon-luma-art",
+        "art_png": "images/freeplay/albumRoll/esperon-luma-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-luma-title",
+          "png": "images/freeplay/albumRoll/esperon-luma-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-luma-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-luma.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-maraton-de-peliculas",
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-maraton-de-peliculas",
+        "art_asset": "freeplay/albumRoll/esperon-maraton-de-peliculas-art",
+        "art_png": "images/freeplay/albumRoll/esperon-maraton-de-peliculas-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-maraton-de-peliculas-title",
+          "png": "images/freeplay/albumRoll/esperon-maraton-de-peliculas-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-maraton-de-peliculas-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-maraton-de-peliculas.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+        "art_asset": "freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-art",
+        "art_png": "images/freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title",
+          "png": "images/freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-meteora",
+      "song": "meteora",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-meteora",
+        "art_asset": "freeplay/albumRoll/esperon-meteora-art",
+        "art_png": "images/freeplay/albumRoll/esperon-meteora-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-meteora-title",
+          "png": "images/freeplay/albumRoll/esperon-meteora-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-meteora-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-meteora.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-mi-hogar",
+      "song": "mi-hogar",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-mi-hogar",
+        "art_asset": "freeplay/albumRoll/esperon-mi-hogar-art",
+        "art_png": "images/freeplay/albumRoll/esperon-mi-hogar-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-mi-hogar-title",
+          "png": "images/freeplay/albumRoll/esperon-mi-hogar-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-mi-hogar-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-mi-hogar.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-nubia",
+      "song": "nubia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-nubia",
+        "art_asset": "freeplay/albumRoll/esperon-nubia-art",
+        "art_png": "images/freeplay/albumRoll/esperon-nubia-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-nubia-title",
+          "png": "images/freeplay/albumRoll/esperon-nubia-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-nubia-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-nubia.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-nuestro-amor-no-es-normal",
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-nuestro-amor-no-es-normal",
+        "art_asset": "freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-art",
+        "art_png": "images/freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-title",
+          "png": "images/freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-nuestro-amor-no-es-normal.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-peligrosa",
+      "song": "peligrosa",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-peligrosa",
+        "art_asset": "freeplay/albumRoll/esperon-peligrosa-art",
+        "art_png": "images/freeplay/albumRoll/esperon-peligrosa-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-peligrosa-title",
+          "png": "images/freeplay/albumRoll/esperon-peligrosa-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-peligrosa-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-peligrosa.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-rompecabezas",
+      "song": "rompecabezas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-rompecabezas",
+        "art_asset": "freeplay/albumRoll/esperon-rompecabezas-art",
+        "art_png": "images/freeplay/albumRoll/esperon-rompecabezas-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-rompecabezas-title",
+          "png": "images/freeplay/albumRoll/esperon-rompecabezas-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-rompecabezas-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-rompecabezas.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-si-te-vas",
+      "song": "si-te-vas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-si-te-vas",
+        "art_asset": "freeplay/albumRoll/esperon-si-te-vas-art",
+        "art_png": "images/freeplay/albumRoll/esperon-si-te-vas-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-si-te-vas-title",
+          "png": "images/freeplay/albumRoll/esperon-si-te-vas-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-si-te-vas-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-si-te-vas.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-solare",
+      "song": "solare",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-solare",
+        "art_asset": "freeplay/albumRoll/esperon-solare-art",
+        "art_png": "images/freeplay/albumRoll/esperon-solare-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-solare-title",
+          "png": "images/freeplay/albumRoll/esperon-solare-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-solare-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-solare.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-tristella",
+      "song": "tristella",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-tristella",
+        "art_asset": "freeplay/albumRoll/esperon-tristella-art",
+        "art_png": "images/freeplay/albumRoll/esperon-tristella-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-tristella-title",
+          "png": "images/freeplay/albumRoll/esperon-tristella-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-tristella-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-tristella.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-tu-dealer-de-nostalgia",
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-tu-dealer-de-nostalgia",
+        "art_asset": "freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-art",
+        "art_png": "images/freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-title",
+          "png": "images/freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-tu-dealer-de-nostalgia.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-un-poco-bien-un-poco-mal",
+        "art_asset": "freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-art",
+        "art_png": "images/freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-title",
+          "png": "images/freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-un-poco-bien-un-poco-mal.json"
+      ]
+    },
+    {
+      "mod": "esperon-dano-volver-a-vernos",
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "album": {
+        "id": "esperon-volver-a-vernos",
+        "art_asset": "freeplay/albumRoll/esperon-volver-a-vernos-art",
+        "art_png": "images/freeplay/albumRoll/esperon-volver-a-vernos-art.png",
+        "title": {
+          "asset": "freeplay/albumRoll/esperon-volver-a-vernos-title",
+          "png": "images/freeplay/albumRoll/esperon-volver-a-vernos-title.png",
+          "xml": "images/freeplay/albumRoll/esperon-volver-a-vernos-title.xml",
+          "frames": [
+            "switch0000",
+            "idle0000"
+          ],
+          "errors": []
+        },
+        "status": "PASS"
+      },
+      "story_levels": [
+        "esperon-volver-a-vernos.json"
+      ]
+    }
+  ]
+}

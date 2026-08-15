@@ -20,7 +20,7 @@ def main() -> int:
     root = Path(sys.argv[1] if len(sys.argv) > 1 else ".").resolve()
     manifests = sorted((root / "sync-candidates" / "input-manifests").glob("*.json"))
     reports = []
-    expected_songs = 20
+    expected_songs = 21
     if len(manifests) != expected_songs:
         reports.append({"song": "<manifest-set>", "status": "ERROR", "errors": [f"se esperaban {expected_songs} manifests y hay {len(manifests)}"]})
     for manifest_path in manifests:
