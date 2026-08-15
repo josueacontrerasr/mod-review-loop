@@ -1,0 +1,45 @@
+{
+  "version": "2.2.4",
+  "songName": "Si Te Vas",
+  "artist": "Esperón",
+  "charter": "Manus AI — vocal-only chart from separated Voices stem; Audio Sync Test móvil pendiente",
+  "offsets": {},
+  "playData": {
+    "difficulties": [
+      "easy",
+      "normal",
+      "hard"
+    ],
+    "characters": {
+      "player": "esperon-si-te-vas",
+      "opponent": "rival-si-te-vas",
+      "playerVocals": [
+        "esperon-si-te-vas"
+      ],
+      "opponentVocals": []
+    },
+    "stage": "escenario-si-te-vas",
+    "noteStyle": "esperon-si-te-vas-notes",
+    "ratings": {
+      "easy": 0,
+      "normal": 1,
+      "hard": 2
+    },
+    "album": "esperon-si-te-vas",
+    "songVariations": []
+  },
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 90.666,
+      "bt": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.2 Si Te Vas stem-separated vocal-only pipeline"
+}

@@ -1,0 +1,15 @@
+import funkin.play.PlayState;
+import funkin.modding.module.Module;
+class EsperonSiTeVasHudV2 extends Module
+{
+  function new() { super("Esperón HUD — Si Te Vas", 1, {state: PlayState}); }
+  override function onCountdownStart(event)
+  {
+    super.onCountdownStart(event);
+    if (PlayState.instance == null || PlayState.instance.healthBar == null) return;
+    if (PlayState.instance.iconP1 == null) return;
+    if (PlayState.instance.iconP1.characterId != "esperon-si-te-vas") return;
+    PlayState.instance.healthBar.createFilledBar(0xFFFF9DBB, 0xFF46B8B6);
+    PlayState.instance.healthBar.updateBar();
+  }
+}

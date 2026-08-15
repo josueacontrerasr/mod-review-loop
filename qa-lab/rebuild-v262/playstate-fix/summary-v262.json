@@ -1,0 +1,35 @@
+{
+  "scope": "ESPERON_VSLICE_086_V262_SI_TE_VAS",
+  "target_version": "0.8.6",
+  "mod_version": "2.6.2",
+  "songs": 21,
+  "new_song": "si-te-vas",
+  "local_gates": {
+    "vocal_candidates": "21/21 PASS",
+    "candidate_production_comparison": "21/21 equal after promotion",
+    "production_vocal_gate": "21/21 PASS",
+    "outside_vocal_segments": 0,
+    "metadata_leaked": 0,
+    "bad_lanes": 0,
+    "playstate_cases": "63/63 PASS",
+    "contracts_assets": "21/21 PASS",
+    "headless_mobile_loader": "21/21 PASS",
+    "qa_rounds": 20,
+    "mods_per_round": 21,
+    "qa_reviews": "420/420 PASS",
+    "individual_zips": "21/21 PASS",
+    "complete_zip": "PASS; 21 mod roots",
+    "delivery_assets": 22
+  },
+  "audio_policy": {
+    "chart_source": "Voices-*.ogg only",
+    "instrumental_used_for_generation": false,
+    "si_te_vas_separation": "Demucs htdemucs two-stems vocals CPU",
+    "mobile_audio_sync_test": "PENDING_REAL_DEVICE"
+  },
+  "remote_gate": {
+    "status": "NOT_STARTED",
+    "workflow": "qa-playstate-vocal-freeplay-v262.yml"
+  },
+  "release_decision": "BLOCKED_UNTIL_REMOTE_GATE_PASS"
+}

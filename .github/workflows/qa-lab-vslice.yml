@@ -23,9 +23,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # V2.5.1 queda como auditoría histórica; V2.6.1 es el gate vigente.
+  # V2.5.1 queda como auditoría histórica; V2.6.2 es el gate vigente.
   qa-lab:
-    if: github.ref_name != 'main' && github.ref_name != 'auto/playstate-fix-v260'
+    if: github.ref_name != 'main' && github.ref_name != 'auto/playstate-fix-v260' && github.ref_name != 'auto/si-te-vas-v262'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:

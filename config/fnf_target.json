@@ -50,15 +50,16 @@
     "tristella",
     "tu-dealer-de-nostalgia",
     "un-poco-bien-un-poco-mal",
-    "volver-a-vernos"
+    "volver-a-vernos",
+    "si-te-vas"
   ],
   "release_policy": {
-    "current_mod_version": "2.6.1",
-    "change_summary": "Corrección PlayState: chart.generatedBy obligatorio; charts refinados exclusivamente desde Voices-*.ogg; carátulas Freeplay cuadradas; Esperon-Completo incluido"
+    "current_mod_version": "2.6.2",
+    "change_summary": "Nuevo mod Si Te Vas; audio separado vocal/instrumental; charts vocal-only V2.6.2; reauditoría de 21 mods; Esperon-Completo ampliado"
   },
   "qa_policy": {
     "rounds": 20,
-    "mods_per_round": 20,
+    "mods_per_round": 21,
     "difficulties_per_mod": 3,
     "runtime_zip_must_exclude_evidence": true,
     "no_artificial_version_bumps": true,
@@ -67,7 +68,7 @@
     "complete_delivery_zip": "Esperon-Completo.zip"
   },
   "branch_policy": {
-    "main_expected_commit": "2cd67f950b40d05f9f5e157f5ebed7510bc2ed36",
+    "main_expected_commit": "059ad79b1846d23491507723900c900798bc261b",
     "stable_branch_prefix": "f75a74f",
     "no_automatic_merge_or_release_on_divergence": true
   }

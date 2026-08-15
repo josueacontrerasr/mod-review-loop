@@ -16,8 +16,11 @@ sync-candidates/vocal-stems/**/demucs-work/
 # Extracción de referencia TODO.zip: no versionar contenido externo, solo la comparación
 qa-lab/rebuild-v260/todo-reference/
 
-# La colección maestra se publica como asset de Release; supera el límite de 100 MB de GitHub
-Mods .zip terminados/Mod-Esperon-Coleccion-*.zip
+# Los ZIPs finales se publican como assets de Release; no se guardan como blobs Git.
+Mods .zip terminados/*.zip
+
+# Staging efímero generado por el loader headless.
+qa-lab/mobile-sim/
 
 # Staging temporal de empaquetado V2.2.2: los ZIPs finales se publican como Release
 aqa-lab/rebuild-v222/package-staging/

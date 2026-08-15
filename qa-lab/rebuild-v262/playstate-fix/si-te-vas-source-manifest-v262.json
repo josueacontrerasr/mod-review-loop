@@ -1,0 +1,59 @@
+{
+  "scope": "SI_TE_VAS_SOURCE_MANIFEST_V262",
+  "executed_at": "2026-08-15T19:10:23.895043+00:00",
+  "song": "si-te-vas",
+  "artist": "Esperón",
+  "source_probe": {
+    "format": {
+      "duration": "225.372880",
+      "tags": {
+        "major_brand": "dash",
+        "minor_version": "0",
+        "compatible_brands": "iso6mp41",
+        "creation_time": "2024-10-16T22:49:20.000000Z",
+        "encoder": "Google",
+        "title": "Si Te Vas",
+        "date": "",
+        "album": "Nubia",
+        "artist": "Esperón"
+      }
+    }
+  },
+  "files": {
+    "source_m4a": {
+      "path": "Esperón  Si Te Vas.m4a",
+      "exists": true,
+      "sha256": "c5ec6967737614fd57ce6e191fa0b13bfc9d90d0b8397936063a0d536c8264de"
+    },
+    "demucs_vocals_wav": {
+      "path": "/tmp/si-te-vas-demucs/htdemucs/Esperón  Si Te Vas/vocals.wav",
+      "exists": true,
+      "sha256": "5550633858ad51714f49f0e1b592605ad6d2d889d77d884132d67926868335c8"
+    },
+    "demucs_instrumental_wav": {
+      "path": "/tmp/si-te-vas-demucs/htdemucs/Esperón  Si Te Vas/no_vocals.wav",
+      "exists": true,
+      "sha256": "fb00aa46d48d33a636138f0211edd4258d2c86f983afb2e50ec3853e940539a5"
+    },
+    "freeplay_cover_png": {
+      "path": "mods/esperon-dano-si-te-vas/images/freeplay/albumRoll/esperon-si-te-vas-art.png",
+      "exists": true,
+      "sha256": "3f9c322dfc81f4ad1944145196b3ceefbe7cba4fce6d8206d1c2909445e02227"
+    },
+    "runtime_inst_ogg": {
+      "path": "mods/esperon-dano-si-te-vas/songs/si-te-vas/Inst.ogg",
+      "exists": true,
+      "sha256": "a689de61bf4e48f478713880d1ac9dd22912d6987145d976dfa9c4bb471100ef"
+    },
+    "runtime_voice_ogg": {
+      "path": "mods/esperon-dano-si-te-vas/songs/si-te-vas/Voices-esperon-si-te-vas.ogg",
+      "exists": true,
+      "sha256": "1c1a49176ab37dce792218b8a1c8cf7971a9ab3b6b8ffda9a201c2b32cfa984c"
+    }
+  },
+  "separation": {
+    "engine": "Demucs htdemucs --two-stems=vocals --device cpu",
+    "chart_generation_source": "runtime_voice_ogg_only",
+    "instrumental_used_for_generation": false
+  }
+}
