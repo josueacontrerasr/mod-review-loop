@@ -49,6 +49,9 @@ jobs:
       - name: Ejecutar 20 rondas QA históricas
         run: python tools/run_qa_lab.py . --rounds 20 --clean --previews --workers 4
 
+      - name: Reconstruir colección V2.3.0 en el runner
+        run: python tools/build_collection_v230.py .
+
       - name: Ejecutar QA paralelo V2.3.0 (20 rondas × 20 mods)
         run: |
           python tools/validate_v230_runtime.py .
