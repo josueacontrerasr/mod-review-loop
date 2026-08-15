@@ -13,6 +13,9 @@ review-work/
 sync-candidates/vocal-stems/**/*.wav
 sync-candidates/vocal-stems/**/demucs-work/
 
+# Extracción de referencia TODO.zip: no versionar contenido externo, solo la comparación
+qa-lab/rebuild-v260/todo-reference/
+
 # La colección maestra se publica como asset de Release; supera el límite de 100 MB de GitHub
 Mods .zip terminados/Mod-Esperon-Coleccion-*.zip
 

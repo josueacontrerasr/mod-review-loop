@@ -1,0 +1,1144 @@
+{
+  "version": "2.6.0-vocal-audit-summary",
+  "status": "VOICE_SYNC_REVIEW_REQUIRED",
+  "songs": 20,
+  "difficulties": 60,
+  "thresholds": {
+    "note_coverage_120ms": 0.95,
+    "note_p95_ms": 120,
+    "event_coverage_by_difficulty": {
+      "easy": 0.55,
+      "normal": 0.75,
+      "hard": 0.9
+    },
+    "drift_abs_ms_per_minute": 30
+  },
+  "by_difficulty": {
+    "easy": {
+      "note_cov_120ms_min": 0.951282,
+      "note_p95_ms_max": 0.0,
+      "voice_event_cov_120ms_min": 0.561869,
+      "voice_event_p95_ms_max": 275.447,
+      "drift_abs_max": 8.281546,
+      "failures": 0
+    },
+    "normal": {
+      "note_cov_120ms_min": 0.909091,
+      "note_p95_ms_max": 4558.077,
+      "voice_event_cov_120ms_min": 0.776515,
+      "voice_event_p95_ms_max": 168.344,
+      "drift_abs_max": 9.018395,
+      "failures": 38
+    },
+    "hard": {
+      "note_cov_120ms_min": 0.869018,
+      "note_p95_ms_max": 4222.549,
+      "voice_event_cov_120ms_min": 1.0,
+      "voice_event_p95_ms_max": 63.274,
+      "drift_abs_max": 2.10909,
+      "failures": 40
+    }
+  },
+  "issues": [
+    "arcoloria:normal:note_coverage",
+    "arcoloria:normal:note_p95",
+    "arcoloria:hard:note_coverage",
+    "arcoloria:hard:note_p95",
+    "cortamos-y-volvemos:normal:note_coverage",
+    "cortamos-y-volvemos:normal:note_p95",
+    "cortamos-y-volvemos:hard:note_coverage",
+    "cortamos-y-volvemos:hard:note_p95",
+    "dano:normal:note_coverage",
+    "dano:normal:note_p95",
+    "dano:hard:note_coverage",
+    "dano:hard:note_p95",
+    "dias-magicos:normal:note_coverage",
+    "dias-magicos:normal:note_p95",
+    "dias-magicos:hard:note_coverage",
+    "dias-magicos:hard:note_p95",
+    "eclipsis:normal:note_coverage",
+    "eclipsis:normal:note_p95",
+    "eclipsis:hard:note_coverage",
+    "eclipsis:hard:note_p95",
+    "fango:normal:note_coverage",
+    "fango:normal:note_p95",
+    "fango:hard:note_coverage",
+    "fango:hard:note_p95",
+    "luma:normal:note_coverage",
+    "luma:normal:note_p95",
+    "luma:hard:note_coverage",
+    "luma:hard:note_p95",
+    "maraton-de-peliculas:normal:note_coverage",
+    "maraton-de-peliculas:normal:note_p95",
+    "maraton-de-peliculas:hard:note_coverage",
+    "maraton-de-peliculas:hard:note_p95",
+    "me-voy-a-morir-si-no-me-besas-ahora-mismo:normal:note_coverage",
+    "me-voy-a-morir-si-no-me-besas-ahora-mismo:normal:note_p95",
+    "me-voy-a-morir-si-no-me-besas-ahora-mismo:hard:note_coverage",
+    "me-voy-a-morir-si-no-me-besas-ahora-mismo:hard:note_p95",
+    "meteora:normal:note_coverage",
+    "meteora:normal:note_p95",
+    "meteora:hard:note_coverage",
+    "meteora:hard:note_p95",
+    "mi-hogar:normal:note_coverage",
+    "mi-hogar:normal:note_p95",
+    "mi-hogar:hard:note_coverage",
+    "mi-hogar:hard:note_p95",
+    "nubia:normal:note_coverage",
+    "nubia:normal:note_p95",
+    "nubia:hard:note_coverage",
+    "nubia:hard:note_p95",
+    "nuestro-amor-no-es-normal:normal:note_coverage",
+    "nuestro-amor-no-es-normal:normal:note_p95",
+    "nuestro-amor-no-es-normal:hard:note_coverage",
+    "nuestro-amor-no-es-normal:hard:note_p95",
+    "peligrosa:normal:note_coverage",
+    "peligrosa:normal:note_p95",
+    "peligrosa:hard:note_coverage",
+    "peligrosa:hard:note_p95",
+    "rompecabezas:normal:note_coverage",
+    "rompecabezas:normal:note_p95",
+    "rompecabezas:hard:note_coverage",
+    "rompecabezas:hard:note_p95",
+    "solare:normal:note_coverage",
+    "solare:normal:note_p95",
+    "solare:hard:note_coverage",
+    "solare:hard:note_p95",
+    "tristella:normal:note_coverage",
+    "tristella:normal:note_p95",
+    "tristella:hard:note_coverage",
+    "tristella:hard:note_p95",
+    "tu-dealer-de-nostalgia:normal:note_coverage",
+    "tu-dealer-de-nostalgia:normal:note_p95",
+    "tu-dealer-de-nostalgia:hard:note_coverage",
+    "tu-dealer-de-nostalgia:hard:note_p95",
+    "un-poco-bien-un-poco-mal:normal:note_coverage",
+    "un-poco-bien-un-poco-mal:normal:note_p95",
+    "un-poco-bien-un-poco-mal:hard:note_coverage",
+    "un-poco-bien-un-poco-mal:hard:note_p95",
+    "volver-a-vernos:hard:note_coverage",
+    "volver-a-vernos:hard:note_p95"
+  ],
+  "rows": [
+    {
+      "song": "arcoloria",
+      "difficulty": "easy",
+      "notes": 364,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.96978,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": 1.818,
+      "voice_event_cov_120ms": 0.71875,
+      "voice_event_p95_ms": 255.419,
+      "drift_ms_per_minute": -6.640617
+    },
+    {
+      "song": "arcoloria",
+      "difficulty": "normal",
+      "notes": 474,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.919831,
+      "note_p95_ms": 257.451,
+      "note_signed_mean_ms": 1.678,
+      "voice_event_cov_120ms": 0.882812,
+      "voice_event_p95_ms": 150.93,
+      "drift_ms_per_minute": -4.561916
+    },
+    {
+      "song": "arcoloria",
+      "difficulty": "hard",
+      "notes": 566,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.883392,
+      "note_p95_ms": 306.213,
+      "note_signed_mean_ms": 1.128,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": -1.322307
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "difficulty": "easy",
+      "notes": 434,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.951613,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -324.344,
+      "voice_event_cov_120ms": 0.620934,
+      "voice_event_p95_ms": 230.458,
+      "drift_ms_per_minute": -5.409156
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "difficulty": "normal",
+      "notes": 563,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.928952,
+      "note_p95_ms": 643.193,
+      "note_signed_mean_ms": -292.683,
+      "voice_event_cov_120ms": 0.785007,
+      "voice_event_p95_ms": 162.54,
+      "drift_ms_per_minute": 0.697638
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "difficulty": "hard",
+      "notes": 777,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.882883,
+      "note_p95_ms": 380.808,
+      "note_signed_mean_ms": -241.307,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": 0.127793
+    },
+    {
+      "song": "dano",
+      "difficulty": "easy",
+      "notes": 438,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.956621,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -184.832,
+      "voice_event_cov_120ms": 0.561869,
+      "voice_event_p95_ms": 238.005,
+      "drift_ms_per_minute": 2.292865
+    },
+    {
+      "song": "dano",
+      "difficulty": "normal",
+      "notes": 625,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.928,
+      "note_p95_ms": 171.827,
+      "note_signed_mean_ms": -145.264,
+      "voice_event_cov_120ms": 0.776515,
+      "voice_event_p95_ms": 162.539,
+      "drift_ms_per_minute": -3.363547
+    },
+    {
+      "song": "dano",
+      "difficulty": "hard",
+      "notes": 869,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.881473,
+      "note_p95_ms": 290.249,
+      "note_signed_mean_ms": -124.216,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": -2.082418
+    },
+    {
+      "song": "dias-magicos",
+      "difficulty": "easy",
+      "notes": 397,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.952141,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -312.007,
+      "voice_event_cov_120ms": 0.652614,
+      "voice_event_p95_ms": 238.004,
+      "drift_ms_per_minute": 5.435029
+    },
+    {
+      "song": "dias-magicos",
+      "difficulty": "normal",
+      "notes": 572,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.909091,
+      "note_p95_ms": 4558.077,
+      "note_signed_mean_ms": -366.831,
+      "voice_event_cov_120ms": 0.895447,
+      "voice_event_p95_ms": 159.057,
+      "drift_ms_per_minute": 1.064964
+    },
+    {
+      "song": "dias-magicos",
+      "difficulty": "hard",
+      "notes": 669,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.87145,
+      "note_p95_ms": 4222.549,
+      "note_signed_mean_ms": -366.912,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": -0.342112
+    },
+    {
+      "song": "eclipsis",
+      "difficulty": "easy",
+      "notes": 400,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.9725,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -2.307,
+      "voice_event_cov_120ms": 0.685567,
+      "voice_event_p95_ms": 267.029,
+      "drift_ms_per_minute": 2.728709
+    },
+    {
+      "song": "eclipsis",
+      "difficulty": "normal",
+      "notes": 557,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.913824,
+      "note_p95_ms": 243.809,
+      "note_signed_mean_ms": -8.338,
+      "voice_event_cov_120ms": 0.890034,
+      "voice_event_p95_ms": 150.93,
+      "drift_ms_per_minute": -3.411587
+    },
+    {
+      "song": "eclipsis",
+      "difficulty": "hard",
+      "notes": 658,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.87386,
+      "note_p95_ms": 330.303,
+      "note_signed_mean_ms": -10.781,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": 0.522873
+    },
+    {
+      "song": "fango",
+      "difficulty": "easy",
+      "notes": 355,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.980282,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -0.556,
+      "voice_event_cov_120ms": 0.679035,
+      "voice_event_p95_ms": 243.809,
+      "drift_ms_per_minute": -6.873954
+    },
+    {
+      "song": "fango",
+      "difficulty": "normal",
+      "notes": 479,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.922756,
+      "note_p95_ms": 174.149,
+      "note_signed_mean_ms": -6.726,
+      "voice_event_cov_120ms": 0.855288,
+      "voice_event_p95_ms": 162.54,
+      "drift_ms_per_minute": -2.574367
+    },
+    {
+      "song": "fango",
+      "difficulty": "hard",
+      "notes": 596,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.875839,
+      "note_p95_ms": 233.651,
+      "note_signed_mean_ms": 0.769,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": 0.122714
+    },
+    {
+      "song": "luma",
+      "difficulty": "easy",
+      "notes": 360,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.952778,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -63.645,
+      "voice_event_cov_120ms": 0.723447,
+      "voice_event_p95_ms": 255.419,
+      "drift_ms_per_minute": 8.281546
+    },
+    {
+      "song": "luma",
+      "difficulty": "normal",
+      "notes": 458,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.91048,
+      "note_p95_ms": 617.07,
+      "note_signed_mean_ms": -90.75,
+      "voice_event_cov_120ms": 0.873747,
+      "voice_event_p95_ms": 157.315,
+      "drift_ms_per_minute": -5.998206
+    },
+    {
+      "song": "luma",
+      "difficulty": "hard",
+      "notes": 552,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.875,
+      "note_p95_ms": 554.086,
+      "note_signed_mean_ms": -76.064,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": 1.307983
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "difficulty": "easy",
+      "notes": 426,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.978873,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -1.472,
+      "voice_event_cov_120ms": 0.634253,
+      "voice_event_p95_ms": 243.809,
+      "drift_ms_per_minute": -0.462236
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "difficulty": "normal",
+      "notes": 657,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.917808,
+      "note_p95_ms": 220.589,
+      "note_signed_mean_ms": -0.274,
+      "voice_event_cov_120ms": 0.912917,
+      "voice_event_p95_ms": 150.93,
+      "drift_ms_per_minute": -3.876648
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "difficulty": "hard",
+      "notes": 759,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.880105,
+      "note_p95_ms": 243.809,
+      "note_signed_mean_ms": -4.298,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": -0.075335
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "difficulty": "easy",
+      "notes": 271,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.95572,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -48.839,
+      "voice_event_cov_120ms": 0.731707,
+      "voice_event_p95_ms": 273.995,
+      "drift_ms_per_minute": -5.967087
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "difficulty": "normal",
+      "notes": 352,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.911932,
+      "note_p95_ms": 304.471,
+      "note_signed_mean_ms": -65.9,
+      "voice_event_cov_120ms": 0.907859,
+      "voice_event_p95_ms": 139.32,
+      "drift_ms_per_minute": -2.712022
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "difficulty": "hard",
+      "notes": 407,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.874693,
+      "note_p95_ms": 474.848,
+      "note_signed_mean_ms": -65.01,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": 2.10909
+    },
+    {
+      "song": "meteora",
+      "difficulty": "easy",
+      "notes": 323,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.965944,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -1.402,
+      "voice_event_cov_120ms": 0.647059,
+      "voice_event_p95_ms": 232.199,
+      "drift_ms_per_minute": 5.481209
+    },
+    {
+      "song": "meteora",
+      "difficulty": "normal",
+      "notes": 469,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.916844,
+      "note_p95_ms": 208.98,
+      "note_signed_mean_ms": -3.614,
+      "voice_event_cov_120ms": 0.88641,
+      "voice_event_p95_ms": 168.344,
+      "drift_ms_per_minute": -3.12869
+    },
+    {
+      "song": "meteora",
+      "difficulty": "hard",
+      "notes": 559,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.86941,
+      "note_p95_ms": 244.97,
+      "note_signed_mean_ms": -5.244,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": -1.24276
+    },
+    {
+      "song": "mi-hogar",
+      "difficulty": "easy",
+      "notes": 237,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.953586,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -119.823,
+      "voice_event_cov_120ms": 0.657459,
+      "voice_event_p95_ms": 255.42,
+      "drift_ms_per_minute": -3.633093
+    },
+    {
+      "song": "mi-hogar",
+      "difficulty": "normal",
+      "notes": 322,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.909938,
+      "note_p95_ms": 1236.463,
+      "note_signed_mean_ms": -88.427,
+      "voice_event_cov_120ms": 0.856354,
+      "voice_event_p95_ms": 161.959,
+      "drift_ms_per_minute": 6.813
+    },
+    {
+      "song": "mi-hogar",
+      "difficulty": "hard",
+      "notes": 397,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.869018,
+      "note_p95_ms": 2036.39,
+      "note_signed_mean_ms": -108.365,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": 1.140733
+    },
+    {
+      "song": "nubia",
+      "difficulty": "easy",
+      "notes": 358,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.960894,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -11.172,
+      "voice_event_cov_120ms": 0.675781,
+      "voice_event_p95_ms": 237.424,
+      "drift_ms_per_minute": 2.216133
+    },
+    {
+      "song": "nubia",
+      "difficulty": "normal",
+      "notes": 495,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.919192,
+      "note_p95_ms": 328.563,
+      "note_signed_mean_ms": -14.237,
+      "voice_event_cov_120ms": 0.896484,
+      "voice_event_p95_ms": 153.542,
+      "drift_ms_per_minute": 3.119304
+    },
+    {
+      "song": "nubia",
+      "difficulty": "hard",
+      "notes": 581,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.874355,
+      "note_p95_ms": 452.789,
+      "note_signed_mean_ms": -13.958,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": -0.317776
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "difficulty": "easy",
+      "notes": 319,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.974922,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -5.441,
+      "voice_event_cov_120ms": 0.648438,
+      "voice_event_p95_ms": 275.447,
+      "drift_ms_per_minute": -7.317532
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "difficulty": "normal",
+      "notes": 453,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.933775,
+      "note_p95_ms": 150.93,
+      "note_signed_mean_ms": -10.508,
+      "voice_event_cov_120ms": 0.869141,
+      "voice_event_p95_ms": 145.125,
+      "drift_ms_per_minute": -0.679507
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "difficulty": "hard",
+      "notes": 555,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.897297,
+      "note_p95_ms": 220.589,
+      "note_signed_mean_ms": -9.089,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 63.274,
+      "drift_ms_per_minute": -1.698463
+    },
+    {
+      "song": "peligrosa",
+      "difficulty": "easy",
+      "notes": 448,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.953125,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -321.633,
+      "voice_event_cov_120ms": 0.603495,
+      "voice_event_p95_ms": 232.2,
+      "drift_ms_per_minute": -3.268131
+    },
+    {
+      "song": "peligrosa",
+      "difficulty": "normal",
+      "notes": 612,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.923203,
+      "note_p95_ms": 359.329,
+      "note_signed_mean_ms": -289.538,
+      "voice_event_cov_120ms": 0.791667,
+      "voice_event_p95_ms": 162.539,
+      "drift_ms_per_minute": -3.900203
+    },
+    {
+      "song": "peligrosa",
+      "difficulty": "hard",
+      "notes": 826,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.876513,
+      "note_p95_ms": 1046.35,
+      "note_signed_mean_ms": -296.778,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": -0.706882
+    },
+    {
+      "song": "rompecabezas",
+      "difficulty": "easy",
+      "notes": 399,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.972431,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -7.071,
+      "voice_event_cov_120ms": 0.650897,
+      "voice_event_p95_ms": 213.624,
+      "drift_ms_per_minute": -2.403049
+    },
+    {
+      "song": "rompecabezas",
+      "difficulty": "normal",
+      "notes": 543,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.94291,
+      "note_p95_ms": 150.93,
+      "note_signed_mean_ms": -5.442,
+      "voice_event_cov_120ms": 0.85155,
+      "voice_event_p95_ms": 162.539,
+      "drift_ms_per_minute": -1.340011
+    },
+    {
+      "song": "rompecabezas",
+      "difficulty": "hard",
+      "notes": 690,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.882609,
+      "note_p95_ms": 185.76,
+      "note_signed_mean_ms": -10.39,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": -1.269992
+    },
+    {
+      "song": "solare",
+      "difficulty": "easy",
+      "notes": 424,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.983491,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -0.616,
+      "voice_event_cov_120ms": 0.666163,
+      "voice_event_p95_ms": 243.809,
+      "drift_ms_per_minute": -0.357145
+    },
+    {
+      "song": "solare",
+      "difficulty": "normal",
+      "notes": 573,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.937173,
+      "note_p95_ms": 155.574,
+      "note_signed_mean_ms": -0.719,
+      "voice_event_cov_120ms": 0.839879,
+      "voice_event_p95_ms": 162.54,
+      "drift_ms_per_minute": -3.013561
+    },
+    {
+      "song": "solare",
+      "difficulty": "hard",
+      "notes": 729,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.886145,
+      "note_p95_ms": 340.172,
+      "note_signed_mean_ms": 11.411,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": -1.640002
+    },
+    {
+      "song": "tristella",
+      "difficulty": "easy",
+      "notes": 362,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.953039,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -373.636,
+      "voice_event_cov_120ms": 0.67784,
+      "voice_event_p95_ms": 262.385,
+      "drift_ms_per_minute": 3.302232
+    },
+    {
+      "song": "tristella",
+      "difficulty": "normal",
+      "notes": 484,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.913223,
+      "note_p95_ms": 2545.487,
+      "note_signed_mean_ms": -415.572,
+      "voice_event_cov_120ms": 0.865922,
+      "voice_event_p95_ms": 162.539,
+      "drift_ms_per_minute": -3.299338
+    },
+    {
+      "song": "tristella",
+      "difficulty": "hard",
+      "notes": 591,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.874788,
+      "note_p95_ms": 1137.778,
+      "note_signed_mean_ms": -343.899,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": 0.105352
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "difficulty": "easy",
+      "notes": 390,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.951282,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": 3.81,
+      "voice_event_cov_120ms": 0.650502,
+      "voice_event_p95_ms": 232.199,
+      "drift_ms_per_minute": -1.129271
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "difficulty": "normal",
+      "notes": 505,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.920792,
+      "note_p95_ms": 343.655,
+      "note_signed_mean_ms": -13.461,
+      "voice_event_cov_120ms": 0.811037,
+      "voice_event_p95_ms": 162.54,
+      "drift_ms_per_minute": -1.757982
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "difficulty": "hard",
+      "notes": 665,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.884211,
+      "note_p95_ms": 313.47,
+      "note_signed_mean_ms": -12.081,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": -0.28465
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "difficulty": "easy",
+      "notes": 314,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.961783,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": -3.513,
+      "voice_event_cov_120ms": 0.701099,
+      "voice_event_p95_ms": 243.809,
+      "drift_ms_per_minute": -3.886081
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "difficulty": "normal",
+      "notes": 420,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.914286,
+      "note_p95_ms": 301.859,
+      "note_signed_mean_ms": -13.462,
+      "voice_event_cov_120ms": 0.883516,
+      "voice_event_p95_ms": 150.93,
+      "drift_ms_per_minute": -0.143145
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "difficulty": "hard",
+      "notes": 500,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.88,
+      "note_p95_ms": 394.739,
+      "note_signed_mean_ms": -12.62,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": -0.642483
+    },
+    {
+      "song": "volver-a-vernos",
+      "difficulty": "easy",
+      "notes": 380,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.981579,
+      "note_p95_ms": 0.0,
+      "note_signed_mean_ms": 2.353,
+      "voice_event_cov_120ms": 0.675302,
+      "voice_event_p95_ms": 208.979,
+      "drift_ms_per_minute": -3.742345
+    },
+    {
+      "song": "volver-a-vernos",
+      "difficulty": "normal",
+      "notes": 476,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.960084,
+      "note_p95_ms": 58.05,
+      "note_signed_mean_ms": -1.695,
+      "voice_event_cov_120ms": 0.815199,
+      "voice_event_p95_ms": 162.54,
+      "drift_ms_per_minute": -9.018395
+    },
+    {
+      "song": "volver-a-vernos",
+      "difficulty": "hard",
+      "notes": 643,
+      "lanes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "note_cov_120ms": 0.88647,
+      "note_p95_ms": 190.984,
+      "note_signed_mean_ms": -7.719,
+      "voice_event_cov_120ms": 1.0,
+      "voice_event_p95_ms": 0.0,
+      "drift_ms_per_minute": -1.607297
+    }
+  ]
+}
