@@ -363,8 +363,8 @@ def main() -> int:
             if generated_dir.exists():
                 shutil.rmtree(generated_dir)
     mods = sorted(path for path in (root / "mods").glob("esperon-dano-*") if path.is_dir())
-    if len(mods) != 20:
-        raise SystemExit(f"Se esperaban 20 mods, se encontraron {len(mods)}")
+    if len(mods) != 21:
+        raise SystemExit(f"Se esperaban 21 mods, se encontraron {len(mods)}")
     baseline = {mod.name: file_fingerprints(root, mod) for mod in mods}
     write_json(qa_root / "baseline" / "qa-baseline.json", {"scope": "QA_BASELINE", "mods": baseline})
     all_rounds: list[dict] = []
