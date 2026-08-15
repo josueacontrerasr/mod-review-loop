@@ -1,0 +1,65 @@
+{
+  "song": "un-poco-bien-un-poco-mal",
+  "audio": "mods/esperon-dano-un-poco-bien-un-poco-mal/songs/un-poco-bien-un-poco-mal/Voices-esperon-un-poco-bien-un-poco-mal.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.0010303223971277475,
+  "energy_threshold": 0.015,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 217600.0,
+  "segments": [
+    {
+      "start_ms": 1280,
+      "end_ms": 7120,
+      "duration_ms": 5840
+    },
+    {
+      "start_ms": 8240,
+      "end_ms": 10700,
+      "duration_ms": 2460
+    },
+    {
+      "start_ms": 12040,
+      "end_ms": 14180,
+      "duration_ms": 2140
+    },
+    {
+      "start_ms": 16660,
+      "end_ms": 29320,
+      "duration_ms": 12660
+    },
+    {
+      "start_ms": 30780,
+      "end_ms": 68560,
+      "duration_ms": 37780
+    },
+    {
+      "start_ms": 69920,
+      "end_ms": 137400,
+      "duration_ms": 67480
+    },
+    {
+      "start_ms": 145680,
+      "end_ms": 178780,
+      "duration_ms": 33100
+    },
+    {
+      "start_ms": 178800,
+      "end_ms": 208340,
+      "duration_ms": 29540
+    }
+  ],
+  "onsets_ms": [
+    1280,
+    8240,
+    12040,
+    16660,
+    30780,
+    69920,
+    145680,
+    178800
+  ],
+  "coverage_ratio": 0.877757,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}

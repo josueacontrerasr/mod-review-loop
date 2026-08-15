@@ -1,0 +1,4948 @@
+{
+  "status": "PASS",
+  "songs": 20,
+  "workers": 8,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "mod": "esperon-dano-arcoloria",
+      "metadata_stage": "escenario-arcoloria",
+      "stage_file": "data/stages/escenario-arcoloria.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-arcoloria",
+          "resolved": [
+            "shared/images/stages/escenario-arcoloria.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-arcoloria-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-arcoloria-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-arcoloria-notes-notes.png",
+            "shared/images/notes/esperon-arcoloria-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-arcoloria-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-arcoloria-notes-strumline.png",
+            "shared/images/notes/esperon-arcoloria-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-arcoloria-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-arcoloria-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 43,
+          "first": 3866.122,
+          "last": 194397.46,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 85,
+          "first": 3866.122,
+          "last": 194397.46,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 85,
+          "first": 3866.122,
+          "last": 194397.46,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-arcoloria",
+        "opponent": "rival-arcoloria",
+        "playerVocals": [
+          "esperon-arcoloria"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/arcoloria/Inst.ogg",
+        "songs/arcoloria/Voices-esperon-arcoloria.ogg"
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "mod": "esperon-dano-cortamos-y-volvemos",
+      "metadata_stage": "escenario-cortamos-y-volvemos",
+      "stage_file": "data/stages/escenario-cortamos-y-volvemos.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-cortamos-y-volvemos",
+          "resolved": [
+            "shared/images/stages/escenario-cortamos-y-volvemos.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-cortamos-y-volvemos-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-cortamos-y-volvemos-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-cortamos-y-volvemos-notes-notes.png",
+            "shared/images/notes/esperon-cortamos-y-volvemos-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-cortamos-y-volvemos-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-cortamos-y-volvemos-notes-strumline.png",
+            "shared/images/notes/esperon-cortamos-y-volvemos-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-cortamos-y-volvemos-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-cortamos-y-volvemos-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 100,
+          "first": 12596.825,
+          "last": 183820.771,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 200,
+          "first": 12596.825,
+          "last": 184157.46,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 200,
+          "first": 12596.825,
+          "last": 184157.46,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-cortamos-y-volvemos",
+        "opponent": "rival-cortamos-y-volvemos",
+        "playerVocals": [
+          "esperon-cortamos-y-volvemos"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/cortamos-y-volvemos/Inst.ogg",
+        "songs/cortamos-y-volvemos/Voices-esperon-cortamos-y-volvemos.ogg"
+      ]
+    },
+    {
+      "song": "dano",
+      "mod": "esperon-dano-dano",
+      "metadata_stage": "escenario-dano",
+      "stage_file": "data/stages/escenario-dano.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-dano",
+          "resolved": [
+            "shared/images/stages/escenario-dano.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-dano-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-dano-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-dano-notes-notes.png",
+            "shared/images/notes/esperon-dano-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-dano-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-dano-notes-strumline.png",
+            "shared/images/notes/esperon-dano-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-dano-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-dano-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-dano-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-dano-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-dano-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-dano-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-dano-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-dano-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-dano-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-dano-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-dano-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-dano-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-dano-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-dano-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-dano-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 110,
+          "first": 11807.347,
+          "last": 171572.245,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 220,
+          "first": 11807.347,
+          "last": 171769.615,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 220,
+          "first": 11807.347,
+          "last": 171769.615,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-dano",
+        "opponent": "rival-dano",
+        "playerVocals": [
+          "esperon-dano"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/dano/Inst.ogg",
+        "songs/dano/Voices-esperon-dano.ogg"
+      ]
+    },
+    {
+      "song": "dias-magicos",
+      "mod": "esperon-dano-dias-magicos",
+      "metadata_stage": "escenario-dias-magicos",
+      "stage_file": "data/stages/escenario-dias-magicos.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-dias-magicos",
+          "resolved": [
+            "shared/images/stages/escenario-dias-magicos.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-dias-magicos-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-dias-magicos-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-dias-magicos-notes-notes.png",
+            "shared/images/notes/esperon-dias-magicos-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-dias-magicos-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-dias-magicos-notes-strumline.png",
+            "shared/images/notes/esperon-dias-magicos-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-dias-magicos-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-dias-magicos-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 95,
+          "first": 21699.048,
+          "last": 224409.252,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 189,
+          "first": 21699.048,
+          "last": 224409.252,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 189,
+          "first": 21699.048,
+          "last": 224409.252,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-dias-magicos",
+        "opponent": "rival-dias-magicos",
+        "playerVocals": [
+          "esperon-dias-magicos"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/dias-magicos/Inst.ogg",
+        "songs/dias-magicos/Voices-esperon-dias-magicos.ogg"
+      ]
+    },
+    {
+      "song": "eclipsis",
+      "mod": "esperon-dano-eclipsis",
+      "metadata_stage": "escenario-eclipsis",
+      "stage_file": "data/stages/escenario-eclipsis.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-eclipsis",
+          "resolved": [
+            "shared/images/stages/escenario-eclipsis.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-eclipsis-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-eclipsis-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-eclipsis-notes-notes.png",
+            "shared/images/notes/esperon-eclipsis-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-eclipsis-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-eclipsis-notes-strumline.png",
+            "shared/images/notes/esperon-eclipsis-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-eclipsis-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-eclipsis-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 60,
+          "first": 3773.243,
+          "last": 225802.449,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 119,
+          "first": 3773.243,
+          "last": 225802.449,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 119,
+          "first": 3773.243,
+          "last": 225802.449,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-eclipsis",
+        "opponent": "rival-eclipsis",
+        "playerVocals": [
+          "esperon-eclipsis"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/eclipsis/Inst.ogg",
+        "songs/eclipsis/Voices-esperon-eclipsis.ogg"
+      ]
+    },
+    {
+      "song": "fango",
+      "mod": "esperon-dano-fango",
+      "metadata_stage": "escenario-fango",
+      "stage_file": "data/stages/escenario-fango.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-fango",
+          "resolved": [
+            "shared/images/stages/escenario-fango.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-fango-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-fango-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-fango-notes-notes.png",
+            "shared/images/notes/esperon-fango-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-fango-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-fango-notes-strumline.png",
+            "shared/images/notes/esperon-fango-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-fango-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-fango-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-fango-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-fango-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-fango-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-fango-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-fango-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-fango-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-fango-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-fango-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-fango-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-fango-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-fango-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-fango-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-fango-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 71,
+          "first": 2647.075,
+          "last": 207737.324,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 141,
+          "first": 2647.075,
+          "last": 207737.324,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 141,
+          "first": 2647.075,
+          "last": 207737.324,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-fango",
+        "opponent": "rival-fango",
+        "playerVocals": [
+          "esperon-fango"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/fango/Inst.ogg",
+        "songs/fango/Voices-esperon-fango.ogg"
+      ]
+    },
+    {
+      "song": "luma",
+      "mod": "esperon-dano-luma",
+      "metadata_stage": "escenario-luma",
+      "stage_file": "data/stages/escenario-luma.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-luma",
+          "resolved": [
+            "shared/images/stages/escenario-luma.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-luma-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-luma-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-luma-notes-notes.png",
+            "shared/images/notes/esperon-luma-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-luma-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-luma-notes-strumline.png",
+            "shared/images/notes/esperon-luma-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-luma-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-luma-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-luma-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-luma-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-luma-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-luma-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-luma-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-luma-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-luma-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-luma-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-luma-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-luma-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-luma-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-luma-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-luma-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 48,
+          "first": 14303.492,
+          "last": 201131.247,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 96,
+          "first": 14303.492,
+          "last": 202663.764,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 96,
+          "first": 14303.492,
+          "last": 202663.764,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-luma",
+        "opponent": "rival-luma",
+        "playerVocals": [
+          "esperon-luma"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/luma/Inst.ogg",
+        "songs/luma/Voices-esperon-luma.ogg"
+      ]
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "mod": "esperon-dano-maraton-de-peliculas",
+      "metadata_stage": "escenario-maraton-de-peliculas",
+      "stage_file": "data/stages/escenario-maraton-de-peliculas.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-maraton-de-peliculas",
+          "resolved": [
+            "shared/images/stages/escenario-maraton-de-peliculas.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-maraton-de-peliculas-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-maraton-de-peliculas-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-maraton-de-peliculas-notes-notes.png",
+            "shared/images/notes/esperon-maraton-de-peliculas-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-maraton-de-peliculas-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-maraton-de-peliculas-notes-strumline.png",
+            "shared/images/notes/esperon-maraton-de-peliculas-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-maraton-de-peliculas-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-maraton-de-peliculas-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 60,
+          "first": 2217.506,
+          "last": 203337.143,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 119,
+          "first": 2217.506,
+          "last": 203337.143,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 119,
+          "first": 2217.506,
+          "last": 203337.143,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-maraton-de-peliculas",
+        "opponent": "rival-maraton-de-peliculas",
+        "playerVocals": [
+          "esperon-maraton-de-peliculas"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/maraton-de-peliculas/Inst.ogg",
+        "songs/maraton-de-peliculas/Voices-esperon-maraton-de-peliculas.ogg"
+      ]
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "metadata_stage": "escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "stage_file": "data/stages/escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "resolved": [
+            "shared/images/stages/escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes.png",
+            "shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline.png",
+            "shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 55,
+          "first": 4806.531,
+          "last": 179884.989,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 109,
+          "first": 4806.531,
+          "last": 179884.989,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 109,
+          "first": 4806.531,
+          "last": 179884.989,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+        "opponent": "rival-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+        "playerVocals": [
+          "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Inst.ogg",
+        "songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg"
+      ]
+    },
+    {
+      "song": "meteora",
+      "mod": "esperon-dano-meteora",
+      "metadata_stage": "escenario-meteora",
+      "stage_file": "data/stages/escenario-meteora.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-meteora",
+          "resolved": [
+            "shared/images/stages/escenario-meteora.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-meteora-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-meteora-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-meteora-notes-notes.png",
+            "shared/images/notes/esperon-meteora-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-meteora-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-meteora-notes-strumline.png",
+            "shared/images/notes/esperon-meteora-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-meteora-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-meteora-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-meteora-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-meteora-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-meteora-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-meteora-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-meteora-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-meteora-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-meteora-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-meteora-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-meteora-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-meteora-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-meteora-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-meteora-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-meteora-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 36,
+          "first": 15116.19,
+          "last": 175136.508,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 72,
+          "first": 15116.19,
+          "last": 175566.077,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 72,
+          "first": 15116.19,
+          "last": 175566.077,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-meteora",
+        "opponent": "rival-meteora",
+        "playerVocals": [
+          "esperon-meteora"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/meteora/Inst.ogg",
+        "songs/meteora/Voices-esperon-meteora.ogg"
+      ]
+    },
+    {
+      "song": "mi-hogar",
+      "mod": "esperon-dano-mi-hogar",
+      "metadata_stage": "escenario-mi-hogar",
+      "stage_file": "data/stages/escenario-mi-hogar.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-mi-hogar",
+          "resolved": [
+            "shared/images/stages/escenario-mi-hogar.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-mi-hogar-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-mi-hogar-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-mi-hogar-notes-notes.png",
+            "shared/images/notes/esperon-mi-hogar-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-mi-hogar-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-mi-hogar-notes-strumline.png",
+            "shared/images/notes/esperon-mi-hogar-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-mi-hogar-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-mi-hogar-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 65,
+          "first": 20793.469,
+          "last": 158580.68,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 129,
+          "first": 20793.469,
+          "last": 158580.68,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 129,
+          "first": 20793.469,
+          "last": 158580.68,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-mi-hogar",
+        "opponent": "rival-mi-hogar",
+        "playerVocals": [
+          "esperon-mi-hogar"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/mi-hogar/Inst.ogg",
+        "songs/mi-hogar/Voices-esperon-mi-hogar.ogg"
+      ]
+    },
+    {
+      "song": "nubia",
+      "mod": "esperon-dano-nubia",
+      "metadata_stage": "escenario-nubia",
+      "stage_file": "data/stages/escenario-nubia.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-nubia",
+          "resolved": [
+            "shared/images/stages/escenario-nubia.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-nubia-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-nubia-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-nubia-notes-notes.png",
+            "shared/images/notes/esperon-nubia-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-nubia-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-nubia-notes-strumline.png",
+            "shared/images/notes/esperon-nubia-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-nubia-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-nubia-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-nubia-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-nubia-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-nubia-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-nubia-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-nubia-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-nubia-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-nubia-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-nubia-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-nubia-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-nubia-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-nubia-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-nubia-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-nubia-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 56,
+          "first": 23336.054,
+          "last": 215980.408,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 111,
+          "first": 23336.054,
+          "last": 215980.408,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 111,
+          "first": 23336.054,
+          "last": 215980.408,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-nubia",
+        "opponent": "rival-nubia",
+        "playerVocals": [
+          "esperon-nubia"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/nubia/Inst.ogg",
+        "songs/nubia/Voices-esperon-nubia.ogg"
+      ]
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "mod": "esperon-dano-nuestro-amor-no-es-normal",
+      "metadata_stage": "escenario-nuestro-amor-no-es-normal",
+      "stage_file": "data/stages/escenario-nuestro-amor-no-es-normal.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-nuestro-amor-no-es-normal",
+          "resolved": [
+            "shared/images/stages/escenario-nuestro-amor-no-es-normal.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-nuestro-amor-no-es-normal-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-nuestro-amor-no-es-normal-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-notes.png",
+            "shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-nuestro-amor-no-es-normal-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-strumline.png",
+            "shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-nuestro-amor-no-es-normal-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-nuestro-amor-no-es-normal-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 66,
+          "first": 5677.279,
+          "last": 152439.002,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 132,
+          "first": 5677.279,
+          "last": 155469.206,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 132,
+          "first": 5677.279,
+          "last": 155469.206,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-nuestro-amor-no-es-normal",
+        "opponent": "rival-nuestro-amor-no-es-normal",
+        "playerVocals": [
+          "esperon-nuestro-amor-no-es-normal"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/nuestro-amor-no-es-normal/Inst.ogg",
+        "songs/nuestro-amor-no-es-normal/Voices-esperon-nuestro-amor-no-es-normal.ogg"
+      ]
+    },
+    {
+      "song": "peligrosa",
+      "mod": "esperon-dano-peligrosa",
+      "metadata_stage": "escenario-peligrosa",
+      "stage_file": "data/stages/escenario-peligrosa.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-peligrosa",
+          "resolved": [
+            "shared/images/stages/escenario-peligrosa.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-peligrosa-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-peligrosa-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-peligrosa-notes-notes.png",
+            "shared/images/notes/esperon-peligrosa-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-peligrosa-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-peligrosa-notes-strumline.png",
+            "shared/images/notes/esperon-peligrosa-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-peligrosa-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-peligrosa-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 99,
+          "first": 13223.764,
+          "last": 227114.376,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 197,
+          "first": 13223.764,
+          "last": 227114.376,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 197,
+          "first": 13223.764,
+          "last": 227114.376,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-peligrosa",
+        "opponent": "rival-peligrosa",
+        "playerVocals": [
+          "esperon-peligrosa"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/peligrosa/Inst.ogg",
+        "songs/peligrosa/Voices-esperon-peligrosa.ogg"
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "mod": "esperon-dano-rompecabezas",
+      "metadata_stage": "escenario-rompecabezas",
+      "stage_file": "data/stages/escenario-rompecabezas.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-rompecabezas",
+          "resolved": [
+            "shared/images/stages/escenario-rompecabezas.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-rompecabezas-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-rompecabezas-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-rompecabezas-notes-notes.png",
+            "shared/images/notes/esperon-rompecabezas-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-rompecabezas-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-rompecabezas-notes-strumline.png",
+            "shared/images/notes/esperon-rompecabezas-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-rompecabezas-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-rompecabezas-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 52,
+          "first": 14407.982,
+          "last": 196417.596,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 103,
+          "first": 14407.982,
+          "last": 196417.596,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 103,
+          "first": 14407.982,
+          "last": 196417.596,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-rompecabezas",
+        "opponent": "rival-rompecabezas",
+        "playerVocals": [
+          "esperon-rompecabezas"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/rompecabezas/Inst.ogg",
+        "songs/rompecabezas/Voices-esperon-rompecabezas.ogg"
+      ]
+    },
+    {
+      "song": "solare",
+      "mod": "esperon-dano-solare",
+      "metadata_stage": "escenario-solare",
+      "stage_file": "data/stages/escenario-solare.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-solare",
+          "resolved": [
+            "shared/images/stages/escenario-solare.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-solare-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-solare-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-solare-notes-notes.png",
+            "shared/images/notes/esperon-solare-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-solare-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-solare-notes-strumline.png",
+            "shared/images/notes/esperon-solare-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-solare-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-solare-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-solare-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-solare-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-solare-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-solare-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-solare-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-solare-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-solare-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-solare-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-solare-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-solare-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-solare-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-solare-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-solare-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 60,
+          "first": 4899.41,
+          "last": 217547.755,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 119,
+          "first": 4899.41,
+          "last": 217547.755,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 119,
+          "first": 4899.41,
+          "last": 217547.755,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-solare",
+        "opponent": "rival-solare",
+        "playerVocals": [
+          "esperon-solare"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/solare/Inst.ogg",
+        "songs/solare/Voices-esperon-solare.ogg"
+      ]
+    },
+    {
+      "song": "tristella",
+      "mod": "esperon-dano-tristella",
+      "metadata_stage": "escenario-tristella",
+      "stage_file": "data/stages/escenario-tristella.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-tristella",
+          "resolved": [
+            "shared/images/stages/escenario-tristella.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-tristella-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-tristella-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-tristella-notes-notes.png",
+            "shared/images/notes/esperon-tristella-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-tristella-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-tristella-notes-strumline.png",
+            "shared/images/notes/esperon-tristella-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-tristella-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-tristella-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-tristella-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-tristella-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-tristella-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-tristella-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-tristella-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-tristella-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-tristella-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-tristella-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-tristella-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-tristella-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-tristella-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-tristella-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-tristella-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 64,
+          "first": 14361.542,
+          "last": 221727.347,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 127,
+          "first": 14361.542,
+          "last": 221727.347,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 127,
+          "first": 14361.542,
+          "last": 221727.347,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-tristella",
+        "opponent": "rival-tristella",
+        "playerVocals": [
+          "esperon-tristella"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/tristella/Inst.ogg",
+        "songs/tristella/Voices-esperon-tristella.ogg"
+      ]
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "mod": "esperon-dano-tu-dealer-de-nostalgia",
+      "metadata_stage": "escenario-tu-dealer-de-nostalgia",
+      "stage_file": "data/stages/escenario-tu-dealer-de-nostalgia.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-tu-dealer-de-nostalgia",
+          "resolved": [
+            "shared/images/stages/escenario-tu-dealer-de-nostalgia.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-tu-dealer-de-nostalgia-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-tu-dealer-de-nostalgia-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-notes.png",
+            "shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-tu-dealer-de-nostalgia-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-strumline.png",
+            "shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-tu-dealer-de-nostalgia-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-tu-dealer-de-nostalgia-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 93,
+          "first": 26424.308,
+          "last": 171386.485,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 186,
+          "first": 26424.308,
+          "last": 175867.937,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 186,
+          "first": 26424.308,
+          "last": 175867.937,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-tu-dealer-de-nostalgia",
+        "opponent": "rival-tu-dealer-de-nostalgia",
+        "playerVocals": [
+          "esperon-tu-dealer-de-nostalgia"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/tu-dealer-de-nostalgia/Inst.ogg",
+        "songs/tu-dealer-de-nostalgia/Voices-esperon-tu-dealer-de-nostalgia.ogg"
+      ]
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+      "metadata_stage": "escenario-un-poco-bien-un-poco-mal",
+      "stage_file": "data/stages/escenario-un-poco-bien-un-poco-mal.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-un-poco-bien-un-poco-mal",
+          "resolved": [
+            "shared/images/stages/escenario-un-poco-bien-un-poco-mal.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-un-poco-bien-un-poco-mal-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-un-poco-bien-un-poco-mal-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-notes.png",
+            "shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-un-poco-bien-un-poco-mal-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-strumline.png",
+            "shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-un-poco-bien-un-poco-mal-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-un-poco-bien-un-poco-mal-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 35,
+          "first": 2542.585,
+          "last": 204231.111,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 69,
+          "first": 2542.585,
+          "last": 204231.111,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 69,
+          "first": 2542.585,
+          "last": 204231.111,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-un-poco-bien-un-poco-mal",
+        "opponent": "rival-un-poco-bien-un-poco-mal",
+        "playerVocals": [
+          "esperon-un-poco-bien-un-poco-mal"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/un-poco-bien-un-poco-mal/Inst.ogg",
+        "songs/un-poco-bien-un-poco-mal/Voices-esperon-un-poco-bien-un-poco-mal.ogg"
+      ]
+    },
+    {
+      "song": "volver-a-vernos",
+      "mod": "esperon-dano-volver-a-vernos",
+      "metadata_stage": "escenario-volver-a-vernos",
+      "stage_file": "data/stages/escenario-volver-a-vernos.json",
+      "stage_version": "1.0.1",
+      "stage_keys": [
+        "cameraZoom",
+        "name",
+        "props",
+        "version"
+      ],
+      "stages": [
+        {
+          "assetPath": "shared:stages/escenario-volver-a-vernos",
+          "resolved": [
+            "shared/images/stages/escenario-volver-a-vernos.png"
+          ],
+          "xml": null,
+          "frames": 0,
+          "props_keys": [
+            "alpha",
+            "assetPath",
+            "position",
+            "scale",
+            "scroll",
+            "zIndex"
+          ]
+        }
+      ],
+      "noteStyle": "esperon-volver-a-vernos-notes",
+      "noteStyle_version": "1.0.0",
+      "note_assets": [
+        {
+          "group": "note",
+          "assetPath": "shared:notes/esperon-volver-a-vernos-notes-notes",
+          "resolved": [
+            "shared/images/notes/esperon-volver-a-vernos-notes-notes.png",
+            "shared/images/notes/esperon-volver-a-vernos-notes-notes.xml"
+          ],
+          "frames": 4,
+          "prefixes": [
+            "noteDown",
+            "noteLeft",
+            "noteRight",
+            "noteUp"
+          ]
+        },
+        {
+          "group": "noteStrumline",
+          "assetPath": "shared:notes/esperon-volver-a-vernos-notes-strumline",
+          "resolved": [
+            "shared/images/notes/esperon-volver-a-vernos-notes-strumline.png",
+            "shared/images/notes/esperon-volver-a-vernos-notes-strumline.xml"
+          ],
+          "frames": 12,
+          "prefixes": [
+            "confirmDown0",
+            "confirmLeft0",
+            "confirmRight0",
+            "confirmUp0",
+            "pressDown0",
+            "pressLeft0",
+            "pressRight0",
+            "pressUp0",
+            "staticDown0",
+            "staticLeft0",
+            "staticRight0",
+            "staticUp0"
+          ]
+        },
+        {
+          "group": "judgementSick",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/sick",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/sick.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementGood",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/good",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/good.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementBad",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/bad",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/bad.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "judgementShit",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/shit",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/shit.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber0",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/num0",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/num0.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber1",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/num1",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/num1.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber2",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/num2",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/num2.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber3",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/num3",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/num3.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber4",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/num4",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/num4.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber5",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/num5",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/num5.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber6",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/num6",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/num6.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber7",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/num7",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/num7.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber8",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/num8",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/num8.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        },
+        {
+          "group": "comboNumber9",
+          "assetPath": "shared:ui/esperon-volver-a-vernos-notes/num9",
+          "resolved": [
+            "shared/images/ui/esperon-volver-a-vernos-notes/num9.png"
+          ],
+          "frames": 0,
+          "prefixes": []
+        }
+      ],
+      "chart_version": "2.0.0",
+      "notes": {
+        "easy": {
+          "count": 38,
+          "first": 2287.166,
+          "last": 170666.667,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "normal": {
+          "count": 75,
+          "first": 2287.166,
+          "last": 170666.667,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "hard": {
+          "count": 75,
+          "first": 2287.166,
+          "last": 170666.667,
+          "directions": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "characters": {
+        "player": "esperon-volver-a-vernos",
+        "opponent": "rival-volver-a-vernos",
+        "playerVocals": [
+          "esperon-volver-a-vernos"
+        ],
+        "opponentVocals": []
+      },
+      "audio_files": [
+        "songs/volver-a-vernos/Inst.ogg",
+        "songs/volver-a-vernos/Voices-esperon-volver-a-vernos.ogg"
+      ]
+    }
+  ],
+  "scope": "read-only-preflight"
+}

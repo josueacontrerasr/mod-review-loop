@@ -1,0 +1,144 @@
+{
+  "status": "PASS",
+  "version": "2.2.2",
+  "packages": [
+    {
+      "mod": "esperon-dano-arcoloria",
+      "song": "arcoloria",
+      "zip": "Mods .zip terminados/Mod-Arcoloria-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-cortamos-y-volvemos",
+      "song": "cortamos-y-volvemos",
+      "zip": "Mods .zip terminados/Mod-Cortamos-Y-Volvemos-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-dano",
+      "song": "dano",
+      "zip": "Mods .zip terminados/Mod-Dano-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-dias-magicos",
+      "song": "dias-magicos",
+      "zip": "Mods .zip terminados/Mod-Dias-Magicos-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-eclipsis",
+      "song": "eclipsis",
+      "zip": "Mods .zip terminados/Mod-Eclipsis-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-fango",
+      "song": "fango",
+      "zip": "Mods .zip terminados/Mod-Fango-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-luma",
+      "song": "luma",
+      "zip": "Mods .zip terminados/Mod-Luma-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-maraton-de-peliculas",
+      "song": "maraton-de-peliculas",
+      "zip": "Mods .zip terminados/Mod-Maraton-De-Peliculas-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "zip": "Mods .zip terminados/Mod-Me-Voy-A-Morir-Si-No-Me-Besas-Ahora-Mismo-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-meteora",
+      "song": "meteora",
+      "zip": "Mods .zip terminados/Mod-Meteora-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-mi-hogar",
+      "song": "mi-hogar",
+      "zip": "Mods .zip terminados/Mod-Mi-Hogar-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-nubia",
+      "song": "nubia",
+      "zip": "Mods .zip terminados/Mod-Nubia-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-nuestro-amor-no-es-normal",
+      "song": "nuestro-amor-no-es-normal",
+      "zip": "Mods .zip terminados/Mod-Nuestro-Amor-No-Es-Normal-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-peligrosa",
+      "song": "peligrosa",
+      "zip": "Mods .zip terminados/Mod-Peligrosa-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-rompecabezas",
+      "song": "rompecabezas",
+      "zip": "Mods .zip terminados/Mod-Rompecabezas-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-solare",
+      "song": "solare",
+      "zip": "Mods .zip terminados/Mod-Solare-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-tristella",
+      "song": "tristella",
+      "zip": "Mods .zip terminados/Mod-Tristella-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-tu-dealer-de-nostalgia",
+      "song": "tu-dealer-de-nostalgia",
+      "zip": "Mods .zip terminados/Mod-Tu-Dealer-De-Nostalgia-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+      "song": "un-poco-bien-un-poco-mal",
+      "zip": "Mods .zip terminados/Mod-Un-Poco-Bien-Un-Poco-Mal-V2.2.2.zip",
+      "version": "2.2.2"
+    },
+    {
+      "mod": "esperon-dano-volver-a-vernos",
+      "song": "volver-a-vernos",
+      "zip": "Mods .zip terminados/Mod-Volver-A-Vernos-V2.2.2.zip",
+      "version": "2.2.2"
+    }
+  ],
+  "runtime_policy": {
+    "root_files": [
+      "_polymod_meta.json"
+    ],
+    "directories": [
+      "data",
+      "images",
+      "scripts",
+      "shared",
+      "songs"
+    ],
+    "auxiliary_files_excluded": true
+  },
+  "gates": {
+    "runtime_contract": "PASS",
+    "visual_redesign": "PASS",
+    "chart_promotion": "APPLIED"
+  }
+}

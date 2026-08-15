@@ -1,0 +1,708 @@
+{
+  "status": "PASS",
+  "songs": 20,
+  "workers": 8,
+  "method": "nearest VAD onset plus segment overlap; candidate evidence only",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "difficulties": {
+        "easy": {
+          "player_notes": 43,
+          "nearest_onset_mean_ms": 36367.439,
+          "nearest_onset_median_ms": 43878.141,
+          "nearest_onset_p95_ms": 74757.197,
+          "nearest_onset_max_ms": 84977.46,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 85,
+          "nearest_onset_mean_ms": 36327.707,
+          "nearest_onset_median_ms": 43878.141,
+          "nearest_onset_p95_ms": 74554.023,
+          "nearest_onset_max_ms": 84977.46,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 85,
+          "nearest_onset_mean_ms": 36327.707,
+          "nearest_onset_median_ms": 43878.141,
+          "nearest_onset_p95_ms": 74554.023,
+          "nearest_onset_max_ms": 84977.46,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "difficulties": {
+        "easy": {
+          "player_notes": 100,
+          "nearest_onset_mean_ms": 4162.543,
+          "nearest_onset_median_ms": 2569.705,
+          "nearest_onset_p95_ms": 11380.057,
+          "nearest_onset_max_ms": 15567.574,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 200,
+          "nearest_onset_mean_ms": 4211.771,
+          "nearest_onset_median_ms": 2766.463,
+          "nearest_onset_p95_ms": 11483.157,
+          "nearest_onset_max_ms": 15567.574,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 200,
+          "nearest_onset_mean_ms": 4211.771,
+          "nearest_onset_median_ms": 2766.463,
+          "nearest_onset_p95_ms": 11483.157,
+          "nearest_onset_max_ms": 15567.574,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "dano",
+      "difficulties": {
+        "easy": {
+          "player_notes": 110,
+          "nearest_onset_mean_ms": 13901.089,
+          "nearest_onset_median_ms": 10703.356,
+          "nearest_onset_p95_ms": 34203.637,
+          "nearest_onset_max_ms": 38914.966,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 220,
+          "nearest_onset_mean_ms": 13882.925,
+          "nearest_onset_median_ms": 10694.649,
+          "nearest_onset_p95_ms": 34234.984,
+          "nearest_onset_max_ms": 38914.966,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 220,
+          "nearest_onset_mean_ms": 13882.925,
+          "nearest_onset_median_ms": 10694.649,
+          "nearest_onset_p95_ms": 34234.984,
+          "nearest_onset_max_ms": 38914.966,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "difficulties": {
+        "easy": {
+          "player_notes": 95,
+          "nearest_onset_mean_ms": 16586.477,
+          "nearest_onset_median_ms": 16903.447,
+          "nearest_onset_p95_ms": 33198.984,
+          "nearest_onset_max_ms": 36680.816,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 189,
+          "nearest_onset_mean_ms": 16661.232,
+          "nearest_onset_median_ms": 17158.866,
+          "nearest_onset_p95_ms": 33232.581,
+          "nearest_onset_max_ms": 36680.816,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 189,
+          "nearest_onset_mean_ms": 16661.232,
+          "nearest_onset_median_ms": 17158.866,
+          "nearest_onset_p95_ms": 33232.581,
+          "nearest_onset_max_ms": 36680.816,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "eclipsis",
+      "difficulties": {
+        "easy": {
+          "player_notes": 60,
+          "nearest_onset_mean_ms": 18224.081,
+          "nearest_onset_median_ms": 16535.034,
+          "nearest_onset_p95_ms": 40987.58,
+          "nearest_onset_max_ms": 44649.025,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 119,
+          "nearest_onset_mean_ms": 18121.405,
+          "nearest_onset_median_ms": 16773.469,
+          "nearest_onset_p95_ms": 40995.75,
+          "nearest_onset_max_ms": 46668.299,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 119,
+          "nearest_onset_mean_ms": 18121.405,
+          "nearest_onset_median_ms": 16773.469,
+          "nearest_onset_p95_ms": 40995.75,
+          "nearest_onset_max_ms": 46668.299,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "fango",
+      "difficulties": {
+        "easy": {
+          "player_notes": 71,
+          "nearest_onset_mean_ms": 14915.634,
+          "nearest_onset_median_ms": 11366.485,
+          "nearest_onset_p95_ms": 40601.95,
+          "nearest_onset_max_ms": 46157.324,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 141,
+          "nearest_onset_mean_ms": 14780.807,
+          "nearest_onset_median_ms": 11366.485,
+          "nearest_onset_p95_ms": 40375.556,
+          "nearest_onset_max_ms": 46157.324,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 141,
+          "nearest_onset_mean_ms": 14780.807,
+          "nearest_onset_median_ms": 11366.485,
+          "nearest_onset_p95_ms": 40375.556,
+          "nearest_onset_max_ms": 46157.324,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "luma",
+      "difficulties": {
+        "easy": {
+          "player_notes": 48,
+          "nearest_onset_mean_ms": 29152.949,
+          "nearest_onset_median_ms": 27415.714,
+          "nearest_onset_p95_ms": 57548.544,
+          "nearest_onset_max_ms": 69397.687,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 96,
+          "nearest_onset_mean_ms": 29330.198,
+          "nearest_onset_median_ms": 27463.696,
+          "nearest_onset_p95_ms": 59090.93,
+          "nearest_onset_max_ms": 71092.744,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 96,
+          "nearest_onset_mean_ms": 29330.198,
+          "nearest_onset_median_ms": 27463.696,
+          "nearest_onset_p95_ms": 59090.93,
+          "nearest_onset_max_ms": 71092.744,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "difficulties": {
+        "easy": {
+          "player_notes": 60,
+          "nearest_onset_mean_ms": 9110.915,
+          "nearest_onset_median_ms": 4982.993,
+          "nearest_onset_p95_ms": 31787.056,
+          "nearest_onset_max_ms": 39150.295,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 119,
+          "nearest_onset_mean_ms": 9188.476,
+          "nearest_onset_median_ms": 5117.415,
+          "nearest_onset_p95_ms": 31830.984,
+          "nearest_onset_max_ms": 39150.295,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 119,
+          "nearest_onset_mean_ms": 9188.476,
+          "nearest_onset_median_ms": 5117.415,
+          "nearest_onset_p95_ms": 31830.984,
+          "nearest_onset_max_ms": 39150.295,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "difficulties": {
+        "easy": {
+          "player_notes": 55,
+          "nearest_onset_mean_ms": 4646.273,
+          "nearest_onset_median_ms": 3408.798,
+          "nearest_onset_p95_ms": 10968.825,
+          "nearest_onset_max_ms": 26624.989,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 109,
+          "nearest_onset_mean_ms": 4570.559,
+          "nearest_onset_median_ms": 3421.088,
+          "nearest_onset_p95_ms": 11638.104,
+          "nearest_onset_max_ms": 26624.989,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 109,
+          "nearest_onset_mean_ms": 4570.559,
+          "nearest_onset_median_ms": 3421.088,
+          "nearest_onset_p95_ms": 11638.104,
+          "nearest_onset_max_ms": 26624.989,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "meteora",
+      "difficulties": {
+        "easy": {
+          "player_notes": 36,
+          "nearest_onset_mean_ms": 10554.388,
+          "nearest_onset_median_ms": 10066.644,
+          "nearest_onset_p95_ms": 20625.986,
+          "nearest_onset_max_ms": 22976.508,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 72,
+          "nearest_onset_mean_ms": 10825.754,
+          "nearest_onset_median_ms": 10308.548,
+          "nearest_onset_p95_ms": 21020.145,
+          "nearest_onset_max_ms": 23789.07,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 72,
+          "nearest_onset_mean_ms": 10825.754,
+          "nearest_onset_median_ms": 10308.548,
+          "nearest_onset_p95_ms": 21020.145,
+          "nearest_onset_max_ms": 23789.07,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "difficulties": {
+        "easy": {
+          "player_notes": 65,
+          "nearest_onset_mean_ms": 7768.815,
+          "nearest_onset_median_ms": 5633.152,
+          "nearest_onset_p95_ms": 18442.032,
+          "nearest_onset_max_ms": 20505.533,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 129,
+          "nearest_onset_mean_ms": 7795.062,
+          "nearest_onset_median_ms": 5633.152,
+          "nearest_onset_p95_ms": 17586.467,
+          "nearest_onset_max_ms": 20894.059,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 129,
+          "nearest_onset_mean_ms": 7795.062,
+          "nearest_onset_median_ms": 5633.152,
+          "nearest_onset_p95_ms": 17586.467,
+          "nearest_onset_max_ms": 20894.059,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "nubia",
+      "difficulties": {
+        "easy": {
+          "player_notes": 56,
+          "nearest_onset_mean_ms": 9490.972,
+          "nearest_onset_median_ms": 5485.783,
+          "nearest_onset_p95_ms": 22653.515,
+          "nearest_onset_max_ms": 23576.508,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 111,
+          "nearest_onset_mean_ms": 9596.558,
+          "nearest_onset_median_ms": 5731.973,
+          "nearest_onset_p95_ms": 22761.293,
+          "nearest_onset_max_ms": 23936.417,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 111,
+          "nearest_onset_mean_ms": 9596.558,
+          "nearest_onset_median_ms": 5731.973,
+          "nearest_onset_p95_ms": 22761.293,
+          "nearest_onset_max_ms": 23936.417,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "difficulties": {
+        "easy": {
+          "player_notes": 66,
+          "nearest_onset_mean_ms": 10243.739,
+          "nearest_onset_median_ms": 8484.739,
+          "nearest_onset_p95_ms": 24579.411,
+          "nearest_onset_max_ms": 28346.848,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 132,
+          "nearest_onset_mean_ms": 10362.384,
+          "nearest_onset_median_ms": 8706.962,
+          "nearest_onset_p95_ms": 24912.617,
+          "nearest_onset_max_ms": 28346.848,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 132,
+          "nearest_onset_mean_ms": 10362.384,
+          "nearest_onset_median_ms": 8706.962,
+          "nearest_onset_p95_ms": 24912.617,
+          "nearest_onset_max_ms": 28346.848,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "peligrosa",
+      "difficulties": {
+        "easy": {
+          "player_notes": 99,
+          "nearest_onset_mean_ms": 9948.689,
+          "nearest_onset_median_ms": 7499.501,
+          "nearest_onset_p95_ms": 27575.256,
+          "nearest_onset_max_ms": 32452.608,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 197,
+          "nearest_onset_mean_ms": 9989.518,
+          "nearest_onset_median_ms": 7504.943,
+          "nearest_onset_p95_ms": 27862.531,
+          "nearest_onset_max_ms": 32456.145,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 197,
+          "nearest_onset_mean_ms": 9989.518,
+          "nearest_onset_median_ms": 7504.943,
+          "nearest_onset_p95_ms": 27862.531,
+          "nearest_onset_max_ms": 32456.145,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "difficulties": {
+        "easy": {
+          "player_notes": 52,
+          "nearest_onset_mean_ms": 11566.822,
+          "nearest_onset_median_ms": 8302.108,
+          "nearest_onset_p95_ms": 30486.395,
+          "nearest_onset_max_ms": 34343.81,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 103,
+          "nearest_onset_mean_ms": 11378.803,
+          "nearest_onset_median_ms": 8151.701,
+          "nearest_onset_p95_ms": 30265.224,
+          "nearest_onset_max_ms": 34343.81,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 103,
+          "nearest_onset_mean_ms": 11378.803,
+          "nearest_onset_median_ms": 8151.701,
+          "nearest_onset_p95_ms": 30265.224,
+          "nearest_onset_max_ms": 34343.81,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "solare",
+      "difficulties": {
+        "easy": {
+          "player_notes": 60,
+          "nearest_onset_mean_ms": 18948.349,
+          "nearest_onset_median_ms": 14005.011,
+          "nearest_onset_p95_ms": 45452.97,
+          "nearest_onset_max_ms": 48395.646,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 119,
+          "nearest_onset_mean_ms": 19081.819,
+          "nearest_onset_median_ms": 14308.753,
+          "nearest_onset_p95_ms": 45511.601,
+          "nearest_onset_max_ms": 49008.526,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 119,
+          "nearest_onset_mean_ms": 19081.819,
+          "nearest_onset_median_ms": 14308.753,
+          "nearest_onset_p95_ms": 45511.601,
+          "nearest_onset_max_ms": 49008.526,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "tristella",
+      "difficulties": {
+        "easy": {
+          "player_notes": 64,
+          "nearest_onset_mean_ms": 15390.385,
+          "nearest_onset_median_ms": 15406.44,
+          "nearest_onset_p95_ms": 33906.376,
+          "nearest_onset_max_ms": 39527.347,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 127,
+          "nearest_onset_mean_ms": 15172.591,
+          "nearest_onset_median_ms": 15398.957,
+          "nearest_onset_p95_ms": 34005.642,
+          "nearest_onset_max_ms": 39527.347,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 127,
+          "nearest_onset_mean_ms": 15172.591,
+          "nearest_onset_median_ms": 15398.957,
+          "nearest_onset_p95_ms": 34005.642,
+          "nearest_onset_max_ms": 39527.347,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "difficulties": {
+        "easy": {
+          "player_notes": 93,
+          "nearest_onset_mean_ms": 10427.583,
+          "nearest_onset_median_ms": 8738.095,
+          "nearest_onset_p95_ms": 28136.418,
+          "nearest_onset_max_ms": 31642.63,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 186,
+          "nearest_onset_mean_ms": 10383.908,
+          "nearest_onset_median_ms": 8743.038,
+          "nearest_onset_p95_ms": 28075.952,
+          "nearest_onset_max_ms": 31828.39,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 186,
+          "nearest_onset_mean_ms": 10383.908,
+          "nearest_onset_median_ms": 8743.038,
+          "nearest_onset_p95_ms": 28075.952,
+          "nearest_onset_max_ms": 31828.39,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "difficulties": {
+        "easy": {
+          "player_notes": 35,
+          "nearest_onset_mean_ms": 13845.563,
+          "nearest_onset_median_ms": 12288.073,
+          "nearest_onset_p95_ms": 32995.882,
+          "nearest_onset_max_ms": 33791.927,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 69,
+          "nearest_onset_mean_ms": 13740.8,
+          "nearest_onset_median_ms": 12288.073,
+          "nearest_onset_p95_ms": 33156.1,
+          "nearest_onset_max_ms": 34386.757,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 69,
+          "nearest_onset_mean_ms": 13740.8,
+          "nearest_onset_median_ms": 12288.073,
+          "nearest_onset_p95_ms": 33156.1,
+          "nearest_onset_max_ms": 34386.757,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "difficulties": {
+        "easy": {
+          "player_notes": 38,
+          "nearest_onset_mean_ms": 25628.481,
+          "nearest_onset_median_ms": 27928.617,
+          "nearest_onset_p95_ms": 46853.279,
+          "nearest_onset_max_ms": 52313.651,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "normal": {
+          "player_notes": 75,
+          "nearest_onset_mean_ms": 25771.218,
+          "nearest_onset_median_ms": 24660.499,
+          "nearest_onset_p95_ms": 48860.844,
+          "nearest_onset_max_ms": 61392.653,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 75,
+          "nearest_onset_mean_ms": 25771.218,
+          "nearest_onset_median_ms": 24660.499,
+          "nearest_onset_p95_ms": 48860.844,
+          "nearest_onset_max_ms": 61392.653,
+          "within_80ms_ratio": 0.0,
+          "inside_vocal_segment_ratio": 1.0,
+          "status": "REVIEW"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "song": "luma",
+  "audio": "mods/esperon-dano-luma/songs/luma/Voices-esperon-luma.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.0035886517725884914,
+  "energy_threshold": 0.015,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 238000.0,
+  "segments": [
+    {
+      "start_ms": 13620,
+      "end_ms": 15640,
+      "duration_ms": 2020
+    },
+    {
+      "start_ms": 16040,
+      "end_ms": 19720,
+      "duration_ms": 3680
+    },
+    {
+      "start_ms": 19920,
+      "end_ms": 26840,
+      "duration_ms": 6920
+    },
+    {
+      "start_ms": 27200,
+      "end_ms": 29060,
+      "duration_ms": 1860
+    },
+    {
+      "start_ms": 29380,
+      "end_ms": 175020,
+      "duration_ms": 145640
+    },
+    {
+      "start_ms": 175640,
+      "end_ms": 230240,
+      "duration_ms": 54600
+    }
+  ],
+  "onsets_ms": [
+    13620,
+    16040,
+    19920,
+    27200,
+    29380,
+    175640
+  ],
+  "coverage_ratio": 0.902185,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}

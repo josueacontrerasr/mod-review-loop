@@ -1,0 +1,95 @@
+{
+  "song": "dias-magicos",
+  "audio": "mods/esperon-dano-dias-magicos/songs/dias-magicos/Voices-esperon-dias-magicos.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.0001679125998634845,
+  "energy_threshold": 0.015,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 243620.0,
+  "segments": [
+    {
+      "start_ms": 20800,
+      "end_ms": 27000,
+      "duration_ms": 6200
+    },
+    {
+      "start_ms": 27500,
+      "end_ms": 37900,
+      "duration_ms": 10400
+    },
+    {
+      "start_ms": 38020,
+      "end_ms": 89460,
+      "duration_ms": 51440
+    },
+    {
+      "start_ms": 102260,
+      "end_ms": 108940,
+      "duration_ms": 6680
+    },
+    {
+      "start_ms": 109280,
+      "end_ms": 183260,
+      "duration_ms": 73980
+    },
+    {
+      "start_ms": 183280,
+      "end_ms": 199780,
+      "duration_ms": 16500
+    },
+    {
+      "start_ms": 199820,
+      "end_ms": 200360,
+      "duration_ms": 540
+    },
+    {
+      "start_ms": 201380,
+      "end_ms": 202500,
+      "duration_ms": 1120
+    },
+    {
+      "start_ms": 203740,
+      "end_ms": 205320,
+      "duration_ms": 1580
+    },
+    {
+      "start_ms": 206720,
+      "end_ms": 207420,
+      "duration_ms": 700
+    },
+    {
+      "start_ms": 207920,
+      "end_ms": 208920,
+      "duration_ms": 1000
+    },
+    {
+      "start_ms": 210960,
+      "end_ms": 227400,
+      "duration_ms": 16440
+    },
+    {
+      "start_ms": 233120,
+      "end_ms": 233540,
+      "duration_ms": 420
+    }
+  ],
+  "onsets_ms": [
+    20800,
+    27500,
+    38020,
+    102260,
+    109280,
+    183280,
+    199820,
+    201380,
+    203740,
+    206720,
+    207920,
+    210960,
+    233120
+  ],
+  "coverage_ratio": 0.767589,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}

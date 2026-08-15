@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "variants": 4,
+  "rows": [
+    {
+      "song": "dano",
+      "variant": "relative-path-only",
+      "stage": "escenario-dano",
+      "assetPath": "stages/escenario-dano",
+      "source_asset": "mods/esperon-dano-dano/shared/images/stages/escenario-dano.png",
+      "source_exists": true,
+      "characters": [],
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "song": "dano",
+      "variant": "relative-path-with-characters",
+      "stage": "escenario-dano",
+      "assetPath": "stages/escenario-dano",
+      "source_asset": "mods/esperon-dano-dano/shared/images/stages/escenario-dano.png",
+      "source_exists": true,
+      "characters": [
+        "bf",
+        "dad",
+        "gf"
+      ],
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "song": "solare",
+      "variant": "relative-path-only",
+      "stage": "escenario-solare",
+      "assetPath": "stages/escenario-solare",
+      "source_asset": "mods/esperon-dano-solare/shared/images/stages/escenario-solare.png",
+      "source_exists": true,
+      "characters": [],
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "song": "solare",
+      "variant": "relative-path-with-characters",
+      "stage": "escenario-solare",
+      "assetPath": "stages/escenario-solare",
+      "source_asset": "mods/esperon-dano-solare/shared/images/stages/escenario-solare.png",
+      "source_exists": true,
+      "characters": [
+        "bf",
+        "dad",
+        "gf"
+      ],
+      "issues": [],
+      "status": "PASS"
+    }
+  ],
+  "runtime_limit": "Static contract/resolution check only; no native Haxe runtime available."
+}

@@ -1,0 +1,53 @@
+{
+  "song": "solare",
+  "audio": "mods/esperon-dano-solare/songs/solare/Voices-esperon-solare.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.005203480366617441,
+  "energy_threshold": 0.020813921466469765,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 223500.0,
+  "segments": [
+    {
+      "start_ms": 1780,
+      "end_ms": 33440,
+      "duration_ms": 31660
+    },
+    {
+      "start_ms": 34100,
+      "end_ms": 67220,
+      "duration_ms": 33120
+    },
+    {
+      "start_ms": 67280,
+      "end_ms": 67840,
+      "duration_ms": 560
+    },
+    {
+      "start_ms": 81000,
+      "end_ms": 177700,
+      "duration_ms": 96700
+    },
+    {
+      "start_ms": 179600,
+      "end_ms": 185080,
+      "duration_ms": 5480
+    },
+    {
+      "start_ms": 185680,
+      "end_ms": 218980,
+      "duration_ms": 33300
+    }
+  ],
+  "onsets_ms": [
+    1780,
+    34100,
+    67280,
+    81000,
+    179600,
+    185680
+  ],
+  "coverage_ratio": 0.898523,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}

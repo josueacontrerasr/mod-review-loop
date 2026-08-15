@@ -1,0 +1,161 @@
+{
+  "song": "cortamos-y-volvemos",
+  "audio": "mods/esperon-dano-cortamos-y-volvemos/songs/cortamos-y-volvemos/Voices-esperon-cortamos-y-volvemos.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.0003098704619333148,
+  "energy_threshold": 0.015,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 207800.0,
+  "segments": [
+    {
+      "start_ms": 10720,
+      "end_ms": 11140,
+      "duration_ms": 420
+    },
+    {
+      "start_ms": 11360,
+      "end_ms": 17000,
+      "duration_ms": 5640
+    },
+    {
+      "start_ms": 17020,
+      "end_ms": 39300,
+      "duration_ms": 22280
+    },
+    {
+      "start_ms": 39400,
+      "end_ms": 44840,
+      "duration_ms": 5440
+    },
+    {
+      "start_ms": 45120,
+      "end_ms": 50480,
+      "duration_ms": 5360
+    },
+    {
+      "start_ms": 50700,
+      "end_ms": 55200,
+      "duration_ms": 4500
+    },
+    {
+      "start_ms": 56700,
+      "end_ms": 75700,
+      "duration_ms": 19000
+    },
+    {
+      "start_ms": 75780,
+      "end_ms": 78840,
+      "duration_ms": 3060
+    },
+    {
+      "start_ms": 78940,
+      "end_ms": 89680,
+      "duration_ms": 10740
+    },
+    {
+      "start_ms": 90360,
+      "end_ms": 95800,
+      "duration_ms": 5440
+    },
+    {
+      "start_ms": 95880,
+      "end_ms": 101360,
+      "duration_ms": 5480
+    },
+    {
+      "start_ms": 101580,
+      "end_ms": 107040,
+      "duration_ms": 5460
+    },
+    {
+      "start_ms": 107140,
+      "end_ms": 111640,
+      "duration_ms": 4500
+    },
+    {
+      "start_ms": 112980,
+      "end_ms": 115580,
+      "duration_ms": 2600
+    },
+    {
+      "start_ms": 115660,
+      "end_ms": 146080,
+      "duration_ms": 30420
+    },
+    {
+      "start_ms": 146840,
+      "end_ms": 157820,
+      "duration_ms": 10980
+    },
+    {
+      "start_ms": 158120,
+      "end_ms": 163400,
+      "duration_ms": 5280
+    },
+    {
+      "start_ms": 163640,
+      "end_ms": 187520,
+      "duration_ms": 23880
+    },
+    {
+      "start_ms": 187580,
+      "end_ms": 188280,
+      "duration_ms": 700
+    },
+    {
+      "start_ms": 188560,
+      "end_ms": 190360,
+      "duration_ms": 1800
+    },
+    {
+      "start_ms": 191680,
+      "end_ms": 193380,
+      "duration_ms": 1700
+    },
+    {
+      "start_ms": 193820,
+      "end_ms": 195600,
+      "duration_ms": 1780
+    },
+    {
+      "start_ms": 195620,
+      "end_ms": 196160,
+      "duration_ms": 540
+    },
+    {
+      "start_ms": 196320,
+      "end_ms": 197280,
+      "duration_ms": 960
+    }
+  ],
+  "onsets_ms": [
+    10720,
+    11360,
+    17020,
+    39400,
+    45120,
+    50700,
+    56700,
+    75780,
+    78940,
+    90360,
+    95880,
+    101580,
+    107140,
+    112980,
+    115660,
+    146840,
+    158120,
+    163640,
+    187580,
+    188560,
+    191680,
+    193820,
+    195620,
+    196320
+  ],
+  "coverage_ratio": 0.8564,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}

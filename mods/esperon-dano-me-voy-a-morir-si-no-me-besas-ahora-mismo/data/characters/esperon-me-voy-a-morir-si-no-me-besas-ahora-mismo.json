@@ -2,7 +2,7 @@
   "version": "1.0.2",
   "name": "Esperón Me Voy A Morir Si No Me Besas Ahora Mismo",
   "renderType": "sparrow",
-  "assetPath": "shared:characters/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+  "assetPath": "characters/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
   "flipX": true,
   "offsets": [
     0,
@@ -50,5 +50,10 @@
       "prefix": "RightHold"
     }
   ],
-  "generatedBy": "Geometric multi-frame vocal atlas for FNF Mobile V-Slice 0.8.6"
+  "generatedBy": "Geometric multi-frame vocal atlas for FNF Mobile V-Slice 0.8.6",
+  "startingAnimation": "idle",
+  "scale": 1.0,
+  "isPixel": false,
+  "danceEvery": 1.0,
+  "singTime": 8.0
 }

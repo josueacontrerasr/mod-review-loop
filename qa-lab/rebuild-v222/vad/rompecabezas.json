@@ -1,0 +1,83 @@
+{
+  "song": "rompecabezas",
+  "audio": "mods/esperon-dano-rompecabezas/songs/rompecabezas/Voices-esperon-rompecabezas.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.0028075226582586765,
+  "energy_threshold": 0.015,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 215560.0,
+  "segments": [
+    {
+      "start_ms": 5820,
+      "end_ms": 6760,
+      "duration_ms": 940
+    },
+    {
+      "start_ms": 9300,
+      "end_ms": 10580,
+      "duration_ms": 1280
+    },
+    {
+      "start_ms": 12860,
+      "end_ms": 20440,
+      "duration_ms": 7580
+    },
+    {
+      "start_ms": 20520,
+      "end_ms": 32080,
+      "duration_ms": 11560
+    },
+    {
+      "start_ms": 32460,
+      "end_ms": 105380,
+      "duration_ms": 72920
+    },
+    {
+      "start_ms": 105780,
+      "end_ms": 141520,
+      "duration_ms": 35740
+    },
+    {
+      "start_ms": 141680,
+      "end_ms": 146420,
+      "duration_ms": 4740
+    },
+    {
+      "start_ms": 147400,
+      "end_ms": 152480,
+      "duration_ms": 5080
+    },
+    {
+      "start_ms": 153080,
+      "end_ms": 158060,
+      "duration_ms": 4980
+    },
+    {
+      "start_ms": 159060,
+      "end_ms": 165360,
+      "duration_ms": 6300
+    },
+    {
+      "start_ms": 165620,
+      "end_ms": 206200,
+      "duration_ms": 40580
+    }
+  ],
+  "onsets_ms": [
+    5820,
+    9300,
+    12860,
+    20520,
+    32460,
+    105780,
+    141680,
+    147400,
+    153080,
+    159060,
+    165620
+  ],
+  "coverage_ratio": 0.889312,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}

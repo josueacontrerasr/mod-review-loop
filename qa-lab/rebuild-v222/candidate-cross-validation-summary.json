@@ -1,0 +1,427 @@
+{
+  "status": "PASS",
+  "songs": 20,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "production": {
+        "notes": 213,
+        "mean_ms": 65.463,
+        "median_ms": 23.22,
+        "within_80": 0.788732,
+        "within_120": 0.830986,
+        "max_ms": 812.699
+      },
+      "candidate": {
+        "notes": 213,
+        "mean_ms": 20.44,
+        "median_ms": 11.61,
+        "within_80": 0.957746,
+        "within_120": 1.0,
+        "max_ms": 104.49
+      },
+      "improvement_within_120": 0.169014,
+      "improvement_mean_ms": 45.023
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "production": {
+        "notes": 500,
+        "mean_ms": 32.647,
+        "median_ms": 23.22,
+        "within_80": 0.902,
+        "within_120": 0.928,
+        "max_ms": 371.519
+      },
+      "candidate": {
+        "notes": 500,
+        "mean_ms": 19.273,
+        "median_ms": 11.61,
+        "within_80": 0.974,
+        "within_120": 1.0,
+        "max_ms": 92.88
+      },
+      "improvement_within_120": 0.072,
+      "improvement_mean_ms": 13.374
+    },
+    {
+      "song": "dano",
+      "production": {
+        "notes": 550,
+        "mean_ms": 24.782,
+        "median_ms": 17.415,
+        "within_80": 0.954545,
+        "within_120": 0.978182,
+        "max_ms": 185.76
+      },
+      "candidate": {
+        "notes": 550,
+        "mean_ms": 21.278,
+        "median_ms": 11.61,
+        "within_80": 0.976364,
+        "within_120": 1.0,
+        "max_ms": 116.1
+      },
+      "improvement_within_120": 0.021818,
+      "improvement_mean_ms": 3.504
+    },
+    {
+      "song": "dias-magicos",
+      "production": {
+        "notes": 473,
+        "mean_ms": 44.771,
+        "median_ms": 23.22,
+        "within_80": 0.849894,
+        "within_120": 0.871036,
+        "max_ms": 452.789
+      },
+      "candidate": {
+        "notes": 473,
+        "mean_ms": 19.857,
+        "median_ms": 11.61,
+        "within_80": 0.978858,
+        "within_120": 1.0,
+        "max_ms": 116.1
+      },
+      "improvement_within_120": 0.128964,
+      "improvement_mean_ms": 24.914
+    },
+    {
+      "song": "eclipsis",
+      "production": {
+        "notes": 298,
+        "mean_ms": 40.284,
+        "median_ms": 23.22,
+        "within_80": 0.88255,
+        "within_120": 0.916107,
+        "max_ms": 290.25
+      },
+      "candidate": {
+        "notes": 298,
+        "mean_ms": 21.662,
+        "median_ms": 11.61,
+        "within_80": 0.966443,
+        "within_120": 1.0,
+        "max_ms": 92.88
+      },
+      "improvement_within_120": 0.083893,
+      "improvement_mean_ms": 18.622
+    },
+    {
+      "song": "fango",
+      "production": {
+        "notes": 353,
+        "mean_ms": 57.918,
+        "median_ms": 23.22,
+        "within_80": 0.872521,
+        "within_120": 0.889518,
+        "max_ms": 1068.118
+      },
+      "candidate": {
+        "notes": 353,
+        "mean_ms": 21.575,
+        "median_ms": 23.22,
+        "within_80": 0.983003,
+        "within_120": 1.0,
+        "max_ms": 116.1
+      },
+      "improvement_within_120": 0.110482,
+      "improvement_mean_ms": 36.343
+    },
+    {
+      "song": "luma",
+      "production": {
+        "notes": 240,
+        "mean_ms": 79.19,
+        "median_ms": 23.22,
+        "within_80": 0.7,
+        "within_120": 0.741667,
+        "max_ms": 1369.977
+      },
+      "candidate": {
+        "notes": 240,
+        "mean_ms": 16.157,
+        "median_ms": 11.61,
+        "within_80": 0.958333,
+        "within_120": 1.0,
+        "max_ms": 116.099
+      },
+      "improvement_within_120": 0.258333,
+      "improvement_mean_ms": 63.033
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "production": {
+        "notes": 298,
+        "mean_ms": 44.609,
+        "median_ms": 23.22,
+        "within_80": 0.85906,
+        "within_120": 0.902685,
+        "max_ms": 383.129
+      },
+      "candidate": {
+        "notes": 298,
+        "mean_ms": 22.129,
+        "median_ms": 23.22,
+        "within_80": 0.956376,
+        "within_120": 1.0,
+        "max_ms": 104.49
+      },
+      "improvement_within_120": 0.097315,
+      "improvement_mean_ms": 22.48
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "production": {
+        "notes": 273,
+        "mean_ms": 45.377,
+        "median_ms": 11.61,
+        "within_80": 0.871795,
+        "within_120": 0.897436,
+        "max_ms": 359.91
+      },
+      "candidate": {
+        "notes": 273,
+        "mean_ms": 18.755,
+        "median_ms": 11.61,
+        "within_80": 0.974359,
+        "within_120": 1.0,
+        "max_ms": 104.49
+      },
+      "improvement_within_120": 0.102564,
+      "improvement_mean_ms": 26.622
+    },
+    {
+      "song": "meteora",
+      "production": {
+        "notes": 180,
+        "mean_ms": 29.992,
+        "median_ms": 23.22,
+        "within_80": 0.933333,
+        "within_120": 0.966667,
+        "max_ms": 371.519
+      },
+      "candidate": {
+        "notes": 180,
+        "mean_ms": 21.672,
+        "median_ms": 23.219,
+        "within_80": 0.966667,
+        "within_120": 1.0,
+        "max_ms": 92.88
+      },
+      "improvement_within_120": 0.033333,
+      "improvement_mean_ms": 8.32
+    },
+    {
+      "song": "mi-hogar",
+      "production": {
+        "notes": 323,
+        "mean_ms": 51.328,
+        "median_ms": 23.22,
+        "within_80": 0.910217,
+        "within_120": 0.934985,
+        "max_ms": 952.018
+      },
+      "candidate": {
+        "notes": 323,
+        "mean_ms": 23.903,
+        "median_ms": 11.61,
+        "within_80": 0.975232,
+        "within_120": 1.0,
+        "max_ms": 104.49
+      },
+      "improvement_within_120": 0.065015,
+      "improvement_mean_ms": 27.425
+    },
+    {
+      "song": "nubia",
+      "production": {
+        "notes": 278,
+        "mean_ms": 29.317,
+        "median_ms": 11.61,
+        "within_80": 0.953237,
+        "within_120": 0.967626,
+        "max_ms": 464.399
+      },
+      "candidate": {
+        "notes": 278,
+        "mean_ms": 19.545,
+        "median_ms": 11.61,
+        "within_80": 0.985612,
+        "within_120": 1.0,
+        "max_ms": 116.1
+      },
+      "improvement_within_120": 0.032374,
+      "improvement_mean_ms": 9.772
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "production": {
+        "notes": 330,
+        "mean_ms": 49.219,
+        "median_ms": 23.22,
+        "within_80": 0.833333,
+        "within_120": 0.851515,
+        "max_ms": 777.869
+      },
+      "candidate": {
+        "notes": 330,
+        "mean_ms": 17.098,
+        "median_ms": 11.61,
+        "within_80": 0.981818,
+        "within_120": 1.0,
+        "max_ms": 104.49
+      },
+      "improvement_within_120": 0.148485,
+      "improvement_mean_ms": 32.121
+    },
+    {
+      "song": "peligrosa",
+      "production": {
+        "notes": 493,
+        "mean_ms": 53.104,
+        "median_ms": 23.22,
+        "within_80": 0.811359,
+        "within_120": 0.849899,
+        "max_ms": 673.379
+      },
+      "candidate": {
+        "notes": 493,
+        "mean_ms": 20.959,
+        "median_ms": 11.61,
+        "within_80": 0.96146,
+        "within_120": 1.0,
+        "max_ms": 116.1
+      },
+      "improvement_within_120": 0.150101,
+      "improvement_mean_ms": 32.145
+    },
+    {
+      "song": "rompecabezas",
+      "production": {
+        "notes": 258,
+        "mean_ms": 47.16,
+        "median_ms": 23.22,
+        "within_80": 0.864341,
+        "within_120": 0.872093,
+        "max_ms": 464.399
+      },
+      "candidate": {
+        "notes": 258,
+        "mean_ms": 19.305,
+        "median_ms": 11.61,
+        "within_80": 0.992248,
+        "within_120": 1.0,
+        "max_ms": 104.49
+      },
+      "improvement_within_120": 0.127907,
+      "improvement_mean_ms": 27.855
+    },
+    {
+      "song": "solare",
+      "production": {
+        "notes": 298,
+        "mean_ms": 40.752,
+        "median_ms": 23.22,
+        "within_80": 0.872483,
+        "within_120": 0.912752,
+        "max_ms": 417.96
+      },
+      "candidate": {
+        "notes": 298,
+        "mean_ms": 21.311,
+        "median_ms": 11.61,
+        "within_80": 0.959732,
+        "within_120": 1.0,
+        "max_ms": 116.1
+      },
+      "improvement_within_120": 0.087248,
+      "improvement_mean_ms": 19.441
+    },
+    {
+      "song": "tristella",
+      "production": {
+        "notes": 318,
+        "mean_ms": 37.787,
+        "median_ms": 23.22,
+        "within_80": 0.924528,
+        "within_120": 0.930818,
+        "max_ms": 603.719
+      },
+      "candidate": {
+        "notes": 318,
+        "mean_ms": 20.299,
+        "median_ms": 11.61,
+        "within_80": 0.993711,
+        "within_120": 1.0,
+        "max_ms": 116.099
+      },
+      "improvement_within_120": 0.069182,
+      "improvement_mean_ms": 17.488
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "production": {
+        "notes": 465,
+        "mean_ms": 36.802,
+        "median_ms": 23.22,
+        "within_80": 0.901075,
+        "within_120": 0.931183,
+        "max_ms": 429.569
+      },
+      "candidate": {
+        "notes": 465,
+        "mean_ms": 20.898,
+        "median_ms": 11.61,
+        "within_80": 0.969892,
+        "within_120": 1.0,
+        "max_ms": 116.1
+      },
+      "improvement_within_120": 0.068817,
+      "improvement_mean_ms": 15.904
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "production": {
+        "notes": 173,
+        "mean_ms": 73.217,
+        "median_ms": 23.22,
+        "within_80": 0.809249,
+        "within_120": 0.855491,
+        "max_ms": 928.798
+      },
+      "candidate": {
+        "notes": 173,
+        "mean_ms": 21.207,
+        "median_ms": 11.61,
+        "within_80": 0.953757,
+        "within_120": 1.0,
+        "max_ms": 104.49
+      },
+      "improvement_within_120": 0.144509,
+      "improvement_mean_ms": 52.01
+    },
+    {
+      "song": "volver-a-vernos",
+      "production": {
+        "notes": 188,
+        "mean_ms": 41.191,
+        "median_ms": 11.61,
+        "within_80": 0.856383,
+        "within_120": 0.904255,
+        "max_ms": 325.08
+      },
+      "candidate": {
+        "notes": 188,
+        "mean_ms": 20.441,
+        "median_ms": 11.61,
+        "within_80": 0.952128,
+        "within_120": 1.0,
+        "max_ms": 116.1
+      },
+      "improvement_within_120": 0.095745,
+      "improvement_mean_ms": 20.75
+    }
+  ],
+  "promotion_policy": "Promote only if within_120 improves >=0.10, mean decreases, and no duplicate timestamp/direction is introduced; otherwise keep candidate isolated."
+}

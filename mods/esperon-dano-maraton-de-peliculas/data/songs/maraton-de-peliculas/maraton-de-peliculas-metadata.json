@@ -2,7 +2,7 @@
   "version": "2.2.4",
   "songName": "Maratón de Películas",
   "artist": "Esperón",
-  "charter": "Manus AI — chart vocalmente alineado por stem; requiere Audio Sync Test móvil",
+  "charter": "Manus AI — chart vocalmente alineado por onsets independientes; requiere Audio Sync Test móvil",
   "offsets": {},
   "playData": {
     "difficulties": [
@@ -41,5 +41,5 @@
       ]
     }
   ],
-  "generatedBy": "Friday Night Funkin' - 0.8.6; Demucs vocal/instrumental split and independent onset cross-validation; BPM/offset unchanged"
+  "generatedBy": "Friday Night Funkin' - 0.8.6; V2.2.2 chart candidate cross-validated against independent vocal onsets"
 }

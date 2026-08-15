@@ -1,0 +1,143 @@
+{
+  "song": "maraton-de-peliculas",
+  "audio": "mods/esperon-dano-maraton-de-peliculas/songs/maraton-de-peliculas/Voices-esperon-maraton-de-peliculas.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.008542423136532307,
+  "energy_threshold": 0.03416969254612923,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 231260.0,
+  "segments": [
+    {
+      "start_ms": 320,
+      "end_ms": 3320,
+      "duration_ms": 3000
+    },
+    {
+      "start_ms": 4160,
+      "end_ms": 10260,
+      "duration_ms": 6100
+    },
+    {
+      "start_ms": 10340,
+      "end_ms": 14180,
+      "duration_ms": 3840
+    },
+    {
+      "start_ms": 14440,
+      "end_ms": 17460,
+      "duration_ms": 3020
+    },
+    {
+      "start_ms": 17940,
+      "end_ms": 28020,
+      "duration_ms": 10080
+    },
+    {
+      "start_ms": 28720,
+      "end_ms": 58120,
+      "duration_ms": 29400
+    },
+    {
+      "start_ms": 60880,
+      "end_ms": 70780,
+      "duration_ms": 9900
+    },
+    {
+      "start_ms": 70980,
+      "end_ms": 82940,
+      "duration_ms": 11960
+    },
+    {
+      "start_ms": 83000,
+      "end_ms": 107680,
+      "duration_ms": 24680
+    },
+    {
+      "start_ms": 107980,
+      "end_ms": 111060,
+      "duration_ms": 3080
+    },
+    {
+      "start_ms": 111140,
+      "end_ms": 121780,
+      "duration_ms": 10640
+    },
+    {
+      "start_ms": 122000,
+      "end_ms": 198940,
+      "duration_ms": 76940
+    },
+    {
+      "start_ms": 200320,
+      "end_ms": 210720,
+      "duration_ms": 10400
+    },
+    {
+      "start_ms": 210760,
+      "end_ms": 216160,
+      "duration_ms": 5400
+    },
+    {
+      "start_ms": 216800,
+      "end_ms": 217720,
+      "duration_ms": 920
+    },
+    {
+      "start_ms": 219400,
+      "end_ms": 220940,
+      "duration_ms": 1540
+    },
+    {
+      "start_ms": 222600,
+      "end_ms": 223580,
+      "duration_ms": 980
+    },
+    {
+      "start_ms": 223640,
+      "end_ms": 224680,
+      "duration_ms": 1040
+    },
+    {
+      "start_ms": 225220,
+      "end_ms": 225740,
+      "duration_ms": 520
+    },
+    {
+      "start_ms": 225780,
+      "end_ms": 226520,
+      "duration_ms": 740
+    },
+    {
+      "start_ms": 227360,
+      "end_ms": 231260,
+      "duration_ms": 3900
+    }
+  ],
+  "onsets_ms": [
+    320,
+    4160,
+    10340,
+    14440,
+    17940,
+    28720,
+    60880,
+    70980,
+    83000,
+    107980,
+    111140,
+    122000,
+    200320,
+    210760,
+    216800,
+    219400,
+    222600,
+    223640,
+    225220,
+    225780,
+    227360
+  ],
+  "coverage_ratio": 0.943008,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}

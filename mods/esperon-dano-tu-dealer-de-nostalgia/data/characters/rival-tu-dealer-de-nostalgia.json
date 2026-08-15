@@ -2,7 +2,7 @@
   "version": "1.0.2",
   "name": "Rival Tu Dealer de Nostalgia",
   "renderType": "sparrow",
-  "assetPath": "shared:characters/rival-tu-dealer-de-nostalgia",
+  "assetPath": "characters/rival-tu-dealer-de-nostalgia",
   "flipX": false,
   "offsets": [
     0,
@@ -50,5 +50,10 @@
       "prefix": "RightHold"
     }
   ],
-  "generatedBy": "Geometric multi-frame vocal atlas for FNF Mobile V-Slice 0.8.6"
+  "generatedBy": "Geometric multi-frame vocal atlas for FNF Mobile V-Slice 0.8.6",
+  "startingAnimation": "idle",
+  "scale": 1.0,
+  "isPixel": false,
+  "danceEvery": 1.0,
+  "singTime": 8.0
 }

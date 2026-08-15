@@ -1,0 +1,59 @@
+{
+  "song": "nuestro-amor-no-es-normal",
+  "audio": "mods/esperon-dano-nuestro-amor-no-es-normal/songs/nuestro-amor-no-es-normal/Voices-esperon-nuestro-amor-no-es-normal.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.002509556245058775,
+  "energy_threshold": 0.015,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 165920.0,
+  "segments": [
+    {
+      "start_ms": 2620,
+      "end_ms": 6960,
+      "duration_ms": 4340
+    },
+    {
+      "start_ms": 7340,
+      "end_ms": 16460,
+      "duration_ms": 9120
+    },
+    {
+      "start_ms": 16720,
+      "end_ms": 42680,
+      "duration_ms": 25960
+    },
+    {
+      "start_ms": 43480,
+      "end_ms": 61820,
+      "duration_ms": 18340
+    },
+    {
+      "start_ms": 62380,
+      "end_ms": 118680,
+      "duration_ms": 56300
+    },
+    {
+      "start_ms": 119520,
+      "end_ms": 137860,
+      "duration_ms": 18340
+    },
+    {
+      "start_ms": 138400,
+      "end_ms": 156280,
+      "duration_ms": 17880
+    }
+  ],
+  "onsets_ms": [
+    2620,
+    7340,
+    16720,
+    43480,
+    62380,
+    119520,
+    138400
+  ],
+  "coverage_ratio": 0.905738,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}
