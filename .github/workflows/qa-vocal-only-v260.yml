@@ -28,7 +28,9 @@ env:
   FNF_VERSION: '0.8.6'
 
 jobs:
+  # V2.6.0 queda como auditoría histórica; V2.6.1 es el gate vigente.
   vocal-only-qa:
+    if: github.ref_name != 'main' && github.ref_name != 'auto/playstate-fix-v260'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
