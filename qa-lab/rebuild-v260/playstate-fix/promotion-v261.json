@@ -1,0 +1,333 @@
+{
+  "scope": "PLAYSTATE_VOCAL_COVERS_PROMOTION_V261",
+  "executed_at": "2026-08-15T18:04:40.697094+00:00",
+  "target_version": "0.8.6",
+  "mod_version": "2.6.1",
+  "songs": 20,
+  "passed": 20,
+  "status": "PASS",
+  "audio_modified": false,
+  "assets_other_than_freeplay_covers_modified": false,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "chart_before_sha256": "53e44af666c735746b71711a26163abe326415682be741d7600c334977869ebd",
+      "chart_after_sha256": "0ac3196e9587153c12390aaccf96b1a2396432592b537fba4135ffe820e285f7",
+      "meta_before_sha256": "2f2d4b54c235410e05d38cd104f76d6d66de217b9d7fc87675dd0ff5a2b8d7c7",
+      "meta_after_sha256": "c0a24e0ce3e7b78e201c0d1a2b5fc3d32cb32044312dcf892ea8160e241d05a1",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 9,
+        "normal": 12,
+        "hard": 17
+      },
+      "errors": []
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "chart_before_sha256": "96e77f9ea4f5b49dfcd207f2032abd96ef09bb5fd1be240974bbfd202fdc5528",
+      "chart_after_sha256": "e76bb8a9b985498790934e71c21aa1db059ef983a8fc6bac7189fd4226257dc7",
+      "meta_before_sha256": "61e8b122cc6eff335c688797c9770b3e328634665cfcfe9124d505ae2798884b",
+      "meta_after_sha256": "8e07352f2611633e5960532b13c18f56ae1db74982f895ee944da84aa85a1f6f",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 91,
+        "normal": 292,
+        "hard": 482
+      },
+      "errors": []
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "chart_before_sha256": "58c3af30e5050b07d0105a7561e72b9d838209498193fd0e2ef4e470c36c65fb",
+      "chart_after_sha256": "5c100653764894338dcbe8f3cc36f6b6ab21429ea4bde891534c9820e5b4a927",
+      "meta_before_sha256": "b9946475dc2e253f82808f1d653c6fdcaa19d83f5e242382e83d1825cff539c2",
+      "meta_after_sha256": "a25d39f836198e3a0c0226e9ae656a07acd9dc3f64230f86b7df4fcdd29aa73b",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 59,
+        "normal": 274,
+        "hard": 468
+      },
+      "errors": []
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "chart_before_sha256": "50b8634adb239c3ab936b2dbdec751ffeab42ad91dcd9c5e7703a3414227bb42",
+      "chart_after_sha256": "846433b96eb89eca5a2798de6fe2b8b2af12233222dc098f44e984e066846102",
+      "meta_before_sha256": "f9e28d3f260cf7068b2ea99e8523f5c9b4ef9b2e11564fc45b1bbdc4518483d3",
+      "meta_after_sha256": "863c5ea31ee3eddeed7c9c1d78292c1fc85241cced5c247371025e6e8bdcf972",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 113,
+        "normal": 329,
+        "hard": 520
+      },
+      "errors": []
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "chart_before_sha256": "06d46349e1f3f220d48e52f30143ea1c6ec6f87d5a466567b85bbd3ab5f2dbdd",
+      "chart_after_sha256": "06e66c104c8f7841d60a7701290236e944c211c79a63aeb6c1f84669f14f1408",
+      "meta_before_sha256": "510f60a854d8e224e0e9de47466f461d042096f4a23293ab86b4e5520ab975c5",
+      "meta_after_sha256": "e2642a2410aaa7395809e69815674ff6acfa15b16e840e62aa79e8c92c6651e7",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 97,
+        "normal": 318,
+        "hard": 497
+      },
+      "errors": []
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "chart_before_sha256": "a512794840a8c11dbaf794bb8f55ec638fe8a71d2bf6b060cc12f01fc2a3567c",
+      "chart_after_sha256": "b70d60e6d9fdc2467513cd0feb2979a820d689ec71ebb7d602ec32c8902d594c",
+      "meta_before_sha256": "d91cbc7f3e245d928be6dc174c67df8fce176f2022b08a89db149cee2cfba525",
+      "meta_after_sha256": "ebac057d7f79b0e606617fac68c573e3446789d31566127e8309674538e0d092",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 100,
+        "normal": 266,
+        "hard": 431
+      },
+      "errors": []
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "chart_before_sha256": "eb7d35738b84dd6bf2c36b7f86434c245df19f5d4b72371703c6522362288341",
+      "chart_after_sha256": "f8ea2543b2b6177b68b03adf2f62bc58dc6140b5b122ab024dc0244f130bcae8",
+      "meta_before_sha256": "9341100ba7e59e5c5bf81083bce28048521a447fc0a7cf6a856010ae38b9f753",
+      "meta_after_sha256": "fdacf8178a7ff29738142a3a60c70cf9b5f541463b5e10960e5249796ca539ed",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 21,
+        "normal": 55,
+        "hard": 87
+      },
+      "errors": []
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "chart_before_sha256": "1d69aaa6ff6de22e6f291ccd55a02fe52ea74eda8265f55ada7e3677257db096",
+      "chart_after_sha256": "d14770f44c31f943a2db765e4af62801087efa8cdc7142efc71db3e5acdffee8",
+      "meta_before_sha256": "f70c26a68948250c113adbb289f0147a30bbdeef6276ae269bc3c0ef0e778dba",
+      "meta_after_sha256": "603903d9ff404d4867f5b70bb3b913c97e7f329af968ad61a6b2810858a9219a",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 86,
+        "normal": 222,
+        "hard": 343
+      },
+      "errors": []
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "chart_before_sha256": "e7a99ccae43641e439f78812831668bc3a095d1a2b0a6742bca82d07e6a269cb",
+      "chart_after_sha256": "1c9a9e9d8b1facb5914a1338051ed43b1b2474761f8330ec16e355b4c7057751",
+      "meta_before_sha256": "0bcbc4454d9de10b5df34a949f5f38025866182a542febcd6b6da28a9f9dbce9",
+      "meta_after_sha256": "e7d26e2a70cc41d71cffceab0cc6d5ec2dca735a69106cf32b03864fc97cb271",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 81,
+        "normal": 230,
+        "hard": 342
+      },
+      "errors": []
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "chart_before_sha256": "99b6596631338f1da5f83847f9787a2e1158857982778f16947f6cba271d9443",
+      "chart_after_sha256": "38348fecb7ffc19d69710312641888ab1edc8410b49f37b2f3b0eedbc65ad605",
+      "meta_before_sha256": "6ae34681d1b07f3897ecea903306fce02c9ccde09615b354fe90926b9698ce91",
+      "meta_after_sha256": "bf07c0c20f72e332b941be9f3fb99ae961dbef9fe9b830c8a3899faaca19099c",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 41,
+        "normal": 120,
+        "hard": 191
+      },
+      "errors": []
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "chart_before_sha256": "f2cee09cc52d3790bed1e7e2224aeba0a433261f26743f188910a86dfd2fd165",
+      "chart_after_sha256": "ab280932dea65de412726a9bb66adff46e2bb6325372eb3140cabc66b0c26bf7",
+      "meta_before_sha256": "556c7bddc2ba0599d5acd7549c5deb92fb0d46c040c937523c55526c14ded8e5",
+      "meta_after_sha256": "62dfc69787aac27d1ca6f38490aa44707fc439beaf63e7fb3bfa1296f182870f",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 72,
+        "normal": 206,
+        "hard": 311
+      },
+      "errors": []
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "chart_before_sha256": "b095023f0397b7be6a9ea2bacdc043a61574c2ab28192df127cc4110ba1f20e6",
+      "chart_after_sha256": "59ecb9b4686ea87b70cf8d7d353d76b0f209e14378b12486601c4e83543e8f22",
+      "meta_before_sha256": "97b93c56adb34beca6e23fc0d23a29afee58d6b85d77648035954d4e57b9995d",
+      "meta_after_sha256": "ff7dc312d83ff0af7f327a1774db357f2df8f06da947770941622721f27ee6c7",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 96,
+        "normal": 259,
+        "hard": 403
+      },
+      "errors": []
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "chart_before_sha256": "1e3465915d5acb7339945a3b4aabe3905df360cde408d0c4f260ca0be6ae0c36",
+      "chart_after_sha256": "3690add55b3ac9bab35faef87fca487ac37eb39606edd4001fad601630136c52",
+      "meta_before_sha256": "88bded6db213093f15d5a38c8b6549886336ad7c6f2c1503c9157489544f84d7",
+      "meta_after_sha256": "ab198c81b01061da2d6a7d15fff17e1d55e5b53c7beb711bb8095c17af1c1ceb",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 79,
+        "normal": 231,
+        "hard": 370
+      },
+      "errors": []
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "chart_before_sha256": "276405f537872f88e7f5cde407b0c9e865dd7cc0dab4796f3b3551e8ba70a955",
+      "chart_after_sha256": "567b44a6167b1027fc232deebe4ec85f1fb648198583bd89690719179587fb0d",
+      "meta_before_sha256": "53af27b81084fd572d08431c3c636c0ea3f16d787a81f9ce759305ac3af475f9",
+      "meta_after_sha256": "558a4fcfac8faaea436c29756c7b3e942970a715fd16ee3daa608305086bc705",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 103,
+        "normal": 312,
+        "hard": 499
+      },
+      "errors": []
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "chart_before_sha256": "4cf3405ccdf9d0c68f83c5633534ce904383af4d58744c4b5b786bc103bdb4c6",
+      "chart_after_sha256": "b384ad63ffc867ba60538d0fa40d5fdb854f0747999bf21310f63b8cf7e758b1",
+      "meta_before_sha256": "1d8622bbb28550f28d9cc138c8b274f9739662e3e9525dc923e13bfe5c13a076",
+      "meta_after_sha256": "6fd69201c712e962be0154a80aee23339d9cde8f462de5727ce9f1f8ed4444a4",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 87,
+        "normal": 267,
+        "hard": 430
+      },
+      "errors": []
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "chart_before_sha256": "3d69e535191a12f7ec07f33f31dd69daa1fc3341e263dea14df09bf8a489874f",
+      "chart_after_sha256": "d38e675c1e528d5e42715519f723f100cb7363dcd5bfce1c274f497b4e17c4bc",
+      "meta_before_sha256": "783600999cec8a016837c900a92a3e20b9e037166a91861189416586176e3641",
+      "meta_after_sha256": "c6dc0eb0c50707801474a7dcbaffba52d7227e5df9a7fbe70055cd4d973afec1",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 99,
+        "normal": 269,
+        "hard": 402
+      },
+      "errors": []
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "chart_before_sha256": "fef488d110f36dd742421614373b1634169d009cb2d66a104c3fcae4321a9bc7",
+      "chart_after_sha256": "f44c04af0603bfbd16cef1f42ba7a9924a455419f09549b232e2779cc2c4fe3e",
+      "meta_before_sha256": "f7ab4eb4392bc22fd71f0112f457f013fffe2ea7e8ce3750d26992f0be494f8a",
+      "meta_after_sha256": "3a395c700715f9b3d3ba80fa81f88ae3e874b07876c281cdeef8f72da2578d6d",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 102,
+        "normal": 310,
+        "hard": 498
+      },
+      "errors": []
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "chart_before_sha256": "e732ebbc48b2872ccf0966ffdc2846d47e7825fda03ecb640903da3f40e4f51a",
+      "chart_after_sha256": "03d1ca947e9a5b551872571130ea2b0a617dfa1ae62f9954983366a56309ed01",
+      "meta_before_sha256": "fb258dfc2a05d95a58b8d0c6037edf7c376cae26759524d539ce51d7f7833118",
+      "meta_after_sha256": "356adc96cce87b9ad18d59ba49d9af980f7a8024bd7ff2c6e3fa34af66ed1936",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 80,
+        "normal": 273,
+        "hard": 420
+      },
+      "errors": []
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "chart_before_sha256": "e489248733328a431ccb85b2bbab00775bbaf1d3d9b03d500e881b4ca60d1f59",
+      "chart_after_sha256": "823c6c395e19df3f9179101b85342d4b0f2c1a3b2e280f1585c76f0f56bee67a",
+      "meta_before_sha256": "9829d3cf25bf7a3df985898687f590eb098e2d4f863419f7c910720f2c1d6778",
+      "meta_after_sha256": "a74db038fbeb5724146a9c6d716267ecb30c09429a5e54f261f2285fb269c610",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 86,
+        "normal": 263,
+        "hard": 407
+      },
+      "errors": []
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "chart_before_sha256": "e9f9b573d855f9bfaa54a6defead3631b978fc8dd73d54589f84bd68536fa3cf",
+      "chart_after_sha256": "4a489c7968c0675f8c8110cfbbb46a2274fd97b617fdcedd93d22a19b8f36824",
+      "meta_before_sha256": "119b7483260db3c2daab02e2a212393ee73ccd0caadd76ad4611ab85f4ce4409",
+      "meta_after_sha256": "a91d83efb6b07871e8d5851a0993c8e9474082e1de707fb9c00ceb45257bab1e",
+      "old_mod_version": "2.6.0",
+      "new_mod_version": "2.6.1",
+      "notes": {
+        "easy": 65,
+        "normal": 229,
+        "hard": 387
+      },
+      "errors": []
+    }
+  ]
+}

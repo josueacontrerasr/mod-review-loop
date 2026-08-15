@@ -1,0 +1,63 @@
+{
+  "scope": "ESPERON_PLAYSTATE_VOCAL_FREEPLAY_V261",
+  "target": {
+    "fnf_version": "0.8.6",
+    "platform": "official-mobile-vslice",
+    "songs": 20,
+    "mod_version": "2.6.1"
+  },
+  "fixes": {
+    "playstate": {
+      "root_cause": "chart_required_missing:generatedBy",
+      "before": {"cases": 60, "passed": 0, "failed": 60},
+      "after": {"cases": 60, "passed": 60, "failed": 0},
+      "field": "generatedBy",
+      "value": "Friday Night Funkin' - 0.8.6"
+    },
+    "vocal_only": {
+      "instrumental_used_for_generation": false,
+      "songs_passed": 20,
+      "difficulties_passed": 60,
+      "notes_outside_vocal_segments": 0,
+      "bad_player_lanes": 0,
+      "candidate_metadata_leaked": 0
+    },
+    "freeplay": {
+      "covers_replaced": 20,
+      "source_policy": "official Esperón YouTube publications; original/non-instrumental/non-slowed preferred",
+      "dimensions": [512, 512],
+      "album_prefix": "freeplay/albumRoll/"
+    },
+    "delivery": {
+      "individual_zips": 20,
+      "complete_zip": "Esperon-Completo.zip",
+      "complete_members": 20,
+      "delivery_zip_count": 21,
+      "runtime_files_in_complete": 900,
+      "reports_inside_runtime_zips": false
+    }
+  },
+  "gates": {
+    "contracts_assets": {"passed": 20, "total": 20, "status": "PASS"},
+    "headless_loader": {"passed": 20, "total": 20, "status": "PASS"},
+    "qa_20x20": {"rounds": 20, "mods_per_round": 20, "reviews": 400, "status": "PASS"},
+    "zip_gate": {"individual_passed": 20, "individual_total": 20, "complete_status": "PASS", "status": "PASS"},
+    "syntax": "PASS",
+    "json": "PASS",
+    "zip_evidence_exclusion": "PASS"
+  },
+  "production_changes": {
+    "charts": 20,
+    "polymod_manifests": 20,
+    "freeplay_covers": 20,
+    "audio_files": 0,
+    "characters_stages_hud_note_styles": 0
+  },
+  "release_decision": "PROMOTE_AFTER_REMOTE_GATE",
+  "perceptual_playtest_required": true,
+  "remote_workflow": {
+    "workflow_file": ".github/workflows/qa-playstate-vocal-freeplay-v261.yml",
+    "schedule": "*/10 * * * *",
+    "automatic_release_or_commit": false
+  }
+}

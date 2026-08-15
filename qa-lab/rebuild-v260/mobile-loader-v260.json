@@ -1,10 +1,10 @@
 {
   "scope": "HEADLESS_MOBILE_VFS_V260",
-  "executed_at": "2026-08-15T16:24:32.419074+00:00",
+  "executed_at": "2026-08-15T18:13:41.478739+00:00",
   "target_version": "0.8.6",
   "simulation_root": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods",
   "mods": 20,
-  "parallel_workers": 4,
+  "parallel_workers": 8,
   "passed": 20,
   "status": "PASS",
   "rows": [
@@ -22,9 +22,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-arcoloria",
       "note_counts": {
-        "easy": 364,
-        "normal": 474,
-        "hard": 566
+        "easy": 9,
+        "normal": 12,
+        "hard": 17
       },
       "character_frames": {
         "player": 18,
@@ -55,9 +55,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-cortamos-y-volvemos",
       "note_counts": {
-        "easy": 434,
-        "normal": 563,
-        "hard": 777
+        "easy": 91,
+        "normal": 292,
+        "hard": 482
       },
       "character_frames": {
         "player": 18,
@@ -88,9 +88,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-dano",
       "note_counts": {
-        "easy": 438,
-        "normal": 625,
-        "hard": 869
+        "easy": 59,
+        "normal": 274,
+        "hard": 468
       },
       "character_frames": {
         "player": 18,
@@ -121,9 +121,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-dias-magicos",
       "note_counts": {
-        "easy": 397,
-        "normal": 572,
-        "hard": 669
+        "easy": 113,
+        "normal": 329,
+        "hard": 520
       },
       "character_frames": {
         "player": 18,
@@ -154,9 +154,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-eclipsis",
       "note_counts": {
-        "easy": 400,
-        "normal": 557,
-        "hard": 658
+        "easy": 97,
+        "normal": 318,
+        "hard": 497
       },
       "character_frames": {
         "player": 18,
@@ -187,9 +187,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-fango",
       "note_counts": {
-        "easy": 355,
-        "normal": 479,
-        "hard": 596
+        "easy": 100,
+        "normal": 266,
+        "hard": 431
       },
       "character_frames": {
         "player": 18,
@@ -220,9 +220,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-luma",
       "note_counts": {
-        "easy": 360,
-        "normal": 458,
-        "hard": 552
+        "easy": 21,
+        "normal": 55,
+        "hard": 87
       },
       "character_frames": {
         "player": 18,
@@ -253,9 +253,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-maraton-de-peliculas",
       "note_counts": {
-        "easy": 426,
-        "normal": 657,
-        "hard": 759
+        "easy": 86,
+        "normal": 222,
+        "hard": 343
       },
       "character_frames": {
         "player": 18,
@@ -286,9 +286,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
       "note_counts": {
-        "easy": 271,
-        "normal": 352,
-        "hard": 407
+        "easy": 81,
+        "normal": 230,
+        "hard": 342
       },
       "character_frames": {
         "player": 18,
@@ -319,9 +319,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-meteora",
       "note_counts": {
-        "easy": 323,
-        "normal": 469,
-        "hard": 559
+        "easy": 41,
+        "normal": 120,
+        "hard": 191
       },
       "character_frames": {
         "player": 18,
@@ -352,9 +352,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-mi-hogar",
       "note_counts": {
-        "easy": 237,
-        "normal": 322,
-        "hard": 397
+        "easy": 72,
+        "normal": 206,
+        "hard": 311
       },
       "character_frames": {
         "player": 18,
@@ -385,9 +385,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-nubia",
       "note_counts": {
-        "easy": 358,
-        "normal": 495,
-        "hard": 581
+        "easy": 96,
+        "normal": 259,
+        "hard": 403
       },
       "character_frames": {
         "player": 18,
@@ -418,9 +418,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-nuestro-amor-no-es-normal",
       "note_counts": {
-        "easy": 319,
-        "normal": 453,
-        "hard": 555
+        "easy": 79,
+        "normal": 231,
+        "hard": 370
       },
       "character_frames": {
         "player": 18,
@@ -451,9 +451,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-peligrosa",
       "note_counts": {
-        "easy": 448,
-        "normal": 612,
-        "hard": 826
+        "easy": 103,
+        "normal": 312,
+        "hard": 499
       },
       "character_frames": {
         "player": 18,
@@ -484,9 +484,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-rompecabezas",
       "note_counts": {
-        "easy": 399,
-        "normal": 543,
-        "hard": 690
+        "easy": 87,
+        "normal": 267,
+        "hard": 430
       },
       "character_frames": {
         "player": 18,
@@ -517,9 +517,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-solare",
       "note_counts": {
-        "easy": 424,
-        "normal": 573,
-        "hard": 729
+        "easy": 99,
+        "normal": 269,
+        "hard": 402
       },
       "character_frames": {
         "player": 18,
@@ -550,9 +550,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-tristella",
       "note_counts": {
-        "easy": 362,
-        "normal": 484,
-        "hard": 591
+        "easy": 102,
+        "normal": 310,
+        "hard": 498
       },
       "character_frames": {
         "player": 18,
@@ -583,9 +583,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-tu-dealer-de-nostalgia",
       "note_counts": {
-        "easy": 390,
-        "normal": 505,
-        "hard": 665
+        "easy": 80,
+        "normal": 273,
+        "hard": 420
       },
       "character_frames": {
         "player": 18,
@@ -616,9 +616,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-un-poco-bien-un-poco-mal",
       "note_counts": {
-        "easy": 314,
-        "normal": 420,
-        "hard": 500
+        "easy": 86,
+        "normal": 263,
+        "hard": 407
       },
       "character_frames": {
         "player": 18,
@@ -649,9 +649,9 @@
       ],
       "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-volver-a-vernos",
       "note_counts": {
-        "easy": 380,
-        "normal": 476,
-        "hard": 643
+        "easy": 65,
+        "normal": 229,
+        "hard": 387
       },
       "character_frames": {
         "player": 18,

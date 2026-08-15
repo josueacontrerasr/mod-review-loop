@@ -53,15 +53,18 @@
     "volver-a-vernos"
   ],
   "release_policy": {
-    "current_mod_version": "2.6.0",
-    "change_summary": "Charts regenerados exclusivamente desde Voices-*.ogg; no se generan notas desde Inst.ogg"
+    "current_mod_version": "2.6.1",
+    "change_summary": "Corrección PlayState: chart.generatedBy obligatorio; charts refinados exclusivamente desde Voices-*.ogg; carátulas Freeplay cuadradas; Esperon-Completo incluido"
   },
   "qa_policy": {
     "rounds": 20,
     "mods_per_round": 20,
     "difficulties_per_mod": 3,
     "runtime_zip_must_exclude_evidence": true,
-    "no_artificial_version_bumps": true
+    "no_artificial_version_bumps": true,
+    "playstate_required_chart_generatedBy": "Friday Night Funkin' - 0.8.6",
+    "freeplay_cover_dimensions": [512, 512],
+    "complete_delivery_zip": "Esperon-Completo.zip"
   },
   "branch_policy": {
     "main_expected_commit": "2cd67f950b40d05f9f5e157f5ebed7510bc2ed36",
