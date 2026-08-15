@@ -1,0 +1,6 @@
+Revisión visual Wide Research V260
+
+1. La hoja `qa-lab/rebuild-v260/visual-contact-sheet-v260.png` muestra 20 grupos de album, stage y char. Las carátulas tienen contenido visible, las escenas muestran fondos y props, y no se observan columnas completamente vacías en album/stage.
+2. El atlas `mods/esperon-dano-solare/shared/images/characters/esperon-solare.png` mide 2304x192 y contiene una tira multi-frame con personajes visibles, expresiones y poses distintas sobre transparencia. No es un PNG vacío ni un atlas de un solo frame.
+3. La revisión visual estática no puede probar por sí sola que el motor ejecute cada animación en tiempo real, que el HUD se actualice o que el stage se renderice dentro del APK. Esa parte permanece limitada a loader headless y requiere playtest nativo.
+4. Los verificadores PIL/XML ya comprobaron los 60 assets principales y la integridad de atlas; las observaciones visuales no introdujeron correcciones ni cambios en producción.
