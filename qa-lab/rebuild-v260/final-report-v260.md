@@ -69,7 +69,7 @@ La diferencia de `main` frente a f75a74f incluye 40 rutas de audio: `Inst.ogg` y
 
 ## GitHub Actions y entrega
 
-La rama de laboratorio se publicó con el commit final `02b7c9887f5ab9c3ac71d1c18fd755710a251dcf`. El workflow remoto `Laboratorio QA V-Slice` terminó correctamente en el run `31895710415`, ejecutando las 20 rondas QA, el reempaquetado V2.5.1, la validación paralela 20×20 y la publicación de artifacts.
+La validación de código, entorno y evidencia terminó en el commit `02b7c9887f5ab9c3ac71d1c18fd755710a251dcf`; el commit posterior `8f41717` solo añadió este informe. El workflow remoto `Laboratorio QA V-Slice` terminó correctamente en el run `31895710415`, ejecutando las 20 rondas QA, el reempaquetado V2.5.1, la validación paralela 20×20 y la publicación de artifacts.
 
 `Mods .zip terminados/` conserva 21 ZIPs: 20 paquetes individuales V2.5.1 y una colección. No se generó una nueva versión ni un nuevo Release porque el laboratorio no encontró una mejora funcional que justificara modificar los mods o crear un incremento artificial.
 
