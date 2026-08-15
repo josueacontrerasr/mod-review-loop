@@ -24,7 +24,11 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install deterministic validation dependencies
-        run: python -m pip install --disable-pip-version-check --no-input pillow
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --disable-pip-version-check --no-input pillow
+          ffprobe -version
       - name: Validate PlayState default variation and 60 difficulties
         run: python3 tools/resolve_playstate_v260.py . --workers 8 --variations default
       - name: Validate production vocal-only charts
