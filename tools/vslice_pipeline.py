@@ -335,8 +335,11 @@ def validate_mod(mod: Path) -> dict[str, Any]:
                 collect(data)
                 for asset_path in paths:
                     normalized_path = asset_path.removeprefix("shared:")
-                    image_root = mod / "shared/images" if asset_path.startswith("shared:") else mod / "images"
-                    if not (image_root / f"{normalized_path}.png").is_file() and not (image_root / f"{normalized_path}.xml").is_file():
+                    # Paths.getPath() v0.8.6 checks the default library first and
+                    # falls back to the shared library. Character/stage data in
+                    # V2.2.2 intentionally uses the official relative form.
+                    image_roots = [mod / "shared/images"] if asset_path.startswith("shared:") else [mod / "images", mod / "shared/images"]
+                    if not any((image_root / f"{normalized_path}.png").is_file() or (image_root / f"{normalized_path}.xml").is_file() for image_root in image_roots):
                         errors.append(f"Asset no resuelto: {resource.relative_to(mod)} -> {asset_path}")
         if chart:
             for difficulty, notes in chart.get("notes", {}).items():
