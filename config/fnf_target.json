@@ -15,14 +15,30 @@
     "metadata_version": "2.2.4",
     "chart_version": "2.0.0",
     "note_style_version": "1.0.0",
-    "player_lanes": [0, 1, 2, 3],
-    "opponent_lanes": [4, 5, 6, 7],
+    "player_lanes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "opponent_lanes": [
+      4,
+      5,
+      6,
+      7
+    ],
     "album_prefix": "freeplay/albumRoll/",
     "fallback_note_style": "funkin"
   },
   "audio_policy": {
-    "primary": ["Voices.ogg", "Voices-Player.ogg", "Voices-Opponent.ogg"],
-    "secondary": ["Inst.ogg"],
+    "primary": [
+      "Voices.ogg",
+      "Voices-Player.ogg",
+      "Voices-Opponent.ogg"
+    ],
+    "secondary": [
+      "Inst.ogg"
+    ],
     "preserve_original_audio": true,
     "candidate_analysis_only_until_all_gates_pass": true,
     "chart_generation_mode": "VOCAL_ONLY",
@@ -64,12 +80,28 @@
     "runtime_zip_must_exclude_evidence": true,
     "no_artificial_version_bumps": true,
     "playstate_required_chart_generatedBy": "Friday Night Funkin' - 0.8.6",
-    "freeplay_cover_dimensions": [512, 512],
+    "freeplay_cover_dimensions": [
+      512,
+      512
+    ],
     "complete_delivery_zip": "Esperon-Completo.zip"
   },
   "branch_policy": {
     "main_expected_commit": "059ad79b1846d23491507723900c900798bc261b",
     "stable_branch_prefix": "f75a74f",
     "no_automatic_merge_or_release_on_divergence": true
-  }
+  },
+  "mod_version": "2.6.3",
+  "songs_count": 21,
+  "mods_per_qa_round": 21,
+  "qa_rounds": 20,
+  "qa_reviews_expected": 420,
+  "chart_generation_mode": "VOCAL_SYLLABLE_ALIGNED",
+  "chart_syllable_policy": {
+    "one_note_per_syllable": true,
+    "interjections_are_separate_notes": true,
+    "holds_from_measured_vocal_duration": true,
+    "low_confidence_requires_manual_review": true
+  },
+  "complete_delivery_zip": "Esperon-Completo.zip"
 }

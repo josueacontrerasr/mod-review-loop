@@ -1,0 +1,45 @@
+{
+  "scope": "ESPERON_VSLICE_086_V263_SYLLABLE_SYNC",
+  "target_version": "0.8.6",
+  "mod_version": "2.6.3",
+  "songs": 21,
+  "chart_policy": {
+    "one_note_per_syllable": true,
+    "interjections_are_separate_notes": true,
+    "holds_from_measured_vocal_duration": true,
+    "instrumental_used_for_note_generation": false,
+    "transcriber": "Whisper small, Spanish word timestamps",
+    "refinement": "local vocal RMS and word-boundary constraints"
+  },
+  "alignment_metrics": {
+    "syllable_units": 10945,
+    "interjections": 470,
+    "holds": 1126,
+    "candidate_validation": "21/21 PASS",
+    "notes_outside_syllable_intervals": 0,
+    "unaligned_notes": 0,
+    "holds_crossing_vocal_boundaries": 0,
+    "candidate_metadata_leaked": 0,
+    "bad_lanes": 0
+  },
+  "local_gates": {
+    "playstate": "63/63 PASS",
+    "production_syllable": "21/21 PASS",
+    "contracts_assets": "21/21 PASS",
+    "individual_zips": "21/21 PASS",
+    "complete_zip": "PASS; 21 roots",
+    "headless_mobile_loader": "21/21 PASS",
+    "qa_rounds": 20,
+    "mods_per_round": 21,
+    "qa_reviews": "420/420 PASS",
+    "complete_zip_crc": "PASS",
+    "delivery_zips": 22,
+    "runtime_zip_clean": "PASS"
+  },
+  "remote_gate": {
+    "status": "NOT_STARTED",
+    "workflow": "qa-playstate-vocal-freeplay-v263.yml"
+  },
+  "release_decision": "BLOCKED_UNTIL_REMOTE_GATE_PASS",
+  "mobile_playtest": "PENDING_REAL_DEVICE"
+}
