@@ -3,6 +3,9 @@ set -euo pipefail
 ROOT="${1:-.}"
 WORKERS="${WORKERS:-2}"
 cd "$ROOT"
+# Los candidatos son outputs efímeros del job. Eliminar resultados de runs anteriores
+# evita que el validador confunda reports stale con outputs del run actual.
+rm -rf sync-candidates/logs sync-candidates/results
 mkdir -p sync-candidates/logs sync-candidates/results
 find mods -mindepth 1 -maxdepth 1 -type d -name 'esperon-dano-*' -print0 |
   xargs -0 -r -n1 -P"$WORKERS" bash -c '

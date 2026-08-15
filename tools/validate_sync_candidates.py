@@ -20,6 +20,9 @@ def main() -> int:
     root = Path(sys.argv[1] if len(sys.argv) > 1 else ".").resolve()
     manifests = sorted((root / "sync-candidates" / "input-manifests").glob("*.json"))
     reports = []
+    expected_songs = 20
+    if len(manifests) != expected_songs:
+        reports.append({"song": "<manifest-set>", "status": "ERROR", "errors": [f"se esperaban {expected_songs} manifests y hay {len(manifests)}"]})
     for manifest_path in manifests:
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         song = manifest["song"]
@@ -35,8 +38,14 @@ def main() -> int:
             chart = json.loads(chart_path.read_text(encoding="utf-8"))
             if report.get("status") != "MANUAL_REVIEW_REQUIRED":
                 errors.append("estado candidato no seguro")
+            if report.get("song") != song:
+                errors.append("song del report no coincide con el manifest")
+            if report.get("audio", {}).get("path") != manifest["final_audio"]["path"]:
+                errors.append("ruta de audio del candidato no coincide")
             if report.get("audio", {}).get("sha256") != manifest["final_audio"]["sha256"]:
                 errors.append("hash de audio del candidato no coincide")
+            if not report.get("analysis_audio", {}).get("sha256"):
+                errors.append("hash del audio de análisis ausente")
             if chart.get("version") != "2.0.0" or chart.get("candidateOnly") is not True:
                 errors.append("chart candidato no declarado correctamente")
             duration_ms = float(report.get("audio", {}).get("duration_ms", 0))
@@ -72,6 +81,9 @@ def main() -> int:
     output = root / "sync-candidates" / "validation.json"
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({key: payload[key] for key in ("songs", "passed", "status")}, ensure_ascii=False))
+    for report in reports:
+        if report["status"] != "PASS":
+            print(json.dumps({"song": report["song"], "errors": report["errors"]}, ensure_ascii=False), file=sys.stderr)
     return 0 if payload["status"] == "PASS" else 1
 
 if __name__ == "__main__":
