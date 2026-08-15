@@ -10,7 +10,7 @@
     "failed_error": "hash de audio del candidato no coincide",
     "affected_reports": 19,
     "fresh_local_reproduction": {"songs": 20, "passed": 20, "status": "PASS"},
-    "remote_run": {"id": 31894035369, "status": "success", "songs": 20, "passed": 20, "validation_status": "PASS", "artifact": "https://api.github.com/repos/josueacontrerasr/mod-review-loop/actions/artifacts/9249510012/zip"}
+    "remote_run": {"id": 31894035369, "status": "success", "songs": 20, "passed": 20, "validation_status": "PASS", "artifact": "https://api.github.com/repos/josueacontrerasr/mod-review-loop/actions/artifacts/9249329474/zip"}
   },
   "fixes": [
     "run_all_sync_candidates.sh now removes sync-candidates/logs and sync-candidates/results before generating.",
