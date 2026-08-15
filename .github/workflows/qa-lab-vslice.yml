@@ -42,8 +42,13 @@ jobs:
           ffmpeg -version
           ffprobe -version
 
-      - name: Ejecutar 20 rondas QA
+      - name: Ejecutar 20 rondas QA históricas
         run: python tools/run_qa_lab.py . --rounds 20 --clean --previews --workers 4
+
+      - name: Ejecutar QA paralelo V2.2.2 (20 rondas × 20 mods)
+        run: |
+          python tools/validate_v222_runtime_contract.py .
+          python tools/run_qa_v222_20x20.py
 
       - name: Publicar artifacts de QA
         if: always()
@@ -55,6 +60,7 @@ jobs:
             qa-lab/baseline/**
             qa-lab/final/**
             qa-lab/previews/**
+            qa-lab/rebuild-v222/**
           if-no-files-found: error
           retention-days: 30
 

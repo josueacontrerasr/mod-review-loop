@@ -38,8 +38,14 @@ jobs:
       - name: Validar charts candidatos, animaciones vocales, note styles y HUD V2 sin tocar contenido musical
         run: python tools/validate_sync_ui_v2.py .
 
-      - name: Reconstruir colección solo si cambió un ZIP vigente
-        run: python tools/build_master_collection_zip.py .
+      - name: Validar contrato runtime V2.2.2 de stages, personajes, note styles y álbumes
+        run: python tools/validate_v222_runtime_contract.py .
+
+      - name: Validar ZIPs individuales V2.2.2
+        run: python tools/validate_v222_zips.py .
+
+      - name: Reconstruir colección V2.2.2 solo si cambió un ZIP vigente
+        run: python tools/build_master_collection_v222.py .
 
       - name: Publicar reportes de la ejecución
         if: always()
@@ -50,7 +56,7 @@ jobs:
             artifacts/reports/**
             artifacts/sync-ui-v2-validation.json
             artifacts/ui-audit/**
-            qa-lab/rebuild-v221/**
+            qa-lab/rebuild-v222/**
             sync-candidates/chart-vocal-comparisons/**
             sync-candidates/chart-vocal-candidate-comparisons/**
             sync-candidates/voice-aligned-charts/**
