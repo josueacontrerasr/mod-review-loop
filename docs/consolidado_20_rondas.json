@@ -1,0 +1,42 @@
+{
+  "rounds_requested": 20,
+  "rounds_completed": 20,
+  "mods_per_round": 20,
+  "file_audits_total": 16400,
+  "structural_errors_total": 0,
+  "warnings_total": 400,
+  "all_rounds_structural_pass": true,
+  "stable_mod_fingerprints": 20,
+  "unstable_mods": [],
+  "sync_status_counts": {
+    "REQUIRES_HUMAN_REVIEW": 20
+  },
+  "sync_status_by_mod": {
+    "esperon-dano-arcoloria": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-cortamos-y-volvemos": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-dano": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-dias-magicos": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-eclipsis": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-fango": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-luma": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-maraton-de-peliculas": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-meteora": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-mi-hogar": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-nubia": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-nuestro-amor-no-es-normal": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-peligrosa": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-rompecabezas": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-solare": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-tristella": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-tu-dealer-de-nostalgia": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-un-poco-bien-un-poco-mal": "REQUIRES_HUMAN_REVIEW",
+    "esperon-dano-volver-a-vernos": "REQUIRES_HUMAN_REVIEW"
+  },
+  "conclusion": "STRUCTURAL_AND_PACKAGE_AUDIT_PASS",
+  "synchronization_conclusion": "NO_SE_PUEDE_AFIRMAR_100_POR_CIENTO_SIN_AUDIO_SYNC_TEST_Y_PLAYTEST_MOVIL; los informes de sincronía actuales mantienen revisión humana requerida.",
+  "references": [
+    "https://funkincrew-funkin-59.mintlify.app/tools/chart-editor",
+    "https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/verify-release-integrity"
+  ]
+}

@@ -2,7 +2,7 @@
   "version": "2.2.4",
   "songName": "Días Mágicos",
   "artist": "Esperón",
-  "charter": "Manus AI — chart de referencia",
+  "charter": "Manus AI — chart vocalmente alineado por onsets independientes; requiere Audio Sync Test móvil",
   "offsets": {},
   "playData": {
     "difficulties": [
@@ -13,22 +13,26 @@
     "characters": {
       "player": "esperon-dias-magicos",
       "opponent": "rival-dias-magicos",
-      "playerVocals": [],
+      "playerVocals": [
+        "esperon-dias-magicos"
+      ],
       "opponentVocals": []
     },
     "stage": "escenario-dias-magicos",
-    "noteStyle": "funkin",
+    "noteStyle": "esperon-dias-magicos-notes",
     "ratings": {
       "easy": 0,
       "normal": 1,
       "hard": 2
-    }
+    },
+    "album": "esperon-dias-magicos",
+    "songVariations": []
   },
   "timeChanges": [
     {
       "t": 0,
       "b": 0,
-      "bpm": 120.0,
+      "bpm": 139.675,
       "bt": [
         4,
         4,
@@ -37,5 +41,5 @@
       ]
     }
   ],
-  "generatedBy": "Friday Night Funkin' - 0.8.6"
+  "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack"
 }

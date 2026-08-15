@@ -1,0 +1,155 @@
+{
+  "scope": "WIDE_AUDIO_TIMING_ANALYSIS_V260",
+  "executed_at": "2026-08-15T16:23:41.426932+00:00",
+  "target_version": "0.8.6",
+  "songs": 20,
+  "parallel_workers": 2,
+  "passed": 20,
+  "status": "PASS",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-arcoloria/songs/arcoloria/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/arcoloria.json",
+      "returncode": 0
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-cortamos-y-volvemos/songs/cortamos-y-volvemos/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/cortamos-y-volvemos.json",
+      "returncode": 0
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-dano/songs/dano/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/dano.json",
+      "returncode": 0
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-dias-magicos/songs/dias-magicos/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/dias-magicos.json",
+      "returncode": 0
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-eclipsis/songs/eclipsis/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/eclipsis.json",
+      "returncode": 0
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-fango/songs/fango/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/fango.json",
+      "returncode": 0
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-luma/songs/luma/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/luma.json",
+      "returncode": 0
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-maraton-de-peliculas/songs/maraton-de-peliculas/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/maraton-de-peliculas.json",
+      "returncode": 0
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/me-voy-a-morir-si-no-me-besas-ahora-mismo.json",
+      "returncode": 0
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-meteora/songs/meteora/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/meteora.json",
+      "returncode": 0
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-mi-hogar/songs/mi-hogar/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/mi-hogar.json",
+      "returncode": 0
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-nubia/songs/nubia/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/nubia.json",
+      "returncode": 0
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-nuestro-amor-no-es-normal/songs/nuestro-amor-no-es-normal/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/nuestro-amor-no-es-normal.json",
+      "returncode": 0
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-peligrosa/songs/peligrosa/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/peligrosa.json",
+      "returncode": 0
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-rompecabezas/songs/rompecabezas/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/rompecabezas.json",
+      "returncode": 0
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-solare/songs/solare/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/solare.json",
+      "returncode": 0
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-tristella/songs/tristella/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/tristella.json",
+      "returncode": 0
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-tu-dealer-de-nostalgia/songs/tu-dealer-de-nostalgia/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/tu-dealer-de-nostalgia.json",
+      "returncode": 0
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-un-poco-bien-un-poco-mal/songs/un-poco-bien-un-poco-mal/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/un-poco-bien-un-poco-mal.json",
+      "returncode": 0
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "audio": "mods/esperon-dano-volver-a-vernos/songs/volver-a-vernos/Inst.ogg",
+      "output": "qa-lab/rebuild-v260/audio-timing/volver-a-vernos.json",
+      "returncode": 0
+    }
+  ],
+  "policy": [
+    "El análisis produce candidatos de tempo/onset; no promociona offsets ni modifica charts.",
+    "La sincronía vocal definitiva requiere stems vocales identificados, Audio Sync Test y playtest móvil."
+  ]
+}

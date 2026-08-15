@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "peligrosa",
+  "mod": "esperon-dano-peligrosa",
+  "audio_duration_ms": 237122.177,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "e33fec864e2120615154e1e0f2c98e79fedddcf76c7919acaafa88f5eecc7849",
+  "difficulties": {
+    "easy": {
+      "production_notes": 115,
+      "valid_notes": 115,
+      "candidate_vocal_notes": 317,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 197.369,
+      "within_75ms_of_candidate_percent": 22.609
+    },
+    "normal": {
+      "production_notes": 229,
+      "valid_notes": 229,
+      "candidate_vocal_notes": 475,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 139.319,
+      "within_75ms_of_candidate_percent": 33.624
+    },
+    "hard": {
+      "production_notes": 229,
+      "valid_notes": 229,
+      "candidate_vocal_notes": 633,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 92.88,
+      "within_75ms_of_candidate_percent": 43.668
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

@@ -1,0 +1,274 @@
+{
+  "scope": "PLAYSTATE_GENERATEDBY_REPAIR_V260",
+  "executed_at": "2026-08-15T17:57:16.139365+00:00",
+  "target_version": "0.8.6",
+  "songs": 20,
+  "patched": 20,
+  "status": "PASS",
+  "required_field": "SongChartData.generatedBy",
+  "generatedBy": "Friday Night Funkin' - 0.8.6",
+  "audio_modified": false,
+  "assets_modified": false,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "path": "mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-chart.json",
+      "sha256_before": "4d0c59881fe6caec06ce703c21ac2cd48a772c76e9b9e4d0c6b210ad4e1cda04",
+      "sha256_after": "53e44af666c735746b71711a26163abe326415682be741d7600c334977869ebd",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 17,
+        "normal": 50,
+        "hard": 56
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "path": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-chart.json",
+      "sha256_before": "761ba0b0dbff856e3f0f0a45a799d10f6779b708d73a43781222cd3d984fc77d",
+      "sha256_after": "96e77f9ea4f5b49dfcd207f2032abd96ef09bb5fd1be240974bbfd202fdc5528",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 247,
+        "normal": 572,
+        "hard": 731
+      }
+    },
+    {
+      "song": "dano",
+      "path": "mods/esperon-dano-dano/data/songs/dano/dano-chart.json",
+      "sha256_before": "134623a5e6a1a2b7e392fd2b5db41a0377580cadc40a389bfed1a738565f4a0d",
+      "sha256_after": "58c3af30e5050b07d0105a7561e72b9d838209498193fd0e2ef4e470c36c65fb",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 260,
+        "normal": 601,
+        "hard": 777
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "path": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-chart.json",
+      "sha256_before": "ac2256914e4d04411fb9617caa4443c50784b0984322d4a42b8ec34664df293b",
+      "sha256_after": "50b8634adb239c3ab936b2dbdec751ffeab42ad91dcd9c5e7703a3414227bb42",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 249,
+        "normal": 654,
+        "hard": 804
+      }
+    },
+    {
+      "song": "eclipsis",
+      "path": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-chart.json",
+      "sha256_before": "3efef7b9215f2b3b33787162dd46d056f0ee891e23bfd4e60b627c2d9dae9446",
+      "sha256_after": "06d46349e1f3f220d48e52f30143ea1c6ec6f87d5a466567b85bbd3ab5f2dbdd",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 230,
+        "normal": 611,
+        "hard": 746
+      }
+    },
+    {
+      "song": "fango",
+      "path": "mods/esperon-dano-fango/data/songs/fango/fango-chart.json",
+      "sha256_before": "3f8780df9fa42cd94282728245b9ebceaec9a677328735a2136733cc9b918b15",
+      "sha256_after": "a512794840a8c11dbaf794bb8f55ec638fe8a71d2bf6b060cc12f01fc2a3567c",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 191,
+        "normal": 518,
+        "hard": 656
+      }
+    },
+    {
+      "song": "luma",
+      "path": "mods/esperon-dano-luma/data/songs/luma/luma-chart.json",
+      "sha256_before": "41d0788315979d0bf189f9bebd442c653b8fc3783077bc9373cbc3329b9b40c3",
+      "sha256_after": "eb7d35738b84dd6bf2c36b7f86434c245df19f5d4b72371703c6522362288341",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 81,
+        "normal": 247,
+        "hard": 295
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "path": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json",
+      "sha256_before": "f6afc91d41083e2d0e0fe0b3360f5eb4926a0cb7b6a5a4b0c860610a00bbc92a",
+      "sha256_after": "1d69aaa6ff6de22e6f291ccd55a02fe52ea74eda8265f55ada7e3677257db096",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 189,
+        "normal": 529,
+        "hard": 596
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart.json",
+      "sha256_before": "624e8841e7c6e7bdafe854ef34eeda8f9ef76f80433957d8b1ab9649a7ecef4c",
+      "sha256_after": "e7a99ccae43641e439f78812831668bc3a095d1a2b0a6742bca82d07e6a269cb",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 140,
+        "normal": 416,
+        "hard": 506
+      }
+    },
+    {
+      "song": "meteora",
+      "path": "mods/esperon-dano-meteora/data/songs/meteora/meteora-chart.json",
+      "sha256_before": "649648b4b521199cfe87d52264f22e78f8256f36e83c3b9087a2564a48453dfa",
+      "sha256_after": "99b6596631338f1da5f83847f9787a2e1158857982778f16947f6cba271d9443",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 110,
+        "normal": 295,
+        "hard": 324
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "path": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-chart.json",
+      "sha256_before": "6a4a599e5ce2352d685bf3984e545a32de3b2514f72d60e6c273ad16fab6383b",
+      "sha256_after": "f2cee09cc52d3790bed1e7e2224aeba0a433261f26743f188910a86dfd2fd165",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 148,
+        "normal": 405,
+        "hard": 506
+      }
+    },
+    {
+      "song": "nubia",
+      "path": "mods/esperon-dano-nubia/data/songs/nubia/nubia-chart.json",
+      "sha256_before": "79f3ae77f1b14ed2a750239c486fd4446c08a8e58f64b6237bc75d66874b8b7e",
+      "sha256_after": "b095023f0397b7be6a9ea2bacdc043a61574c2ab28192df127cc4110ba1f20e6",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 185,
+        "normal": 520,
+        "hard": 630
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "path": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart.json",
+      "sha256_before": "ac5ac6ed6790cf6afab0f80db4af7f2c6719f589425f8c9447cb66622c1ad635",
+      "sha256_after": "1e3465915d5acb7339945a3b4aabe3905df360cde408d0c4f260ca0be6ae0c36",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 155,
+        "normal": 393,
+        "hard": 520
+      }
+    },
+    {
+      "song": "peligrosa",
+      "path": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-chart.json",
+      "sha256_before": "94525d47dffbe2c16f3fb66b030138d5f205b720c8c49a145be55b7fd3f998cc",
+      "sha256_after": "276405f537872f88e7f5cde407b0c9e865dd7cc0dab4796f3b3551e8ba70a955",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 262,
+        "normal": 656,
+        "hard": 804
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "path": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-chart.json",
+      "sha256_before": "d8885d069f784f489ed6f87cc1d20b2f9e49968a5e1cb0150516e9d165abd455",
+      "sha256_after": "4cf3405ccdf9d0c68f83c5633534ce904383af4d58744c4b5b786bc103bdb4c6",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 213,
+        "normal": 571,
+        "hard": 693
+      }
+    },
+    {
+      "song": "solare",
+      "path": "mods/esperon-dano-solare/data/songs/solare/solare-chart.json",
+      "sha256_before": "73b663c5f70a872645990017ad906f20725cd09ee15dba23665dad50418a68bb",
+      "sha256_after": "3d69e535191a12f7ec07f33f31dd69daa1fc3341e263dea14df09bf8a489874f",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 176,
+        "normal": 465,
+        "hard": 580
+      }
+    },
+    {
+      "song": "tristella",
+      "path": "mods/esperon-dano-tristella/data/songs/tristella/tristella-chart.json",
+      "sha256_before": "22f97292e2df3b32826698de180e77f2f8b1ceddaeb7acafe900e39c28a4f22a",
+      "sha256_after": "fef488d110f36dd742421614373b1634169d009cb2d66a104c3fcae4321a9bc7",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 214,
+        "normal": 607,
+        "hard": 756
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "path": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json",
+      "sha256_before": "634dcf7be462181adf9010b16dbc5463d23966f19dff846670e588c04696cbc8",
+      "sha256_after": "e732ebbc48b2872ccf0966ffdc2846d47e7825fda03ecb640903da3f40e4f51a",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 197,
+        "normal": 522,
+        "hard": 659
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "path": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart.json",
+      "sha256_before": "0ef3b5d4718fe815cd96b4018230798d3daf82a960ac08a1937282b6c9139412",
+      "sha256_after": "e489248733328a431ccb85b2bbab00775bbaf1d3d9b03d500e881b4ca60d1f59",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 141,
+        "normal": 455,
+        "hard": 563
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "path": "mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-chart.json",
+      "sha256_before": "2e4e55da95d28f799ea8526ecee8545ce9bba0bb05fe7a179debd71b417337dd",
+      "sha256_after": "e9f9b573d855f9bfaa54a6defead3631b978fc8dd73d54589f84bd68536fa3cf",
+      "previous_generatedBy": null,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "notes_unchanged_by_count": {
+        "easy": 167,
+        "normal": 470,
+        "hard": 573
+      }
+    }
+  ]
+}

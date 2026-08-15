@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "meteora",
+  "mod": "esperon-dano-meteora",
+  "audio_duration_ms": 193004.263,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "99cb15bb7b5a605a05a05427c16ad2a0e40e4326a0ea44f8fe20b7e6b32f5d89",
+  "difficulties": {
+    "easy": {
+      "production_notes": 99,
+      "valid_notes": 99,
+      "candidate_vocal_notes": 196,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 232.199,
+      "within_75ms_of_candidate_percent": 18.182
+    },
+    "normal": {
+      "production_notes": 198,
+      "valid_notes": 198,
+      "candidate_vocal_notes": 294,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 197.37,
+      "within_75ms_of_candidate_percent": 28.283
+    },
+    "hard": {
+      "production_notes": 198,
+      "valid_notes": 198,
+      "candidate_vocal_notes": 392,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 174.149,
+      "within_75ms_of_candidate_percent": 36.869
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

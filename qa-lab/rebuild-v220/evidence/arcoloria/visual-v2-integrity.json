@@ -1,0 +1,21 @@
+{
+  "scope": "VISUAL_ONLY",
+  "protected_before": {
+    "chart_sha256": "949322738b1903ce6f2cae532c577879759ce14ef7084e4174728abbbb121313",
+    "inst_sha256": "6f5ae49728c0bf5962b80d12c0ae6ff1c6221add55094af07baf146457277645"
+  },
+  "protected_after": {
+    "chart_sha256": "949322738b1903ce6f2cae532c577879759ce14ef7084e4174728abbbb121313",
+    "inst_sha256": "6f5ae49728c0bf5962b80d12c0ae6ff1c6221add55094af07baf146457277645"
+  },
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonArcoloriaHudV2.hxc",
+    "class": "EsperonArcoloriaHudV2",
+    "player_character_id": "esperon-arcoloria",
+    "opponent_color": "0xFF4BCFBA",
+    "player_color": "0xFFE960A9",
+    "preview": "images/ui/esperon-arcoloria-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
+}

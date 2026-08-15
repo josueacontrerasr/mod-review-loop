@@ -1,0 +1,26 @@
+import funkin.play.PlayState;
+
+/**
+ * HUD visual V2 para Volver a Vernos.
+ * Solo recoloriza la barra de vida al inicio del conteo.
+ * No modifica audio, BPM, offsets, chart, notas ni eventos musicales.
+ */
+import funkin.modding.module.Module;
+
+class EsperonVolverAVernosHudV2 extends Module
+{
+  function new()
+  {
+    super("Esperón HUD — Volver a Vernos", 1, {state: PlayState});
+  }
+
+  override function onCountdownStart(event)
+  {
+    super.onCountdownStart(event);
+    if (PlayState.instance == null || PlayState.instance.healthBar == null) return;
+    if (PlayState.instance.iconP1 == null) return;
+    if (PlayState.instance.iconP1.characterId != "esperon-volver-a-vernos") return;
+    PlayState.instance.healthBar.createFilledBar(0xFF6FA1E5, 0xFFEF7CB0);
+    PlayState.instance.healthBar.updateBar();
+  }
+}

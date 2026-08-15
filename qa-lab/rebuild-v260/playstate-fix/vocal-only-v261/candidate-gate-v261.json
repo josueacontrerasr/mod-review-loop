@@ -1,0 +1,352 @@
+{
+  "scope": "VOCAL_ALIGNED_CANDIDATE_GATE_V261",
+  "executed_at": "2026-08-15T18:04:10.204931+00:00",
+  "target_version": "0.8.6",
+  "songs": 20,
+  "passed": 20,
+  "status": "PASS",
+  "total_outside_segment_notes": 0,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "counts": {
+        "easy": 9,
+        "normal": 12,
+        "hard": 17
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 25,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "counts": {
+        "easy": 91,
+        "normal": 292,
+        "hard": 482
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 81,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "counts": {
+        "easy": 59,
+        "normal": 274,
+        "hard": 468
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 58,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "counts": {
+        "easy": 113,
+        "normal": 329,
+        "hard": 520
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 38,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "counts": {
+        "easy": 97,
+        "normal": 318,
+        "hard": 497
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 70,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "counts": {
+        "easy": 100,
+        "normal": 266,
+        "hard": 431
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 65,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "counts": {
+        "easy": 21,
+        "normal": 55,
+        "hard": 87
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 102,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "counts": {
+        "easy": 86,
+        "normal": 222,
+        "hard": 343
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 137,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "counts": {
+        "easy": 81,
+        "normal": 230,
+        "hard": 342
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 39,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "counts": {
+        "easy": 41,
+        "normal": 120,
+        "hard": 191
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 143,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "counts": {
+        "easy": 72,
+        "normal": 206,
+        "hard": 311
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 23,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "counts": {
+        "easy": 96,
+        "normal": 259,
+        "hard": 403
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 106,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "counts": {
+        "easy": 79,
+        "normal": 231,
+        "hard": 370
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 92,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "counts": {
+        "easy": 103,
+        "normal": 312,
+        "hard": 499
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 83,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "counts": {
+        "easy": 87,
+        "normal": 267,
+        "hard": 430
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 102,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "counts": {
+        "easy": 99,
+        "normal": 269,
+        "hard": 402
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 159,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "counts": {
+        "easy": 102,
+        "normal": 310,
+        "hard": 498
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 60,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "counts": {
+        "easy": 80,
+        "normal": 273,
+        "hard": 420
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 54,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "counts": {
+        "easy": 86,
+        "normal": 263,
+        "hard": 407
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 80,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "counts": {
+        "easy": 65,
+        "normal": 229,
+        "hard": 387
+      },
+      "outside_segments": {
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      },
+      "segment_count": 99,
+      "sourcePolicy": "NO_INSTRUMENTAL_NOTES",
+      "errors": []
+    }
+  ],
+  "instrumental_used": false
+}

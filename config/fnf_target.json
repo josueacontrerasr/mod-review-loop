@@ -1,0 +1,74 @@
+{
+  "fnf_version": "0.8.6",
+  "api_version": "0.8.6",
+  "version_policy": {
+    "locked": true,
+    "allow_change_only_when_user_explicitly_requests": true,
+    "environment_override": "FNF_VERSION"
+  },
+  "platform": "official-mobile-vslice",
+  "mobile_simulation_root": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods",
+  "runtime_mod_root": "mods",
+  "delivery_root": "Mods .zip terminados",
+  "contracts": {
+    "manifest": "_polymod_meta.json",
+    "metadata_version": "2.2.4",
+    "chart_version": "2.0.0",
+    "note_style_version": "1.0.0",
+    "player_lanes": [0, 1, 2, 3],
+    "opponent_lanes": [4, 5, 6, 7],
+    "album_prefix": "freeplay/albumRoll/",
+    "fallback_note_style": "funkin"
+  },
+  "audio_policy": {
+    "primary": ["Voices.ogg", "Voices-Player.ogg", "Voices-Opponent.ogg"],
+    "secondary": ["Inst.ogg"],
+    "preserve_original_audio": true,
+    "candidate_analysis_only_until_all_gates_pass": true,
+    "chart_generation_mode": "VOCAL_ONLY",
+    "instrumental_can_generate_notes": false,
+    "internal_initial_anchor_tolerance_ms": 5,
+    "internal_initial_section_drift_tolerance_ms": 10
+  },
+  "parallel_songs": [
+    "arcoloria",
+    "cortamos-y-volvemos",
+    "dano",
+    "dias-magicos",
+    "eclipsis",
+    "fango",
+    "luma",
+    "maraton-de-peliculas",
+    "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+    "meteora",
+    "mi-hogar",
+    "nubia",
+    "nuestro-amor-no-es-normal",
+    "peligrosa",
+    "rompecabezas",
+    "solare",
+    "tristella",
+    "tu-dealer-de-nostalgia",
+    "un-poco-bien-un-poco-mal",
+    "volver-a-vernos"
+  ],
+  "release_policy": {
+    "current_mod_version": "2.6.1",
+    "change_summary": "Corrección PlayState: chart.generatedBy obligatorio; charts refinados exclusivamente desde Voices-*.ogg; carátulas Freeplay cuadradas; Esperon-Completo incluido"
+  },
+  "qa_policy": {
+    "rounds": 20,
+    "mods_per_round": 20,
+    "difficulties_per_mod": 3,
+    "runtime_zip_must_exclude_evidence": true,
+    "no_artificial_version_bumps": true,
+    "playstate_required_chart_generatedBy": "Friday Night Funkin' - 0.8.6",
+    "freeplay_cover_dimensions": [512, 512],
+    "complete_delivery_zip": "Esperon-Completo.zip"
+  },
+  "branch_policy": {
+    "main_expected_commit": "2cd67f950b40d05f9f5e157f5ebed7510bc2ed36",
+    "stable_branch_prefix": "f75a74f",
+    "no_automatic_merge_or_release_on_divergence": true
+  }
+}

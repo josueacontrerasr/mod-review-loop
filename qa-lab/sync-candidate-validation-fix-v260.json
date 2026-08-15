@@ -1,0 +1,26 @@
+{
+  "version": "2.6.0-sync-candidate-validation-fix",
+  "status": "PASS_REMOTE",
+  "failed_run": 31890973989,
+  "failed_commit": "f75a74fdde0eb17931707b1a88397d6baacf0246",
+  "failed_step": "Validar aislamiento y contratos candidatos",
+  "root_cause": "The workflow reused tracked sync-candidates/results from an earlier stem-based run. The current generator produced one fresh report, while 19 stale reports remained; their audio hashes did not match the freshly frozen manifests.",
+  "evidence": {
+    "failed_job_summary": {"songs": 20, "passed": 1, "status": "ERRORS_FOUND"},
+    "failed_error": "hash de audio del candidato no coincide",
+    "affected_reports": 19,
+    "fresh_local_reproduction": {"songs": 20, "passed": 20, "status": "PASS"},
+    "remote_run": {"id": 31894035369, "status": "success", "songs": 20, "passed": 20, "validation_status": "PASS", "artifact": "https://api.github.com/repos/josueacontrerasr/mod-review-loop/actions/artifacts/9249329474/zip"}
+  },
+  "fixes": [
+    "run_all_sync_candidates.sh now removes sync-candidates/logs and sync-candidates/results before generating.",
+    "validate_sync_candidates.py now requires exactly 20 manifests and validates report song, audio path and analysis audio hash.",
+    "The validator now prints per-song errors to stderr for actionable GitHub Actions logs."
+  ],
+  "production_modified": false,
+  "audio_modified": false,
+  "charts_promoted": false,
+  "local_validation": "20/20 PASS",
+  "remote_validation": "20/20 PASS",
+  "fix_commit": "f8b9812"
+}

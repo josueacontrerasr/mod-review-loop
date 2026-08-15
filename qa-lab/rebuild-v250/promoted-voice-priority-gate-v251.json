@@ -1,0 +1,589 @@
+{
+  "version": "2.5.1-promoted-voice-priority",
+  "status": "PASS",
+  "songs": 20,
+  "difficulties": 60,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "196898ba3e553f21e8b7c2a5d63b7ca1af03e8ea5af9d033ce2b13229efa4c3a",
+      "candidate_chart_sha256": "196898ba3e553f21e8b7c2a5d63b7ca1af03e8ea5af9d033ce2b13229efa4c3a",
+      "inst_sha256": "c9d6043842dbfb735102809f4d9860263249f2915703c74b2539b09421763437",
+      "voice_shas": {
+        "Voices-esperon-arcoloria.ogg": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282"
+      },
+      "counts": {
+        "easy": 364,
+        "normal": 474,
+        "hard": 566
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 101.333,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "06a39b5d025452c62b66089b2605f55c47c6375dcf04885d58a98a19d400cc7b",
+      "candidate_chart_sha256": "06a39b5d025452c62b66089b2605f55c47c6375dcf04885d58a98a19d400cc7b",
+      "inst_sha256": "d7ad308125b558ead8cf26daa7d8890fd5c7da8f88524db2213fba77b71bdf98",
+      "voice_shas": {
+        "Voices-esperon-cortamos-y-volvemos.ogg": "0ec71bd2381a39212b549071a8ba617fd36753b9b0ea5343757d5e6224d745c1"
+      },
+      "counts": {
+        "easy": 434,
+        "normal": 563,
+        "hard": 777
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 172.266,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "11ee78bbf9602f7744044081a15b3a5557deaa45fcf3902e3286d9a8d18ba33f",
+      "candidate_chart_sha256": "11ee78bbf9602f7744044081a15b3a5557deaa45fcf3902e3286d9a8d18ba33f",
+      "inst_sha256": "1cd2bca7478ff391d95def339185125e2d5bd2a4bdeb28846610059ebe609824",
+      "voice_shas": {
+        "Voices-esperon-dano.ogg": "bcef47cacf8685fd1d0f06918bdf577394cb4537771dc9b0bcf9956a0a4cd253"
+      },
+      "counts": {
+        "easy": 438,
+        "normal": 625,
+        "hard": 869
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 126.048,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "abd56087ddb1354244d5c68b48afb9f5b3460f14d32754341d57114b1a37c789",
+      "candidate_chart_sha256": "abd56087ddb1354244d5c68b48afb9f5b3460f14d32754341d57114b1a37c789",
+      "inst_sha256": "b4ceae0d92b042011f30aeee561ad912cad76457708641ade711e2ff90bb45e8",
+      "voice_shas": {
+        "Voices-esperon-dias-magicos.ogg": "96fd2c6aeccdc860a4e519b7bcb2156d723d75934fc6856c4fa766e238350422"
+      },
+      "counts": {
+        "easy": 397,
+        "normal": 572,
+        "hard": 669
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 139.675,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "48c2c17bcdecf53a12faa46dd2eb5d4b8a4eec4aac70348f131000e2527879dc",
+      "candidate_chart_sha256": "48c2c17bcdecf53a12faa46dd2eb5d4b8a4eec4aac70348f131000e2527879dc",
+      "inst_sha256": "0ae33be6f978292d671b2446222c9cefa28cf00b61785956793c548121db0af4",
+      "voice_shas": {
+        "Voices-esperon-eclipsis.ogg": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98"
+      },
+      "counts": {
+        "easy": 400,
+        "normal": 557,
+        "hard": 658
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 109.957,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "3bbf098d32f7da615babe36e60b3bf690097b3a123141da4a02bc7a61a7e64cd",
+      "candidate_chart_sha256": "3bbf098d32f7da615babe36e60b3bf690097b3a123141da4a02bc7a61a7e64cd",
+      "inst_sha256": "40a0f3d26913562278893293d0f679b587c9b803be704573eafc79140060e628",
+      "voice_shas": {
+        "Voices-esperon-fango.ogg": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595"
+      },
+      "counts": {
+        "easy": 355,
+        "normal": 479,
+        "hard": 596
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 90.666,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "a43018bc67da3adcba3998f57c282255ec93fecd0834cf29843d34640bcf089b",
+      "candidate_chart_sha256": "a43018bc67da3adcba3998f57c282255ec93fecd0834cf29843d34640bcf089b",
+      "inst_sha256": "ea04b8654bc702ed1e4db2c2f582dc774026fea9da199d018a97c42c6494f3b9",
+      "voice_shas": {
+        "Voices-esperon-luma.ogg": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae"
+      },
+      "counts": {
+        "easy": 360,
+        "normal": 458,
+        "hard": 552
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 71.777,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "4c9315a37f36bd6408cc5b8b37b42bd3fd44861debcc86899b91f65c8f190adc",
+      "candidate_chart_sha256": "4c9315a37f36bd6408cc5b8b37b42bd3fd44861debcc86899b91f65c8f190adc",
+      "inst_sha256": "f4347aa912ef3419bb38edc14e43866223b2ea069071b449dae7d6bde8d0eb6a",
+      "voice_shas": {
+        "Voices-esperon-maraton-de-peliculas.ogg": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29"
+      },
+      "counts": {
+        "easy": 426,
+        "normal": 657,
+        "hard": 759
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 135.999,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "fbc194ea40d8c47445fe8c281d25e2a4a5d27c5329befa4ef81c1902fe3e914a",
+      "candidate_chart_sha256": "fbc194ea40d8c47445fe8c281d25e2a4a5d27c5329befa4ef81c1902fe3e914a",
+      "inst_sha256": "dcdf0c71bae7ad7963915f0197c13249d368e6fde92f471646b9dd463c89bec1",
+      "voice_shas": {
+        "Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg": "c7b009564ad9e319f244ef9068116e900b19a1e6b963ef9ab92b12d895454968"
+      },
+      "counts": {
+        "easy": 271,
+        "normal": 352,
+        "hard": 407
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 101.333,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "c26e08db8250ab015665f5566ce8e8f2ce26718220130adf428d26fd6100881c",
+      "candidate_chart_sha256": "c26e08db8250ab015665f5566ce8e8f2ce26718220130adf428d26fd6100881c",
+      "inst_sha256": "4b18e19fa889a5a1e598e33592eff10aa2f6dd6fc1c07b008cea52ddaf1f3925",
+      "voice_shas": {
+        "Voices-esperon-meteora.ogg": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387"
+      },
+      "counts": {
+        "easy": 323,
+        "normal": 469,
+        "hard": 559
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 139.675,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "6c8491e951a0b857c43a6609b68cf96512ef7d52fc670387d8dd49c81266f8c3",
+      "candidate_chart_sha256": "6c8491e951a0b857c43a6609b68cf96512ef7d52fc670387d8dd49c81266f8c3",
+      "inst_sha256": "8fd9014f4a0e01e2a400fdbe93f2432daa2548a322dd8ffccae54e70681a0fe3",
+      "voice_shas": {
+        "Voices-esperon-mi-hogar.ogg": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2"
+      },
+      "counts": {
+        "easy": 237,
+        "normal": 322,
+        "hard": 397
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 97.509,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "c5bce7f0aee083c31fb1240f37502c0c2b901655968ab2d19257cd397aff04b6",
+      "candidate_chart_sha256": "c5bce7f0aee083c31fb1240f37502c0c2b901655968ab2d19257cd397aff04b6",
+      "inst_sha256": "63a36b6d167b033b8ee2b51d71975d47183e562e1a8f176f134ce129a52caab2",
+      "voice_shas": {
+        "Voices-esperon-nubia.ogg": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43"
+      },
+      "counts": {
+        "easy": 358,
+        "normal": 495,
+        "hard": 581
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 151.999,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "4105d443cf39f825cae5e330e76fc5b12c44d0a779026dde03ae015972aee622",
+      "candidate_chart_sha256": "4105d443cf39f825cae5e330e76fc5b12c44d0a779026dde03ae015972aee622",
+      "inst_sha256": "bf3372ba6bb1eb04250fee475b93751afc4473d7416fa28a77bbd7b03dae570d",
+      "voice_shas": {
+        "Voices-esperon-nuestro-amor-no-es-normal.ogg": "20d6a77f8924b647d65e0de5da9a54cf74f0635f1d3de658030a3dc214de303d"
+      },
+      "counts": {
+        "easy": 319,
+        "normal": 453,
+        "hard": 555
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 101.333,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "310f2694fd772532252a88541d4fc1eace63b94fa5d90ee7b7b97499a4c0d7ba",
+      "candidate_chart_sha256": "310f2694fd772532252a88541d4fc1eace63b94fa5d90ee7b7b97499a4c0d7ba",
+      "inst_sha256": "eedc916dbadc5510a2044521a081f476dfba9cb12f5bd2aa08552b819e1eb4a3",
+      "voice_shas": {
+        "Voices-esperon-peligrosa.ogg": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf"
+      },
+      "counts": {
+        "easy": 448,
+        "normal": 612,
+        "hard": 826
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 92.285,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "1bafc9ea3f3d2eada24c9f695e5591dfd283da7c5dab11e1a081cdbfd344ea13",
+      "candidate_chart_sha256": "1bafc9ea3f3d2eada24c9f695e5591dfd283da7c5dab11e1a081cdbfd344ea13",
+      "inst_sha256": "bc393a00dbf9aa19df07d4cdc218eb8587fd1770a3b446feba7dd31c0e06c3a4",
+      "voice_shas": {
+        "Voices-esperon-rompecabezas.ogg": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a"
+      },
+      "counts": {
+        "easy": 399,
+        "normal": 543,
+        "hard": 690
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 109.957,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "53724434fb222eb02f24221cd4a4d77495cccae56c3ec99795d1237950d3c632",
+      "candidate_chart_sha256": "53724434fb222eb02f24221cd4a4d77495cccae56c3ec99795d1237950d3c632",
+      "inst_sha256": "4efc709fbac7b515da7a3f486dc6f87e314b73b1bf1165f95a2117cd896da4bb",
+      "voice_shas": {
+        "Voices-esperon-solare.ogg": "a52a6af6ccb47ec8124d2761030dd114572bbf03c7416d82fa6eb6b2afc9edf8"
+      },
+      "counts": {
+        "easy": 424,
+        "normal": 573,
+        "hard": 729
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 95.703,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "0a0a13a88ffbdab556caa808b9454844b297563c2774b566fca55f423c1511cd",
+      "candidate_chart_sha256": "0a0a13a88ffbdab556caa808b9454844b297563c2774b566fca55f423c1511cd",
+      "inst_sha256": "a73be0c622e3bf6ba03ac4c7f76e0824cec099a3f8c1df4211cee79904418a9e",
+      "voice_shas": {
+        "Voices-esperon-tristella.ogg": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198"
+      },
+      "counts": {
+        "easy": 362,
+        "normal": 484,
+        "hard": 591
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 69.837,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "fc81d75428666f049a9c5f9710115fde652868551800fa7bbcda268ca5213f1d",
+      "candidate_chart_sha256": "fc81d75428666f049a9c5f9710115fde652868551800fa7bbcda268ca5213f1d",
+      "inst_sha256": "e9685a8b77720f30e7f93a39b58ccfa295ba195fbcca2a22ab80765b27dee981",
+      "voice_shas": {
+        "Voices-esperon-tu-dealer-de-nostalgia.ogg": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f"
+      },
+      "counts": {
+        "easy": 390,
+        "normal": 505,
+        "hard": 665
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 161.499,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "9ae2aaaaa97a7723de4d965d316d3f8b4deca46031eb9175b9394d3dde95f84c",
+      "candidate_chart_sha256": "9ae2aaaaa97a7723de4d965d316d3f8b4deca46031eb9175b9394d3dde95f84c",
+      "inst_sha256": "d062610df6cb868065c3737406437e1a14d817aa13488d07d09922f0d995b220",
+      "voice_shas": {
+        "Voices-esperon-un-poco-bien-un-poco-mal.ogg": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229"
+      },
+      "counts": {
+        "easy": 314,
+        "normal": 420,
+        "hard": 500
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 93.963,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "issues": [],
+      "production_chart_sha256": "f226ecf391a4a54e4d58992f5a9b170c873dc8ccb2a187ef4061c1b613e65549",
+      "candidate_chart_sha256": "f226ecf391a4a54e4d58992f5a9b170c873dc8ccb2a187ef4061c1b613e65549",
+      "inst_sha256": "e65377e51839e6e7f5d8772f02ffc729746b7923cfa5ebf86813d6a77ce11083",
+      "voice_shas": {
+        "Voices-esperon-volver-a-vernos.ogg": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14"
+      },
+      "counts": {
+        "easy": 380,
+        "normal": 476,
+        "hard": 643
+      },
+      "timeChanges": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 166.709,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "issues": []
+}

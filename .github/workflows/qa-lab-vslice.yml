@@ -1,0 +1,80 @@
+name: Laboratorio QA V-Slice
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'mods/**'
+      - 'dist/**'
+      - 'Mods .zip terminados/**'
+      - 'sync-candidates/**'
+      - 'tools/run_qa_lab.py'
+      - 'tools/validate_v251_runtime.py'
+      - 'tools/validate_v251_zips.py'
+      - 'tools/run_qa_v251_20x20.py'
+      - 'qa-lab/rebuild-v250/**'
+      - '.github/workflows/qa-lab-vslice.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: qa-lab-vslice-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # V2.5.1 queda como auditoría histórica; V2.6.1 es el gate vigente.
+  qa-lab:
+    if: github.ref_name != 'main' && github.ref_name != 'auto/playstate-fix-v260'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias de sistema
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Instalar dependencias de QA
+        run: |
+          python -m pip install --upgrade pip Pillow
+          ffmpeg -version
+          ffprobe -version
+
+      - name: Ejecutar 20 rondas QA históricas
+        run: python tools/run_qa_lab.py . --rounds 20 --clean --previews --workers 4
+
+      - name: Reempaquetar ZIPs y colección V2.5.1 en el runner
+        run: python tools/package_v251_fixed.py
+
+      - name: Ejecutar QA paralelo V2.5.1 (20 rondas × 20 mods)
+        run: |
+          python tools/validate_v251_runtime.py .
+          python tools/validate_v251_zips.py
+          python tools/run_qa_v251_20x20.py
+
+      - name: Publicar artifacts de QA
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-lab-vslice-${{ github.run_id }}
+          path: |
+            qa-lab/artifacts/**
+            qa-lab/baseline/**
+            qa-lab/final/**
+            qa-lab/previews/**
+            qa-lab/rebuild-v250/**
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Declarar política segura
+        run: |
+          echo 'Este workflow valida y empaqueta V2.5.1; no modifica charts, audio ni assets.'
+          echo 'Las correcciones deben pasar gates, rollback y revalidación en una rama de entrega separada.'

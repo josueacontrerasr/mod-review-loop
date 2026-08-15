@@ -1,0 +1,21 @@
+{
+  "scope": "VISUAL_ONLY",
+  "protected_before": {
+    "chart_sha256": "5834d3958ae1edc5de9b2f0f3d145a587da6eed28789c79aa972b168e7ccc225",
+    "inst_sha256": "eeaa6ad77ae4998d46771ee6d0084539adb28f4ed961d35164d063a08bbc47d8"
+  },
+  "protected_after": {
+    "chart_sha256": "5834d3958ae1edc5de9b2f0f3d145a587da6eed28789c79aa972b168e7ccc225",
+    "inst_sha256": "eeaa6ad77ae4998d46771ee6d0084539adb28f4ed961d35164d063a08bbc47d8"
+  },
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonMeVoyAMorirSiNoMeBesasAhoraMismoHudV2.hxc",
+    "class": "EsperonMeVoyAMorirSiNoMeBesasAhoraMismoHudV2",
+    "player_character_id": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+    "opponent_color": "0xFFDDB75F",
+    "player_color": "0xFF9C42E0",
+    "preview": "images/ui/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
+}

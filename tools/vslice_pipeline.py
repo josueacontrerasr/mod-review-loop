@@ -199,7 +199,9 @@ def build_chart(duration_ms: float, bpm: float) -> dict[str, Any]:
     current = start
     counter = 0
     while current < end:
-        owner = 4 if (counter // 16) % 2 == 0 else 0
+        # V-Slice oficial: lanes 0-3 son la strumline del jugador; no alternar
+        # automáticamente a 4-7, porque esa segunda strumline puede ocultarse en Mobile.
+        owner = 0
         lane = counter % 4
         if counter % 4 == 0:
             notes["easy"].append({"t": round(current, 3), "d": owner + lane})
@@ -240,8 +242,8 @@ def build_mod(audio: Path, output_root: Path) -> Path:
     (mod / "data/songs" / song_slug).mkdir(parents=True)
     (mod / "data/characters").mkdir(parents=True)
     (mod / "data/stages").mkdir(parents=True)
-    (mod / "images/characters").mkdir(parents=True)
-    (mod / "images/stages").mkdir(parents=True)
+    (mod / "shared/images/characters").mkdir(parents=True)
+    (mod / "shared/images/stages").mkdir(parents=True)
     (mod / "images/icons").mkdir(parents=True)
     (mod / "songs" / song_slug).mkdir(parents=True)
 
@@ -253,32 +255,36 @@ def build_mod(audio: Path, output_root: Path) -> Path:
         raise RuntimeError(f"No se pudo convertir {audio.name}: {converted.stderr}")
     final_duration = probe_duration(inst)
 
-    write_json(mod / "_polymod_meta.json", {"title": f"Esperón — {title}", "description": f"Mod V-Slice candidato para {title}; requiere Audio Sync Test y playtest móvil.", "contributors": [{"name": "Manus AI", "role": "Producción técnica y assets geométricos"}], "api_version": API_VERSION, "mod_version": "1.0.0", "license": "Custom — see LICENSE.txt"})
+    write_json(mod / "_polymod_meta.json", {"title": f"Esperón — {title}", "description": f"Mod V-Slice candidato para {title}; requiere Audio Sync Test y playtest móvil.", "contributors": [{"name": "Manus AI", "role": "Producción técnica y assets geométricos"}], "api_version": API_VERSION, "mod_version": "1.0.0", "license": "Custom — documentación externa en docs/mod-documentation/<song-id>/"})
     metadata = {"version": METADATA_VERSION, "songName": title, "artist": "Esperón", "charter": "Manus AI — chart de referencia", "offsets": {}, "playData": {"difficulties": ["easy", "normal", "hard"], "characters": {"player": player_id, "opponent": rival_id, "playerVocals": [], "opponentVocals": []}, "stage": stage_id, "noteStyle": "funkin", "ratings": {"easy": 0, "normal": 1, "hard": 2}}, "timeChanges": [{"t": 0, "b": 0, "bpm": bpm, "bt": [4, 4, 4, 4]}], "generatedBy": "Friday Night Funkin' - 0.8.6"}
     write_json(mod / "data/songs" / song_slug / f"{song_slug}-metadata.json", metadata)
     write_json(mod / "data/songs" / song_slug / f"{song_slug}-chart.json", build_chart(final_duration * 1000, bpm))
+    write_json(mod / "data/songs" / song_slug / "manifest.json", {"version": "1.0.0", "songId": song_slug})
     write_json(mod / "data/characters" / f"{player_id}.json", character_data(f"Esperón {title}", f"shared:characters/{player_id}", True))
     write_json(mod / "data/characters" / f"{rival_id}.json", character_data(f"Rival {title}", f"shared:characters/{rival_id}", False))
     write_json(mod / "data/stages" / f"{stage_id}.json", {"version": "1.0.1", "name": f"Escenario {title}", "cameraZoom": 0.92, "props": [{"assetPath": f"shared:stages/{stage_id}", "position": [-140, -75], "scale": [1.15, 1.15], "scroll": [0.85, 0.85], "zIndex": -10, "alpha": 1.0}]})
 
-    player_png = mod / "images/characters" / f"{player_id}.png"
-    rival_png = mod / "images/characters" / f"{rival_id}.png"
+    player_png = mod / "shared/images/characters" / f"{player_id}.png"
+    rival_png = mod / "shared/images/characters" / f"{rival_id}.png"
     draw_character_sheet(player_png, primary, secondary, rival=False)
     draw_character_sheet(rival_png, secondary, primary, rival=True)
     write_sparrow_xml(player_png.with_suffix(".xml"), player_png.name)
     write_sparrow_xml(rival_png.with_suffix(".xml"), rival_png.name)
-    draw_stage(mod / "images/stages" / f"{stage_id}.png", primary, secondary, dark)
+    draw_stage(mod / "shared/images/stages" / f"{stage_id}.png", primary, secondary, dark)
     draw_icon(mod / "images/icons" / f"{player_id}.png", primary, secondary)
     draw_icon(mod / "images/icons" / f"{rival_id}.png", secondary, primary)
 
     brief = {"song": title, "song_slug": song_slug, "theme": theme, "palette": {"primary": "#%02X%02X%02X" % primary, "secondary": "#%02X%02X%02X" % secondary, "dark": "#%02X%02X%02X" % dark}, "characters": {"player": player_id, "rival": rival_id, "style": "Formas geométricas originales: cabeza circular, torso rectangular y extremidades triangulares."}, "stage": {"id": stage_id, "style": "Fondo degradado y estructuras geométricas estáticas, sin shaders ni partículas."}, "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"}
     write_json(ROOT / "visual-briefs" / f"{song_slug}.json", brief)
     evidence = {"source": str(audio.relative_to(ROOT)), "source_sha256": sha256(audio), "instrumental": str(inst.relative_to(mod)), "instrumental_sha256": sha256(inst), "source_duration_seconds": duration, "instrumental_duration_seconds": final_duration, "bpm_candidate": bpm, "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"}
-    write_json(mod / "audio-evidence.json", evidence)
-    write_json(mod / "sync-report.json", {"scope": "STATIC_GRID_COHERENCE_ONLY", "review_basis": "AUTO_GENERATED_REFERENCE_CHART", "status": "REQUIRES_MANUAL_REVIEW", "limitations": ["El BPM y las notas son candidatos automatizados.", "Audio Sync Test y playtest móvil son obligatorios antes de declarar sincronización."]})
-    (mod / "CREDITS.txt").write_text(f"MOD: Esperón — {title}\nVERSION: 1.0.0\nASSETS: personajes y escenario geométricos originales generados para {title}.\nAUDIO: archivo fuente del repositorio; confirmar derechos antes de distribución pública.\n", encoding="utf-8")
-    (mod / "LICENSE.txt").write_text("Los assets geométricos y scripts de este mod pueden reutilizarse con atribución a Manus AI. El audio permanece sujeto a los derechos de sus titulares; no redistribuir sin autorización.\n", encoding="utf-8")
-    (mod / "INSTALACION_MOVIL.txt").write_text(f"Extraer la carpeta {mod_id} directamente en la carpeta mods de FNF Mobile V-Slice. Antes de jugar, abrir {title} en Chart Editor y ejecutar Audio Sync Test.\n", encoding="utf-8")
+    evidence_root = ROOT / "qa-lab" / "pipeline-evidence" / song_slug
+    write_json(evidence_root / "audio-evidence.json", evidence)
+    write_json(evidence_root / "sync-report.json", {"scope": "STATIC_GRID_COHERENCE_ONLY", "review_basis": "AUTO_GENERATED_REFERENCE_CHART", "status": "REQUIRES_MANUAL_REVIEW", "limitations": ["El BPM y las notas son candidatos automatizados.", "Audio Sync Test y playtest móvil son obligatorios antes de declarar sincronización."]})
+    docs_root = ROOT / "docs" / "mod-documentation" / song_slug
+    docs_root.mkdir(parents=True, exist_ok=True)
+    (docs_root / "CREDITS.txt").write_text(f"MOD: Esperón — {title}\nVERSION: 1.0.0\nASSETS: personajes y escenario geométricos originales generados para {title}.\nAUDIO: archivo fuente del repositorio; confirmar derechos antes de distribución pública.\n", encoding="utf-8")
+    (docs_root / "LICENSE.txt").write_text("Los assets geométricos y scripts de este mod pueden reutilizarse con atribución a Manus AI. El audio permanece sujeto a los derechos de sus titulares; no redistribuir sin autorización.\n", encoding="utf-8")
+    (docs_root / "INSTALACION_MOVIL.txt").write_text(f"Extraer la carpeta {mod_id} directamente en la carpeta mods de FNF Mobile V-Slice. Antes de jugar, abrir {title} en Chart Editor y ejecutar Audio Sync Test.\n", encoding="utf-8")
     return mod
 
 
@@ -313,6 +319,30 @@ def validate_mod(mod: Path) -> dict[str, Any]:
                     errors.append(f"Personaje no resuelto: {char!r}")
             if not isinstance(stage, str) or not (mod / "data/stages" / f"{stage}.json").is_file():
                 errors.append(f"Escenario no resuelto: {stage!r}")
+            for resource in sorted(list((mod / "data/characters").glob("*.json")) + list((mod / "data/stages").glob("*.json")) + list((mod / "data/notestyles").glob("*.json"))):
+                data = read_json(resource)
+                if not data:
+                    continue
+                paths = []
+                def collect(value: Any) -> None:
+                    if isinstance(value, dict):
+                        for key, child in value.items():
+                            if key == "assetPath" and isinstance(child, str):
+                                paths.append(child)
+                            else:
+                                collect(child)
+                    elif isinstance(value, list):
+                        for child in value:
+                            collect(child)
+                collect(data)
+                for asset_path in paths:
+                    normalized_path = asset_path.removeprefix("shared:")
+                    # Paths.getPath() v0.8.6 checks the default library first and
+                    # falls back to the shared library. Character/stage data in
+                    # V2.2.2 intentionally uses the official relative form.
+                    image_roots = [mod / "shared/images"] if asset_path.startswith("shared:") else [mod / "images", mod / "shared/images"]
+                    if not any((image_root / f"{normalized_path}.png").is_file() or (image_root / f"{normalized_path}.xml").is_file() for image_root in image_roots):
+                        errors.append(f"Asset no resuelto: {resource.relative_to(mod)} -> {asset_path}")
         if chart:
             for difficulty, notes in chart.get("notes", {}).items():
                 previous = -1.0
@@ -331,22 +361,20 @@ def validate_mod(mod: Path) -> dict[str, Any]:
         try:
             root = ET.parse(xml_path).getroot()
             names = {node.attrib.get("name") for node in root.findall("SubTexture")}
-            if root.tag != "TextureAtlas" or not set(POSES).issubset(names) or not xml_path.with_suffix(".png").is_file():
+            is_character_atlas = xml_path.parent == mod / "shared/images" / "characters"
+            valid_names = (all(any(name == pose or name.startswith(pose) for name in names) for pose in POSES) if is_character_atlas else bool(names))
+            if root.tag != "TextureAtlas" or not valid_names or not xml_path.with_suffix(".png").is_file():
                 errors.append(f"Atlas inválido: {xml_path.relative_to(mod)}")
         except Exception as exc:
             errors.append(f"XML inválido: {xml_path.relative_to(mod)} ({exc})")
-    for required in ("CREDITS.txt", "LICENSE.txt", "INSTALACION_MOVIL.txt", "audio-evidence.json", "sync-report.json"):
-        if not (mod / required).is_file():
-            errors.append(f"Documento requerido ausente: {required}")
-    sync = read_json(mod / "sync-report.json")
-    if sync and sync.get("status") != "PASS":
-        warnings.append("REQUIERE_VALIDACION_MANUAL: Audio Sync Test y playtest móvil pendientes")
+    # La documentación y evidencia viven fuera del árbol runtime; el motor no las necesita para cargar el mod.
+    warnings.append("REQUIERE_VALIDACION_MANUAL: Audio Sync Test y playtest móvil pendientes")
     return {"mod": mod.name, "status": "PASS" if not errors else "ERROR_ESTRUCTURAL", "errors": errors, "warnings": warnings}
 
 
-def package_mod(mod: Path, dist: Path) -> Path:
-    dist.mkdir(parents=True, exist_ok=True)
-    archive = dist / f"{mod.name}-v1.0.0.zip"
+def package_mod(mod: Path, delivery: Path) -> Path:
+    delivery.mkdir(parents=True, exist_ok=True)
+    archive = delivery / f"{mod.name}-v1.0.0.zip"
     if archive.exists():
         archive.unlink()
     shutil.make_archive(str(archive.with_suffix("")), "zip", root_dir=mod.parent, base_dir=mod.name)
@@ -366,7 +394,7 @@ def command_build(args: argparse.Namespace) -> int:
         report = validate_mod(mod)
         if report["status"] != "PASS":
             raise RuntimeError(json.dumps(report, ensure_ascii=False))
-        archive = package_mod(mod, root / "dist")
+        archive = package_mod(mod, root / "Mods .zip terminados")
         manifests.append({"audio": audio.name, "mod": mod.name, "zip": archive.relative_to(root).as_posix(), "report": report})
         print(json.dumps(manifests[-1], ensure_ascii=False))
     if not args.no_manifest:

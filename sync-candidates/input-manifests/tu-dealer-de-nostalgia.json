@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "tu-dealer-de-nostalgia",
+  "mod": "esperon-dano-tu-dealer-de-nostalgia",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-tu-dealer-de-nostalgia/songs/tu-dealer-de-nostalgia/Inst.ogg",
+    "sha256": "7feba08bdbda9b6f0a96734d56ee91cce0e906930dc243dc4cfadfde57b420e6",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "201.224127"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-metadata.json",
+    "sha256": "588e99fff6dfb95c14a02f7970a6ccdc272f40f019022d496974e8a46cf077c3"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json",
+    "sha256": "a20fe90c187e3979b4b852fbe877985edd397c8d1b406499e4a50632b6642dc8"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

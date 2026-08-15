@@ -1,0 +1,507 @@
+{
+  "status": "APPLIED",
+  "songs": 20,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-arcoloria",
+          "old_assetPath": "shared:characters/esperon-arcoloria",
+          "new_assetPath": "characters/esperon-arcoloria",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-arcoloria/data/characters/esperon-arcoloria.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-arcoloria",
+          "old_assetPath": "shared:characters/rival-arcoloria",
+          "new_assetPath": "characters/rival-arcoloria",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-arcoloria/data/characters/rival-arcoloria.json"
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-cortamos-y-volvemos",
+          "old_assetPath": "shared:characters/esperon-cortamos-y-volvemos",
+          "new_assetPath": "characters/esperon-cortamos-y-volvemos",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-cortamos-y-volvemos/data/characters/esperon-cortamos-y-volvemos.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-cortamos-y-volvemos",
+          "old_assetPath": "shared:characters/rival-cortamos-y-volvemos",
+          "new_assetPath": "characters/rival-cortamos-y-volvemos",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-cortamos-y-volvemos/data/characters/rival-cortamos-y-volvemos.json"
+        }
+      ]
+    },
+    {
+      "song": "dano",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-dano",
+          "old_assetPath": "characters/esperon-dano",
+          "new_assetPath": "characters/esperon-dano",
+          "atlas_exists": true,
+          "changed": false,
+          "applied": false,
+          "path": "mods/esperon-dano-dano/data/characters/esperon-dano.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-dano",
+          "old_assetPath": "characters/rival-dano",
+          "new_assetPath": "characters/rival-dano",
+          "atlas_exists": true,
+          "changed": false,
+          "applied": false,
+          "path": "mods/esperon-dano-dano/data/characters/rival-dano.json"
+        }
+      ]
+    },
+    {
+      "song": "dias-magicos",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-dias-magicos",
+          "old_assetPath": "shared:characters/esperon-dias-magicos",
+          "new_assetPath": "characters/esperon-dias-magicos",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-dias-magicos/data/characters/esperon-dias-magicos.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-dias-magicos",
+          "old_assetPath": "shared:characters/rival-dias-magicos",
+          "new_assetPath": "characters/rival-dias-magicos",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-dias-magicos/data/characters/rival-dias-magicos.json"
+        }
+      ]
+    },
+    {
+      "song": "eclipsis",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-eclipsis",
+          "old_assetPath": "shared:characters/esperon-eclipsis",
+          "new_assetPath": "characters/esperon-eclipsis",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-eclipsis/data/characters/esperon-eclipsis.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-eclipsis",
+          "old_assetPath": "shared:characters/rival-eclipsis",
+          "new_assetPath": "characters/rival-eclipsis",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-eclipsis/data/characters/rival-eclipsis.json"
+        }
+      ]
+    },
+    {
+      "song": "fango",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-fango",
+          "old_assetPath": "shared:characters/esperon-fango",
+          "new_assetPath": "characters/esperon-fango",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-fango/data/characters/esperon-fango.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-fango",
+          "old_assetPath": "shared:characters/rival-fango",
+          "new_assetPath": "characters/rival-fango",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-fango/data/characters/rival-fango.json"
+        }
+      ]
+    },
+    {
+      "song": "luma",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-luma",
+          "old_assetPath": "shared:characters/esperon-luma",
+          "new_assetPath": "characters/esperon-luma",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-luma/data/characters/esperon-luma.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-luma",
+          "old_assetPath": "shared:characters/rival-luma",
+          "new_assetPath": "characters/rival-luma",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-luma/data/characters/rival-luma.json"
+        }
+      ]
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-maraton-de-peliculas",
+          "old_assetPath": "shared:characters/esperon-maraton-de-peliculas",
+          "new_assetPath": "characters/esperon-maraton-de-peliculas",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-maraton-de-peliculas/data/characters/esperon-maraton-de-peliculas.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-maraton-de-peliculas",
+          "old_assetPath": "shared:characters/rival-maraton-de-peliculas",
+          "new_assetPath": "characters/rival-maraton-de-peliculas",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-maraton-de-peliculas/data/characters/rival-maraton-de-peliculas.json"
+        }
+      ]
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "old_assetPath": "shared:characters/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "new_assetPath": "characters/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/characters/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "old_assetPath": "shared:characters/rival-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "new_assetPath": "characters/rival-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/characters/rival-me-voy-a-morir-si-no-me-besas-ahora-mismo.json"
+        }
+      ]
+    },
+    {
+      "song": "meteora",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-meteora",
+          "old_assetPath": "shared:characters/esperon-meteora",
+          "new_assetPath": "characters/esperon-meteora",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-meteora/data/characters/esperon-meteora.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-meteora",
+          "old_assetPath": "shared:characters/rival-meteora",
+          "new_assetPath": "characters/rival-meteora",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-meteora/data/characters/rival-meteora.json"
+        }
+      ]
+    },
+    {
+      "song": "mi-hogar",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-mi-hogar",
+          "old_assetPath": "shared:characters/esperon-mi-hogar",
+          "new_assetPath": "characters/esperon-mi-hogar",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-mi-hogar/data/characters/esperon-mi-hogar.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-mi-hogar",
+          "old_assetPath": "shared:characters/rival-mi-hogar",
+          "new_assetPath": "characters/rival-mi-hogar",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-mi-hogar/data/characters/rival-mi-hogar.json"
+        }
+      ]
+    },
+    {
+      "song": "nubia",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-nubia",
+          "old_assetPath": "shared:characters/esperon-nubia",
+          "new_assetPath": "characters/esperon-nubia",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-nubia/data/characters/esperon-nubia.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-nubia",
+          "old_assetPath": "shared:characters/rival-nubia",
+          "new_assetPath": "characters/rival-nubia",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-nubia/data/characters/rival-nubia.json"
+        }
+      ]
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-nuestro-amor-no-es-normal",
+          "old_assetPath": "shared:characters/esperon-nuestro-amor-no-es-normal",
+          "new_assetPath": "characters/esperon-nuestro-amor-no-es-normal",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-nuestro-amor-no-es-normal/data/characters/esperon-nuestro-amor-no-es-normal.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-nuestro-amor-no-es-normal",
+          "old_assetPath": "shared:characters/rival-nuestro-amor-no-es-normal",
+          "new_assetPath": "characters/rival-nuestro-amor-no-es-normal",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-nuestro-amor-no-es-normal/data/characters/rival-nuestro-amor-no-es-normal.json"
+        }
+      ]
+    },
+    {
+      "song": "peligrosa",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-peligrosa",
+          "old_assetPath": "shared:characters/esperon-peligrosa",
+          "new_assetPath": "characters/esperon-peligrosa",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-peligrosa/data/characters/esperon-peligrosa.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-peligrosa",
+          "old_assetPath": "shared:characters/rival-peligrosa",
+          "new_assetPath": "characters/rival-peligrosa",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-peligrosa/data/characters/rival-peligrosa.json"
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-rompecabezas",
+          "old_assetPath": "shared:characters/esperon-rompecabezas",
+          "new_assetPath": "characters/esperon-rompecabezas",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-rompecabezas/data/characters/esperon-rompecabezas.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-rompecabezas",
+          "old_assetPath": "shared:characters/rival-rompecabezas",
+          "new_assetPath": "characters/rival-rompecabezas",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-rompecabezas/data/characters/rival-rompecabezas.json"
+        }
+      ]
+    },
+    {
+      "song": "solare",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-solare",
+          "old_assetPath": "characters/esperon-solare",
+          "new_assetPath": "characters/esperon-solare",
+          "atlas_exists": true,
+          "changed": false,
+          "applied": false,
+          "path": "mods/esperon-dano-solare/data/characters/esperon-solare.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-solare",
+          "old_assetPath": "characters/rival-solare",
+          "new_assetPath": "characters/rival-solare",
+          "atlas_exists": true,
+          "changed": false,
+          "applied": false,
+          "path": "mods/esperon-dano-solare/data/characters/rival-solare.json"
+        }
+      ]
+    },
+    {
+      "song": "tristella",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-tristella",
+          "old_assetPath": "shared:characters/esperon-tristella",
+          "new_assetPath": "characters/esperon-tristella",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-tristella/data/characters/esperon-tristella.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-tristella",
+          "old_assetPath": "shared:characters/rival-tristella",
+          "new_assetPath": "characters/rival-tristella",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-tristella/data/characters/rival-tristella.json"
+        }
+      ]
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-tu-dealer-de-nostalgia",
+          "old_assetPath": "shared:characters/esperon-tu-dealer-de-nostalgia",
+          "new_assetPath": "characters/esperon-tu-dealer-de-nostalgia",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-tu-dealer-de-nostalgia/data/characters/esperon-tu-dealer-de-nostalgia.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-tu-dealer-de-nostalgia",
+          "old_assetPath": "shared:characters/rival-tu-dealer-de-nostalgia",
+          "new_assetPath": "characters/rival-tu-dealer-de-nostalgia",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-tu-dealer-de-nostalgia/data/characters/rival-tu-dealer-de-nostalgia.json"
+        }
+      ]
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-un-poco-bien-un-poco-mal",
+          "old_assetPath": "shared:characters/esperon-un-poco-bien-un-poco-mal",
+          "new_assetPath": "characters/esperon-un-poco-bien-un-poco-mal",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/characters/esperon-un-poco-bien-un-poco-mal.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-un-poco-bien-un-poco-mal",
+          "old_assetPath": "shared:characters/rival-un-poco-bien-un-poco-mal",
+          "new_assetPath": "characters/rival-un-poco-bien-un-poco-mal",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/characters/rival-un-poco-bien-un-poco-mal.json"
+        }
+      ]
+    },
+    {
+      "song": "volver-a-vernos",
+      "characters": [
+        {
+          "role": "player",
+          "id": "esperon-volver-a-vernos",
+          "old_assetPath": "shared:characters/esperon-volver-a-vernos",
+          "new_assetPath": "characters/esperon-volver-a-vernos",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-volver-a-vernos/data/characters/esperon-volver-a-vernos.json"
+        },
+        {
+          "role": "opponent",
+          "id": "rival-volver-a-vernos",
+          "old_assetPath": "shared:characters/rival-volver-a-vernos",
+          "new_assetPath": "characters/rival-volver-a-vernos",
+          "atlas_exists": true,
+          "changed": true,
+          "applied": true,
+          "path": "mods/esperon-dano-volver-a-vernos/data/characters/rival-volver-a-vernos.json"
+        }
+      ]
+    }
+  ],
+  "basis": "Paths.getSparrowAtlas(assetPath) in v0.8.6 resolves relative character assets through shared fallback; official character examples use characters/<id> without shared: prefix."
+}

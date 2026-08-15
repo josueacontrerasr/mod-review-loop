@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "solare",
+  "mod": "esperon-dano-solare",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-solare/songs/solare/Inst.ogg",
+    "sha256": "92baeb05e1b4bcfa60d34afff84b53f063d7dc61e3550f07ed79d93b85e9b313",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "223.515283"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-solare/data/songs/solare/solare-metadata.json",
+    "sha256": "e8324536056eaa4a53fe290db06dc79e06815977b4dafe0ae4c05d7fb3bc88f9"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-solare/data/songs/solare/solare-chart.json",
+    "sha256": "a00f596a6a2a1cf00e86d72126bce158f854cd70ecd297340925fbc351f18672"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

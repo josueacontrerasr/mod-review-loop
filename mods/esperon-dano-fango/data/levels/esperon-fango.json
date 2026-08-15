@@ -1,0 +1,39 @@
+{
+  "version": "1.0.2",
+  "name": "ESPERÓN — Fango",
+  "capsule": {
+    "name": "Fango",
+    "offsets": [
+      0,
+      0
+    ]
+  },
+  "titleAsset": "storymenu/esperon-fango",
+  "props": [
+    {
+      "assetPath": "storymenu/props/esperon-fango-opponent",
+      "scale": 0.72,
+      "danceEvery": 2,
+      "offsets": [
+        40,
+        70
+      ],
+      "animations": []
+    },
+    {
+      "assetPath": "storymenu/props/esperon-fango-player",
+      "scale": 0.72,
+      "danceEvery": 2,
+      "offsets": [
+        190,
+        70
+      ],
+      "animations": []
+    }
+  ],
+  "visible": true,
+  "songs": [
+    "fango"
+  ],
+  "background": "#616B1F"
+}

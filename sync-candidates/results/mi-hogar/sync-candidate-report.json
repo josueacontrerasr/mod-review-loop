@@ -1,0 +1,60 @@
+{
+  "scope": "AUDIO_SYNC_CANDIDATE_ONLY",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "mi-hogar",
+  "mod": "esperon-dano-mi-hogar",
+  "analysis_mode": "VOCAL_STEM",
+  "audio": {
+    "path": "mods/esperon-dano-mi-hogar/songs/mi-hogar/Inst.ogg",
+    "sha256": "5f7a2b1282f04efc439d0ed7de03bb546fda48fea1fd6b31bb04357e1a95f136",
+    "duration_ms": 174242.54,
+    "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/mi-hogar/vocals.wav",
+    "sha256": "539a7feaa3f4d77da06752f29d2c5ed27a89044feb666b274ae7f6c0f5ed64ce"
+  },
+  "parameters": {
+    "hop_length": 256,
+    "sample_rate": 22050,
+    "minimum_note_spacing_ms": 150.0
+  },
+  "tempo": {
+    "librosa_beat_bpm": 198.768,
+    "median_beat_interval_bpm": 198.768,
+    "agreement_delta_percent": 0.0
+  },
+  "counts": {
+    "onsets": 326,
+    "beats": 467,
+    "candidate_base_notes": 274,
+    "easy_notes": 137,
+    "normal_notes": 206,
+    "hard_notes": 274
+  },
+  "candidate_self_coherence": {
+    "mean_distance_to_detected_onset_ms": 0.0,
+    "max_distance_to_detected_onset_ms": 0.0
+  },
+  "promotion_blockers": [
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
+    "Falta Audio Sync Test documentado en Chart Editor.",
+    "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
+  ],
+  "proposed_metadata_patch": {
+    "timeChanges": [
+      {
+        "t": 0,
+        "b": 0,
+        "bpm": 198.768,
+        "bt": [
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "status": "CANDIDATE_DO_NOT_APPLY_AUTOMATICALLY"
+  }
+}

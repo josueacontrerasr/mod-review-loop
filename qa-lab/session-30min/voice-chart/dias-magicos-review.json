@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "dias-magicos",
+  "mod": "esperon-dano-dias-magicos",
+  "audio_duration_ms": 243623.764,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "411b78cb429e5197b648289e6366a9f49a2cae978b34d3d9393e794716333682",
+  "difficulties": {
+    "easy": {
+      "production_notes": 98,
+      "valid_notes": 98,
+      "candidate_vocal_notes": 258,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 267.029,
+      "within_75ms_of_candidate_percent": 18.367
+    },
+    "normal": {
+      "production_notes": 195,
+      "valid_notes": 195,
+      "candidate_vocal_notes": 387,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 208.979,
+      "within_75ms_of_candidate_percent": 33.333
+    },
+    "hard": {
+      "production_notes": 195,
+      "valid_notes": 195,
+      "candidate_vocal_notes": 516,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 150.929,
+      "within_75ms_of_candidate_percent": 39.487
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

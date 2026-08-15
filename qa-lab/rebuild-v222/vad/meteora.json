@@ -1,0 +1,59 @@
+{
+  "song": "meteora",
+  "audio": "mods/esperon-dano-meteora/songs/meteora/Voices-esperon-meteora.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.005875461734831333,
+  "energy_threshold": 0.023501846939325333,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 193000.0,
+  "segments": [
+    {
+      "start_ms": 20,
+      "end_ms": 5040,
+      "duration_ms": 5020
+    },
+    {
+      "start_ms": 5140,
+      "end_ms": 6500,
+      "duration_ms": 1360
+    },
+    {
+      "start_ms": 6820,
+      "end_ms": 54220,
+      "duration_ms": 47400
+    },
+    {
+      "start_ms": 54660,
+      "end_ms": 94820,
+      "duration_ms": 40160
+    },
+    {
+      "start_ms": 94960,
+      "end_ms": 122320,
+      "duration_ms": 27360
+    },
+    {
+      "start_ms": 122600,
+      "end_ms": 151900,
+      "duration_ms": 29300
+    },
+    {
+      "start_ms": 152160,
+      "end_ms": 176800,
+      "duration_ms": 24640
+    }
+  ],
+  "onsets_ms": [
+    20,
+    5140,
+    6820,
+    54660,
+    94960,
+    122600,
+    152160
+  ],
+  "coverage_ratio": 0.907979,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}

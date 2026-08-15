@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "mi-hogar",
+  "mod": "esperon-dano-mi-hogar",
+  "audio_duration_ms": 174242.54,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "539a7feaa3f4d77da06752f29d2c5ed27a89044feb666b274ae7f6c0f5ed64ce",
+  "difficulties": {
+    "easy": {
+      "production_notes": 66,
+      "valid_notes": 66,
+      "candidate_vocal_notes": 137,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 313.47,
+      "within_75ms_of_candidate_percent": 21.212
+    },
+    "normal": {
+      "production_notes": 131,
+      "valid_notes": 131,
+      "candidate_vocal_notes": 206,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 220.589,
+      "within_75ms_of_candidate_percent": 29.771
+    },
+    "hard": {
+      "production_notes": 131,
+      "valid_notes": 131,
+      "candidate_vocal_notes": 274,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 139.32,
+      "within_75ms_of_candidate_percent": 41.221
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

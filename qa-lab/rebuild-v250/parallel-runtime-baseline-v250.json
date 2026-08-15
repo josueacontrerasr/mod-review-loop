@@ -1,0 +1,5588 @@
+{
+  "version": "2.5.0-baseline",
+  "status": "PASS",
+  "songs": 20,
+  "parallel_workers": 20,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-arcoloria",
+        "characters": {
+          "player": "esperon-arcoloria",
+          "opponent": "rival-arcoloria",
+          "playerVocals": [
+            "esperon-arcoloria"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-arcoloria-notes",
+        "album": "esperon-arcoloria"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 57,
+            "first": 3866.122,
+            "first_10s": 1,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 3866.122,
+              "5": 26064.399,
+              "6": 18668.844,
+              "7": 27527.256
+            },
+            "last": 194513.56,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 127,
+            "first": 3866.122,
+            "first_10s": 1,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 3866.122,
+              "5": 25750.93,
+              "6": 18668.844,
+              "7": 26586.848
+            },
+            "last": 194513.56,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 198,
+            "first": 3506.213,
+            "first_10s": 14,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 3506.213,
+              "5": 4249.252,
+              "6": 4458.231,
+              "7": 5038.73
+            },
+            "last": 194513.56,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-arcoloria-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-arcoloria-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-arcoloria-notes-notes",
+              "resolved": "shared/images/notes/esperon-arcoloria-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-arcoloria-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-arcoloria-notes-strumline",
+              "resolved": "shared/images/notes/esperon-arcoloria-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/arcoloria/Inst.ogg",
+        "inst_bytes": 4705314,
+        "inst_sha256": "c9d6043842dbfb735102809f4d9860263249f2915703c74b2539b09421763437",
+        "voices": [
+          {
+            "name": "Voices-esperon-arcoloria.ogg",
+            "bytes": 4604249,
+            "sha256": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282"
+          }
+        ]
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-cortamos-y-volvemos",
+        "characters": {
+          "player": "esperon-cortamos-y-volvemos",
+          "opponent": "rival-cortamos-y-volvemos",
+          "playerVocals": [
+            "esperon-cortamos-y-volvemos"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-cortamos-y-volvemos-notes",
+        "album": "esperon-cortamos-y-volvemos"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 132,
+            "first": 313.469,
+            "first_10s": 19,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 313.469,
+              "5": 18274.104,
+              "6": 859.138,
+              "7": 23962.993
+            },
+            "last": 183809.161,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 300,
+            "first": 313.469,
+            "first_10s": 28,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 313.469,
+              "5": 13862.313,
+              "6": 638.549,
+              "7": 19191.293
+            },
+            "last": 184180.68,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 464,
+            "first": 313.469,
+            "first_10s": 32,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 10924.989,
+              "5": 313.469,
+              "6": 11935.057,
+              "7": 638.549
+            },
+            "last": 184180.68,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-cortamos-y-volvemos-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-cortamos-y-volvemos-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-cortamos-y-volvemos-notes-notes",
+              "resolved": "shared/images/notes/esperon-cortamos-y-volvemos-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-cortamos-y-volvemos-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-cortamos-y-volvemos-notes-strumline",
+              "resolved": "shared/images/notes/esperon-cortamos-y-volvemos-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/cortamos-y-volvemos/Inst.ogg",
+        "inst_bytes": 4330943,
+        "inst_sha256": "d7ad308125b558ead8cf26daa7d8890fd5c7da8f88524db2213fba77b71bdf98",
+        "voices": [
+          {
+            "name": "Voices-esperon-cortamos-y-volvemos.ogg",
+            "bytes": 4263824,
+            "sha256": "0ec71bd2381a39212b549071a8ba617fd36753b9b0ea5343757d5e6224d745c1"
+          }
+        ]
+      }
+    },
+    {
+      "song": "dano",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-dano",
+        "characters": {
+          "player": "esperon-dano",
+          "opponent": "rival-dano",
+          "playerVocals": [
+            "esperon-dano"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-dano-notes",
+        "album": "esperon-dano"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 145,
+            "first": 441.179,
+            "first_10s": 10,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 441.179,
+              "5": 13200.544,
+              "6": 1869.206,
+              "7": 14663.401
+            },
+            "last": 171583.855,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 330,
+            "first": 441.179,
+            "first_10s": 14,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 441.179,
+              "5": 12631.655,
+              "6": 1869.206,
+              "7": 13444.354
+            },
+            "last": 171746.395,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 511,
+            "first": 441.179,
+            "first_10s": 17,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 10414.15,
+              "5": 441.179,
+              "6": 11017.868,
+              "7": 615.329
+            },
+            "last": 174288.98,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-dano-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-dano-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-dano-notes-notes",
+              "resolved": "shared/images/notes/esperon-dano-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-dano-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-dano-notes-strumline",
+              "resolved": "shared/images/notes/esperon-dano-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/dano/Inst.ogg",
+        "inst_bytes": 4326889,
+        "inst_sha256": "1cd2bca7478ff391d95def339185125e2d5bd2a4bdeb28846610059ebe609824",
+        "voices": [
+          {
+            "name": "Voices-esperon-dano.ogg",
+            "bytes": 4387878,
+            "sha256": "bcef47cacf8685fd1d0f06918bdf577394cb4537771dc9b0bcf9956a0a4cd253"
+          }
+        ]
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-dias-magicos",
+        "characters": {
+          "player": "esperon-dias-magicos",
+          "opponent": "rival-dias-magicos",
+          "playerVocals": [
+            "esperon-dias-magicos"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-dias-magicos-notes",
+        "album": "esperon-dias-magicos"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 125,
+            "first": 394.739,
+            "first_10s": 21,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 394.739,
+              "5": 30592.29,
+              "6": 847.528,
+              "7": 40158.912
+            },
+            "last": 224420.862,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 283,
+            "first": 394.739,
+            "first_10s": 25,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 394.739,
+              "5": 23788.844,
+              "6": 626.939,
+              "7": 33587.664
+            },
+            "last": 224420.862,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 439,
+            "first": 394.739,
+            "first_10s": 38,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 20990.839,
+              "5": 394.739,
+              "6": 21443.628,
+              "7": 626.939
+            },
+            "last": 224420.862,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-dias-magicos-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-dias-magicos-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-dias-magicos-notes-notes",
+              "resolved": "shared/images/notes/esperon-dias-magicos-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-dias-magicos-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-dias-magicos-notes-strumline",
+              "resolved": "shared/images/notes/esperon-dias-magicos-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/dias-magicos/Inst.ogg",
+        "inst_bytes": 5085956,
+        "inst_sha256": "b4ceae0d92b042011f30aeee561ad912cad76457708641ade711e2ff90bb45e8",
+        "voices": [
+          {
+            "name": "Voices-esperon-dias-magicos.ogg",
+            "bytes": 4886009,
+            "sha256": "96fd2c6aeccdc860a4e519b7bcb2156d723d75934fc6856c4fa766e238350422"
+          }
+        ]
+      }
+    },
+    {
+      "song": "eclipsis",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-eclipsis",
+        "characters": {
+          "player": "esperon-eclipsis",
+          "opponent": "rival-eclipsis",
+          "playerVocals": [
+            "esperon-eclipsis"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-eclipsis-notes",
+        "album": "esperon-eclipsis"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 79,
+            "first": 1578.957,
+            "first_10s": 3,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 1578.957,
+              "5": 8289.524,
+              "6": 11609.977,
+              "7": 21942.857
+            },
+            "last": 225814.059,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 179,
+            "first": 1578.957,
+            "first_10s": 4,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 1578.957,
+              "5": 4852.971,
+              "6": 8289.524,
+              "7": 10327.075
+            },
+            "last": 225814.059,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 277,
+            "first": 1578.957,
+            "first_10s": 13,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 1776.327,
+              "5": 1578.957,
+              "6": 3819.683,
+              "7": 5363.81
+            },
+            "last": 225814.059,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-eclipsis-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-eclipsis-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-eclipsis-notes-notes",
+              "resolved": "shared/images/notes/esperon-eclipsis-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-eclipsis-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-eclipsis-notes-strumline",
+              "resolved": "shared/images/notes/esperon-eclipsis-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/eclipsis/Inst.ogg",
+        "inst_bytes": 5252332,
+        "inst_sha256": "0ae33be6f978292d671b2446222c9cefa28cf00b61785956793c548121db0af4",
+        "voices": [
+          {
+            "name": "Voices-esperon-eclipsis.ogg",
+            "bytes": 5478571,
+            "sha256": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98"
+          }
+        ]
+      }
+    },
+    {
+      "song": "fango",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-fango",
+        "characters": {
+          "player": "esperon-fango",
+          "opponent": "rival-fango",
+          "playerVocals": [
+            "esperon-fango"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-fango-notes",
+        "album": "esperon-fango"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 94,
+            "first": 2763.175,
+            "first_10s": 8,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 2763.175,
+              "5": 5247.71,
+              "6": 5596.009,
+              "7": 7500.045
+            },
+            "last": 206669.206,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 211,
+            "first": 2763.175,
+            "first_10s": 11,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 2763.175,
+              "5": 3343.673,
+              "6": 5247.71,
+              "7": 5247.71
+            },
+            "last": 206669.206,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 327,
+            "first": 615.329,
+            "first_10s": 30,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 615.329,
+              "5": 1288.707,
+              "6": 1648.617,
+              "7": 1973.696
+            },
+            "last": 206669.206,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-fango-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-fango-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-fango-notes-notes",
+              "resolved": "shared/images/notes/esperon-fango-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-fango-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-fango-notes-strumline",
+              "resolved": "shared/images/notes/esperon-fango-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/fango/Inst.ogg",
+        "inst_bytes": 5080263,
+        "inst_sha256": "40a0f3d26913562278893293d0f679b587c9b803be704573eafc79140060e628",
+        "voices": [
+          {
+            "name": "Voices-esperon-fango.ogg",
+            "bytes": 4389844,
+            "sha256": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595"
+          }
+        ]
+      }
+    },
+    {
+      "song": "luma",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-luma",
+        "characters": {
+          "player": "esperon-luma",
+          "opponent": "rival-luma",
+          "playerVocals": [
+            "esperon-luma"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-luma-notes",
+        "album": "esperon-luma"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 63,
+            "first": 313.469,
+            "first_10s": 15,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 313.469,
+              "5": 21315.918,
+              "6": 1184.218,
+              "7": 41912.018
+            },
+            "last": 201282.177,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 144,
+            "first": 313.469,
+            "first_10s": 29,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 313.469,
+              "5": 17147.937,
+              "6": 1184.218,
+              "7": 25495.51
+            },
+            "last": 202686.984,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 224,
+            "first": 313.469,
+            "first_10s": 31,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 8765.533,
+              "5": 313.469,
+              "6": 13223.764,
+              "7": 1184.218
+            },
+            "last": 202686.984,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-luma-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-luma-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-luma-notes-notes",
+              "resolved": "shared/images/notes/esperon-luma-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-luma-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-luma-notes-strumline",
+              "resolved": "shared/images/notes/esperon-luma-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/luma/Inst.ogg",
+        "inst_bytes": 5166138,
+        "inst_sha256": "ea04b8654bc702ed1e4db2c2f582dc774026fea9da199d018a97c42c6494f3b9",
+        "voices": [
+          {
+            "name": "Voices-esperon-luma.ogg",
+            "bytes": 4965375,
+            "sha256": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae"
+          }
+        ]
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-maraton-de-peliculas",
+        "characters": {
+          "player": "esperon-maraton-de-peliculas",
+          "opponent": "rival-maraton-de-peliculas",
+          "playerVocals": [
+            "esperon-maraton-de-peliculas"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-maraton-de-peliculas-notes",
+        "album": "esperon-maraton-de-peliculas"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 79,
+            "first": 2008.526,
+            "first_10s": 7,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 2008.526,
+              "5": 5061.95,
+              "6": 5700.499,
+              "7": 6594.467
+            },
+            "last": 203476.463,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 179,
+            "first": 2008.526,
+            "first_10s": 12,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 2008.526,
+              "5": 4597.551,
+              "6": 5061.95,
+              "7": 5282.54
+            },
+            "last": 203476.463,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 277,
+            "first": 1486.077,
+            "first_10s": 21,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 1486.077,
+              "5": 1834.376,
+              "6": 4342.132,
+              "7": 4783.311
+            },
+            "last": 203476.463,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-maraton-de-peliculas-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-maraton-de-peliculas-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-maraton-de-peliculas-notes-notes",
+              "resolved": "shared/images/notes/esperon-maraton-de-peliculas-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-maraton-de-peliculas-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-maraton-de-peliculas-notes-strumline",
+              "resolved": "shared/images/notes/esperon-maraton-de-peliculas-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/maraton-de-peliculas/Inst.ogg",
+        "inst_bytes": 5012746,
+        "inst_sha256": "f4347aa912ef3419bb38edc14e43866223b2ea069071b449dae7d6bde8d0eb6a",
+        "voices": [
+          {
+            "name": "Voices-esperon-maraton-de-peliculas.ogg",
+            "bytes": 4953920,
+            "sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29"
+          }
+        ]
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+        "characters": {
+          "player": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "opponent": "rival-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "playerVocals": [
+            "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes",
+        "album": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 73,
+            "first": 406.349,
+            "first_10s": 13,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 406.349,
+              "5": 6559.637,
+              "6": 986.848,
+              "7": 8962.902
+            },
+            "last": 179884.989,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 163,
+            "first": 406.349,
+            "first_10s": 24,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 406.349,
+              "5": 5688.889,
+              "6": 696.599,
+              "7": 7174.966
+            },
+            "last": 179884.989,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 253,
+            "first": 406.349,
+            "first_10s": 30,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 3889.342,
+              "5": 406.349,
+              "6": 6559.637,
+              "7": 696.599
+            },
+            "last": 179884.989,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes",
+              "resolved": "shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline",
+              "resolved": "shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Inst.ogg",
+        "inst_bytes": 4197031,
+        "inst_sha256": "dcdf0c71bae7ad7963915f0197c13249d368e6fde92f471646b9dd463c89bec1",
+        "voices": [
+          {
+            "name": "Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg",
+            "bytes": 4061842,
+            "sha256": "c7b009564ad9e319f244ef9068116e900b19a1e6b963ef9ab92b12d895454968"
+          }
+        ]
+      }
+    },
+    {
+      "song": "meteora",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-meteora",
+        "characters": {
+          "player": "esperon-meteora",
+          "opponent": "rival-meteora",
+          "playerVocals": [
+            "esperon-meteora"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-meteora-notes",
+        "album": "esperon-meteora"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 48,
+            "first": 1091.338,
+            "first_10s": 12,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 1091.338,
+              "5": 23661.134,
+              "6": 1509.297,
+              "7": 28165.805
+            },
+            "last": 175148.118,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 108,
+            "first": 1091.338,
+            "first_10s": 13,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 1091.338,
+              "5": 18158.005,
+              "6": 1509.297,
+              "7": 24938.231
+            },
+            "last": 175577.687,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 167,
+            "first": 441.179,
+            "first_10s": 34,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 441.179,
+              "5": 673.379,
+              "6": 905.578,
+              "7": 1509.297
+            },
+            "last": 175577.687,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-meteora-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-meteora-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-meteora-notes-notes",
+              "resolved": "shared/images/notes/esperon-meteora-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-meteora-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-meteora-notes-strumline",
+              "resolved": "shared/images/notes/esperon-meteora-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/meteora/Inst.ogg",
+        "inst_bytes": 4183910,
+        "inst_sha256": "4b18e19fa889a5a1e598e33592eff10aa2f6dd6fc1c07b008cea52ddaf1f3925",
+        "voices": [
+          {
+            "name": "Voices-esperon-meteora.ogg",
+            "bytes": 4053101,
+            "sha256": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387"
+          }
+        ]
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-mi-hogar",
+        "characters": {
+          "player": "esperon-mi-hogar",
+          "opponent": "rival-mi-hogar",
+          "playerVocals": [
+            "esperon-mi-hogar"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-mi-hogar-notes",
+        "album": "esperon-mi-hogar"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 86,
+            "first": 371.519,
+            "first_10s": 16,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 371.519,
+              "5": 21269.478,
+              "6": 870.748,
+              "7": 22778.776
+            },
+            "last": 158592.29,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 193,
+            "first": 371.519,
+            "first_10s": 23,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 371.519,
+              "5": 21072.109,
+              "6": 603.719,
+              "7": 21571.338
+            },
+            "last": 158592.29,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 299,
+            "first": 371.519,
+            "first_10s": 30,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 19620.862,
+              "5": 371.519,
+              "6": 20178.141,
+              "7": 603.719
+            },
+            "last": 158592.29,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-mi-hogar-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-mi-hogar-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-mi-hogar-notes-notes",
+              "resolved": "shared/images/notes/esperon-mi-hogar-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-mi-hogar-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-mi-hogar-notes-strumline",
+              "resolved": "shared/images/notes/esperon-mi-hogar-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/mi-hogar/Inst.ogg",
+        "inst_bytes": 3763340,
+        "inst_sha256": "8fd9014f4a0e01e2a400fdbe93f2432daa2548a322dd8ffccae54e70681a0fe3",
+        "voices": [
+          {
+            "name": "Voices-esperon-mi-hogar.ogg",
+            "bytes": 3732818,
+            "sha256": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2"
+          }
+        ]
+      }
+    },
+    {
+      "song": "nubia",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-nubia",
+        "characters": {
+          "player": "esperon-nubia",
+          "opponent": "rival-nubia",
+          "playerVocals": [
+            "esperon-nubia"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-nubia-notes",
+        "album": "esperon-nubia"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 74,
+            "first": 615.329,
+            "first_10s": 1,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 615.329,
+              "5": 29123.628,
+              "6": 15383.22,
+              "7": 32960.726
+            },
+            "last": 216003.628,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 167,
+            "first": 615.329,
+            "first_10s": 1,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 615.329,
+              "5": 28943.673,
+              "6": 15383.22,
+              "7": 30998.639
+            },
+            "last": 216003.628,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 258,
+            "first": 615.329,
+            "first_10s": 1,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 10530.249,
+              "5": 615.329,
+              "6": 12155.646,
+              "7": 12724.535
+            },
+            "last": 216003.628,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-nubia-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-nubia-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-nubia-notes-notes",
+              "resolved": "shared/images/notes/esperon-nubia-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-nubia-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-nubia-notes-strumline",
+              "resolved": "shared/images/notes/esperon-nubia-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/nubia/Inst.ogg",
+        "inst_bytes": 4927170,
+        "inst_sha256": "63a36b6d167b033b8ee2b51d71975d47183e562e1a8f176f134ce129a52caab2",
+        "voices": [
+          {
+            "name": "Voices-esperon-nubia.ogg",
+            "bytes": 5095347,
+            "sha256": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43"
+          }
+        ]
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-nuestro-amor-no-es-normal",
+        "characters": {
+          "player": "esperon-nuestro-amor-no-es-normal",
+          "opponent": "rival-nuestro-amor-no-es-normal",
+          "playerVocals": [
+            "esperon-nuestro-amor-no-es-normal"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-nuestro-amor-no-es-normal-notes",
+        "album": "esperon-nuestro-amor-no-es-normal"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 87,
+            "first": 1044.898,
+            "first_10s": 8,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 1044.898,
+              "5": 10123.9,
+              "6": 6594.467,
+              "7": 29094.603
+            },
+            "last": 152439.002,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 198,
+            "first": 1044.898,
+            "first_10s": 13,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 1044.898,
+              "5": 9833.651,
+              "6": 5990.748,
+              "7": 27643.356
+            },
+            "last": 155480.816,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 306,
+            "first": 1044.898,
+            "first_10s": 20,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 2832.834,
+              "5": 1044.898,
+              "6": 4098.322,
+              "7": 1253.878
+            },
+            "last": 155480.816,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-nuestro-amor-no-es-normal-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-nuestro-amor-no-es-normal-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-nuestro-amor-no-es-normal-notes-notes",
+              "resolved": "shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-nuestro-amor-no-es-normal-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-nuestro-amor-no-es-normal-notes-strumline",
+              "resolved": "shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/nuestro-amor-no-es-normal/Inst.ogg",
+        "inst_bytes": 3744653,
+        "inst_sha256": "bf3372ba6bb1eb04250fee475b93751afc4473d7416fa28a77bbd7b03dae570d",
+        "voices": [
+          {
+            "name": "Voices-esperon-nuestro-amor-no-es-normal.ogg",
+            "bytes": 3421637,
+            "sha256": "20d6a77f8924b647d65e0de5da9a54cf74f0635f1d3de658030a3dc214de303d"
+          }
+        ]
+      }
+    },
+    {
+      "song": "peligrosa",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-peligrosa",
+        "characters": {
+          "player": "esperon-peligrosa",
+          "opponent": "rival-peligrosa",
+          "playerVocals": [
+            "esperon-peligrosa"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-peligrosa-notes",
+        "album": "esperon-peligrosa"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 131,
+            "first": 568.889,
+            "first_10s": 17,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 568.889,
+              "5": 16962.177,
+              "6": 1160.998,
+              "7": 28792.744
+            },
+            "last": 226917.007,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 295,
+            "first": 568.889,
+            "first_10s": 27,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 568.889,
+              "5": 14953.651,
+              "6": 870.748,
+              "7": 18819.773
+            },
+            "last": 226917.007,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 458,
+            "first": 568.889,
+            "first_10s": 33,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 11517.098,
+              "5": 568.889,
+              "6": 12712.925,
+              "7": 870.748
+            },
+            "last": 226917.007,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-peligrosa-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-peligrosa-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-peligrosa-notes-notes",
+              "resolved": "shared/images/notes/esperon-peligrosa-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-peligrosa-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-peligrosa-notes-strumline",
+              "resolved": "shared/images/notes/esperon-peligrosa-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/peligrosa/Inst.ogg",
+        "inst_bytes": 5600558,
+        "inst_sha256": "eedc916dbadc5510a2044521a081f476dfba9cb12f5bd2aa08552b819e1eb4a3",
+        "voices": [
+          {
+            "name": "Voices-esperon-peligrosa.ogg",
+            "bytes": 5067371,
+            "sha256": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf"
+          }
+        ]
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-rompecabezas",
+        "characters": {
+          "player": "esperon-rompecabezas",
+          "opponent": "rival-rompecabezas",
+          "playerVocals": [
+            "esperon-rompecabezas"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-rompecabezas-notes",
+        "album": "esperon-rompecabezas"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 69,
+            "first": 1544.127,
+            "first_10s": 1,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 1544.127,
+              "5": 18982.313,
+              "6": 13125.079,
+              "7": 23823.673
+            },
+            "last": 196440.816,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 155,
+            "first": 1544.127,
+            "first_10s": 1,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 1544.127,
+              "5": 15267.12,
+              "6": 13125.079,
+              "7": 22221.497
+            },
+            "last": 196440.816,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 239,
+            "first": 1544.127,
+            "first_10s": 3,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 3552.653,
+              "5": 1544.127,
+              "6": 13061.224,
+              "7": 14175.782
+            },
+            "last": 196440.816,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-rompecabezas-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-rompecabezas-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-rompecabezas-notes-notes",
+              "resolved": "shared/images/notes/esperon-rompecabezas-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-rompecabezas-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-rompecabezas-notes-strumline",
+              "resolved": "shared/images/notes/esperon-rompecabezas-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/rompecabezas/Inst.ogg",
+        "inst_bytes": 4621721,
+        "inst_sha256": "bc393a00dbf9aa19df07d4cdc218eb8587fd1770a3b446feba7dd31c0e06c3a4",
+        "voices": [
+          {
+            "name": "Voices-esperon-rompecabezas.ogg",
+            "bytes": 4687690,
+            "sha256": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a"
+          }
+        ]
+      }
+    },
+    {
+      "song": "solare",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-solare",
+        "characters": {
+          "player": "esperon-solare",
+          "opponent": "rival-solare",
+          "playerVocals": [
+            "esperon-solare"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-solare-notes",
+        "album": "esperon-solare"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 79,
+            "first": 4899.41,
+            "first_10s": 1,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 4899.41,
+              "5": 17194.376,
+              "6": 20387.12,
+              "7": 23243.175
+            },
+            "last": 217164.626,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 179,
+            "first": 4899.41,
+            "first_10s": 1,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 4899.41,
+              "5": 16416.508,
+              "6": 17194.376,
+              "7": 17890.975
+            },
+            "last": 217164.626,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 277,
+            "first": 1985.306,
+            "first_10s": 25,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 1985.306,
+              "5": 2681.905,
+              "6": 2983.764,
+              "7": 3332.063
+            },
+            "last": 217164.626,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-solare-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-solare-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-solare-notes-notes",
+              "resolved": "shared/images/notes/esperon-solare-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-solare-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-solare-notes-strumline",
+              "resolved": "shared/images/notes/esperon-solare-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/solare/Inst.ogg",
+        "inst_bytes": 4803366,
+        "inst_sha256": "4efc709fbac7b515da7a3f486dc6f87e314b73b1bf1165f95a2117cd896da4bb",
+        "voices": [
+          {
+            "name": "Voices-esperon-solare.ogg",
+            "bytes": 4788755,
+            "sha256": "a52a6af6ccb47ec8124d2761030dd114572bbf03c7416d82fa6eb6b2afc9edf8"
+          }
+        ]
+      }
+    },
+    {
+      "song": "tristella",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-tristella",
+        "characters": {
+          "player": "esperon-tristella",
+          "opponent": "rival-tristella",
+          "playerVocals": [
+            "esperon-tristella"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-tristella-notes",
+        "album": "esperon-tristella"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 84,
+            "first": 510.839,
+            "first_10s": 12,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 510.839,
+              "5": 16683.537,
+              "6": 1079.728,
+              "7": 34795.102
+            },
+            "last": 221762.177,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 191,
+            "first": 510.839,
+            "first_10s": 23,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 510.839,
+              "5": 15243.9,
+              "6": 812.698,
+              "7": 21849.977
+            },
+            "last": 221762.177,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 294,
+            "first": 510.839,
+            "first_10s": 23,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 13246.984,
+              "5": 510.839,
+              "6": 13815.873,
+              "7": 812.698
+            },
+            "last": 221762.177,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-tristella-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-tristella-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-tristella-notes-notes",
+              "resolved": "shared/images/notes/esperon-tristella-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-tristella-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-tristella-notes-strumline",
+              "resolved": "shared/images/notes/esperon-tristella-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/tristella/Inst.ogg",
+        "inst_bytes": 4929459,
+        "inst_sha256": "a73be0c622e3bf6ba03ac4c7f76e0824cec099a3f8c1df4211cee79904418a9e",
+        "voices": [
+          {
+            "name": "Voices-esperon-tristella.ogg",
+            "bytes": 4786006,
+            "sha256": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198"
+          }
+        ]
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-tu-dealer-de-nostalgia",
+        "characters": {
+          "player": "esperon-tu-dealer-de-nostalgia",
+          "opponent": "rival-tu-dealer-de-nostalgia",
+          "playerVocals": [
+            "esperon-tu-dealer-de-nostalgia"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-tu-dealer-de-nostalgia-notes",
+        "album": "esperon-tu-dealer-de-nostalgia"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 123,
+            "first": 551.474,
+            "first_10s": 4,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 551.474,
+              "5": 29454.512,
+              "6": 1474.467,
+              "7": 32438.277
+            },
+            "last": 171363.265,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 279,
+            "first": 551.474,
+            "first_10s": 4,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 551.474,
+              "5": 29303.583,
+              "6": 1474.467,
+              "7": 29651.882
+            },
+            "last": 175879.546,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 432,
+            "first": 551.474,
+            "first_10s": 15,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 2798.005,
+              "5": 551.474,
+              "6": 3691.973,
+              "7": 1474.467
+            },
+            "last": 175879.546,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-tu-dealer-de-nostalgia-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-tu-dealer-de-nostalgia-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-tu-dealer-de-nostalgia-notes-notes",
+              "resolved": "shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-tu-dealer-de-nostalgia-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-tu-dealer-de-nostalgia-notes-strumline",
+              "resolved": "shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/tu-dealer-de-nostalgia/Inst.ogg",
+        "inst_bytes": 4361288,
+        "inst_sha256": "e9685a8b77720f30e7f93a39b58ccfa295ba195fbcca2a22ab80765b27dee981",
+        "voices": [
+          {
+            "name": "Voices-esperon-tu-dealer-de-nostalgia.ogg",
+            "bytes": 4478877,
+            "sha256": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f"
+          }
+        ]
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-un-poco-bien-un-poco-mal",
+        "characters": {
+          "player": "esperon-un-poco-bien-un-poco-mal",
+          "opponent": "rival-un-poco-bien-un-poco-mal",
+          "playerVocals": [
+            "esperon-un-poco-bien-un-poco-mal"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-un-poco-bien-un-poco-mal-notes",
+        "album": "esperon-un-poco-bien-un-poco-mal"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 46,
+            "first": 2577.415,
+            "first_10s": 9,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 2577.415,
+              "5": 17844.535,
+              "6": 5445.079,
+              "7": 22651.066
+            },
+            "last": 204242.721,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 103,
+            "first": 2287.166,
+            "first_10s": 13,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 2287.166,
+              "5": 9636.281,
+              "6": 2902.494,
+              "7": 20363.9
+            },
+            "last": 204242.721,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 160,
+            "first": 2182.676,
+            "first_10s": 21,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 2182.676,
+              "5": 2902.494,
+              "6": 4469.841,
+              "7": 4167.982
+            },
+            "last": 204242.721,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-un-poco-bien-un-poco-mal-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-un-poco-bien-un-poco-mal-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-un-poco-bien-un-poco-mal-notes-notes",
+              "resolved": "shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-un-poco-bien-un-poco-mal-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-un-poco-bien-un-poco-mal-notes-strumline",
+              "resolved": "shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/un-poco-bien-un-poco-mal/Inst.ogg",
+        "inst_bytes": 4636426,
+        "inst_sha256": "d062610df6cb868065c3737406437e1a14d817aa13488d07d09922f0d995b220",
+        "voices": [
+          {
+            "name": "Voices-esperon-un-poco-bien-un-poco-mal.ogg",
+            "bytes": 4428267,
+            "sha256": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229"
+          }
+        ]
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "mod": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos",
+      "issues": [],
+      "status": "PASS",
+      "manifest": {
+        "api_version": "0.8.6",
+        "mod_version": "2.4.0"
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "stage": "escenario-volver-a-vernos",
+        "characters": {
+          "player": "esperon-volver-a-vernos",
+          "opponent": "rival-volver-a-vernos",
+          "playerVocals": [
+            "esperon-volver-a-vernos"
+          ],
+          "opponentVocals": []
+        },
+        "noteStyle": "esperon-volver-a-vernos-notes",
+        "album": "esperon-volver-a-vernos"
+      },
+      "chart": {
+        "version": "2.0.0",
+        "timeChanges": null,
+        "notes": {
+          "easy": {
+            "count": 50,
+            "first": 394.739,
+            "first_10s": 8,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 394.739,
+              "5": 3250.794,
+              "6": 1004.263,
+              "7": 9032.562
+            },
+            "last": 170689.887,
+            "scrollSpeed": 0.8
+          },
+          "normal": {
+            "count": 113,
+            "first": 394.739,
+            "first_10s": 12,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 394.739,
+              "5": 3053.424,
+              "6": 1004.263,
+              "7": 4806.531
+            },
+            "last": 170689.887,
+            "scrollSpeed": 1.0
+          },
+          "hard": {
+            "count": 174,
+            "first": 359.909,
+            "first_10s": 36,
+            "lanes": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "first_by_lane": {
+              "4": 359.909,
+              "5": 510.839,
+              "6": 917.188,
+              "7": 1091.338
+            },
+            "last": 170689.887,
+            "scrollSpeed": 1.22
+          }
+        }
+      },
+      "note_style": {
+        "path": "data/notestyles/esperon-volver-a-vernos-notes.json",
+        "version": "1.0.0",
+        "assets": {
+          "note": {
+            "assetPath": "shared:notes/esperon-volver-a-vernos-notes-notes",
+            "atlas": {
+              "asset": "shared:notes/esperon-volver-a-vernos-notes-notes",
+              "resolved": "shared/images/notes/esperon-volver-a-vernos-notes-notes",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "noteLeft",
+                "noteDown",
+                "noteUp",
+                "noteRight"
+              ],
+              "frame_count": 4,
+              "png_size": [
+                512,
+                128
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "left": {
+                "prefix": "noteLeft",
+                "matches": [
+                  "noteLeft"
+                ]
+              },
+              "down": {
+                "prefix": "noteDown",
+                "matches": [
+                  "noteDown"
+                ]
+              },
+              "up": {
+                "prefix": "noteUp",
+                "matches": [
+                  "noteUp"
+                ]
+              },
+              "right": {
+                "prefix": "noteRight",
+                "matches": [
+                  "noteRight"
+                ]
+              }
+            }
+          },
+          "noteStrumline": {
+            "assetPath": "shared:notes/esperon-volver-a-vernos-notes-strumline",
+            "atlas": {
+              "asset": "shared:notes/esperon-volver-a-vernos-notes-strumline",
+              "resolved": "shared/images/notes/esperon-volver-a-vernos-notes-strumline",
+              "png": true,
+              "xml": true,
+              "frames": [
+                "staticLeft0",
+                "staticDown0",
+                "staticUp0",
+                "staticRight0",
+                "pressLeft0",
+                "pressDown0",
+                "pressUp0",
+                "pressRight0",
+                "confirmLeft0",
+                "confirmDown0",
+                "confirmUp0",
+                "confirmRight0"
+              ],
+              "frame_count": 12,
+              "png_size": [
+                512,
+                384
+              ],
+              "xml_error": null
+            },
+            "prefixes": {
+              "leftStatic": {
+                "prefix": "staticLeft0",
+                "matches": [
+                  "staticLeft0"
+                ]
+              },
+              "leftPress": {
+                "prefix": "pressLeft0",
+                "matches": [
+                  "pressLeft0"
+                ]
+              },
+              "leftConfirm": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "leftConfirmHold": {
+                "prefix": "confirmLeft0",
+                "matches": [
+                  "confirmLeft0"
+                ]
+              },
+              "downStatic": {
+                "prefix": "staticDown0",
+                "matches": [
+                  "staticDown0"
+                ]
+              },
+              "downPress": {
+                "prefix": "pressDown0",
+                "matches": [
+                  "pressDown0"
+                ]
+              },
+              "downConfirm": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "downConfirmHold": {
+                "prefix": "confirmDown0",
+                "matches": [
+                  "confirmDown0"
+                ]
+              },
+              "upStatic": {
+                "prefix": "staticUp0",
+                "matches": [
+                  "staticUp0"
+                ]
+              },
+              "upPress": {
+                "prefix": "pressUp0",
+                "matches": [
+                  "pressUp0"
+                ]
+              },
+              "upConfirm": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "upConfirmHold": {
+                "prefix": "confirmUp0",
+                "matches": [
+                  "confirmUp0"
+                ]
+              },
+              "rightStatic": {
+                "prefix": "staticRight0",
+                "matches": [
+                  "staticRight0"
+                ]
+              },
+              "rightPress": {
+                "prefix": "pressRight0",
+                "matches": [
+                  "pressRight0"
+                ]
+              },
+              "rightConfirm": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              },
+              "rightConfirmHold": {
+                "prefix": "confirmRight0",
+                "matches": [
+                  "confirmRight0"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "audio": {
+        "inst": "songs/volver-a-vernos/Inst.ogg",
+        "inst_bytes": 3977672,
+        "inst_sha256": "e65377e51839e6e7f5d8772f02ffc729746b7923cfa5ebf86813d6a77ce11083",
+        "voices": [
+          {
+            "name": "Voices-esperon-volver-a-vernos.ogg",
+            "bytes": 4015735,
+            "sha256": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "scope": "AUDIO_SYNC_CANDIDATE_ONLY",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "meteora",
+  "mod": "esperon-dano-meteora",
+  "analysis_mode": "VOCAL_STEM",
+  "audio": {
+    "path": "mods/esperon-dano-meteora/songs/meteora/Inst.ogg",
+    "sha256": "1e0563abea61a2e7d1f5b67e1242af0f79af3152df22661636de18bbdf6d4126",
+    "duration_ms": 193004.263,
+    "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/meteora/vocals.wav",
+    "sha256": "99cb15bb7b5a605a05a05427c16ad2a0e40e4326a0ea44f8fe20b7e6b32f5d89"
+  },
+  "parameters": {
+    "hop_length": 256,
+    "sample_rate": 22050,
+    "minimum_note_spacing_ms": 150.0
+  },
+  "tempo": {
+    "librosa_beat_bpm": 139.675,
+    "median_beat_interval_bpm": 139.675,
+    "agreement_delta_percent": 0.0
+  },
+  "counts": {
+    "onsets": 418,
+    "beats": 414,
+    "candidate_base_notes": 392,
+    "easy_notes": 196,
+    "normal_notes": 294,
+    "hard_notes": 392
+  },
+  "candidate_self_coherence": {
+    "mean_distance_to_detected_onset_ms": 0.0,
+    "max_distance_to_detected_onset_ms": 0.0
+  },
+  "promotion_blockers": [
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
+    "Falta Audio Sync Test documentado en Chart Editor.",
+    "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
+  ],
+  "proposed_metadata_patch": {
+    "timeChanges": [
+      {
+        "t": 0,
+        "b": 0,
+        "bpm": 139.675,
+        "bt": [
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "status": "CANDIDATE_DO_NOT_APPLY_AUTOMATICALLY"
+  }
+}

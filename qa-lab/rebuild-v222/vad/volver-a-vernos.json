@@ -1,0 +1,29 @@
+{
+  "song": "volver-a-vernos",
+  "audio": "mods/esperon-dano-volver-a-vernos/songs/volver-a-vernos/Voices-esperon-volver-a-vernos.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.0005957357352599502,
+  "energy_threshold": 0.015,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 186720.0,
+  "segments": [
+    {
+      "start_ms": 160,
+      "end_ms": 115220,
+      "duration_ms": 115060
+    },
+    {
+      "start_ms": 124400,
+      "end_ms": 171760,
+      "duration_ms": 47360
+    }
+  ],
+  "onsets_ms": [
+    160,
+    124400
+  ],
+  "coverage_ratio": 0.869859,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}

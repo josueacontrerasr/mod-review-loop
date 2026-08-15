@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "dano",
+  "mod": "esperon-dano-dano",
+  "audio_duration_ms": 206425.397,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "914de102669d464dbfd632e3d3b7bffb99bfbadc9d289c580b48e1b0668d5313",
+  "difficulties": {
+    "easy": {
+      "production_notes": 105,
+      "valid_notes": 105,
+      "candidate_vocal_notes": 302,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 185.759,
+      "within_75ms_of_candidate_percent": 20.0
+    },
+    "normal": {
+      "production_notes": 209,
+      "valid_notes": 209,
+      "candidate_vocal_notes": 453,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 116.1,
+      "within_75ms_of_candidate_percent": 36.842
+    },
+    "hard": {
+      "production_notes": 209,
+      "valid_notes": 209,
+      "candidate_vocal_notes": 604,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 69.66,
+      "within_75ms_of_candidate_percent": 50.239
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

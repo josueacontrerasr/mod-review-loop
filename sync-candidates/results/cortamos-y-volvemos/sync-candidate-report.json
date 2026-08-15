@@ -1,0 +1,60 @@
+{
+  "scope": "AUDIO_SYNC_CANDIDATE_ONLY",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "cortamos-y-volvemos",
+  "mod": "esperon-dano-cortamos-y-volvemos",
+  "analysis_mode": "VOCAL_STEM",
+  "audio": {
+    "path": "mods/esperon-dano-cortamos-y-volvemos/songs/cortamos-y-volvemos/Inst.ogg",
+    "sha256": "971cb444926f259fb3ff49f79c95d2d3dd873002c3d4f8cefd05fe13b7c14255",
+    "duration_ms": 207818.594,
+    "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/cortamos-y-volvemos/vocals.wav",
+    "sha256": "19b132be8c442bffd49eaab2a4667fa0abe044ec49bd01293de179087f23d17a"
+  },
+  "parameters": {
+    "hop_length": 256,
+    "sample_rate": 22050,
+    "minimum_note_spacing_ms": 150.0
+  },
+  "tempo": {
+    "librosa_beat_bpm": 166.709,
+    "median_beat_interval_bpm": 172.265,
+    "agreement_delta_percent": 3.333
+  },
+  "counts": {
+    "onsets": 693,
+    "beats": 504,
+    "candidate_base_notes": 578,
+    "easy_notes": 289,
+    "normal_notes": 434,
+    "hard_notes": 578
+  },
+  "candidate_self_coherence": {
+    "mean_distance_to_detected_onset_ms": 0.0,
+    "max_distance_to_detected_onset_ms": 0.0
+  },
+  "promotion_blockers": [
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
+    "Falta Audio Sync Test documentado en Chart Editor.",
+    "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
+  ],
+  "proposed_metadata_patch": {
+    "timeChanges": [
+      {
+        "t": 0,
+        "b": 0,
+        "bpm": 166.709,
+        "bt": [
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "status": "CANDIDATE_DO_NOT_APPLY_AUTOMATICALLY"
+  }
+}

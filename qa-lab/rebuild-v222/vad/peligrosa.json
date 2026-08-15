@@ -1,0 +1,77 @@
+{
+  "song": "peligrosa",
+  "audio": "mods/esperon-dano-peligrosa/songs/peligrosa/Voices-esperon-peligrosa.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.00021753646433353424,
+  "energy_threshold": 0.015,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 237120.0,
+  "segments": [
+    {
+      "start_ms": 11320,
+      "end_ms": 21460,
+      "duration_ms": 10140
+    },
+    {
+      "start_ms": 21520,
+      "end_ms": 53320,
+      "duration_ms": 31800
+    },
+    {
+      "start_ms": 54160,
+      "end_ms": 76580,
+      "duration_ms": 22420
+    },
+    {
+      "start_ms": 77560,
+      "end_ms": 143900,
+      "duration_ms": 66340
+    },
+    {
+      "start_ms": 143920,
+      "end_ms": 145380,
+      "duration_ms": 1460
+    },
+    {
+      "start_ms": 152760,
+      "end_ms": 153200,
+      "duration_ms": 440
+    },
+    {
+      "start_ms": 162960,
+      "end_ms": 177860,
+      "duration_ms": 14900
+    },
+    {
+      "start_ms": 178640,
+      "end_ms": 211720,
+      "duration_ms": 33080
+    },
+    {
+      "start_ms": 211940,
+      "end_ms": 217400,
+      "duration_ms": 5460
+    },
+    {
+      "start_ms": 217700,
+      "end_ms": 227780,
+      "duration_ms": 10080
+    }
+  ],
+  "onsets_ms": [
+    11320,
+    21520,
+    54160,
+    77560,
+    143920,
+    152760,
+    162960,
+    178640,
+    211940,
+    217700
+  ],
+  "coverage_ratio": 0.827092,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}

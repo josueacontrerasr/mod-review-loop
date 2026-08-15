@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "rompecabezas",
+  "mod": "esperon-dano-rompecabezas",
+  "audio_duration_ms": 215574.059,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "2def69b62053e1d516fc700197a083b6355fce5fee72559e9535196d8050ca42",
+  "difficulties": {
+    "easy": {
+      "production_notes": 95,
+      "valid_notes": 95,
+      "candidate_vocal_notes": 245,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 185.76,
+      "within_75ms_of_candidate_percent": 24.211
+    },
+    "normal": {
+      "production_notes": 190,
+      "valid_notes": 190,
+      "candidate_vocal_notes": 368,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 116.099,
+      "within_75ms_of_candidate_percent": 46.316
+    },
+    "hard": {
+      "production_notes": 190,
+      "valid_notes": 190,
+      "candidate_vocal_notes": 490,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 34.83,
+      "within_75ms_of_candidate_percent": 58.421
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

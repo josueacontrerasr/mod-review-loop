@@ -1,0 +1,597 @@
+{
+  "audit": "TODO_MASS_REFERENCE_STRUCTURE_V220",
+  "read_only": true,
+  "zip": "/home/ubuntu/upload/TODO.zip",
+  "zip_bytes": 421712609,
+  "entry_count": 1409,
+  "zip_roots": [
+    "TODO"
+  ],
+  "todo_root": "TODO",
+  "direct_subdirectories": [
+    "Disable Shader V2.5",
+    "KAPI MIX V2 1.1 [OPT MOBILE]",
+    "MoonLight Mobile",
+    "Port By FNF Fan & Ronaldo",
+    "Random Songs",
+    "Xonada V-SLICE PORT By XxAxemxX",
+    "Xonada V-SLICE PORT By XxAxemxX (1)",
+    "[V-Slice] Yo la Conoci en un Taxi",
+    "dusk_till_dawn_vslice_by_danypr008",
+    "it's-been-so-long",
+    "poppyplaytime",
+    "telepatia",
+    "v-slice_timebar_132"
+  ],
+  "direct_candidate_count": 13,
+  "polymod_manifest_count": 12,
+  "polymod_manifest_candidate_paths": [
+    "TODO/Disable Shader V2.5",
+    "TODO/KAPI MIX V2 1.1 [OPT MOBILE]",
+    "TODO/MoonLight Mobile",
+    "TODO/Port By FNF Fan & Ronaldo",
+    "TODO/Random Songs",
+    "TODO/Xonada V-SLICE PORT By XxAxemxX (1)",
+    "TODO/[V-Slice] Yo la Conoci en un Taxi",
+    "TODO/dusk_till_dawn_vslice_by_danypr008",
+    "TODO/it's-been-so-long",
+    "TODO/poppyplaytime",
+    "TODO/telepatia",
+    "TODO/v-slice_timebar_132"
+  ],
+  "mods_with_valid_manifest": 12,
+  "candidates_without_valid_manifest": 1,
+  "total_txt_or_markdown_files": 12,
+  "total_auxiliary_files": 0,
+  "candidates": [
+    {
+      "candidate": "TODO/Disable Shader V2.5",
+      "file_count": 27,
+      "root_files": [
+        "_polymod_meta.json",
+        "data",
+        "scripts"
+      ],
+      "root_dirs": [
+        "data",
+        "scripts"
+      ],
+      "txt_files": [],
+      "aux_files": [],
+      "data_song_json_count": 0,
+      "level_json_count": 0,
+      "image_count": 0,
+      "audio_count": 0,
+      "manifest_path": "_polymod_meta.json",
+      "manifest_error": null,
+      "manifest": {
+        "title": "Disable Shader V2.5",
+        "description": "Disables intensive shaders on some stages.",
+        "contributors": [
+          {
+            "name": "sector"
+          }
+        ],
+        "api_version": "0.8.4",
+        "mod_version": "1.0.0",
+        "license": "Apache-2.0"
+      },
+      "status": "MOD_MANIFEST_FOUND"
+    },
+    {
+      "candidate": "TODO/KAPI MIX V2 1.1 [OPT MOBILE]",
+      "file_count": 536,
+      "root_files": [
+        "_polymod_icon.astc",
+        "_polymod_meta.json",
+        "data",
+        "events",
+        "flash-files",
+        "fonts",
+        "images",
+        "music",
+        "scripts",
+        "shaders",
+        "shared",
+        "songs",
+        "sounds",
+        "videos"
+      ],
+      "root_dirs": [
+        "data",
+        "events",
+        "flash-files",
+        "fonts",
+        "images",
+        "music",
+        "scripts",
+        "shaders",
+        "shared",
+        "songs",
+        "sounds",
+        "videos"
+      ],
+      "txt_files": [
+        "shared/images/kapiv2/dvd.txt"
+      ],
+      "aux_files": [],
+      "data_song_json_count": 50,
+      "level_json_count": 5,
+      "image_count": 242,
+      "audio_count": 73,
+      "manifest_path": "_polymod_meta.json",
+      "manifest_error": null,
+      "manifest": {
+        "title": "Kapi Mix V2 1.1",
+        "description": "Kapi Mix V2 Version 1.1 Proximamente Kapi Mix V3",
+        "author": "Ronaldo & Ari Love",
+        "contributors": [
+          {
+            "name": "Ronaldo",
+            "role": "Coder + Charts + mix + icon + menu songs + icon pixel",
+            "url": "https://www.tiktok.com/@ronsldo27fnf?_r=1&_t=ZS-93ox1YDcTpZ"
+          },
+          {
+            "name": "Ari love",
+            "role": "Optimizacion mod mobile",
+            "url": "https://www.tiktok.com/@love_ari.insta?_r=1&_t=ZS-94RQBbVbYuG"
+          }
+        ],
+        "api_version": "0.8.4",
+        "mod_version": "1.2.1",
+        "license": "CC BY 4.0,MIT"
+      },
+      "status": "MOD_MANIFEST_FOUND"
+    },
+    {
+      "candidate": "TODO/MoonLight Mobile",
+      "file_count": 68,
+      "root_files": [
+        "_polymod_meta.json",
+        "data",
+        "images",
+        "scripts",
+        "shared",
+        "songs"
+      ],
+      "root_dirs": [
+        "data",
+        "images",
+        "scripts",
+        "shared",
+        "songs"
+      ],
+      "txt_files": [],
+      "aux_files": [],
+      "data_song_json_count": 3,
+      "level_json_count": 1,
+      "image_count": 24,
+      "audio_count": 7,
+      "manifest_path": "_polymod_meta.json",
+      "manifest_error": null,
+      "manifest": {
+        "title": "fnf erect mashups week 1-7",
+        "description": "mashups de canciones erect de las weeks 1 a la 7",
+        "contributors": [
+          {
+            "name": "FNF Fan (tiktok)",
+            "role": "creador del port xd",
+            "url": "tiktok.com/@full.fnf"
+          },
+          {
+            "name": "FNF Fan (Youtube)",
+            "role": "convertidor de los charts (es facil)",
+            "url": "www.youtube.com/@FNF_Fan4"
+          }
+        ],
+        "api_version": "0.8.4",
+        "mod_version": "1.0.0",
+        "license": "Apache-2.0"
+      },
+      "status": "MOD_MANIFEST_FOUND"
+    },
+    {
+      "candidate": "TODO/Port By FNF Fan & Ronaldo",
+      "file_count": 126,
+      "root_files": [
+        "_polymod_meta.json",
+        "data",
+        "images",
+        "scripts",
+        "shared",
+        "songs",
+        "videos"
+      ],
+      "root_dirs": [
+        "data",
+        "images",
+        "scripts",
+        "shared",
+        "songs",
+        "videos"
+      ],
+      "txt_files": [],
+      "aux_files": [],
+      "data_song_json_count": 15,
+      "level_json_count": 3,
+      "image_count": 43,
+      "audio_count": 12,
+      "manifest_path": "_polymod_meta.json",
+      "manifest_error": null,
+      "manifest": {
+        "title": "QUE HAY DE MALO EL QUERER TENELTE",
+        "description": "CORAZON DE SEDA",
+        "contributors": [
+          {
+            "name": "FNF Fan (tiktok)",
+            "role": "Characters Converter",
+            "url": "tiktok.com/@full.fnf"
+          },
+          {
+            "name": "FNF Fan (Youtube)",
+            "role": "convertidor de los charts (es facil)",
+            "url": "www.youtube.com/@FNF_Fan4"
+          },
+          {
+            "name": "Ronaldo",
+            "role": "Mente Maestra",
+            "url": "https://www.tiktok.com/@ronsldo27fnf?_r=1&_t=ZM-919twI0aaK3"
+          }
+        ],
+        "api_version": "0.8.4",
+        "mod_version": "1.0.0",
+        "license": "Apache-2.0"
+      },
+      "status": "MOD_MANIFEST_FOUND"
+    },
+    {
+      "candidate": "TODO/Random Songs",
+      "file_count": 128,
+      "root_files": [
+        "NoteKindsHandler.hxc",
+        "_polymod_meta.json",
+        "data",
+        "extraEventsSaveHandler.hxc",
+        "flash files",
+        "fonts",
+        "images",
+        "scripts",
+        "shaders",
+        "shared",
+        "songs"
+      ],
+      "root_dirs": [
+        "data",
+        "flash files",
+        "fonts",
+        "images",
+        "scripts",
+        "shaders",
+        "shared",
+        "songs"
+      ],
+      "txt_files": [],
+      "aux_files": [],
+      "data_song_json_count": 6,
+      "level_json_count": 2,
+      "image_count": 45,
+      "audio_count": 10,
+      "manifest_path": "_polymod_meta.json",
+      "manifest_error": null,
+      "manifest": {
+        "title": "Random Songs",
+        "description": "este mod quizas se actualice una vez cada 3 semanas xd",
+        "contributors": [
+          {
+            "name": "FNF Fan (tiktok)",
+            "role": "creador del port xd",
+            "url": "tiktok.com/@full.fnf"
+          },
+          {
+            "name": "FNF Fan (Youtube)",
+            "role": "convertidor de los charts (es facil)",
+            "url": "www.youtube.com/@FNF_Fan4"
+          }
+        ],
+        "api_version": "0.8.4",
+        "mod_version": "1.0.0",
+        "license": "Apache-2.0"
+      },
+      "status": "MOD_MANIFEST_FOUND"
+    },
+    {
+      "candidate": "TODO/Xonada V-SLICE PORT By XxAxemxX",
+      "file_count": 23,
+      "root_files": [
+        "images",
+        "shared",
+        "songs"
+      ],
+      "root_dirs": [
+        "images",
+        "shared",
+        "songs"
+      ],
+      "txt_files": [],
+      "aux_files": [],
+      "data_song_json_count": 0,
+      "level_json_count": 0,
+      "image_count": 15,
+      "audio_count": 3,
+      "manifest_path": null,
+      "manifest_error": null,
+      "manifest": null,
+      "status": "CANDIDATE_WITHOUT_VALID_MANIFEST"
+    },
+    {
+      "candidate": "TODO/Xonada V-SLICE PORT By XxAxemxX (1)",
+      "file_count": 15,
+      "root_files": [
+        "SickAltAnim.hxc",
+        "_polymod_icon.png",
+        "_polymod_meta.json",
+        "data",
+        "images"
+      ],
+      "root_dirs": [
+        "data",
+        "images"
+      ],
+      "txt_files": [],
+      "aux_files": [],
+      "data_song_json_count": 2,
+      "level_json_count": 1,
+      "image_count": 2,
+      "audio_count": 0,
+      "manifest_path": "_polymod_meta.json",
+      "manifest_error": null,
+      "manifest": {
+        "title": "XONADA FNF",
+        "description": "LMAO",
+        "author": "XxAxemxX",
+        "api_version": "0.8.5",
+        "mod_version": "1.1.1",
+        "license": "CC BY 4.0,MIT"
+      },
+      "status": "MOD_MANIFEST_FOUND"
+    },
+    {
+      "candidate": "TODO/[V-Slice] Yo la Conoci en un Taxi",
+      "file_count": 31,
+      "root_files": [
+        "_polymod_meta.json",
+        "data",
+        "images",
+        "scripts",
+        "songs"
+      ],
+      "root_dirs": [
+        "data",
+        "images",
+        "scripts",
+        "songs"
+      ],
+      "txt_files": [],
+      "aux_files": [],
+      "data_song_json_count": 3,
+      "level_json_count": 1,
+      "image_count": 9,
+      "audio_count": 3,
+      "manifest_path": "_polymod_meta.json",
+      "manifest_error": null,
+      "manifest": {
+        "title": "En camino al club",
+        "description": "pinche idiotez este mod, no se de donde salio y como lo obtuve pero esta en mi cuenta de gamebanana, decidi portearlo a v slice porq si jaja lol jaja lol",
+        "contributors": [
+          {
+            "name": "creditos en la pagina de gamebanana w"
+          }
+        ],
+        "api_version": "0.8.4",
+        "mod_version": "1.0.0",
+        "license": "Apache-2.0"
+      },
+      "status": "MOD_MANIFEST_FOUND"
+    },
+    {
+      "candidate": "TODO/dusk_till_dawn_vslice_by_danypr008",
+      "file_count": 102,
+      "root_files": [
+        "_polymod_icon.png",
+        "_polymod_meta.json",
+        "data",
+        "images",
+        "scripts",
+        "shared",
+        "songs"
+      ],
+      "root_dirs": [
+        "data",
+        "images",
+        "scripts",
+        "shared",
+        "songs"
+      ],
+      "txt_files": [],
+      "aux_files": [],
+      "data_song_json_count": 3,
+      "level_json_count": 1,
+      "image_count": 54,
+      "audio_count": 3,
+      "manifest_path": "_polymod_meta.json",
+      "manifest_error": null,
+      "manifest": {
+        "title": "Dusk Till Dawn",
+        "description": "Port by danypr008",
+        "author": "danypr008",
+        "api_version": "0.8.5",
+        "mod_version": "2.0.0",
+        "license": "Apache-2.0"
+      },
+      "status": "MOD_MANIFEST_FOUND"
+    },
+    {
+      "candidate": "TODO/it's-been-so-long",
+      "file_count": 52,
+      "root_files": [
+        "BadAppleEvent.hxc",
+        "_polymod_meta.json",
+        "data",
+        "images",
+        "scripts",
+        "shaders",
+        "shared",
+        "songs",
+        "videos"
+      ],
+      "root_dirs": [
+        "data",
+        "images",
+        "scripts",
+        "shaders",
+        "shared",
+        "songs",
+        "videos"
+      ],
+      "txt_files": [],
+      "aux_files": [],
+      "data_song_json_count": 2,
+      "level_json_count": 1,
+      "image_count": 14,
+      "audio_count": 1,
+      "manifest_path": "_polymod_meta.json",
+      "manifest_error": null,
+      "manifest": {
+        "title": "Its-been-so-long",
+        "description": "Port from the mod Amazing BF",
+        "author": "Axemmt of The Port, Amazing BF Original Mod",
+        "api_version": "0.8.4",
+        "mod_version": "1.0.0",
+        "license": "CC BY 4.0,MIT"
+      },
+      "status": "MOD_MANIFEST_FOUND"
+    },
+    {
+      "candidate": "TODO/poppyplaytime",
+      "file_count": 167,
+      "root_files": [
+        "_polymod_icon.png",
+        "_polymod_meta.json",
+        "data",
+        "images",
+        "music",
+        "shared",
+        "songs",
+        "sounds"
+      ],
+      "root_dirs": [
+        "data",
+        "images",
+        "music",
+        "shared",
+        "songs",
+        "sounds"
+      ],
+      "txt_files": [
+        "music/readme.txt",
+        "shared/images/characters/readme.txt",
+        "sounds/readme.txt"
+      ],
+      "aux_files": [],
+      "data_song_json_count": 4,
+      "level_json_count": 2,
+      "image_count": 116,
+      "audio_count": 6,
+      "manifest_path": "_polymod_meta.json",
+      "manifest_error": null,
+      "manifest": {
+        "title": "poppy playtime",
+        "description": "Mommy Time",
+        "author": "juxz",
+        "api_version": "0.8.5",
+        "mod_version": "1.0.0",
+        "license": "CC BY 4.0,MIT"
+      },
+      "status": "MOD_MANIFEST_FOUND"
+    },
+    {
+      "candidate": "TODO/telepatia",
+      "file_count": 109,
+      "root_files": [
+        "_polymod_icon.png",
+        "_polymod_meta.json",
+        "data",
+        "images",
+        "shared",
+        "songs"
+      ],
+      "root_dirs": [
+        "data",
+        "images",
+        "shared",
+        "songs"
+      ],
+      "txt_files": [
+        "images/fonts/some fonts.txt",
+        "images/freeplay/icons/Your freeplay icons here!.txt",
+        "images/icons/Your Character icon here.txt",
+        "images/soundtray/your volume shitty sprites idk.txt",
+        "shared/images/characters/Your XML and PNG characters here.txt",
+        "shared/images/freeplay/icons/Your freeplay icons here!.txt",
+        "shared/images/transitionSwag/stickers-set-1/Your stickers here.txt"
+      ],
+      "aux_files": [],
+      "data_song_json_count": 2,
+      "level_json_count": 1,
+      "image_count": 87,
+      "audio_count": 1,
+      "manifest_path": "_polymod_meta.json",
+      "manifest_error": null,
+      "manifest": {
+        "title": "telepatia",
+        "description": "vallan a seguirme como fnf rap en tiktok description",
+        "author": "fnf rap",
+        "api_version": "0.8.4",
+        "mod_version": "1.1.1",
+        "license": "CC BY 4.0,MIT"
+      },
+      "status": "MOD_MANIFEST_FOUND"
+    },
+    {
+      "candidate": "TODO/v-slice_timebar_132",
+      "file_count": 11,
+      "root_files": [
+        "LICENSE",
+        "README.md",
+        "_polymod_icon.png",
+        "_polymod_meta.json",
+        "images",
+        "scripts"
+      ],
+      "root_dirs": [
+        "images",
+        "scripts"
+      ],
+      "txt_files": [
+        "README.md"
+      ],
+      "aux_files": [],
+      "data_song_json_count": 0,
+      "level_json_count": 0,
+      "image_count": 2,
+      "audio_count": 0,
+      "manifest_path": "_polymod_meta.json",
+      "manifest_error": null,
+      "manifest": {
+        "title": "Time Bar",
+        "description": "Implements a togglable timebar.",
+        "author": "JugieNoob",
+        "api_version": "0.8.4",
+        "mod_version": "1.3.2",
+        "license": "CC BY 4.0,MIT"
+      },
+      "status": "MOD_MANIFEST_FOUND"
+    }
+  ],
+  "interpretation": "TODO.zip es un contenedor masivo; cada subdirectorio con _polymod_meta.json debe compararse como mod individual y las carpetas sin manifiesto deben clasificarse como plantilla, recurso o paquete incompleto."
+}

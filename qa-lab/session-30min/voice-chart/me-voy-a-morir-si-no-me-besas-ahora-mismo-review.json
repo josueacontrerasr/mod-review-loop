@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+  "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+  "audio_duration_ms": 190589.388,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "e98f0f69a10ab4368731d232aa25cc7998e888eb05ca3595ae675d7bd4ac31d4",
+  "difficulties": {
+    "easy": {
+      "production_notes": 64,
+      "valid_notes": 64,
+      "candidate_vocal_notes": 141,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 307.665,
+      "within_75ms_of_candidate_percent": 18.75
+    },
+    "normal": {
+      "production_notes": 127,
+      "valid_notes": 127,
+      "candidate_vocal_notes": 211,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 255.42,
+      "within_75ms_of_candidate_percent": 25.984
+    },
+    "hard": {
+      "production_notes": 127,
+      "valid_notes": 127,
+      "candidate_vocal_notes": 281,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 127.709,
+      "within_75ms_of_candidate_percent": 35.433
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

@@ -1,0 +1,1149 @@
+{
+  "version": "2.5.1-joint-vocal-rhythm",
+  "status": "PASS",
+  "songs": 20,
+  "difficulties": 60,
+  "parallel_workers": 8,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "voice_sha256": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282",
+      "inst_sha256": "c9d6043842dbfb735102809f4d9860263249f2915703c74b2539b09421763437",
+      "duration_ms": 212834.104,
+      "vocal_events": 512,
+      "rhythm_events": 535,
+      "vad_segments": 7,
+      "vocal_coverage": 0.928202,
+      "difficulties": {
+        "easy": {
+          "notes": 332,
+          "family_counts": {
+            "vocal": 291,
+            "rhythm": 41,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 504,
+          "family_counts": {
+            "vocal": 406,
+            "rhythm": 98,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 637,
+          "family_counts": {
+            "vocal": 473,
+            "rhythm": 164,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "voice_sha256": "0ec71bd2381a39212b549071a8ba617fd36753b9b0ea5343757d5e6224d745c1",
+      "inst_sha256": "d7ad308125b558ead8cf26daa7d8890fd5c7da8f88524db2213fba77b71bdf98",
+      "duration_ms": 207818.594,
+      "vocal_events": 707,
+      "rhythm_events": 738,
+      "vad_segments": 22,
+      "vocal_coverage": 0.860346,
+      "difficulties": {
+        "easy": {
+          "notes": 385,
+          "family_counts": {
+            "vocal": 337,
+            "rhythm": 48,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 1.27
+        },
+        "normal": {
+          "notes": 584,
+          "family_counts": {
+            "vocal": 470,
+            "rhythm": 114,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 850,
+          "family_counts": {
+            "vocal": 631,
+            "rhythm": 219,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "dano",
+      "voice_sha256": "bcef47cacf8685fd1d0f06918bdf577394cb4537771dc9b0bcf9956a0a4cd253",
+      "inst_sha256": "1cd2bca7478ff391d95def339185125e2d5bd2a4bdeb28846610059ebe609824",
+      "duration_ms": 206425.397,
+      "vocal_events": 792,
+      "rhythm_events": 801,
+      "vad_segments": 14,
+      "vocal_coverage": 0.853406,
+      "difficulties": {
+        "easy": {
+          "notes": 404,
+          "family_counts": {
+            "vocal": 353,
+            "rhythm": 51,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 634,
+          "family_counts": {
+            "vocal": 509,
+            "rhythm": 125,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 903,
+          "family_counts": {
+            "vocal": 672,
+            "rhythm": 231,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "voice_sha256": "96fd2c6aeccdc860a4e519b7bcb2156d723d75934fc6856c4fa766e238350422",
+      "inst_sha256": "b4ceae0d92b042011f30aeee561ad912cad76457708641ade711e2ff90bb45e8",
+      "duration_ms": 243623.764,
+      "vocal_events": 593,
+      "rhythm_events": 724,
+      "vad_segments": 9,
+      "vocal_coverage": 0.758969,
+      "difficulties": {
+        "easy": {
+          "notes": 401,
+          "family_counts": {
+            "vocal": 350,
+            "rhythm": 51,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 559,
+          "family_counts": {
+            "vocal": 451,
+            "rhythm": 108,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 12.181
+        },
+        "hard": {
+          "notes": 764,
+          "family_counts": {
+            "vocal": 568,
+            "rhythm": 196,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.038
+        }
+      }
+    },
+    {
+      "song": "eclipsis",
+      "voice_sha256": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98",
+      "inst_sha256": "0ae33be6f978292d671b2446222c9cefa28cf00b61785956793c548121db0af4",
+      "duration_ms": 257091.338,
+      "vocal_events": 582,
+      "rhythm_events": 744,
+      "vad_segments": 6,
+      "vocal_coverage": 0.822312,
+      "difficulties": {
+        "easy": {
+          "notes": 386,
+          "family_counts": {
+            "vocal": 336,
+            "rhythm": 50,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 596,
+          "family_counts": {
+            "vocal": 477,
+            "rhythm": 119,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 745,
+          "family_counts": {
+            "vocal": 552,
+            "rhythm": 193,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "fango",
+      "voice_sha256": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595",
+      "inst_sha256": "40a0f3d26913562278893293d0f679b587c9b803be704573eafc79140060e628",
+      "duration_ms": 210697.868,
+      "vocal_events": 539,
+      "rhythm_events": 714,
+      "vad_segments": 14,
+      "vocal_coverage": 0.831308,
+      "difficulties": {
+        "easy": {
+          "notes": 344,
+          "family_counts": {
+            "vocal": 300,
+            "rhythm": 44,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 489,
+          "family_counts": {
+            "vocal": 391,
+            "rhythm": 98,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 664,
+          "family_counts": {
+            "vocal": 492,
+            "rhythm": 172,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "luma",
+      "voice_sha256": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae",
+      "inst_sha256": "ea04b8654bc702ed1e4db2c2f582dc774026fea9da199d018a97c42c6494f3b9",
+      "duration_ms": 238004.535,
+      "vocal_events": 499,
+      "rhythm_events": 686,
+      "vad_segments": 6,
+      "vocal_coverage": 0.903193,
+      "difficulties": {
+        "easy": {
+          "notes": 337,
+          "family_counts": {
+            "vocal": 294,
+            "rhythm": 43,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 490,
+          "family_counts": {
+            "vocal": 392,
+            "rhythm": 98,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 620,
+          "family_counts": {
+            "vocal": 460,
+            "rhythm": 160,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "voice_sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29",
+      "inst_sha256": "f4347aa912ef3419bb38edc14e43866223b2ea069071b449dae7d6bde8d0eb6a",
+      "duration_ms": 231270.748,
+      "vocal_events": 689,
+      "rhythm_events": 663,
+      "vad_segments": 19,
+      "vocal_coverage": 0.946381,
+      "difficulties": {
+        "easy": {
+          "notes": 437,
+          "family_counts": {
+            "vocal": 383,
+            "rhythm": 54,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 630,
+          "family_counts": {
+            "vocal": 513,
+            "rhythm": 117,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 867,
+          "family_counts": {
+            "vocal": 644,
+            "rhythm": 223,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "voice_sha256": "c7b009564ad9e319f244ef9068116e900b19a1e6b963ef9ab92b12d895454968",
+      "inst_sha256": "dcdf0c71bae7ad7963915f0197c13249d368e6fde92f471646b9dd463c89bec1",
+      "duration_ms": 190589.388,
+      "vocal_events": 369,
+      "rhythm_events": 455,
+      "vad_segments": 12,
+      "vocal_coverage": 0.775003,
+      "difficulties": {
+        "easy": {
+          "notes": 252,
+          "family_counts": {
+            "vocal": 219,
+            "rhythm": 33,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 382,
+          "family_counts": {
+            "vocal": 306,
+            "rhythm": 76,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 455,
+          "family_counts": {
+            "vocal": 337,
+            "rhythm": 118,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "meteora",
+      "voice_sha256": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387",
+      "inst_sha256": "4b18e19fa889a5a1e598e33592eff10aa2f6dd6fc1c07b008cea52ddaf1f3925",
+      "duration_ms": 193004.263,
+      "vocal_events": 493,
+      "rhythm_events": 604,
+      "vad_segments": 8,
+      "vocal_coverage": 0.909741,
+      "difficulties": {
+        "easy": {
+          "notes": 339,
+          "family_counts": {
+            "vocal": 298,
+            "rhythm": 41,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 449,
+          "family_counts": {
+            "vocal": 361,
+            "rhythm": 88,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 640,
+          "family_counts": {
+            "vocal": 474,
+            "rhythm": 166,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "voice_sha256": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2",
+      "inst_sha256": "8fd9014f4a0e01e2a400fdbe93f2432daa2548a322dd8ffccae54e70681a0fe3",
+      "duration_ms": 174242.54,
+      "vocal_events": 362,
+      "rhythm_events": 607,
+      "vad_segments": 15,
+      "vocal_coverage": 0.726469,
+      "difficulties": {
+        "easy": {
+          "notes": 229,
+          "family_counts": {
+            "vocal": 199,
+            "rhythm": 30,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 352,
+          "family_counts": {
+            "vocal": 282,
+            "rhythm": 70,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 440,
+          "family_counts": {
+            "vocal": 326,
+            "rhythm": 114,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "nubia",
+      "voice_sha256": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43",
+      "inst_sha256": "63a36b6d167b033b8ee2b51d71975d47183e562e1a8f176f134ce129a52caab2",
+      "duration_ms": 227137.596,
+      "vocal_events": 512,
+      "rhythm_events": 458,
+      "vad_segments": 19,
+      "vocal_coverage": 0.883938,
+      "difficulties": {
+        "easy": {
+          "notes": 351,
+          "family_counts": {
+            "vocal": 306,
+            "rhythm": 45,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 489,
+          "family_counts": {
+            "vocal": 394,
+            "rhythm": 95,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 664,
+          "family_counts": {
+            "vocal": 492,
+            "rhythm": 172,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "voice_sha256": "20d6a77f8924b647d65e0de5da9a54cf74f0635f1d3de658030a3dc214de303d",
+      "inst_sha256": "bf3372ba6bb1eb04250fee475b93751afc4473d7416fa28a77bbd7b03dae570d",
+      "duration_ms": 165929.796,
+      "vocal_events": 512,
+      "rhythm_events": 579,
+      "vad_segments": 7,
+      "vocal_coverage": 0.907184,
+      "difficulties": {
+        "easy": {
+          "notes": 296,
+          "family_counts": {
+            "vocal": 258,
+            "rhythm": 38,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 489,
+          "family_counts": {
+            "vocal": 393,
+            "rhythm": 96,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 601,
+          "family_counts": {
+            "vocal": 448,
+            "rhythm": 153,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.884
+        }
+      }
+    },
+    {
+      "song": "peligrosa",
+      "voice_sha256": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf",
+      "inst_sha256": "eedc916dbadc5510a2044521a081f476dfba9cb12f5bd2aa08552b819e1eb4a3",
+      "duration_ms": 237122.177,
+      "vocal_events": 744,
+      "rhythm_events": 1032,
+      "vad_segments": 9,
+      "vocal_coverage": 0.82667,
+      "difficulties": {
+        "easy": {
+          "notes": 400,
+          "family_counts": {
+            "vocal": 350,
+            "rhythm": 50,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 632,
+          "family_counts": {
+            "vocal": 510,
+            "rhythm": 122,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 882,
+          "family_counts": {
+            "vocal": 657,
+            "rhythm": 225,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "voice_sha256": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a",
+      "inst_sha256": "bc393a00dbf9aa19df07d4cdc218eb8587fd1770a3b446feba7dd31c0e06c3a4",
+      "duration_ms": 215574.059,
+      "vocal_events": 613,
+      "rhythm_events": 524,
+      "vad_segments": 11,
+      "vocal_coverage": 0.889961,
+      "difficulties": {
+        "easy": {
+          "notes": 371,
+          "family_counts": {
+            "vocal": 324,
+            "rhythm": 47,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 531,
+          "family_counts": {
+            "vocal": 433,
+            "rhythm": 98,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 780,
+          "family_counts": {
+            "vocal": 579,
+            "rhythm": 201,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "solare",
+      "voice_sha256": "a52a6af6ccb47ec8124d2761030dd114572bbf03c7416d82fa6eb6b2afc9edf8",
+      "inst_sha256": "4efc709fbac7b515da7a3f486dc6f87e314b73b1bf1165f95a2117cd896da4bb",
+      "duration_ms": 223515.283,
+      "vocal_events": 662,
+      "rhythm_events": 597,
+      "vad_segments": 5,
+      "vocal_coverage": 0.902013,
+      "difficulties": {
+        "easy": {
+          "notes": 404,
+          "family_counts": {
+            "vocal": 357,
+            "rhythm": 47,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 596,
+          "family_counts": {
+            "vocal": 478,
+            "rhythm": 118,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 809,
+          "family_counts": {
+            "vocal": 600,
+            "rhythm": 209,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "tristella",
+      "voice_sha256": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198",
+      "inst_sha256": "a73be0c622e3bf6ba03ac4c7f76e0824cec099a3f8c1df4211cee79904418a9e",
+      "duration_ms": 238515.374,
+      "vocal_events": 537,
+      "rhythm_events": 783,
+      "vad_segments": 12,
+      "vocal_coverage": 0.821551,
+      "difficulties": {
+        "easy": {
+          "notes": 358,
+          "family_counts": {
+            "vocal": 312,
+            "rhythm": 46,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 518,
+          "family_counts": {
+            "vocal": 414,
+            "rhythm": 104,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 664,
+          "family_counts": {
+            "vocal": 492,
+            "rhythm": 172,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "voice_sha256": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f",
+      "inst_sha256": "e9685a8b77720f30e7f93a39b58ccfa295ba195fbcca2a22ab80765b27dee981",
+      "duration_ms": 201224.127,
+      "vocal_events": 598,
+      "rhythm_events": 517,
+      "vad_segments": 13,
+      "vocal_coverage": 0.878342,
+      "difficulties": {
+        "easy": {
+          "notes": 358,
+          "family_counts": {
+            "vocal": 312,
+            "rhythm": 46,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 522,
+          "family_counts": {
+            "vocal": 424,
+            "rhythm": 98,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 734,
+          "family_counts": {
+            "vocal": 546,
+            "rhythm": 188,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "voice_sha256": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229",
+      "inst_sha256": "d062610df6cb868065c3737406437e1a14d817aa13488d07d09922f0d995b220",
+      "duration_ms": 217617.415,
+      "vocal_events": 455,
+      "rhythm_events": 603,
+      "vad_segments": 7,
+      "vocal_coverage": 0.879044,
+      "difficulties": {
+        "easy": {
+          "notes": 292,
+          "family_counts": {
+            "vocal": 254,
+            "rhythm": 38,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "normal": {
+          "notes": 438,
+          "family_counts": {
+            "vocal": 350,
+            "rhythm": 88,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 566,
+          "family_counts": {
+            "vocal": 419,
+            "rhythm": 147,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "voice_sha256": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14",
+      "inst_sha256": "e65377e51839e6e7f5d8772f02ffc729746b7923cfa5ebf86813d6a77ce11083",
+      "duration_ms": 186734.875,
+      "vocal_events": 579,
+      "rhythm_events": 602,
+      "vad_segments": 2,
+      "vocal_coverage": 0.870287,
+      "difficulties": {
+        "easy": {
+          "notes": 330,
+          "family_counts": {
+            "vocal": 293,
+            "rhythm": 37,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 5.724
+        },
+        "normal": {
+          "notes": 498,
+          "family_counts": {
+            "vocal": 408,
+            "rhythm": 90,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        },
+        "hard": {
+          "notes": 693,
+          "family_counts": {
+            "vocal": 520,
+            "rhythm": 173,
+            "unanchored": 0
+          },
+          "vocal_note_coverage_120ms": 1.0,
+          "rhythm_note_coverage_120ms": 1.0,
+          "all_note_coverage_120ms": 1.0,
+          "unanchored_ratio": 0.0,
+          "vocal_abs_median_ms": 0.0,
+          "rhythm_abs_median_ms": 0.0,
+          "all_abs_p95_ms": 0.0
+        }
+      }
+    }
+  ]
+}

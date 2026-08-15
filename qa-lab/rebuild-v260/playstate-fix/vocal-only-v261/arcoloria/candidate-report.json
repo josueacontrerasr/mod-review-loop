@@ -1,0 +1,171 @@
+{
+  "song": "arcoloria",
+  "status": "PASS",
+  "source_vocal": "mods/esperon-dano-arcoloria/songs/arcoloria/Voices-esperon-arcoloria.ogg",
+  "source_vocal_sha256": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282",
+  "analysis": {
+    "duration_ms": 212834.104,
+    "sample_rate": 22050,
+    "frame_ms": 46.44,
+    "hop_ms": 11.61,
+    "noise_floor_rms": 0.03980166,
+    "active_threshold_rms": 0.15920663,
+    "segments": [
+      {
+        "start_ms": 40007.982,
+        "end_ms": 40135.692
+      },
+      {
+        "start_ms": 53951.565,
+        "end_ms": 54346.304
+      },
+      {
+        "start_ms": 82268.299,
+        "end_ms": 82407.619
+      },
+      {
+        "start_ms": 84892.154,
+        "end_ms": 85043.084
+      },
+      {
+        "start_ms": 89338.776,
+        "end_ms": 89501.315
+      },
+      {
+        "start_ms": 102272.29,
+        "end_ms": 102400.0
+      },
+      {
+        "start_ms": 102864.399,
+        "end_ms": 103038.549
+      },
+      {
+        "start_ms": 106498.322,
+        "end_ms": 106684.082
+      },
+      {
+        "start_ms": 117934.15,
+        "end_ms": 118189.569
+      },
+      {
+        "start_ms": 131889.342,
+        "end_ms": 132376.961
+      },
+      {
+        "start_ms": 133723.719,
+        "end_ms": 133909.478
+      },
+      {
+        "start_ms": 139157.188,
+        "end_ms": 139354.558
+      },
+      {
+        "start_ms": 141386.304,
+        "end_ms": 141978.413
+      },
+      {
+        "start_ms": 143557.37,
+        "end_ms": 143708.299
+      },
+      {
+        "start_ms": 144462.948,
+        "end_ms": 144590.658
+      },
+      {
+        "start_ms": 155364.717,
+        "end_ms": 155527.256
+      },
+      {
+        "start_ms": 160682.086,
+        "end_ms": 160833.016
+      },
+      {
+        "start_ms": 161227.755,
+        "end_ms": 161459.955
+      },
+      {
+        "start_ms": 162179.773,
+        "end_ms": 162760.272
+      },
+      {
+        "start_ms": 163050.522,
+        "end_ms": 163247.891
+      },
+      {
+        "start_ms": 165581.497,
+        "end_ms": 165709.206
+      },
+      {
+        "start_ms": 170399.637,
+        "end_ms": 171026.576
+      },
+      {
+        "start_ms": 171537.415,
+        "end_ms": 171734.785
+      },
+      {
+        "start_ms": 192238.005,
+        "end_ms": 192412.154
+      },
+      {
+        "start_ms": 201642.086,
+        "end_ms": 201816.236
+      }
+    ],
+    "onsets": {
+      "easy": [
+        54299.864,
+        84915.374,
+        102887.619,
+        131889.342,
+        132249.252,
+        139168.798,
+        170422.857,
+        170840.816,
+        171711.565
+      ],
+      "normal": [
+        40031.202,
+        54299.864,
+        84915.374,
+        102887.619,
+        131889.342,
+        132249.252,
+        139168.798,
+        139342.948,
+        141606.893,
+        170422.857,
+        170840.816,
+        171711.565
+      ],
+      "hard": [
+        40031.202,
+        54299.864,
+        84915.374,
+        102887.619,
+        131889.342,
+        132249.252,
+        133828.209,
+        139168.798,
+        139342.948,
+        141502.404,
+        141606.893,
+        144590.658,
+        161309.025,
+        170422.857,
+        170840.816,
+        171711.565,
+        201676.916
+      ]
+    },
+    "onset_counts": {
+      "easy": 9,
+      "normal": 12,
+      "hard": 17
+    },
+    "refinement": "backtracked onset -> local vocal RMS peak within 55ms",
+    "source_policy": "VOICE_ONLY; all timestamps derive from Voices-*.ogg"
+  },
+  "instrumental_used_for_generation": false,
+  "manual_review_required": true
+}

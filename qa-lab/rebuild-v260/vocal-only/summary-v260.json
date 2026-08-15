@@ -1,0 +1,52 @@
+{
+  "scope": "VOCAL_ONLY_RELEASE_V260",
+  "target_version": "0.8.6",
+  "mod_version": "2.6.0",
+  "branch": "auto/vocal-only-v260",
+  "songs": 20,
+  "difficulties": 60,
+  "source_policy": "Only Voices-*.ogg generates notes",
+  "instrumental_used_for_generation": false,
+  "metrics": {
+    "source_inventory_passed": 20,
+    "candidate_songs_passed": 20,
+    "provenance_difficulties_passed": 60,
+    "independent_vad_difficulties_passed": 60,
+    "dynamic_forbidden_instrumental_inputs": 0,
+    "staging_qa_records": 400,
+    "staging_qa_errors": 0,
+    "runtime_songs_passed": 20,
+    "zip_packages_passed": 20,
+    "collection_members": 20,
+    "audio_hashes_passed": 40,
+    "production_notes_before": 30077,
+    "production_notes_outside_vocal_segments": 10492,
+    "candidate_notes_after": 24904
+  },
+  "changed_production_scope": {
+    "charts": 20,
+    "manifests": 20,
+    "audio_files": 0,
+    "assets": 0,
+    "other_runtime_files": 0
+  },
+  "delivery": {
+    "folder": "Mods .zip terminados",
+    "individual_zips": 20,
+    "collection_zip": "Mod-Esperon-Coleccion-V2.6.0.zip",
+    "old_v251_zips_remaining": 0
+  },
+  "remote_workflow": {
+    "workflow": "qa-vocal-only-v260.yml",
+    "run_id": 31898774095,
+    "head_sha": "91a32efc0b7fd2a0d6f19fd8c9f774186885303a",
+    "status": "success",
+    "artifacts_published": true
+  },
+  "status": "REMOTE_WORKFLOW_PASS",
+  "limitations": [
+    "FULL_MIX_PROXY is not used for generation, but vocal stems can contain residual bleed.",
+    "Audio Sync Test and mobile playtest remain required for perceptual certification.",
+    "Remote workflow publishes artifacts and does not commit or release automatically."
+  ]
+}

@@ -1,0 +1,2614 @@
+{
+  "scope": "FULL_AUDIO_CHART_AUDIT_V260",
+  "executed_at": "2026-08-15T16:46:02.341157+00:00",
+  "target_version": "0.8.6",
+  "songs": 20,
+  "difficulties": 60,
+  "parallel_workers": 8,
+  "passed": 20,
+  "manual_review_required": 20,
+  "status": "PASS_WITH_MANUAL_SYNC_REVIEW",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 364,
+        "normal": 474,
+        "hard": 566
+      },
+      "candidate_counts": {
+        "easy": 254,
+        "normal": 381,
+        "hard": 508
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 101.333,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "c9d6043842dbfb735102809f4d9860263249f2915703c74b2539b09421763437",
+        "duration_seconds": 212.834104,
+        "first_detected_attack_ms": 185.76,
+        "onset_count": 1181,
+        "bpm_candidates": [
+          {
+            "bpm": 103.0,
+            "support_intervals": 26.0
+          },
+          {
+            "bpm": 108.0,
+            "support_intervals": 22.0
+          },
+          {
+            "bpm": 112.0,
+            "support_intervals": 22.0
+          },
+          {
+            "bpm": 144.0,
+            "support_intervals": 19.0
+          },
+          {
+            "bpm": 136.0,
+            "support_intervals": 19.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 364,
+          "matched_120ms": 179,
+          "coverage_percent": 49.176,
+          "mean_ms": 414.945,
+          "median_ms": 127.71,
+          "p90_ms": 580.499,
+          "max_ms": 8103.764
+        },
+        "normal": {
+          "count": 474,
+          "matched_120ms": 245,
+          "coverage_percent": 51.688,
+          "mean_ms": 405.418,
+          "median_ms": 116.1,
+          "p90_ms": 580.499,
+          "max_ms": 8103.764
+        },
+        "hard": {
+          "count": 566,
+          "matched_120ms": 296,
+          "coverage_percent": 52.297,
+          "mean_ms": 395.067,
+          "median_ms": 110.295,
+          "p90_ms": 557.279,
+          "max_ms": 8103.764
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 434,
+        "normal": 563,
+        "hard": 777
+      },
+      "candidate_counts": {
+        "easy": 327,
+        "normal": 490,
+        "hard": 653
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 172.266,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "d7ad308125b558ead8cf26daa7d8890fd5c7da8f88524db2213fba77b71bdf98",
+        "duration_seconds": 207.818594,
+        "first_detected_attack_ms": 11.61,
+        "onset_count": 1217,
+        "bpm_candidates": [
+          {
+            "bpm": 144.0,
+            "support_intervals": 31.0
+          },
+          {
+            "bpm": 117.0,
+            "support_intervals": 28.0
+          },
+          {
+            "bpm": 129.0,
+            "support_intervals": 27.0
+          },
+          {
+            "bpm": 136.0,
+            "support_intervals": 27.0
+          },
+          {
+            "bpm": 191.0,
+            "support_intervals": 22.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 434,
+          "matched_120ms": 238,
+          "coverage_percent": 54.839,
+          "mean_ms": 168.064,
+          "median_ms": 92.88,
+          "p90_ms": 313.47,
+          "max_ms": 2983.764
+        },
+        "normal": {
+          "count": 563,
+          "matched_120ms": 305,
+          "coverage_percent": 54.174,
+          "mean_ms": 170.252,
+          "median_ms": 92.88,
+          "p90_ms": 313.47,
+          "max_ms": 2983.764
+        },
+        "hard": {
+          "count": 777,
+          "matched_120ms": 421,
+          "coverage_percent": 54.183,
+          "mean_ms": 158.289,
+          "median_ms": 92.88,
+          "p90_ms": 301.86,
+          "max_ms": 2983.764
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 438,
+        "normal": 625,
+        "hard": 869
+      },
+      "candidate_counts": {
+        "easy": 311,
+        "normal": 466,
+        "hard": 621
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 126.048,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "1cd2bca7478ff391d95def339185125e2d5bd2a4bdeb28846610059ebe609824",
+        "duration_seconds": 206.425397,
+        "first_detected_attack_ms": 336.689,
+        "onset_count": 1065,
+        "bpm_candidates": [
+          {
+            "bpm": 199.0,
+            "support_intervals": 33.0
+          },
+          {
+            "bpm": 103.0,
+            "support_intervals": 29.0
+          },
+          {
+            "bpm": 144.0,
+            "support_intervals": 26.0
+          },
+          {
+            "bpm": 112.0,
+            "support_intervals": 24.0
+          },
+          {
+            "bpm": 108.0,
+            "support_intervals": 20.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 438,
+          "matched_120ms": 230,
+          "coverage_percent": 52.511,
+          "mean_ms": 148.027,
+          "median_ms": 116.1,
+          "p90_ms": 336.689,
+          "max_ms": 1555.737
+        },
+        "normal": {
+          "count": 625,
+          "matched_120ms": 310,
+          "coverage_percent": 49.6,
+          "mean_ms": 145.682,
+          "median_ms": 127.709,
+          "p90_ms": 313.469,
+          "max_ms": 1555.737
+        },
+        "hard": {
+          "count": 869,
+          "matched_120ms": 424,
+          "coverage_percent": 48.792,
+          "mean_ms": 145.993,
+          "median_ms": 127.709,
+          "p90_ms": 313.469,
+          "max_ms": 1555.737
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 397,
+        "normal": 572,
+        "hard": 669
+      },
+      "candidate_counts": {
+        "easy": 320,
+        "normal": 480,
+        "hard": 640
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 139.675,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "b4ceae0d92b042011f30aeee561ad912cad76457708641ade711e2ff90bb45e8",
+        "duration_seconds": 243.623764,
+        "first_detected_attack_ms": 174.15,
+        "onset_count": 1587,
+        "bpm_candidates": [
+          {
+            "bpm": 144.0,
+            "support_intervals": 130.0
+          },
+          {
+            "bpm": 136.0,
+            "support_intervals": 64.0
+          },
+          {
+            "bpm": 123.0,
+            "support_intervals": 26.0
+          },
+          {
+            "bpm": 129.0,
+            "support_intervals": 23.0
+          },
+          {
+            "bpm": 140.0,
+            "support_intervals": 12.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 397,
+          "matched_120ms": 198,
+          "coverage_percent": 49.874,
+          "mean_ms": 188.333,
+          "median_ms": 121.905,
+          "p90_ms": 394.74,
+          "max_ms": 1869.206
+        },
+        "normal": {
+          "count": 572,
+          "matched_120ms": 275,
+          "coverage_percent": 48.077,
+          "mean_ms": 183.212,
+          "median_ms": 139.319,
+          "p90_ms": 394.739,
+          "max_ms": 1869.206
+        },
+        "hard": {
+          "count": 669,
+          "matched_120ms": 329,
+          "coverage_percent": 49.178,
+          "mean_ms": 177.49,
+          "median_ms": 127.71,
+          "p90_ms": 394.739,
+          "max_ms": 1869.206
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 400,
+        "normal": 557,
+        "hard": 658
+      },
+      "candidate_counts": {
+        "easy": 319,
+        "normal": 479,
+        "hard": 638
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 109.957,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "0ae33be6f978292d671b2446222c9cefa28cf00b61785956793c548121db0af4",
+        "duration_seconds": 257.091338,
+        "first_detected_attack_ms": 243.81,
+        "onset_count": 1395,
+        "bpm_candidates": [
+          {
+            "bpm": 112.0,
+            "support_intervals": 50.0
+          },
+          {
+            "bpm": 108.0,
+            "support_intervals": 44.0
+          },
+          {
+            "bpm": 117.0,
+            "support_intervals": 33.0
+          },
+          {
+            "bpm": 103.0,
+            "support_intervals": 30.0
+          },
+          {
+            "bpm": 199.0,
+            "support_intervals": 26.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 400,
+          "matched_120ms": 183,
+          "coverage_percent": 45.75,
+          "mean_ms": 308.056,
+          "median_ms": 150.929,
+          "p90_ms": 754.648,
+          "max_ms": 3819.683
+        },
+        "normal": {
+          "count": 557,
+          "matched_120ms": 270,
+          "coverage_percent": 48.474,
+          "mean_ms": 289.801,
+          "median_ms": 127.71,
+          "p90_ms": 638.549,
+          "max_ms": 3819.683
+        },
+        "hard": {
+          "count": 658,
+          "matched_120ms": 326,
+          "coverage_percent": 49.544,
+          "mean_ms": 270.788,
+          "median_ms": 127.709,
+          "p90_ms": 580.499,
+          "max_ms": 3819.683
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 355,
+        "normal": 479,
+        "hard": 596
+      },
+      "candidate_counts": {
+        "easy": 297,
+        "normal": 446,
+        "hard": 594
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 90.666,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "40a0f3d26913562278893293d0f679b587c9b803be704573eafc79140060e628",
+        "duration_seconds": 210.697868,
+        "first_detected_attack_ms": 1660.227,
+        "onset_count": 1157,
+        "bpm_candidates": [
+          {
+            "bpm": 129.0,
+            "support_intervals": 31.0
+          },
+          {
+            "bpm": 123.0,
+            "support_intervals": 24.0
+          },
+          {
+            "bpm": 112.0,
+            "support_intervals": 22.0
+          },
+          {
+            "bpm": 117.0,
+            "support_intervals": 21.0
+          },
+          {
+            "bpm": 120.0,
+            "support_intervals": 18.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 355,
+          "matched_120ms": 169,
+          "coverage_percent": 47.606,
+          "mean_ms": 238.348,
+          "median_ms": 127.71,
+          "p90_ms": 441.179,
+          "max_ms": 3355.283
+        },
+        "normal": {
+          "count": 479,
+          "matched_120ms": 234,
+          "coverage_percent": 48.852,
+          "mean_ms": 251.541,
+          "median_ms": 127.71,
+          "p90_ms": 534.059,
+          "max_ms": 3355.283
+        },
+        "hard": {
+          "count": 596,
+          "matched_120ms": 296,
+          "coverage_percent": 49.664,
+          "mean_ms": 232.521,
+          "median_ms": 127.709,
+          "p90_ms": 406.349,
+          "max_ms": 3355.283
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 360,
+        "normal": 458,
+        "hard": 552
+      },
+      "candidate_counts": {
+        "easy": 297,
+        "normal": 446,
+        "hard": 594
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 71.777,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "ea04b8654bc702ed1e4db2c2f582dc774026fea9da199d018a97c42c6494f3b9",
+        "duration_seconds": 238.004535,
+        "first_detected_attack_ms": 92.88,
+        "onset_count": 1368,
+        "bpm_candidates": [
+          {
+            "bpm": 108.0,
+            "support_intervals": 49.0
+          },
+          {
+            "bpm": 112.0,
+            "support_intervals": 35.0
+          },
+          {
+            "bpm": 103.0,
+            "support_intervals": 35.0
+          },
+          {
+            "bpm": 144.0,
+            "support_intervals": 29.0
+          },
+          {
+            "bpm": 123.0,
+            "support_intervals": 13.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 360,
+          "matched_120ms": 174,
+          "coverage_percent": 48.333,
+          "mean_ms": 262.66,
+          "median_ms": 139.32,
+          "p90_ms": 545.669,
+          "max_ms": 3001.179
+        },
+        "normal": {
+          "count": 458,
+          "matched_120ms": 217,
+          "coverage_percent": 47.38,
+          "mean_ms": 260.109,
+          "median_ms": 139.32,
+          "p90_ms": 545.668,
+          "max_ms": 3227.573
+        },
+        "hard": {
+          "count": 552,
+          "matched_120ms": 271,
+          "coverage_percent": 49.094,
+          "mean_ms": 249.446,
+          "median_ms": 127.71,
+          "p90_ms": 534.059,
+          "max_ms": 3227.573
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 426,
+        "normal": 657,
+        "hard": 759
+      },
+      "candidate_counts": {
+        "easy": 312,
+        "normal": 468,
+        "hard": 624
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 135.999,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "f4347aa912ef3419bb38edc14e43866223b2ea069071b449dae7d6bde8d0eb6a",
+        "duration_seconds": 231.270748,
+        "first_detected_attack_ms": 11.61,
+        "onset_count": 1349,
+        "bpm_candidates": [
+          {
+            "bpm": 136.0,
+            "support_intervals": 57.0
+          },
+          {
+            "bpm": 144.0,
+            "support_intervals": 41.0
+          },
+          {
+            "bpm": 129.0,
+            "support_intervals": 19.0
+          },
+          {
+            "bpm": 123.0,
+            "support_intervals": 18.0
+          },
+          {
+            "bpm": 112.0,
+            "support_intervals": 16.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 426,
+          "matched_120ms": 183,
+          "coverage_percent": 42.958,
+          "mean_ms": 940.095,
+          "median_ms": 174.149,
+          "p90_ms": 3773.242,
+          "max_ms": 9601.451
+        },
+        "normal": {
+          "count": 657,
+          "matched_120ms": 302,
+          "coverage_percent": 45.967,
+          "mean_ms": 858.758,
+          "median_ms": 162.54,
+          "p90_ms": 3448.163,
+          "max_ms": 9758.185
+        },
+        "hard": {
+          "count": 759,
+          "matched_120ms": 347,
+          "coverage_percent": 45.718,
+          "mean_ms": 915.735,
+          "median_ms": 162.54,
+          "p90_ms": 3796.462,
+          "max_ms": 9758.185
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 271,
+        "normal": 352,
+        "hard": 407
+      },
+      "candidate_counts": {
+        "easy": 207,
+        "normal": 311,
+        "hard": 414
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 101.333,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "dcdf0c71bae7ad7963915f0197c13249d368e6fde92f471646b9dd463c89bec1",
+        "duration_seconds": 190.589388,
+        "first_detected_attack_ms": 394.739,
+        "onset_count": 1105,
+        "bpm_candidates": [
+          {
+            "bpm": 199.0,
+            "support_intervals": 41.0
+          },
+          {
+            "bpm": 103.0,
+            "support_intervals": 31.0
+          },
+          {
+            "bpm": 191.0,
+            "support_intervals": 22.0
+          },
+          {
+            "bpm": 108.0,
+            "support_intervals": 16.0
+          },
+          {
+            "bpm": 136.0,
+            "support_intervals": 14.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 271,
+          "matched_120ms": 131,
+          "coverage_percent": 48.339,
+          "mean_ms": 255.655,
+          "median_ms": 139.32,
+          "p90_ms": 615.328,
+          "max_ms": 2205.895
+        },
+        "normal": {
+          "count": 352,
+          "matched_120ms": 165,
+          "coverage_percent": 46.875,
+          "mean_ms": 257.728,
+          "median_ms": 150.93,
+          "p90_ms": 615.328,
+          "max_ms": 2205.895
+        },
+        "hard": {
+          "count": 407,
+          "matched_120ms": 189,
+          "coverage_percent": 46.437,
+          "mean_ms": 257.231,
+          "median_ms": 139.32,
+          "p90_ms": 673.378,
+          "max_ms": 2205.895
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 323,
+        "normal": 469,
+        "hard": 559
+      },
+      "candidate_counts": {
+        "easy": 265,
+        "normal": 397,
+        "hard": 529
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 139.675,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "4b18e19fa889a5a1e598e33592eff10aa2f6dd6fc1c07b008cea52ddaf1f3925",
+        "duration_seconds": 193.004263,
+        "first_detected_attack_ms": 197.37,
+        "onset_count": 1040,
+        "bpm_candidates": [
+          {
+            "bpm": 136.0,
+            "support_intervals": 41.0
+          },
+          {
+            "bpm": 144.0,
+            "support_intervals": 37.0
+          },
+          {
+            "bpm": 112.0,
+            "support_intervals": 31.0
+          },
+          {
+            "bpm": 129.0,
+            "support_intervals": 26.0
+          },
+          {
+            "bpm": 123.0,
+            "support_intervals": 17.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 323,
+          "matched_120ms": 144,
+          "coverage_percent": 44.582,
+          "mean_ms": 425.31,
+          "median_ms": 162.54,
+          "p90_ms": 661.769,
+          "max_ms": 6803.447
+        },
+        "normal": {
+          "count": 469,
+          "matched_120ms": 213,
+          "coverage_percent": 45.416,
+          "mean_ms": 367.447,
+          "median_ms": 162.54,
+          "p90_ms": 638.548,
+          "max_ms": 6838.277
+        },
+        "hard": {
+          "count": 559,
+          "matched_120ms": 258,
+          "coverage_percent": 46.154,
+          "mean_ms": 350.397,
+          "median_ms": 162.54,
+          "p90_ms": 615.328,
+          "max_ms": 6838.277
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 237,
+        "normal": 322,
+        "hard": 397
+      },
+      "candidate_counts": {
+        "easy": 248,
+        "normal": 372,
+        "hard": 495
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 97.509,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "8fd9014f4a0e01e2a400fdbe93f2432daa2548a322dd8ffccae54e70681a0fe3",
+        "duration_seconds": 174.24254,
+        "first_detected_attack_ms": 441.179,
+        "onset_count": 856,
+        "bpm_candidates": [
+          {
+            "bpm": 144.0,
+            "support_intervals": 18.0
+          },
+          {
+            "bpm": 191.0,
+            "support_intervals": 17.0
+          },
+          {
+            "bpm": 178.0,
+            "support_intervals": 15.0
+          },
+          {
+            "bpm": 199.0,
+            "support_intervals": 14.0
+          },
+          {
+            "bpm": 185.0,
+            "support_intervals": 13.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 237,
+          "matched_120ms": 98,
+          "coverage_percent": 41.35,
+          "mean_ms": 180.395,
+          "median_ms": 139.32,
+          "p90_ms": 371.519,
+          "max_ms": 1346.758
+        },
+        "normal": {
+          "count": 322,
+          "matched_120ms": 146,
+          "coverage_percent": 45.342,
+          "mean_ms": 171.986,
+          "median_ms": 133.515,
+          "p90_ms": 365.715,
+          "max_ms": 1346.758
+        },
+        "hard": {
+          "count": 397,
+          "matched_120ms": 186,
+          "coverage_percent": 46.851,
+          "mean_ms": 166.312,
+          "median_ms": 127.71,
+          "p90_ms": 371.519,
+          "max_ms": 1346.758
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 358,
+        "normal": 495,
+        "hard": 581
+      },
+      "candidate_counts": {
+        "easy": 217,
+        "normal": 325,
+        "hard": 433
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 151.999,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "63a36b6d167b033b8ee2b51d71975d47183e562e1a8f176f134ce129a52caab2",
+        "duration_seconds": 227.137596,
+        "first_detected_attack_ms": 568.889,
+        "onset_count": 1403,
+        "bpm_candidates": [
+          {
+            "bpm": 144.0,
+            "support_intervals": 32.0
+          },
+          {
+            "bpm": 136.0,
+            "support_intervals": 22.0
+          },
+          {
+            "bpm": 117.0,
+            "support_intervals": 19.0
+          },
+          {
+            "bpm": 129.0,
+            "support_intervals": 18.0
+          },
+          {
+            "bpm": 108.0,
+            "support_intervals": 15.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 358,
+          "matched_120ms": 159,
+          "coverage_percent": 44.413,
+          "mean_ms": 397.447,
+          "median_ms": 174.15,
+          "p90_ms": 812.698,
+          "max_ms": 10013.605
+        },
+        "normal": {
+          "count": 495,
+          "matched_120ms": 213,
+          "coverage_percent": 43.03,
+          "mean_ms": 382.906,
+          "median_ms": 185.759,
+          "p90_ms": 801.089,
+          "max_ms": 10013.605
+        },
+        "hard": {
+          "count": 581,
+          "matched_120ms": 255,
+          "coverage_percent": 43.89,
+          "mean_ms": 360.269,
+          "median_ms": 168.344,
+          "p90_ms": 777.868,
+          "max_ms": 10013.605
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 319,
+        "normal": 453,
+        "hard": 555
+      },
+      "candidate_counts": {
+        "easy": 247,
+        "normal": 371,
+        "hard": 494
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 101.333,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "bf3372ba6bb1eb04250fee475b93751afc4473d7416fa28a77bbd7b03dae570d",
+        "duration_seconds": 165.929796,
+        "first_detected_attack_ms": 1056.508,
+        "onset_count": 832,
+        "bpm_candidates": [
+          {
+            "bpm": 123.0,
+            "support_intervals": 21.0
+          },
+          {
+            "bpm": 144.0,
+            "support_intervals": 19.0
+          },
+          {
+            "bpm": 157.0,
+            "support_intervals": 19.0
+          },
+          {
+            "bpm": 117.0,
+            "support_intervals": 16.0
+          },
+          {
+            "bpm": 103.0,
+            "support_intervals": 15.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 319,
+          "matched_120ms": 198,
+          "coverage_percent": 62.069,
+          "mean_ms": 174.841,
+          "median_ms": 75.465,
+          "p90_ms": 290.25,
+          "max_ms": 4911.02
+        },
+        "normal": {
+          "count": 453,
+          "matched_120ms": 290,
+          "coverage_percent": 64.018,
+          "mean_ms": 177.648,
+          "median_ms": 69.66,
+          "p90_ms": 290.25,
+          "max_ms": 4911.02
+        },
+        "hard": {
+          "count": 555,
+          "matched_120ms": 342,
+          "coverage_percent": 61.622,
+          "mean_ms": 171.075,
+          "median_ms": 81.27,
+          "p90_ms": 290.249,
+          "max_ms": 4911.02
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 448,
+        "normal": 612,
+        "hard": 826
+      },
+      "candidate_counts": {
+        "easy": 400,
+        "normal": 600,
+        "hard": 800
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 92.285,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "eedc916dbadc5510a2044521a081f476dfba9cb12f5bd2aa08552b819e1eb4a3",
+        "duration_seconds": 237.122177,
+        "first_detected_attack_ms": 603.719,
+        "onset_count": 1497,
+        "bpm_candidates": [
+          {
+            "bpm": 144.0,
+            "support_intervals": 30.0
+          },
+          {
+            "bpm": 136.0,
+            "support_intervals": 27.0
+          },
+          {
+            "bpm": 129.0,
+            "support_intervals": 23.0
+          },
+          {
+            "bpm": 123.0,
+            "support_intervals": 23.0
+          },
+          {
+            "bpm": 117.0,
+            "support_intervals": 21.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 448,
+          "matched_120ms": 260,
+          "coverage_percent": 58.036,
+          "mean_ms": 167.23,
+          "median_ms": 81.27,
+          "p90_ms": 301.86,
+          "max_ms": 2577.415
+        },
+        "normal": {
+          "count": 612,
+          "matched_120ms": 348,
+          "coverage_percent": 56.863,
+          "mean_ms": 165.025,
+          "median_ms": 92.88,
+          "p90_ms": 301.859,
+          "max_ms": 2577.415
+        },
+        "hard": {
+          "count": 826,
+          "matched_120ms": 458,
+          "coverage_percent": 55.448,
+          "mean_ms": 159.047,
+          "median_ms": 92.88,
+          "p90_ms": 301.86,
+          "max_ms": 2577.415
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 399,
+        "normal": 543,
+        "hard": 690
+      },
+      "candidate_counts": {
+        "easy": 237,
+        "normal": 355,
+        "hard": 473
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 109.957,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "bc393a00dbf9aa19df07d4cdc218eb8587fd1770a3b446feba7dd31c0e06c3a4",
+        "duration_seconds": 215.574059,
+        "first_detected_attack_ms": 661.769,
+        "onset_count": 1241,
+        "bpm_candidates": [
+          {
+            "bpm": 144.0,
+            "support_intervals": 26.0
+          },
+          {
+            "bpm": 136.0,
+            "support_intervals": 25.0
+          },
+          {
+            "bpm": 123.0,
+            "support_intervals": 22.0
+          },
+          {
+            "bpm": 117.0,
+            "support_intervals": 18.0
+          },
+          {
+            "bpm": 112.0,
+            "support_intervals": 18.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 399,
+          "matched_120ms": 156,
+          "coverage_percent": 39.098,
+          "mean_ms": 357.902,
+          "median_ms": 162.54,
+          "p90_ms": 963.628,
+          "max_ms": 4841.361
+        },
+        "normal": {
+          "count": 543,
+          "matched_120ms": 218,
+          "coverage_percent": 40.147,
+          "mean_ms": 333.867,
+          "median_ms": 162.539,
+          "p90_ms": 928.798,
+          "max_ms": 4841.361
+        },
+        "hard": {
+          "count": 690,
+          "matched_120ms": 286,
+          "coverage_percent": 41.449,
+          "mean_ms": 314.403,
+          "median_ms": 150.93,
+          "p90_ms": 859.138,
+          "max_ms": 4841.361
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 424,
+        "normal": 573,
+        "hard": 729
+      },
+      "candidate_counts": {
+        "easy": 252,
+        "normal": 378,
+        "hard": 503
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 95.703,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "4efc709fbac7b515da7a3f486dc6f87e314b73b1bf1165f95a2117cd896da4bb",
+        "duration_seconds": 223.515283,
+        "first_detected_attack_ms": 162.54,
+        "onset_count": 1209,
+        "bpm_candidates": [
+          {
+            "bpm": 144.0,
+            "support_intervals": 27.0
+          },
+          {
+            "bpm": 136.0,
+            "support_intervals": 27.0
+          },
+          {
+            "bpm": 123.0,
+            "support_intervals": 19.0
+          },
+          {
+            "bpm": 117.0,
+            "support_intervals": 16.0
+          },
+          {
+            "bpm": 108.0,
+            "support_intervals": 14.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 424,
+          "matched_120ms": 174,
+          "coverage_percent": 41.038,
+          "mean_ms": 1073.307,
+          "median_ms": 150.93,
+          "p90_ms": 3192.744,
+          "max_ms": 16509.388
+        },
+        "normal": {
+          "count": 573,
+          "matched_120ms": 251,
+          "coverage_percent": 43.805,
+          "mean_ms": 1028.658,
+          "median_ms": 150.929,
+          "p90_ms": 2240.726,
+          "max_ms": 16509.388
+        },
+        "hard": {
+          "count": 729,
+          "matched_120ms": 329,
+          "coverage_percent": 45.13,
+          "mean_ms": 926.417,
+          "median_ms": 139.32,
+          "p90_ms": 1520.907,
+          "max_ms": 16509.388
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 362,
+        "normal": 484,
+        "hard": 591
+      },
+      "candidate_counts": {
+        "easy": 345,
+        "normal": 518,
+        "hard": 690
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 69.837,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "a73be0c622e3bf6ba03ac4c7f76e0824cec099a3f8c1df4211cee79904418a9e",
+        "duration_seconds": 238.515374,
+        "first_detected_attack_ms": 510.839,
+        "onset_count": 1561,
+        "bpm_candidates": [
+          {
+            "bpm": 103.0,
+            "support_intervals": 28.0
+          },
+          {
+            "bpm": 144.0,
+            "support_intervals": 27.0
+          },
+          {
+            "bpm": 136.0,
+            "support_intervals": 21.0
+          },
+          {
+            "bpm": 123.0,
+            "support_intervals": 21.0
+          },
+          {
+            "bpm": 199.0,
+            "support_intervals": 20.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 362,
+          "matched_120ms": 208,
+          "coverage_percent": 57.459,
+          "mean_ms": 166.485,
+          "median_ms": 92.88,
+          "p90_ms": 348.3,
+          "max_ms": 1683.447
+        },
+        "normal": {
+          "count": 484,
+          "matched_120ms": 287,
+          "coverage_percent": 59.298,
+          "mean_ms": 161.592,
+          "median_ms": 81.27,
+          "p90_ms": 348.3,
+          "max_ms": 1683.447
+        },
+        "hard": {
+          "count": 591,
+          "matched_120ms": 351,
+          "coverage_percent": 59.391,
+          "mean_ms": 157.904,
+          "median_ms": 81.27,
+          "p90_ms": 336.69,
+          "max_ms": 1683.447
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 390,
+        "normal": 505,
+        "hard": 665
+      },
+      "candidate_counts": {
+        "easy": 229,
+        "normal": 344,
+        "hard": 458
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 161.499,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "e9685a8b77720f30e7f93a39b58ccfa295ba195fbcca2a22ab80765b27dee981",
+        "duration_seconds": 201.224127,
+        "first_detected_attack_ms": 127.71,
+        "onset_count": 1152,
+        "bpm_candidates": [
+          {
+            "bpm": 144.0,
+            "support_intervals": 27.0
+          },
+          {
+            "bpm": 136.0,
+            "support_intervals": 22.0
+          },
+          {
+            "bpm": 129.0,
+            "support_intervals": 21.0
+          },
+          {
+            "bpm": 112.0,
+            "support_intervals": 18.0
+          },
+          {
+            "bpm": 108.0,
+            "support_intervals": 16.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 390,
+          "matched_120ms": 184,
+          "coverage_percent": 47.179,
+          "mean_ms": 261.061,
+          "median_ms": 139.319,
+          "p90_ms": 534.059,
+          "max_ms": 3065.034
+        },
+        "normal": {
+          "count": 505,
+          "matched_120ms": 228,
+          "coverage_percent": 45.149,
+          "mean_ms": 252.833,
+          "median_ms": 150.929,
+          "p90_ms": 522.449,
+          "max_ms": 3065.034
+        },
+        "hard": {
+          "count": 665,
+          "matched_120ms": 310,
+          "coverage_percent": 46.617,
+          "mean_ms": 240.327,
+          "median_ms": 139.32,
+          "p90_ms": 464.399,
+          "max_ms": 3065.034
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 314,
+        "normal": 420,
+        "hard": 500
+      },
+      "candidate_counts": {
+        "easy": 260,
+        "normal": 390,
+        "hard": 520
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 93.963,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "d062610df6cb868065c3737406437e1a14d817aa13488d07d09922f0d995b220",
+        "duration_seconds": 217.617415,
+        "first_detected_attack_ms": 975.238,
+        "onset_count": 1373,
+        "bpm_candidates": [
+          {
+            "bpm": 136.0,
+            "support_intervals": 26.0
+          },
+          {
+            "bpm": 191.0,
+            "support_intervals": 22.0
+          },
+          {
+            "bpm": 129.0,
+            "support_intervals": 21.0
+          },
+          {
+            "bpm": 123.0,
+            "support_intervals": 20.0
+          },
+          {
+            "bpm": 144.0,
+            "support_intervals": 19.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 314,
+          "matched_120ms": 162,
+          "coverage_percent": 51.592,
+          "mean_ms": 193.228,
+          "median_ms": 116.099,
+          "p90_ms": 371.52,
+          "max_ms": 1857.597
+        },
+        "normal": {
+          "count": 420,
+          "matched_120ms": 216,
+          "coverage_percent": 51.429,
+          "mean_ms": 189.436,
+          "median_ms": 116.099,
+          "p90_ms": 359.91,
+          "max_ms": 1857.597
+        },
+        "hard": {
+          "count": 500,
+          "matched_120ms": 259,
+          "coverage_percent": 51.8,
+          "mean_ms": 187.919,
+          "median_ms": 110.295,
+          "p90_ms": 359.909,
+          "max_ms": 1857.597
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "manual_voice_identity_review_required"
+      ],
+      "analysis_mode": "FULL_MIX_PROXY",
+      "production_counts": {
+        "easy": 380,
+        "normal": 476,
+        "hard": 643
+      },
+      "candidate_counts": {
+        "easy": 273,
+        "normal": 410,
+        "hard": 546
+      },
+      "lane_sets": {
+        "easy": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hard": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "order_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "duplicates_ok": {
+        "easy": true,
+        "normal": true,
+        "hard": true
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes": [
+        {
+          "t": 0,
+          "b": 0,
+          "bpm": 166.709,
+          "bt": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "audio": {
+        "sha256": "e65377e51839e6e7f5d8772f02ffc729746b7923cfa5ebf86813d6a77ce11083",
+        "duration_seconds": 186.734875,
+        "first_detected_attack_ms": 11.61,
+        "onset_count": 1088,
+        "bpm_candidates": [
+          {
+            "bpm": 144.0,
+            "support_intervals": 34.0
+          },
+          {
+            "bpm": 136.0,
+            "support_intervals": 29.0
+          },
+          {
+            "bpm": 129.0,
+            "support_intervals": 24.0
+          },
+          {
+            "bpm": 123.0,
+            "support_intervals": 18.0
+          },
+          {
+            "bpm": 199.0,
+            "support_intervals": 17.0
+          }
+        ]
+      },
+      "alignment_to_current_full_mix_candidate_ms": {
+        "easy": {
+          "count": 380,
+          "matched_120ms": 181,
+          "coverage_percent": 47.632,
+          "mean_ms": 180.413,
+          "median_ms": 127.71,
+          "p90_ms": 359.91,
+          "max_ms": 1741.497
+        },
+        "normal": {
+          "count": 476,
+          "matched_120ms": 218,
+          "coverage_percent": 45.798,
+          "mean_ms": 180.491,
+          "median_ms": 139.32,
+          "p90_ms": 359.91,
+          "max_ms": 1880.817
+        },
+        "hard": {
+          "count": 643,
+          "matched_120ms": 319,
+          "coverage_percent": 49.611,
+          "mean_ms": 167.234,
+          "median_ms": 127.709,
+          "p90_ms": 359.909,
+          "max_ms": 1880.817
+        }
+      },
+      "promotion": "NO_AUTOMATIC_PROMOTION",
+      "limitations": [
+        "La comparación usa candidatos del audio distribuido actual.",
+        "FULL_MIX_PROXY no demuestra que cada onset sea vocal ni identifica personaje/strumline.",
+        "Audio Sync Test y playtest móvil siguen siendo necesarios."
+      ]
+    }
+  ],
+  "policy": "No se modifican charts, BPM, offsets ni audio durante esta auditoría."
+}

@@ -1,0 +1,869 @@
+{
+  "status": "PASS",
+  "version": "2.3.0",
+  "songs": 20,
+  "passed": 20,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-arcoloria",
+      "characters": {
+        "player": {
+          "id": "esperon-arcoloria",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-arcoloria",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-arcoloria-notes",
+      "album": "esperon-arcoloria",
+      "notes": {
+        "easy": {
+          "count": 43,
+          "first": 3866.122,
+          "last": 194513.56
+        },
+        "normal": {
+          "count": 85,
+          "first": 3866.122,
+          "last": 194513.56
+        },
+        "hard": {
+          "count": 115,
+          "first": 3506.213,
+          "last": 194513.56
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-arcoloria.ogg"
+        ]
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-cortamos-y-volvemos",
+      "characters": {
+        "player": {
+          "id": "esperon-cortamos-y-volvemos",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-cortamos-y-volvemos",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-cortamos-y-volvemos-notes",
+      "album": "esperon-cortamos-y-volvemos",
+      "notes": {
+        "easy": {
+          "count": 100,
+          "first": 12620.045,
+          "last": 183809.161
+        },
+        "normal": {
+          "count": 200,
+          "first": 12620.045,
+          "last": 184180.68
+        },
+        "hard": {
+          "count": 270,
+          "first": 10924.989,
+          "last": 184180.68
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-cortamos-y-volvemos.ogg"
+        ]
+      }
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-dano",
+      "characters": {
+        "player": {
+          "id": "esperon-dano",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-dano",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-dano-notes",
+      "album": "esperon-dano",
+      "notes": {
+        "easy": {
+          "count": 110,
+          "first": 11818.957,
+          "last": 171583.855
+        },
+        "normal": {
+          "count": 220,
+          "first": 11818.957,
+          "last": 171746.395
+        },
+        "hard": {
+          "count": 297,
+          "first": 10414.15,
+          "last": 171746.395
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-dano.ogg"
+        ]
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-dias-magicos",
+      "characters": {
+        "player": {
+          "id": "esperon-dias-magicos",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-dias-magicos",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-dias-magicos-notes",
+      "album": "esperon-dias-magicos",
+      "notes": {
+        "easy": {
+          "count": 95,
+          "first": 21710.658,
+          "last": 224420.862
+        },
+        "normal": {
+          "count": 189,
+          "first": 21710.658,
+          "last": 224420.862
+        },
+        "hard": {
+          "count": 255,
+          "first": 20990.839,
+          "last": 224420.862
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-dias-magicos.ogg"
+        ]
+      }
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-eclipsis",
+      "characters": {
+        "player": {
+          "id": "esperon-eclipsis",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-eclipsis",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-eclipsis-notes",
+      "album": "esperon-eclipsis",
+      "notes": {
+        "easy": {
+          "count": 60,
+          "first": 3482.993,
+          "last": 225814.059
+        },
+        "normal": {
+          "count": 119,
+          "first": 3482.993,
+          "last": 225814.059
+        },
+        "hard": {
+          "count": 161,
+          "first": 1776.327,
+          "last": 225814.059
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-eclipsis.ogg"
+        ]
+      }
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-fango",
+      "characters": {
+        "player": {
+          "id": "esperon-fango",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-fango",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-fango-notes",
+      "album": "esperon-fango",
+      "notes": {
+        "easy": {
+          "count": 71,
+          "first": 2763.175,
+          "last": 206669.206
+        },
+        "normal": {
+          "count": 141,
+          "first": 2763.175,
+          "last": 206669.206
+        },
+        "hard": {
+          "count": 190,
+          "first": 615.329,
+          "last": 206669.206
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-fango.ogg"
+        ]
+      }
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-luma",
+      "characters": {
+        "player": {
+          "id": "esperon-luma",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-luma",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-luma-notes",
+      "album": "esperon-luma",
+      "notes": {
+        "easy": {
+          "count": 48,
+          "first": 14280.272,
+          "last": 201282.177
+        },
+        "normal": {
+          "count": 96,
+          "first": 14280.272,
+          "last": 202686.984
+        },
+        "hard": {
+          "count": 130,
+          "first": 8765.533,
+          "last": 202686.984
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-luma.ogg"
+        ]
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-maraton-de-peliculas",
+      "characters": {
+        "player": {
+          "id": "esperon-maraton-de-peliculas",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-maraton-de-peliculas",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-maraton-de-peliculas-notes",
+      "album": "esperon-maraton-de-peliculas",
+      "notes": {
+        "easy": {
+          "count": 60,
+          "first": 2008.526,
+          "last": 203476.463
+        },
+        "normal": {
+          "count": 119,
+          "first": 2008.526,
+          "last": 203476.463
+        },
+        "hard": {
+          "count": 161,
+          "first": 1486.077,
+          "last": 203476.463
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-maraton-de-peliculas.ogg"
+        ]
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "characters": {
+        "player": {
+          "id": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes",
+      "album": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "notes": {
+        "easy": {
+          "count": 55,
+          "first": 4794.921,
+          "last": 179884.989
+        },
+        "normal": {
+          "count": 109,
+          "first": 4794.921,
+          "last": 179884.989
+        },
+        "hard": {
+          "count": 147,
+          "first": 3889.342,
+          "last": 179884.989
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg"
+        ]
+      }
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-meteora",
+      "characters": {
+        "player": {
+          "id": "esperon-meteora",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-meteora",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-meteora-notes",
+      "album": "esperon-meteora",
+      "notes": {
+        "easy": {
+          "count": 36,
+          "first": 15127.8,
+          "last": 175148.118
+        },
+        "normal": {
+          "count": 72,
+          "first": 15127.8,
+          "last": 175577.687
+        },
+        "hard": {
+          "count": 97,
+          "first": 441.179,
+          "last": 175577.687
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-meteora.ogg"
+        ]
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-mi-hogar",
+      "characters": {
+        "player": {
+          "id": "esperon-mi-hogar",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-mi-hogar",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-mi-hogar-notes",
+      "album": "esperon-mi-hogar",
+      "notes": {
+        "easy": {
+          "count": 65,
+          "first": 20805.079,
+          "last": 158592.29
+        },
+        "normal": {
+          "count": 129,
+          "first": 20805.079,
+          "last": 158592.29
+        },
+        "hard": {
+          "count": 174,
+          "first": 19620.862,
+          "last": 158592.29
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-mi-hogar.ogg"
+        ]
+      }
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-nubia",
+      "characters": {
+        "player": {
+          "id": "esperon-nubia",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-nubia",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-nubia-notes",
+      "album": "esperon-nubia",
+      "notes": {
+        "easy": {
+          "count": 56,
+          "first": 23347.664,
+          "last": 216003.628
+        },
+        "normal": {
+          "count": 111,
+          "first": 23347.664,
+          "last": 216003.628
+        },
+        "hard": {
+          "count": 150,
+          "first": 10530.249,
+          "last": 216003.628
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-nubia.ogg"
+        ]
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-nuestro-amor-no-es-normal",
+      "characters": {
+        "player": {
+          "id": "esperon-nuestro-amor-no-es-normal",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-nuestro-amor-no-es-normal",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-nuestro-amor-no-es-normal-notes",
+      "album": "esperon-nuestro-amor-no-es-normal",
+      "notes": {
+        "easy": {
+          "count": 66,
+          "first": 5677.279,
+          "last": 152439.002
+        },
+        "normal": {
+          "count": 132,
+          "first": 5677.279,
+          "last": 155480.816
+        },
+        "hard": {
+          "count": 178,
+          "first": 2832.834,
+          "last": 155480.816
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-nuestro-amor-no-es-normal.ogg"
+        ]
+      }
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-peligrosa",
+      "characters": {
+        "player": {
+          "id": "esperon-peligrosa",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-peligrosa",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-peligrosa-notes",
+      "album": "esperon-peligrosa",
+      "notes": {
+        "easy": {
+          "count": 99,
+          "first": 13223.764,
+          "last": 226917.007
+        },
+        "normal": {
+          "count": 197,
+          "first": 13223.764,
+          "last": 226917.007
+        },
+        "hard": {
+          "count": 266,
+          "first": 11517.098,
+          "last": 226917.007
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-peligrosa.ogg"
+        ]
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-rompecabezas",
+      "characters": {
+        "player": {
+          "id": "esperon-rompecabezas",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-rompecabezas",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-rompecabezas-notes",
+      "album": "esperon-rompecabezas",
+      "notes": {
+        "easy": {
+          "count": 52,
+          "first": 14419.592,
+          "last": 196440.816
+        },
+        "normal": {
+          "count": 103,
+          "first": 14419.592,
+          "last": 196440.816
+        },
+        "hard": {
+          "count": 139,
+          "first": 3552.653,
+          "last": 196440.816
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-rompecabezas.ogg"
+        ]
+      }
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-solare",
+      "characters": {
+        "player": {
+          "id": "esperon-solare",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-solare",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-solare-notes",
+      "album": "esperon-solare",
+      "notes": {
+        "easy": {
+          "count": 60,
+          "first": 4899.41,
+          "last": 217164.626
+        },
+        "normal": {
+          "count": 119,
+          "first": 4899.41,
+          "last": 217164.626
+        },
+        "hard": {
+          "count": 161,
+          "first": 1985.306,
+          "last": 217164.626
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-solare.ogg"
+        ]
+      }
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-tristella",
+      "characters": {
+        "player": {
+          "id": "esperon-tristella",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-tristella",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-tristella-notes",
+      "album": "esperon-tristella",
+      "notes": {
+        "easy": {
+          "count": 64,
+          "first": 14384.762,
+          "last": 221762.177
+        },
+        "normal": {
+          "count": 127,
+          "first": 14384.762,
+          "last": 221762.177
+        },
+        "hard": {
+          "count": 171,
+          "first": 13246.984,
+          "last": 221762.177
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-tristella.ogg"
+        ]
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-tu-dealer-de-nostalgia",
+      "characters": {
+        "player": {
+          "id": "esperon-tu-dealer-de-nostalgia",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-tu-dealer-de-nostalgia",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-tu-dealer-de-nostalgia-notes",
+      "album": "esperon-tu-dealer-de-nostalgia",
+      "notes": {
+        "easy": {
+          "count": 93,
+          "first": 26435.918,
+          "last": 171363.265
+        },
+        "normal": {
+          "count": 186,
+          "first": 26435.918,
+          "last": 175879.546
+        },
+        "hard": {
+          "count": 251,
+          "first": 2798.005,
+          "last": 175879.546
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-tu-dealer-de-nostalgia.ogg"
+        ]
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-un-poco-bien-un-poco-mal",
+      "characters": {
+        "player": {
+          "id": "esperon-un-poco-bien-un-poco-mal",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-un-poco-bien-un-poco-mal",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-un-poco-bien-un-poco-mal-notes",
+      "album": "esperon-un-poco-bien-un-poco-mal",
+      "notes": {
+        "easy": {
+          "count": 35,
+          "first": 2577.415,
+          "last": 204242.721
+        },
+        "normal": {
+          "count": 69,
+          "first": 2577.415,
+          "last": 204242.721
+        },
+        "hard": {
+          "count": 93,
+          "first": 2182.676,
+          "last": 204242.721
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-un-poco-bien-un-poco-mal.ogg"
+        ]
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "issues": [],
+      "stage": "escenario-volver-a-vernos",
+      "characters": {
+        "player": {
+          "id": "esperon-volver-a-vernos",
+          "frame_count": 18,
+          "png": true
+        },
+        "opponent": {
+          "id": "rival-volver-a-vernos",
+          "frame_count": 18,
+          "png": true
+        }
+      },
+      "noteStyle": "esperon-volver-a-vernos-notes",
+      "album": "esperon-volver-a-vernos",
+      "notes": {
+        "easy": {
+          "count": 38,
+          "first": 2298.776,
+          "last": 170689.887
+        },
+        "normal": {
+          "count": 75,
+          "first": 2298.776,
+          "last": 170689.887
+        },
+        "hard": {
+          "count": 101,
+          "first": 359.909,
+          "last": 170689.887
+        }
+      },
+      "audio": {
+        "inst": true,
+        "voices": [
+          "Voices-esperon-volver-a-vernos.ogg"
+        ]
+      }
+    }
+  ],
+  "runtime_limit": "Static contract/resolution check; native mobile playtest still required."
+}

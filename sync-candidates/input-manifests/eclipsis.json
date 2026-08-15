@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "eclipsis",
+  "mod": "esperon-dano-eclipsis",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-eclipsis/songs/eclipsis/Inst.ogg",
+    "sha256": "91846ef3394e6fc1a070b36defa46305f3bb0885641158db773e7c38fe62cdb1",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "257.091338"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-metadata.json",
+    "sha256": "981d899877795998879647691e377a10a863ade0d125f45691c591568d29390d"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-chart.json",
+    "sha256": "999179c95c8baac795bd166a0be4e04abbd9b315822cda0b599476775b5139c3"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

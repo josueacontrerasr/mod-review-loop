@@ -1,0 +1,288 @@
+{
+  "scope": "STATIC_CHART_TO_REVIEWED_ANCHORS",
+  "chart": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-chart.json",
+  "anchors": "analysis/all-candidates/peligrosa/peligrosa-anchors-candidates.json",
+  "audio_evidence": {
+    "report": "analysis/all-candidates/peligrosa/final-ogg-evidence.json",
+    "source": "mods/esperon-dano-peligrosa/songs/peligrosa/Inst.ogg",
+    "sha256": "6d04a1495947e29eea7b82506095f95294c17e68402bdac95844f5da095501ad",
+    "duration_seconds": 237.122177,
+    "codec": "vorbis",
+    "sample_rate": "44100",
+    "channels": 2
+  },
+  "difficulty": "normal",
+  "tolerance_ms": 5.0,
+  "max_section_drift_ms": 10.0,
+  "anchor_count": 29,
+  "missing_count": 0,
+  "out_of_tolerance_count": 0,
+  "drift_exceeded_count": 0,
+  "mean_error_ms": 0.0,
+  "max_absolute_error_ms": 0.0,
+  "results": [
+    {
+      "label": "vocal-onset-1",
+      "expected_ms": 2623.855,
+      "chart_ms": 2623.855,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-2",
+      "expected_ms": 36966.168,
+      "chart_ms": 36966.168,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-3",
+      "expected_ms": 43897.324,
+      "chart_ms": 43897.324,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-4",
+      "expected_ms": 52442.268,
+      "chart_ms": 52442.268,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-5",
+      "expected_ms": 57469.388,
+      "chart_ms": 57469.388,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-6",
+      "expected_ms": 61962.449,
+      "chart_ms": 61962.449,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-7",
+      "expected_ms": 67953.197,
+      "chart_ms": 67953.197,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-8",
+      "expected_ms": 73119.637,
+      "chart_ms": 73119.637,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-9",
+      "expected_ms": 92473.469,
+      "chart_ms": 92473.469,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-10",
+      "expected_ms": 101355.102,
+      "chart_ms": 101355.102,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-11",
+      "expected_ms": 106695.692,
+      "chart_ms": 106695.692,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-12",
+      "expected_ms": 113754.558,
+      "chart_ms": 113754.558,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-13",
+      "expected_ms": 123239.909,
+      "chart_ms": 123239.909,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-14",
+      "expected_ms": 125979.864,
+      "chart_ms": 125979.864,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-15",
+      "expected_ms": 131157.914,
+      "chart_ms": 131157.914,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-16",
+      "expected_ms": 135685.805,
+      "chart_ms": 135685.805,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-17",
+      "expected_ms": 142152.562,
+      "chart_ms": 142152.562,
+      "error_ms": 0.0,
+      "section": "candidate-3",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-18",
+      "expected_ms": 145368.526,
+      "chart_ms": 145368.526,
+      "error_ms": 0.0,
+      "section": "candidate-3",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-19",
+      "expected_ms": 151800.454,
+      "chart_ms": 151800.454,
+      "error_ms": 0.0,
+      "section": "candidate-3",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-20",
+      "expected_ms": 160031.927,
+      "chart_ms": 160031.927,
+      "error_ms": 0.0,
+      "section": "candidate-3",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-21",
+      "expected_ms": 176204.626,
+      "chart_ms": 176204.626,
+      "error_ms": 0.0,
+      "section": "candidate-3",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-22",
+      "expected_ms": 184737.959,
+      "chart_ms": 184737.959,
+      "error_ms": 0.0,
+      "section": "candidate-3",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-23",
+      "expected_ms": 189683.81,
+      "chart_ms": 189683.81,
+      "error_ms": 0.0,
+      "section": "candidate-3",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-24",
+      "expected_ms": 194258.141,
+      "chart_ms": 194258.141,
+      "error_ms": 0.0,
+      "section": "candidate-3",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-25",
+      "expected_ms": 198774.422,
+      "chart_ms": 198774.422,
+      "error_ms": 0.0,
+      "section": "candidate-4",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-26",
+      "expected_ms": 204730.34,
+      "chart_ms": 204730.34,
+      "error_ms": 0.0,
+      "section": "candidate-4",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-27",
+      "expected_ms": 209745.85,
+      "chart_ms": 209745.85,
+      "error_ms": 0.0,
+      "section": "candidate-4",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-28",
+      "expected_ms": 216317.098,
+      "chart_ms": 216317.098,
+      "error_ms": 0.0,
+      "section": "candidate-4",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-29",
+      "expected_ms": 224560.181,
+      "chart_ms": 224560.181,
+      "error_ms": 0.0,
+      "section": "candidate-4",
+      "status": "OK"
+    }
+  ],
+  "sections": {
+    "candidate-1": {
+      "first_error_ms": 0.0,
+      "last_error_ms": 0.0,
+      "drift_ms": 0.0,
+      "status": "OK"
+    },
+    "candidate-2": {
+      "first_error_ms": 0.0,
+      "last_error_ms": 0.0,
+      "drift_ms": 0.0,
+      "status": "OK"
+    },
+    "candidate-3": {
+      "first_error_ms": 0.0,
+      "last_error_ms": 0.0,
+      "drift_ms": 0.0,
+      "status": "OK"
+    },
+    "candidate-4": {
+      "first_error_ms": 0.0,
+      "last_error_ms": 0.0,
+      "drift_ms": 0.0,
+      "status": "OK"
+    }
+  },
+  "status": "PASS",
+  "limitations": [
+    "Este resultado compara chart contra anclajes musicales revisados; no analiza ondas de audio.",
+    "La evidencia registra el archivo de audio exacto, pero Audio Sync Test y playtest siguen siendo obligatorios."
+  ]
+}

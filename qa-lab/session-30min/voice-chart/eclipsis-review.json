@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "eclipsis",
+  "mod": "esperon-dano-eclipsis",
+  "audio_duration_ms": 257091.338,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "1b986685ab48e1cac70371ef03f1a9c1ba7cba095c76d1fbd835ac6191b1539c",
+  "difficulties": {
+    "easy": {
+      "production_notes": 94,
+      "valid_notes": 94,
+      "candidate_vocal_notes": 239,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 255.419,
+      "within_75ms_of_candidate_percent": 19.149
+    },
+    "normal": {
+      "production_notes": 188,
+      "valid_notes": 188,
+      "candidate_vocal_notes": 358,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 185.76,
+      "within_75ms_of_candidate_percent": 29.787
+    },
+    "hard": {
+      "production_notes": 188,
+      "valid_notes": 188,
+      "candidate_vocal_notes": 477,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 116.1,
+      "within_75ms_of_candidate_percent": 38.298
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

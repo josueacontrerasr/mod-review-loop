@@ -1,0 +1,26 @@
+import funkin.play.PlayState;
+
+/**
+ * HUD visual V2 para Maratón de Películas.
+ * Solo recoloriza la barra de vida al inicio del conteo.
+ * No modifica audio, BPM, offsets, chart, notas ni eventos musicales.
+ */
+import funkin.modding.module.Module;
+
+class EsperonMaratonDePeliculasHudV2 extends Module
+{
+  function new()
+  {
+    super("Esperón HUD — Maratón de Películas", 1, {state: PlayState});
+  }
+
+  override function onCountdownStart(event)
+  {
+    super.onCountdownStart(event);
+    if (PlayState.instance == null || PlayState.instance.healthBar == null) return;
+    if (PlayState.instance.iconP1 == null) return;
+    if (PlayState.instance.iconP1.characterId != "esperon-maraton-de-peliculas") return;
+    PlayState.instance.healthBar.createFilledBar(0xFFF5C755, 0xFFE5484C);
+    PlayState.instance.healthBar.updateBar();
+  }
+}

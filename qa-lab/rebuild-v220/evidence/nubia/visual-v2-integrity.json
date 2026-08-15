@@ -1,0 +1,21 @@
+{
+  "scope": "VISUAL_ONLY",
+  "protected_before": {
+    "chart_sha256": "fcb2f2832a0899ede457a6e0d8c77dea9935a3d7b12b0ef20ec5355a02ea1329",
+    "inst_sha256": "37e40f97d67c76514a7557043bfb67193b6c8d26a6ba75a756d44f8364d88e5b"
+  },
+  "protected_after": {
+    "chart_sha256": "fcb2f2832a0899ede457a6e0d8c77dea9935a3d7b12b0ef20ec5355a02ea1329",
+    "inst_sha256": "37e40f97d67c76514a7557043bfb67193b6c8d26a6ba75a756d44f8364d88e5b"
+  },
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonNubiaHudV2.hxc",
+    "class": "EsperonNubiaHudV2",
+    "player_character_id": "esperon-nubia",
+    "opponent_color": "0xFFC6B7F5",
+    "player_color": "0xFF70AFE8",
+    "preview": "images/ui/esperon-nubia-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
+}

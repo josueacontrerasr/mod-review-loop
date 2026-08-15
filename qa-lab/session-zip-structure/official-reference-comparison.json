@@ -1,0 +1,704 @@
+{
+  "scope": "ZIP_STRUCTURE_REFERENCE_COMPARISON",
+  "target": "FNF Mobile V-Slice 0.8.6",
+  "references": [
+    {
+      "file": "v-slice_yo_la_conoci_en_un_taxi.zip",
+      "bytes": 10901967,
+      "sha256": "a85b589fdc72139dd85d934de218d1a52747aa92a6f9cee3939ed6f3d30cfa88",
+      "error": null,
+      "entries": 32,
+      "roots": [
+        "[V-Slice] Yo la Conoci en un Taxi"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "[V-Slice] Yo la Conoci en un Taxi/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "[V-Slice] Yo la Conoci en un Taxi/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "[V-Slice] Yo la Conoci en un Taxi/_polymod_meta.json",
+        "id": null,
+        "title": "En camino al club",
+        "api_version": "0.7.3",
+        "mod_version": "1.0.0"
+      }
+    },
+    {
+      "file": "tse_disable_shader_v25.zip",
+      "bytes": 31384,
+      "sha256": "f151a48a29c4f01bd2172e9853800da3a45671c3c3d8553282edcd1bfb96a91f",
+      "error": null,
+      "entries": 28,
+      "roots": [
+        "Disable Shader V2.5"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "Disable Shader V2.5/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "Disable Shader V2.5/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "Disable Shader V2.5/_polymod_meta.json",
+        "id": null,
+        "title": "Disable Shader V2.5",
+        "api_version": "0.8.4",
+        "mod_version": "1.0.0"
+      }
+    },
+    {
+      "file": "its-been-so-long.zip",
+      "bytes": 23573661,
+      "sha256": "aafb2d93ca4b9af6d8a5fe4df3990a546d2285d9d57c7d431d7a28af9ac0abd3",
+      "error": null,
+      "entries": 53,
+      "roots": [
+        "it's-been-so-long"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "it's-been-so-long/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "it's-been-so-long/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "it's-been-so-long/_polymod_meta.json",
+        "id": null,
+        "title": "Its-been-so-long",
+        "api_version": "0.8.0",
+        "mod_version": "1.0.0"
+      }
+    }
+  ],
+  "esperon_individual_zips": [
+    {
+      "file": "Mod-Arcoloria-V2.2.0.zip",
+      "bytes": 3577313,
+      "sha256": "6acc19535a9406904b799fc9efc11876ca448a7240cb8ba82f308d8568e92e90",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-arcoloria"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-arcoloria/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-arcoloria/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-arcoloria/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Arcoloria",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Cortamos-Y-Volvemos-V2.2.0.zip",
+      "bytes": 3254811,
+      "sha256": "2b4f20d0452ea18e458b3c4c5d05bc0a90172fb73195c2a3f4829d22b5b6c5a7",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-cortamos-y-volvemos"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-cortamos-y-volvemos/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-cortamos-y-volvemos/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-cortamos-y-volvemos/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Cortamos y Volvemos",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Dano-V2.2.0.zip",
+      "bytes": 3218884,
+      "sha256": "d780cebda77fe26649d999d1f26bc12b38aba01df6243493bbaec92024eb6515",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-dano"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-dano/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-dano/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-dano/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Daño",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Dias-Magicos-V2.2.0.zip",
+      "bytes": 3799713,
+      "sha256": "72fc530135454f0c4e58f7f0eaa6add1de3368cddff6f7e4338e2d38e2e86d73",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-dias-magicos"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-dias-magicos/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-dias-magicos/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-dias-magicos/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Días Mágicos",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Eclipsis-V2.2.0.zip",
+      "bytes": 4118745,
+      "sha256": "f442e17557ecfc7a3192f9d6c97cbb453e64d0bd276458af420bec4ea0cd2da5",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-eclipsis"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-eclipsis/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-eclipsis/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-eclipsis/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Eclipsis",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Fango-V2.2.0.zip",
+      "bytes": 3603009,
+      "sha256": "2fe94db1c426c101a2b212539486f04a70548e3a7062b6b7ea4d9fdd6f52f811",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-fango"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-fango/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-fango/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-fango/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Fango",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Luma-V2.2.0.zip",
+      "bytes": 3791637,
+      "sha256": "01a5ba0ab3fcd98d263f790fe61d29cb1bff4ca1752d47734c9f7ec1020375cf",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-luma"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-luma/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-luma/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-luma/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Luma",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Maraton-De-Peliculas-V2.2.0.zip",
+      "bytes": 3665884,
+      "sha256": "1c26d7fe9b60e967028cdce2d658624ee58a5e9ca531dd945810dd1d5d348d72",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-maraton-de-peliculas"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-maraton-de-peliculas/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-maraton-de-peliculas/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-maraton-de-peliculas/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Maratón de Películas",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Me-Voy-A-Morir-Si-No-Me-Besas-Ahora-Mismo-V2.2.0.zip",
+      "bytes": 3237335,
+      "sha256": "67fd60bd6263bf39eb9715a85a8457777597efe19e0b57dec22c4902d7ec7f79",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Me Voy A Morir Si No Me Besas Ahora Mismo",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Meteora-V2.2.0.zip",
+      "bytes": 3074541,
+      "sha256": "9843f6aa6cdc6bc29ee689a24b523df4646edf8f42ab4c101d58016c4efdef70",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-meteora"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-meteora/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-meteora/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-meteora/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Meteora",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Mi-Hogar-V2.2.0.zip",
+      "bytes": 2790816,
+      "sha256": "cce78e67af5f224eca93d6fbb297604b7e8180083686205218dc58d92f81ca75",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-mi-hogar"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-mi-hogar/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-mi-hogar/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-mi-hogar/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Mi Hogar",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Nubia-V2.2.0.zip",
+      "bytes": 3741703,
+      "sha256": "979c6e26b0ffe1ae33d6e038a805a01c22ac19c8929cfc08dc2ac00e8a05096c",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-nubia"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-nubia/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-nubia/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-nubia/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Nubia",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Nuestro-Amor-No-Es-Normal-V2.2.0.zip",
+      "bytes": 2773388,
+      "sha256": "d7b812676ab51278d307959bae18832b13d71b87869fac17fb8a5304de48fc25",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-nuestro-amor-no-es-normal"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-nuestro-amor-no-es-normal/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-nuestro-amor-no-es-normal/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-nuestro-amor-no-es-normal/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Nuestro Amor No es Normal",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Peligrosa-V2.2.0.zip",
+      "bytes": 4073012,
+      "sha256": "d5921f61b0705b7e7c2abe603f17a392970b883bc17796d9d8cefd8977b132d7",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-peligrosa"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-peligrosa/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-peligrosa/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-peligrosa/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Peligrosa",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Rompecabezas-V2.2.0.zip",
+      "bytes": 3489479,
+      "sha256": "31c0da108a75bacef6604b65de0728381e406f074561478b4ad457e6fb6a851c",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-rompecabezas"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-rompecabezas/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-rompecabezas/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-rompecabezas/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Rompecabezas",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Solare-V2.2.0.zip",
+      "bytes": 3642305,
+      "sha256": "42c48ad82d4e947ef95da3f677101e3b0c8ef1be44fc2f7610ac78a95f820350",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-solare"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-solare/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-solare/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-solare/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Solare",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Tristella-V2.2.0.zip",
+      "bytes": 3704551,
+      "sha256": "03b12c6d8b027cc9b0fe93761e3864e71acc85135491d713c3401461af712944",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-tristella"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-tristella/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-tristella/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-tristella/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Tristella",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Tu-Dealer-De-Nostalgia-V2.2.0.zip",
+      "bytes": 3212432,
+      "sha256": "00e68eb214ddd5280e67b50ab3e8fd63debcb6e0237c6905f0ea07dac3cc002b",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-tu-dealer-de-nostalgia"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-tu-dealer-de-nostalgia/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-tu-dealer-de-nostalgia/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-tu-dealer-de-nostalgia/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Tu Dealer de Nostalgia",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Un-Poco-Bien-Un-Poco-Mal-V2.2.0.zip",
+      "bytes": 3463194,
+      "sha256": "4ed0502d7abaa4c55cb0d66683c7723ce2c0361dd7ad5820173a55c3d72c4898",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-un-poco-bien-un-poco-mal"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-un-poco-bien-un-poco-mal/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-un-poco-bien-un-poco-mal/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-un-poco-bien-un-poco-mal/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Un Poco Bien un Poco Mal",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    },
+    {
+      "file": "Mod-Volver-A-Vernos-V2.2.0.zip",
+      "bytes": 3032814,
+      "sha256": "a64a81714e88ce6cc8d6ad3f4d74b2c3177600b002082c8f8ae450fbd7eeb3ef",
+      "error": null,
+      "entries": 70,
+      "roots": [
+        "esperon-dano-volver-a-vernos"
+      ],
+      "root_count": 1,
+      "manifest_paths": [
+        "esperon-dano-volver-a-vernos/_polymod_meta.json"
+      ],
+      "direct_manifest_paths": [
+        "esperon-dano-volver-a-vernos/_polymod_meta.json"
+      ],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": true,
+      "structure_status": "PASS",
+      "manifest": {
+        "path": "esperon-dano-volver-a-vernos/_polymod_meta.json",
+        "id": null,
+        "title": "Esperón — Volver a Vernos",
+        "api_version": "0.8.6",
+        "mod_version": "2.2.0"
+      }
+    }
+  ],
+  "esperon_collection_zips": [
+    {
+      "file": "Mod-Esperon-Coleccion-V2.2.0.zip",
+      "bytes": 69069933,
+      "sha256": "69ff3377065d9d01314e710bee3bbffb156128999bb15d8bee3927dbf8ad60bf",
+      "error": null,
+      "entries": 22,
+      "roots": [
+        "Mod-Esperon-Coleccion-V2.2.0"
+      ],
+      "root_count": 1,
+      "manifest_paths": [],
+      "direct_manifest_paths": [],
+      "top_level_files": [],
+      "forbidden_work_files": [],
+      "single_root": true,
+      "manifest_at_root": false,
+      "structure_status": "REVIEW_REQUIRED"
+    }
+  ],
+  "coverage": {
+    "reference_zips": 3,
+    "individual_zips": 20,
+    "collection_zips": 1
+  },
+  "status": "PASS",
+  "limitations": [
+    "La comparación estática no sustituye la extracción y carga en FNF Mobile del dispositivo."
+  ]
+}

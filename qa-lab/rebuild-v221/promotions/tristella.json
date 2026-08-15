@@ -1,0 +1,67 @@
+{
+  "status": "PROMOTED_WITH_REVIEW_REQUIRED",
+  "song": "tristella",
+  "mod": "esperon-dano-tristella",
+  "before": {
+    "metadata_sha256": "3bdfebe73a2434689d0a53e5056305a8673f3cd8d3bb47d1963b49c522828099",
+    "chart_sha256": "b96321fbab5c66e7fe0e0dfce78b44375e2e369e9c47b15407e60e5719e873ef",
+    "inst_sha256": "7a9e2384ab6aa7af27474131e265ed9abde4bc0ccdb6c746456f3e7dcd254fa0",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "238.515374"
+      }
+    }
+  },
+  "after": {
+    "metadata_sha256": "079e8793d224c27e4eaa6708000b758a48e835909a37411622bf70747f46d914",
+    "chart_sha256": "c3b04f951f822c31a60f7df4d72125188fd7f34edfd09644f970eac8742457cf",
+    "inst_sha256": "a73be0c622e3bf6ba03ac4c7f76e0824cec099a3f8c1df4211cee79904418a9e",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "238.515374"
+      }
+    },
+    "voices_sha256": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198",
+    "voices_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "238.515374"
+      }
+    }
+  },
+  "evidence": {
+    "vocal_stem": "sync-candidates/vocal-stems/tristella/vocals.wav",
+    "no_vocals": "sync-candidates/vocal-stems/tristella/demucs-work/htdemucs/Esperón  Tristella (LETRA)/no_vocals.wav",
+    "isolated_chart": "sync-candidates/voice-aligned-charts/tristella/tristella-chart.json",
+    "cross_validation": "qa-lab/rebuild-v221/cross-validation-candidate-summary.json",
+    "reconstruction_audit": "qa-lab/rebuild-v221/demucs-reconstruction-audit.json"
+  },
+  "guarantees": [
+    "No BPM or offset values were changed by this promotion.",
+    "All notes remain on player directions 4..7.",
+    "Audio Sync Test and mobile playtest are still required for a human PASS."
+  ]
+}

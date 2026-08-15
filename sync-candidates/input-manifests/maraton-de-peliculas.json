@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "maraton-de-peliculas",
+  "mod": "esperon-dano-maraton-de-peliculas",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-maraton-de-peliculas/songs/maraton-de-peliculas/Inst.ogg",
+    "sha256": "fe40584d050dcdac69eecf89a5b062a7568b2c83984037207ce3efbf5a66c79d",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "231.270748"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-metadata.json",
+    "sha256": "c911cd0b1596f1d477ea0f75efdc5661ce543dcf197bd18a66495f7297ae6af3"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json",
+    "sha256": "851a76b36209895a5999abea9d31c9ed9419ba7733edb2b999a25ac6785f3522"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

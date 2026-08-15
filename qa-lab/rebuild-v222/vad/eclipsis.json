@@ -1,0 +1,59 @@
+{
+  "song": "eclipsis",
+  "audio": "mods/esperon-dano-eclipsis/songs/eclipsis/Voices-esperon-eclipsis.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.0008028040756471455,
+  "energy_threshold": 0.015,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 257080.0,
+  "segments": [
+    {
+      "start_ms": 1580,
+      "end_ms": 7280,
+      "duration_ms": 5700
+    },
+    {
+      "start_ms": 8100,
+      "end_ms": 26760,
+      "duration_ms": 18660
+    },
+    {
+      "start_ms": 27040,
+      "end_ms": 40120,
+      "duration_ms": 13080
+    },
+    {
+      "start_ms": 40140,
+      "end_ms": 58240,
+      "duration_ms": 18100
+    },
+    {
+      "start_ms": 58320,
+      "end_ms": 74660,
+      "duration_ms": 16340
+    },
+    {
+      "start_ms": 91920,
+      "end_ms": 185380,
+      "duration_ms": 93460
+    },
+    {
+      "start_ms": 185420,
+      "end_ms": 231340,
+      "duration_ms": 45920
+    }
+  ],
+  "onsets_ms": [
+    1580,
+    8100,
+    27040,
+    40140,
+    58320,
+    91920,
+    185420
+  ],
+  "coverage_ratio": 0.821768,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}

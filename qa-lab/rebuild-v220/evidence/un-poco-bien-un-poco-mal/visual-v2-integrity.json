@@ -1,0 +1,21 @@
+{
+  "scope": "VISUAL_ONLY",
+  "protected_before": {
+    "chart_sha256": "1a2d5d18c2538fc3c39665d9e055e7c75bdc3a8eb691c337f66e3937fe7d1e36",
+    "inst_sha256": "b3122777bc9451ad2b6f07d70e9c82036fb4e64e95dd0f66750425f88b8847f6"
+  },
+  "protected_after": {
+    "chart_sha256": "1a2d5d18c2538fc3c39665d9e055e7c75bdc3a8eb691c337f66e3937fe7d1e36",
+    "inst_sha256": "b3122777bc9451ad2b6f07d70e9c82036fb4e64e95dd0f66750425f88b8847f6"
+  },
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonUnPocoBienUnPocoMalHudV2.hxc",
+    "class": "EsperonUnPocoBienUnPocoMalHudV2",
+    "player_character_id": "esperon-un-poco-bien-un-poco-mal",
+    "opponent_color": "0xFF5FDD8B",
+    "player_color": "0xFFE06542",
+    "preview": "images/ui/esperon-un-poco-bien-un-poco-mal-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
+}

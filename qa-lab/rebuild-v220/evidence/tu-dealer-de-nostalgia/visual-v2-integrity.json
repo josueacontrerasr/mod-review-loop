@@ -1,0 +1,21 @@
+{
+  "scope": "VISUAL_ONLY",
+  "protected_before": {
+    "chart_sha256": "8db53184b51ddbf4d743271858dd21b328c960efd3db6f617adfb51ace3888c4",
+    "inst_sha256": "7feba08bdbda9b6f0a96734d56ee91cce0e906930dc243dc4cfadfde57b420e6"
+  },
+  "protected_after": {
+    "chart_sha256": "8db53184b51ddbf4d743271858dd21b328c960efd3db6f617adfb51ace3888c4",
+    "inst_sha256": "7feba08bdbda9b6f0a96734d56ee91cce0e906930dc243dc4cfadfde57b420e6"
+  },
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonTuDealerDeNostalgiaHudV2.hxc",
+    "class": "EsperonTuDealerDeNostalgiaHudV2",
+    "player_character_id": "esperon-tu-dealer-de-nostalgia",
+    "opponent_color": "0xFF62A7AB",
+    "player_color": "0xFFD5746D",
+    "preview": "images/ui/esperon-tu-dealer-de-nostalgia-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "scope": "QA_LAB_CONSOLIDATED_20_ROUNDS",
+  "executed_at": "2026-08-14T17:46:48.788366+00:00",
+  "rounds": 20,
+  "mods_per_round": 20,
+  "records": 400,
+  "totals": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "status": "STABLE_PLATEAU_REACHED",
+  "rounds_summary": [
+    {
+      "round": 1,
+      "focus": "baseline-hashes",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 2,
+      "focus": "json-encoding-schema",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 3,
+      "focus": "vslice-contracts",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 4,
+      "focus": "ids-paths",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 5,
+      "focus": "png-xml-sparrow",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 6,
+      "focus": "characters-animations",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 7,
+      "focus": "stage-cover-hud",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 8,
+      "focus": "notes-ui",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 9,
+      "focus": "ogg-integrity",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 10,
+      "focus": "chart-structure",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 11,
+      "focus": "tempo-offset-drift",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 12,
+      "focus": "voice-chart-deep",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 13,
+      "focus": "visual-animation-deep",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 14,
+      "focus": "scripts-ui",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 15,
+      "focus": "android-vfs",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 16,
+      "focus": "individual-zips",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 17,
+      "focus": "master-collection",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 18,
+      "focus": "static-load-simulation",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 19,
+      "focus": "regression",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    },
+    {
+      "round": 20,
+      "focus": "final-signature",
+      "passed": 20,
+      "warnings": 0,
+      "errors": 0,
+      "changed_since_baseline": []
+    }
+  ],
+  "limitations": [
+    "No ejecuta el renderer ni Audio Sync Test de FNF Mobile.",
+    "No promociona cambios musicales/visuales sin un ejecutor de reparación y revalidación posterior."
+  ]
+}

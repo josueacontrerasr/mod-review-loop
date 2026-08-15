@@ -1,0 +1,186 @@
+{
+  "scope": "STATIC_CHART_TO_REVIEWED_ANCHORS",
+  "chart": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-chart.json",
+  "anchors": "analysis/all-candidates/mi-hogar/mi-hogar-anchors-candidates.json",
+  "audio_evidence": {
+    "report": "analysis/all-candidates/mi-hogar/final-ogg-evidence.json",
+    "source": "mods/esperon-dano-mi-hogar/songs/mi-hogar/Inst.ogg",
+    "sha256": "5f7a2b1282f04efc439d0ed7de03bb546fda48fea1fd6b31bb04357e1a95f136",
+    "duration_seconds": 174.24254,
+    "codec": "vorbis",
+    "sample_rate": "44100",
+    "channels": 2
+  },
+  "difficulty": "normal",
+  "tolerance_ms": 5.0,
+  "max_section_drift_ms": 10.0,
+  "anchor_count": 17,
+  "missing_count": 0,
+  "out_of_tolerance_count": 0,
+  "drift_exceeded_count": 0,
+  "mean_error_ms": 0.0,
+  "max_absolute_error_ms": 0.0,
+  "results": [
+    {
+      "label": "vocal-onset-1",
+      "expected_ms": 2078.186,
+      "chart_ms": 2078.186,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-2",
+      "expected_ms": 14477.642,
+      "chart_ms": 14477.642,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-3",
+      "expected_ms": 34284.263,
+      "chart_ms": 34284.263,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-4",
+      "expected_ms": 46207.71,
+      "chart_ms": 46207.71,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-5",
+      "expected_ms": 54206.984,
+      "chart_ms": 54206.984,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-6",
+      "expected_ms": 61672.2,
+      "chart_ms": 61672.2,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-7",
+      "expected_ms": 68893.605,
+      "chart_ms": 68893.605,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-8",
+      "expected_ms": 78529.887,
+      "chart_ms": 78529.887,
+      "error_ms": 0.0,
+      "section": "candidate-1",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-9",
+      "expected_ms": 81757.46,
+      "chart_ms": 81757.46,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-10",
+      "expected_ms": 98452.608,
+      "chart_ms": 98452.608,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-11",
+      "expected_ms": 130867.664,
+      "chart_ms": 130867.664,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-12",
+      "expected_ms": 136185.034,
+      "chart_ms": 136185.034,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-13",
+      "expected_ms": 143894.059,
+      "chart_ms": 143894.059,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-14",
+      "expected_ms": 148584.49,
+      "chart_ms": 148584.49,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-15",
+      "expected_ms": 153774.15,
+      "chart_ms": 153774.15,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-16",
+      "expected_ms": 163085.351,
+      "chart_ms": 163085.351,
+      "error_ms": 0.0,
+      "section": "candidate-2",
+      "status": "OK"
+    },
+    {
+      "label": "vocal-onset-17",
+      "expected_ms": 167601.633,
+      "chart_ms": 167601.633,
+      "error_ms": 0.0,
+      "section": "candidate-3",
+      "status": "OK"
+    }
+  ],
+  "sections": {
+    "candidate-1": {
+      "first_error_ms": 0.0,
+      "last_error_ms": 0.0,
+      "drift_ms": 0.0,
+      "status": "OK"
+    },
+    "candidate-2": {
+      "first_error_ms": 0.0,
+      "last_error_ms": 0.0,
+      "drift_ms": 0.0,
+      "status": "OK"
+    },
+    "candidate-3": {
+      "first_error_ms": 0.0,
+      "last_error_ms": 0.0,
+      "drift_ms": 0.0,
+      "status": "OK"
+    }
+  },
+  "status": "PASS",
+  "limitations": [
+    "Este resultado compara chart contra anclajes musicales revisados; no analiza ondas de audio.",
+    "La evidencia registra el archivo de audio exacto, pero Audio Sync Test y playtest siguen siendo obligatorios."
+  ]
+}

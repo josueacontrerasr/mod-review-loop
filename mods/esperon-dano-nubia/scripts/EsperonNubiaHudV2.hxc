@@ -1,0 +1,26 @@
+import funkin.play.PlayState;
+
+/**
+ * HUD visual V2 para Nubia.
+ * Solo recoloriza la barra de vida al inicio del conteo.
+ * No modifica audio, BPM, offsets, chart, notas ni eventos musicales.
+ */
+import funkin.modding.module.Module;
+
+class EsperonNubiaHudV2 extends Module
+{
+  function new()
+  {
+    super("Esperón HUD — Nubia", 1, {state: PlayState});
+  }
+
+  override function onCountdownStart(event)
+  {
+    super.onCountdownStart(event);
+    if (PlayState.instance == null || PlayState.instance.healthBar == null) return;
+    if (PlayState.instance.iconP1 == null) return;
+    if (PlayState.instance.iconP1.characterId != "esperon-nubia") return;
+    PlayState.instance.healthBar.createFilledBar(0xFFC6B7F5, 0xFF70AFE8);
+    PlayState.instance.healthBar.updateBar();
+  }
+}

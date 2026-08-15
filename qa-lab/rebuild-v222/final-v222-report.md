@@ -1,0 +1,57 @@
+# Informe final V2.2.2 — Esperón FNF Mobile V-Slice 0.8.6
+
+## Resultado ejecutivo
+
+Se corrigieron los fallos observados en las capturas: `Stage Error` al cargar `escenario-solare`/`escenario-dano`, personajes y escenarios invisibles, flechas sobredimensionadas o ausentes y charts con outliers de tiempo frente a la actividad vocal. Las correcciones se aplicaron a los 20 mods sin cambiar instrumental, stems vocales, BPM ni `timeChanges`.
+
+La causa principal del Stage Error fue el contrato de resolución de assets. La versión corregida usa `directory: "shared"` y rutas relativas oficiales en StageData, además de `characters/<id>` en CharacterData, que coincide con el fallback compartido de `Paths` en V-Slice 0.8.6. Las carátulas de Freeplay conservan PNG estático para el arte y XML Sparrow con `idle0`/`switch0` para el título.
+
+## Cambios aplicados
+
+| Área | Resultado |
+|---|---:|
+| StageData y rutas de assets | 20/20 PASS |
+| Personajes y atlas Sparrow | 20/20 PASS |
+| Note styles y HUD visual | 20/20 rediseñados |
+| Carátulas Freeplay y títulos Sparrow | 20/20 regenerados |
+| Charts promovidos desde candidatos cross-validado | 20/20 con 100% de notas dentro de ±120 ms |
+| Audio, voces, BPM y timeChanges | Conservados; hashes protegidos |
+
+## Sincronía chart-voces
+
+Se ejecutó VAD CPU en paralelo sobre las 20 voces, un detector independiente de onsets y una validación cruzada separada del generador. Los 20 candidatos pasaron integridad de orden/duplicados; todos los charts promovidos alcanzan `within_120 = 1.0` frente a los onsets vocales independientes. La mediana de error por nota queda generalmente en 11.61–23.22 ms según la canción/dificultad, con errores máximos candidatos inferiores a 120 ms en el resumen de cross-validation.
+
+> Esta métrica es una garantía de ingeniería contra un detector independiente, no una certificación humana de sílabas, cantante y dirección. El Audio Sync Test del Chart Editor y el playtest dentro de FNF Mobile V-Slice 0.8.6 siguen siendo el último paso para afirmar sincronización musical perfecta.
+
+## QA y empaquetado
+
+- QA local: **20 rondas × 20 mods = 400 revisiones PASS**; cada ronda inspeccionó 900 archivos runtime y CRC de ZIP.
+- Contrato runtime: **20/20 PASS**.
+- ZIPs individuales: **20/20 PASS**; colección: 20 miembros y CRC PASS.
+- Release: 21 assets — 20 ZIPs individuales y una colección maestra.
+- Commit de runtime V2.2.2: `0245a3b2e1cd0e5d5b3010a1422c72b88fe1801`.
+
+## GitHub Actions
+
+| Workflow | Rama | Resultado |
+|---|---|---|
+| Laboratorio QA V2.2.2 | `auto/vslice-qa-lab` | [31855884155](https://github.com/josueacontrerasr/mod-review-loop/actions/runs/31855884155) — success |
+| Laboratorio QA V2.2.2 | `auto/vslice-sync-ui-v2` | [31855885113](https://github.com/josueacontrerasr/mod-review-loop/actions/runs/31855885113) — success |
+| Auto evolución final | `auto/vslice-sync-ui-v2` | [31856056440](https://github.com/josueacontrerasr/mod-review-loop/actions/runs/31856056440) — success |
+
+## Descarga
+
+[Release Esperón V2.2.2](https://github.com/josueacontrerasr/mod-review-loop/releases/tag/esperon-vslice-086-v2.2.2)
+
+El manifiesto SHA-256 de los 21 assets está en `qa-lab/rebuild-v222/sha256-v222.txt`. La carpeta local `Mods .zip terminados/` contiene únicamente los ZIPs V2.2.2 finales.
+
+## Límites restantes
+
+La validación estática no puede ejecutar el renderer nativo del APK ni observar el dispositivo móvil. Si FNF conserva caché de una versión anterior, hay que cerrar completamente la aplicación, eliminar el mod anterior y reinstalar un ZIP V2.2.2 limpio. La comprobación final pendiente es abrir una canción en el dispositivo, observar personajes/stage y ejecutar Audio Sync Test; cualquier offset medido allí debe registrarse antes de hacer otro cambio musical.
+
+## Referencias oficiales
+
+1. [AlbumRoll.hx V-Slice 0.8.6](https://raw.githubusercontent.com/FunkinCrew/Funkin/v0.8.6/source/funkin/ui/freeplay/AlbumRoll.hx).
+2. [CharacterData.hx V-Slice 0.8.6](https://raw.githubusercontent.com/FunkinCrew/Funkin/v0.8.6/source/funkin/data/character/CharacterData.hx).
+3. [StageData.hx V-Slice 0.8.6](https://raw.githubusercontent.com/FunkinCrew/Funkin/v0.8.6/source/funkin/data/stage/StageData.hx).
+4. [Chart Editor documentation](https://funkincrew-funkin-59.mintlify.app/tools/chart-editor).

@@ -2,7 +2,7 @@
   "version": "1.0.2",
   "name": "Rival Fango",
   "renderType": "sparrow",
-  "assetPath": "shared:characters/rival-fango",
+  "assetPath": "characters/rival-fango",
   "flipX": false,
   "offsets": [
     0,
@@ -32,6 +32,28 @@
     {
       "name": "singRIGHT",
       "prefix": "Right"
+    },
+    {
+      "name": "singLEFT-hold",
+      "prefix": "LeftHold"
+    },
+    {
+      "name": "singDOWN-hold",
+      "prefix": "DownHold"
+    },
+    {
+      "name": "singUP-hold",
+      "prefix": "UpHold"
+    },
+    {
+      "name": "singRIGHT-hold",
+      "prefix": "RightHold"
     }
-  ]
+  ],
+  "generatedBy": "V-Slice Mobile 0.8.6 V2.3.0 cover-derived geometric character atlas",
+  "startingAnimation": "idle",
+  "scale": 1.0,
+  "isPixel": false,
+  "danceEvery": 1.0,
+  "singTime": 8.0
 }

@@ -1,0 +1,32 @@
+{
+  "scope": "VOCAL_ONLY_DYNAMIC_INPUT_PROBE_V260",
+  "executed_at": "2026-08-15T17:33:41.904687+00:00",
+  "songs": 20,
+  "songs_passed": 20,
+  "load_calls": 20,
+  "vocal_inputs": [
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/songs/arcoloria/Voices-esperon-arcoloria.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/songs/cortamos-y-volvemos/Voices-esperon-cortamos-y-volvemos.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/songs/dano/Voices-esperon-dano.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/songs/dias-magicos/Voices-esperon-dias-magicos.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/songs/eclipsis/Voices-esperon-eclipsis.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/songs/fango/Voices-esperon-fango.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/songs/luma/Voices-esperon-luma.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/songs/maraton-de-peliculas/Voices-esperon-maraton-de-peliculas.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/songs/meteora/Voices-esperon-meteora.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/songs/mi-hogar/Voices-esperon-mi-hogar.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/songs/nubia/Voices-esperon-nubia.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/songs/nuestro-amor-no-es-normal/Voices-esperon-nuestro-amor-no-es-normal.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/songs/peligrosa/Voices-esperon-peligrosa.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/songs/rompecabezas/Voices-esperon-rompecabezas.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/songs/solare/Voices-esperon-solare.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/songs/tristella/Voices-esperon-tristella.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/songs/tu-dealer-de-nostalgia/Voices-esperon-tu-dealer-de-nostalgia.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/songs/un-poco-bien-un-poco-mal/Voices-esperon-un-poco-bien-un-poco-mal.ogg",
+    "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/songs/volver-a-vernos/Voices-esperon-volver-a-vernos.ogg"
+  ],
+  "forbidden_instrumental_inputs": [],
+  "status": "PASS",
+  "policy": "El generador vocal-only no puede abrir Inst.ogg durante la creación de candidatos."
+}

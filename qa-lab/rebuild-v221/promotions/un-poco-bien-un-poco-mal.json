@@ -1,0 +1,67 @@
+{
+  "status": "PROMOTED_WITH_REVIEW_REQUIRED",
+  "song": "un-poco-bien-un-poco-mal",
+  "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+  "before": {
+    "metadata_sha256": "f21dc2e0a980667c7bf6199ef5317a9de6d2bd88813da6f2af593983e4c06f21",
+    "chart_sha256": "1ca4baa0b30952956b2bf24f42c40235aa82654623c8dbfcec073166ffba46be",
+    "inst_sha256": "b3122777bc9451ad2b6f07d70e9c82036fb4e64e95dd0f66750425f88b8847f6",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "217.617415"
+      }
+    }
+  },
+  "after": {
+    "metadata_sha256": "026dccd468a280160f5a61bb4241b42266fe56da10109a2613f5e49f81f0bdfc",
+    "chart_sha256": "637222933e50a284fdbfc90c97e28185c5bd023ddb17525f592ccf507b7dc2ec",
+    "inst_sha256": "d062610df6cb868065c3737406437e1a14d817aa13488d07d09922f0d995b220",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "217.617415"
+      }
+    },
+    "voices_sha256": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229",
+    "voices_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "217.617415"
+      }
+    }
+  },
+  "evidence": {
+    "vocal_stem": "sync-candidates/vocal-stems/un-poco-bien-un-poco-mal/vocals.wav",
+    "no_vocals": "sync-candidates/vocal-stems/un-poco-bien-un-poco-mal/demucs-work/htdemucs/Esperón  Un Poco Bien un Poco Mal _Letra_/no_vocals.wav",
+    "isolated_chart": "sync-candidates/voice-aligned-charts/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart.json",
+    "cross_validation": "qa-lab/rebuild-v221/cross-validation-candidate-summary.json",
+    "reconstruction_audit": "qa-lab/rebuild-v221/demucs-reconstruction-audit.json"
+  },
+  "guarantees": [
+    "No BPM or offset values were changed by this promotion.",
+    "All notes remain on player directions 4..7.",
+    "Audio Sync Test and mobile playtest are still required for a human PASS."
+  ]
+}

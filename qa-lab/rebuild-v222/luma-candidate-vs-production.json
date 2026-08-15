@@ -1,0 +1,56 @@
+{
+  "song": "luma",
+  "production": {
+    "easy": {
+      "notes": 48,
+      "mean_ms": 72.321,
+      "median_ms": 23.22,
+      "within_80ms": 0.708333,
+      "within_120ms": 0.75,
+      "max_ms": 406.349
+    },
+    "normal": {
+      "notes": 96,
+      "mean_ms": 80.907,
+      "median_ms": 23.22,
+      "within_80ms": 0.697917,
+      "within_120ms": 0.739583,
+      "max_ms": 1369.977
+    },
+    "hard": {
+      "notes": 96,
+      "mean_ms": 80.907,
+      "median_ms": 23.22,
+      "within_80ms": 0.697917,
+      "within_120ms": 0.739583,
+      "max_ms": 1369.977
+    }
+  },
+  "candidate": {
+    "easy": {
+      "notes": 48,
+      "mean_ms": 16.931,
+      "median_ms": 11.61,
+      "within_80ms": 0.958333,
+      "within_120ms": 1.0,
+      "max_ms": 116.099
+    },
+    "normal": {
+      "notes": 96,
+      "mean_ms": 15.964,
+      "median_ms": 11.61,
+      "within_80ms": 0.958333,
+      "within_120ms": 1.0,
+      "max_ms": 116.099
+    },
+    "hard": {
+      "notes": 96,
+      "mean_ms": 15.964,
+      "median_ms": 11.61,
+      "within_80ms": 0.958333,
+      "within_120ms": 1.0,
+      "max_ms": 116.099
+    }
+  },
+  "status": "REVIEW_ONLY"
+}

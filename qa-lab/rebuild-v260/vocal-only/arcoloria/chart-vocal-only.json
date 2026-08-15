@@ -1,0 +1,758 @@
+{
+  "version": "2.0.0",
+  "scrollSpeed": {
+    "easy": 0.9,
+    "normal": 1.0,
+    "hard": 1.12
+  },
+  "events": [],
+  "notes": {
+    "easy": [
+      {
+        "t": 39671.293,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00001"
+      },
+      {
+        "t": 82233.469,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00002"
+      },
+      {
+        "t": 85135.964,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00003"
+      },
+      {
+        "t": 89361.995,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00004"
+      },
+      {
+        "t": 102910.839,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00005"
+      },
+      {
+        "t": 121242.993,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00006"
+      },
+      {
+        "t": 141386.304,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00007"
+      },
+      {
+        "t": 144474.558,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00008"
+      },
+      {
+        "t": 153182.041,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00009"
+      },
+      {
+        "t": 158638.73,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00010"
+      },
+      {
+        "t": 159822.948,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00011"
+      },
+      {
+        "t": 160705.306,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00012"
+      },
+      {
+        "t": 161320.635,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00013"
+      },
+      {
+        "t": 162226.213,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00014"
+      },
+      {
+        "t": 162713.832,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00015"
+      },
+      {
+        "t": 170422.857,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00016"
+      },
+      {
+        "t": 193956.281,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00017"
+      }
+    ],
+    "normal": [
+      {
+        "t": 39671.293,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00001"
+      },
+      {
+        "t": 46474.739,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00002"
+      },
+      {
+        "t": 46764.989,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00003"
+      },
+      {
+        "t": 54090.884,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00004"
+      },
+      {
+        "t": 54241.814,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00005"
+      },
+      {
+        "t": 82233.469,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00006"
+      },
+      {
+        "t": 84926.984,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00007"
+      },
+      {
+        "t": 85135.964,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00008"
+      },
+      {
+        "t": 86064.762,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00009"
+      },
+      {
+        "t": 86331.791,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00010"
+      },
+      {
+        "t": 89361.995,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00011"
+      },
+      {
+        "t": 93994.376,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00012"
+      },
+      {
+        "t": 94168.526,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00013"
+      },
+      {
+        "t": 102295.51,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00014"
+      },
+      {
+        "t": 102910.839,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00015"
+      },
+      {
+        "t": 106463.492,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00016"
+      },
+      {
+        "t": 114927.166,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00017"
+      },
+      {
+        "t": 121242.993,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00018"
+      },
+      {
+        "t": 131866.122,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00019"
+      },
+      {
+        "t": 132353.741,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00020"
+      },
+      {
+        "t": 133897.868,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00021"
+      },
+      {
+        "t": 139145.578,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00022"
+      },
+      {
+        "t": 141386.304,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00023"
+      },
+      {
+        "t": 141537.234,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00024"
+      },
+      {
+        "t": 141746.213,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00025"
+      },
+      {
+        "t": 143568.98,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00026"
+      },
+      {
+        "t": 144474.558,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00027"
+      },
+      {
+        "t": 148909.569,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00028"
+      },
+      {
+        "t": 153182.041,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00029"
+      },
+      {
+        "t": 155399.546,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00030"
+      },
+      {
+        "t": 158638.73,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00031"
+      },
+      {
+        "t": 158836.1,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00032"
+      },
+      {
+        "t": 159068.299,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00033"
+      },
+      {
+        "t": 159822.948,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00034"
+      },
+      {
+        "t": 159985.488,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00035"
+      },
+      {
+        "t": 160705.306,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00036"
+      },
+      {
+        "t": 161158.095,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00037"
+      },
+      {
+        "t": 161320.635,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00038"
+      },
+      {
+        "t": 161773.424,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00039"
+      },
+      {
+        "t": 161970.794,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00040"
+      },
+      {
+        "t": 162226.213,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00041"
+      },
+      {
+        "t": 162504.853,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00042"
+      },
+      {
+        "t": 162713.832,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00043"
+      },
+      {
+        "t": 163073.741,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00044"
+      },
+      {
+        "t": 163259.501,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00045"
+      },
+      {
+        "t": 170422.857,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00046"
+      },
+      {
+        "t": 170620.227,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00047"
+      },
+      {
+        "t": 170887.256,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00048"
+      },
+      {
+        "t": 193956.281,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00049"
+      },
+      {
+        "t": 201769.796,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00050"
+      }
+    ],
+    "hard": [
+      {
+        "t": 39671.293,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00001"
+      },
+      {
+        "t": 46474.739,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00002"
+      },
+      {
+        "t": 46764.989,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00003"
+      },
+      {
+        "t": 54090.884,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00004"
+      },
+      {
+        "t": 54241.814,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00005"
+      },
+      {
+        "t": 54381.134,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00006"
+      },
+      {
+        "t": 82233.469,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00007"
+      },
+      {
+        "t": 84926.984,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00008"
+      },
+      {
+        "t": 85135.964,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00009"
+      },
+      {
+        "t": 86064.762,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00010"
+      },
+      {
+        "t": 86331.791,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00011"
+      },
+      {
+        "t": 89361.995,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00012"
+      },
+      {
+        "t": 93994.376,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00013"
+      },
+      {
+        "t": 94168.526,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00014"
+      },
+      {
+        "t": 102295.51,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00015"
+      },
+      {
+        "t": 102910.839,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00016"
+      },
+      {
+        "t": 106463.492,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00017"
+      },
+      {
+        "t": 114927.166,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00018"
+      },
+      {
+        "t": 121242.993,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00019"
+      },
+      {
+        "t": 131866.122,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00020"
+      },
+      {
+        "t": 132353.741,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00021"
+      },
+      {
+        "t": 133897.868,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00022"
+      },
+      {
+        "t": 139145.578,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00023"
+      },
+      {
+        "t": 139273.288,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00024"
+      },
+      {
+        "t": 141386.304,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00025"
+      },
+      {
+        "t": 141537.234,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00026"
+      },
+      {
+        "t": 141746.213,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00027"
+      },
+      {
+        "t": 143568.98,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00028"
+      },
+      {
+        "t": 144474.558,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00029"
+      },
+      {
+        "t": 144602.268,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00030"
+      },
+      {
+        "t": 148909.569,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00031"
+      },
+      {
+        "t": 153182.041,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00032"
+      },
+      {
+        "t": 155399.546,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00033"
+      },
+      {
+        "t": 158638.73,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00034"
+      },
+      {
+        "t": 158836.1,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00035"
+      },
+      {
+        "t": 158928.98,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00036"
+      },
+      {
+        "t": 159068.299,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00037"
+      },
+      {
+        "t": 159822.948,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00038"
+      },
+      {
+        "t": 159927.438,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00039"
+      },
+      {
+        "t": 160705.306,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00040"
+      },
+      {
+        "t": 161158.095,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00041"
+      },
+      {
+        "t": 161250.975,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00042"
+      },
+      {
+        "t": 161773.424,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00043"
+      },
+      {
+        "t": 161970.794,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00044"
+      },
+      {
+        "t": 162226.213,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00045"
+      },
+      {
+        "t": 162342.313,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00046"
+      },
+      {
+        "t": 162504.853,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00047"
+      },
+      {
+        "t": 162713.832,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00048"
+      },
+      {
+        "t": 163073.741,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00049"
+      },
+      {
+        "t": 163259.501,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00050"
+      },
+      {
+        "t": 170422.857,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00051"
+      },
+      {
+        "t": 170620.227,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00052"
+      },
+      {
+        "t": 170713.107,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "voice-00053"
+      },
+      {
+        "t": 170887.256,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "voice-00054"
+      },
+      {
+        "t": 193956.281,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "voice-00055"
+      },
+      {
+        "t": 201769.796,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "voice-00056"
+      }
+    ]
+  },
+  "candidateOnly": true,
+  "generatedBy": "Vocal-only distributed Voices-*.ogg onset generator V260",
+  "sourcePolicy": "NO_INSTRUMENTAL_NOTES"
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "VISUAL_ONLY",
+  "protected_before": {
+    "chart_sha256": "221bc39b9ab0c298bb920f58f2ebbd75ef6167068e96df625389f3ab126928ed",
+    "inst_sha256": "1e0563abea61a2e7d1f5b67e1242af0f79af3152df22661636de18bbdf6d4126"
+  },
+  "protected_after": {
+    "chart_sha256": "221bc39b9ab0c298bb920f58f2ebbd75ef6167068e96df625389f3ab126928ed",
+    "inst_sha256": "1e0563abea61a2e7d1f5b67e1242af0f79af3152df22661636de18bbdf6d4126"
+  },
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonMeteoraHudV2.hxc",
+    "class": "EsperonMeteoraHudV2",
+    "player_character_id": "esperon-meteora",
+    "opponent_color": "0xFF5C65E4",
+    "player_color": "0xFFFF7546",
+    "preview": "images/ui/esperon-meteora-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
+}

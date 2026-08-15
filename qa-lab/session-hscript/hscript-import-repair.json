@@ -1,0 +1,253 @@
+{
+  "scope": "HUD_HSCRIPT_IMPORT_REPAIR",
+  "mods": 20,
+  "changed": 20,
+  "required_imports": [
+    "import funkin.modding.module.Module;",
+    "import funkin.play.PlayState;"
+  ],
+  "entries": [
+    {
+      "mod": "esperon-dano-arcoloria",
+      "script": "scripts/EsperonArcoloriaHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "a65313ad920f329e3cf6901446d79b6c4691f0eb1ea101dd3a261d8144864690",
+      "new_script_sha256": "f46feb8f12f2b87663822fe3c36dd25e005cf12815e4b846df5fb986ff827433",
+      "protected_music": {
+        "chart_sha256": "a66835c3b7c206d4c1988df45a98439893945e77d759e610f021d0f3c01568d4",
+        "inst_sha256": "6f5ae49728c0bf5962b80d12c0ae6ff1c6221add55094af07baf146457277645"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-cortamos-y-volvemos",
+      "script": "scripts/EsperonCortamosYVolvemosHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "d8452d871bf757a6d5b85732b6634815792bfacce596f426e7bb8d8ab3ba3be1",
+      "new_script_sha256": "b7e6f7ef72b610839590ee4dc12a18319600927a6543abc2e9c2e5e5bcc9fc75",
+      "protected_music": {
+        "chart_sha256": "02f9875018b9ce9acce0d3620068c155ad11098acd909a53a35c914a6a2f11d9",
+        "inst_sha256": "971cb444926f259fb3ff49f79c95d2d3dd873002c3d4f8cefd05fe13b7c14255"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-dano",
+      "script": "scripts/EsperonDanoHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "7604b9971c093dd2c00e0cc3ba97641ad28902f4b97a99bfc096a15fcfe87003",
+      "new_script_sha256": "13d5718e1bbe4c953703a485b3c1c0c9d0cb2555be7f5c729f7595c1abd12def",
+      "protected_music": {
+        "chart_sha256": "253acdc83632193b29b51a706a6059b3d0615923afb41165dd003c4934872730",
+        "inst_sha256": "a316e3b7a34445e163c14b766e8788f40f5919319e6d5bbf7bcded6c175ea3ee"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-dias-magicos",
+      "script": "scripts/EsperonDiasMagicosHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "5f9a0de7f9ffe40a3a664b1c5554451a86b0d1f8c57ffedc8edd35cf2817cf94",
+      "new_script_sha256": "6f27868c0eb06838efafe691d33b70eeab4882a60d08b4f7e9c64e06cf3a95d8",
+      "protected_music": {
+        "chart_sha256": "a322fe731d18e3a76c8ba54127151a1d921cbecda8012f24d11bfe01e638c16c",
+        "inst_sha256": "bf6ef3049d2f3fb97e14bcbd1a53e6783c64fc624d22ba642012acd78fbfbcb6"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-eclipsis",
+      "script": "scripts/EsperonEclipsisHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "aa28de244ffd2e5d375e1f289f41931c98af098e46d472c1d2e4e5a8bfec8093",
+      "new_script_sha256": "15e1055d8ac45d745e46fc6cee077746b3db222cf299e4dfed69e29e45b8196d",
+      "protected_music": {
+        "chart_sha256": "999179c95c8baac795bd166a0be4e04abbd9b315822cda0b599476775b5139c3",
+        "inst_sha256": "91846ef3394e6fc1a070b36defa46305f3bb0885641158db773e7c38fe62cdb1"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-fango",
+      "script": "scripts/EsperonFangoHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "07475f657dd65a99b22aadcc9b0b7a509438ec65bb3acdf56effac08aeb33920",
+      "new_script_sha256": "c9b5cde80dd014a3c876c2c8ba1eb4501272b770c32c9a7f164cf98d797b1727",
+      "protected_music": {
+        "chart_sha256": "399afba2cf4e18b94e2b0756b185be42106483bf6ed9afce758fabf716797291",
+        "inst_sha256": "2aa5c4a389ae25e3d6ed054d54037e42e26433b50e2f9265a8d8fac083bdbc91"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-luma",
+      "script": "scripts/EsperonLumaHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "ed4bb79ad5d08ab859f39521dba75bea9fd134079cd0ed154d4cf1e0406c20f5",
+      "new_script_sha256": "ffd0557459fb71ee17211a1bc4034d3c3aa76c7bd8dc21736086b0ad7d48f822",
+      "protected_music": {
+        "chart_sha256": "5e9eef1689fc979a3c8917c747e62b903962c7cac05249c943d0102cbd315427",
+        "inst_sha256": "f57aab6f0c6e3e98ba630e7ebb9d295f4e634eda2f001eda69533f423044020a"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-maraton-de-peliculas",
+      "script": "scripts/EsperonMaratonDePeliculasHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "55a04d30c55fba8ebf2ef36d4b0e68ad503abbbba6ec43a54eea4e412a7c4eb1",
+      "new_script_sha256": "4aab262a3a360464eca6e15b499d259848e2e32faf68b55f337f0fd00125afe6",
+      "protected_music": {
+        "chart_sha256": "851a76b36209895a5999abea9d31c9ed9419ba7733edb2b999a25ac6785f3522",
+        "inst_sha256": "fe40584d050dcdac69eecf89a5b062a7568b2c83984037207ce3efbf5a66c79d"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "script": "scripts/EsperonMeVoyAMorirSiNoMeBesasAhoraMismoHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "f3bd61931a879428b5e7dde63fef918aa9f7471405d1007b00cf3074850456c8",
+      "new_script_sha256": "7ff49a4bcbc20552c03b3895fbfc4400e8a8f8a64c81e5aa04099abab269e331",
+      "protected_music": {
+        "chart_sha256": "cb3adb663035aa2ec3a2e2cdb0e2edc86d2cc2cd42812f99f4616213fb3c58a7",
+        "inst_sha256": "eeaa6ad77ae4998d46771ee6d0084539adb28f4ed961d35164d063a08bbc47d8"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-meteora",
+      "script": "scripts/EsperonMeteoraHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "5b300ab2b9a6b97b64a354b0b30efc8dd2ad5d7443dc1edc07e2ce9d09575685",
+      "new_script_sha256": "3e664cfa4c7e174feffaee4237d183b8126601b0702a4a45148128a8f931ec8a",
+      "protected_music": {
+        "chart_sha256": "0bbfc8ff96bae05a391732b083fdda579b6c9c93730e3712048390302674c63f",
+        "inst_sha256": "1e0563abea61a2e7d1f5b67e1242af0f79af3152df22661636de18bbdf6d4126"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-mi-hogar",
+      "script": "scripts/EsperonMiHogarHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "57860a3203f3648344bb593de34859eb24dcc2b3dceab341f260af1c8eb1da97",
+      "new_script_sha256": "3ca4a99c7dcd848c53215ffe105021e9a5166cb327eb840c1da7bc27195fb2b1",
+      "protected_music": {
+        "chart_sha256": "4a30c7c2afe162e612757c23c4dc343a027dfc15162051f8e53363864d853dc1",
+        "inst_sha256": "5f7a2b1282f04efc439d0ed7de03bb546fda48fea1fd6b31bb04357e1a95f136"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-nubia",
+      "script": "scripts/EsperonNubiaHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "8010c8d4e922116488f711bc9435096a8ccb6b16c5f07e227d5c024a3ffb3f2e",
+      "new_script_sha256": "2dc127c7d1024dafb14fec61ecd6abbc921130ecb40654e47ae765a1676d7be0",
+      "protected_music": {
+        "chart_sha256": "afec10e71fe102c031ca7f681d9c2075beacc41eb88b5382463a182296c1b1db",
+        "inst_sha256": "37e40f97d67c76514a7557043bfb67193b6c8d26a6ba75a756d44f8364d88e5b"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-nuestro-amor-no-es-normal",
+      "script": "scripts/EsperonNuestroAmorNoEsNormalHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "5e859778b42df1847c409483ae0f33c6436b386031a31b935e3959144521feda",
+      "new_script_sha256": "197d8227469e95b49bfeac5a21a50c2a546e801c0df6a50955ea5b5cc75ee9a0",
+      "protected_music": {
+        "chart_sha256": "2a0a33a907cfd35577e1cf8c7cd543410f7a68251cd4bcdc222031ed0f46628b",
+        "inst_sha256": "5577326b03124e4fd9d390616b071c01ebe5d154de92fb1443fa1892d2249fb5"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-peligrosa",
+      "script": "scripts/EsperonPeligrosaHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "821f69ea594bc6e39071aa64d5462c6d347536525bda377bdde08eb15e376adb",
+      "new_script_sha256": "e4833d57d9110649491665ecedea3e8ddffa3c39ca6fd61f25560989cace9e05",
+      "protected_music": {
+        "chart_sha256": "2f2a2e453d8fc41acb9ff991b0f5c3cdeaa7e527c48b390926e746e43ac8e8df",
+        "inst_sha256": "6d04a1495947e29eea7b82506095f95294c17e68402bdac95844f5da095501ad"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-rompecabezas",
+      "script": "scripts/EsperonRompecabezasHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "c5d0721c425c53300124b6c8c3d991ce41ecc322d686759d7d370546d258332f",
+      "new_script_sha256": "0aebd51a84ad3e00092ab9a2119f167def66a8f1817907b3d0f096dbd7f6f498",
+      "protected_music": {
+        "chart_sha256": "70730eedc2685b3ed6ee3412f2a1a8d2b85ee0430e38a85d82b1708bb8c15a80",
+        "inst_sha256": "89fefd4b4b61e2b7814520788f980d423635d22b0b4dd78de4045052493bdb30"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-solare",
+      "script": "scripts/EsperonSolareHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "41817f6dbb792b8075f9fe6b41d66adf5b9a9f0f22551939b46f981dcb8498c0",
+      "new_script_sha256": "e10bd1805f927d369279ea847178a607cd4ba8965b2ee66dc64f02a99cfa1348",
+      "protected_music": {
+        "chart_sha256": "a00f596a6a2a1cf00e86d72126bce158f854cd70ecd297340925fbc351f18672",
+        "inst_sha256": "92baeb05e1b4bcfa60d34afff84b53f063d7dc61e3550f07ed79d93b85e9b313"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-tristella",
+      "script": "scripts/EsperonTristellaHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "77c9bff008f7cd39ce877bdfc82559ebdf5f1125ca3a6f89b404609c30cddf25",
+      "new_script_sha256": "795febb899e150c6a5dee4bcba51435f4c9d949d848e42c816d45c1384f99a67",
+      "protected_music": {
+        "chart_sha256": "b96321fbab5c66e7fe0e0dfce78b44375e2e369e9c47b15407e60e5719e873ef",
+        "inst_sha256": "7a9e2384ab6aa7af27474131e265ed9abde4bc0ccdb6c746456f3e7dcd254fa0"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-tu-dealer-de-nostalgia",
+      "script": "scripts/EsperonTuDealerDeNostalgiaHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "f87a44f79dcbe1b308ca2ee283e1b32ebec5efa03c4488a6eb2e815f51ec051f",
+      "new_script_sha256": "94bbf18cb03d439af27b6cfe55fbb06ec447f75ed9687954a6756cb04965922a",
+      "protected_music": {
+        "chart_sha256": "a20fe90c187e3979b4b852fbe877985edd397c8d1b406499e4a50632b6642dc8",
+        "inst_sha256": "7feba08bdbda9b6f0a96734d56ee91cce0e906930dc243dc4cfadfde57b420e6"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+      "script": "scripts/EsperonUnPocoBienUnPocoMalHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "911b4701f661d8722a55001cae13dd0ea8f139abb06778343a1556558df7a97c",
+      "new_script_sha256": "cfd739ab66e519afaa106eefe77f85a67af736bf91523f8b17fa495c3cd9b328",
+      "protected_music": {
+        "chart_sha256": "1ca4baa0b30952956b2bf24f42c40235aa82654623c8dbfcec073166ffba46be",
+        "inst_sha256": "b3122777bc9451ad2b6f07d70e9c82036fb4e64e95dd0f66750425f88b8847f6"
+      },
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-volver-a-vernos",
+      "script": "scripts/EsperonVolverAVernosHudV2.hxc",
+      "changed": true,
+      "old_script_sha256": "aafb1f7b3d8b767abc0b96dd39f9e08b1942acb031b0c8040415cfc37bb8c21a",
+      "new_script_sha256": "3bbb740568f2c935e1a60ab59fbd88849940a48d936503819d36f231cf546c66",
+      "protected_music": {
+        "chart_sha256": "6ce51c8a80ca85ef70c279bc8fe3663bd766b8eddfbe45e0d9f125e9e5b17351",
+        "inst_sha256": "f44a6699d82293176adcd397e591f164c5fdc00a632fe3b0698b7544da887ca3"
+      },
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS",
+  "limitation": "El parseo/runtime final debe confirmarse en FNF Mobile V-Slice 0.8.6."
+}

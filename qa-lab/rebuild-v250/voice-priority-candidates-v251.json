@@ -1,0 +1,3070 @@
+{
+  "version": "2.5.1-voice-priority-candidates",
+  "status": "PASS",
+  "songs": 20,
+  "difficulties": 60,
+  "parallel_workers": 8,
+  "method": "fresh vocal onsets first; rhythm accents capped 5/10/15 percent",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "voice_sha256": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282",
+      "inst_sha256": "c9d6043842dbfb735102809f4d9860263249f2915703c74b2539b09421763437",
+      "duration_ms": 212834.104,
+      "vocal_events": 512,
+      "vad_segments": 7,
+      "vocal_coverage": 0.928202,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 347,
+            "rhythm_events_used": 17,
+            "vocal_ratio": 0.953297,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 364,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 347,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 17,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 512,
+              "median_ms": 0.0,
+              "p95_ms": 258.032,
+              "coverage_40ms": 0.677734,
+              "coverage_80ms": 0.677734,
+              "coverage_120ms": 0.708984
+            },
+            "family_counts": {
+              "vocal": 347,
+              "rhythm": 17
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 431,
+            "rhythm_events_used": 43,
+            "vocal_ratio": 0.909283,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 474,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 431,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 43,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 512,
+              "median_ms": 0.0,
+              "p95_ms": 153.542,
+              "coverage_40ms": 0.841797,
+              "coverage_80ms": 0.841797,
+              "coverage_120ms": 0.880859
+            },
+            "family_counts": {
+              "vocal": 431,
+              "rhythm": 43
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 492,
+            "rhythm_events_used": 74,
+            "vocal_ratio": 0.869258,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 566,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 492,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 74,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 512,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.960938,
+              "coverage_80ms": 0.960938,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 492,
+              "rhythm": 74
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/arcoloria/arcoloria-chart-v251.json"
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "voice_sha256": "0ec71bd2381a39212b549071a8ba617fd36753b9b0ea5343757d5e6224d745c1",
+      "inst_sha256": "d7ad308125b558ead8cf26daa7d8890fd5c7da8f88524db2213fba77b71bdf98",
+      "duration_ms": 207818.594,
+      "vocal_events": 707,
+      "vad_segments": 22,
+      "vocal_coverage": 0.860346,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 413,
+            "rhythm_events_used": 21,
+            "vocal_ratio": 0.951613,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 434,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 413,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 21,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 707,
+              "median_ms": 0.0,
+              "p95_ms": 230.458,
+              "coverage_40ms": 0.584158,
+              "coverage_80ms": 0.584158,
+              "coverage_120ms": 0.620934
+            },
+            "family_counts": {
+              "vocal": 413,
+              "rhythm": 21
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 512,
+            "rhythm_events_used": 51,
+            "vocal_ratio": 0.909414,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 563,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 512,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 51,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 707,
+              "median_ms": 0.0,
+              "p95_ms": 166.603,
+              "coverage_40ms": 0.724187,
+              "coverage_80ms": 0.724187,
+              "coverage_120ms": 0.769448
+            },
+            "family_counts": {
+              "vocal": 512,
+              "rhythm": 51
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 676,
+            "rhythm_events_used": 101,
+            "vocal_ratio": 0.870013,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 777,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 676,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 101,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 707,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.956153,
+              "coverage_80ms": 0.956153,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 676,
+              "rhythm": 101
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/cortamos-y-volvemos/cortamos-y-volvemos-chart-v251.json"
+    },
+    {
+      "song": "dano",
+      "voice_sha256": "bcef47cacf8685fd1d0f06918bdf577394cb4537771dc9b0bcf9956a0a4cd253",
+      "inst_sha256": "1cd2bca7478ff391d95def339185125e2d5bd2a4bdeb28846610059ebe609824",
+      "duration_ms": 206425.397,
+      "vocal_events": 792,
+      "vad_segments": 14,
+      "vocal_coverage": 0.853406,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 417,
+            "rhythm_events_used": 21,
+            "vocal_ratio": 0.952055,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 438,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 417,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 21,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 792,
+              "median_ms": 0.0,
+              "p95_ms": 238.005,
+              "coverage_40ms": 0.526515,
+              "coverage_80ms": 0.526515,
+              "coverage_120ms": 0.559343
+            },
+            "family_counts": {
+              "vocal": 417,
+              "rhythm": 21
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 568,
+            "rhythm_events_used": 57,
+            "vocal_ratio": 0.9088,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 625,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 568,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 57,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 792,
+              "median_ms": 0.0,
+              "p95_ms": 162.539,
+              "coverage_40ms": 0.717172,
+              "coverage_80ms": 0.717172,
+              "coverage_120ms": 0.762626
+            },
+            "family_counts": {
+              "vocal": 568,
+              "rhythm": 57
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 756,
+            "rhythm_events_used": 113,
+            "vocal_ratio": 0.869965,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 869,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 756,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 113,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 792,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.954545,
+              "coverage_80ms": 0.954545,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 756,
+              "rhythm": 113
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/dano/dano-chart-v251.json"
+    },
+    {
+      "song": "dias-magicos",
+      "voice_sha256": "96fd2c6aeccdc860a4e519b7bcb2156d723d75934fc6856c4fa766e238350422",
+      "inst_sha256": "b4ceae0d92b042011f30aeee561ad912cad76457708641ade711e2ff90bb45e8",
+      "duration_ms": 243623.764,
+      "vocal_events": 593,
+      "vad_segments": 9,
+      "vocal_coverage": 0.758969,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 378,
+            "rhythm_events_used": 19,
+            "vocal_ratio": 0.952141,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 397,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 378,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 19,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 593,
+              "median_ms": 0.0,
+              "p95_ms": 238.004,
+              "coverage_40ms": 0.637437,
+              "coverage_80ms": 0.637437,
+              "coverage_120ms": 0.652614
+            },
+            "family_counts": {
+              "vocal": 378,
+              "rhythm": 19
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 520,
+            "rhythm_events_used": 52,
+            "vocal_ratio": 0.909091,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 572,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 520,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 52,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 593,
+              "median_ms": 0.0,
+              "p95_ms": 159.057,
+              "coverage_40ms": 0.876897,
+              "coverage_80ms": 0.876897,
+              "coverage_120ms": 0.895447
+            },
+            "family_counts": {
+              "vocal": 520,
+              "rhythm": 52
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 582,
+            "rhythm_events_used": 87,
+            "vocal_ratio": 0.869955,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 669,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 582,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 87,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 593,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.98145,
+              "coverage_80ms": 0.98145,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 582,
+              "rhythm": 87
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/dias-magicos/dias-magicos-chart-v251.json"
+    },
+    {
+      "song": "eclipsis",
+      "voice_sha256": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98",
+      "inst_sha256": "0ae33be6f978292d671b2446222c9cefa28cf00b61785956793c548121db0af4",
+      "duration_ms": 257091.338,
+      "vocal_events": 582,
+      "vad_segments": 6,
+      "vocal_coverage": 0.822312,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 381,
+            "rhythm_events_used": 19,
+            "vocal_ratio": 0.9525,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 400,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 381,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 19,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 582,
+              "median_ms": 0.0,
+              "p95_ms": 267.03,
+              "coverage_40ms": 0.654639,
+              "coverage_80ms": 0.654639,
+              "coverage_120ms": 0.670103
+            },
+            "family_counts": {
+              "vocal": 381,
+              "rhythm": 19
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 506,
+            "rhythm_events_used": 51,
+            "vocal_ratio": 0.908438,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 557,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 506,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 51,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 582,
+              "median_ms": 0.0,
+              "p95_ms": 150.93,
+              "coverage_40ms": 0.869416,
+              "coverage_80ms": 0.869416,
+              "coverage_120ms": 0.886598
+            },
+            "family_counts": {
+              "vocal": 506,
+              "rhythm": 51
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 572,
+            "rhythm_events_used": 86,
+            "vocal_ratio": 0.869301,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 658,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 572,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 86,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 582,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.982818,
+              "coverage_80ms": 0.982818,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 572,
+              "rhythm": 86
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/eclipsis/eclipsis-chart-v251.json"
+    },
+    {
+      "song": "fango",
+      "voice_sha256": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595",
+      "inst_sha256": "40a0f3d26913562278893293d0f679b587c9b803be704573eafc79140060e628",
+      "duration_ms": 210697.868,
+      "vocal_events": 539,
+      "vad_segments": 14,
+      "vocal_coverage": 0.831308,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 338,
+            "rhythm_events_used": 17,
+            "vocal_ratio": 0.952113,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 355,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 338,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 17,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 539,
+              "median_ms": 0.0,
+              "p95_ms": 243.81,
+              "coverage_40ms": 0.627087,
+              "coverage_80ms": 0.627087,
+              "coverage_120ms": 0.660482
+            },
+            "family_counts": {
+              "vocal": 338,
+              "rhythm": 17
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 435,
+            "rhythm_events_used": 44,
+            "vocal_ratio": 0.908142,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 479,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 435,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 44,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 539,
+              "median_ms": 0.0,
+              "p95_ms": 162.54,
+              "coverage_40ms": 0.80705,
+              "coverage_80ms": 0.80705,
+              "coverage_120ms": 0.846011
+            },
+            "family_counts": {
+              "vocal": 435,
+              "rhythm": 44
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 518,
+            "rhythm_events_used": 78,
+            "vocal_ratio": 0.869128,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 596,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 518,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 78,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 539,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.961039,
+              "coverage_80ms": 0.961039,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 518,
+              "rhythm": 78
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/fango/fango-chart-v251.json"
+    },
+    {
+      "song": "luma",
+      "voice_sha256": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae",
+      "inst_sha256": "ea04b8654bc702ed1e4db2c2f582dc774026fea9da199d018a97c42c6494f3b9",
+      "duration_ms": 238004.535,
+      "vocal_events": 499,
+      "vad_segments": 6,
+      "vocal_coverage": 0.903193,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 343,
+            "rhythm_events_used": 17,
+            "vocal_ratio": 0.952778,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 360,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 343,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 17,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 499,
+              "median_ms": 0.0,
+              "p95_ms": 255.419,
+              "coverage_40ms": 0.687375,
+              "coverage_80ms": 0.687375,
+              "coverage_120ms": 0.723447
+            },
+            "family_counts": {
+              "vocal": 343,
+              "rhythm": 17
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 416,
+            "rhythm_events_used": 42,
+            "vocal_ratio": 0.908297,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 458,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 416,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 42,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 499,
+              "median_ms": 0.0,
+              "p95_ms": 157.315,
+              "coverage_40ms": 0.833667,
+              "coverage_80ms": 0.833667,
+              "coverage_120ms": 0.871743
+            },
+            "family_counts": {
+              "vocal": 416,
+              "rhythm": 42
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 480,
+            "rhythm_events_used": 72,
+            "vocal_ratio": 0.869565,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 552,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 480,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 72,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 499,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.961924,
+              "coverage_80ms": 0.961924,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 480,
+              "rhythm": 72
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/luma/luma-chart-v251.json"
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "voice_sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29",
+      "inst_sha256": "f4347aa912ef3419bb38edc14e43866223b2ea069071b449dae7d6bde8d0eb6a",
+      "duration_ms": 231270.748,
+      "vocal_events": 689,
+      "vad_segments": 19,
+      "vocal_coverage": 0.946381,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 406,
+            "rhythm_events_used": 20,
+            "vocal_ratio": 0.953052,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 426,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 406,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 20,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 689,
+              "median_ms": 0.0,
+              "p95_ms": 243.809,
+              "coverage_40ms": 0.58926,
+              "coverage_80ms": 0.58926,
+              "coverage_120ms": 0.622642
+            },
+            "family_counts": {
+              "vocal": 406,
+              "rhythm": 20
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 597,
+            "rhythm_events_used": 60,
+            "vocal_ratio": 0.908676,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 657,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 597,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 60,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 689,
+              "median_ms": 0.0,
+              "p95_ms": 150.93,
+              "coverage_40ms": 0.866473,
+              "coverage_80ms": 0.866473,
+              "coverage_120ms": 0.908563
+            },
+            "family_counts": {
+              "vocal": 597,
+              "rhythm": 60
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 660,
+            "rhythm_events_used": 99,
+            "vocal_ratio": 0.869565,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 759,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 660,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 99,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 689,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.95791,
+              "coverage_80ms": 0.95791,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 660,
+              "rhythm": 99
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/maraton-de-peliculas/maraton-de-peliculas-chart-v251.json"
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "voice_sha256": "c7b009564ad9e319f244ef9068116e900b19a1e6b963ef9ab92b12d895454968",
+      "inst_sha256": "dcdf0c71bae7ad7963915f0197c13249d368e6fde92f471646b9dd463c89bec1",
+      "duration_ms": 190589.388,
+      "vocal_events": 369,
+      "vad_segments": 12,
+      "vocal_coverage": 0.775003,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 258,
+            "rhythm_events_used": 13,
+            "vocal_ratio": 0.95203,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 271,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 258,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 13,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 369,
+              "median_ms": 0.0,
+              "p95_ms": 273.995,
+              "coverage_40ms": 0.699187,
+              "coverage_80ms": 0.699187,
+              "coverage_120ms": 0.731707
+            },
+            "family_counts": {
+              "vocal": 258,
+              "rhythm": 13
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 320,
+            "rhythm_events_used": 32,
+            "vocal_ratio": 0.909091,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 352,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 320,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 32,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 369,
+              "median_ms": 0.0,
+              "p95_ms": 139.32,
+              "coverage_40ms": 0.867209,
+              "coverage_80ms": 0.867209,
+              "coverage_120ms": 0.907859
+            },
+            "family_counts": {
+              "vocal": 320,
+              "rhythm": 32
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 354,
+            "rhythm_events_used": 53,
+            "vocal_ratio": 0.869779,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 407,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 354,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 53,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 369,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.95935,
+              "coverage_80ms": 0.95935,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 354,
+              "rhythm": 53
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart-v251.json"
+    },
+    {
+      "song": "meteora",
+      "voice_sha256": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387",
+      "inst_sha256": "4b18e19fa889a5a1e598e33592eff10aa2f6dd6fc1c07b008cea52ddaf1f3925",
+      "duration_ms": 193004.263,
+      "vocal_events": 493,
+      "vad_segments": 8,
+      "vocal_coverage": 0.909741,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 308,
+            "rhythm_events_used": 15,
+            "vocal_ratio": 0.95356,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 323,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 308,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 15,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 493,
+              "median_ms": 0.0,
+              "p95_ms": 232.199,
+              "coverage_40ms": 0.624746,
+              "coverage_80ms": 0.624746,
+              "coverage_120ms": 0.638945
+            },
+            "family_counts": {
+              "vocal": 308,
+              "rhythm": 15
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 426,
+            "rhythm_events_used": 43,
+            "vocal_ratio": 0.908316,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 469,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 426,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 43,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 493,
+              "median_ms": 0.0,
+              "p95_ms": 174.149,
+              "coverage_40ms": 0.864097,
+              "coverage_80ms": 0.864097,
+              "coverage_120ms": 0.878296
+            },
+            "family_counts": {
+              "vocal": 426,
+              "rhythm": 43
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 486,
+            "rhythm_events_used": 73,
+            "vocal_ratio": 0.86941,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 559,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 486,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 73,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 493,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.985801,
+              "coverage_80ms": 0.985801,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 486,
+              "rhythm": 73
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/meteora/meteora-chart-v251.json"
+    },
+    {
+      "song": "mi-hogar",
+      "voice_sha256": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2",
+      "inst_sha256": "8fd9014f4a0e01e2a400fdbe93f2432daa2548a322dd8ffccae54e70681a0fe3",
+      "duration_ms": 174242.54,
+      "vocal_events": 362,
+      "vad_segments": 15,
+      "vocal_coverage": 0.726469,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 226,
+            "rhythm_events_used": 11,
+            "vocal_ratio": 0.953586,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 237,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 226,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 11,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 362,
+              "median_ms": 0.0,
+              "p95_ms": 255.42,
+              "coverage_40ms": 0.624309,
+              "coverage_80ms": 0.624309,
+              "coverage_120ms": 0.657459
+            },
+            "family_counts": {
+              "vocal": 226,
+              "rhythm": 11
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 293,
+            "rhythm_events_used": 29,
+            "vocal_ratio": 0.909938,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 322,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 293,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 29,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 362,
+              "median_ms": 0.0,
+              "p95_ms": 161.959,
+              "coverage_40ms": 0.809392,
+              "coverage_80ms": 0.809392,
+              "coverage_120ms": 0.856354
+            },
+            "family_counts": {
+              "vocal": 293,
+              "rhythm": 29
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 345,
+            "rhythm_events_used": 52,
+            "vocal_ratio": 0.869018,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 397,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 345,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 52,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 362,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.953039,
+              "coverage_80ms": 0.953039,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 345,
+              "rhythm": 52
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/mi-hogar/mi-hogar-chart-v251.json"
+    },
+    {
+      "song": "nubia",
+      "voice_sha256": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43",
+      "inst_sha256": "63a36b6d167b033b8ee2b51d71975d47183e562e1a8f176f134ce129a52caab2",
+      "duration_ms": 227137.596,
+      "vocal_events": 512,
+      "vad_segments": 19,
+      "vocal_coverage": 0.883938,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 341,
+            "rhythm_events_used": 17,
+            "vocal_ratio": 0.952514,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 358,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 341,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 17,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 512,
+              "median_ms": 0.0,
+              "p95_ms": 243.809,
+              "coverage_40ms": 0.666016,
+              "coverage_80ms": 0.666016,
+              "coverage_120ms": 0.671875
+            },
+            "family_counts": {
+              "vocal": 341,
+              "rhythm": 17
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 450,
+            "rhythm_events_used": 45,
+            "vocal_ratio": 0.909091,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 495,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 450,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 45,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 512,
+              "median_ms": 0.0,
+              "p95_ms": 153.542,
+              "coverage_40ms": 0.878906,
+              "coverage_80ms": 0.878906,
+              "coverage_120ms": 0.892578
+            },
+            "family_counts": {
+              "vocal": 450,
+              "rhythm": 45
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 505,
+            "rhythm_events_used": 76,
+            "vocal_ratio": 0.869191,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 581,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 505,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 76,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 512,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.986328,
+              "coverage_80ms": 0.986328,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 505,
+              "rhythm": 76
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/nubia/nubia-chart-v251.json"
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "voice_sha256": "20d6a77f8924b647d65e0de5da9a54cf74f0635f1d3de658030a3dc214de303d",
+      "inst_sha256": "bf3372ba6bb1eb04250fee475b93751afc4473d7416fa28a77bbd7b03dae570d",
+      "duration_ms": 165929.796,
+      "vocal_events": 512,
+      "vad_segments": 7,
+      "vocal_coverage": 0.907184,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 304,
+            "rhythm_events_used": 15,
+            "vocal_ratio": 0.952978,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 319,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 304,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 15,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 512,
+              "median_ms": 0.0,
+              "p95_ms": 275.447,
+              "coverage_40ms": 0.59375,
+              "coverage_80ms": 0.59375,
+              "coverage_120ms": 0.636719
+            },
+            "family_counts": {
+              "vocal": 304,
+              "rhythm": 15
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 412,
+            "rhythm_events_used": 41,
+            "vocal_ratio": 0.909492,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 453,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 412,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 41,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 512,
+              "median_ms": 0.0,
+              "p95_ms": 150.929,
+              "coverage_40ms": 0.804688,
+              "coverage_80ms": 0.804688,
+              "coverage_120ms": 0.861328
+            },
+            "family_counts": {
+              "vocal": 412,
+              "rhythm": 41
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 483,
+            "rhythm_events_used": 72,
+            "vocal_ratio": 0.87027,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 555,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 483,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 72,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 512,
+              "median_ms": 0.0,
+              "p95_ms": 89.686,
+              "coverage_40ms": 0.943359,
+              "coverage_80ms": 0.943359,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 483,
+              "rhythm": 72
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart-v251.json"
+    },
+    {
+      "song": "peligrosa",
+      "voice_sha256": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf",
+      "inst_sha256": "eedc916dbadc5510a2044521a081f476dfba9cb12f5bd2aa08552b819e1eb4a3",
+      "duration_ms": 237122.177,
+      "vocal_events": 744,
+      "vad_segments": 9,
+      "vocal_coverage": 0.82667,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 427,
+            "rhythm_events_used": 21,
+            "vocal_ratio": 0.953125,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 448,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 427,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 21,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 744,
+              "median_ms": 0.0,
+              "p95_ms": 232.2,
+              "coverage_40ms": 0.573925,
+              "coverage_80ms": 0.573925,
+              "coverage_120ms": 0.603495
+            },
+            "family_counts": {
+              "vocal": 427,
+              "rhythm": 21
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 556,
+            "rhythm_events_used": 56,
+            "vocal_ratio": 0.908497,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 612,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 556,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 56,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 744,
+              "median_ms": 0.0,
+              "p95_ms": 162.539,
+              "coverage_40ms": 0.747312,
+              "coverage_80ms": 0.747312,
+              "coverage_120ms": 0.782258
+            },
+            "family_counts": {
+              "vocal": 556,
+              "rhythm": 56
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 718,
+            "rhythm_events_used": 108,
+            "vocal_ratio": 0.869249,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 826,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 718,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 108,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 744,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.965054,
+              "coverage_80ms": 0.965054,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 718,
+              "rhythm": 108
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/peligrosa/peligrosa-chart-v251.json"
+    },
+    {
+      "song": "rompecabezas",
+      "voice_sha256": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a",
+      "inst_sha256": "bc393a00dbf9aa19df07d4cdc218eb8587fd1770a3b446feba7dd31c0e06c3a4",
+      "duration_ms": 215574.059,
+      "vocal_events": 613,
+      "vad_segments": 11,
+      "vocal_coverage": 0.889961,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 380,
+            "rhythm_events_used": 19,
+            "vocal_ratio": 0.952381,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 399,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 380,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 19,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 613,
+              "median_ms": 0.0,
+              "p95_ms": 220.589,
+              "coverage_40ms": 0.619902,
+              "coverage_80ms": 0.619902,
+              "coverage_120ms": 0.639478
+            },
+            "family_counts": {
+              "vocal": 380,
+              "rhythm": 19
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 494,
+            "rhythm_events_used": 49,
+            "vocal_ratio": 0.909761,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 543,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 494,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 49,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 613,
+              "median_ms": 0.0,
+              "p95_ms": 162.54,
+              "coverage_40ms": 0.805873,
+              "coverage_80ms": 0.805873,
+              "coverage_120ms": 0.82708
+            },
+            "family_counts": {
+              "vocal": 494,
+              "rhythm": 49
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 600,
+            "rhythm_events_used": 90,
+            "vocal_ratio": 0.869565,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 690,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 600,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 90,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 613,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.978793,
+              "coverage_80ms": 0.978793,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 600,
+              "rhythm": 90
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/rompecabezas/rompecabezas-chart-v251.json"
+    },
+    {
+      "song": "solare",
+      "voice_sha256": "a52a6af6ccb47ec8124d2761030dd114572bbf03c7416d82fa6eb6b2afc9edf8",
+      "inst_sha256": "4efc709fbac7b515da7a3f486dc6f87e314b73b1bf1165f95a2117cd896da4bb",
+      "duration_ms": 223515.283,
+      "vocal_events": 662,
+      "vad_segments": 5,
+      "vocal_coverage": 0.902013,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 404,
+            "rhythm_events_used": 20,
+            "vocal_ratio": 0.95283,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 424,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 404,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 20,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 662,
+              "median_ms": 0.0,
+              "p95_ms": 243.81,
+              "coverage_40ms": 0.610272,
+              "coverage_80ms": 0.610272,
+              "coverage_120ms": 0.649547
+            },
+            "family_counts": {
+              "vocal": 404,
+              "rhythm": 20
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 521,
+            "rhythm_events_used": 52,
+            "vocal_ratio": 0.90925,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 573,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 521,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 52,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 662,
+              "median_ms": 0.0,
+              "p95_ms": 162.54,
+              "coverage_40ms": 0.787009,
+              "coverage_80ms": 0.787009,
+              "coverage_120ms": 0.829305
+            },
+            "family_counts": {
+              "vocal": 521,
+              "rhythm": 52
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 634,
+            "rhythm_events_used": 95,
+            "vocal_ratio": 0.869684,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 729,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 634,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 95,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 662,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.957704,
+              "coverage_80ms": 0.957704,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 634,
+              "rhythm": 95
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/solare/solare-chart-v251.json"
+    },
+    {
+      "song": "tristella",
+      "voice_sha256": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198",
+      "inst_sha256": "a73be0c622e3bf6ba03ac4c7f76e0824cec099a3f8c1df4211cee79904418a9e",
+      "duration_ms": 238515.374,
+      "vocal_events": 537,
+      "vad_segments": 12,
+      "vocal_coverage": 0.821551,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 345,
+            "rhythm_events_used": 17,
+            "vocal_ratio": 0.953039,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 362,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 345,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 17,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 537,
+              "median_ms": 0.0,
+              "p95_ms": 262.385,
+              "coverage_40ms": 0.642458,
+              "coverage_80ms": 0.642458,
+              "coverage_120ms": 0.67784
+            },
+            "family_counts": {
+              "vocal": 345,
+              "rhythm": 17
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 440,
+            "rhythm_events_used": 44,
+            "vocal_ratio": 0.909091,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 484,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 440,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 44,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 537,
+              "median_ms": 0.0,
+              "p95_ms": 162.539,
+              "coverage_40ms": 0.819367,
+              "coverage_80ms": 0.819367,
+              "coverage_120ms": 0.86406
+            },
+            "family_counts": {
+              "vocal": 440,
+              "rhythm": 44
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 514,
+            "rhythm_events_used": 77,
+            "vocal_ratio": 0.869712,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 591,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 514,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 77,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 537,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.957169,
+              "coverage_80ms": 0.957169,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 514,
+              "rhythm": 77
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/tristella/tristella-chart-v251.json"
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "voice_sha256": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f",
+      "inst_sha256": "e9685a8b77720f30e7f93a39b58ccfa295ba195fbcca2a22ab80765b27dee981",
+      "duration_ms": 201224.127,
+      "vocal_events": 598,
+      "vad_segments": 13,
+      "vocal_coverage": 0.878342,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 371,
+            "rhythm_events_used": 19,
+            "vocal_ratio": 0.951282,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 390,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 371,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 19,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 598,
+              "median_ms": 0.0,
+              "p95_ms": 232.199,
+              "coverage_40ms": 0.620401,
+              "coverage_80ms": 0.620401,
+              "coverage_120ms": 0.650502
+            },
+            "family_counts": {
+              "vocal": 371,
+              "rhythm": 19
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 459,
+            "rhythm_events_used": 46,
+            "vocal_ratio": 0.908911,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 505,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 459,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 46,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 598,
+              "median_ms": 0.0,
+              "p95_ms": 162.54,
+              "coverage_40ms": 0.767559,
+              "coverage_80ms": 0.767559,
+              "coverage_120ms": 0.801003
+            },
+            "family_counts": {
+              "vocal": 459,
+              "rhythm": 46
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 578,
+            "rhythm_events_used": 87,
+            "vocal_ratio": 0.869173,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 665,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 578,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 87,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 598,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.966555,
+              "coverage_80ms": 0.966555,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 578,
+              "rhythm": 87
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart-v251.json"
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "voice_sha256": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229",
+      "inst_sha256": "d062610df6cb868065c3737406437e1a14d817aa13488d07d09922f0d995b220",
+      "duration_ms": 217617.415,
+      "vocal_events": 455,
+      "vad_segments": 7,
+      "vocal_coverage": 0.879044,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 299,
+            "rhythm_events_used": 15,
+            "vocal_ratio": 0.952229,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 314,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 299,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 15,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 455,
+              "median_ms": 0.0,
+              "p95_ms": 243.809,
+              "coverage_40ms": 0.657143,
+              "coverage_80ms": 0.657143,
+              "coverage_120ms": 0.696703
+            },
+            "family_counts": {
+              "vocal": 299,
+              "rhythm": 15
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 382,
+            "rhythm_events_used": 38,
+            "vocal_ratio": 0.909524,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 420,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 382,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 38,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 455,
+              "median_ms": 0.0,
+              "p95_ms": 150.93,
+              "coverage_40ms": 0.83956,
+              "coverage_80ms": 0.83956,
+              "coverage_120ms": 0.883516
+            },
+            "family_counts": {
+              "vocal": 382,
+              "rhythm": 38
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 435,
+            "rhythm_events_used": 65,
+            "vocal_ratio": 0.87,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 500,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 435,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 65,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 455,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.956044,
+              "coverage_80ms": 0.956044,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 435,
+              "rhythm": 65
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart-v251.json"
+    },
+    {
+      "song": "volver-a-vernos",
+      "voice_sha256": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14",
+      "inst_sha256": "e65377e51839e6e7f5d8772f02ffc729746b7923cfa5ebf86813d6a77ce11083",
+      "duration_ms": 186734.875,
+      "vocal_events": 579,
+      "vad_segments": 2,
+      "vocal_coverage": 0.870287,
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 362,
+            "rhythm_events_used": 18,
+            "vocal_ratio": 0.952632,
+            "scrollSpeed": 0.78,
+            "min_gap_ms": 300.0,
+            "rhythm_cap": 0.05
+          },
+          "metrics": {
+            "notes": 380,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 362,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 18,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 579,
+              "median_ms": 0.0,
+              "p95_ms": 221.17,
+              "coverage_40ms": 0.625216,
+              "coverage_80ms": 0.625216,
+              "coverage_120ms": 0.654577
+            },
+            "family_counts": {
+              "vocal": 362,
+              "rhythm": 18
+            }
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 433,
+            "rhythm_events_used": 43,
+            "vocal_ratio": 0.909664,
+            "scrollSpeed": 0.98,
+            "min_gap_ms": 180.0,
+            "rhythm_cap": 0.1
+          },
+          "metrics": {
+            "notes": 476,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 433,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 43,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 579,
+              "median_ms": 0.0,
+              "p95_ms": 162.54,
+              "coverage_40ms": 0.747841,
+              "coverage_80ms": 0.747841,
+              "coverage_120ms": 0.782383
+            },
+            "family_counts": {
+              "vocal": 433,
+              "rhythm": 43
+            }
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 559,
+            "rhythm_events_used": 84,
+            "vocal_ratio": 0.869362,
+            "scrollSpeed": 1.18,
+            "min_gap_ms": 120.0,
+            "rhythm_cap": 0.15
+          },
+          "metrics": {
+            "notes": 643,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "vocal_note_to_voice": {
+              "count": 559,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "rhythm_note_to_rhythm": {
+              "count": 84,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 1.0,
+              "coverage_80ms": 1.0,
+              "coverage_120ms": 1.0
+            },
+            "vocal_event_to_note": {
+              "count": 579,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "coverage_40ms": 0.965458,
+              "coverage_80ms": 0.965458,
+              "coverage_120ms": 1.0
+            },
+            "family_counts": {
+              "vocal": 559,
+              "rhythm": 84
+            }
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-priority-candidates-v251/volver-a-vernos/volver-a-vernos-chart-v251.json"
+    }
+  ]
+}

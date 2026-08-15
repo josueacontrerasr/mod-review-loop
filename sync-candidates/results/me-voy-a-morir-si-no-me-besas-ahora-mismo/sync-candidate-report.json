@@ -1,0 +1,60 @@
+{
+  "scope": "AUDIO_SYNC_CANDIDATE_ONLY",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+  "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+  "analysis_mode": "VOCAL_STEM",
+  "audio": {
+    "path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Inst.ogg",
+    "sha256": "eeaa6ad77ae4998d46771ee6d0084539adb28f4ed961d35164d063a08bbc47d8",
+    "duration_ms": 190589.388,
+    "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/me-voy-a-morir-si-no-me-besas-ahora-mismo/vocals.wav",
+    "sha256": "e98f0f69a10ab4368731d232aa25cc7998e888eb05ca3595ae675d7bd4ac31d4"
+  },
+  "parameters": {
+    "hop_length": 256,
+    "sample_rate": 22050,
+    "minimum_note_spacing_ms": 150.0
+  },
+  "tempo": {
+    "librosa_beat_bpm": 99.384,
+    "median_beat_interval_bpm": 99.384,
+    "agreement_delta_percent": 0.0
+  },
+  "counts": {
+    "onsets": 317,
+    "beats": 288,
+    "candidate_base_notes": 281,
+    "easy_notes": 141,
+    "normal_notes": 211,
+    "hard_notes": 281
+  },
+  "candidate_self_coherence": {
+    "mean_distance_to_detected_onset_ms": 0.0,
+    "max_distance_to_detected_onset_ms": 0.0
+  },
+  "promotion_blockers": [
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
+    "Falta Audio Sync Test documentado en Chart Editor.",
+    "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
+  ],
+  "proposed_metadata_patch": {
+    "timeChanges": [
+      {
+        "t": 0,
+        "b": 0,
+        "bpm": 99.384,
+        "bt": [
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "status": "CANDIDATE_DO_NOT_APPLY_AUTOMATICALLY"
+  }
+}

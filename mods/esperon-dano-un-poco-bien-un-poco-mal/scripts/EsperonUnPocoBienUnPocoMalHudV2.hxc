@@ -1,0 +1,26 @@
+import funkin.play.PlayState;
+
+/**
+ * HUD visual V2 para Un Poco Bien un Poco Mal.
+ * Solo recoloriza la barra de vida al inicio del conteo.
+ * No modifica audio, BPM, offsets, chart, notas ni eventos musicales.
+ */
+import funkin.modding.module.Module;
+
+class EsperonUnPocoBienUnPocoMalHudV2 extends Module
+{
+  function new()
+  {
+    super("Esperón HUD — Un Poco Bien un Poco Mal", 1, {state: PlayState});
+  }
+
+  override function onCountdownStart(event)
+  {
+    super.onCountdownStart(event);
+    if (PlayState.instance == null || PlayState.instance.healthBar == null) return;
+    if (PlayState.instance.iconP1 == null) return;
+    if (PlayState.instance.iconP1.characterId != "esperon-un-poco-bien-un-poco-mal") return;
+    PlayState.instance.healthBar.createFilledBar(0xFF5FDD8B, 0xFFE06542);
+    PlayState.instance.healthBar.updateBar();
+  }
+}

@@ -1,0 +1,768 @@
+{
+  "status": "PASS",
+  "songs": 20,
+  "workers": 8,
+  "method": "independent vocal onset cross-validation; candidate evidence only",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "difficulties": {
+        "easy": {
+          "player_notes": 43,
+          "onsets": 446,
+          "mean_ms": 74.25,
+          "median_ms": 23.22,
+          "p95_ms": 285.605,
+          "max_ms": 812.699,
+          "within_80ms_ratio": 0.790698,
+          "within_120ms_ratio": 0.813953,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 85,
+          "onsets": 446,
+          "mean_ms": 63.24,
+          "median_ms": 23.22,
+          "p95_ms": 241.487,
+          "max_ms": 812.699,
+          "within_80ms_ratio": 0.788235,
+          "within_120ms_ratio": 0.835294,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 85,
+          "onsets": 446,
+          "mean_ms": 63.24,
+          "median_ms": 23.22,
+          "p95_ms": 241.487,
+          "max_ms": 812.699,
+          "within_80ms_ratio": 0.788235,
+          "within_120ms_ratio": 0.835294,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "difficulties": {
+        "easy": {
+          "player_notes": 100,
+          "onsets": 699,
+          "mean_ms": 36.687,
+          "median_ms": 23.219,
+          "p95_ms": 151.511,
+          "max_ms": 371.519,
+          "within_80ms_ratio": 0.87,
+          "within_120ms_ratio": 0.9,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 200,
+          "onsets": 699,
+          "mean_ms": 31.637,
+          "median_ms": 23.22,
+          "p95_ms": 128.871,
+          "max_ms": 371.519,
+          "within_80ms_ratio": 0.91,
+          "within_120ms_ratio": 0.935,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 200,
+          "onsets": 699,
+          "mean_ms": 31.637,
+          "median_ms": 23.22,
+          "p95_ms": 128.871,
+          "max_ms": 371.519,
+          "within_80ms_ratio": 0.91,
+          "within_120ms_ratio": 0.935,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "dano",
+      "difficulties": {
+        "easy": {
+          "player_notes": 110,
+          "onsets": 803,
+          "mean_ms": 23.009,
+          "median_ms": 17.415,
+          "p95_ms": 58.05,
+          "max_ms": 162.54,
+          "within_80ms_ratio": 0.972727,
+          "within_120ms_ratio": 0.981818,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 220,
+          "onsets": 803,
+          "mean_ms": 25.225,
+          "median_ms": 17.415,
+          "p95_ms": 70.24,
+          "max_ms": 185.76,
+          "within_80ms_ratio": 0.95,
+          "within_120ms_ratio": 0.977273,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 220,
+          "onsets": 803,
+          "mean_ms": 25.225,
+          "median_ms": 17.415,
+          "p95_ms": 70.24,
+          "max_ms": 185.76,
+          "within_80ms_ratio": 0.95,
+          "within_120ms_ratio": 0.977273,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "difficulties": {
+        "easy": {
+          "player_notes": 95,
+          "onsets": 570,
+          "mean_ms": 44.729,
+          "median_ms": 23.22,
+          "p95_ms": 174.149,
+          "max_ms": 301.859,
+          "within_80ms_ratio": 0.842105,
+          "within_120ms_ratio": 0.863158,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 189,
+          "onsets": 570,
+          "mean_ms": 44.781,
+          "median_ms": 23.22,
+          "p95_ms": 181.115,
+          "max_ms": 452.789,
+          "within_80ms_ratio": 0.851852,
+          "within_120ms_ratio": 0.873016,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 189,
+          "onsets": 570,
+          "mean_ms": 44.781,
+          "median_ms": 23.22,
+          "p95_ms": 181.115,
+          "max_ms": 452.789,
+          "within_80ms_ratio": 0.851852,
+          "within_120ms_ratio": 0.873016,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "eclipsis",
+      "difficulties": {
+        "easy": {
+          "player_notes": 60,
+          "onsets": 533,
+          "mean_ms": 46.053,
+          "median_ms": 17.415,
+          "p95_ms": 256.0,
+          "max_ms": 290.25,
+          "within_80ms_ratio": 0.85,
+          "within_120ms_ratio": 0.883333,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 119,
+          "onsets": 533,
+          "mean_ms": 38.83,
+          "median_ms": 23.22,
+          "p95_ms": 175.311,
+          "max_ms": 290.25,
+          "within_80ms_ratio": 0.890756,
+          "within_120ms_ratio": 0.92437,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 119,
+          "onsets": 533,
+          "mean_ms": 38.83,
+          "median_ms": 23.22,
+          "p95_ms": 175.311,
+          "max_ms": 290.25,
+          "within_80ms_ratio": 0.890756,
+          "within_120ms_ratio": 0.92437,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "fango",
+      "difficulties": {
+        "easy": {
+          "player_notes": 71,
+          "onsets": 475,
+          "mean_ms": 64.918,
+          "median_ms": 23.22,
+          "p95_ms": 313.469,
+          "max_ms": 1068.118,
+          "within_80ms_ratio": 0.873239,
+          "within_120ms_ratio": 0.901408,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 141,
+          "onsets": 475,
+          "mean_ms": 56.156,
+          "median_ms": 23.22,
+          "p95_ms": 243.809,
+          "max_ms": 1068.118,
+          "within_80ms_ratio": 0.87234,
+          "within_120ms_ratio": 0.886525,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 141,
+          "onsets": 475,
+          "mean_ms": 56.156,
+          "median_ms": 23.22,
+          "p95_ms": 243.809,
+          "max_ms": 1068.118,
+          "within_80ms_ratio": 0.87234,
+          "within_120ms_ratio": 0.886525,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "luma",
+      "difficulties": {
+        "easy": {
+          "player_notes": 48,
+          "onsets": 438,
+          "mean_ms": 72.321,
+          "median_ms": 23.22,
+          "p95_ms": 286.186,
+          "max_ms": 406.349,
+          "within_80ms_ratio": 0.708333,
+          "within_120ms_ratio": 0.75,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 96,
+          "onsets": 438,
+          "mean_ms": 80.907,
+          "median_ms": 23.22,
+          "p95_ms": 281.542,
+          "max_ms": 1369.977,
+          "within_80ms_ratio": 0.697917,
+          "within_120ms_ratio": 0.739583,
+          "status": "REVIEW"
+        },
+        "hard": {
+          "player_notes": 96,
+          "onsets": 438,
+          "mean_ms": 80.907,
+          "median_ms": 23.22,
+          "p95_ms": 281.542,
+          "max_ms": 1369.977,
+          "within_80ms_ratio": 0.697917,
+          "within_120ms_ratio": 0.739583,
+          "status": "REVIEW"
+        }
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "difficulties": {
+        "easy": {
+          "player_notes": 60,
+          "onsets": 643,
+          "mean_ms": 43.537,
+          "median_ms": 23.22,
+          "p95_ms": 209.56,
+          "max_ms": 383.129,
+          "within_80ms_ratio": 0.866667,
+          "within_120ms_ratio": 0.916667,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 119,
+          "onsets": 643,
+          "mean_ms": 44.879,
+          "median_ms": 23.22,
+          "p95_ms": 210.141,
+          "max_ms": 383.129,
+          "within_80ms_ratio": 0.857143,
+          "within_120ms_ratio": 0.89916,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 119,
+          "onsets": 643,
+          "mean_ms": 44.879,
+          "median_ms": 23.22,
+          "p95_ms": 210.141,
+          "max_ms": 383.129,
+          "within_80ms_ratio": 0.857143,
+          "within_120ms_ratio": 0.89916,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "difficulties": {
+        "easy": {
+          "player_notes": 55,
+          "onsets": 316,
+          "mean_ms": 47.073,
+          "median_ms": 11.61,
+          "p95_ms": 282.122,
+          "max_ms": 325.08,
+          "within_80ms_ratio": 0.872727,
+          "within_120ms_ratio": 0.890909,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 109,
+          "onsets": 316,
+          "mean_ms": 44.949,
+          "median_ms": 11.61,
+          "p95_ms": 269.351,
+          "max_ms": 359.91,
+          "within_80ms_ratio": 0.87156,
+          "within_120ms_ratio": 0.899083,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 109,
+          "onsets": 316,
+          "mean_ms": 44.949,
+          "median_ms": 11.61,
+          "p95_ms": 269.351,
+          "max_ms": 359.91,
+          "within_80ms_ratio": 0.87156,
+          "within_120ms_ratio": 0.899083,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "meteora",
+      "difficulties": {
+        "easy": {
+          "player_notes": 36,
+          "onsets": 462,
+          "mean_ms": 37.087,
+          "median_ms": 23.22,
+          "p95_ms": 101.588,
+          "max_ms": 371.519,
+          "within_80ms_ratio": 0.888889,
+          "within_120ms_ratio": 0.944444,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 72,
+          "onsets": 462,
+          "mean_ms": 28.219,
+          "median_ms": 23.22,
+          "p95_ms": 73.723,
+          "max_ms": 371.519,
+          "within_80ms_ratio": 0.944444,
+          "within_120ms_ratio": 0.972222,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 72,
+          "onsets": 462,
+          "mean_ms": 28.219,
+          "median_ms": 23.22,
+          "p95_ms": 73.723,
+          "max_ms": 371.519,
+          "within_80ms_ratio": 0.944444,
+          "within_120ms_ratio": 0.972222,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "difficulties": {
+        "easy": {
+          "player_notes": 65,
+          "onsets": 333,
+          "mean_ms": 50.012,
+          "median_ms": 23.22,
+          "p95_ms": 104.49,
+          "max_ms": 766.258,
+          "within_80ms_ratio": 0.923077,
+          "within_120ms_ratio": 0.953846,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 129,
+          "onsets": 333,
+          "mean_ms": 51.66,
+          "median_ms": 23.22,
+          "p95_ms": 174.15,
+          "max_ms": 952.018,
+          "within_80ms_ratio": 0.906977,
+          "within_120ms_ratio": 0.930233,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 129,
+          "onsets": 333,
+          "mean_ms": 51.66,
+          "median_ms": 23.22,
+          "p95_ms": 174.15,
+          "max_ms": 952.018,
+          "within_80ms_ratio": 0.906977,
+          "within_120ms_ratio": 0.930233,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "nubia",
+      "difficulties": {
+        "easy": {
+          "player_notes": 56,
+          "onsets": 498,
+          "mean_ms": 24.049,
+          "median_ms": 17.415,
+          "p95_ms": 46.44,
+          "max_ms": 278.639,
+          "within_80ms_ratio": 0.982143,
+          "within_120ms_ratio": 0.982143,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 111,
+          "onsets": 498,
+          "mean_ms": 30.646,
+          "median_ms": 11.61,
+          "p95_ms": 81.27,
+          "max_ms": 464.399,
+          "within_80ms_ratio": 0.945946,
+          "within_120ms_ratio": 0.963964,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 111,
+          "onsets": 498,
+          "mean_ms": 30.646,
+          "median_ms": 11.61,
+          "p95_ms": 81.27,
+          "max_ms": 464.399,
+          "within_80ms_ratio": 0.945946,
+          "within_120ms_ratio": 0.963964,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "difficulties": {
+        "easy": {
+          "player_notes": 66,
+          "onsets": 492,
+          "mean_ms": 45.56,
+          "median_ms": 23.22,
+          "p95_ms": 197.369,
+          "max_ms": 417.959,
+          "within_80ms_ratio": 0.833333,
+          "within_120ms_ratio": 0.863636,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 132,
+          "onsets": 492,
+          "mean_ms": 50.134,
+          "median_ms": 23.22,
+          "p95_ms": 202.593,
+          "max_ms": 777.869,
+          "within_80ms_ratio": 0.833333,
+          "within_120ms_ratio": 0.848485,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 132,
+          "onsets": 492,
+          "mean_ms": 50.134,
+          "median_ms": 23.22,
+          "p95_ms": 202.593,
+          "max_ms": 777.869,
+          "within_80ms_ratio": 0.833333,
+          "within_120ms_ratio": 0.848485,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "peligrosa",
+      "difficulties": {
+        "easy": {
+          "player_notes": 99,
+          "onsets": 704,
+          "mean_ms": 49.606,
+          "median_ms": 23.22,
+          "p95_ms": 186.921,
+          "max_ms": 568.889,
+          "within_80ms_ratio": 0.828283,
+          "within_120ms_ratio": 0.858586,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 197,
+          "onsets": 704,
+          "mean_ms": 53.983,
+          "median_ms": 23.22,
+          "p95_ms": 222.912,
+          "max_ms": 673.379,
+          "within_80ms_ratio": 0.807107,
+          "within_120ms_ratio": 0.847716,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 197,
+          "onsets": 704,
+          "mean_ms": 53.983,
+          "median_ms": 23.22,
+          "p95_ms": 222.912,
+          "max_ms": 673.379,
+          "within_80ms_ratio": 0.807107,
+          "within_120ms_ratio": 0.847716,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "difficulties": {
+        "easy": {
+          "player_notes": 52,
+          "onsets": 581,
+          "mean_ms": 47.333,
+          "median_ms": 23.22,
+          "p95_ms": 201.433,
+          "max_ms": 325.08,
+          "within_80ms_ratio": 0.865385,
+          "within_120ms_ratio": 0.865385,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 103,
+          "onsets": 581,
+          "mean_ms": 47.116,
+          "median_ms": 23.22,
+          "p95_ms": 217.107,
+          "max_ms": 464.399,
+          "within_80ms_ratio": 0.864078,
+          "within_120ms_ratio": 0.873786,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 103,
+          "onsets": 581,
+          "mean_ms": 47.116,
+          "median_ms": 23.22,
+          "p95_ms": 217.107,
+          "max_ms": 464.399,
+          "within_80ms_ratio": 0.864078,
+          "within_120ms_ratio": 0.873786,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "solare",
+      "difficulties": {
+        "easy": {
+          "player_notes": 60,
+          "onsets": 622,
+          "mean_ms": 40.248,
+          "median_ms": 17.415,
+          "p95_ms": 141.642,
+          "max_ms": 417.96,
+          "within_80ms_ratio": 0.9,
+          "within_120ms_ratio": 0.933333,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 119,
+          "onsets": 622,
+          "mean_ms": 40.879,
+          "median_ms": 23.22,
+          "p95_ms": 163.701,
+          "max_ms": 417.96,
+          "within_80ms_ratio": 0.865546,
+          "within_120ms_ratio": 0.907563,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 119,
+          "onsets": 622,
+          "mean_ms": 40.879,
+          "median_ms": 23.22,
+          "p95_ms": 163.701,
+          "max_ms": 417.96,
+          "within_80ms_ratio": 0.865546,
+          "within_120ms_ratio": 0.907563,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "tristella",
+      "difficulties": {
+        "easy": {
+          "player_notes": 64,
+          "onsets": 502,
+          "mean_ms": 39.728,
+          "median_ms": 23.22,
+          "p95_ms": 128.871,
+          "max_ms": 603.719,
+          "within_80ms_ratio": 0.9375,
+          "within_120ms_ratio": 0.9375,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 127,
+          "onsets": 502,
+          "mean_ms": 37.298,
+          "median_ms": 23.22,
+          "p95_ms": 155.574,
+          "max_ms": 603.719,
+          "within_80ms_ratio": 0.92126,
+          "within_120ms_ratio": 0.929134,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 127,
+          "onsets": 502,
+          "mean_ms": 37.298,
+          "median_ms": 23.22,
+          "p95_ms": 155.574,
+          "max_ms": 603.719,
+          "within_80ms_ratio": 0.92126,
+          "within_120ms_ratio": 0.929134,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "difficulties": {
+        "easy": {
+          "player_notes": 93,
+          "onsets": 568,
+          "mean_ms": 35.454,
+          "median_ms": 23.22,
+          "p95_ms": 143.964,
+          "max_ms": 383.129,
+          "within_80ms_ratio": 0.913978,
+          "within_120ms_ratio": 0.935484,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 186,
+          "onsets": 568,
+          "mean_ms": 37.139,
+          "median_ms": 23.22,
+          "p95_ms": 150.93,
+          "max_ms": 429.569,
+          "within_80ms_ratio": 0.897849,
+          "within_120ms_ratio": 0.930108,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 186,
+          "onsets": 568,
+          "mean_ms": 37.139,
+          "median_ms": 23.22,
+          "p95_ms": 150.93,
+          "max_ms": 429.569,
+          "within_80ms_ratio": 0.897849,
+          "within_120ms_ratio": 0.930108,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "difficulties": {
+        "easy": {
+          "player_notes": 35,
+          "onsets": 412,
+          "mean_ms": 61.367,
+          "median_ms": 23.22,
+          "p95_ms": 309.986,
+          "max_ms": 383.13,
+          "within_80ms_ratio": 0.8,
+          "within_120ms_ratio": 0.857143,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 69,
+          "onsets": 412,
+          "mean_ms": 76.222,
+          "median_ms": 23.22,
+          "p95_ms": 383.13,
+          "max_ms": 928.798,
+          "within_80ms_ratio": 0.811594,
+          "within_120ms_ratio": 0.855072,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 69,
+          "onsets": 412,
+          "mean_ms": 76.222,
+          "median_ms": 23.22,
+          "p95_ms": 383.13,
+          "max_ms": 928.798,
+          "within_80ms_ratio": 0.811594,
+          "within_120ms_ratio": 0.855072,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "difficulties": {
+        "easy": {
+          "player_notes": 38,
+          "onsets": 533,
+          "mean_ms": 48.579,
+          "median_ms": 17.415,
+          "p95_ms": 196.789,
+          "max_ms": 325.08,
+          "within_80ms_ratio": 0.815789,
+          "within_120ms_ratio": 0.894737,
+          "status": "PASS"
+        },
+        "normal": {
+          "player_notes": 75,
+          "onsets": 533,
+          "mean_ms": 39.319,
+          "median_ms": 11.61,
+          "p95_ms": 157.895,
+          "max_ms": 325.08,
+          "within_80ms_ratio": 0.866667,
+          "within_120ms_ratio": 0.906667,
+          "status": "PASS"
+        },
+        "hard": {
+          "player_notes": 75,
+          "onsets": 533,
+          "mean_ms": 39.319,
+          "median_ms": 11.61,
+          "p95_ms": 157.895,
+          "max_ms": 325.08,
+          "within_80ms_ratio": 0.866667,
+          "within_120ms_ratio": 0.906667,
+          "status": "PASS"
+        }
+      }
+    }
+  ]
+}

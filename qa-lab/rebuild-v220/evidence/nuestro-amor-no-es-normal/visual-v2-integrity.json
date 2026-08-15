@@ -1,0 +1,21 @@
+{
+  "scope": "VISUAL_ONLY",
+  "protected_before": {
+    "chart_sha256": "04c454dd160c26945592837f5e1a51b4d22ae674d3e3e7235705da997cdff3ba",
+    "inst_sha256": "5577326b03124e4fd9d390616b071c01ebe5d154de92fb1443fa1892d2249fb5"
+  },
+  "protected_after": {
+    "chart_sha256": "04c454dd160c26945592837f5e1a51b4d22ae674d3e3e7235705da997cdff3ba",
+    "inst_sha256": "5577326b03124e4fd9d390616b071c01ebe5d154de92fb1443fa1892d2249fb5"
+  },
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonNuestroAmorNoEsNormalHudV2.hxc",
+    "class": "EsperonNuestroAmorNoEsNormalHudV2",
+    "player_character_id": "esperon-nuestro-amor-no-es-normal",
+    "opponent_color": "0xFFDDBE5F",
+    "player_color": "0xFFA442E0",
+    "preview": "images/ui/esperon-nuestro-amor-no-es-normal-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "tristella",
+  "mod": "esperon-dano-tristella",
+  "audio_duration_ms": 238515.374,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "65bb7400f5919be5c3d355bd81cf297dd17ff4e0af40f579fe1f2be7c979202c",
+  "difficulties": {
+    "easy": {
+      "production_notes": 108,
+      "valid_notes": 108,
+      "candidate_vocal_notes": 220,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 272.835,
+      "within_75ms_of_candidate_percent": 25.926
+    },
+    "normal": {
+      "production_notes": 215,
+      "valid_notes": 215,
+      "candidate_vocal_notes": 330,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 174.15,
+      "within_75ms_of_candidate_percent": 33.023
+    },
+    "hard": {
+      "production_notes": 215,
+      "valid_notes": 215,
+      "candidate_vocal_notes": 440,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 104.49,
+      "within_75ms_of_candidate_percent": 41.86
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}

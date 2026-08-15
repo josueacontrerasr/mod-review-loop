@@ -1,0 +1,50 @@
+name: QA PlayState Vocal Freeplay V2.6.1
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/10 * * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: qa-playstate-vocal-freeplay-v261-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  full-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout exact branch commit
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deterministic validation dependencies
+        run: python -m pip install --disable-pip-version-check --no-input pillow
+      - name: Validate PlayState default variation and 60 difficulties
+        run: python3 tools/resolve_playstate_v260.py . --workers 8 --variations default
+      - name: Validate production vocal-only charts
+        run: python3 tools/validate_production_vocal_v261.py . --workers 8
+      - name: Validate V-Slice contracts, Freeplay covers and assets
+        run: python3 tools/validate_v261_contracts_assets.py . --workers 8
+      - name: Rebuild deterministic ZIPs for CI artifact
+        run: python3 tools/package_esperon_complete_v261.py .
+      - name: Validate Esperon individual and complete ZIPs
+        run: python3 tools/validate_esperon_complete_v261.py . --workers 8
+      - name: Validate Android headless loader
+        run: python3 tools/mobile_headless_loader_v260.py . --workers 8
+      - name: Run 20 rounds x 20 mods QA
+        run: python3 tools/run_qa_v261_20x20.py > qa-lab/rebuild-v260/playstate-fix/qa-20x20-v261-ci.stdout
+      - name: Upload V2.6.1 evidence and ZIPs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: esperon-v261-playstate-vocal-freeplay-${{ github.run_id }}
+          if-no-files-found: error
+          path: |
+            qa-lab/rebuild-v260/playstate-fix/**
+            Mods .zip terminados/*.zip

@@ -1,0 +1,60 @@
+{
+  "scope": "AUDIO_SYNC_CANDIDATE_ONLY",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "tu-dealer-de-nostalgia",
+  "mod": "esperon-dano-tu-dealer-de-nostalgia",
+  "analysis_mode": "VOCAL_STEM",
+  "audio": {
+    "path": "mods/esperon-dano-tu-dealer-de-nostalgia/songs/tu-dealer-de-nostalgia/Inst.ogg",
+    "sha256": "7feba08bdbda9b6f0a96734d56ee91cce0e906930dc243dc4cfadfde57b420e6",
+    "duration_ms": 201224.127,
+    "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/tu-dealer-de-nostalgia/vocals.wav",
+    "sha256": "8ca83da059fc3ad315fd2c48de5e2b0ff990ba77da35a093622f9d0d76270840"
+  },
+  "parameters": {
+    "hop_length": 256,
+    "sample_rate": 22050,
+    "minimum_note_spacing_ms": 150.0
+  },
+  "tempo": {
+    "librosa_beat_bpm": 156.605,
+    "median_beat_interval_bpm": 156.605,
+    "agreement_delta_percent": 0.0
+  },
+  "counts": {
+    "onsets": 575,
+    "beats": 482,
+    "candidate_base_notes": 482,
+    "easy_notes": 241,
+    "normal_notes": 362,
+    "hard_notes": 482
+  },
+  "candidate_self_coherence": {
+    "mean_distance_to_detected_onset_ms": 0.0,
+    "max_distance_to_detected_onset_ms": 0.0
+  },
+  "promotion_blockers": [
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
+    "Falta Audio Sync Test documentado en Chart Editor.",
+    "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
+  ],
+  "proposed_metadata_patch": {
+    "timeChanges": [
+      {
+        "t": 0,
+        "b": 0,
+        "bpm": 156.605,
+        "bt": [
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "status": "CANDIDATE_DO_NOT_APPLY_AUTOMATICALLY"
+  }
+}

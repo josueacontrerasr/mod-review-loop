@@ -1,0 +1,491 @@
+{
+  "scope": "VOCAL_ONLY_SOURCE_INVENTORY_V260",
+  "executed_at": "2026-08-15T17:24:27.481633+00:00",
+  "target_version": "0.8.6",
+  "songs": 20,
+  "passed": 20,
+  "status": "PASS",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-arcoloria/songs/arcoloria/Voices-esperon-arcoloria.ogg",
+      "instrumental_path": "mods/esperon-dano-arcoloria/songs/arcoloria/Inst.ogg",
+      "vocal_sha256": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282",
+      "instrumental_sha256": "c9d6043842dbfb735102809f4d9860263249f2915703c74b2539b09421763437",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "212.834104"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "212.834104"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-cortamos-y-volvemos/songs/cortamos-y-volvemos/Voices-esperon-cortamos-y-volvemos.ogg",
+      "instrumental_path": "mods/esperon-dano-cortamos-y-volvemos/songs/cortamos-y-volvemos/Inst.ogg",
+      "vocal_sha256": "0ec71bd2381a39212b549071a8ba617fd36753b9b0ea5343757d5e6224d745c1",
+      "instrumental_sha256": "d7ad308125b558ead8cf26daa7d8890fd5c7da8f88524db2213fba77b71bdf98",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "207.818594"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "207.818594"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-dano/songs/dano/Voices-esperon-dano.ogg",
+      "instrumental_path": "mods/esperon-dano-dano/songs/dano/Inst.ogg",
+      "vocal_sha256": "bcef47cacf8685fd1d0f06918bdf577394cb4537771dc9b0bcf9956a0a4cd253",
+      "instrumental_sha256": "1cd2bca7478ff391d95def339185125e2d5bd2a4bdeb28846610059ebe609824",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "206.425397"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "206.425397"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-dias-magicos/songs/dias-magicos/Voices-esperon-dias-magicos.ogg",
+      "instrumental_path": "mods/esperon-dano-dias-magicos/songs/dias-magicos/Inst.ogg",
+      "vocal_sha256": "96fd2c6aeccdc860a4e519b7bcb2156d723d75934fc6856c4fa766e238350422",
+      "instrumental_sha256": "b4ceae0d92b042011f30aeee561ad912cad76457708641ade711e2ff90bb45e8",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "243.623764"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "243.623764"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-eclipsis/songs/eclipsis/Voices-esperon-eclipsis.ogg",
+      "instrumental_path": "mods/esperon-dano-eclipsis/songs/eclipsis/Inst.ogg",
+      "vocal_sha256": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98",
+      "instrumental_sha256": "0ae33be6f978292d671b2446222c9cefa28cf00b61785956793c548121db0af4",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "257.091338"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "257.091338"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-fango/songs/fango/Voices-esperon-fango.ogg",
+      "instrumental_path": "mods/esperon-dano-fango/songs/fango/Inst.ogg",
+      "vocal_sha256": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595",
+      "instrumental_sha256": "40a0f3d26913562278893293d0f679b587c9b803be704573eafc79140060e628",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "210.697868"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "210.697868"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-luma/songs/luma/Voices-esperon-luma.ogg",
+      "instrumental_path": "mods/esperon-dano-luma/songs/luma/Inst.ogg",
+      "vocal_sha256": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae",
+      "instrumental_sha256": "ea04b8654bc702ed1e4db2c2f582dc774026fea9da199d018a97c42c6494f3b9",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "238.004535"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "238.004535"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-maraton-de-peliculas/songs/maraton-de-peliculas/Voices-esperon-maraton-de-peliculas.ogg",
+      "instrumental_path": "mods/esperon-dano-maraton-de-peliculas/songs/maraton-de-peliculas/Inst.ogg",
+      "vocal_sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29",
+      "instrumental_sha256": "f4347aa912ef3419bb38edc14e43866223b2ea069071b449dae7d6bde8d0eb6a",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "231.270748"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "231.270748"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg",
+      "instrumental_path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Inst.ogg",
+      "vocal_sha256": "c7b009564ad9e319f244ef9068116e900b19a1e6b963ef9ab92b12d895454968",
+      "instrumental_sha256": "dcdf0c71bae7ad7963915f0197c13249d368e6fde92f471646b9dd463c89bec1",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "190.589388"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "190.589388"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-meteora/songs/meteora/Voices-esperon-meteora.ogg",
+      "instrumental_path": "mods/esperon-dano-meteora/songs/meteora/Inst.ogg",
+      "vocal_sha256": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387",
+      "instrumental_sha256": "4b18e19fa889a5a1e598e33592eff10aa2f6dd6fc1c07b008cea52ddaf1f3925",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "193.004263"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "193.004263"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-mi-hogar/songs/mi-hogar/Voices-esperon-mi-hogar.ogg",
+      "instrumental_path": "mods/esperon-dano-mi-hogar/songs/mi-hogar/Inst.ogg",
+      "vocal_sha256": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2",
+      "instrumental_sha256": "8fd9014f4a0e01e2a400fdbe93f2432daa2548a322dd8ffccae54e70681a0fe3",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "174.242540"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "174.242540"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-nubia/songs/nubia/Voices-esperon-nubia.ogg",
+      "instrumental_path": "mods/esperon-dano-nubia/songs/nubia/Inst.ogg",
+      "vocal_sha256": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43",
+      "instrumental_sha256": "63a36b6d167b033b8ee2b51d71975d47183e562e1a8f176f134ce129a52caab2",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "227.137596"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "227.137596"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-nuestro-amor-no-es-normal/songs/nuestro-amor-no-es-normal/Voices-esperon-nuestro-amor-no-es-normal.ogg",
+      "instrumental_path": "mods/esperon-dano-nuestro-amor-no-es-normal/songs/nuestro-amor-no-es-normal/Inst.ogg",
+      "vocal_sha256": "20d6a77f8924b647d65e0de5da9a54cf74f0635f1d3de658030a3dc214de303d",
+      "instrumental_sha256": "bf3372ba6bb1eb04250fee475b93751afc4473d7416fa28a77bbd7b03dae570d",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "165.929796"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "165.929796"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-peligrosa/songs/peligrosa/Voices-esperon-peligrosa.ogg",
+      "instrumental_path": "mods/esperon-dano-peligrosa/songs/peligrosa/Inst.ogg",
+      "vocal_sha256": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf",
+      "instrumental_sha256": "eedc916dbadc5510a2044521a081f476dfba9cb12f5bd2aa08552b819e1eb4a3",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "237.122177"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "237.122177"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-rompecabezas/songs/rompecabezas/Voices-esperon-rompecabezas.ogg",
+      "instrumental_path": "mods/esperon-dano-rompecabezas/songs/rompecabezas/Inst.ogg",
+      "vocal_sha256": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a",
+      "instrumental_sha256": "bc393a00dbf9aa19df07d4cdc218eb8587fd1770a3b446feba7dd31c0e06c3a4",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "215.574059"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "215.574059"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-solare/songs/solare/Voices-esperon-solare.ogg",
+      "instrumental_path": "mods/esperon-dano-solare/songs/solare/Inst.ogg",
+      "vocal_sha256": "a52a6af6ccb47ec8124d2761030dd114572bbf03c7416d82fa6eb6b2afc9edf8",
+      "instrumental_sha256": "4efc709fbac7b515da7a3f486dc6f87e314b73b1bf1165f95a2117cd896da4bb",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "223.515283"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "223.515283"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-tristella/songs/tristella/Voices-esperon-tristella.ogg",
+      "instrumental_path": "mods/esperon-dano-tristella/songs/tristella/Inst.ogg",
+      "vocal_sha256": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198",
+      "instrumental_sha256": "a73be0c622e3bf6ba03ac4c7f76e0824cec099a3f8c1df4211cee79904418a9e",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "238.515374"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "238.515374"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-tu-dealer-de-nostalgia/songs/tu-dealer-de-nostalgia/Voices-esperon-tu-dealer-de-nostalgia.ogg",
+      "instrumental_path": "mods/esperon-dano-tu-dealer-de-nostalgia/songs/tu-dealer-de-nostalgia/Inst.ogg",
+      "vocal_sha256": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f",
+      "instrumental_sha256": "e9685a8b77720f30e7f93a39b58ccfa295ba195fbcca2a22ab80765b27dee981",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "201.224127"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "201.224127"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-un-poco-bien-un-poco-mal/songs/un-poco-bien-un-poco-mal/Voices-esperon-un-poco-bien-un-poco-mal.ogg",
+      "instrumental_path": "mods/esperon-dano-un-poco-bien-un-poco-mal/songs/un-poco-bien-un-poco-mal/Inst.ogg",
+      "vocal_sha256": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229",
+      "instrumental_sha256": "d062610df6cb868065c3737406437e1a14d817aa13488d07d09922f0d995b220",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "217.617415"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "217.617415"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "errors": [],
+      "source_type": "DISTRIBUTED_VOCAL_OGG",
+      "vocal_path": "mods/esperon-dano-volver-a-vernos/songs/volver-a-vernos/Voices-esperon-volver-a-vernos.ogg",
+      "instrumental_path": "mods/esperon-dano-volver-a-vernos/songs/volver-a-vernos/Inst.ogg",
+      "vocal_sha256": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14",
+      "instrumental_sha256": "e65377e51839e6e7f5d8772f02ffc729746b7923cfa5ebf86813d6a77ce11083",
+      "vocal_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "186.734875"
+      },
+      "instrumental_probe": {
+        "codec_name": "vorbis",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "186.734875"
+      },
+      "duration_delta_seconds": 0.0,
+      "chart_source_policy": "VOCAL_ONLY; Inst.ogg is context-only and cannot generate notes"
+    }
+  ],
+  "policy": "No se usa Inst.ogg para crear notas; solo Voices-*.ogg puede producir anclajes vocales."
+}

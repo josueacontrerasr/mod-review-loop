@@ -16,5 +16,96 @@
     "id": "escenario-tristella",
     "style": "Fondo degradado y estructuras geométricas estáticas, sin shaders ni partículas."
   },
-  "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST"
+  "status": "CANDIDATE_REQUIRES_AUDIO_SYNC_TEST",
+  "visual_system_v2": {
+    "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST",
+    "rule": "No modifica audio, BPM, offsets, timeChanges ni datos de notas.",
+    "note_style": {
+      "id": "esperon-tristella-notes",
+      "fallback": "funkin",
+      "motif": "triple estrella",
+      "arrow_shape": "punta estelar",
+      "receptor_shape": "receptor de tres estrellas",
+      "asset_paths": {
+        "notes": "shared:notes/esperon-tristella-notes-notes",
+        "strumline": "shared:notes/esperon-tristella-notes-strumline"
+      },
+      "directions": {
+        "left": "La silueta apunta a la izquierda y conserva un borde oscuro de alto contraste.",
+        "down": "La silueta apunta abajo y usa el segundo tono de la paleta como cara interior.",
+        "up": "La silueta apunta arriba y destaca el motivo temático en el vértice superior.",
+        "right": "La silueta apunta a la derecha y refleja la composición izquierda sin invertir el motivo central."
+      },
+      "states": [
+        "static",
+        "press",
+        "confirm",
+        "confirm_hold"
+      ],
+      "files": [
+        "data/notestyles/esperon-tristella-notes.json",
+        "images/notes/esperon-tristella-notes-notes.png",
+        "images/notes/esperon-tristella-notes-notes.xml",
+        "images/notes/esperon-tristella-notes-strumline.png",
+        "images/notes/esperon-tristella-notes-strumline.xml"
+      ]
+    },
+    "hud": {
+      "scope": "tema visual de gameplay mediante iconos existentes y assets de judgement/combo propios del note style; no inyecta scripts de HUD sin API pública probada",
+      "health_bar_theme": "barra de constelación triple",
+      "judgement_style": "placa geométrica triple estrella",
+      "combo_style": "numerales con acento triple estrella",
+      "mobile_readability": "contraste alto, borde oscuro de 6 px y zonas transparentes fuera del sprite",
+      "files": [
+        "images/ui/esperon-tristella-notes/sick.png",
+        "images/ui/esperon-tristella-notes/good.png",
+        "images/ui/esperon-tristella-notes/bad.png",
+        "images/ui/esperon-tristella-notes/shit.png",
+        "images/ui/esperon-tristella-notes/num0.png",
+        "images/ui/esperon-tristella-notes/num1.png",
+        "images/ui/esperon-tristella-notes/num2.png",
+        "images/ui/esperon-tristella-notes/num3.png",
+        "images/ui/esperon-tristella-notes/num4.png",
+        "images/ui/esperon-tristella-notes/num5.png",
+        "images/ui/esperon-tristella-notes/num6.png",
+        "images/ui/esperon-tristella-notes/num7.png",
+        "images/ui/esperon-tristella-notes/num8.png",
+        "images/ui/esperon-tristella-notes/num9.png"
+      ],
+      "health_bar": {
+        "implementation": "Módulo HScript de inicialización única: createFilledBar(opponentColor, playerColor) y updateBar().",
+        "script": "scripts/EsperonTristellaHudV2.hxc",
+        "preview": "images/ui/esperon-tristella-notes/healthbar-theme.png",
+        "opponent_color": "0xFF7E5ED6",
+        "player_color": "0xFFFFCD48",
+        "no_per_frame_updates": true,
+        "status": "INTEGRATED_PENDING_MOBILE_PLAYTEST"
+      }
+    }
+  },
+  "gameplay_visuals": {
+    "note_style": "esperon-tristella-notes",
+    "notes": "Cuatro direcciones, receptores y sostenidos geométricos transparentes derivados de la paleta de la canción.",
+    "hud": "Juicios, combo, iconos y barra de vida temática vinculados al mod.",
+    "vocal_animation": "Atlas Sparrow de 18 cuadros por personaje: idle, cuatro direcciones de canto y cuatro poses hold en secuencia multi-frame.",
+    "freeplay_album": "Carátula 512×512 y rótulo 512×128 declarados en el registro Album 1.0.3 y enlazados desde playData.album."
+  },
+  "sync_status": {
+    "status": "REQUIRES_HUMAN_REVIEW",
+    "basis": "Chart candidato generado desde actividad/onsets de audio y validación estática; no equivale a Audio Sync Test.",
+    "warnings": [
+      "La actividad vocal proviene de mezcla completa: necesita revisión humana prioritaria"
+    ]
+  },
+  "source_urls": [
+    "https://www.youtube.com/watch?v=hQsbS3SMGsg"
+  ],
+  "youtube_reference": "https://www.youtube.com/watch?v=hQsbS3SMGsg",
+  "visual_theme_v230": "three stars and observatory steps",
+  "visual_design_v230": {
+    "arrows": "four direction-readable beveled arrows with cover-derived primary/secondary/accent colors",
+    "characters": "unique 18-frame Sparrow geometric atlas with directional poses and hold poses",
+    "stage": "cover-derived high-contrast background with platform and orbital motif",
+    "cover": "AI-generated original cover when available; deterministic geometric fallback only when the daily generator quota blocked it"
+  }
 }

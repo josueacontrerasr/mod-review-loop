@@ -1,0 +1,213 @@
+{
+  "scope": "VOCAL_ONLY_REFINED_CANDIDATES_V261",
+  "executed_at": "2026-08-15T18:02:08.194725+00:00",
+  "target_version": "0.8.6",
+  "mod_version": "2.6.1",
+  "songs": 20,
+  "passed": 20,
+  "status": "PASS_CANDIDATES_ISOLATED",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "onsets": {
+        "easy": 9,
+        "normal": 12,
+        "hard": 17
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/arcoloria"
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "onsets": {
+        "easy": 91,
+        "normal": 292,
+        "hard": 482
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/cortamos-y-volvemos"
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "onsets": {
+        "easy": 59,
+        "normal": 274,
+        "hard": 468
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/dano"
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "onsets": {
+        "easy": 113,
+        "normal": 329,
+        "hard": 520
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/dias-magicos"
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "onsets": {
+        "easy": 97,
+        "normal": 318,
+        "hard": 497
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/eclipsis"
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "onsets": {
+        "easy": 100,
+        "normal": 266,
+        "hard": 431
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/fango"
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "onsets": {
+        "easy": 21,
+        "normal": 55,
+        "hard": 87
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/luma"
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "onsets": {
+        "easy": 86,
+        "normal": 222,
+        "hard": 343
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/maraton-de-peliculas"
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "onsets": {
+        "easy": 81,
+        "normal": 230,
+        "hard": 342
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/me-voy-a-morir-si-no-me-besas-ahora-mismo"
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "onsets": {
+        "easy": 41,
+        "normal": 120,
+        "hard": 191
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/meteora"
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "onsets": {
+        "easy": 72,
+        "normal": 206,
+        "hard": 311
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/mi-hogar"
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "onsets": {
+        "easy": 96,
+        "normal": 259,
+        "hard": 403
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/nubia"
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "onsets": {
+        "easy": 79,
+        "normal": 231,
+        "hard": 370
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/nuestro-amor-no-es-normal"
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "onsets": {
+        "easy": 103,
+        "normal": 312,
+        "hard": 499
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/peligrosa"
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "onsets": {
+        "easy": 87,
+        "normal": 267,
+        "hard": 430
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/rompecabezas"
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "onsets": {
+        "easy": 99,
+        "normal": 269,
+        "hard": 402
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/solare"
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "onsets": {
+        "easy": 102,
+        "normal": 310,
+        "hard": 498
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/tristella"
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "onsets": {
+        "easy": 80,
+        "normal": 273,
+        "hard": 420
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/tu-dealer-de-nostalgia"
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "onsets": {
+        "easy": 86,
+        "normal": 263,
+        "hard": 407
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/un-poco-bien-un-poco-mal"
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "onsets": {
+        "easy": 65,
+        "normal": 229,
+        "hard": 387
+      },
+      "output": "qa-lab/rebuild-v260/playstate-fix/vocal-only-v261/volver-a-vernos"
+    }
+  ],
+  "instrumental_used_for_generation": false,
+  "promotion": "BLOCKED_UNTIL_ALL_GATES_PASS"
+}

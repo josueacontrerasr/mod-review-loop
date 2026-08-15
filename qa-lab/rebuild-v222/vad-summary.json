@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "songs": 20,
+  "workers": 4,
+  "method": "audio-vad-cpu",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "segments": 7,
+      "onsets": 7,
+      "coverage_ratio": 0.925571,
+      "threshold": 0.05236642807722092
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "segments": 24,
+      "onsets": 24,
+      "coverage_ratio": 0.8564,
+      "threshold": 0.015
+    },
+    {
+      "song": "dano",
+      "segments": 17,
+      "onsets": 17,
+      "coverage_ratio": 0.852921,
+      "threshold": 0.015
+    },
+    {
+      "song": "dias-magicos",
+      "segments": 13,
+      "onsets": 13,
+      "coverage_ratio": 0.767589,
+      "threshold": 0.015
+    },
+    {
+      "song": "eclipsis",
+      "segments": 7,
+      "onsets": 7,
+      "coverage_ratio": 0.821768,
+      "threshold": 0.015
+    },
+    {
+      "song": "fango",
+      "segments": 13,
+      "onsets": 13,
+      "coverage_ratio": 0.830928,
+      "threshold": 0.015
+    },
+    {
+      "song": "luma",
+      "segments": 6,
+      "onsets": 6,
+      "coverage_ratio": 0.902185,
+      "threshold": 0.015
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "segments": 21,
+      "onsets": 21,
+      "coverage_ratio": 0.943008,
+      "threshold": 0.03416969254612923
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "segments": 12,
+      "onsets": 12,
+      "coverage_ratio": 0.773324,
+      "threshold": 0.015
+    },
+    {
+      "song": "meteora",
+      "segments": 7,
+      "onsets": 7,
+      "coverage_ratio": 0.907979,
+      "threshold": 0.023501846939325333
+    },
+    {
+      "song": "mi-hogar",
+      "segments": 16,
+      "onsets": 16,
+      "coverage_ratio": 0.727158,
+      "threshold": 0.015
+    },
+    {
+      "song": "nubia",
+      "segments": 20,
+      "onsets": 20,
+      "coverage_ratio": 0.881384,
+      "threshold": 0.03159109503030777
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "segments": 7,
+      "onsets": 7,
+      "coverage_ratio": 0.905738,
+      "threshold": 0.015
+    },
+    {
+      "song": "peligrosa",
+      "segments": 10,
+      "onsets": 10,
+      "coverage_ratio": 0.827092,
+      "threshold": 0.015
+    },
+    {
+      "song": "rompecabezas",
+      "segments": 11,
+      "onsets": 11,
+      "coverage_ratio": 0.889312,
+      "threshold": 0.015
+    },
+    {
+      "song": "solare",
+      "segments": 6,
+      "onsets": 6,
+      "coverage_ratio": 0.898523,
+      "threshold": 0.020813921466469765
+    },
+    {
+      "song": "tristella",
+      "segments": 12,
+      "onsets": 12,
+      "coverage_ratio": 0.819706,
+      "threshold": 0.015
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "segments": 15,
+      "onsets": 15,
+      "coverage_ratio": 0.875758,
+      "threshold": 0.015
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "segments": 8,
+      "onsets": 8,
+      "coverage_ratio": 0.877757,
+      "threshold": 0.015
+    },
+    {
+      "song": "volver-a-vernos",
+      "segments": 2,
+      "onsets": 2,
+      "coverage_ratio": 0.869859,
+      "threshold": 0.015
+    }
+  ]
+}

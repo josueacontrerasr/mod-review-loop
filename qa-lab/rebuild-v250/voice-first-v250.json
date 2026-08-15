@@ -1,0 +1,1716 @@
+{
+  "version": "2.5.0",
+  "status": "PASS",
+  "songs": 20,
+  "difficulties": 60,
+  "parallel_workers": 4,
+  "method": {
+    "priority": "vocal onsets from distributed Voices stem first; instrumental accents second",
+    "player_strumline": "d 0-3 per official SongData.hx",
+    "easy": "min gap 360ms, rhythm cap 15%, scrollSpeed 0.80",
+    "normal": "min gap 220ms, rhythm cap 25%, scrollSpeed 1.00",
+    "hard": "min gap 140ms, rhythm cap 35%, scrollSpeed 1.22"
+  },
+  "rows": [
+    {
+      "song": "arcoloria",
+      "voice_sha256": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282",
+      "inst_sha256": "c9d6043842dbfb735102809f4d9860263249f2915703c74b2539b09421763437",
+      "vocal_events": 512,
+      "rhythm_events": 896,
+      "vad_segments": 7,
+      "vocal_coverage": 0.928202,
+      "current_chart_sha256": "bc1757a5e1e8c322a05f75f172807c60edc877192c3268281ed596d13450eecc",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 289,
+            "rhythm_events_used": 43,
+            "vocal_ratio": 0.870482,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 332,
+            "player_lane_notes": 332,
+            "voice_within_80ms": 0.915663,
+            "voice_within_120ms": 0.927711,
+            "rhythm_within_120ms": 0.686747,
+            "first_ms": 3482.993,
+            "first_10s": 13,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 403,
+            "rhythm_events_used": 101,
+            "vocal_ratio": 0.799603,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 504,
+            "player_lane_notes": 504,
+            "voice_within_80ms": 0.821429,
+            "voice_within_120ms": 0.849206,
+            "rhythm_within_120ms": 0.730159,
+            "first_ms": 3482.993,
+            "first_10s": 15,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 472,
+            "rhythm_events_used": 165,
+            "vocal_ratio": 0.740973,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 637,
+            "player_lane_notes": 637,
+            "voice_within_80ms": 0.758242,
+            "voice_within_120ms": 0.788069,
+            "rhythm_within_120ms": 0.755102,
+            "first_ms": 3482.993,
+            "first_10s": 17,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/arcoloria/arcoloria-chart-v250.json"
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "voice_sha256": "0ec71bd2381a39212b549071a8ba617fd36753b9b0ea5343757d5e6224d745c1",
+      "inst_sha256": "d7ad308125b558ead8cf26daa7d8890fd5c7da8f88524db2213fba77b71bdf98",
+      "vocal_events": 707,
+      "rhythm_events": 1395,
+      "vad_segments": 22,
+      "vocal_coverage": 0.860346,
+      "current_chart_sha256": "e453088f8616ef5bf1f0764028f0754f3964fb366f3673930274422c947fadb6",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 335,
+            "rhythm_events_used": 50,
+            "vocal_ratio": 0.87013,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 385,
+            "player_lane_notes": 385,
+            "voice_within_80ms": 0.914286,
+            "voice_within_120ms": 0.922078,
+            "rhythm_within_120ms": 0.750649,
+            "first_ms": 319.274,
+            "first_10s": 21,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 467,
+            "rhythm_events_used": 117,
+            "vocal_ratio": 0.799658,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 584,
+            "player_lane_notes": 584,
+            "voice_within_80ms": 0.866438,
+            "voice_within_120ms": 0.89726,
+            "rhythm_within_120ms": 0.818493,
+            "first_ms": 319.274,
+            "first_10s": 28,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 630,
+            "rhythm_events_used": 220,
+            "vocal_ratio": 0.741176,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 850,
+            "player_lane_notes": 850,
+            "voice_within_80ms": 0.781176,
+            "voice_within_120ms": 0.816471,
+            "rhythm_within_120ms": 0.791765,
+            "first_ms": 319.274,
+            "first_10s": 33,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/cortamos-y-volvemos/cortamos-y-volvemos-chart-v250.json"
+    },
+    {
+      "song": "dano",
+      "voice_sha256": "bcef47cacf8685fd1d0f06918bdf577394cb4537771dc9b0bcf9956a0a4cd253",
+      "inst_sha256": "1cd2bca7478ff391d95def339185125e2d5bd2a4bdeb28846610059ebe609824",
+      "vocal_events": 792,
+      "rhythm_events": 1277,
+      "vad_segments": 14,
+      "vocal_coverage": 0.853406,
+      "current_chart_sha256": "d04a6f1b50a00cd28a41c803358ba8dd7109e708a1b0374be2460d04c0fc1220",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 351,
+            "rhythm_events_used": 53,
+            "vocal_ratio": 0.868812,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 404,
+            "player_lane_notes": 404,
+            "voice_within_80ms": 0.918317,
+            "voice_within_120ms": 0.928218,
+            "rhythm_within_120ms": 0.784653,
+            "first_ms": 301.859,
+            "first_10s": 12,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 507,
+            "rhythm_events_used": 127,
+            "vocal_ratio": 0.799685,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 634,
+            "player_lane_notes": 634,
+            "voice_within_80ms": 0.85489,
+            "voice_within_120ms": 0.883281,
+            "rhythm_within_120ms": 0.791798,
+            "first_ms": 301.859,
+            "first_10s": 16,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 669,
+            "rhythm_events_used": 234,
+            "vocal_ratio": 0.740864,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 903,
+            "player_lane_notes": 903,
+            "voice_within_80ms": 0.788483,
+            "voice_within_120ms": 0.848283,
+            "rhythm_within_120ms": 0.806202,
+            "first_ms": 301.859,
+            "first_10s": 20,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/dano/dano-chart-v250.json"
+    },
+    {
+      "song": "dias-magicos",
+      "voice_sha256": "96fd2c6aeccdc860a4e519b7bcb2156d723d75934fc6856c4fa766e238350422",
+      "inst_sha256": "b4ceae0d92b042011f30aeee561ad912cad76457708641ade711e2ff90bb45e8",
+      "vocal_events": 593,
+      "rhythm_events": 1425,
+      "vad_segments": 9,
+      "vocal_coverage": 0.758969,
+      "current_chart_sha256": "8e34c14a5468f115e35d0374342a24e2b891394c4aed161789561da5b637825c",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 349,
+            "rhythm_events_used": 52,
+            "vocal_ratio": 0.870324,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 401,
+            "player_lane_notes": 401,
+            "voice_within_80ms": 0.880299,
+            "voice_within_120ms": 0.885287,
+            "rhythm_within_120ms": 0.723192,
+            "first_ms": 417.959,
+            "first_10s": 21,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 447,
+            "rhythm_events_used": 112,
+            "vocal_ratio": 0.799642,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 559,
+            "player_lane_notes": 559,
+            "voice_within_80ms": 0.828265,
+            "voice_within_120ms": 0.846154,
+            "rhythm_within_120ms": 0.72093,
+            "first_ms": 417.959,
+            "first_10s": 28,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 566,
+            "rhythm_events_used": 198,
+            "vocal_ratio": 0.740838,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 764,
+            "player_lane_notes": 764,
+            "voice_within_80ms": 0.748691,
+            "voice_within_120ms": 0.770942,
+            "rhythm_within_120ms": 0.752618,
+            "first_ms": 417.959,
+            "first_10s": 39,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/dias-magicos/dias-magicos-chart-v250.json"
+    },
+    {
+      "song": "eclipsis",
+      "voice_sha256": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98",
+      "inst_sha256": "0ae33be6f978292d671b2446222c9cefa28cf00b61785956793c548121db0af4",
+      "vocal_events": 582,
+      "rhythm_events": 1260,
+      "vad_segments": 6,
+      "vocal_coverage": 0.822312,
+      "current_chart_sha256": "fa4d5ac3b7f01c404be7fcd01f822a94a11259234b3562e02957ef071c068b00",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 336,
+            "rhythm_events_used": 50,
+            "vocal_ratio": 0.870466,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 386,
+            "player_lane_notes": 386,
+            "voice_within_80ms": 0.911917,
+            "voice_within_120ms": 0.930052,
+            "rhythm_within_120ms": 0.709845,
+            "first_ms": 1578.957,
+            "first_10s": 11,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 477,
+            "rhythm_events_used": 119,
+            "vocal_ratio": 0.800336,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 596,
+            "player_lane_notes": 596,
+            "voice_within_80ms": 0.810403,
+            "voice_within_120ms": 0.827181,
+            "rhythm_within_120ms": 0.731544,
+            "first_ms": 1578.957,
+            "first_10s": 16,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 552,
+            "rhythm_events_used": 193,
+            "vocal_ratio": 0.74094,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 745,
+            "player_lane_notes": 745,
+            "voice_within_80ms": 0.743624,
+            "voice_within_120ms": 0.786577,
+            "rhythm_within_120ms": 0.759732,
+            "first_ms": 1578.957,
+            "first_10s": 18,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/eclipsis/eclipsis-chart-v250.json"
+    },
+    {
+      "song": "fango",
+      "voice_sha256": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595",
+      "inst_sha256": "40a0f3d26913562278893293d0f679b587c9b803be704573eafc79140060e628",
+      "vocal_events": 539,
+      "rhythm_events": 1304,
+      "vad_segments": 14,
+      "vocal_coverage": 0.831308,
+      "current_chart_sha256": "94b3da49bee5c124ac18bebbed3630cfc71e9a49cb1a4bb484e2ce246b1f2807",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 299,
+            "rhythm_events_used": 45,
+            "vocal_ratio": 0.869186,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 344,
+            "player_lane_notes": 344,
+            "voice_within_80ms": 0.889535,
+            "voice_within_120ms": 0.924419,
+            "rhythm_within_120ms": 0.761628,
+            "first_ms": 592.109,
+            "first_10s": 22,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 391,
+            "rhythm_events_used": 98,
+            "vocal_ratio": 0.799591,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 489,
+            "player_lane_notes": 489,
+            "voice_within_80ms": 0.826176,
+            "voice_within_120ms": 0.850716,
+            "rhythm_within_120ms": 0.766871,
+            "first_ms": 592.109,
+            "first_10s": 30,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 492,
+            "rhythm_events_used": 172,
+            "vocal_ratio": 0.740964,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 664,
+            "player_lane_notes": 664,
+            "voice_within_80ms": 0.748494,
+            "voice_within_120ms": 0.787651,
+            "rhythm_within_120ms": 0.771084,
+            "first_ms": 592.109,
+            "first_10s": 39,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/fango/fango-chart-v250.json"
+    },
+    {
+      "song": "luma",
+      "voice_sha256": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae",
+      "inst_sha256": "ea04b8654bc702ed1e4db2c2f582dc774026fea9da199d018a97c42c6494f3b9",
+      "vocal_events": 499,
+      "rhythm_events": 1215,
+      "vad_segments": 6,
+      "vocal_coverage": 0.903193,
+      "current_chart_sha256": "6738c4d110e549fefcef479c5290e3727879de9b9e07082c572b2a470429783b",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 293,
+            "rhythm_events_used": 44,
+            "vocal_ratio": 0.869436,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 337,
+            "player_lane_notes": 337,
+            "voice_within_80ms": 0.896142,
+            "voice_within_120ms": 0.902077,
+            "rhythm_within_120ms": 0.750742,
+            "first_ms": 313.469,
+            "first_10s": 20,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 392,
+            "rhythm_events_used": 98,
+            "vocal_ratio": 0.8,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 490,
+            "player_lane_notes": 490,
+            "voice_within_80ms": 0.812245,
+            "voice_within_120ms": 0.822449,
+            "rhythm_within_120ms": 0.765306,
+            "first_ms": 313.469,
+            "first_10s": 32,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 459,
+            "rhythm_events_used": 161,
+            "vocal_ratio": 0.740323,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 620,
+            "player_lane_notes": 620,
+            "voice_within_80ms": 0.75,
+            "voice_within_120ms": 0.770968,
+            "rhythm_within_120ms": 0.783871,
+            "first_ms": 313.469,
+            "first_10s": 33,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/luma/luma-chart-v250.json"
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "voice_sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29",
+      "inst_sha256": "f4347aa912ef3419bb38edc14e43866223b2ea069071b449dae7d6bde8d0eb6a",
+      "vocal_events": 689,
+      "rhythm_events": 1105,
+      "vad_segments": 19,
+      "vocal_coverage": 0.946381,
+      "current_chart_sha256": "97aceef6099cea1cb650269a6f74286335bd25916a1aad28b5220a93a5978ad9",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 380,
+            "rhythm_events_used": 57,
+            "vocal_ratio": 0.869565,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 437,
+            "player_lane_notes": 437,
+            "voice_within_80ms": 0.901602,
+            "voice_within_120ms": 0.910755,
+            "rhythm_within_120ms": 0.661327,
+            "first_ms": 377.324,
+            "first_10s": 19,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 504,
+            "rhythm_events_used": 126,
+            "vocal_ratio": 0.8,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 630,
+            "player_lane_notes": 630,
+            "voice_within_80ms": 0.853968,
+            "voice_within_120ms": 0.873016,
+            "rhythm_within_120ms": 0.685714,
+            "first_ms": 377.324,
+            "first_10s": 24,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 642,
+            "rhythm_events_used": 225,
+            "vocal_ratio": 0.740484,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 867,
+            "player_lane_notes": 867,
+            "voice_within_80ms": 0.745098,
+            "voice_within_120ms": 0.765859,
+            "rhythm_within_120ms": 0.707036,
+            "first_ms": 377.324,
+            "first_10s": 29,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/maraton-de-peliculas/maraton-de-peliculas-chart-v250.json"
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "voice_sha256": "c7b009564ad9e319f244ef9068116e900b19a1e6b963ef9ab92b12d895454968",
+      "inst_sha256": "dcdf0c71bae7ad7963915f0197c13249d368e6fde92f471646b9dd463c89bec1",
+      "vocal_events": 369,
+      "rhythm_events": 710,
+      "vad_segments": 12,
+      "vocal_coverage": 0.775003,
+      "current_chart_sha256": "4df50a20dc0a68ab642158a81e712723922be9f61d385a62660697270acb3f06",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 219,
+            "rhythm_events_used": 33,
+            "vocal_ratio": 0.869048,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 252,
+            "player_lane_notes": 252,
+            "voice_within_80ms": 0.888889,
+            "voice_within_120ms": 0.896825,
+            "rhythm_within_120ms": 0.678571,
+            "first_ms": 406.349,
+            "first_10s": 21,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 306,
+            "rhythm_events_used": 76,
+            "vocal_ratio": 0.801047,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 382,
+            "player_lane_notes": 382,
+            "voice_within_80ms": 0.806283,
+            "voice_within_120ms": 0.814136,
+            "rhythm_within_120ms": 0.71466,
+            "first_ms": 406.349,
+            "first_10s": 32,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 337,
+            "rhythm_events_used": 118,
+            "vocal_ratio": 0.740659,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 455,
+            "player_lane_notes": 455,
+            "voice_within_80ms": 0.747253,
+            "voice_within_120ms": 0.762637,
+            "rhythm_within_120ms": 0.714286,
+            "first_ms": 406.349,
+            "first_10s": 32,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart-v250.json"
+    },
+    {
+      "song": "meteora",
+      "voice_sha256": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387",
+      "inst_sha256": "4b18e19fa889a5a1e598e33592eff10aa2f6dd6fc1c07b008cea52ddaf1f3925",
+      "vocal_events": 493,
+      "rhythm_events": 997,
+      "vad_segments": 8,
+      "vocal_coverage": 0.909741,
+      "current_chart_sha256": "89b58d6600784f3c0a1945f9a3eada4735f6c63b037bcb44475d6d1c5cd39fa0",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 295,
+            "rhythm_events_used": 44,
+            "vocal_ratio": 0.870206,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 339,
+            "player_lane_notes": 339,
+            "voice_within_80ms": 0.905605,
+            "voice_within_120ms": 0.911504,
+            "rhythm_within_120ms": 0.696165,
+            "first_ms": 208.98,
+            "first_10s": 29,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 359,
+            "rhythm_events_used": 90,
+            "vocal_ratio": 0.799555,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 449,
+            "player_lane_notes": 449,
+            "voice_within_80ms": 0.846325,
+            "voice_within_120ms": 0.86637,
+            "rhythm_within_120ms": 0.728285,
+            "first_ms": 208.98,
+            "first_10s": 32,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 474,
+            "rhythm_events_used": 166,
+            "vocal_ratio": 0.740625,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 640,
+            "player_lane_notes": 640,
+            "voice_within_80ms": 0.746875,
+            "voice_within_120ms": 0.765625,
+            "rhythm_within_120ms": 0.745313,
+            "first_ms": 208.98,
+            "first_10s": 37,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/meteora/meteora-chart-v250.json"
+    },
+    {
+      "song": "mi-hogar",
+      "voice_sha256": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2",
+      "inst_sha256": "8fd9014f4a0e01e2a400fdbe93f2432daa2548a322dd8ffccae54e70681a0fe3",
+      "vocal_events": 362,
+      "rhythm_events": 1007,
+      "vad_segments": 15,
+      "vocal_coverage": 0.726469,
+      "current_chart_sha256": "20378a2c7038ffa42e11743007e0f7d42755d96a4f5efa9065fc36f8e8388a9f",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 199,
+            "rhythm_events_used": 30,
+            "vocal_ratio": 0.868996,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 229,
+            "player_lane_notes": 229,
+            "voice_within_80ms": 0.868996,
+            "voice_within_120ms": 0.873362,
+            "rhythm_within_120ms": 0.703057,
+            "first_ms": 406.349,
+            "first_10s": 18,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 282,
+            "rhythm_events_used": 70,
+            "vocal_ratio": 0.801136,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 352,
+            "player_lane_notes": 352,
+            "voice_within_80ms": 0.809659,
+            "voice_within_120ms": 0.832386,
+            "rhythm_within_120ms": 0.738636,
+            "first_ms": 406.349,
+            "first_10s": 24,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 326,
+            "rhythm_events_used": 114,
+            "vocal_ratio": 0.740909,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 440,
+            "player_lane_notes": 440,
+            "voice_within_80ms": 0.747727,
+            "voice_within_120ms": 0.777273,
+            "rhythm_within_120ms": 0.759091,
+            "first_ms": 406.349,
+            "first_10s": 35,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/mi-hogar/mi-hogar-chart-v250.json"
+    },
+    {
+      "song": "nubia",
+      "voice_sha256": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43",
+      "inst_sha256": "63a36b6d167b033b8ee2b51d71975d47183e562e1a8f176f134ce129a52caab2",
+      "vocal_events": 512,
+      "rhythm_events": 769,
+      "vad_segments": 19,
+      "vocal_coverage": 0.883938,
+      "current_chart_sha256": "0c0190fbbd4624957b1e386aa6c1cd39a112af08f09fb1de3496f00db34dd522",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 305,
+            "rhythm_events_used": 46,
+            "vocal_ratio": 0.868946,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 351,
+            "player_lane_notes": 351,
+            "voice_within_80ms": 0.894587,
+            "voice_within_120ms": 0.91453,
+            "rhythm_within_120ms": 0.638177,
+            "first_ms": 539.864,
+            "first_10s": 7,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 391,
+            "rhythm_events_used": 98,
+            "vocal_ratio": 0.799591,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 489,
+            "player_lane_notes": 489,
+            "voice_within_80ms": 0.828221,
+            "voice_within_120ms": 0.848671,
+            "rhythm_within_120ms": 0.674847,
+            "first_ms": 539.864,
+            "first_10s": 7,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 492,
+            "rhythm_events_used": 172,
+            "vocal_ratio": 0.740964,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 664,
+            "player_lane_notes": 664,
+            "voice_within_80ms": 0.748494,
+            "voice_within_120ms": 0.778614,
+            "rhythm_within_120ms": 0.667169,
+            "first_ms": 539.864,
+            "first_10s": 8,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/nubia/nubia-chart-v250.json"
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "voice_sha256": "20d6a77f8924b647d65e0de5da9a54cf74f0635f1d3de658030a3dc214de303d",
+      "inst_sha256": "bf3372ba6bb1eb04250fee475b93751afc4473d7416fa28a77bbd7b03dae570d",
+      "vocal_events": 512,
+      "rhythm_events": 1051,
+      "vad_segments": 7,
+      "vocal_coverage": 0.907184,
+      "current_chart_sha256": "8fe2bee5cb532c2603aa109cc8526b44c2f984e75c857cb284f131df8b1f08ba",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 257,
+            "rhythm_events_used": 39,
+            "vocal_ratio": 0.868243,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 296,
+            "player_lane_notes": 296,
+            "voice_within_80ms": 0.932432,
+            "voice_within_120ms": 0.959459,
+            "rhythm_within_120ms": 0.89527,
+            "first_ms": 1044.898,
+            "first_10s": 18,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 391,
+            "rhythm_events_used": 98,
+            "vocal_ratio": 0.799591,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 489,
+            "player_lane_notes": 489,
+            "voice_within_80ms": 0.852761,
+            "voice_within_120ms": 0.887526,
+            "rhythm_within_120ms": 0.912065,
+            "first_ms": 1044.898,
+            "first_10s": 23,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 445,
+            "rhythm_events_used": 156,
+            "vocal_ratio": 0.740433,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 601,
+            "player_lane_notes": 601,
+            "voice_within_80ms": 0.78203,
+            "voice_within_120ms": 0.848586,
+            "rhythm_within_120ms": 0.896839,
+            "first_ms": 1044.898,
+            "first_10s": 26,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart-v250.json"
+    },
+    {
+      "song": "peligrosa",
+      "voice_sha256": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf",
+      "inst_sha256": "eedc916dbadc5510a2044521a081f476dfba9cb12f5bd2aa08552b819e1eb4a3",
+      "vocal_events": 744,
+      "rhythm_events": 1755,
+      "vad_segments": 9,
+      "vocal_coverage": 0.82667,
+      "current_chart_sha256": "9df8097e8d20d043e3c8048eb49f1c162f4397807a044c490c87341a84724ef6",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 348,
+            "rhythm_events_used": 52,
+            "vocal_ratio": 0.87,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 400,
+            "player_lane_notes": 400,
+            "voice_within_80ms": 0.9075,
+            "voice_within_120ms": 0.9175,
+            "rhythm_within_120ms": 0.8275,
+            "first_ms": 615.329,
+            "first_10s": 18,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 506,
+            "rhythm_events_used": 126,
+            "vocal_ratio": 0.800633,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 632,
+            "player_lane_notes": 632,
+            "voice_within_80ms": 0.844937,
+            "voice_within_120ms": 0.863924,
+            "rhythm_within_120ms": 0.843354,
+            "first_ms": 615.329,
+            "first_10s": 27,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 653,
+            "rhythm_events_used": 229,
+            "vocal_ratio": 0.740363,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 882,
+            "player_lane_notes": 882,
+            "voice_within_80ms": 0.777778,
+            "voice_within_120ms": 0.833333,
+            "rhythm_within_120ms": 0.858277,
+            "first_ms": 615.329,
+            "first_10s": 34,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/peligrosa/peligrosa-chart-v250.json"
+    },
+    {
+      "song": "rompecabezas",
+      "voice_sha256": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a",
+      "inst_sha256": "bc393a00dbf9aa19df07d4cdc218eb8587fd1770a3b446feba7dd31c0e06c3a4",
+      "vocal_events": 613,
+      "rhythm_events": 939,
+      "vad_segments": 11,
+      "vocal_coverage": 0.889961,
+      "current_chart_sha256": "74eff3c7bac621116d5a877b8af933b944dbb6e617429a946295c2f4a68c8167",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 323,
+            "rhythm_events_used": 48,
+            "vocal_ratio": 0.87062,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 371,
+            "player_lane_notes": 371,
+            "voice_within_80ms": 0.929919,
+            "voice_within_120ms": 0.956873,
+            "rhythm_within_120ms": 0.61186,
+            "first_ms": 1544.127,
+            "first_10s": 6,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 425,
+            "rhythm_events_used": 106,
+            "vocal_ratio": 0.800377,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 531,
+            "player_lane_notes": 531,
+            "voice_within_80ms": 0.868173,
+            "voice_within_120ms": 0.896422,
+            "rhythm_within_120ms": 0.636535,
+            "first_ms": 1544.127,
+            "first_10s": 6,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 578,
+            "rhythm_events_used": 202,
+            "vocal_ratio": 0.741026,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 780,
+            "player_lane_notes": 780,
+            "voice_within_80ms": 0.761538,
+            "voice_within_120ms": 0.810256,
+            "rhythm_within_120ms": 0.653846,
+            "first_ms": 1544.127,
+            "first_10s": 6,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/rompecabezas/rompecabezas-chart-v250.json"
+    },
+    {
+      "song": "solare",
+      "voice_sha256": "a52a6af6ccb47ec8124d2761030dd114572bbf03c7416d82fa6eb6b2afc9edf8",
+      "inst_sha256": "4efc709fbac7b515da7a3f486dc6f87e314b73b1bf1165f95a2117cd896da4bb",
+      "vocal_events": 662,
+      "rhythm_events": 992,
+      "vad_segments": 5,
+      "vocal_coverage": 0.902013,
+      "current_chart_sha256": "f788e827439c8c97acb0ca6cd5a3061ed2fa9d215f06c3dce2c66aa1bb671b94",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 351,
+            "rhythm_events_used": 53,
+            "vocal_ratio": 0.868812,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 404,
+            "player_lane_notes": 404,
+            "voice_within_80ms": 0.933168,
+            "voice_within_120ms": 0.950495,
+            "rhythm_within_120ms": 0.665842,
+            "first_ms": 1962.086,
+            "first_10s": 16,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 477,
+            "rhythm_events_used": 119,
+            "vocal_ratio": 0.800336,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 596,
+            "player_lane_notes": 596,
+            "voice_within_80ms": 0.833893,
+            "voice_within_120ms": 0.870805,
+            "rhythm_within_120ms": 0.682886,
+            "first_ms": 1962.086,
+            "first_10s": 22,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 599,
+            "rhythm_events_used": 210,
+            "vocal_ratio": 0.74042,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 809,
+            "player_lane_notes": 809,
+            "voice_within_80ms": 0.755253,
+            "voice_within_120ms": 0.808405,
+            "rhythm_within_120ms": 0.723115,
+            "first_ms": 1962.086,
+            "first_10s": 28,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/solare/solare-chart-v250.json"
+    },
+    {
+      "song": "tristella",
+      "voice_sha256": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198",
+      "inst_sha256": "a73be0c622e3bf6ba03ac4c7f76e0824cec099a3f8c1df4211cee79904418a9e",
+      "vocal_events": 537,
+      "rhythm_events": 1310,
+      "vad_segments": 12,
+      "vocal_coverage": 0.821551,
+      "current_chart_sha256": "7d6e8346912fde176221250aca9b8b147caa34ebf35386aaa1e39d04392d520d",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 311,
+            "rhythm_events_used": 47,
+            "vocal_ratio": 0.868715,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 358,
+            "player_lane_notes": 358,
+            "voice_within_80ms": 0.885475,
+            "voice_within_120ms": 0.896648,
+            "rhythm_within_120ms": 0.851955,
+            "first_ms": 510.839,
+            "first_10s": 12,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 414,
+            "rhythm_events_used": 104,
+            "vocal_ratio": 0.799228,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 518,
+            "player_lane_notes": 518,
+            "voice_within_80ms": 0.810811,
+            "voice_within_120ms": 0.830116,
+            "rhythm_within_120ms": 0.880309,
+            "first_ms": 510.839,
+            "first_10s": 23,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 492,
+            "rhythm_events_used": 172,
+            "vocal_ratio": 0.740964,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 664,
+            "player_lane_notes": 664,
+            "voice_within_80ms": 0.743976,
+            "voice_within_120ms": 0.76506,
+            "rhythm_within_120ms": 0.871988,
+            "first_ms": 510.839,
+            "first_10s": 23,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/tristella/tristella-chart-v250.json"
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "voice_sha256": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f",
+      "inst_sha256": "e9685a8b77720f30e7f93a39b58ccfa295ba195fbcca2a22ab80765b27dee981",
+      "vocal_events": 598,
+      "rhythm_events": 953,
+      "vad_segments": 13,
+      "vocal_coverage": 0.878342,
+      "current_chart_sha256": "9fd8e3a72082db4272c65de8d2d7b1cac9a48b1d00d6459319b457eca5693116",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 311,
+            "rhythm_events_used": 47,
+            "vocal_ratio": 0.868715,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 358,
+            "player_lane_notes": 358,
+            "voice_within_80ms": 0.891061,
+            "voice_within_120ms": 0.913408,
+            "rhythm_within_120ms": 0.650838,
+            "first_ms": 522.449,
+            "first_10s": 16,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 418,
+            "rhythm_events_used": 104,
+            "vocal_ratio": 0.800766,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 522,
+            "player_lane_notes": 522,
+            "voice_within_80ms": 0.877395,
+            "voice_within_120ms": 0.902299,
+            "rhythm_within_120ms": 0.666667,
+            "first_ms": 522.449,
+            "first_10s": 20,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 544,
+            "rhythm_events_used": 190,
+            "vocal_ratio": 0.741144,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 734,
+            "player_lane_notes": 734,
+            "voice_within_80ms": 0.777929,
+            "voice_within_120ms": 0.825613,
+            "rhythm_within_120ms": 0.692098,
+            "first_ms": 522.449,
+            "first_10s": 23,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart-v250.json"
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "voice_sha256": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229",
+      "inst_sha256": "d062610df6cb868065c3737406437e1a14d817aa13488d07d09922f0d995b220",
+      "vocal_events": 455,
+      "rhythm_events": 911,
+      "vad_segments": 7,
+      "vocal_coverage": 0.879044,
+      "current_chart_sha256": "8aea2d85799b7b5b309cc0435101143cf91071e04447f9e7cd1c2b9caf0d7dc3",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 254,
+            "rhythm_events_used": 38,
+            "vocal_ratio": 0.869863,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 292,
+            "player_lane_notes": 292,
+            "voice_within_80ms": 0.89726,
+            "voice_within_120ms": 0.921233,
+            "rhythm_within_120ms": 0.767123,
+            "first_ms": 1369.977,
+            "first_10s": 23,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 350,
+            "rhythm_events_used": 88,
+            "vocal_ratio": 0.799087,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 438,
+            "player_lane_notes": 438,
+            "voice_within_80ms": 0.810502,
+            "voice_within_120ms": 0.8379,
+            "rhythm_within_120ms": 0.817352,
+            "first_ms": 1369.977,
+            "first_10s": 27,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 419,
+            "rhythm_events_used": 147,
+            "vocal_ratio": 0.740283,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 566,
+            "player_lane_notes": 566,
+            "voice_within_80ms": 0.75265,
+            "voice_within_120ms": 0.798587,
+            "rhythm_within_120ms": 0.814488,
+            "first_ms": 1369.977,
+            "first_10s": 28,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart-v250.json"
+    },
+    {
+      "song": "volver-a-vernos",
+      "voice_sha256": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14",
+      "inst_sha256": "e65377e51839e6e7f5d8772f02ffc729746b7923cfa5ebf86813d6a77ce11083",
+      "vocal_events": 579,
+      "rhythm_events": 1120,
+      "vad_segments": 2,
+      "vocal_coverage": 0.870287,
+      "current_chart_sha256": "83c79ea6b2dc9a99c4756e8e92196c8bcf1cbc47c7764eb70960e6715a2f3e4b",
+      "difficulties": {
+        "easy": {
+          "build": {
+            "vocal_events_used": 287,
+            "rhythm_events_used": 43,
+            "vocal_ratio": 0.869697,
+            "scrollSpeed": 0.8,
+            "min_gap_ms": 360.0
+          },
+          "metrics": {
+            "notes": 330,
+            "player_lane_notes": 330,
+            "voice_within_80ms": 0.936364,
+            "voice_within_120ms": 0.957576,
+            "rhythm_within_120ms": 0.712121,
+            "first_ms": 301.859,
+            "first_10s": 28,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "normal": {
+          "build": {
+            "vocal_events_used": 398,
+            "rhythm_events_used": 100,
+            "vocal_ratio": 0.799197,
+            "scrollSpeed": 1.0,
+            "min_gap_ms": 220.0
+          },
+          "metrics": {
+            "notes": 498,
+            "player_lane_notes": 498,
+            "voice_within_80ms": 0.86747,
+            "voice_within_120ms": 0.89759,
+            "rhythm_within_120ms": 0.748996,
+            "first_ms": 301.859,
+            "first_10s": 32,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "hard": {
+          "build": {
+            "vocal_events_used": 513,
+            "rhythm_events_used": 180,
+            "vocal_ratio": 0.74026,
+            "scrollSpeed": 1.22,
+            "min_gap_ms": 140.0
+          },
+          "metrics": {
+            "notes": 693,
+            "player_lane_notes": 693,
+            "voice_within_80ms": 0.786436,
+            "voice_within_120ms": 0.816739,
+            "rhythm_within_120ms": 0.74026,
+            "first_ms": 301.859,
+            "first_10s": 44,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "output": "qa-lab/rebuild-v250/voice-first-candidates/volver-a-vernos/volver-a-vernos-chart-v250.json"
+    }
+  ]
+}

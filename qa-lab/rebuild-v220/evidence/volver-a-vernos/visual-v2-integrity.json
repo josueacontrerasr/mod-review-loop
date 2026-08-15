@@ -1,0 +1,21 @@
+{
+  "scope": "VISUAL_ONLY",
+  "protected_before": {
+    "chart_sha256": "5a84b6f0de688041cac157fcd867879c096bc5c9b342ac2df05b18630ff1ca13",
+    "inst_sha256": "f44a6699d82293176adcd397e591f164c5fdc00a632fe3b0698b7544da887ca3"
+  },
+  "protected_after": {
+    "chart_sha256": "5a84b6f0de688041cac157fcd867879c096bc5c9b342ac2df05b18630ff1ca13",
+    "inst_sha256": "f44a6699d82293176adcd397e591f164c5fdc00a632fe3b0698b7544da887ca3"
+  },
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonVolverAVernosHudV2.hxc",
+    "class": "EsperonVolverAVernosHudV2",
+    "player_character_id": "esperon-volver-a-vernos",
+    "opponent_color": "0xFF6FA1E5",
+    "player_color": "0xFFEF7CB0",
+    "preview": "images/ui/esperon-volver-a-vernos-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
+}

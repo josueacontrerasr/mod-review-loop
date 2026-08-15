@@ -1,0 +1,2949 @@
+{
+  "version": "2.5.0-contract-audit",
+  "status": "ERRORS_FOUND",
+  "songs": 20,
+  "parallel_workers": 20,
+  "official_source": "SongData.hx getStrumlineIndex/getMustHitNote",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 57,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 127,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 198,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 3866.122,
+        "normal": 3866.122,
+        "hard": 3506.213
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-arcoloria-notes-notes",
+        "resolved": "shared/images/notes/esperon-arcoloria-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-arcoloria-notes-strumline",
+        "resolved": "shared/images/notes/esperon-arcoloria-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-arcoloria",
+        "playerVocals": [
+          "esperon-arcoloria"
+        ],
+        "noteStyle": "esperon-arcoloria-notes"
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 132,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 300,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 464,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 313.469,
+        "normal": 313.469,
+        "hard": 313.469
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-cortamos-y-volvemos-notes-notes",
+        "resolved": "shared/images/notes/esperon-cortamos-y-volvemos-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-cortamos-y-volvemos-notes-strumline",
+        "resolved": "shared/images/notes/esperon-cortamos-y-volvemos-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-cortamos-y-volvemos",
+        "playerVocals": [
+          "esperon-cortamos-y-volvemos"
+        ],
+        "noteStyle": "esperon-cortamos-y-volvemos-notes"
+      }
+    },
+    {
+      "song": "dano",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 145,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 330,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 511,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 441.179,
+        "normal": 441.179,
+        "hard": 441.179
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-dano-notes-notes",
+        "resolved": "shared/images/notes/esperon-dano-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-dano-notes-strumline",
+        "resolved": "shared/images/notes/esperon-dano-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-dano",
+        "playerVocals": [
+          "esperon-dano"
+        ],
+        "noteStyle": "esperon-dano-notes"
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 125,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 283,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 439,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 394.739,
+        "normal": 394.739,
+        "hard": 394.739
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-dias-magicos-notes-notes",
+        "resolved": "shared/images/notes/esperon-dias-magicos-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-dias-magicos-notes-strumline",
+        "resolved": "shared/images/notes/esperon-dias-magicos-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-dias-magicos",
+        "playerVocals": [
+          "esperon-dias-magicos"
+        ],
+        "noteStyle": "esperon-dias-magicos-notes"
+      }
+    },
+    {
+      "song": "eclipsis",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 79,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 179,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 277,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 1578.957,
+        "normal": 1578.957,
+        "hard": 1578.957
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-eclipsis-notes-notes",
+        "resolved": "shared/images/notes/esperon-eclipsis-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-eclipsis-notes-strumline",
+        "resolved": "shared/images/notes/esperon-eclipsis-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-eclipsis",
+        "playerVocals": [
+          "esperon-eclipsis"
+        ],
+        "noteStyle": "esperon-eclipsis-notes"
+      }
+    },
+    {
+      "song": "fango",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 94,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 211,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 327,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 2763.175,
+        "normal": 2763.175,
+        "hard": 615.329
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-fango-notes-notes",
+        "resolved": "shared/images/notes/esperon-fango-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-fango-notes-strumline",
+        "resolved": "shared/images/notes/esperon-fango-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-fango",
+        "playerVocals": [
+          "esperon-fango"
+        ],
+        "noteStyle": "esperon-fango-notes"
+      }
+    },
+    {
+      "song": "luma",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 63,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 144,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 224,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 313.469,
+        "normal": 313.469,
+        "hard": 313.469
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-luma-notes-notes",
+        "resolved": "shared/images/notes/esperon-luma-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-luma-notes-strumline",
+        "resolved": "shared/images/notes/esperon-luma-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-luma",
+        "playerVocals": [
+          "esperon-luma"
+        ],
+        "noteStyle": "esperon-luma-notes"
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 79,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 179,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 277,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 2008.526,
+        "normal": 2008.526,
+        "hard": 1486.077
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-maraton-de-peliculas-notes-notes",
+        "resolved": "shared/images/notes/esperon-maraton-de-peliculas-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-maraton-de-peliculas-notes-strumline",
+        "resolved": "shared/images/notes/esperon-maraton-de-peliculas-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-maraton-de-peliculas",
+        "playerVocals": [
+          "esperon-maraton-de-peliculas"
+        ],
+        "noteStyle": "esperon-maraton-de-peliculas-notes"
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 73,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 163,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 253,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 406.349,
+        "normal": 406.349,
+        "hard": 406.349
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes",
+        "resolved": "shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline",
+        "resolved": "shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+        "playerVocals": [
+          "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo"
+        ],
+        "noteStyle": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes"
+      }
+    },
+    {
+      "song": "meteora",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 48,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 108,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 167,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 1091.338,
+        "normal": 1091.338,
+        "hard": 441.179
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-meteora-notes-notes",
+        "resolved": "shared/images/notes/esperon-meteora-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-meteora-notes-strumline",
+        "resolved": "shared/images/notes/esperon-meteora-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-meteora",
+        "playerVocals": [
+          "esperon-meteora"
+        ],
+        "noteStyle": "esperon-meteora-notes"
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 86,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 193,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 299,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 371.519,
+        "normal": 371.519,
+        "hard": 371.519
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-mi-hogar-notes-notes",
+        "resolved": "shared/images/notes/esperon-mi-hogar-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-mi-hogar-notes-strumline",
+        "resolved": "shared/images/notes/esperon-mi-hogar-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-mi-hogar",
+        "playerVocals": [
+          "esperon-mi-hogar"
+        ],
+        "noteStyle": "esperon-mi-hogar-notes"
+      }
+    },
+    {
+      "song": "nubia",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 74,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 167,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 258,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 615.329,
+        "normal": 615.329,
+        "hard": 615.329
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-nubia-notes-notes",
+        "resolved": "shared/images/notes/esperon-nubia-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-nubia-notes-strumline",
+        "resolved": "shared/images/notes/esperon-nubia-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-nubia",
+        "playerVocals": [
+          "esperon-nubia"
+        ],
+        "noteStyle": "esperon-nubia-notes"
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 87,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 198,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 306,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 1044.898,
+        "normal": 1044.898,
+        "hard": 1044.898
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-nuestro-amor-no-es-normal-notes-notes",
+        "resolved": "shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-nuestro-amor-no-es-normal-notes-strumline",
+        "resolved": "shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-nuestro-amor-no-es-normal",
+        "playerVocals": [
+          "esperon-nuestro-amor-no-es-normal"
+        ],
+        "noteStyle": "esperon-nuestro-amor-no-es-normal-notes"
+      }
+    },
+    {
+      "song": "peligrosa",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 131,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 295,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 458,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 568.889,
+        "normal": 568.889,
+        "hard": 568.889
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-peligrosa-notes-notes",
+        "resolved": "shared/images/notes/esperon-peligrosa-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-peligrosa-notes-strumline",
+        "resolved": "shared/images/notes/esperon-peligrosa-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-peligrosa",
+        "playerVocals": [
+          "esperon-peligrosa"
+        ],
+        "noteStyle": "esperon-peligrosa-notes"
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 69,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 155,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 239,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 1544.127,
+        "normal": 1544.127,
+        "hard": 1544.127
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-rompecabezas-notes-notes",
+        "resolved": "shared/images/notes/esperon-rompecabezas-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-rompecabezas-notes-strumline",
+        "resolved": "shared/images/notes/esperon-rompecabezas-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-rompecabezas",
+        "playerVocals": [
+          "esperon-rompecabezas"
+        ],
+        "noteStyle": "esperon-rompecabezas-notes"
+      }
+    },
+    {
+      "song": "solare",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 79,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 179,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 277,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 4899.41,
+        "normal": 4899.41,
+        "hard": 1985.306
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-solare-notes-notes",
+        "resolved": "shared/images/notes/esperon-solare-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-solare-notes-strumline",
+        "resolved": "shared/images/notes/esperon-solare-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-solare",
+        "playerVocals": [
+          "esperon-solare"
+        ],
+        "noteStyle": "esperon-solare-notes"
+      }
+    },
+    {
+      "song": "tristella",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 84,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 191,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 294,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 510.839,
+        "normal": 510.839,
+        "hard": 510.839
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-tristella-notes-notes",
+        "resolved": "shared/images/notes/esperon-tristella-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-tristella-notes-strumline",
+        "resolved": "shared/images/notes/esperon-tristella-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-tristella",
+        "playerVocals": [
+          "esperon-tristella"
+        ],
+        "noteStyle": "esperon-tristella-notes"
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 123,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 279,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 432,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 551.474,
+        "normal": 551.474,
+        "hard": 551.474
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-tu-dealer-de-nostalgia-notes-notes",
+        "resolved": "shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-tu-dealer-de-nostalgia-notes-strumline",
+        "resolved": "shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-tu-dealer-de-nostalgia",
+        "playerVocals": [
+          "esperon-tu-dealer-de-nostalgia"
+        ],
+        "noteStyle": "esperon-tu-dealer-de-nostalgia-notes"
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 46,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 103,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 160,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 2577.415,
+        "normal": 2287.166,
+        "hard": 2182.676
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-un-poco-bien-un-poco-mal-notes-notes",
+        "resolved": "shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-un-poco-bien-un-poco-mal-notes-strumline",
+        "resolved": "shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-un-poco-bien-un-poco-mal",
+        "playerVocals": [
+          "esperon-un-poco-bien-un-poco-mal"
+        ],
+        "noteStyle": "esperon-un-poco-bien-un-poco-mal-notes"
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "ERROR",
+      "issues": [
+        "no_player_notes_0_3",
+        "notes_on_opponent_strumline_4_7"
+      ],
+      "official_mapping": {
+        "player": 0,
+        "opponent": 1,
+        "player_lanes": "0-3",
+        "opponent_lanes": "4-7"
+      },
+      "chart_distribution": {
+        "easy": {
+          "player_0_3": 0,
+          "opponent_4_7": 50,
+          "other": 0
+        },
+        "normal": {
+          "player_0_3": 0,
+          "opponent_4_7": 113,
+          "other": 0
+        },
+        "hard": {
+          "player_0_3": 0,
+          "opponent_4_7": 174,
+          "other": 0
+        }
+      },
+      "first_ms": {
+        "easy": 394.739,
+        "normal": 394.739,
+        "hard": 359.909
+      },
+      "note_atlas": {
+        "assetPath": "shared:notes/esperon-volver-a-vernos-notes-notes",
+        "resolved": "shared/images/notes/esperon-volver-a-vernos-notes-notes",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "noteLeft",
+          "noteDown",
+          "noteUp",
+          "noteRight"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.498016
+      },
+      "strumline_atlas": {
+        "assetPath": "shared:notes/esperon-volver-a-vernos-notes-strumline",
+        "resolved": "shared/images/notes/esperon-volver-a-vernos-notes-strumline",
+        "png": true,
+        "xml": true,
+        "xml_error": null,
+        "frame_names": [
+          "staticLeft0",
+          "staticDown0",
+          "staticUp0",
+          "staticRight0",
+          "pressLeft0",
+          "pressDown0",
+          "pressUp0",
+          "pressRight0",
+          "confirmLeft0",
+          "confirmDown0",
+          "confirmUp0",
+          "confirmRight0"
+        ],
+        "frame_sizes": [
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ],
+          [
+            "128",
+            "128"
+          ]
+        ],
+        "visible_alpha_ratio": 0.480179
+      },
+      "metadata": {
+        "player": "esperon-volver-a-vernos",
+        "playerVocals": [
+          "esperon-volver-a-vernos"
+        ],
+        "noteStyle": "esperon-volver-a-vernos-notes"
+      }
+    }
+  ]
+}

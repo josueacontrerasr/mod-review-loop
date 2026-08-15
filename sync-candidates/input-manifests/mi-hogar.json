@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "mi-hogar",
+  "mod": "esperon-dano-mi-hogar",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-mi-hogar/songs/mi-hogar/Inst.ogg",
+    "sha256": "5f7a2b1282f04efc439d0ed7de03bb546fda48fea1fd6b31bb04357e1a95f136",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "174.242540"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-metadata.json",
+    "sha256": "2cd219dc55ffae0b4812ff0b49a943e8a09c980953a8922fe635271e6348bc22"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-chart.json",
+    "sha256": "4a30c7c2afe162e612757c23c4dc343a027dfc15162051f8e53363864d853dc1"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

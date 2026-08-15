@@ -1,0 +1,10 @@
+{
+  "scope": "AUTO_VOCAL_ONSET_CANDIDATE_CHART",
+  "status": "REQUIRES_HUMAN_REVIEW",
+  "evidence": "evidence/analysis/all-candidates/peligrosa/peligrosa-alignment-evidence.json",
+  "limitations": [
+    "Los timestamps son candidatos de análisis; no prueban sílabas ni artista.",
+    "No se declara sincronía aprobada sin Audio Sync Test en Chart Editor y playtest móvil.",
+    "No se infieren cambios de BPM sin revisión humana de anclajes y forma de onda."
+  ]
+}

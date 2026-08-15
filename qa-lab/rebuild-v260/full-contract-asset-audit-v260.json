@@ -1,0 +1,4472 @@
+{
+  "scope": "FULL_CONTRACT_ASSET_AUDIT_V260",
+  "executed_at": "2026-08-15T16:47:04.007374+00:00",
+  "target_version": "0.8.6",
+  "songs": 20,
+  "passed": 20,
+  "warnings": 40,
+  "status": "PASS_WITH_RENDERER_LIMITATION",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "mod": "esperon-dano-arcoloria",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/scripts/EsperonArcoloriaHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-arcoloria",
+          "asset": "characters/esperon-arcoloria",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/shared/images/characters/esperon-arcoloria.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 236), (0, 207), (0, 186), (0, 255))",
+            "bytes": 10771
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/shared/images/characters/esperon-arcoloria.xml",
+            "frame_count": 18,
+            "image_path": "esperon-arcoloria.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-arcoloria",
+          "asset": "characters/rival-arcoloria",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/shared/images/characters/rival-arcoloria.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 233), (0, 163), (0, 169), (0, 255))",
+            "bytes": 10765
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/shared/images/characters/rival-arcoloria.xml",
+            "frame_count": 18,
+            "image_path": "rival-arcoloria.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-arcoloria",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/shared/images/stages/escenario-arcoloria.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((12, 233), (12, 207), (23, 186), (80, 255))",
+            "bytes": 634426
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-arcoloria-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/shared/images/notes/esperon-arcoloria-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 223), (0, 222), (0, 208), (0, 255))",
+            "bytes": 20904
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/shared/images/notes/esperon-arcoloria-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-arcoloria-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-arcoloria-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/shared/images/notes/esperon-arcoloria-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 223), (0, 222), (0, 208), (0, 255))",
+            "bytes": 55059
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/shared/images/notes/esperon-arcoloria-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-arcoloria-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-arcoloria-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/images/freeplay/albumRoll/esperon-arcoloria-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((3, 236), (3, 236), (6, 186), (185, 255))",
+            "bytes": 393864
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-arcoloria-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/images/freeplay/albumRoll/esperon-arcoloria-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((40, 255), (32, 255), (72, 255), (220, 255))",
+            "bytes": 6200
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/images/freeplay/albumRoll/esperon-arcoloria-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-arcoloria-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonArcoloriaHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "mod": "esperon-dano-cortamos-y-volvemos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/scripts/EsperonCortamosYVolvemosHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-cortamos-y-volvemos",
+          "asset": "characters/esperon-cortamos-y-volvemos",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/shared/images/characters/esperon-cortamos-y-volvemos.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 225), (0, 154), (0, 194), (0, 255))",
+            "bytes": 10378
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/shared/images/characters/esperon-cortamos-y-volvemos.xml",
+            "frame_count": 18,
+            "image_path": "esperon-cortamos-y-volvemos.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-cortamos-y-volvemos",
+          "asset": "characters/rival-cortamos-y-volvemos",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/shared/images/characters/rival-cortamos-y-volvemos.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 221), (0, 124), (0, 158), (0, 255))",
+            "bytes": 10326
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/shared/images/characters/rival-cortamos-y-volvemos.xml",
+            "frame_count": 18,
+            "image_path": "rival-cortamos-y-volvemos.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-cortamos-y-volvemos",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/shared/images/stages/escenario-cortamos-y-volvemos.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((11, 221), (11, 182), (18, 194), (80, 255))",
+            "bytes": 625070
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-cortamos-y-volvemos-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/shared/images/notes/esperon-cortamos-y-volvemos-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 212), (0, 186), (0, 214), (0, 255))",
+            "bytes": 20921
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/shared/images/notes/esperon-cortamos-y-volvemos-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-cortamos-y-volvemos-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-cortamos-y-volvemos-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/shared/images/notes/esperon-cortamos-y-volvemos-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 212), (0, 186), (0, 214), (0, 255))",
+            "bytes": 54242
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/shared/images/notes/esperon-cortamos-y-volvemos-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-cortamos-y-volvemos-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-cortamos-y-volvemos-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/images/freeplay/albumRoll/esperon-cortamos-y-volvemos-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((3, 236), (3, 236), (6, 233), (185, 255))",
+            "bytes": 385295
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-cortamos-y-volvemos-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/images/freeplay/albumRoll/esperon-cortamos-y-volvemos-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((36, 255), (32, 255), (48, 255), (220, 255))",
+            "bytes": 10108
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/images/freeplay/albumRoll/esperon-cortamos-y-volvemos-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-cortamos-y-volvemos-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonCortamosYVolvemosHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "dano",
+      "mod": "esperon-dano-dano",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/scripts/EsperonDanoHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-dano",
+          "asset": "characters/esperon-dano",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/shared/images/characters/esperon-dano.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 215), (0, 138), (0, 194), (0, 255))",
+            "bytes": 9500
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/shared/images/characters/esperon-dano.xml",
+            "frame_count": 18,
+            "image_path": "esperon-dano.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-dano",
+          "asset": "characters/rival-dano",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/shared/images/characters/rival-dano.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 210), (0, 110), (0, 156), (0, 255))",
+            "bytes": 9515
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/shared/images/characters/rival-dano.xml",
+            "frame_count": 18,
+            "image_path": "rival-dano.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-dano",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/shared/images/stages/escenario-dano.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((8, 210), (7, 162), (17, 194), (80, 255))",
+            "bytes": 624644
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-dano-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/shared/images/notes/esperon-dano-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 201), (0, 175), (0, 214), (0, 255))",
+            "bytes": 20392
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/shared/images/notes/esperon-dano-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-dano-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-dano-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/shared/images/notes/esperon-dano-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 201), (0, 175), (0, 214), (0, 255))",
+            "bytes": 52903
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/shared/images/notes/esperon-dano-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-dano-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-dano-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/images/freeplay/albumRoll/esperon-dano-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((2, 235), (2, 227), (4, 214), (185, 255))",
+            "bytes": 406844
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-dano-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/images/freeplay/albumRoll/esperon-dano-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((28, 255), (24, 255), (42, 255), (220, 255))",
+            "bytes": 5353
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/images/freeplay/albumRoll/esperon-dano-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-dano-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonDanoHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "mod": "esperon-dano-dias-magicos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/scripts/EsperonDiasMagicosHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-dias-magicos",
+          "asset": "characters/esperon-dias-magicos",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/shared/images/characters/esperon-dias-magicos.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 255), (0, 211), (0, 255), (0, 255))",
+            "bytes": 11499
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/shared/images/characters/esperon-dias-magicos.xml",
+            "frame_count": 18,
+            "image_path": "esperon-dias-magicos.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-dias-magicos",
+          "asset": "characters/rival-dias-magicos",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/shared/images/characters/rival-dias-magicos.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 255), (0, 205), (0, 223), (0, 255))",
+            "bytes": 11380
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/shared/images/characters/rival-dias-magicos.xml",
+            "frame_count": 18,
+            "image_path": "rival-dias-magicos.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-dias-magicos",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/shared/images/stages/escenario-dias-magicos.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((15, 255), (30, 205), (89, 255), (80, 255))",
+            "bytes": 682630
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-dias-magicos-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/shared/images/notes/esperon-dias-magicos-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 245), (0, 204), (0, 255), (0, 255))",
+            "bytes": 22041
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/shared/images/notes/esperon-dias-magicos-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-dias-magicos-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-dias-magicos-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/shared/images/notes/esperon-dias-magicos-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 245), (0, 204), (0, 255), (0, 255))",
+            "bytes": 56147
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/shared/images/notes/esperon-dias-magicos-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-dias-magicos-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-dias-magicos-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/images/freeplay/albumRoll/esperon-dias-magicos-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((4, 237), (6, 239), (45, 255), (185, 255))",
+            "bytes": 443544
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-dias-magicos-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/images/freeplay/albumRoll/esperon-dias-magicos-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((52, 255), (74, 255), (89, 255), (220, 255))",
+            "bytes": 9914
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/images/freeplay/albumRoll/esperon-dias-magicos-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-dias-magicos-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonDiasMagicosHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "eclipsis",
+      "mod": "esperon-dano-eclipsis",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/scripts/EsperonEclipsisHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-eclipsis",
+          "asset": "characters/esperon-eclipsis",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/shared/images/characters/esperon-eclipsis.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 247), (0, 169), (0, 215), (0, 255))",
+            "bytes": 10691
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/shared/images/characters/esperon-eclipsis.xml",
+            "frame_count": 18,
+            "image_path": "esperon-eclipsis.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-eclipsis",
+          "asset": "characters/rival-eclipsis",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/shared/images/characters/rival-eclipsis.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 191), (0, 132), (0, 209), (0, 255))",
+            "bytes": 10761
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/shared/images/characters/rival-eclipsis.xml",
+            "frame_count": 18,
+            "image_path": "rival-eclipsis.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-eclipsis",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/shared/images/stages/escenario-eclipsis.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((6, 247), (6, 169), (25, 209), (80, 255))",
+            "bytes": 559236
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-eclipsis-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/shared/images/notes/esperon-eclipsis-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 250), (0, 197), (0, 201), (0, 255))",
+            "bytes": 22076
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/shared/images/notes/esperon-eclipsis-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-eclipsis-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-eclipsis-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/shared/images/notes/esperon-eclipsis-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 250), (0, 197), (0, 201), (0, 255))",
+            "bytes": 57282
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/shared/images/notes/esperon-eclipsis-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-eclipsis-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-eclipsis-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/images/freeplay/albumRoll/esperon-eclipsis-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((2, 247), (2, 217), (11, 162), (185, 255))",
+            "bytes": 362108
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-eclipsis-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/images/freeplay/albumRoll/esperon-eclipsis-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((22, 255), (21, 255), (45, 255), (220, 255))",
+            "bytes": 4861
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/images/freeplay/albumRoll/esperon-eclipsis-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-eclipsis-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonEclipsisHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "fango",
+      "mod": "esperon-dano-fango",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/scripts/EsperonFangoHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-fango",
+          "asset": "characters/esperon-fango",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/shared/images/characters/esperon-fango.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 205), (0, 168), (0, 94), (0, 255))",
+            "bytes": 10766
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/shared/images/characters/esperon-fango.xml",
+            "frame_count": 18,
+            "image_path": "esperon-fango.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-fango",
+          "asset": "characters/rival-fango",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/shared/images/characters/rival-fango.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 164), (0, 151), (0, 72), (0, 255))",
+            "bytes": 10731
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/shared/images/characters/rival-fango.xml",
+            "frame_count": 18,
+            "image_path": "rival-fango.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-fango",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/shared/images/stages/escenario-fango.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((13, 205), (22, 168), (16, 127), (80, 255))",
+            "bytes": 649997
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-fango-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/shared/images/notes/esperon-fango-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 221), (0, 196), (0, 133), (0, 255))",
+            "bytes": 20608
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/shared/images/notes/esperon-fango-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-fango-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-fango-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/shared/images/notes/esperon-fango-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 221), (0, 196), (0, 133), (0, 255))",
+            "bytes": 54272
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/shared/images/notes/esperon-fango-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-fango-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-fango-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/images/freeplay/albumRoll/esperon-fango-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((3, 236), (7, 210), (4, 161), (185, 255))",
+            "bytes": 403650
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-fango-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/images/freeplay/albumRoll/esperon-fango-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((40, 255), (61, 255), (47, 255), (220, 255))",
+            "bytes": 5373
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/images/freeplay/albumRoll/esperon-fango-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-fango-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonFangoHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "luma",
+      "mod": "esperon-dano-luma",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/scripts/EsperonLumaHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-luma",
+          "asset": "characters/esperon-luma",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/shared/images/characters/esperon-luma.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 249), (0, 237), (0, 234), (0, 255))",
+            "bytes": 10219
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/shared/images/characters/esperon-luma.xml",
+            "frame_count": 18,
+            "image_path": "esperon-luma.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-luma",
+          "asset": "characters/rival-luma",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/shared/images/characters/rival-luma.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 197), (0, 235), (0, 231), (0, 255))",
+            "bytes": 10204
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/shared/images/characters/rival-luma.xml",
+            "frame_count": 18,
+            "image_path": "rival-luma.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-luma",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/shared/images/stages/escenario-luma.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((12, 249), (19, 235), (54, 231), (80, 255))",
+            "bytes": 639473
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-luma-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/shared/images/notes/esperon-luma-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 251), (0, 226), (0, 233), (0, 255))",
+            "bytes": 22582
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/shared/images/notes/esperon-luma-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-luma-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-luma-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/shared/images/notes/esperon-luma-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 251), (0, 226), (0, 233), (0, 255))",
+            "bytes": 56409
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/shared/images/notes/esperon-luma-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-luma-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-luma-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/images/freeplay/albumRoll/esperon-luma-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((4, 249), (5, 238), (29, 243), (185, 255))",
+            "bytes": 410463
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-luma-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/images/freeplay/albumRoll/esperon-luma-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((42, 255), (58, 255), (112, 255), (220, 255))",
+            "bytes": 3823
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/images/freeplay/albumRoll/esperon-luma-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-luma-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonLumaHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "mod": "esperon-dano-maraton-de-peliculas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/scripts/EsperonMaratonDePeliculasHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-maraton-de-peliculas",
+          "asset": "characters/esperon-maraton-de-peliculas",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/shared/images/characters/esperon-maraton-de-peliculas.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 245), (0, 199), (0, 97), (0, 255))",
+            "bytes": 9337
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/shared/images/characters/esperon-maraton-de-peliculas.xml",
+            "frame_count": 18,
+            "image_path": "esperon-maraton-de-peliculas.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-maraton-de-peliculas",
+          "asset": "characters/rival-maraton-de-peliculas",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/shared/images/characters/rival-maraton-de-peliculas.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 229), (0, 159), (0, 83), (0, 255))",
+            "bytes": 9380
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/shared/images/characters/rival-maraton-de-peliculas.xml",
+            "frame_count": 18,
+            "image_path": "rival-maraton-de-peliculas.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-maraton-de-peliculas",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/shared/images/stages/escenario-maraton-de-peliculas.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((15, 245), (12, 199), (30, 110), (80, 255))",
+            "bytes": 646762
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-maraton-de-peliculas-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/shared/images/notes/esperon-maraton-de-peliculas-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 248), (0, 217), (0, 139), (0, 255))",
+            "bytes": 21337
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/shared/images/notes/esperon-maraton-de-peliculas-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-maraton-de-peliculas-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-maraton-de-peliculas-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/shared/images/notes/esperon-maraton-de-peliculas-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 248), (0, 217), (0, 139), (0, 255))",
+            "bytes": 55328
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/shared/images/notes/esperon-maraton-de-peliculas-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-maraton-de-peliculas-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-maraton-de-peliculas-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/images/freeplay/albumRoll/esperon-maraton-de-peliculas-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((4, 245), (3, 207), (9, 164), (185, 255))",
+            "bytes": 397088
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-maraton-de-peliculas-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/images/freeplay/albumRoll/esperon-maraton-de-peliculas-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((47, 255), (40, 255), (76, 255), (220, 255))",
+            "bytes": 9299
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/images/freeplay/albumRoll/esperon-maraton-de-peliculas-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-maraton-de-peliculas-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonMaratonDePeliculasHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/scripts/EsperonMeVoyAMorirSiNoMeBesasAhoraMismoHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "asset": "characters/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/shared/images/characters/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 221), (0, 183), (0, 228), (0, 255))",
+            "bytes": 11432
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/shared/images/characters/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.xml",
+            "frame_count": 18,
+            "image_path": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "asset": "characters/rival-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/shared/images/characters/rival-me-voy-a-morir-si-no-me-besas-ahora-mismo.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 172), (0, 154), (0, 224), (0, 255))",
+            "bytes": 11532
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/shared/images/characters/rival-me-voy-a-morir-si-no-me-besas-ahora-mismo.xml",
+            "frame_count": 18,
+            "image_path": "rival-me-voy-a-morir-si-no-me-besas-ahora-mismo.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/shared/images/stages/escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((7, 221), (20, 183), (11, 224), (80, 255))",
+            "bytes": 717769
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 232), (0, 206), (0, 215), (0, 255))",
+            "bytes": 21702
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 232), (0, 206), (0, 215), (0, 255))",
+            "bytes": 55680
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((2, 235), (6, 229), (3, 179), (185, 255))",
+            "bytes": 435658
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((25, 255), (66, 255), (38, 255), (220, 255))",
+            "bytes": 10036
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonMeVoyAMorirSiNoMeBesasAhoraMismoHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "meteora",
+      "mod": "esperon-dano-meteora",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/scripts/EsperonMeteoraHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-meteora",
+          "asset": "characters/esperon-meteora",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/shared/images/characters/esperon-meteora.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 255), (0, 134), (0, 228), (0, 255))",
+            "bytes": 10724
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/shared/images/characters/esperon-meteora.xml",
+            "frame_count": 18,
+            "image_path": "esperon-meteora.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-meteora",
+          "asset": "characters/rival-meteora",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/shared/images/characters/rival-meteora.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 255), (0, 117), (0, 188), (0, 255))",
+            "bytes": 10730
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/shared/images/characters/rival-meteora.xml",
+            "frame_count": 18,
+            "image_path": "rival-meteora.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-meteora",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/shared/images/stages/escenario-meteora.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((6, 255), (8, 181), (27, 228), (80, 255))",
+            "bytes": 692006
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-meteora-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/shared/images/notes/esperon-meteora-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 243), (0, 150), (0, 237), (0, 255))",
+            "bytes": 20881
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/shared/images/notes/esperon-meteora-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-meteora-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-meteora-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/shared/images/notes/esperon-meteora-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 243), (0, 150), (0, 237), (0, 255))",
+            "bytes": 54802
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/shared/images/notes/esperon-meteora-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-meteora-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-meteora-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/images/freeplay/albumRoll/esperon-meteora-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((2, 235), (2, 235), (7, 239), (185, 255))",
+            "bytes": 421484
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-meteora-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/images/freeplay/albumRoll/esperon-meteora-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((21, 255), (27, 255), (67, 255), (220, 255))",
+            "bytes": 6088
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/images/freeplay/albumRoll/esperon-meteora-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-meteora-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonMeteoraHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "mod": "esperon-dano-mi-hogar",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/scripts/EsperonMiHogarHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-mi-hogar",
+          "asset": "characters/esperon-mi-hogar",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/shared/images/characters/esperon-mi-hogar.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 240), (0, 190), (0, 162), (0, 255))",
+            "bytes": 10763
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/shared/images/characters/esperon-mi-hogar.xml",
+            "frame_count": 18,
+            "image_path": "esperon-mi-hogar.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-mi-hogar",
+          "asset": "characters/rival-mi-hogar",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/shared/images/characters/rival-mi-hogar.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 238), (0, 158), (0, 135), (0, 255))",
+            "bytes": 10691
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/shared/images/characters/rival-mi-hogar.xml",
+            "frame_count": 18,
+            "image_path": "rival-mi-hogar.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-mi-hogar",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/shared/images/stages/escenario-mi-hogar.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((36, 238), (30, 190), (20, 162), (80, 255))",
+            "bytes": 608885
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-mi-hogar-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/shared/images/notes/esperon-mi-hogar-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 230), (0, 211), (0, 192), (0, 255))",
+            "bytes": 20973
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/shared/images/notes/esperon-mi-hogar-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-mi-hogar-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-mi-hogar-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/shared/images/notes/esperon-mi-hogar-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 230), (0, 211), (0, 192), (0, 255))",
+            "bytes": 53354
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/shared/images/notes/esperon-mi-hogar-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-mi-hogar-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-mi-hogar-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/images/freeplay/albumRoll/esperon-mi-hogar-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((11, 240), (14, 219), (7, 162), (185, 255))",
+            "bytes": 392943
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-mi-hogar-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/images/freeplay/albumRoll/esperon-mi-hogar-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((83, 255), (60, 255), (55, 255), (220, 255))",
+            "bytes": 6171
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/images/freeplay/albumRoll/esperon-mi-hogar-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-mi-hogar-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonMiHogarHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "nubia",
+      "mod": "esperon-dano-nubia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/scripts/EsperonNubiaHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-nubia",
+          "asset": "characters/esperon-nubia",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/shared/images/characters/esperon-nubia.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 198), (0, 185), (0, 245), (0, 255))",
+            "bytes": 10276
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/shared/images/characters/esperon-nubia.xml",
+            "frame_count": 18,
+            "image_path": "esperon-nubia.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-nubia",
+          "asset": "characters/rival-nubia",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/shared/images/characters/rival-nubia.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 159), (0, 175), (0, 232), (0, 255))",
+            "bytes": 10348
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/shared/images/characters/rival-nubia.xml",
+            "frame_count": 18,
+            "image_path": "rival-nubia.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-nubia",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/shared/images/stages/escenario-nubia.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((12, 198), (44, 193), (112, 245), (80, 255))",
+            "bytes": 624772
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-nubia-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/shared/images/notes/esperon-nubia-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 216), (0, 206), (0, 248), (0, 255))",
+            "bytes": 22249
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/shared/images/notes/esperon-nubia-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-nubia-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-nubia-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/shared/images/notes/esperon-nubia-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 216), (0, 206), (0, 248), (0, 255))",
+            "bytes": 56353
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/shared/images/notes/esperon-nubia-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-nubia-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-nubia-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/images/freeplay/albumRoll/esperon-nubia-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((4, 237), (26, 239), (118, 245), (185, 255))",
+            "bytes": 408130
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-nubia-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/images/freeplay/albumRoll/esperon-nubia-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((42, 255), (65, 255), (112, 255), (220, 255))",
+            "bytes": 4527
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/images/freeplay/albumRoll/esperon-nubia-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-nubia-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonNubiaHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "mod": "esperon-dano-nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/scripts/EsperonNuestroAmorNoEsNormalHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-nuestro-amor-no-es-normal",
+          "asset": "characters/esperon-nuestro-amor-no-es-normal",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/shared/images/characters/esperon-nuestro-amor-no-es-normal.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 221), (0, 190), (0, 228), (0, 255))",
+            "bytes": 9401
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/shared/images/characters/esperon-nuestro-amor-no-es-normal.xml",
+            "frame_count": 18,
+            "image_path": "esperon-nuestro-amor-no-es-normal.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-nuestro-amor-no-es-normal",
+          "asset": "characters/rival-nuestro-amor-no-es-normal",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/shared/images/characters/rival-nuestro-amor-no-es-normal.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 172), (0, 159), (0, 224), (0, 255))",
+            "bytes": 9492
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/shared/images/characters/rival-nuestro-amor-no-es-normal.xml",
+            "frame_count": 18,
+            "image_path": "rival-nuestro-amor-no-es-normal.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-nuestro-amor-no-es-normal",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/shared/images/stages/escenario-nuestro-amor-no-es-normal.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((7, 221), (20, 190), (12, 224), (80, 255))",
+            "bytes": 634422
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-nuestro-amor-no-es-normal-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 232), (0, 211), (0, 215), (0, 255))",
+            "bytes": 21179
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-nuestro-amor-no-es-normal-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-nuestro-amor-no-es-normal-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 232), (0, 211), (0, 215), (0, 255))",
+            "bytes": 54425
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-nuestro-amor-no-es-normal-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/images/freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((2, 235), (6, 218), (3, 189), (185, 255))",
+            "bytes": 400732
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/images/freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((25, 255), (66, 255), (40, 255), (220, 255))",
+            "bytes": 9732
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/images/freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-nuestro-amor-no-es-normal-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonNuestroAmorNoEsNormalHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "peligrosa",
+      "mod": "esperon-dano-peligrosa",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/scripts/EsperonPeligrosaHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-peligrosa",
+          "asset": "characters/esperon-peligrosa",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/shared/images/characters/esperon-peligrosa.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 255), (0, 176), (0, 96), (0, 255))",
+            "bytes": 11632
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/shared/images/characters/esperon-peligrosa.xml",
+            "frame_count": 18,
+            "image_path": "esperon-peligrosa.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-peligrosa",
+          "asset": "characters/rival-peligrosa",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/shared/images/characters/rival-peligrosa.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 230), (0, 138), (0, 74), (0, 255))",
+            "bytes": 11612
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/shared/images/characters/rival-peligrosa.xml",
+            "frame_count": 18,
+            "image_path": "rival-peligrosa.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-peligrosa",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/shared/images/stages/escenario-peligrosa.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((16, 255), (7, 176), (21, 74), (80, 255))",
+            "bytes": 621581
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-peligrosa-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/shared/images/notes/esperon-peligrosa-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 255), (0, 201), (0, 126), (0, 255))",
+            "bytes": 21203
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/shared/images/notes/esperon-peligrosa-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-peligrosa-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-peligrosa-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/shared/images/notes/esperon-peligrosa-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 255), (0, 201), (0, 126), (0, 255))",
+            "bytes": 55774
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/shared/images/notes/esperon-peligrosa-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-peligrosa-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-peligrosa-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/images/freeplay/albumRoll/esperon-peligrosa-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((4, 255), (2, 176), (10, 65), (185, 255))",
+            "bytes": 390843
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-peligrosa-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/images/freeplay/albumRoll/esperon-peligrosa-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((51, 255), (23, 255), (41, 255), (220, 255))",
+            "bytes": 7579
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/images/freeplay/albumRoll/esperon-peligrosa-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-peligrosa-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonPeligrosaHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "mod": "esperon-dano-rompecabezas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/scripts/EsperonRompecabezasHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-rompecabezas",
+          "asset": "characters/esperon-rompecabezas",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/shared/images/characters/esperon-rompecabezas.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 249), (0, 200), (0, 225), (0, 255))",
+            "bytes": 10611
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/shared/images/characters/esperon-rompecabezas.xml",
+            "frame_count": 18,
+            "image_path": "esperon-rompecabezas.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-rompecabezas",
+          "asset": "characters/rival-rompecabezas",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/shared/images/characters/rival-rompecabezas.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 200), (0, 193), (0, 221), (0, 255))",
+            "bytes": 10572
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/shared/images/characters/rival-rompecabezas.xml",
+            "frame_count": 18,
+            "image_path": "rival-rompecabezas.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-rompecabezas",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/shared/images/stages/escenario-rompecabezas.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((16, 249), (13, 193), (43, 221), (80, 255))",
+            "bytes": 629944
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-rompecabezas-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/shared/images/notes/esperon-rompecabezas-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 251), (0, 203), (0, 216), (0, 255))",
+            "bytes": 21586
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/shared/images/notes/esperon-rompecabezas-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-rompecabezas-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-rompecabezas-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/shared/images/notes/esperon-rompecabezas-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 251), (0, 203), (0, 216), (0, 255))",
+            "bytes": 56306
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/shared/images/notes/esperon-rompecabezas-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-rompecabezas-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-rompecabezas-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/images/freeplay/albumRoll/esperon-rompecabezas-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((5, 249), (4, 237), (11, 243), (185, 255))",
+            "bytes": 403651
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-rompecabezas-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/images/freeplay/albumRoll/esperon-rompecabezas-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((55, 255), (44, 255), (61, 255), (220, 255))",
+            "bytes": 10037
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/images/freeplay/albumRoll/esperon-rompecabezas-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-rompecabezas-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonRompecabezasHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "solare",
+      "mod": "esperon-dano-solare",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/scripts/EsperonSolareHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-solare",
+          "asset": "characters/esperon-solare",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/shared/images/characters/esperon-solare.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 245), (0, 164), (0, 128), (0, 255))",
+            "bytes": 10771
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/shared/images/characters/esperon-solare.xml",
+            "frame_count": 18,
+            "image_path": "esperon-solare.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-solare",
+          "asset": "characters/rival-solare",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/shared/images/characters/rival-solare.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 244), (0, 152), (0, 108), (0, 255))",
+            "bytes": 10686
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/shared/images/characters/rival-solare.xml",
+            "frame_count": 18,
+            "image_path": "rival-solare.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-solare",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/shared/images/stages/escenario-solare.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((8, 244), (17, 152), (33, 128), (80, 255))",
+            "bytes": 146694
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-solare-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/shared/images/notes/esperon-solare-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 233), (0, 146), (0, 169), (0, 255))",
+            "bytes": 19297
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/shared/images/notes/esperon-solare-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-solare-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-solare-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/shared/images/notes/esperon-solare-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 233), (0, 146), (0, 169), (0, 255))",
+            "bytes": 51385
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/shared/images/notes/esperon-solare-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-solare-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-solare-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/images/freeplay/albumRoll/esperon-solare-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((20, 221), (24, 139), (43, 128), (70, 255))",
+            "bytes": 8632
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-solare-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/images/freeplay/albumRoll/esperon-solare-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((20, 255), (24, 255), (42, 255), (220, 255))",
+            "bytes": 6206
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/images/freeplay/albumRoll/esperon-solare-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-solare-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonSolareHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "tristella",
+      "mod": "esperon-dano-tristella",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/scripts/EsperonTristellaHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-tristella",
+          "asset": "characters/esperon-tristella",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/shared/images/characters/esperon-tristella.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 255), (0, 211), (0, 214), (0, 255))",
+            "bytes": 10308
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/shared/images/characters/esperon-tristella.xml",
+            "frame_count": 18,
+            "image_path": "esperon-tristella.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-tristella",
+          "asset": "characters/rival-tristella",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/shared/images/characters/rival-tristella.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 255), (0, 205), (0, 178), (0, 255))",
+            "bytes": 10157
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/shared/images/characters/rival-tristella.xml",
+            "frame_count": 18,
+            "image_path": "rival-tristella.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-tristella",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/shared/images/stages/escenario-tristella.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((17, 255), (15, 205), (50, 214), (80, 255))",
+            "bytes": 198914
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-tristella-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/shared/images/notes/esperon-tristella-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 244), (0, 196), (0, 227), (0, 255))",
+            "bytes": 21127
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/shared/images/notes/esperon-tristella-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-tristella-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-tristella-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/shared/images/notes/esperon-tristella-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 244), (0, 196), (0, 227), (0, 255))",
+            "bytes": 55025
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/shared/images/notes/esperon-tristella-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-tristella-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-tristella-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/images/freeplay/albumRoll/esperon-tristella-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((35, 230), (30, 185), (72, 214), (63, 255))",
+            "bytes": 10237
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-tristella-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/images/freeplay/albumRoll/esperon-tristella-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((35, 255), (30, 255), (72, 255), (220, 255))",
+            "bytes": 5269
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/images/freeplay/albumRoll/esperon-tristella-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-tristella-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonTristellaHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "mod": "esperon-dano-tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/scripts/EsperonTuDealerDeNostalgiaHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-tu-dealer-de-nostalgia",
+          "asset": "characters/esperon-tu-dealer-de-nostalgia",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/shared/images/characters/esperon-tu-dealer-de-nostalgia.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 218), (0, 167), (0, 171), (0, 255))",
+            "bytes": 9485
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/shared/images/characters/esperon-tu-dealer-de-nostalgia.xml",
+            "frame_count": 18,
+            "image_path": "esperon-tu-dealer-de-nostalgia.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-tu-dealer-de-nostalgia",
+          "asset": "characters/rival-tu-dealer-de-nostalgia",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/shared/images/characters/rival-tu-dealer-de-nostalgia.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 213), (0, 138), (0, 146), (0, 255))",
+            "bytes": 9451
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/shared/images/characters/rival-tu-dealer-de-nostalgia.xml",
+            "frame_count": 18,
+            "image_path": "rival-tu-dealer-de-nostalgia.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-tu-dealer-de-nostalgia",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/shared/images/stages/escenario-tu-dealer-de-nostalgia.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((46, 213), (38, 167), (64, 171), (80, 255))",
+            "bytes": 129480
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-tu-dealer-de-nostalgia-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 206), (0, 195), (0, 198), (0, 255))",
+            "bytes": 19748
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-tu-dealer-de-nostalgia-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-tu-dealer-de-nostalgia-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 206), (0, 195), (0, 198), (0, 255))",
+            "bytes": 51239
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-tu-dealer-de-nostalgia-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/images/freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((65, 198), (49, 167), (73, 171), (63, 255))",
+            "bytes": 8579
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/images/freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((65, 255), (49, 255), (73, 255), (220, 255))",
+            "bytes": 9401
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/images/freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-tu-dealer-de-nostalgia-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonTuDealerDeNostalgiaHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/scripts/EsperonUnPocoBienUnPocoMalHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-un-poco-bien-un-poco-mal",
+          "asset": "characters/esperon-un-poco-bien-un-poco-mal",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/shared/images/characters/esperon-un-poco-bien-un-poco-mal.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 228), (0, 221), (0, 139), (0, 255))",
+            "bytes": 11456
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/shared/images/characters/esperon-un-poco-bien-un-poco-mal.xml",
+            "frame_count": 18,
+            "image_path": "esperon-un-poco-bien-un-poco-mal.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-un-poco-bien-un-poco-mal",
+          "asset": "characters/rival-un-poco-bien-un-poco-mal",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/shared/images/characters/rival-un-poco-bien-un-poco-mal.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 224), (0, 172), (0, 121), (0, 255))",
+            "bytes": 11464
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/shared/images/characters/rival-un-poco-bien-un-poco-mal.xml",
+            "frame_count": 18,
+            "image_path": "rival-un-poco-bien-un-poco-mal.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-un-poco-bien-un-poco-mal",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/shared/images/stages/escenario-un-poco-bien-un-poco-mal.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((12, 224), (12, 221), (55, 139), (80, 255))",
+            "bytes": 163690
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-un-poco-bien-un-poco-mal-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 214), (0, 232), (0, 176), (0, 255))",
+            "bytes": 21382
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-un-poco-bien-un-poco-mal-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-un-poco-bien-un-poco-mal-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 214), (0, 232), (0, 176), (0, 255))",
+            "bytes": 55094
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-un-poco-bien-un-poco-mal-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/images/freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((25, 206), (27, 221), (66, 139), (63, 255))",
+            "bytes": 10780
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/images/freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((25, 255), (27, 255), (66, 255), (220, 255))",
+            "bytes": 9413
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/images/freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-un-poco-bien-un-poco-mal-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonUnPocoBienUnPocoMalHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "mod": "esperon-dano-volver-a-vernos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "HSCRIPT_TIMING_REFERENCE",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/scripts/EsperonVolverAVernosHudV2.hxc",
+          "detail": "Revisión manual requerida"
+        },
+        {
+          "code": "NATIVE_RENDERER_NOT_RUN",
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos",
+          "detail": "La apariencia exacta requiere renderer/playtest"
+        }
+      ],
+      "json_file_count": 10,
+      "png_file_count": 27,
+      "xml_file_count": 5,
+      "characters": {
+        "player": {
+          "id": "esperon-volver-a-vernos",
+          "asset": "characters/esperon-volver-a-vernos",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/shared/images/characters/esperon-volver-a-vernos.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 241), (0, 161), (0, 229), (0, 255))",
+            "bytes": 10748
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/shared/images/characters/esperon-volver-a-vernos.xml",
+            "frame_count": 18,
+            "image_path": "esperon-volver-a-vernos.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        },
+        "opponent": {
+          "id": "rival-volver-a-vernos",
+          "asset": "characters/rival-volver-a-vernos",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/shared/images/characters/rival-volver-a-vernos.png",
+            "width": 2304,
+            "height": 192,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 239), (0, 133), (0, 195), (0, 255))",
+            "bytes": 10655
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/shared/images/characters/rival-volver-a-vernos.xml",
+            "frame_count": 18,
+            "image_path": "rival-volver-a-vernos.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "Idle0",
+              "Idle1",
+              "Left0",
+              "Left1",
+              "Down0",
+              "Down1",
+              "Up0",
+              "Up1",
+              "Right0",
+              "Right1",
+              "LeftHold0",
+              "LeftHold1",
+              "DownHold0",
+              "DownHold1",
+              "UpHold0",
+              "UpHold1",
+              "RightHold0",
+              "RightHold1"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "0": {
+          "asset": "stages/escenario-volver-a-vernos",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/shared/images/stages/escenario-volver-a-vernos.png",
+            "width": 1280,
+            "height": 720,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((42, 239), (39, 161), (81, 229), (80, 255))",
+            "bytes": 122307
+          },
+          "xml": null
+        }
+      },
+      "note_style": {
+        "note": {
+          "asset": "shared:notes/esperon-volver-a-vernos-notes-notes",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/shared/images/notes/esperon-volver-a-vernos-notes-notes.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 230), (0, 191), (0, 237), (0, 255))",
+            "bytes": 21467
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/shared/images/notes/esperon-volver-a-vernos-notes-notes.xml",
+            "frame_count": 4,
+            "image_path": "esperon-volver-a-vernos-notes-notes.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "noteLeft",
+              "noteDown",
+              "noteUp",
+              "noteRight"
+            ]
+          }
+        },
+        "noteStrumline": {
+          "asset": "shared:notes/esperon-volver-a-vernos-notes-strumline",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/shared/images/notes/esperon-volver-a-vernos-notes-strumline.png",
+            "width": 512,
+            "height": 384,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((0, 230), (0, 191), (0, 237), (0, 255))",
+            "bytes": 55128
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/shared/images/notes/esperon-volver-a-vernos-notes-strumline.xml",
+            "frame_count": 12,
+            "image_path": "esperon-volver-a-vernos-notes-strumline.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "staticLeft0",
+              "staticDown0",
+              "staticUp0",
+              "staticRight0",
+              "pressLeft0",
+              "pressDown0",
+              "pressUp0",
+              "pressRight0",
+              "confirmLeft0",
+              "confirmDown0",
+              "confirmUp0",
+              "confirmRight0"
+            ]
+          }
+        }
+      },
+      "album": {
+        "albumArtAsset": {
+          "asset": "freeplay/albumRoll/esperon-volver-a-vernos-art",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/images/freeplay/albumRoll/esperon-volver-a-vernos-art.png",
+            "width": 512,
+            "height": 512,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((54, 219), (48, 161), (93, 229), (63, 255))",
+            "bytes": 8009
+          },
+          "xml": null
+        },
+        "albumTitleAsset": {
+          "asset": "freeplay/albumRoll/esperon-volver-a-vernos-title",
+          "png": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/images/freeplay/albumRoll/esperon-volver-a-vernos-title.png",
+            "width": 512,
+            "height": 128,
+            "mode": "RGBA",
+            "has_alpha": true,
+            "extrema": "((54, 255), (48, 255), (93, 255), (220, 255))",
+            "bytes": 10307
+          },
+          "xml": {
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/images/freeplay/albumRoll/esperon-volver-a-vernos-title.xml",
+            "frame_count": 2,
+            "image_path": "esperon-volver-a-vernos-title.png",
+            "bounds_errors": 0,
+            "frame_names": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonVolverAVernosHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "timing_references": true
+        }
+      ],
+      "discovery": {
+        "level_count": 1,
+        "song_linked": true
+      }
+    }
+  ],
+  "policy": "No se modifican assets, metadata, scripts ni ZIPs durante esta auditoría."
+}

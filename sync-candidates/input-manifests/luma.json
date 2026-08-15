@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "luma",
+  "mod": "esperon-dano-luma",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-luma/songs/luma/Inst.ogg",
+    "sha256": "f57aab6f0c6e3e98ba630e7ebb9d295f4e634eda2f001eda69533f423044020a",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "238.004535"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-luma/data/songs/luma/luma-metadata.json",
+    "sha256": "799667b0da9670332accd3114dd998b6c38c3ffd488bb045a1c2c1f0725ac1ac"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-luma/data/songs/luma/luma-chart.json",
+    "sha256": "5e9eef1689fc979a3c8917c747e62b903962c7cac05249c943d0102cbd315427"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

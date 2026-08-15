@@ -1,0 +1,89 @@
+{
+  "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+  "audio": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.0001734261604724452,
+  "energy_threshold": 0.015,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 190580.0,
+  "segments": [
+    {
+      "start_ms": 3660,
+      "end_ms": 10480,
+      "duration_ms": 6820
+    },
+    {
+      "start_ms": 10760,
+      "end_ms": 17700,
+      "duration_ms": 6940
+    },
+    {
+      "start_ms": 17980,
+      "end_ms": 33800,
+      "duration_ms": 15820
+    },
+    {
+      "start_ms": 35380,
+      "end_ms": 42560,
+      "duration_ms": 7180
+    },
+    {
+      "start_ms": 42620,
+      "end_ms": 49660,
+      "duration_ms": 7040
+    },
+    {
+      "start_ms": 49700,
+      "end_ms": 63840,
+      "duration_ms": 14140
+    },
+    {
+      "start_ms": 64080,
+      "end_ms": 78420,
+      "duration_ms": 14340
+    },
+    {
+      "start_ms": 78540,
+      "end_ms": 94500,
+      "duration_ms": 15960
+    },
+    {
+      "start_ms": 124400,
+      "end_ms": 131800,
+      "duration_ms": 7400
+    },
+    {
+      "start_ms": 131860,
+      "end_ms": 138720,
+      "duration_ms": 6860
+    },
+    {
+      "start_ms": 138860,
+      "end_ms": 152740,
+      "duration_ms": 13880
+    },
+    {
+      "start_ms": 153260,
+      "end_ms": 184260,
+      "duration_ms": 31000
+    }
+  ],
+  "onsets_ms": [
+    3660,
+    10760,
+    17980,
+    35380,
+    42620,
+    49700,
+    64080,
+    78540,
+    124400,
+    131860,
+    138860,
+    153260
+  ],
+  "coverage_ratio": 0.773324,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}

@@ -1,0 +1,88 @@
+name: Publicar Release Esperón V-Slice V2.5.1
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: 'Tag de Release'
+        required: true
+        default: 'esperon-vslice-086-v2.5.1'
+      prerelease:
+        description: 'Marcar como pre-release'
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  verify-and-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: python -m pip install --upgrade pip Pillow
+
+      - name: Validar runtime V2.5.1
+        run: python tools/validate_v251_runtime.py .
+
+      - name: Reempaquetar ZIPs y colección V2.5.1 en el runner
+        run: python tools/package_v251_fixed.py
+
+      - name: Validar ZIPs V2.5.1
+        run: python tools/validate_v251_zips.py
+
+      - name: Comprobar evidencia de sincronía multimétodo
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('qa-lab/rebuild-v250')
+          for name in ('parallel-runtime-baseline-v250.json', 'parallel-contract-audit-v250.json', 'voice-first-v250.json', 'voice-first-promotion-v250.json', 'voice-first-sync-validation-v250.json', 'vocal-recheck-parallel-v251.json', 'vocal-recheck-joint-audio-v251.json', 'voice-priority-candidates-v251.json', 'vocal-priority-comparison-v251.json', 'voice-priority-promotion-v251.json', 'promoted-voice-priority-gate-v251.json', 'metadata-bump-v251.json', 'runtime-contract-v251.json', 'package-manifest-v251.json', 'zip-validation-v251.json', 'qa-20x20-v251.json'):
+              data = json.loads((root / name).read_text())
+              if data.get('status') != 'PASS':
+                  raise SystemExit(f'{name} is not PASS')
+          print('All V2.5.1 gates are PASS')
+          PY
+
+      - name: Publicar artefactos de auditoría
+        uses: actions/upload-artifact@v4
+        with:
+          name: esperon-v251-qa-${{ github.run_id }}
+          path: qa-lab/rebuild-v250/**
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Crear Release y subir 21 ZIPs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.release_tag }}
+          PRERELEASE: ${{ inputs.prerelease }}
+        run: |
+          set -euo pipefail
+          notes='qa-lab/rebuild-v250/release-notes-v251.md'
+          if [ ! -f "$notes" ]; then
+            notes=/tmp/release-notes-v251.md
+            printf '%s\n' '# Esperón V-Slice Mobile 0.8.6 — V2.5.1' '' '20 mods, 3 dificultades por canción, carátulas albumRoll corregidas, lanes de jugador 0–3 y charts voice-first validados.' > "$notes"
+          fi
+          assets=(Mods\ .zip\ terminados/Mod-*-V2.5.1.zip)
+          if [ "${#assets[@]}" -ne 21 ]; then
+            echo "Se esperaban 21 ZIPs V2.5.1, se encontraron ${#assets[@]}" >&2
+            exit 1
+          fi
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            gh release upload "$RELEASE_TAG" "${assets[@]}" --clobber
+          else
+            gh release create "$RELEASE_TAG" "${assets[@]}" --title 'Esperón FNF Mobile V-Slice 0.8.6 V2.5.1' --notes-file "$notes" $([ "$PRERELEASE" = true ] && printf '%s' --prerelease)
+          fi

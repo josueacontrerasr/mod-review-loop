@@ -1,0 +1,21 @@
+{
+  "scope": "VISUAL_ONLY",
+  "protected_before": {
+    "chart_sha256": "d9b17e89eb6ab25ff08238197a43be8f1bc2e713e182838a58ad3b8771c8765c",
+    "inst_sha256": "92baeb05e1b4bcfa60d34afff84b53f063d7dc61e3550f07ed79d93b85e9b313"
+  },
+  "protected_after": {
+    "chart_sha256": "d9b17e89eb6ab25ff08238197a43be8f1bc2e713e182838a58ad3b8771c8765c",
+    "inst_sha256": "92baeb05e1b4bcfa60d34afff84b53f063d7dc61e3550f07ed79d93b85e9b313"
+  },
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonSolareHudV2.hxc",
+    "class": "EsperonSolareHudV2",
+    "player_character_id": "esperon-solare",
+    "opponent_color": "0xFF284C80",
+    "player_color": "0xFFF4982A",
+    "preview": "images/ui/esperon-solare-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
+}

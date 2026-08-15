@@ -1,0 +1,676 @@
+{
+  "scope": "HEADLESS_MOBILE_VFS_V260",
+  "executed_at": "2026-08-15T17:32:09.213758+00:00",
+  "target_version": "0.8.6",
+  "simulation_root": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods",
+  "mods": 20,
+  "parallel_workers": 4,
+  "passed": 20,
+  "status": "PASS",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "mod": "esperon-dano-arcoloria",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-arcoloria",
+      "note_counts": {
+        "easy": 17,
+        "normal": 50,
+        "hard": 56
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonArcoloriaHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/arcoloria/Inst.ogg",
+        "songs/arcoloria/Voices-esperon-arcoloria.ogg"
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "mod": "esperon-dano-cortamos-y-volvemos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-cortamos-y-volvemos",
+      "note_counts": {
+        "easy": 247,
+        "normal": 572,
+        "hard": 731
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonCortamosYVolvemosHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/cortamos-y-volvemos/Inst.ogg",
+        "songs/cortamos-y-volvemos/Voices-esperon-cortamos-y-volvemos.ogg"
+      ]
+    },
+    {
+      "song": "dano",
+      "mod": "esperon-dano-dano",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-dano",
+      "note_counts": {
+        "easy": 260,
+        "normal": 601,
+        "hard": 777
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonDanoHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/dano/Inst.ogg",
+        "songs/dano/Voices-esperon-dano.ogg"
+      ]
+    },
+    {
+      "song": "dias-magicos",
+      "mod": "esperon-dano-dias-magicos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-dias-magicos",
+      "note_counts": {
+        "easy": 249,
+        "normal": 654,
+        "hard": 804
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonDiasMagicosHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/dias-magicos/Inst.ogg",
+        "songs/dias-magicos/Voices-esperon-dias-magicos.ogg"
+      ]
+    },
+    {
+      "song": "eclipsis",
+      "mod": "esperon-dano-eclipsis",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-eclipsis",
+      "note_counts": {
+        "easy": 230,
+        "normal": 611,
+        "hard": 746
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonEclipsisHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/eclipsis/Inst.ogg",
+        "songs/eclipsis/Voices-esperon-eclipsis.ogg"
+      ]
+    },
+    {
+      "song": "fango",
+      "mod": "esperon-dano-fango",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-fango",
+      "note_counts": {
+        "easy": 191,
+        "normal": 518,
+        "hard": 656
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonFangoHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/fango/Inst.ogg",
+        "songs/fango/Voices-esperon-fango.ogg"
+      ]
+    },
+    {
+      "song": "luma",
+      "mod": "esperon-dano-luma",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-luma",
+      "note_counts": {
+        "easy": 81,
+        "normal": 247,
+        "hard": 295
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonLumaHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/luma/Inst.ogg",
+        "songs/luma/Voices-esperon-luma.ogg"
+      ]
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "mod": "esperon-dano-maraton-de-peliculas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-maraton-de-peliculas",
+      "note_counts": {
+        "easy": 189,
+        "normal": 529,
+        "hard": 596
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonMaratonDePeliculasHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/maraton-de-peliculas/Inst.ogg",
+        "songs/maraton-de-peliculas/Voices-esperon-maraton-de-peliculas.ogg"
+      ]
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "note_counts": {
+        "easy": 140,
+        "normal": 416,
+        "hard": 506
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonMeVoyAMorirSiNoMeBesasAhoraMismoHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Inst.ogg",
+        "songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg"
+      ]
+    },
+    {
+      "song": "meteora",
+      "mod": "esperon-dano-meteora",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-meteora",
+      "note_counts": {
+        "easy": 110,
+        "normal": 295,
+        "hard": 324
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonMeteoraHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/meteora/Inst.ogg",
+        "songs/meteora/Voices-esperon-meteora.ogg"
+      ]
+    },
+    {
+      "song": "mi-hogar",
+      "mod": "esperon-dano-mi-hogar",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-mi-hogar",
+      "note_counts": {
+        "easy": 148,
+        "normal": 405,
+        "hard": 506
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonMiHogarHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/mi-hogar/Inst.ogg",
+        "songs/mi-hogar/Voices-esperon-mi-hogar.ogg"
+      ]
+    },
+    {
+      "song": "nubia",
+      "mod": "esperon-dano-nubia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-nubia",
+      "note_counts": {
+        "easy": 185,
+        "normal": 520,
+        "hard": 630
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonNubiaHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/nubia/Inst.ogg",
+        "songs/nubia/Voices-esperon-nubia.ogg"
+      ]
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "mod": "esperon-dano-nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-nuestro-amor-no-es-normal",
+      "note_counts": {
+        "easy": 155,
+        "normal": 393,
+        "hard": 520
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonNuestroAmorNoEsNormalHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/nuestro-amor-no-es-normal/Inst.ogg",
+        "songs/nuestro-amor-no-es-normal/Voices-esperon-nuestro-amor-no-es-normal.ogg"
+      ]
+    },
+    {
+      "song": "peligrosa",
+      "mod": "esperon-dano-peligrosa",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-peligrosa",
+      "note_counts": {
+        "easy": 262,
+        "normal": 656,
+        "hard": 804
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonPeligrosaHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/peligrosa/Inst.ogg",
+        "songs/peligrosa/Voices-esperon-peligrosa.ogg"
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "mod": "esperon-dano-rompecabezas",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-rompecabezas",
+      "note_counts": {
+        "easy": 213,
+        "normal": 571,
+        "hard": 693
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonRompecabezasHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/rompecabezas/Inst.ogg",
+        "songs/rompecabezas/Voices-esperon-rompecabezas.ogg"
+      ]
+    },
+    {
+      "song": "solare",
+      "mod": "esperon-dano-solare",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-solare",
+      "note_counts": {
+        "easy": 176,
+        "normal": 465,
+        "hard": 580
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonSolareHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/solare/Inst.ogg",
+        "songs/solare/Voices-esperon-solare.ogg"
+      ]
+    },
+    {
+      "song": "tristella",
+      "mod": "esperon-dano-tristella",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-tristella",
+      "note_counts": {
+        "easy": 214,
+        "normal": 607,
+        "hard": 756
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonTristellaHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/tristella/Inst.ogg",
+        "songs/tristella/Voices-esperon-tristella.ogg"
+      ]
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "mod": "esperon-dano-tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-tu-dealer-de-nostalgia",
+      "note_counts": {
+        "easy": 197,
+        "normal": 522,
+        "hard": 659
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonTuDealerDeNostalgiaHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/tu-dealer-de-nostalgia/Inst.ogg",
+        "songs/tu-dealer-de-nostalgia/Voices-esperon-tu-dealer-de-nostalgia.ogg"
+      ]
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-un-poco-bien-un-poco-mal",
+      "note_counts": {
+        "easy": 141,
+        "normal": 455,
+        "hard": 563
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonUnPocoBienUnPocoMalHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/un-poco-bien-un-poco-mal/Inst.ogg",
+        "songs/un-poco-bien-un-poco-mal/Voices-esperon-un-poco-bien-un-poco-mal.ogg"
+      ]
+    },
+    {
+      "song": "volver-a-vernos",
+      "mod": "esperon-dano-volver-a-vernos",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "code": "NO_NATIVE_ENGINE",
+          "detail": "No se ejecutó un APK o renderer nativo; loader estático únicamente."
+        }
+      ],
+      "simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods/esperon-dano-volver-a-vernos",
+      "note_counts": {
+        "easy": 167,
+        "normal": 470,
+        "hard": 573
+      },
+      "character_frames": {
+        "player": 18,
+        "opponent": 18
+      },
+      "scripts": [
+        {
+          "path": "scripts/EsperonVolverAVernosHudV2.hxc",
+          "module_import_ok": true
+        }
+      ],
+      "audio_files": [
+        "songs/volver-a-vernos/Inst.ogg",
+        "songs/volver-a-vernos/Voices-esperon-volver-a-vernos.ogg"
+      ]
+    }
+  ],
+  "limitations": [
+    "No ejecuta el motor nativo ni HScript; comprueba contratos y resolución estática.",
+    "La latencia táctil, caché y renderizado real en Android/iOS requieren playtest del dispositivo."
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "song": "mi-hogar",
+  "audio": "mods/esperon-dano-mi-hogar/songs/mi-hogar/Voices-esperon-mi-hogar.ogg",
+  "sample_rate_hz": 16000,
+  "frame_ms": 20,
+  "noise_floor_rms": 0.00031098799081519246,
+  "energy_threshold": 0.015,
+  "hangover_ms": 200,
+  "min_speech_ms": 120,
+  "duration_ms": 174240.0,
+  "segments": [
+    {
+      "start_ms": 19540,
+      "end_ms": 23640,
+      "duration_ms": 4100
+    },
+    {
+      "start_ms": 24480,
+      "end_ms": 28120,
+      "duration_ms": 3640
+    },
+    {
+      "start_ms": 29460,
+      "end_ms": 33400,
+      "duration_ms": 3940
+    },
+    {
+      "start_ms": 34340,
+      "end_ms": 75720,
+      "duration_ms": 41380
+    },
+    {
+      "start_ms": 76680,
+      "end_ms": 77100,
+      "duration_ms": 420
+    },
+    {
+      "start_ms": 79920,
+      "end_ms": 80880,
+      "duration_ms": 960
+    },
+    {
+      "start_ms": 81500,
+      "end_ms": 82200,
+      "duration_ms": 700
+    },
+    {
+      "start_ms": 83900,
+      "end_ms": 87760,
+      "duration_ms": 3860
+    },
+    {
+      "start_ms": 88840,
+      "end_ms": 92520,
+      "duration_ms": 3680
+    },
+    {
+      "start_ms": 93700,
+      "end_ms": 97920,
+      "duration_ms": 4220
+    },
+    {
+      "start_ms": 98680,
+      "end_ms": 103800,
+      "duration_ms": 5120
+    },
+    {
+      "start_ms": 103900,
+      "end_ms": 107960,
+      "duration_ms": 4060
+    },
+    {
+      "start_ms": 108120,
+      "end_ms": 112560,
+      "duration_ms": 4440
+    },
+    {
+      "start_ms": 113660,
+      "end_ms": 117860,
+      "duration_ms": 4200
+    },
+    {
+      "start_ms": 118260,
+      "end_ms": 159820,
+      "duration_ms": 41560
+    },
+    {
+      "start_ms": 160820,
+      "end_ms": 161240,
+      "duration_ms": 420
+    }
+  ],
+  "onsets_ms": [
+    19540,
+    24480,
+    29460,
+    34340,
+    76680,
+    79920,
+    81500,
+    83900,
+    88840,
+    93700,
+    98680,
+    103900,
+    108120,
+    113660,
+    118260,
+    160820
+  ],
+  "coverage_ratio": 0.727158,
+  "method": "CPU RMS VAD calibrated to lower-quintile noise floor; candidate evidence only"
+}

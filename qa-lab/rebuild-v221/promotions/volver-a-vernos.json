@@ -1,0 +1,67 @@
+{
+  "status": "PROMOTED_WITH_REVIEW_REQUIRED",
+  "song": "volver-a-vernos",
+  "mod": "esperon-dano-volver-a-vernos",
+  "before": {
+    "metadata_sha256": "bae06c54e9e681eeabca1a218414b5a0968a81d78918df63e1698e3dd90acf58",
+    "chart_sha256": "6ce51c8a80ca85ef70c279bc8fe3663bd766b8eddfbe45e0d9f125e9e5b17351",
+    "inst_sha256": "f44a6699d82293176adcd397e591f164c5fdc00a632fe3b0698b7544da887ca3",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "186.734875"
+      }
+    }
+  },
+  "after": {
+    "metadata_sha256": "a1a155b5ec4aead5416e4c6f0055e4f061be71530bcfd028b2bc329c01708f98",
+    "chart_sha256": "f34339b5346760aa4a462c5a014b4a75e9d610fafa997eebea0daec1aa5a7e14",
+    "inst_sha256": "e65377e51839e6e7f5d8772f02ffc729746b7923cfa5ebf86813d6a77ce11083",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "186.734875"
+      }
+    },
+    "voices_sha256": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14",
+    "voices_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "186.734875"
+      }
+    }
+  },
+  "evidence": {
+    "vocal_stem": "sync-candidates/vocal-stems/volver-a-vernos/vocals.wav",
+    "no_vocals": "sync-candidates/vocal-stems/volver-a-vernos/demucs-work/htdemucs/Esperón  Volver a Vernos/no_vocals.wav",
+    "isolated_chart": "sync-candidates/voice-aligned-charts/volver-a-vernos/volver-a-vernos-chart.json",
+    "cross_validation": "qa-lab/rebuild-v221/cross-validation-candidate-summary.json",
+    "reconstruction_audit": "qa-lab/rebuild-v221/demucs-reconstruction-audit.json"
+  },
+  "guarantees": [
+    "No BPM or offset values were changed by this promotion.",
+    "All notes remain on player directions 4..7.",
+    "Audio Sync Test and mobile playtest are still required for a human PASS."
+  ]
+}

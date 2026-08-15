@@ -1,0 +1,17 @@
+{
+  "version": "2.6.0-vocal-reconstruction-decision",
+  "status": "PASS",
+  "decision": "NO_REBUILD_REQUIRED",
+  "songs": 20,
+  "difficulties": 60,
+  "reason": "The joint vocal/rhythm audit passed for every difficulty. Every vocal note and rhythm accent is anchored within 120 ms, no note is unanchored, and audio/timeChanges remain frozen from V2.5.1.",
+  "source_evidence": [
+    "qa-lab/rebuild-v260/voice-audit-summary-v260.json",
+    "qa-lab/rebuild-v260/joint-audio-summary-v260.json",
+    "qa-lab/rebuild-v260/baseline-v260.json"
+  ],
+  "production_charts_modified": false,
+  "audio_modified": false,
+  "timeChanges_modified": false,
+  "next_phase": "general_asset_and_contract_audit"
+}

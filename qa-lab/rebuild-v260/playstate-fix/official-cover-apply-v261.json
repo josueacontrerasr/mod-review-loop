@@ -1,0 +1,389 @@
+{
+  "scope": "APPLY_OFFICIAL_YOUTUBE_COVERS_V261",
+  "executed_at": "2026-08-15T18:12:46.722501+00:00",
+  "songs": 20,
+  "passed": 20,
+  "status": "PASS",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/arcoloria.jpg",
+      "source_sha256": "84763471a8f154f2c54a3b6f3f05cbb6ea7f8161ef9e25872ba086ba2cb4a14e",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-arcoloria/images/freeplay/albumRoll/esperon-arcoloria-art.png",
+      "target_sha256": "a8741bc0b571d69d8240d1f072eac6bfbb849c17a8c8a4029410fd8db6a4655f",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/arcoloria-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/cortamos-y-volvemos.jpg",
+      "source_sha256": "6feaca91cf8358b80eea3fd72a52b51911562db9410d8994f0e2ce4ac1a0248b",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-cortamos-y-volvemos/images/freeplay/albumRoll/esperon-cortamos-y-volvemos-art.png",
+      "target_sha256": "465df17455c00eeafefe0a19a50465848ca0f173223c79a990d6eaa023b46bfb",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/cortamos-y-volvemos-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/dano.jpg",
+      "source_sha256": "9b838d37036092335b687a56d092054ba5e97c4a0f3198d20db1b2c3a3f5f242",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-dano/images/freeplay/albumRoll/esperon-dano-art.png",
+      "target_sha256": "99a1c0a80418a530f4f068597d767c41b3bb6ef42ddcec451dbd93075f328096",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/dano-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/dias-magicos.jpg",
+      "source_sha256": "0a44c21688c4f1f8a182d6af4462930da15d69f5f75ad14c2378e2a744ab3e21",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-dias-magicos/images/freeplay/albumRoll/esperon-dias-magicos-art.png",
+      "target_sha256": "8bf6b12ce9da844fe753f565f0416e6c8c11ec361d7a554fa227af104e178130",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/dias-magicos-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/eclipsis.jpg",
+      "source_sha256": "67f5a2437c0468f26143032b16120661fc37992d05d6a193dc9923269034d2cb",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-eclipsis/images/freeplay/albumRoll/esperon-eclipsis-art.png",
+      "target_sha256": "0acabf70fec51d12cad91771f871b0209c02fb33a7cab836313f36ea8018d670",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/eclipsis-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/fango.jpg",
+      "source_sha256": "34be4c8caa2b7ced279e9c9d86a5c2173b33c09bcd7b8b282dbeab8f44c3790b",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-fango/images/freeplay/albumRoll/esperon-fango-art.png",
+      "target_sha256": "b9f7227dd0538bba2fcfc6a4041365f16664d44c5fba9334f11aa24d1009fc4c",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/fango-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/luma.jpg",
+      "source_sha256": "1872ba0fae515acf224b74054e08d686f6f9c6e6171456bbcaf4b17543de0cb7",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-luma/images/freeplay/albumRoll/esperon-luma-art.png",
+      "target_sha256": "a1413960fbb2fd6214af49bf82d06877da4a8d6a08e4629f81c7a0a90180284c",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/luma-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/maraton-de-peliculas.jpg",
+      "source_sha256": "74e90867d4a5e18c083a9e76455d8acd0cf0a60a696182916de4880ff0ad855f",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-maraton-de-peliculas/images/freeplay/albumRoll/esperon-maraton-de-peliculas-art.png",
+      "target_sha256": "43e20c8e1e3c8ef504631dc1e89f711f14e8a6631906107955cf815706023a17",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/maraton-de-peliculas-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/me-voy-a-morir-si-no-me-besas-ahora-mismo.jpg",
+      "source_sha256": "8214d1e8c93f0ebdc12858f68915fffa3828adec6923b73d8c176a7715b5b4d0",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-art.png",
+      "target_sha256": "af0e1432084694a8933d6f9d765a033f49915c0ef2ec0c449692dd2708cc78df",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/me-voy-a-morir-si-no-me-besas-ahora-mismo-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/meteora.jpg",
+      "source_sha256": "639e96867e5d1163ee2bf3b2e3e34e368975446b9930d2c1e3cf6cfe995bcdec",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-meteora/images/freeplay/albumRoll/esperon-meteora-art.png",
+      "target_sha256": "eca12d5e14af4d53c425b2df4d9ff0cade28c088079168ce567ea16395d17a1e",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/meteora-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/mi-hogar.jpg",
+      "source_sha256": "22135158d413cc25a03e5b2a40b51a3edf35aaa544a350f88ae781450d3ecfe3",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-mi-hogar/images/freeplay/albumRoll/esperon-mi-hogar-art.png",
+      "target_sha256": "bd64f28802a5e2b099b667e7cb897095fe04fbccd8e21d621b4235385c0586c5",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/mi-hogar-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/nubia.jpg",
+      "source_sha256": "197903ce775a260164734c680612d8e8469cdd59fe70c4d489e7eb1584ef001b",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-nubia/images/freeplay/albumRoll/esperon-nubia-art.png",
+      "target_sha256": "3de6524f86a1aff735ca5249290465ce6f1aef982563625386f9f4c257ead5c7",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/nubia-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/nuestro-amor-no-es-normal.jpg",
+      "source_sha256": "fa68c1733fa18ee2709edf01b447999980185a8eebab71e1205f516338701db6",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-nuestro-amor-no-es-normal/images/freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-art.png",
+      "target_sha256": "59722109f7c4fd73cd558ebc54f334db6efc88145dfc97cc770b9ae84f7f5b24",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/nuestro-amor-no-es-normal-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/peligrosa.jpg",
+      "source_sha256": "1d7f60289209df029c2477f36bc1876191186f4d988fad2070172842a5888a94",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-peligrosa/images/freeplay/albumRoll/esperon-peligrosa-art.png",
+      "target_sha256": "037fa040618468a237279149df8d1a624398989f2a3b4eb03dd3c4978f217efb",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/peligrosa-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/rompecabezas.jpg",
+      "source_sha256": "5e619cd0234ec28c20de9b96a4c0373c612a8314e308c604cc7f1de8ca2d4b4c",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-rompecabezas/images/freeplay/albumRoll/esperon-rompecabezas-art.png",
+      "target_sha256": "e4cbc3ade3ae0ffdd10c28afa784217d5d7e4549f131339ed8b30a0415adf8c9",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/rompecabezas-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/solare.jpg",
+      "source_sha256": "8e0d234147e9564d381e7ca40fff9ccfe6d94caf0b89fb124898d6194f2674b3",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-solare/images/freeplay/albumRoll/esperon-solare-art.png",
+      "target_sha256": "bae4611d6e61c068b67d28d465c66b1ff25ad6bfd0e509359a9960f6aa15df9b",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/solare-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/tristella.jpg",
+      "source_sha256": "247ef3ef6f6aa540746adec897647ab9e1495596f2fb03ccfaa258490dc6cdbc",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-tristella/images/freeplay/albumRoll/esperon-tristella-art.png",
+      "target_sha256": "2c9ee48814717bc861b0fe23003a95930393f025392f7cfd172ea1e36e05a38a",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/tristella-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/tu-dealer-de-nostalgia.jpg",
+      "source_sha256": "9e4e21c610302ef7ab95e96bed7bdd7ea4801d4235d777bec516d86e56ed68fe",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-tu-dealer-de-nostalgia/images/freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-art.png",
+      "target_sha256": "95582ca0c59e3a79df1ce07f1604879fca773150228756ec46fda641d2ca8313",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/tu-dealer-de-nostalgia-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/un-poco-bien-un-poco-mal.jpg",
+      "source_sha256": "394a62cd6ea81b7db2367a2b9e796d650c02c64fe738caf3916a007cc876685b",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-un-poco-bien-un-poco-mal/images/freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-art.png",
+      "target_sha256": "d9c08fea175a4c1a985e798afe96d86d4164ccaa47d0e4184a6acc452af1da8f",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/un-poco-bien-un-poco-mal-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "source": "qa-lab/rebuild-v260/playstate-fix/official-youtube-covers/volver-a-vernos.jpg",
+      "source_sha256": "b4aad030292f571dcecf3474d302c6255f99fe01823fb292022497b5c5d0aa41",
+      "source_size": [
+        1280,
+        720
+      ],
+      "target": "mods/esperon-dano-volver-a-vernos/images/freeplay/albumRoll/esperon-volver-a-vernos-art.png",
+      "target_sha256": "2a82b5d12b4ba8991b8e4a96da59f1cfac89a4e7a029b7ccef58af102deb0982",
+      "target_size": [
+        512,
+        512
+      ],
+      "backup": "qa-lab/rebuild-v260/playstate-fix/official-cover-backup-v261/volver-a-vernos-before-official.png",
+      "crop": "center_crop_to_square_then_512x512",
+      "errors": []
+    }
+  ]
+}

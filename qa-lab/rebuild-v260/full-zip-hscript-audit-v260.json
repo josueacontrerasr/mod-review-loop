@@ -1,0 +1,740 @@
+{
+  "scope": "FULL_ZIP_HSCRIPT_AUDIT_V260",
+  "executed_at": "2026-08-15T16:48:17.992607+00:00",
+  "target_version": "0.8.6",
+  "mod_version": "2.5.1",
+  "packages": 20,
+  "passed": 20,
+  "collection": {
+    "exists": true,
+    "members": [
+      "Mod-Arcoloria-V2.5.1.zip",
+      "Mod-Cortamos-Y-Volvemos-V2.5.1.zip",
+      "Mod-Dano-V2.5.1.zip",
+      "Mod-Dias-Magicos-V2.5.1.zip",
+      "Mod-Eclipsis-V2.5.1.zip",
+      "Mod-Fango-V2.5.1.zip",
+      "Mod-Luma-V2.5.1.zip",
+      "Mod-Maraton-De-Peliculas-V2.5.1.zip",
+      "Mod-Me-Voy-A-Morir-Si-No-Me-Besas-Ahora-Mismo-V2.5.1.zip",
+      "Mod-Meteora-V2.5.1.zip",
+      "Mod-Mi-Hogar-V2.5.1.zip",
+      "Mod-Nubia-V2.5.1.zip",
+      "Mod-Nuestro-Amor-No-Es-Normal-V2.5.1.zip",
+      "Mod-Peligrosa-V2.5.1.zip",
+      "Mod-Rompecabezas-V2.5.1.zip",
+      "Mod-Solare-V2.5.1.zip",
+      "Mod-Tristella-V2.5.1.zip",
+      "Mod-Tu-Dealer-De-Nostalgia-V2.5.1.zip",
+      "Mod-Un-Poco-Bien-Un-Poco-Mal-V2.5.1.zip",
+      "Mod-Volver-A-Vernos-V2.5.1.zip"
+    ],
+    "status": "PASS"
+  },
+  "status": "PASS",
+  "rows": [
+    {
+      "package": "Mod-Arcoloria-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-arcoloria",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonArcoloriaHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 796
+        }
+      ],
+      "charts": [
+        "data/songs/arcoloria/arcoloria-chart.json"
+      ],
+      "metadata": [
+        "data/songs/arcoloria/arcoloria-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/arcoloria/manifest.json"
+      ],
+      "audio_files": [
+        "songs/arcoloria/Inst.ogg",
+        "songs/arcoloria/Voices-esperon-arcoloria.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Arcoloria",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Cortamos-Y-Volvemos-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-cortamos-y-volvemos",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonCortamosYVolvemosHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 834
+        }
+      ],
+      "charts": [
+        "data/songs/cortamos-y-volvemos/cortamos-y-volvemos-chart.json"
+      ],
+      "metadata": [
+        "data/songs/cortamos-y-volvemos/cortamos-y-volvemos-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/cortamos-y-volvemos/manifest.json"
+      ],
+      "audio_files": [
+        "songs/cortamos-y-volvemos/Inst.ogg",
+        "songs/cortamos-y-volvemos/Voices-esperon-cortamos-y-volvemos.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Cortamos y Volvemos",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Dano-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-dano",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonDanoHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 778
+        }
+      ],
+      "charts": [
+        "data/songs/dano/dano-chart.json"
+      ],
+      "metadata": [
+        "data/songs/dano/dano-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/dano/manifest.json"
+      ],
+      "audio_files": [
+        "songs/dano/Inst.ogg",
+        "songs/dano/Voices-esperon-dano.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Daño",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Dias-Magicos-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-dias-magicos",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonDiasMagicosHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 811
+        }
+      ],
+      "charts": [
+        "data/songs/dias-magicos/dias-magicos-chart.json"
+      ],
+      "metadata": [
+        "data/songs/dias-magicos/dias-magicos-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/dias-magicos/manifest.json"
+      ],
+      "audio_files": [
+        "songs/dias-magicos/Inst.ogg",
+        "songs/dias-magicos/Voices-esperon-dias-magicos.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Días Mágicos",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Eclipsis-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-eclipsis",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonEclipsisHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 792
+        }
+      ],
+      "charts": [
+        "data/songs/eclipsis/eclipsis-chart.json"
+      ],
+      "metadata": [
+        "data/songs/eclipsis/eclipsis-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/eclipsis/manifest.json"
+      ],
+      "audio_files": [
+        "songs/eclipsis/Inst.ogg",
+        "songs/eclipsis/Voices-esperon-eclipsis.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Eclipsis",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Fango-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-fango",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonFangoHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 780
+        }
+      ],
+      "charts": [
+        "data/songs/fango/fango-chart.json"
+      ],
+      "metadata": [
+        "data/songs/fango/fango-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/fango/manifest.json"
+      ],
+      "audio_files": [
+        "songs/fango/Inst.ogg",
+        "songs/fango/Voices-esperon-fango.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Fango",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Luma-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-luma",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonLumaHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 776
+        }
+      ],
+      "charts": [
+        "data/songs/luma/luma-chart.json"
+      ],
+      "metadata": [
+        "data/songs/luma/luma-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/luma/manifest.json"
+      ],
+      "audio_files": [
+        "songs/luma/Inst.ogg",
+        "songs/luma/Voices-esperon-luma.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Luma",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Maraton-De-Peliculas-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-maraton-de-peliculas",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonMaratonDePeliculasHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 842
+        }
+      ],
+      "charts": [
+        "data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json"
+      ],
+      "metadata": [
+        "data/songs/maraton-de-peliculas/maraton-de-peliculas-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/maraton-de-peliculas/manifest.json"
+      ],
+      "audio_files": [
+        "songs/maraton-de-peliculas/Inst.ogg",
+        "songs/maraton-de-peliculas/Voices-esperon-maraton-de-peliculas.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Maratón de Películas",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Me-Voy-A-Morir-Si-No-Me-Besas-Ahora-Mismo-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonMeVoyAMorirSiNoMeBesasAhoraMismoHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 915
+        }
+      ],
+      "charts": [
+        "data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart.json"
+      ],
+      "metadata": [
+        "data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/manifest.json"
+      ],
+      "audio_files": [
+        "songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Inst.ogg",
+        "songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Me Voy A Morir Si No Me Besas Ahora Mismo",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Meteora-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-meteora",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonMeteoraHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 788
+        }
+      ],
+      "charts": [
+        "data/songs/meteora/meteora-chart.json"
+      ],
+      "metadata": [
+        "data/songs/meteora/meteora-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/meteora/manifest.json"
+      ],
+      "audio_files": [
+        "songs/meteora/Inst.ogg",
+        "songs/meteora/Voices-esperon-meteora.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Meteora",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Mi-Hogar-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-mi-hogar",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonMiHogarHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 791
+        }
+      ],
+      "charts": [
+        "data/songs/mi-hogar/mi-hogar-chart.json"
+      ],
+      "metadata": [
+        "data/songs/mi-hogar/mi-hogar-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/mi-hogar/manifest.json"
+      ],
+      "audio_files": [
+        "songs/mi-hogar/Inst.ogg",
+        "songs/mi-hogar/Voices-esperon-mi-hogar.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Mi Hogar",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Nubia-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-nubia",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonNubiaHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 780
+        }
+      ],
+      "charts": [
+        "data/songs/nubia/nubia-chart.json"
+      ],
+      "metadata": [
+        "data/songs/nubia/nubia-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/nubia/manifest.json"
+      ],
+      "audio_files": [
+        "songs/nubia/Inst.ogg",
+        "songs/nubia/Voices-esperon-nubia.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Nubia",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Nuestro-Amor-No-Es-Normal-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-nuestro-amor-no-es-normal",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonNuestroAmorNoEsNormalHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 856
+        }
+      ],
+      "charts": [
+        "data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart.json"
+      ],
+      "metadata": [
+        "data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/nuestro-amor-no-es-normal/manifest.json"
+      ],
+      "audio_files": [
+        "songs/nuestro-amor-no-es-normal/Inst.ogg",
+        "songs/nuestro-amor-no-es-normal/Voices-esperon-nuestro-amor-no-es-normal.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Nuestro Amor No es Normal",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Peligrosa-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-peligrosa",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonPeligrosaHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 796
+        }
+      ],
+      "charts": [
+        "data/songs/peligrosa/peligrosa-chart.json"
+      ],
+      "metadata": [
+        "data/songs/peligrosa/peligrosa-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/peligrosa/manifest.json"
+      ],
+      "audio_files": [
+        "songs/peligrosa/Inst.ogg",
+        "songs/peligrosa/Voices-esperon-peligrosa.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Peligrosa",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Rompecabezas-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-rompecabezas",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonRompecabezasHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 808
+        }
+      ],
+      "charts": [
+        "data/songs/rompecabezas/rompecabezas-chart.json"
+      ],
+      "metadata": [
+        "data/songs/rompecabezas/rompecabezas-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/rompecabezas/manifest.json"
+      ],
+      "audio_files": [
+        "songs/rompecabezas/Inst.ogg",
+        "songs/rompecabezas/Voices-esperon-rompecabezas.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Rompecabezas",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Solare-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-solare",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonSolareHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 784
+        }
+      ],
+      "charts": [
+        "data/songs/solare/solare-chart.json"
+      ],
+      "metadata": [
+        "data/songs/solare/solare-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/solare/manifest.json"
+      ],
+      "audio_files": [
+        "songs/solare/Inst.ogg",
+        "songs/solare/Voices-esperon-solare.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Solare",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Tristella-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-tristella",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonTristellaHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 796
+        }
+      ],
+      "charts": [
+        "data/songs/tristella/tristella-chart.json"
+      ],
+      "metadata": [
+        "data/songs/tristella/tristella-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/tristella/manifest.json"
+      ],
+      "audio_files": [
+        "songs/tristella/Inst.ogg",
+        "songs/tristella/Voices-esperon-tristella.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Tristella",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Tu-Dealer-De-Nostalgia-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-tu-dealer-de-nostalgia",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonTuDealerDeNostalgiaHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 845
+        }
+      ],
+      "charts": [
+        "data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json"
+      ],
+      "metadata": [
+        "data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/tu-dealer-de-nostalgia/manifest.json"
+      ],
+      "audio_files": [
+        "songs/tu-dealer-de-nostalgia/Inst.ogg",
+        "songs/tu-dealer-de-nostalgia/Voices-esperon-tu-dealer-de-nostalgia.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Tu Dealer de Nostalgia",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Un-Poco-Bien-Un-Poco-Mal-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-un-poco-bien-un-poco-mal",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonUnPocoBienUnPocoMalHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 851
+        }
+      ],
+      "charts": [
+        "data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart.json"
+      ],
+      "metadata": [
+        "data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/un-poco-bien-un-poco-mal/manifest.json"
+      ],
+      "audio_files": [
+        "songs/un-poco-bien-un-poco-mal/Inst.ogg",
+        "songs/un-poco-bien-un-poco-mal/Voices-esperon-un-poco-bien-un-poco-mal.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Un Poco Bien un Poco Mal",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    },
+    {
+      "package": "Mod-Volver-A-Vernos-V2.5.1.zip",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "root": "esperon-dano-volver-a-vernos",
+      "entries": 45,
+      "scripts": [
+        {
+          "path": "scripts/EsperonVolverAVernosHudV2.hxc",
+          "import_module_ok": true,
+          "extends_module_ok": true,
+          "bytes": 818
+        }
+      ],
+      "charts": [
+        "data/songs/volver-a-vernos/volver-a-vernos-chart.json"
+      ],
+      "metadata": [
+        "data/songs/volver-a-vernos/volver-a-vernos-metadata.json"
+      ],
+      "song_manifests": [
+        "data/songs/volver-a-vernos/manifest.json"
+      ],
+      "audio_files": [
+        "songs/volver-a-vernos/Inst.ogg",
+        "songs/volver-a-vernos/Voices-esperon-volver-a-vernos.ogg"
+      ],
+      "manifest": {
+        "id": null,
+        "title": "Esperón — Volver a Vernos",
+        "api_version": "0.8.6",
+        "mod_version": "2.5.1"
+      }
+    }
+  ],
+  "limitations": [
+    "La inspección ZIP/HScript no sustituye parser ni ejecución nativa del motor."
+  ]
+}

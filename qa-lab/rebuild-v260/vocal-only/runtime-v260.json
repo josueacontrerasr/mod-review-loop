@@ -1,0 +1,615 @@
+{
+  "scope": "VSLICE_086_VOCAL_ONLY_RUNTIME_V260",
+  "executed_at": "2026-08-15T17:33:07.572825+00:00",
+  "target_version": "0.8.6",
+  "mod_version": "2.6.0",
+  "songs": 20,
+  "difficulties": 60,
+  "passed": 20,
+  "failed": 0,
+  "status": "PASS",
+  "instrumental_used_for_generation": false,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 17,
+        "normal": 50,
+        "hard": 56
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 17,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 50,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 56,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 247,
+        "normal": 572,
+        "hard": 731
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 247,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 572,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 731,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 260,
+        "normal": 601,
+        "hard": 777
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 260,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 601,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 777,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 249,
+        "normal": 654,
+        "hard": 804
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 249,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 654,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 804,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 230,
+        "normal": 611,
+        "hard": 746
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 230,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 611,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 746,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 191,
+        "normal": 518,
+        "hard": 656
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 191,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 518,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 656,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 81,
+        "normal": 247,
+        "hard": 295
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 81,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 247,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 295,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 189,
+        "normal": 529,
+        "hard": 596
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 189,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 529,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 596,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 140,
+        "normal": 416,
+        "hard": 506
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 140,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 416,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 506,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 110,
+        "normal": 295,
+        "hard": 324
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 110,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 295,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 324,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 148,
+        "normal": 405,
+        "hard": 506
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 148,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 405,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 506,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 185,
+        "normal": 520,
+        "hard": 630
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 185,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 520,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 630,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 155,
+        "normal": 393,
+        "hard": 520
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 155,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 393,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 520,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 262,
+        "normal": 656,
+        "hard": 804
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 262,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 656,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 804,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 213,
+        "normal": 571,
+        "hard": 693
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 213,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 571,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 693,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 176,
+        "normal": 465,
+        "hard": 580
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 176,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 465,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 580,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 214,
+        "normal": 607,
+        "hard": 756
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 214,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 607,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 756,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 197,
+        "normal": 522,
+        "hard": 659
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 197,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 522,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 659,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 141,
+        "normal": 455,
+        "hard": 563
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 141,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 455,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 563,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "errors": [],
+      "mod_version": "2.6.0",
+      "counts": {
+        "easy": 167,
+        "normal": 470,
+        "hard": 573
+      },
+      "difficulties": {
+        "easy": {
+          "notes": 167,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "normal": {
+          "notes": 470,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        },
+        "hard": {
+          "notes": 573,
+          "outside_vocal_segments": 0,
+          "coverage_percent": 100.0
+        }
+      },
+      "outside_vocal_segments": 0,
+      "instrumental_used_for_generation": false
+    }
+  ],
+  "policy": "Promoted charts contain only notes accepted by vocal-only gates."
+}

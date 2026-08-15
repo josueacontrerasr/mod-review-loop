@@ -1,0 +1,49 @@
+{
+  "scope": "FULL_WIDE_RESEARCH_AUDIT_V260",
+  "target_version": "0.8.6",
+  "branch": "auto/fnf-vslice-full-audit-v260",
+  "audit_commit": "020d84fef88430bd45aac0341ea3eee6f0502f29",
+  "remote_workflow": {
+    "workflow": "qa-lab-vslice.yml",
+    "run_id": 31896612305,
+    "status": "success",
+    "head_sha": "020d84fef88430bd45aac0341ea3eee6f0502f29"
+  },
+  "inputs": {
+    "songs": 20,
+    "difficulties": 60,
+    "source_files_hashed": 900,
+    "delivery_zips": 21
+  },
+  "gates": {
+    "audio_chart": {"songs": 20, "difficulties": 60, "passed": 20, "manual_voice_review_required": 20, "status": "PASS_WITH_MANUAL_SYNC_REVIEW"},
+    "contracts_assets": {"songs": 20, "passed": 20, "warnings": 40, "status": "PASS_WITH_RENDERER_LIMITATION"},
+    "headless_mobile_loader": {"mods": 20, "passed": 20, "status": "PASS"},
+    "qa_20x20": {"rounds": 20, "mods_per_round": 20, "records": 400, "errors": 0, "status": "STABLE_PLATEAU_REACHED"},
+    "zip_hscript": {"packages": 20, "passed": 20, "collection": "PASS", "status": "PASS"},
+    "hash_regression": {"mods_files_passed": 900, "delivery_zips_passed": 21, "failed": 0, "status": "PASS"},
+    "remote_actions": {"status": "success", "artifacts_published": true}
+  },
+  "production_policy": {
+    "mods_changed": false,
+    "delivery_zips_changed": false,
+    "automatic_chart_promotion": false,
+    "release_created": false,
+    "source_of_truth": "V2.5.1 stable production"
+  },
+  "limitations": [
+    "Los candidatos de sincronía usan FULL_MIX_PROXY cuando no hay stems vocales distribuidos y verificados.",
+    "La auditoría estática y headless no sustituye Audio Sync Test en Chart Editor ni playtest perceptual en FNF Mobile 0.8.6.",
+    "El warning de renderer nativo corresponde a la limitación del entorno, no a un fallo del mod."
+  ],
+  "evidence": {
+    "audio_chart": "qa-lab/rebuild-v260/full-audio-chart-audit-v260.json",
+    "contracts_assets": "qa-lab/rebuild-v260/full-contract-asset-audit-v260.json",
+    "mobile_loader": "qa-lab/rebuild-v260/full-mobile-loader-v260.json",
+    "qa": "qa-lab/rebuild-v260/full-qa-20x20-v260.json",
+    "zip_hscript": "qa-lab/rebuild-v260/full-zip-hscript-audit-v260.json",
+    "sync_candidates": "qa-lab/rebuild-v260/full-sync-candidate-validation-v260.json",
+    "visual_sheet": "qa-lab/rebuild-v260/visual-contact-sheet-v260.png",
+    "baseline": "qa-lab/rebuild-v260/full-audit-baseline/"
+  }
+}

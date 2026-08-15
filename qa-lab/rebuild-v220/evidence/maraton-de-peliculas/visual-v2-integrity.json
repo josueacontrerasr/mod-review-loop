@@ -1,0 +1,21 @@
+{
+  "scope": "VISUAL_ONLY",
+  "protected_before": {
+    "chart_sha256": "f4a05c58d24f5996f6b434ccefaef0a2f2dbb1cb9aab3582554c99fe4450dee0",
+    "inst_sha256": "fe40584d050dcdac69eecf89a5b062a7568b2c83984037207ce3efbf5a66c79d"
+  },
+  "protected_after": {
+    "chart_sha256": "f4a05c58d24f5996f6b434ccefaef0a2f2dbb1cb9aab3582554c99fe4450dee0",
+    "inst_sha256": "fe40584d050dcdac69eecf89a5b062a7568b2c83984037207ce3efbf5a66c79d"
+  },
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonMaratonDePeliculasHudV2.hxc",
+    "class": "EsperonMaratonDePeliculasHudV2",
+    "player_character_id": "esperon-maraton-de-peliculas",
+    "opponent_color": "0xFFF5C755",
+    "player_color": "0xFFE5484C",
+    "preview": "images/ui/esperon-maraton-de-peliculas-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "scope": "PRODUCTION_VOCAL_ONLY_RUNTIME_GATE_V261",
+  "executed_at": "2026-08-15T18:13:40.608419+00:00",
+  "target_version": "0.8.6",
+  "mod_version": "2.6.1",
+  "songs": 20,
+  "passed": 20,
+  "status": "PASS",
+  "total_notes_outside_vocal_segments": 0,
+  "total_candidate_metadata_leaked": 0,
+  "total_bad_player_lanes": 0,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "counts": {
+        "easy": 9,
+        "normal": 12,
+        "hard": 17
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "counts": {
+        "easy": 91,
+        "normal": 292,
+        "hard": 482
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "counts": {
+        "easy": 59,
+        "normal": 274,
+        "hard": 468
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "counts": {
+        "easy": 113,
+        "normal": 329,
+        "hard": 520
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "counts": {
+        "easy": 97,
+        "normal": 318,
+        "hard": 497
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "counts": {
+        "easy": 100,
+        "normal": 266,
+        "hard": 431
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "counts": {
+        "easy": 21,
+        "normal": 55,
+        "hard": 87
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "counts": {
+        "easy": 86,
+        "normal": 222,
+        "hard": 343
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "counts": {
+        "easy": 81,
+        "normal": 230,
+        "hard": 342
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "counts": {
+        "easy": 41,
+        "normal": 120,
+        "hard": 191
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "counts": {
+        "easy": 72,
+        "normal": 206,
+        "hard": 311
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "counts": {
+        "easy": 96,
+        "normal": 259,
+        "hard": 403
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "counts": {
+        "easy": 79,
+        "normal": 231,
+        "hard": 370
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "counts": {
+        "easy": 103,
+        "normal": 312,
+        "hard": 499
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "counts": {
+        "easy": 87,
+        "normal": 267,
+        "hard": 430
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "counts": {
+        "easy": 99,
+        "normal": 269,
+        "hard": 402
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "counts": {
+        "easy": 102,
+        "normal": 310,
+        "hard": 498
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "counts": {
+        "easy": 80,
+        "normal": 273,
+        "hard": 420
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "counts": {
+        "easy": 86,
+        "normal": 263,
+        "hard": 407
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "counts": {
+        "easy": 65,
+        "normal": 229,
+        "hard": 387
+      },
+      "outside_vocal_segments": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6",
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "scope": "SYNC_CANDIDATE_INPUT_MANIFEST",
+  "song": "dano",
+  "mod": "esperon-dano-dano",
+  "target_funkin_api": "0.8.6",
+  "final_audio": {
+    "path": "mods/esperon-dano-dano/songs/dano/Inst.ogg",
+    "sha256": "a316e3b7a34445e163c14b766e8788f40f5919319e6d5bbf7bcded6c175ea3ee",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "206.425397"
+      }
+    }
+  },
+  "metadata": {
+    "path": "mods/esperon-dano-dano/data/songs/dano/dano-metadata.json",
+    "sha256": "ba1fcf6ac31939931b792553a1fd8a498c73ade26fb128c7b66788fb5e8a5e81"
+  },
+  "chart": {
+    "path": "mods/esperon-dano-dano/data/songs/dano/dano-chart.json",
+    "sha256": "253acdc83632193b29b51a706a6059b3d0615923afb41165dd003c4934872730"
+  },
+  "vocal_source_status": "UNVERIFIED_NO_DISTRIBUTED_VOCALS_DECLARED",
+  "promotion_rule": "NO_REPLACE_PRODUCTION_CHART_WITHOUT_REVIEWED_ANCHORS_AUDIO_SYNC_TEST_AND_MOBILE_PLAYTEST"
+}

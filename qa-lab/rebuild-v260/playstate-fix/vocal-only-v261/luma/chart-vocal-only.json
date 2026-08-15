@@ -1,0 +1,998 @@
+{
+  "version": "2.0.0",
+  "scrollSpeed": {
+    "easy": 0.9,
+    "normal": 1.0,
+    "hard": 1.12
+  },
+  "events": [],
+  "notes": {
+    "easy": [
+      {
+        "t": 39102.404,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00001"
+      },
+      {
+        "t": 44338.503,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00002"
+      },
+      {
+        "t": 54485.624,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00003"
+      },
+      {
+        "t": 63622.676,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00004"
+      },
+      {
+        "t": 75917.642,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00005"
+      },
+      {
+        "t": 79098.776,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00006"
+      },
+      {
+        "t": 94180.136,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00007"
+      },
+      {
+        "t": 121660.952,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00008"
+      },
+      {
+        "t": 142082.902,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00009"
+      },
+      {
+        "t": 146959.093,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00010"
+      },
+      {
+        "t": 147156.463,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00011"
+      },
+      {
+        "t": 147423.492,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00012"
+      },
+      {
+        "t": 147609.252,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00013"
+      },
+      {
+        "t": 148003.991,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00014"
+      },
+      {
+        "t": 173754.921,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00015"
+      },
+      {
+        "t": 197392.834,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00016"
+      },
+      {
+        "t": 198611.882,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00017"
+      },
+      {
+        "t": 201200.907,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00018"
+      },
+      {
+        "t": 205438.549,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00019"
+      },
+      {
+        "t": 218499.773,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00020"
+      },
+      {
+        "t": 222400.726,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-easy-00021"
+      }
+    ],
+    "normal": [
+      {
+        "t": 14628.571,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00001"
+      },
+      {
+        "t": 39102.404,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00002"
+      },
+      {
+        "t": 44338.503,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00003"
+      },
+      {
+        "t": 44953.832,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00004"
+      },
+      {
+        "t": 46184.49,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00005"
+      },
+      {
+        "t": 46323.81,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00006"
+      },
+      {
+        "t": 53185.306,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00007"
+      },
+      {
+        "t": 53301.406,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00008"
+      },
+      {
+        "t": 54485.624,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00009"
+      },
+      {
+        "t": 54671.383,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00010"
+      },
+      {
+        "t": 57759.637,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00011"
+      },
+      {
+        "t": 57887.347,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00012"
+      },
+      {
+        "t": 58003.447,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00013"
+      },
+      {
+        "t": 61509.66,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00014"
+      },
+      {
+        "t": 61765.079,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00015"
+      },
+      {
+        "t": 63622.676,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00016"
+      },
+      {
+        "t": 64238.005,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00017"
+      },
+      {
+        "t": 75917.642,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00018"
+      },
+      {
+        "t": 79098.776,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00019"
+      },
+      {
+        "t": 88584.127,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00020"
+      },
+      {
+        "t": 89338.776,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00021"
+      },
+      {
+        "t": 94180.136,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00022"
+      },
+      {
+        "t": 111223.583,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00023"
+      },
+      {
+        "t": 121660.952,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00024"
+      },
+      {
+        "t": 126769.342,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00025"
+      },
+      {
+        "t": 128023.22,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00026"
+      },
+      {
+        "t": 133561.179,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00027"
+      },
+      {
+        "t": 135047.256,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00028"
+      },
+      {
+        "t": 135697.415,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00029"
+      },
+      {
+        "t": 135813.515,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00030"
+      },
+      {
+        "t": 138263.22,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00031"
+      },
+      {
+        "t": 138379.32,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00032"
+      },
+      {
+        "t": 141897.143,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00033"
+      },
+      {
+        "t": 142082.902,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00034"
+      },
+      {
+        "t": 146959.093,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00035"
+      },
+      {
+        "t": 147156.463,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00036"
+      },
+      {
+        "t": 147423.492,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00037"
+      },
+      {
+        "t": 147609.252,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00038"
+      },
+      {
+        "t": 147771.791,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00039"
+      },
+      {
+        "t": 148003.991,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00040"
+      },
+      {
+        "t": 173754.921,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00041"
+      },
+      {
+        "t": 190066.939,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00042"
+      },
+      {
+        "t": 193248.073,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00043"
+      },
+      {
+        "t": 197149.025,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00044"
+      },
+      {
+        "t": 197392.834,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00045"
+      },
+      {
+        "t": 198611.882,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00046"
+      },
+      {
+        "t": 200806.168,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00047"
+      },
+      {
+        "t": 201200.907,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00048"
+      },
+      {
+        "t": 205438.549,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00049"
+      },
+      {
+        "t": 218046.984,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00050"
+      },
+      {
+        "t": 218499.773,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00051"
+      },
+      {
+        "t": 219451.791,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00052"
+      },
+      {
+        "t": 222400.726,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00053"
+      },
+      {
+        "t": 224478.912,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00054"
+      },
+      {
+        "t": 224896.871,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-normal-00055"
+      }
+    ],
+    "hard": [
+      {
+        "t": 14628.571,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00001"
+      },
+      {
+        "t": 25704.49,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00002"
+      },
+      {
+        "t": 39102.404,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00003"
+      },
+      {
+        "t": 42132.608,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00004"
+      },
+      {
+        "t": 42910.476,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00005"
+      },
+      {
+        "t": 43154.286,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00006"
+      },
+      {
+        "t": 43932.154,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00007"
+      },
+      {
+        "t": 44338.503,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00008"
+      },
+      {
+        "t": 44953.832,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00009"
+      },
+      {
+        "t": 46184.49,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00010"
+      },
+      {
+        "t": 46323.81,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00011"
+      },
+      {
+        "t": 53185.306,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00012"
+      },
+      {
+        "t": 53301.406,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00013"
+      },
+      {
+        "t": 54485.624,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00014"
+      },
+      {
+        "t": 54671.383,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00015"
+      },
+      {
+        "t": 55472.472,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00016"
+      },
+      {
+        "t": 57759.637,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00017"
+      },
+      {
+        "t": 57887.347,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00018"
+      },
+      {
+        "t": 58003.447,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00019"
+      },
+      {
+        "t": 58804.535,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00020"
+      },
+      {
+        "t": 59895.873,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00021"
+      },
+      {
+        "t": 59977.143,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00022"
+      },
+      {
+        "t": 61509.66,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00023"
+      },
+      {
+        "t": 61765.079,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00024"
+      },
+      {
+        "t": 63251.156,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00025"
+      },
+      {
+        "t": 63541.406,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00026"
+      },
+      {
+        "t": 63622.676,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00027"
+      },
+      {
+        "t": 64238.005,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00028"
+      },
+      {
+        "t": 67767.438,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00029"
+      },
+      {
+        "t": 75917.642,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00030"
+      },
+      {
+        "t": 76289.161,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00031"
+      },
+      {
+        "t": 76382.041,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00032"
+      },
+      {
+        "t": 79098.776,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00033"
+      },
+      {
+        "t": 82094.15,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00034"
+      },
+      {
+        "t": 85797.732,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00035"
+      },
+      {
+        "t": 86018.322,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00036"
+      },
+      {
+        "t": 88584.127,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00037"
+      },
+      {
+        "t": 89257.506,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00038"
+      },
+      {
+        "t": 89338.776,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00039"
+      },
+      {
+        "t": 92519.909,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00040"
+      },
+      {
+        "t": 92636.009,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00041"
+      },
+      {
+        "t": 94180.136,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00042"
+      },
+      {
+        "t": 99044.717,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00043"
+      },
+      {
+        "t": 111223.583,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00044"
+      },
+      {
+        "t": 121660.952,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00045"
+      },
+      {
+        "t": 121742.222,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00046"
+      },
+      {
+        "t": 124331.247,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00047"
+      },
+      {
+        "t": 125190.385,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00048"
+      },
+      {
+        "t": 126769.342,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00049"
+      },
+      {
+        "t": 128023.22,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00050"
+      },
+      {
+        "t": 133561.179,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00051"
+      },
+      {
+        "t": 135047.256,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00052"
+      },
+      {
+        "t": 135697.415,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00053"
+      },
+      {
+        "t": 135813.515,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00054"
+      },
+      {
+        "t": 138263.22,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00055"
+      },
+      {
+        "t": 138379.32,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00056"
+      },
+      {
+        "t": 139180.408,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00057"
+      },
+      {
+        "t": 139911.837,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00058"
+      },
+      {
+        "t": 141897.143,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00059"
+      },
+      {
+        "t": 142082.902,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00060"
+      },
+      {
+        "t": 146959.093,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00061"
+      },
+      {
+        "t": 147156.463,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00062"
+      },
+      {
+        "t": 147423.492,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00063"
+      },
+      {
+        "t": 147609.252,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00064"
+      },
+      {
+        "t": 147771.791,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00065"
+      },
+      {
+        "t": 148003.991,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00066"
+      },
+      {
+        "t": 173754.921,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00067"
+      },
+      {
+        "t": 176727.075,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00068"
+      },
+      {
+        "t": 190066.939,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00069"
+      },
+      {
+        "t": 191111.837,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00070"
+      },
+      {
+        "t": 193248.073,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00071"
+      },
+      {
+        "t": 197149.025,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00072"
+      },
+      {
+        "t": 197299.955,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00073"
+      },
+      {
+        "t": 197392.834,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00074"
+      },
+      {
+        "t": 198472.562,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00075"
+      },
+      {
+        "t": 198611.882,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00076"
+      },
+      {
+        "t": 199761.27,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00077"
+      },
+      {
+        "t": 200806.168,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00078"
+      },
+      {
+        "t": 201200.907,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00079"
+      },
+      {
+        "t": 201282.177,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00080"
+      },
+      {
+        "t": 205438.549,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00081"
+      },
+      {
+        "t": 218046.984,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00082"
+      },
+      {
+        "t": 218499.773,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00083"
+      },
+      {
+        "t": 219451.791,
+        "d": 3,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00084"
+      },
+      {
+        "t": 222400.726,
+        "d": 0,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00085"
+      },
+      {
+        "t": 224478.912,
+        "d": 1,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00086"
+      },
+      {
+        "t": 224896.871,
+        "d": 2,
+        "_source": "voice",
+        "_voice_event_id": "v261-hard-00087"
+      }
+    ]
+  },
+  "candidateOnly": true,
+  "generatedBy": "Vocal-only V2.6.1 backtracked RMS refinement",
+  "sourcePolicy": "NO_INSTRUMENTAL_NOTES"
+}

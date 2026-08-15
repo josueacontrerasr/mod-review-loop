@@ -1,0 +1,21 @@
+{
+  "scope": "VISUAL_ONLY",
+  "protected_before": {
+    "chart_sha256": "fff7dd30d33fa6c83bde8e59bdaf222edd26ba17b2e58df762a3a9a230cdb34c",
+    "inst_sha256": "a316e3b7a34445e163c14b766e8788f40f5919319e6d5bbf7bcded6c175ea3ee"
+  },
+  "protected_after": {
+    "chart_sha256": "fff7dd30d33fa6c83bde8e59bdaf222edd26ba17b2e58df762a3a9a230cdb34c",
+    "inst_sha256": "a316e3b7a34445e163c14b766e8788f40f5919319e6d5bbf7bcded6c175ea3ee"
+  },
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonDanoHudV2.hxc",
+    "class": "EsperonDanoHudV2",
+    "player_character_id": "esperon-dano",
+    "opponent_color": "0xFF558AC2",
+    "player_color": "0xFFD24569",
+    "preview": "images/ui/esperon-dano-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
+}

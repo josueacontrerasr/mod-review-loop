@@ -1,0 +1,21 @@
+{
+  "scope": "VISUAL_ONLY",
+  "protected_before": {
+    "chart_sha256": "e418171dfe4e93b3eabe3862d5a3572bcbff737019043b1bb0fa8d5656f89d28",
+    "inst_sha256": "bf6ef3049d2f3fb97e14bcbd1a53e6783c64fc624d22ba642012acd78fbfbcb6"
+  },
+  "protected_after": {
+    "chart_sha256": "e418171dfe4e93b3eabe3862d5a3572bcbff737019043b1bb0fa8d5656f89d28",
+    "inst_sha256": "bf6ef3049d2f3fb97e14bcbd1a53e6783c64fc624d22ba642012acd78fbfbcb6"
+  },
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonDiasMagicosHudV2.hxc",
+    "class": "EsperonDiasMagicosHudV2",
+    "player_character_id": "esperon-dias-magicos",
+    "opponent_color": "0xFF7BB4FF",
+    "player_color": "0xFFFFCD59",
+    "preview": "images/ui/esperon-dias-magicos-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
+}

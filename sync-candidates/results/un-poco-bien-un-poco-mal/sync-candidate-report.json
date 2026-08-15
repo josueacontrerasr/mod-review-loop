@@ -1,0 +1,60 @@
+{
+  "scope": "AUDIO_SYNC_CANDIDATE_ONLY",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "un-poco-bien-un-poco-mal",
+  "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+  "analysis_mode": "VOCAL_STEM",
+  "audio": {
+    "path": "mods/esperon-dano-un-poco-bien-un-poco-mal/songs/un-poco-bien-un-poco-mal/Inst.ogg",
+    "sha256": "b3122777bc9451ad2b6f07d70e9c82036fb4e64e95dd0f66750425f88b8847f6",
+    "duration_ms": 217617.415,
+    "sample_rate": 22050
+  },
+  "analysis_audio": {
+    "path": "sync-candidates/vocal-stems/un-poco-bien-un-poco-mal/vocals.wav",
+    "sha256": "56f4e62f62788944081913cfc75980277df438c80681edc02743163c4edd036a"
+  },
+  "parameters": {
+    "hop_length": 256,
+    "sample_rate": 22050,
+    "minimum_note_spacing_ms": 150.0
+  },
+  "tempo": {
+    "librosa_beat_bpm": 92.285,
+    "median_beat_interval_bpm": 92.285,
+    "agreement_delta_percent": 0.0
+  },
+  "counts": {
+    "onsets": 416,
+    "beats": 314,
+    "candidate_base_notes": 369,
+    "easy_notes": 185,
+    "normal_notes": 277,
+    "hard_notes": 369
+  },
+  "candidate_self_coherence": {
+    "mean_distance_to_detected_onset_ms": 0.0,
+    "max_distance_to_detected_onset_ms": 0.0
+  },
+  "promotion_blockers": [
+    "El stem separado puede contener sangrado instrumental, coros o artefactos y no identifica por sí solo personaje/strumline.",
+    "Falta Audio Sync Test documentado en Chart Editor.",
+    "Falta playtest documentado en FNF Mobile V-Slice 0.8.6."
+  ],
+  "proposed_metadata_patch": {
+    "timeChanges": [
+      {
+        "t": 0,
+        "b": 0,
+        "bpm": 92.285,
+        "bt": [
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "status": "CANDIDATE_DO_NOT_APPLY_AUTOMATICALLY"
+  }
+}

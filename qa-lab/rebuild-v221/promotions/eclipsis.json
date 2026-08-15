@@ -1,0 +1,67 @@
+{
+  "status": "PROMOTED_WITH_REVIEW_REQUIRED",
+  "song": "eclipsis",
+  "mod": "esperon-dano-eclipsis",
+  "before": {
+    "metadata_sha256": "fb94dc02048ceb1be375592f4653edbf6b6651666fc55a30f5a4371da23d4230",
+    "chart_sha256": "999179c95c8baac795bd166a0be4e04abbd9b315822cda0b599476775b5139c3",
+    "inst_sha256": "91846ef3394e6fc1a070b36defa46305f3bb0885641158db773e7c38fe62cdb1",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "257.091338"
+      }
+    }
+  },
+  "after": {
+    "metadata_sha256": "b581521f95784435cdc0fadd9e49ea7e6e754a3c832938065f75525ff131d7f9",
+    "chart_sha256": "93bb780cfe85ba91a377b07b8ea9534b319163c751ba7c979860ecb776225ad1",
+    "inst_sha256": "0ae33be6f978292d671b2446222c9cefa28cf00b61785956793c548121db0af4",
+    "inst_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "257.091338"
+      }
+    },
+    "voices_sha256": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98",
+    "voices_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "257.091338"
+      }
+    }
+  },
+  "evidence": {
+    "vocal_stem": "sync-candidates/vocal-stems/eclipsis/vocals.wav",
+    "no_vocals": "sync-candidates/vocal-stems/eclipsis/demucs-work/htdemucs/Esperón  Eclipsis (Letra)/no_vocals.wav",
+    "isolated_chart": "sync-candidates/voice-aligned-charts/eclipsis/eclipsis-chart.json",
+    "cross_validation": "qa-lab/rebuild-v221/cross-validation-candidate-summary.json",
+    "reconstruction_audit": "qa-lab/rebuild-v221/demucs-reconstruction-audit.json"
+  },
+  "guarantees": [
+    "No BPM or offset values were changed by this promotion.",
+    "All notes remain on player directions 4..7.",
+    "Audio Sync Test and mobile playtest are still required for a human PASS."
+  ]
+}

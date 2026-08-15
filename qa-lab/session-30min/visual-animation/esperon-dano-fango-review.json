@@ -1,0 +1,84 @@
+{
+  "scope": "ACTIVE_POLISH_VISUAL_REVIEW",
+  "mod": "esperon-dano-fango",
+  "status": "PASS",
+  "coverage": {
+    "pngs": 24,
+    "xmls": 4,
+    "character_pngs": 2,
+    "stage_pngs": 1,
+    "icon_pngs": 2,
+    "ui_pngs": 15,
+    "character_atlases": 2
+  },
+  "budget": {
+    "decoded_rgba_bytes": 12728320,
+    "decoded_rgba_mib": 12.139,
+    "png_source_bytes": 138293,
+    "png_source_mib": 0.132
+  },
+  "atlases": [
+    {
+      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-fango/shared/images/characters/esperon-fango.xml",
+      "frames": 18,
+      "prefixes": [
+        "Down",
+        "DownHold",
+        "Idle",
+        "Left",
+        "LeftHold",
+        "Right",
+        "RightHold",
+        "Up",
+        "UpHold"
+      ]
+    },
+    {
+      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-fango/shared/images/characters/rival-fango.xml",
+      "frames": 18,
+      "prefixes": [
+        "Down",
+        "DownHold",
+        "Idle",
+        "Left",
+        "LeftHold",
+        "Right",
+        "RightHold",
+        "Up",
+        "UpHold"
+      ]
+    },
+    {
+      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-fango/shared/images/notes/esperon-fango-notes-notes.xml",
+      "frames": 4,
+      "prefixes": [
+        "noteDown",
+        "noteLeft",
+        "noteRight",
+        "noteUp"
+      ]
+    },
+    {
+      "path": "/home/ubuntu/mod-review-loop-qa/mods/esperon-dano-fango/shared/images/notes/esperon-fango-notes-strumline.xml",
+      "frames": 12,
+      "prefixes": [
+        "confirmDown",
+        "confirmLeft",
+        "confirmRight",
+        "confirmUp",
+        "pressDown",
+        "pressLeft",
+        "pressRight",
+        "pressUp",
+        "staticDown",
+        "staticLeft",
+        "staticRight",
+        "staticUp"
+      ]
+    }
+  ],
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "static_render_status": "STATIC_RENDER_READY",
+  "mobile_confirmation": "REQUIRED"
+}

@@ -1,0 +1,232 @@
+{
+  "scope": "VOCAL_ONLY_CANDIDATES_V260",
+  "executed_at": "2026-08-15T17:25:36.489395+00:00",
+  "target_version": "0.8.6",
+  "songs": 20,
+  "passed": 20,
+  "status": "PASS_CANDIDATES_ISOLATED",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "onsets": {
+        "easy": 17,
+        "normal": 50,
+        "hard": 56
+      },
+      "source_sha256": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282",
+      "output": "qa-lab/rebuild-v260/vocal-only/arcoloria"
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "onsets": {
+        "easy": 247,
+        "normal": 572,
+        "hard": 731
+      },
+      "source_sha256": "0ec71bd2381a39212b549071a8ba617fd36753b9b0ea5343757d5e6224d745c1",
+      "output": "qa-lab/rebuild-v260/vocal-only/cortamos-y-volvemos"
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "onsets": {
+        "easy": 260,
+        "normal": 601,
+        "hard": 777
+      },
+      "source_sha256": "bcef47cacf8685fd1d0f06918bdf577394cb4537771dc9b0bcf9956a0a4cd253",
+      "output": "qa-lab/rebuild-v260/vocal-only/dano"
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "onsets": {
+        "easy": 249,
+        "normal": 654,
+        "hard": 804
+      },
+      "source_sha256": "96fd2c6aeccdc860a4e519b7bcb2156d723d75934fc6856c4fa766e238350422",
+      "output": "qa-lab/rebuild-v260/vocal-only/dias-magicos"
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "onsets": {
+        "easy": 230,
+        "normal": 611,
+        "hard": 746
+      },
+      "source_sha256": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98",
+      "output": "qa-lab/rebuild-v260/vocal-only/eclipsis"
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "onsets": {
+        "easy": 191,
+        "normal": 518,
+        "hard": 656
+      },
+      "source_sha256": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595",
+      "output": "qa-lab/rebuild-v260/vocal-only/fango"
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "onsets": {
+        "easy": 81,
+        "normal": 247,
+        "hard": 295
+      },
+      "source_sha256": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae",
+      "output": "qa-lab/rebuild-v260/vocal-only/luma"
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "onsets": {
+        "easy": 189,
+        "normal": 529,
+        "hard": 596
+      },
+      "source_sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29",
+      "output": "qa-lab/rebuild-v260/vocal-only/maraton-de-peliculas"
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "onsets": {
+        "easy": 140,
+        "normal": 416,
+        "hard": 506
+      },
+      "source_sha256": "c7b009564ad9e319f244ef9068116e900b19a1e6b963ef9ab92b12d895454968",
+      "output": "qa-lab/rebuild-v260/vocal-only/me-voy-a-morir-si-no-me-besas-ahora-mismo"
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "onsets": {
+        "easy": 110,
+        "normal": 295,
+        "hard": 324
+      },
+      "source_sha256": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387",
+      "output": "qa-lab/rebuild-v260/vocal-only/meteora"
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "onsets": {
+        "easy": 148,
+        "normal": 405,
+        "hard": 506
+      },
+      "source_sha256": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2",
+      "output": "qa-lab/rebuild-v260/vocal-only/mi-hogar"
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "onsets": {
+        "easy": 185,
+        "normal": 520,
+        "hard": 630
+      },
+      "source_sha256": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43",
+      "output": "qa-lab/rebuild-v260/vocal-only/nubia"
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "onsets": {
+        "easy": 155,
+        "normal": 393,
+        "hard": 520
+      },
+      "source_sha256": "20d6a77f8924b647d65e0de5da9a54cf74f0635f1d3de658030a3dc214de303d",
+      "output": "qa-lab/rebuild-v260/vocal-only/nuestro-amor-no-es-normal"
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "onsets": {
+        "easy": 262,
+        "normal": 656,
+        "hard": 804
+      },
+      "source_sha256": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf",
+      "output": "qa-lab/rebuild-v260/vocal-only/peligrosa"
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "onsets": {
+        "easy": 213,
+        "normal": 571,
+        "hard": 693
+      },
+      "source_sha256": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a",
+      "output": "qa-lab/rebuild-v260/vocal-only/rompecabezas"
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "onsets": {
+        "easy": 176,
+        "normal": 465,
+        "hard": 580
+      },
+      "source_sha256": "a52a6af6ccb47ec8124d2761030dd114572bbf03c7416d82fa6eb6b2afc9edf8",
+      "output": "qa-lab/rebuild-v260/vocal-only/solare"
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "onsets": {
+        "easy": 214,
+        "normal": 607,
+        "hard": 756
+      },
+      "source_sha256": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198",
+      "output": "qa-lab/rebuild-v260/vocal-only/tristella"
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "onsets": {
+        "easy": 197,
+        "normal": 522,
+        "hard": 659
+      },
+      "source_sha256": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f",
+      "output": "qa-lab/rebuild-v260/vocal-only/tu-dealer-de-nostalgia"
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "onsets": {
+        "easy": 141,
+        "normal": 455,
+        "hard": 563
+      },
+      "source_sha256": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229",
+      "output": "qa-lab/rebuild-v260/vocal-only/un-poco-bien-un-poco-mal"
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "onsets": {
+        "easy": 167,
+        "normal": 470,
+        "hard": 573
+      },
+      "source_sha256": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14",
+      "output": "qa-lab/rebuild-v260/vocal-only/volver-a-vernos"
+    }
+  ],
+  "instrumental_used_for_generation": false,
+  "promotion": "BLOCKED_UNTIL_PROVENANCE_AND_AUDIO_SYNC_GATES_PASS"
+}

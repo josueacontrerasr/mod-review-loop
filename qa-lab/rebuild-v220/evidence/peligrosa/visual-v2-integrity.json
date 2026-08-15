@@ -1,0 +1,21 @@
+{
+  "scope": "VISUAL_ONLY",
+  "protected_before": {
+    "chart_sha256": "0b0733a6e562f56196bc412ead834f5ec69317e06ac4106f303706e8b6d0db91",
+    "inst_sha256": "6d04a1495947e29eea7b82506095f95294c17e68402bdac95844f5da095501ad"
+  },
+  "protected_after": {
+    "chart_sha256": "0b0733a6e562f56196bc412ead834f5ec69317e06ac4106f303706e8b6d0db91",
+    "inst_sha256": "6d04a1495947e29eea7b82506095f95294c17e68402bdac95844f5da095501ad"
+  },
+  "status": "PASS_NO_MUSICAL_DATA_CHANGED",
+  "healthbar_v2": {
+    "script": "scripts/EsperonPeligrosaHudV2.hxc",
+    "class": "EsperonPeligrosaHudV2",
+    "player_character_id": "esperon-peligrosa",
+    "opponent_color": "0xFFFFB041",
+    "player_color": "0xFFE6444A",
+    "preview": "images/ui/esperon-peligrosa-notes/healthbar-theme.png",
+    "status": "PASS_VISUAL_ONLY"
+  }
+}

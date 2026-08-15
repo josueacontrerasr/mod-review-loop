@@ -1,0 +1,38 @@
+{
+  "scope": "ACTIVE_POLISH_VOICE_CHART_REVIEW",
+  "song": "luma",
+  "mod": "esperon-dano-luma",
+  "audio_duration_ms": 238004.535,
+  "analysis_mode": "VOCAL_STEM",
+  "stem_sha256": "63e63c1951f5b5b53b5b4d3e0b5b09a3c2b4885a057f07b58f7be10f0070aba1",
+  "difficulties": {
+    "easy": {
+      "production_notes": 89,
+      "valid_notes": 89,
+      "candidate_vocal_notes": 201,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 267.03,
+      "within_75ms_of_candidate_percent": 17.978
+    },
+    "normal": {
+      "production_notes": 178,
+      "valid_notes": 178,
+      "candidate_vocal_notes": 301,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 185.76,
+      "within_75ms_of_candidate_percent": 31.461
+    },
+    "hard": {
+      "production_notes": 178,
+      "valid_notes": 178,
+      "candidate_vocal_notes": 401,
+      "invalid_notes": 0,
+      "median_nearest_candidate_ms": 92.88,
+      "within_75ms_of_candidate_percent": 45.506
+    }
+  },
+  "issues": [],
+  "decision": "NO_AUTOMATED_CHANGE",
+  "rationale": "No se encontraron errores estructurales. Las diferencias entre candidato vocal y chart no autorizan mover notas sin Audio Sync Test o anclajes revisados.",
+  "mobile_confirmation": "REQUIRED"
+}
