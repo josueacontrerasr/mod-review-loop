@@ -46,7 +46,8 @@ def one(root,song,round_no):
    break
  return {'song':song,'round':round_no,'files':len(files),'issues':issues,'status':'PASS' if not issues else 'ERROR'}
 def main():
- root=Path('/home/ubuntu/mod-review-loop-production'); rounds=[]
+ import sys
+ root=Path(sys.argv[1] if len(sys.argv)>1 else '.').resolve(); rounds=[]
  for r in range(1,21):
   with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex: rows=list(ex.map(lambda s:one(root,s,r),SONGS))
   rounds.append({'round':r,'status':'PASS' if all(x['status']=='PASS' for x in rows) else 'ERROR','mods':rows}); print(json.dumps({'round':r,'status':rounds[-1]['status'],'files':sum(x['files'] for x in rows)},ensure_ascii=False),flush=True)

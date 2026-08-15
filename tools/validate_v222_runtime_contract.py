@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import concurrent.futures, json, xml.etree.ElementTree as ET
+import concurrent.futures, json, sys, xml.etree.ElementTree as ET
 from pathlib import Path
 SONGS=["arcoloria","cortamos-y-volvemos","dano","dias-magicos","eclipsis","fango","luma","maraton-de-peliculas","me-voy-a-morir-si-no-me-besas-ahora-mismo","meteora","mi-hogar","nubia","nuestro-amor-no-es-normal","peligrosa","rompecabezas","solare","tristella","tu-dealer-de-nostalgia","un-poco-bien-un-poco-mal","volver-a-vernos"]
 def j(p): return json.loads(p.read_text())
@@ -72,7 +72,7 @@ def one(root,s):
  if meta['playData']['characters'].get('playerVocals') and not voices: issues.append('missing_player_voice')
  return {'song':s,'status':'PASS' if not issues else 'ERROR','issues':issues,'stage':stage_id,'characters':chars,'noteStyle':style_id,'album':album_id,'notes':notes_summary,'audio':{'inst':inst,'voices':[v.name for v in voices]}}
 def main():
- root=Path('/home/ubuntu/mod-review-loop-production');
+ root=Path(sys.argv[1] if len(sys.argv)>1 else '.').resolve();
  with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex: rows=sorted(list(ex.map(lambda s:one(root,s),SONGS)),key=lambda x:x['song'])
  payload={'status':'PASS' if all(r['status']=='PASS' for r in rows) else 'ERRORS_FOUND','songs':len(rows),'workers':8,'rows':rows,'runtime_limit':'Static contract/resolution check; native mobile runtime still needs playtest.'}; out=root/'qa-lab/rebuild-v222/runtime-contract-v222.json'; out.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n'); print(json.dumps({'status':payload['status'],'songs':len(rows),'pass':sum(r['status']=='PASS' for r in rows),'errors':sum(r['status']!='PASS' for r in rows),'output':str(out)},ensure_ascii=False)); return 0 if payload['status']=='PASS' else 1
 if __name__=='__main__': raise SystemExit(main())
