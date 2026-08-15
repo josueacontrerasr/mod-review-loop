@@ -1,0 +1,113 @@
+{
+  "scope": "SYNC_CANDIDATE_ISOLATION_VALIDATION",
+  "songs": 20,
+  "passed": 20,
+  "status": "PASS",
+  "reports": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "errors": []
+    }
+  ],
+  "guarantees": [
+    "Los charts candidatos se almacenan fuera de los mods de producción.",
+    "Los hashes de los charts de producción coinciden con el manifiesto de entrada.",
+    "Todos los candidatos mantienen estado MANUAL_REVIEW_REQUIRED."
+  ]
+}

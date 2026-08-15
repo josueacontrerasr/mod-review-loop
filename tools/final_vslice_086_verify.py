@@ -43,7 +43,10 @@ def main() -> int:
             asset_path = data.get('assetPath') or data.get('asset_path')
             if asset_path:
                 normalized_path = str(asset_path).removeprefix('shared:')
-                image_root = mod / 'shared' / 'images' if str(asset_path).startswith('shared:') else mod / 'images'
+                explicit_shared = str(asset_path).startswith('shared:')
+                stage_shared = resource.parent.name == 'stages' and data.get('directory') == 'shared'
+                character_shared = resource.parent.name == 'characters' and (mod / 'shared' / 'images' / f'{normalized_path}.png').is_file()
+                image_root = mod / 'shared' / 'images' if (explicit_shared or stage_shared or character_shared) else mod / 'images'
                 candidate_png = image_root / f'{normalized_path}.png'
                 candidate_xml = image_root / f'{normalized_path}.xml'
                 if not candidate_png.is_file() or not candidate_xml.is_file():
