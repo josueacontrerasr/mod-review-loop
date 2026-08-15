@@ -36,7 +36,14 @@
     "collection_zip": "Mod-Esperon-Coleccion-V2.6.0.zip",
     "old_v251_zips_remaining": 0
   },
-  "status": "READY_FOR_REMOTE_WORKFLOW",
+  "remote_workflow": {
+    "workflow": "qa-vocal-only-v260.yml",
+    "run_id": 31898774095,
+    "head_sha": "91a32efc0b7fd2a0d6f19fd8c9f774186885303a",
+    "status": "success",
+    "artifacts_published": true
+  },
+  "status": "REMOTE_WORKFLOW_PASS",
   "limitations": [
     "FULL_MIX_PROXY is not used for generation, but vocal stems can contain residual bleed.",
     "Audio Sync Test and mobile playtest remain required for perceptual certification.",

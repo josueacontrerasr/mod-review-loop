@@ -56,7 +56,7 @@ La certificación perceptual final sigue requiriendo Audio Sync Test en Chart Ed
 
 ## Decisión
 
-La promoción V2.6.0 queda justificada porque elimina de manera verificable la generación de notas instrumentales y mantiene todos los contratos de runtime. La rama debe someterse al workflow remoto antes de crear el Release. Si el workflow remoto reproduce estos gates con éxito, se puede publicar V2.6.0 con los 21 ZIPs.
+La promoción V2.6.0 queda justificada porque elimina de manera verificable la generación de notas instrumentales y mantiene todos los contratos de runtime. La rama se sometió al workflow remoto `qa-vocal-only-v260.yml` en el run `31898774095`, sobre el commit `91a32efc0b7fd2a0d6f19fd8c9f774186885303a`. El run terminó en `success` y publicó artifacts vocal-only. Con ese gate remoto aprobado, se puede publicar V2.6.0 con los 21 ZIPs.
 
 ## Evidencias principales
 
