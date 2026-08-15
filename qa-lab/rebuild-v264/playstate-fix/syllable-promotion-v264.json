@@ -1,0 +1,323 @@
+{
+  "scope": "V264_SYLLABLE_CHART_PROMOTION",
+  "status": "PASS",
+  "songs": 21,
+  "source": "Whisper small + RMS refinement",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "production_chart": "mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/arcoloria-chart-before-v264.json",
+      "notes": {
+        "easy": 357,
+        "normal": 449,
+        "hard": 696
+      },
+      "old_notes": {
+        "easy": 357,
+        "normal": 449,
+        "hard": 696
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "production_chart": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/cortamos-y-volvemos-chart-before-v264.json",
+      "notes": {
+        "easy": 417,
+        "normal": 647,
+        "hard": 847
+      },
+      "old_notes": {
+        "easy": 417,
+        "normal": 647,
+        "hard": 847
+      }
+    },
+    {
+      "song": "dano",
+      "production_chart": "mods/esperon-dano-dano/data/songs/dano/dano-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/dano-chart-before-v264.json",
+      "notes": {
+        "easy": 470,
+        "normal": 734,
+        "hard": 897
+      },
+      "old_notes": {
+        "easy": 470,
+        "normal": 734,
+        "hard": 897
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "production_chart": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/dias-magicos-chart-before-v264.json",
+      "notes": {
+        "easy": 354,
+        "normal": 461,
+        "hard": 698
+      },
+      "old_notes": {
+        "easy": 354,
+        "normal": 461,
+        "hard": 698
+      }
+    },
+    {
+      "song": "eclipsis",
+      "production_chart": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/eclipsis-chart-before-v264.json",
+      "notes": {
+        "easy": 466,
+        "normal": 612,
+        "hard": 930
+      },
+      "old_notes": {
+        "easy": 466,
+        "normal": 612,
+        "hard": 930
+      }
+    },
+    {
+      "song": "fango",
+      "production_chart": "mods/esperon-dano-fango/data/songs/fango/fango-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/fango-chart-before-v264.json",
+      "notes": {
+        "easy": 440,
+        "normal": 631,
+        "hard": 849
+      },
+      "old_notes": {
+        "easy": 440,
+        "normal": 631,
+        "hard": 849
+      }
+    },
+    {
+      "song": "luma",
+      "production_chart": "mods/esperon-dano-luma/data/songs/luma/luma-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/luma-chart-before-v264.json",
+      "notes": {
+        "easy": 376,
+        "normal": 481,
+        "hard": 740
+      },
+      "old_notes": {
+        "easy": 376,
+        "normal": 481,
+        "hard": 740
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "production_chart": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/maraton-de-peliculas-chart-before-v264.json",
+      "notes": {
+        "easy": 430,
+        "normal": 588,
+        "hard": 832
+      },
+      "old_notes": {
+        "easy": 430,
+        "normal": 588,
+        "hard": 832
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "production_chart": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart-before-v264.json",
+      "notes": {
+        "easy": 241,
+        "normal": 289,
+        "hard": 484
+      },
+      "old_notes": {
+        "easy": 241,
+        "normal": 289,
+        "hard": 484
+      }
+    },
+    {
+      "song": "meteora",
+      "production_chart": "mods/esperon-dano-meteora/data/songs/meteora/meteora-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/meteora-chart-before-v264.json",
+      "notes": {
+        "easy": 397,
+        "normal": 584,
+        "hard": 761
+      },
+      "old_notes": {
+        "easy": 397,
+        "normal": 584,
+        "hard": 761
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "production_chart": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/mi-hogar-chart-before-v264.json",
+      "notes": {
+        "easy": 234,
+        "normal": 325,
+        "hard": 463
+      },
+      "old_notes": {
+        "easy": 234,
+        "normal": 325,
+        "hard": 463
+      }
+    },
+    {
+      "song": "nubia",
+      "production_chart": "mods/esperon-dano-nubia/data/songs/nubia/nubia-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/nubia-chart-before-v264.json",
+      "notes": {
+        "easy": 316,
+        "normal": 411,
+        "hard": 618
+      },
+      "old_notes": {
+        "easy": 316,
+        "normal": 411,
+        "hard": 618
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "production_chart": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/nuestro-amor-no-es-normal-chart-before-v264.json",
+      "notes": {
+        "easy": 255,
+        "normal": 321,
+        "hard": 512
+      },
+      "old_notes": {
+        "easy": 255,
+        "normal": 321,
+        "hard": 512
+      }
+    },
+    {
+      "song": "peligrosa",
+      "production_chart": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/peligrosa-chart-before-v264.json",
+      "notes": {
+        "easy": 450,
+        "normal": 666,
+        "hard": 894
+      },
+      "old_notes": {
+        "easy": 450,
+        "normal": 666,
+        "hard": 894
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "production_chart": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/rompecabezas-chart-before-v264.json",
+      "notes": {
+        "easy": 434,
+        "normal": 591,
+        "hard": 856
+      },
+      "old_notes": {
+        "easy": 434,
+        "normal": 591,
+        "hard": 856
+      }
+    },
+    {
+      "song": "si-te-vas",
+      "production_chart": "mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/si-te-vas-chart-before-v264.json",
+      "notes": {
+        "easy": 351,
+        "normal": 483,
+        "hard": 700
+      },
+      "old_notes": {
+        "easy": 351,
+        "normal": 483,
+        "hard": 700
+      }
+    },
+    {
+      "song": "solare",
+      "production_chart": "mods/esperon-dano-solare/data/songs/solare/solare-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/solare-chart-before-v264.json",
+      "notes": {
+        "easy": 424,
+        "normal": 572,
+        "hard": 820
+      },
+      "old_notes": {
+        "easy": 424,
+        "normal": 572,
+        "hard": 820
+      }
+    },
+    {
+      "song": "tristella",
+      "production_chart": "mods/esperon-dano-tristella/data/songs/tristella/tristella-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/tristella-chart-before-v264.json",
+      "notes": {
+        "easy": 398,
+        "normal": 527,
+        "hard": 781
+      },
+      "old_notes": {
+        "easy": 398,
+        "normal": 527,
+        "hard": 781
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "production_chart": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/tu-dealer-de-nostalgia-chart-before-v264.json",
+      "notes": {
+        "easy": 362,
+        "normal": 509,
+        "hard": 684
+      },
+      "old_notes": {
+        "easy": 362,
+        "normal": 509,
+        "hard": 684
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "production_chart": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/un-poco-bien-un-poco-mal-chart-before-v264.json",
+      "notes": {
+        "easy": 306,
+        "normal": 407,
+        "hard": 591
+      },
+      "old_notes": {
+        "easy": 306,
+        "normal": 407,
+        "hard": 591
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "production_chart": "mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-chart.json",
+      "backup": "qa-lab/rebuild-v264/playstate-fix/production-before-v264/volver-a-vernos-chart-before-v264.json",
+      "notes": {
+        "easy": 434,
+        "normal": 657,
+        "hard": 862
+      },
+      "old_notes": {
+        "easy": 434,
+        "normal": 657,
+        "hard": 862
+      }
+    }
+  ]
+}
