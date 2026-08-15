@@ -1,0 +1,560 @@
+{
+  "status": "PASS",
+  "version": "2.3.0",
+  "songs": 20,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "title": "Arcoloria",
+      "palette": {
+        "primary": "#E960A9",
+        "secondary": "#4BCFBA",
+        "dark": "#282048"
+      },
+      "motif": "arched halo and candles",
+      "youtube_reference": "https://www.youtube.com/watch?v=D8xYouxhoK4",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-arcoloria-art.png",
+        "title": "images/freeplay/albums/esperon-arcoloria-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-arcoloria.png"
+      },
+      "note_style": {
+        "style_id": "esperon-arcoloria-notes",
+        "note_png": "shared/images/notes/esperon-arcoloria-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-arcoloria-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-arcoloria.png",
+        "shared/images/characters/rival-arcoloria.png"
+      ],
+      "stage": "shared/images/stages/escenario-arcoloria.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "title": "Cortamos y Volvemos",
+      "palette": {
+        "primary": "#DD5849",
+        "secondary": "#529AC2",
+        "dark": "#242030"
+      },
+      "motif": "film splice and reconnecting frames",
+      "youtube_reference": "https://www.youtube.com/watch?v=vXjIguLTV6o",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-cortamos-y-volvemos-art.png",
+        "title": "images/freeplay/albums/esperon-cortamos-y-volvemos-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-cortamos-y-volvemos.png"
+      },
+      "note_style": {
+        "style_id": "esperon-cortamos-y-volvemos-notes",
+        "note_png": "shared/images/notes/esperon-cortamos-y-volvemos-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-cortamos-y-volvemos-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-cortamos-y-volvemos.png",
+        "shared/images/characters/rival-cortamos-y-volvemos.png"
+      ],
+      "stage": "shared/images/stages/escenario-cortamos-y-volvemos.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "dano",
+      "title": "Daño",
+      "palette": {
+        "primary": "#D24569",
+        "secondary": "#558AC2",
+        "dark": "#1C182A"
+      },
+      "motif": "cracked neon heart",
+      "youtube_reference": "https://www.youtube.com/watch?v=jf0I4ZfkJKI",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-dano-art.png",
+        "title": "images/freeplay/albums/esperon-dano-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-dano.png"
+      },
+      "note_style": {
+        "style_id": "esperon-dano-notes",
+        "note_png": "shared/images/notes/esperon-dano-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-dano-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-dano.png",
+        "shared/images/characters/rival-dano.png"
+      ],
+      "stage": "shared/images/stages/escenario-dano.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "dias-magicos",
+      "title": "Días Mágicos",
+      "palette": {
+        "primary": "#FFCD59",
+        "secondary": "#7BB4FF",
+        "dark": "#344A80"
+      },
+      "motif": "paper stars and sunrise ribbons",
+      "youtube_reference": "https://www.youtube.com/watch?v=K65c4-MenIY",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-dias-magicos-art.png",
+        "title": "images/freeplay/albums/esperon-dias-magicos-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-dias-magicos.png"
+      },
+      "note_style": {
+        "style_id": "esperon-dias-magicos-notes",
+        "note_png": "shared/images/notes/esperon-dias-magicos-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-dias-magicos-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-dias-magicos.png",
+        "shared/images/characters/rival-dias-magicos.png"
+      ],
+      "stage": "shared/images/stages/escenario-dias-magicos.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "eclipsis",
+      "title": "Eclipsis",
+      "palette": {
+        "primary": "#9060D1",
+        "secondary": "#F7A94F",
+        "dark": "#16152D"
+      },
+      "motif": "eclipse ring and diagonal shadow",
+      "youtube_reference": "https://www.youtube.com/watch?v=6MTptExfQNk",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-eclipsis-art.png",
+        "title": "images/freeplay/albums/esperon-eclipsis-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-eclipsis.png"
+      },
+      "note_style": {
+        "style_id": "esperon-eclipsis-notes",
+        "note_png": "shared/images/notes/esperon-eclipsis-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-eclipsis-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-eclipsis.png",
+        "shared/images/characters/rival-eclipsis.png"
+      ],
+      "stage": "shared/images/stages/escenario-eclipsis.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "fango",
+      "title": "Fango",
+      "palette": {
+        "primary": "#6F9748",
+        "secondary": "#CDA84C",
+        "dark": "#283D2F"
+      },
+      "motif": "wetland ripples and reeds",
+      "youtube_reference": "https://www.youtube.com/watch?v=-WyLZjAcveU",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-fango-art.png",
+        "title": "images/freeplay/albums/esperon-fango-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-fango.png"
+      },
+      "note_style": {
+        "style_id": "esperon-fango-notes",
+        "note_png": "shared/images/notes/esperon-fango-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-fango-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-fango.png",
+        "shared/images/characters/rival-fango.png"
+      ],
+      "stage": "shared/images/stages/escenario-fango.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "luma",
+      "title": "Luma",
+      "palette": {
+        "primary": "#6CEBE7",
+        "secondary": "#F998DE",
+        "dark": "#2A3A70"
+      },
+      "motif": "prism spiral and glowing orbs",
+      "youtube_reference": "https://www.youtube.com/watch?v=L2EmaRBEOx0",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-luma-art.png",
+        "title": "images/freeplay/albums/esperon-luma-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-luma.png"
+      },
+      "note_style": {
+        "style_id": "esperon-luma-notes",
+        "note_png": "shared/images/notes/esperon-luma-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-luma-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-luma.png",
+        "shared/images/characters/rival-luma.png"
+      ],
+      "stage": "shared/images/stages/escenario-luma.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "title": "Maratón de Películas",
+      "palette": {
+        "primary": "#E5484C",
+        "secondary": "#F5C755",
+        "dark": "#2F284C"
+      },
+      "motif": "film reels and theater beam",
+      "youtube_reference": "https://www.youtube.com/watch?v=Ltnh5_ENUj8",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-maraton-de-peliculas-art.png",
+        "title": "images/freeplay/albums/esperon-maraton-de-peliculas-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-maraton-de-peliculas.png"
+      },
+      "note_style": {
+        "style_id": "esperon-maraton-de-peliculas-notes",
+        "note_png": "shared/images/notes/esperon-maraton-de-peliculas-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-maraton-de-peliculas-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-maraton-de-peliculas.png",
+        "shared/images/characters/rival-maraton-de-peliculas.png"
+      ],
+      "stage": "shared/images/stages/escenario-maraton-de-peliculas.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "title": "Me Voy A Morir Si No Me Besas Ahora Mismo",
+      "palette": {
+        "primary": "#9C42E0",
+        "secondary": "#DDB75F",
+        "dark": "#194326"
+      },
+      "motif": "two reaching silhouettes and suspended star",
+      "youtube_reference": "https://www.youtube.com/watch?v=JRysCcNm0Es",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-art.png",
+        "title": "images/freeplay/albums/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-me-voy-a-morir-si-no-me-besas-ahora-mismo.png"
+      },
+      "note_style": {
+        "style_id": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes",
+        "note_png": "shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.png",
+        "shared/images/characters/rival-me-voy-a-morir-si-no-me-besas-ahora-mismo.png"
+      ],
+      "stage": "shared/images/stages/escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "meteora",
+      "title": "Meteora",
+      "palette": {
+        "primary": "#FF7546",
+        "secondary": "#5C65E4",
+        "dark": "#151B43"
+      },
+      "motif": "meteor trails and observatory",
+      "youtube_reference": "https://www.youtube.com/watch?v=-0lfqKeDyl0",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-meteora-art.png",
+        "title": "images/freeplay/albums/esperon-meteora-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-meteora.png"
+      },
+      "note_style": {
+        "style_id": "esperon-meteora-notes",
+        "note_png": "shared/images/notes/esperon-meteora-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-meteora-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-meteora.png",
+        "shared/images/characters/rival-meteora.png"
+      ],
+      "stage": "shared/images/stages/escenario-meteora.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "mi-hogar",
+      "title": "Mi Hogar",
+      "palette": {
+        "primary": "#EE8F4D",
+        "secondary": "#7FBEA2",
+        "dark": "#533C37"
+      },
+      "motif": "warm geometric house and window",
+      "youtube_reference": "https://www.youtube.com/watch?v=jsgxrw4PnNQ",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-mi-hogar-art.png",
+        "title": "images/freeplay/albums/esperon-mi-hogar-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-mi-hogar.png"
+      },
+      "note_style": {
+        "style_id": "esperon-mi-hogar-notes",
+        "note_png": "shared/images/notes/esperon-mi-hogar-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-mi-hogar-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-mi-hogar.png",
+        "shared/images/characters/rival-mi-hogar.png"
+      ],
+      "stage": "shared/images/stages/escenario-mi-hogar.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "nubia",
+      "title": "Nubia",
+      "palette": {
+        "primary": "#70AFE8",
+        "secondary": "#C6B7F5",
+        "dark": "#2A4170"
+      },
+      "motif": "cloud arches and floating city",
+      "youtube_reference": "https://www.youtube.com/watch?v=QPt3bcvn1XA",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-nubia-art.png",
+        "title": "images/freeplay/albums/esperon-nubia-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-nubia.png"
+      },
+      "note_style": {
+        "style_id": "esperon-nubia-notes",
+        "note_png": "shared/images/notes/esperon-nubia-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-nubia-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-nubia.png",
+        "shared/images/characters/rival-nubia.png"
+      ],
+      "stage": "shared/images/stages/escenario-nubia.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "title": "Nuestro Amor No es Normal",
+      "palette": {
+        "primary": "#A442E0",
+        "secondary": "#DDBE5F",
+        "dark": "#194328"
+      },
+      "motif": "mismatched orbiting hearts",
+      "youtube_reference": "https://www.youtube.com/watch?v=B0anw7LDcDU",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-nuestro-amor-no-es-normal-art.png",
+        "title": "images/freeplay/albums/esperon-nuestro-amor-no-es-normal-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-nuestro-amor-no-es-normal.png"
+      },
+      "note_style": {
+        "style_id": "esperon-nuestro-amor-no-es-normal-notes",
+        "note_png": "shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-nuestro-amor-no-es-normal.png",
+        "shared/images/characters/rival-nuestro-amor-no-es-normal.png"
+      ],
+      "stage": "shared/images/stages/escenario-nuestro-amor-no-es-normal.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "peligrosa",
+      "title": "Peligrosa",
+      "palette": {
+        "primary": "#E6444A",
+        "secondary": "#FFB041",
+        "dark": "#331729"
+      },
+      "motif": "blade-petal warning flower",
+      "youtube_reference": "https://www.youtube.com/watch?v=d7jX66W-U98",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-peligrosa-art.png",
+        "title": "images/freeplay/albums/esperon-peligrosa-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-peligrosa.png"
+      },
+      "note_style": {
+        "style_id": "esperon-peligrosa-notes",
+        "note_png": "shared/images/notes/esperon-peligrosa-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-peligrosa-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-peligrosa.png",
+        "shared/images/characters/rival-peligrosa.png"
+      ],
+      "stage": "shared/images/stages/escenario-peligrosa.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "rompecabezas",
+      "title": "Rompecabezas",
+      "palette": {
+        "primary": "#44C1DD",
+        "secondary": "#F9B23D",
+        "dark": "#372C70"
+      },
+      "motif": "four-piece luminous puzzle",
+      "youtube_reference": "https://www.youtube.com/watch?v=p3lnWU23iaU",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-rompecabezas-art.png",
+        "title": "images/freeplay/albums/esperon-rompecabezas-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-rompecabezas.png"
+      },
+      "note_style": {
+        "style_id": "esperon-rompecabezas-notes",
+        "note_png": "shared/images/notes/esperon-rompecabezas-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-rompecabezas-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-rompecabezas.png",
+        "shared/images/characters/rival-rompecabezas.png"
+      ],
+      "stage": "shared/images/stages/escenario-rompecabezas.png",
+      "cover_source_ai": true
+    },
+    {
+      "song": "solare",
+      "title": "Solare",
+      "palette": {
+        "primary": "#F4982A",
+        "secondary": "#284C80",
+        "dark": "#141832"
+      },
+      "motif": "orange sun, blinds and orbital rings",
+      "youtube_reference": "https://www.youtube.com/watch?v=jY3j6tvPXFE",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-solare-art.png",
+        "title": "images/freeplay/albums/esperon-solare-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-solare.png"
+      },
+      "note_style": {
+        "style_id": "esperon-solare-notes",
+        "note_png": "shared/images/notes/esperon-solare-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-solare-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-solare.png",
+        "shared/images/characters/rival-solare.png"
+      ],
+      "stage": "shared/images/stages/escenario-solare.png",
+      "cover_source_ai": false
+    },
+    {
+      "song": "tristella",
+      "title": "Tristella",
+      "palette": {
+        "primary": "#FFCD48",
+        "secondary": "#7E5ED6",
+        "dark": "#231E48"
+      },
+      "motif": "three stars and observatory steps",
+      "youtube_reference": "https://www.youtube.com/watch?v=hQsbS3SMGsg",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-tristella-art.png",
+        "title": "images/freeplay/albums/esperon-tristella-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-tristella.png"
+      },
+      "note_style": {
+        "style_id": "esperon-tristella-notes",
+        "note_png": "shared/images/notes/esperon-tristella-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-tristella-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-tristella.png",
+        "shared/images/characters/rival-tristella.png"
+      ],
+      "stage": "shared/images/stages/escenario-tristella.png",
+      "cover_source_ai": false
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "title": "Tu Dealer de Nostalgia",
+      "palette": {
+        "primary": "#D5746D",
+        "secondary": "#62A7AB",
+        "dark": "#413149"
+      },
+      "motif": "analog cassette archive",
+      "youtube_reference": "https://www.youtube.com/watch?v=szfHM0N-M4Q",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-tu-dealer-de-nostalgia-art.png",
+        "title": "images/freeplay/albums/esperon-tu-dealer-de-nostalgia-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-tu-dealer-de-nostalgia.png"
+      },
+      "note_style": {
+        "style_id": "esperon-tu-dealer-de-nostalgia-notes",
+        "note_png": "shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-tu-dealer-de-nostalgia.png",
+        "shared/images/characters/rival-tu-dealer-de-nostalgia.png"
+      ],
+      "stage": "shared/images/stages/escenario-tu-dealer-de-nostalgia.png",
+      "cover_source_ai": false
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "title": "Un Poco Bien un Poco Mal",
+      "palette": {
+        "primary": "#E06542",
+        "secondary": "#5FDD8B",
+        "dark": "#191B43"
+      },
+      "motif": "split bright and moody landscape",
+      "youtube_reference": "https://www.youtube.com/watch?v=vBZVANTZar4",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-un-poco-bien-un-poco-mal-art.png",
+        "title": "images/freeplay/albums/esperon-un-poco-bien-un-poco-mal-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-un-poco-bien-un-poco-mal.png"
+      },
+      "note_style": {
+        "style_id": "esperon-un-poco-bien-un-poco-mal-notes",
+        "note_png": "shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-un-poco-bien-un-poco-mal.png",
+        "shared/images/characters/rival-un-poco-bien-un-poco-mal.png"
+      ],
+      "stage": "shared/images/stages/escenario-un-poco-bien-un-poco-mal.png",
+      "cover_source_ai": false
+    },
+    {
+      "song": "volver-a-vernos",
+      "title": "Volver a Vernos",
+      "palette": {
+        "primary": "#EF7CB0",
+        "secondary": "#6FA1E5",
+        "dark": "#36305D"
+      },
+      "motif": "reconnecting twilight bridge",
+      "youtube_reference": "https://www.youtube.com/watch?v=58JMohnYhqw",
+      "cover": {
+        "art": "images/freeplay/albums/esperon-volver-a-vernos-art.png",
+        "title": "images/freeplay/albums/esperon-volver-a-vernos-title.png",
+        "source": "qa-lab/rebuild-v230/assets/cover-volver-a-vernos.png"
+      },
+      "note_style": {
+        "style_id": "esperon-volver-a-vernos-notes",
+        "note_png": "shared/images/notes/esperon-volver-a-vernos-notes-notes.png",
+        "strum_png": "shared/images/notes/esperon-volver-a-vernos-notes-strumline.png"
+      },
+      "characters": [
+        "shared/images/characters/esperon-volver-a-vernos.png",
+        "shared/images/characters/rival-volver-a-vernos.png"
+      ],
+      "stage": "shared/images/stages/escenario-volver-a-vernos.png",
+      "cover_source_ai": false
+    }
+  ],
+  "note_frame_size": 128,
+  "character_frame_size": [
+    128,
+    192
+  ],
+  "cover_size": [
+    512,
+    512
+  ],
+  "title_size": [
+    512,
+    128
+  ]
+}

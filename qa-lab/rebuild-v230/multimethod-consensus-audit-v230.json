@@ -1,0 +1,1685 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "song": "arcoloria",
+      "difficulty": "easy",
+      "notes": 43,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 58.05,
+          "within80": 0.953488
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 91.719,
+          "within80": 0.883721
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 215.945,
+          "within80": 0.930233
+        }
+      }
+    },
+    {
+      "song": "arcoloria",
+      "difficulty": "normal",
+      "notes": 85,
+      "multi_method_within80": 0.976471,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 136.998,
+          "within80": 0.905882
+        },
+        "max_gen": {
+          "median": 34.83,
+          "p95": 116.099,
+          "within80": 0.823529
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 229.877,
+          "within80": 0.917647
+        }
+      }
+    },
+    {
+      "song": "arcoloria",
+      "difficulty": "hard",
+      "notes": 115,
+      "multi_method_within80": 0.982609,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 111.456,
+          "within80": 0.921739
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 107.973,
+          "within80": 0.869565
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 171.828,
+          "within80": 0.93913
+        }
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "difficulty": "easy",
+      "notes": 100,
+      "multi_method_within80": 0.99,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 70.24,
+          "within80": 0.95
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 116.1,
+          "within80": 0.84
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 157.315,
+          "within80": 0.86
+        }
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "difficulty": "normal",
+      "notes": 200,
+      "multi_method_within80": 0.995,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 81.27,
+          "within80": 0.945
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 151.511,
+          "within80": 0.8
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 186.921,
+          "within80": 0.86
+        }
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "difficulty": "hard",
+      "notes": 270,
+      "multi_method_within80": 0.992593,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 69.66,
+          "within80": 0.951852
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 150.93,
+          "within80": 0.848148
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 162.54,
+          "within80": 0.877778
+        }
+      }
+    },
+    {
+      "song": "dano",
+      "difficulty": "easy",
+      "notes": 110,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 20.317,
+          "p95": 58.05,
+          "within80": 0.972727
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 122.485,
+          "within80": 0.854545
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 58.05,
+          "within80": 0.963636
+        }
+      }
+    },
+    {
+      "song": "dano",
+      "difficulty": "normal",
+      "notes": 220,
+      "multi_method_within80": 0.995455,
+      "methods": {
+        "mean_gen": {
+          "median": 14.513,
+          "p95": 58.049,
+          "within80": 0.977273
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 128.29,
+          "within80": 0.813636
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.995455
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 104.489,
+          "within80": 0.931818
+        }
+      }
+    },
+    {
+      "song": "dano",
+      "difficulty": "hard",
+      "notes": 297,
+      "multi_method_within80": 0.996633,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 58.05,
+          "within80": 0.983165
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 127.709,
+          "within80": 0.861953
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.996633
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 92.88,
+          "within80": 0.936027
+        }
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "difficulty": "easy",
+      "notes": 95,
+      "multi_method_within80": 0.989474,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 73.143,
+          "within80": 0.947368
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 123.066,
+          "within80": 0.789474
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 26.703,
+          "within80": 0.989474
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 406.349,
+          "within80": 0.768421
+        }
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "difficulty": "normal",
+      "notes": 189,
+      "multi_method_within80": 0.989418,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 69.66,
+          "within80": 0.957672
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 146.286,
+          "within80": 0.798942
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 18.576,
+          "within80": 0.994709
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 568.889,
+          "within80": 0.724868
+        }
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "difficulty": "hard",
+      "notes": 255,
+      "multi_method_within80": 0.992157,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 69.66,
+          "within80": 0.964706
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 107.973,
+          "within80": 0.847059
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.996078
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 441.179,
+          "within80": 0.760784
+        }
+      }
+    },
+    {
+      "song": "eclipsis",
+      "difficulty": "easy",
+      "notes": 60,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 11.61,
+          "p95": 70.821,
+          "within80": 0.95
+        },
+        "max_gen": {
+          "median": 29.025,
+          "p95": 116.681,
+          "within80": 0.733333
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 47.021,
+          "within80": 1.0
+        }
+      }
+    },
+    {
+      "song": "eclipsis",
+      "difficulty": "normal",
+      "notes": 119,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 81.269,
+          "within80": 0.941176
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 105.651,
+          "within80": 0.823529
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 69.66,
+          "within80": 0.957983
+        }
+      }
+    },
+    {
+      "song": "eclipsis",
+      "difficulty": "hard",
+      "notes": 161,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 69.66,
+          "within80": 0.956522
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 104.49,
+          "within80": 0.863354
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.993789
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 69.659,
+          "within80": 0.962733
+        }
+      }
+    },
+    {
+      "song": "fango",
+      "difficulty": "easy",
+      "notes": 71,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 58.05,
+          "within80": 0.985915
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 127.71,
+          "within80": 0.873239
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 5.805,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 232.2,
+          "within80": 0.929577
+        }
+      }
+    },
+    {
+      "song": "fango",
+      "difficulty": "normal",
+      "notes": 141,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 58.05,
+          "within80": 0.992908
+        },
+        "max_gen": {
+          "median": 11.61,
+          "p95": 127.71,
+          "within80": 0.87234
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 197.37,
+          "within80": 0.929078
+        }
+      }
+    },
+    {
+      "song": "fango",
+      "difficulty": "hard",
+      "notes": 190,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 58.05,
+          "within80": 0.989474
+        },
+        "max_gen": {
+          "median": 17.415,
+          "p95": 116.1,
+          "within80": 0.905263
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 132.354,
+          "within80": 0.931579
+        }
+      }
+    },
+    {
+      "song": "luma",
+      "difficulty": "easy",
+      "notes": 48,
+      "multi_method_within80": 0.916667,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 274.576,
+          "within80": 0.833333
+        },
+        "max_gen": {
+          "median": 34.83,
+          "p95": 196.789,
+          "within80": 0.708333
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 30.766,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 679.764,
+          "within80": 0.75
+        }
+      }
+    },
+    {
+      "song": "luma",
+      "difficulty": "normal",
+      "notes": 96,
+      "multi_method_within80": 0.9375,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 223.492,
+          "within80": 0.864583
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 182.857,
+          "within80": 0.760417
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 380.227,
+          "within80": 0.770833
+        }
+      }
+    },
+    {
+      "song": "luma",
+      "difficulty": "hard",
+      "notes": 130,
+      "multi_method_within80": 0.953846,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 188.081,
+          "within80": 0.892308
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 150.929,
+          "within80": 0.807692
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 331.465,
+          "within80": 0.807692
+        }
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "difficulty": "easy",
+      "notes": 60,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 58.049,
+          "within80": 0.983333
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 209.56,
+          "within80": 0.9
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 34.83,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 189.243,
+          "within80": 0.933333
+        }
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "difficulty": "normal",
+      "notes": 119,
+      "multi_method_within80": 0.991597,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 58.049,
+          "within80": 0.966387
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 132.354,
+          "within80": 0.865546
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 24.381,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 154.413,
+          "within80": 0.915966
+        }
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "difficulty": "hard",
+      "notes": 161,
+      "multi_method_within80": 0.993789,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 69.66,
+          "within80": 0.968944
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 104.49,
+          "within80": 0.900621
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 23.22,
+          "within80": 0.993789
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 150.93,
+          "within80": 0.925466
+        }
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "difficulty": "easy",
+      "notes": 55,
+      "multi_method_within80": 0.981818,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 99.846,
+          "within80": 0.927273
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 96.363,
+          "within80": 0.872727
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 393.578,
+          "within80": 0.8
+        }
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "difficulty": "normal",
+      "notes": 109,
+      "multi_method_within80": 0.981651,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 69.66,
+          "within80": 0.954128
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 127.709,
+          "within80": 0.825688
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 301.859,
+          "within80": 0.816514
+        }
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "difficulty": "hard",
+      "notes": 147,
+      "multi_method_within80": 0.979592,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 85.914,
+          "within80": 0.945578
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 124.227,
+          "within80": 0.85034
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.986395
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 298.376,
+          "within80": 0.85034
+        }
+      }
+    },
+    {
+      "song": "meteora",
+      "difficulty": "easy",
+      "notes": 36,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.219,
+          "p95": 104.49,
+          "within80": 0.916667
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 200.272,
+          "within80": 0.694444
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 23.22,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 412.154,
+          "within80": 0.888889
+        }
+      }
+    },
+    {
+      "song": "meteora",
+      "difficulty": "normal",
+      "notes": 72,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.219,
+          "p95": 46.44,
+          "within80": 0.958333
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 160.218,
+          "within80": 0.722222
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 23.22,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 342.494,
+          "within80": 0.861111
+        }
+      }
+    },
+    {
+      "song": "meteora",
+      "difficulty": "hard",
+      "notes": 97,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 48.762,
+          "within80": 0.969072
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 130.032,
+          "within80": 0.773196
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 23.22,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 169.506,
+          "within80": 0.886598
+        }
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "difficulty": "easy",
+      "notes": 65,
+      "multi_method_within80": 0.969231,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 78.947,
+          "within80": 0.938462
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 125.387,
+          "within80": 0.784615
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 160.218,
+          "within80": 0.815385
+        }
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "difficulty": "normal",
+      "notes": 129,
+      "multi_method_within80": 0.984496,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 76.626,
+          "within80": 0.945736
+        },
+        "max_gen": {
+          "median": 34.83,
+          "p95": 157.896,
+          "within80": 0.751938
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.992248
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 162.54,
+          "within80": 0.868217
+        }
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "difficulty": "hard",
+      "notes": 174,
+      "multi_method_within80": 0.988506,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 62.114,
+          "within80": 0.95977
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 135.837,
+          "within80": 0.816092
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.994253
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 150.93,
+          "within80": 0.885057
+        }
+      }
+    },
+    {
+      "song": "nubia",
+      "difficulty": "easy",
+      "notes": 56,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 17.415,
+          "p95": 49.343,
+          "within80": 0.964286
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 185.76,
+          "within80": 0.821429
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 1.452,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 29.025,
+          "p95": 394.74,
+          "within80": 0.714286
+        }
+      }
+    },
+    {
+      "song": "nubia",
+      "difficulty": "normal",
+      "notes": 111,
+      "multi_method_within80": 0.981982,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 203.174,
+          "within80": 0.90991
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 203.174,
+          "within80": 0.783784
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 388.934,
+          "within80": 0.792793
+        }
+      }
+    },
+    {
+      "song": "nubia",
+      "difficulty": "hard",
+      "notes": 150,
+      "multi_method_within80": 0.986667,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 116.1,
+          "within80": 0.933333
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 185.76,
+          "within80": 0.833333
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 377.904,
+          "within80": 0.84
+        }
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "difficulty": "easy",
+      "notes": 66,
+      "multi_method_within80": 0.969697,
+      "methods": {
+        "mean_gen": {
+          "median": 23.219,
+          "p95": 121.905,
+          "within80": 0.924242
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 113.197,
+          "within80": 0.712121
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 23.22,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 362.812,
+          "within80": 0.818182
+        }
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "difficulty": "normal",
+      "notes": 132,
+      "multi_method_within80": 0.977273,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 114.939,
+          "within80": 0.939394
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 116.1,
+          "within80": 0.734848
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 406.349,
+          "within80": 0.810606
+        }
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "difficulty": "hard",
+      "notes": 178,
+      "multi_method_within80": 0.983146,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 71.402,
+          "within80": 0.949438
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 104.49,
+          "within80": 0.786517
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.994382
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 361.651,
+          "within80": 0.853933
+        }
+      }
+    },
+    {
+      "song": "peligrosa",
+      "difficulty": "easy",
+      "notes": 99,
+      "multi_method_within80": 0.989899,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 58.05,
+          "within80": 0.979798
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 140.48,
+          "within80": 0.838384
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 339.011,
+          "within80": 0.747475
+        }
+      }
+    },
+    {
+      "song": "peligrosa",
+      "difficulty": "normal",
+      "notes": 197,
+      "multi_method_within80": 0.994924,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 58.05,
+          "within80": 0.984772
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 127.71,
+          "within80": 0.86802
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.994924
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 359.909,
+          "within80": 0.756345
+        }
+      }
+    },
+    {
+      "song": "peligrosa",
+      "difficulty": "hard",
+      "notes": 266,
+      "multi_method_within80": 0.996241,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 58.05,
+          "within80": 0.984962
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 116.1,
+          "within80": 0.898496
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.996241
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 325.079,
+          "within80": 0.793233
+        }
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "difficulty": "easy",
+      "notes": 52,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 11.61,
+          "p95": 58.05,
+          "within80": 0.980769
+        },
+        "max_gen": {
+          "median": 11.61,
+          "p95": 109.714,
+          "within80": 0.846154
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 16.835,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 208.979,
+          "within80": 0.769231
+        }
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "difficulty": "normal",
+      "notes": 103,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 11.61,
+          "p95": 58.05,
+          "within80": 0.970874
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 138.158,
+          "within80": 0.825243
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 318.113,
+          "within80": 0.815534
+        }
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "difficulty": "hard",
+      "notes": 139,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 17.415,
+          "p95": 58.05,
+          "within80": 0.971223
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 117.26,
+          "within80": 0.870504
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 371.519,
+          "within80": 0.827338
+        }
+      }
+    },
+    {
+      "song": "solare",
+      "difficulty": "easy",
+      "notes": 60,
+      "multi_method_within80": 0.95,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 142.223,
+          "within80": 0.883333
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 119.583,
+          "within80": 0.733333
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 12.191,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 383.129,
+          "within80": 0.783333
+        }
+      }
+    },
+    {
+      "song": "solare",
+      "difficulty": "normal",
+      "notes": 119,
+      "multi_method_within80": 0.97479,
+      "methods": {
+        "mean_gen": {
+          "median": 23.219,
+          "p95": 105.651,
+          "within80": 0.92437
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 128.871,
+          "within80": 0.756303
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.983193
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 348.299,
+          "within80": 0.798319
+        }
+      }
+    },
+    {
+      "song": "solare",
+      "difficulty": "hard",
+      "notes": 161,
+      "multi_method_within80": 0.981366,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 81.27,
+          "within80": 0.937888
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 116.1,
+          "within80": 0.807453
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.981366
+        },
+        "verify_44k": {
+          "median": 34.829,
+          "p95": 325.079,
+          "within80": 0.838509
+        }
+      }
+    },
+    {
+      "song": "tristella",
+      "difficulty": "easy",
+      "notes": 64,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 58.05,
+          "within80": 1.0
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 127.71,
+          "within80": 0.828125
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 9.869,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 233.36,
+          "within80": 0.90625
+        }
+      }
+    },
+    {
+      "song": "tristella",
+      "difficulty": "normal",
+      "notes": 127,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 11.61,
+          "p95": 58.05,
+          "within80": 0.992126
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 139.32,
+          "within80": 0.811024
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 149.768,
+          "within80": 0.937008
+        }
+      }
+    },
+    {
+      "song": "tristella",
+      "difficulty": "hard",
+      "notes": 171,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.219,
+          "p95": 58.05,
+          "within80": 0.988304
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 127.71,
+          "within80": 0.842105
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 133.514,
+          "within80": 0.918129
+        }
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "difficulty": "easy",
+      "notes": 93,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 51.084,
+          "within80": 1.0
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 127.71,
+          "within80": 0.784946
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 218.268,
+          "within80": 0.913978
+        }
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "difficulty": "normal",
+      "notes": 186,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 11.61,
+          "p95": 46.44,
+          "within80": 1.0
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 139.32,
+          "within80": 0.768817
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 226.395,
+          "within80": 0.892473
+        }
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "difficulty": "hard",
+      "notes": 251,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 46.44,
+          "within80": 1.0
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 139.32,
+          "within80": 0.824701
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 23.22,
+          "p95": 162.54,
+          "within80": 0.916335
+        }
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "difficulty": "easy",
+      "notes": 35,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 80.109,
+          "within80": 0.942857
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 130.032,
+          "within80": 0.828571
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 26.703,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 128.871,
+          "within80": 0.942857
+        }
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "difficulty": "normal",
+      "notes": 69,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 69.66,
+          "within80": 0.956522
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 148.607,
+          "within80": 0.753623
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 23.22,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 139.32,
+          "within80": 0.942029
+        }
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "difficulty": "hard",
+      "notes": 93,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 69.66,
+          "within80": 0.956989
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 120.744,
+          "within80": 0.806452
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 23.22,
+          "within80": 1.0
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 69.66,
+          "within80": 0.956989
+        }
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "difficulty": "easy",
+      "notes": 38,
+      "multi_method_within80": 1.0,
+      "methods": {
+        "mean_gen": {
+          "median": 17.415,
+          "p95": 96.363,
+          "within80": 0.921053
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 109.715,
+          "within80": 0.763158
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 13.352,
+          "within80": 0.973684
+        },
+        "verify_44k": {
+          "median": 29.025,
+          "p95": 151.51,
+          "within80": 0.921053
+        }
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "difficulty": "normal",
+      "notes": 75,
+      "multi_method_within80": 0.986667,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 134.676,
+          "within80": 0.88
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 116.1,
+          "within80": 0.746667
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.986667
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 163.7,
+          "within80": 0.933333
+        }
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "difficulty": "hard",
+      "notes": 101,
+      "multi_method_within80": 0.990099,
+      "methods": {
+        "mean_gen": {
+          "median": 23.22,
+          "p95": 127.71,
+          "within80": 0.910891
+        },
+        "max_gen": {
+          "median": 23.22,
+          "p95": 116.1,
+          "within80": 0.811881
+        },
+        "median_repair": {
+          "median": 0.0,
+          "p95": 11.61,
+          "within80": 0.990099
+        },
+        "verify_44k": {
+          "median": 34.83,
+          "p95": 69.66,
+          "within80": 0.950495
+        }
+      }
+    }
+  ]
+}

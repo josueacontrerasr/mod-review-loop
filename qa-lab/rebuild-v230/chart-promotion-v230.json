@@ -1,0 +1,488 @@
+{
+  "status": "PASS",
+  "version": "2.3.0",
+  "songs": 20,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "production_chart": "mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/arcoloria/arcoloria-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/arcoloria/arcoloria-chart-v222.json",
+      "before_sha256": "3d5d1387820f572530b448f482643cc50741435e40f75750f0a94524f688fa1d",
+      "after_sha256": "b716a4d9305f43115512b793163fa39fbb55dce993a4879d6d63e054d3d4771c",
+      "inst_sha256": "c9d6043842dbfb735102809f4d9860263249f2915703c74b2539b09421763437",
+      "voices_sha256": {
+        "Voices-esperon-arcoloria.ogg": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282"
+      },
+      "notes": {
+        "easy": 43,
+        "normal": 85,
+        "hard": 115
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "production_chart": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/cortamos-y-volvemos/cortamos-y-volvemos-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/cortamos-y-volvemos/cortamos-y-volvemos-chart-v222.json",
+      "before_sha256": "50ce2556e9501d354a9025125633b66bfc49bf2e0903ade5e21469629d64f459",
+      "after_sha256": "ee0cbbd50bb63bd1ac2de02db195475338e2ae74906281c7019e75d64182bb75",
+      "inst_sha256": "d7ad308125b558ead8cf26daa7d8890fd5c7da8f88524db2213fba77b71bdf98",
+      "voices_sha256": {
+        "Voices-esperon-cortamos-y-volvemos.ogg": "0ec71bd2381a39212b549071a8ba617fd36753b9b0ea5343757d5e6224d745c1"
+      },
+      "notes": {
+        "easy": 100,
+        "normal": 200,
+        "hard": 270
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "dano",
+      "production_chart": "mods/esperon-dano-dano/data/songs/dano/dano-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/dano/dano-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/dano/dano-chart-v222.json",
+      "before_sha256": "66de6401eea8495ffb36d807d89d65d53ac029fdb33790f5f3c8be3d22aecc8b",
+      "after_sha256": "2ba84723ff0fcef0ee5ecd332d8fbb5bd6ef682cb2822a5a9feeed7a6dd26431",
+      "inst_sha256": "1cd2bca7478ff391d95def339185125e2d5bd2a4bdeb28846610059ebe609824",
+      "voices_sha256": {
+        "Voices-esperon-dano.ogg": "bcef47cacf8685fd1d0f06918bdf577394cb4537771dc9b0bcf9956a0a4cd253"
+      },
+      "notes": {
+        "easy": 110,
+        "normal": 220,
+        "hard": 297
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "dias-magicos",
+      "production_chart": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/dias-magicos/dias-magicos-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/dias-magicos/dias-magicos-chart-v222.json",
+      "before_sha256": "28fa5142bc220024c3819925c89c5b1e19127338f7930187b8fa18626b8a44d4",
+      "after_sha256": "9958ac6351980628554c717bc960a62df18496c7827a0181154de90c1f646f74",
+      "inst_sha256": "b4ceae0d92b042011f30aeee561ad912cad76457708641ade711e2ff90bb45e8",
+      "voices_sha256": {
+        "Voices-esperon-dias-magicos.ogg": "96fd2c6aeccdc860a4e519b7bcb2156d723d75934fc6856c4fa766e238350422"
+      },
+      "notes": {
+        "easy": 95,
+        "normal": 189,
+        "hard": 255
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "eclipsis",
+      "production_chart": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/eclipsis/eclipsis-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/eclipsis/eclipsis-chart-v222.json",
+      "before_sha256": "a13c04247a1eb7339f5340fb2f56803eec71f74c55b7b05815dff593d27f548f",
+      "after_sha256": "77bd0e678b7e1f9728b8c4a6f0eaf49736a9e8c75a3006c4c2e1142afe20794c",
+      "inst_sha256": "0ae33be6f978292d671b2446222c9cefa28cf00b61785956793c548121db0af4",
+      "voices_sha256": {
+        "Voices-esperon-eclipsis.ogg": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98"
+      },
+      "notes": {
+        "easy": 60,
+        "normal": 119,
+        "hard": 161
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "fango",
+      "production_chart": "mods/esperon-dano-fango/data/songs/fango/fango-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/fango/fango-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/fango/fango-chart-v222.json",
+      "before_sha256": "14d72586c2dd0393e5e21a17bd182faf323ae3f7753b5bad346331f22c1d645c",
+      "after_sha256": "d8783804d14e41268bd5720329dd0ca983ac08bbca0dc803097ce27d2cf9f367",
+      "inst_sha256": "40a0f3d26913562278893293d0f679b587c9b803be704573eafc79140060e628",
+      "voices_sha256": {
+        "Voices-esperon-fango.ogg": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595"
+      },
+      "notes": {
+        "easy": 71,
+        "normal": 141,
+        "hard": 190
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "luma",
+      "production_chart": "mods/esperon-dano-luma/data/songs/luma/luma-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/luma/luma-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/luma/luma-chart-v222.json",
+      "before_sha256": "e91bf4af3b0ab17f0ddd887f865435bd9eb5f892c1e25b2b49f720aa1cecf57c",
+      "after_sha256": "5b18b8a91df7d696467d04d53f67475c198195a715af64c1f2cd027bbd11635c",
+      "inst_sha256": "ea04b8654bc702ed1e4db2c2f582dc774026fea9da199d018a97c42c6494f3b9",
+      "voices_sha256": {
+        "Voices-esperon-luma.ogg": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae"
+      },
+      "notes": {
+        "easy": 48,
+        "normal": 96,
+        "hard": 130
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "production_chart": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/maraton-de-peliculas/maraton-de-peliculas-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/maraton-de-peliculas/maraton-de-peliculas-chart-v222.json",
+      "before_sha256": "e7b36954b22211d6aca7e7529fe4fba9583f2ebb3941467c7aae86a036b159a1",
+      "after_sha256": "58bf338518cf6b00e1c08d9b18e88dfa2b5a86ff3018382c845245f3c8b21525",
+      "inst_sha256": "f4347aa912ef3419bb38edc14e43866223b2ea069071b449dae7d6bde8d0eb6a",
+      "voices_sha256": {
+        "Voices-esperon-maraton-de-peliculas.ogg": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29"
+      },
+      "notes": {
+        "easy": 60,
+        "normal": 119,
+        "hard": 161
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "production_chart": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart-v222.json",
+      "before_sha256": "4e5f65378af97207066f39b631939e1722de399396f7f3dbe705d0da1240ecaf",
+      "after_sha256": "aec0783ab16e887cc0fbe8f3357b705aad0a1197466c1293c78ee7353c37ae9d",
+      "inst_sha256": "dcdf0c71bae7ad7963915f0197c13249d368e6fde92f471646b9dd463c89bec1",
+      "voices_sha256": {
+        "Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg": "c7b009564ad9e319f244ef9068116e900b19a1e6b963ef9ab92b12d895454968"
+      },
+      "notes": {
+        "easy": 55,
+        "normal": 109,
+        "hard": 147
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "meteora",
+      "production_chart": "mods/esperon-dano-meteora/data/songs/meteora/meteora-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/meteora/meteora-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/meteora/meteora-chart-v222.json",
+      "before_sha256": "17fe96d0d0be04152cb07a4c7ccb71c39593dfadd3d6fcc6677bc849c31e32a5",
+      "after_sha256": "b22d76de8858ea26e691a0b21b4b017e9dc630af666cf3f7e57bd88369e4e8de",
+      "inst_sha256": "4b18e19fa889a5a1e598e33592eff10aa2f6dd6fc1c07b008cea52ddaf1f3925",
+      "voices_sha256": {
+        "Voices-esperon-meteora.ogg": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387"
+      },
+      "notes": {
+        "easy": 36,
+        "normal": 72,
+        "hard": 97
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "mi-hogar",
+      "production_chart": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/mi-hogar/mi-hogar-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/mi-hogar/mi-hogar-chart-v222.json",
+      "before_sha256": "81bd48d49ab2c11241a16a77d4f675e783947fe75bf5f8fd4596cfc9e5c2b81d",
+      "after_sha256": "2326986407cc16dd433c9405b6c6f81711d1e4fef72f12cfbd103ebeaf6398d5",
+      "inst_sha256": "8fd9014f4a0e01e2a400fdbe93f2432daa2548a322dd8ffccae54e70681a0fe3",
+      "voices_sha256": {
+        "Voices-esperon-mi-hogar.ogg": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2"
+      },
+      "notes": {
+        "easy": 65,
+        "normal": 129,
+        "hard": 174
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "nubia",
+      "production_chart": "mods/esperon-dano-nubia/data/songs/nubia/nubia-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/nubia/nubia-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/nubia/nubia-chart-v222.json",
+      "before_sha256": "f12a5d37187748a40613438bb0fe9bbfcb298a7c7c98755157b70860cc5b68dd",
+      "after_sha256": "0a44679c3411eb7f529b7fd416f106f2efc7573290aef3422d22332754e9c36e",
+      "inst_sha256": "63a36b6d167b033b8ee2b51d71975d47183e562e1a8f176f134ce129a52caab2",
+      "voices_sha256": {
+        "Voices-esperon-nubia.ogg": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43"
+      },
+      "notes": {
+        "easy": 56,
+        "normal": 111,
+        "hard": 150
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "production_chart": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart-v222.json",
+      "before_sha256": "7291af59ae4104de2a184963b5ed8c45dc529047cb3105ac931792f2d331d0b7",
+      "after_sha256": "562d64995c6bb7eb06d2777b5dfb6c0b77abcf09a57daf5aa9256762a45ac48e",
+      "inst_sha256": "bf3372ba6bb1eb04250fee475b93751afc4473d7416fa28a77bbd7b03dae570d",
+      "voices_sha256": {
+        "Voices-esperon-nuestro-amor-no-es-normal.ogg": "20d6a77f8924b647d65e0de5da9a54cf74f0635f1d3de658030a3dc214de303d"
+      },
+      "notes": {
+        "easy": 66,
+        "normal": 132,
+        "hard": 178
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "peligrosa",
+      "production_chart": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/peligrosa/peligrosa-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/peligrosa/peligrosa-chart-v222.json",
+      "before_sha256": "02add740184fba8ca740b9313da673348e4b29ca47359a7cb4b95d115fdbfa9a",
+      "after_sha256": "96a9358183123e5356aa0169e810355c3ef48e84865658b2d2351f17ea859bd6",
+      "inst_sha256": "eedc916dbadc5510a2044521a081f476dfba9cb12f5bd2aa08552b819e1eb4a3",
+      "voices_sha256": {
+        "Voices-esperon-peligrosa.ogg": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf"
+      },
+      "notes": {
+        "easy": 99,
+        "normal": 197,
+        "hard": 266
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "rompecabezas",
+      "production_chart": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/rompecabezas/rompecabezas-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/rompecabezas/rompecabezas-chart-v222.json",
+      "before_sha256": "86807980b33da5fd88929d18fe1293004221ff70f8ca9a2628ffefe03269a678",
+      "after_sha256": "2ba83b91966492a71123616ad1e34c36d2845ec0cee89b474836c4a7c4c9cc65",
+      "inst_sha256": "bc393a00dbf9aa19df07d4cdc218eb8587fd1770a3b446feba7dd31c0e06c3a4",
+      "voices_sha256": {
+        "Voices-esperon-rompecabezas.ogg": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a"
+      },
+      "notes": {
+        "easy": 52,
+        "normal": 103,
+        "hard": 139
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "solare",
+      "production_chart": "mods/esperon-dano-solare/data/songs/solare/solare-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/solare/solare-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/solare/solare-chart-v222.json",
+      "before_sha256": "f88c881692289f039d5ad59b2b828b62bf039becc99235910b7861be9ed584c2",
+      "after_sha256": "16cf472aacdb81d1d130d3145c95afc058d5143b56b5ec1c92dc18d58cdd93d9",
+      "inst_sha256": "4efc709fbac7b515da7a3f486dc6f87e314b73b1bf1165f95a2117cd896da4bb",
+      "voices_sha256": {
+        "Voices-esperon-solare.ogg": "a52a6af6ccb47ec8124d2761030dd114572bbf03c7416d82fa6eb6b2afc9edf8"
+      },
+      "notes": {
+        "easy": 60,
+        "normal": 119,
+        "hard": 161
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "tristella",
+      "production_chart": "mods/esperon-dano-tristella/data/songs/tristella/tristella-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/tristella/tristella-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/tristella/tristella-chart-v222.json",
+      "before_sha256": "502dc8d3f3c193337b4f67dedafd270348d8f9053478177d6477c58d56a03737",
+      "after_sha256": "1586733f9c921b8f4d1d6f074afab2322e1d36cfd9f862a33b7735c1a18bf084",
+      "inst_sha256": "a73be0c622e3bf6ba03ac4c7f76e0824cec099a3f8c1df4211cee79904418a9e",
+      "voices_sha256": {
+        "Voices-esperon-tristella.ogg": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198"
+      },
+      "notes": {
+        "easy": 64,
+        "normal": 127,
+        "hard": 171
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "production_chart": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart-v222.json",
+      "before_sha256": "eb18a5b1315d52a4e285d0c58a2e49292721529c00c4c7f6c20dc39f1cfde7a4",
+      "after_sha256": "507dc427e96566e1bdb01dca5880ec74d9ec7b549f6da02af11285dc849585a0",
+      "inst_sha256": "e9685a8b77720f30e7f93a39b58ccfa295ba195fbcca2a22ab80765b27dee981",
+      "voices_sha256": {
+        "Voices-esperon-tu-dealer-de-nostalgia.ogg": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f"
+      },
+      "notes": {
+        "easy": 93,
+        "normal": 186,
+        "hard": 251
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "production_chart": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart-v222.json",
+      "before_sha256": "bd3d589c4e27df5d90c8991d1dae23e533a9572c1b21d58a288dbccaaa3e3ccf",
+      "after_sha256": "a41322e2112034ffe10b3fda97a19e1ccd1eecc207c0aa442499521274a55940",
+      "inst_sha256": "d062610df6cb868065c3737406437e1a14d817aa13488d07d09922f0d995b220",
+      "voices_sha256": {
+        "Voices-esperon-un-poco-bien-un-poco-mal.ogg": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229"
+      },
+      "notes": {
+        "easy": 35,
+        "normal": 69,
+        "hard": 93
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    },
+    {
+      "song": "volver-a-vernos",
+      "production_chart": "mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-chart.json",
+      "candidate_chart": "qa-lab/rebuild-v230/candidate-charts/volver-a-vernos/volver-a-vernos-chart-v230.json",
+      "backup_chart": "qa-lab/rebuild-v230/production-charts-before/volver-a-vernos/volver-a-vernos-chart-v222.json",
+      "before_sha256": "0ee63e5f4fa81c446c0dfb4bd1eee328406cc3077f76c2f53379b879e75bc31b",
+      "after_sha256": "25e4e802bb0605bd2c2284d7ad4b9c90e3079d5c84e6f18a9259b238877b3653",
+      "inst_sha256": "e65377e51839e6e7f5d8772f02ffc729746b7923cfa5ebf86813d6a77ce11083",
+      "voices_sha256": {
+        "Voices-esperon-volver-a-vernos.ogg": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14"
+      },
+      "notes": {
+        "easy": 38,
+        "normal": 75,
+        "hard": 101
+      },
+      "scroll_speed": {
+        "easy": 0.8,
+        "normal": 1.0,
+        "hard": 1.22
+      },
+      "time_changes_preserved": true,
+      "audio_not_touched": true
+    }
+  ],
+  "policy": "Only V2.3.0 candidate charts were promoted; audio files and timeChanges were not modified."
+}

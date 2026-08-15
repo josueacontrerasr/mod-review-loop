@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     
+    env:
+      EVOLUTION_UNTIL_CST: '2026-08-15T11:00:00-05:00'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -38,14 +40,14 @@ jobs:
       - name: Validar charts candidatos, animaciones vocales, note styles y HUD V2 sin tocar contenido musical
         run: python tools/validate_sync_ui_v2.py .
 
-      - name: Validar contrato runtime V2.2.2 de stages, personajes, note styles y álbumes
-        run: python tools/validate_v222_runtime_contract.py .
+      - name: Validar contrato runtime V2.3.0 de stages, personajes, note styles, álbumes y dificultades
+        run: python tools/validate_v230_runtime.py .
 
-      - name: Validar ZIPs individuales V2.2.2
-        run: python tools/validate_v222_zips.py .
+      - name: Validar ZIPs individuales y colección V2.3.0
+        run: python tools/validate_v230_zips.py .
 
-      - name: Reconstruir colección V2.2.2 solo si cambió un ZIP vigente
-        run: python tools/build_master_collection_v222.py .
+      - name: Reconstruir colección V2.3.0 solo si cambió un ZIP vigente
+        run: python tools/build_collection_v230.py .
 
       - name: Publicar reportes de la ejecución
         if: always()
@@ -56,7 +58,7 @@ jobs:
             artifacts/reports/**
             artifacts/sync-ui-v2-validation.json
             artifacts/ui-audit/**
-            qa-lab/rebuild-v222/**
+            qa-lab/rebuild-v230/**
             sync-candidates/chart-vocal-comparisons/**
             sync-candidates/chart-vocal-candidate-comparisons/**
             sync-candidates/voice-aligned-charts/**
