@@ -1,0 +1,130 @@
+# Gameplay/strumline inventory
+## chart lane domains
+mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-chart.json    1502 "d": 4;
+mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-chart.json    1901 "d": 4;      5 "d": 5;      3 "d": 6;      2 "d": 7;
+mods/esperon-dano-dano/data/songs/dano/dano-chart.json    2089 "d": 4;      7 "d": 5;      3 "d": 6;      2 "d": 7;
+mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-chart.json    1513 "d": 4;
+mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-chart.json    2008 "d": 4;
+mods/esperon-dano-fango/data/songs/fango/fango-chart.json    1918 "d": 4;      2 "d": 5;
+mods/esperon-dano-luma/data/songs/luma/luma-chart.json    1597 "d": 4;
+mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json    1850 "d": 4;
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart.json    1014 "d": 4;
+mods/esperon-dano-meteora/data/songs/meteora/meteora-chart.json    1742 "d": 4;
+mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-chart.json    1022 "d": 4;
+mods/esperon-dano-nubia/data/songs/nubia/nubia-chart.json    1318 "d": 4;     11 "d": 5;      9 "d": 6;      7 "d": 7;
+mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart.json    1086 "d": 4;      2 "d": 5;
+mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-chart.json    2002 "d": 4;      8 "d": 5;
+mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-chart.json    1881 "d": 4;
+mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-chart.json    1534 "d": 4;
+mods/esperon-dano-solare/data/songs/solare/solare-chart.json    1816 "d": 4;
+mods/esperon-dano-tristella/data/songs/tristella/tristella-chart.json    1706 "d": 4;
+mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json    1555 "d": 4;
+mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart.json    1304 "d": 4;
+mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-chart.json    1953 "d": 4;
+## metadata role fields
+mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-metadata.json:13:    "characters": {
+mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-metadata.json:21:    "stage": "escenario-arcoloria",
+mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-metadata.json:22:    "noteStyle": "esperon-arcoloria-notes",
+mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-metadata.json:13:    "characters": {
+mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-metadata.json:21:    "stage": "escenario-cortamos-y-volvemos",
+mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-metadata.json:22:    "noteStyle": "esperon-cortamos-y-volvemos-notes",
+mods/esperon-dano-dano/data/songs/dano/dano-metadata.json:13:    "characters": {
+mods/esperon-dano-dano/data/songs/dano/dano-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-dano/data/songs/dano/dano-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-dano/data/songs/dano/dano-metadata.json:21:    "stage": "escenario-dano",
+mods/esperon-dano-dano/data/songs/dano/dano-metadata.json:22:    "noteStyle": "esperon-dano-notes",
+mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-metadata.json:13:    "characters": {
+mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-metadata.json:21:    "stage": "escenario-dias-magicos",
+mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-metadata.json:22:    "noteStyle": "esperon-dias-magicos-notes",
+mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-metadata.json:13:    "characters": {
+mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-metadata.json:21:    "stage": "escenario-eclipsis",
+mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-metadata.json:22:    "noteStyle": "esperon-eclipsis-notes",
+mods/esperon-dano-fango/data/songs/fango/fango-metadata.json:13:    "characters": {
+mods/esperon-dano-fango/data/songs/fango/fango-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-fango/data/songs/fango/fango-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-fango/data/songs/fango/fango-metadata.json:21:    "stage": "escenario-fango",
+mods/esperon-dano-fango/data/songs/fango/fango-metadata.json:22:    "noteStyle": "esperon-fango-notes",
+mods/esperon-dano-luma/data/songs/luma/luma-metadata.json:13:    "characters": {
+mods/esperon-dano-luma/data/songs/luma/luma-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-luma/data/songs/luma/luma-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-luma/data/songs/luma/luma-metadata.json:21:    "stage": "escenario-luma",
+mods/esperon-dano-luma/data/songs/luma/luma-metadata.json:22:    "noteStyle": "esperon-luma-notes",
+mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-metadata.json:13:    "characters": {
+mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-metadata.json:21:    "stage": "escenario-maraton-de-peliculas",
+mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-metadata.json:22:    "noteStyle": "esperon-maraton-de-peliculas-notes",
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-metadata.json:13:    "characters": {
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-metadata.json:21:    "stage": "escenario-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-metadata.json:22:    "noteStyle": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes",
+mods/esperon-dano-meteora/data/songs/meteora/meteora-metadata.json:13:    "characters": {
+mods/esperon-dano-meteora/data/songs/meteora/meteora-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-meteora/data/songs/meteora/meteora-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-meteora/data/songs/meteora/meteora-metadata.json:21:    "stage": "escenario-meteora",
+mods/esperon-dano-meteora/data/songs/meteora/meteora-metadata.json:22:    "noteStyle": "esperon-meteora-notes",
+mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-metadata.json:13:    "characters": {
+mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-metadata.json:21:    "stage": "escenario-mi-hogar",
+mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-metadata.json:22:    "noteStyle": "esperon-mi-hogar-notes",
+mods/esperon-dano-nubia/data/songs/nubia/nubia-metadata.json:13:    "characters": {
+mods/esperon-dano-nubia/data/songs/nubia/nubia-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-nubia/data/songs/nubia/nubia-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-nubia/data/songs/nubia/nubia-metadata.json:21:    "stage": "escenario-nubia",
+mods/esperon-dano-nubia/data/songs/nubia/nubia-metadata.json:22:    "noteStyle": "esperon-nubia-notes",
+mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-metadata.json:13:    "characters": {
+mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-metadata.json:21:    "stage": "escenario-nuestro-amor-no-es-normal",
+mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-metadata.json:22:    "noteStyle": "esperon-nuestro-amor-no-es-normal-notes",
+mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-metadata.json:13:    "characters": {
+mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-metadata.json:21:    "stage": "escenario-peligrosa",
+mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-metadata.json:22:    "noteStyle": "esperon-peligrosa-notes",
+mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-metadata.json:13:    "characters": {
+mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-metadata.json:21:    "stage": "escenario-rompecabezas",
+mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-metadata.json:22:    "noteStyle": "esperon-rompecabezas-notes",
+mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-metadata.json:13:    "characters": {
+mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-metadata.json:21:    "stage": "escenario-si-te-vas",
+mods/esperon-dano-si-te-vas/data/songs/si-te-vas/si-te-vas-metadata.json:22:    "noteStyle": "esperon-si-te-vas-notes",
+mods/esperon-dano-solare/data/songs/solare/solare-metadata.json:13:    "characters": {
+mods/esperon-dano-solare/data/songs/solare/solare-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-solare/data/songs/solare/solare-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-solare/data/songs/solare/solare-metadata.json:21:    "stage": "escenario-solare",
+mods/esperon-dano-solare/data/songs/solare/solare-metadata.json:22:    "noteStyle": "esperon-solare-notes",
+mods/esperon-dano-tristella/data/songs/tristella/tristella-metadata.json:13:    "characters": {
+mods/esperon-dano-tristella/data/songs/tristella/tristella-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-tristella/data/songs/tristella/tristella-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-tristella/data/songs/tristella/tristella-metadata.json:21:    "stage": "escenario-tristella",
+mods/esperon-dano-tristella/data/songs/tristella/tristella-metadata.json:22:    "noteStyle": "esperon-tristella-notes",
+mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-metadata.json:13:    "characters": {
+mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-metadata.json:21:    "stage": "escenario-tu-dealer-de-nostalgia",
+mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-metadata.json:22:    "noteStyle": "esperon-tu-dealer-de-nostalgia-notes",
+mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-metadata.json:13:    "characters": {
+mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-metadata.json:21:    "stage": "escenario-un-poco-bien-un-poco-mal",
+mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-metadata.json:22:    "noteStyle": "esperon-un-poco-bien-un-poco-mal-notes",
+mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-metadata.json:13:    "characters": {
+mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-metadata.json:16:      "playerVocals": [
+mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-metadata.json:19:      "opponentVocals": []
+mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-metadata.json:21:    "stage": "escenario-volver-a-vernos",
+mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-metadata.json:22:    "noteStyle": "esperon-volver-a-vernos-notes",
+## script references to gameplay routing

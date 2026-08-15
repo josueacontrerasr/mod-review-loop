@@ -94,17 +94,19 @@
     "stable_branch_prefix": "f75a74f",
     "no_automatic_merge_or_release_on_divergence": true
   },
-  "mod_version": "2.6.4",
+  "mod_version": "2.6.5",
   "songs_count": 21,
   "mods_per_qa_round": 21,
   "qa_rounds": 20,
   "qa_reviews_expected": 420,
-  "chart_generation_mode": "VOCAL_SYLLABLE_ALIGNED",
+  "chart_generation_mode": "VOCAL_SYLLABLE_ALIGNED_PLAYER_LANES_CYCLING_4_7",
   "chart_syllable_policy": {
     "one_note_per_syllable": true,
     "interjections_are_separate_notes": true,
     "holds_from_measured_vocal_duration": true,
     "low_confidence_requires_manual_review": true
   },
-  "complete_delivery_zip": "Esperon-Completo.zip"
+  "complete_delivery_zip": "Esperon-Completo.zip",
+  "freeplay_capsule_policy": "LEVEL_TITLE_ASSET_AND_ALBUM_ROLL_VERIFIED",
+  "player_lane_contract": "d=4..7 with chronological direction cycle 4,5,6,7"
 }
