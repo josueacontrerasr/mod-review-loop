@@ -1,0 +1,1967 @@
+{
+  "version": "2.4.0-diagnose-freeplay-notes",
+  "mods": 20,
+  "status": "PASS",
+  "rows": [
+    {
+      "mod": "esperon-dano-arcoloria",
+      "song": "arcoloria",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-arcoloria",
+        "noteStyle": "esperon-arcoloria-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-arcoloria-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-arcoloria-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-arcoloria-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/shared/images/notes/esperon-arcoloria-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-arcoloria-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/shared/images/notes/esperon-arcoloria-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 57,
+          "first_t": 3866.122,
+          "last_t": 194513.56,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 127,
+          "first_t": 3866.122,
+          "last_t": 194513.56,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 198,
+          "first_t": 3506.213,
+          "last_t": 194513.56,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 212.834104
+    },
+    {
+      "mod": "esperon-dano-cortamos-y-volvemos",
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-cortamos-y-volvemos",
+        "noteStyle": "esperon-cortamos-y-volvemos-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-cortamos-y-volvemos-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-cortamos-y-volvemos-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-cortamos-y-volvemos-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/shared/images/notes/esperon-cortamos-y-volvemos-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-cortamos-y-volvemos-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/shared/images/notes/esperon-cortamos-y-volvemos-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 132,
+          "first_t": 313.469,
+          "last_t": 183809.161,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 300,
+          "first_t": 313.469,
+          "last_t": 184180.68,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 464,
+          "first_t": 313.469,
+          "last_t": 184180.68,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 207.818594
+    },
+    {
+      "mod": "esperon-dano-dano",
+      "song": "dano",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-dano",
+        "noteStyle": "esperon-dano-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-dano-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-dano-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-dano-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/shared/images/notes/esperon-dano-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-dano-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/shared/images/notes/esperon-dano-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 145,
+          "first_t": 441.179,
+          "last_t": 171583.855,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 330,
+          "first_t": 441.179,
+          "last_t": 171746.395,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 511,
+          "first_t": 441.179,
+          "last_t": 174288.98,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 206.425397
+    },
+    {
+      "mod": "esperon-dano-dias-magicos",
+      "song": "dias-magicos",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-dias-magicos",
+        "noteStyle": "esperon-dias-magicos-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-dias-magicos-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-dias-magicos-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-dias-magicos-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/shared/images/notes/esperon-dias-magicos-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-dias-magicos-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/shared/images/notes/esperon-dias-magicos-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 125,
+          "first_t": 394.739,
+          "last_t": 224420.862,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 283,
+          "first_t": 394.739,
+          "last_t": 224420.862,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 439,
+          "first_t": 394.739,
+          "last_t": 224420.862,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 243.623764
+    },
+    {
+      "mod": "esperon-dano-eclipsis",
+      "song": "eclipsis",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-eclipsis",
+        "noteStyle": "esperon-eclipsis-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-eclipsis-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-eclipsis-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-eclipsis-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/shared/images/notes/esperon-eclipsis-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-eclipsis-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/shared/images/notes/esperon-eclipsis-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 79,
+          "first_t": 1578.957,
+          "last_t": 225814.059,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 179,
+          "first_t": 1578.957,
+          "last_t": 225814.059,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 277,
+          "first_t": 1578.957,
+          "last_t": 225814.059,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 257.091338
+    },
+    {
+      "mod": "esperon-dano-fango",
+      "song": "fango",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-fango",
+        "noteStyle": "esperon-fango-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-fango-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-fango-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-fango-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/shared/images/notes/esperon-fango-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-fango-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/shared/images/notes/esperon-fango-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 94,
+          "first_t": 2763.175,
+          "last_t": 206669.206,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 211,
+          "first_t": 2763.175,
+          "last_t": 206669.206,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 327,
+          "first_t": 615.329,
+          "last_t": 206669.206,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 210.697868
+    },
+    {
+      "mod": "esperon-dano-luma",
+      "song": "luma",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-luma",
+        "noteStyle": "esperon-luma-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-luma-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-luma-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-luma-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/shared/images/notes/esperon-luma-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-luma-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/shared/images/notes/esperon-luma-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 63,
+          "first_t": 313.469,
+          "last_t": 201282.177,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 144,
+          "first_t": 313.469,
+          "last_t": 202686.984,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 224,
+          "first_t": 313.469,
+          "last_t": 202686.984,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 238.004535
+    },
+    {
+      "mod": "esperon-dano-maraton-de-peliculas",
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-maraton-de-peliculas",
+        "noteStyle": "esperon-maraton-de-peliculas-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-maraton-de-peliculas-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-maraton-de-peliculas-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-maraton-de-peliculas-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/shared/images/notes/esperon-maraton-de-peliculas-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-maraton-de-peliculas-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/shared/images/notes/esperon-maraton-de-peliculas-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 79,
+          "first_t": 2008.526,
+          "last_t": 203476.463,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 179,
+          "first_t": 2008.526,
+          "last_t": 203476.463,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 277,
+          "first_t": 1486.077,
+          "last_t": 203476.463,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 231.270748
+    },
+    {
+      "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+        "noteStyle": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/shared/images/notes/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 73,
+          "first_t": 406.349,
+          "last_t": 179884.989,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 163,
+          "first_t": 406.349,
+          "last_t": 179884.989,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 253,
+          "first_t": 406.349,
+          "last_t": 179884.989,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 190.589388
+    },
+    {
+      "mod": "esperon-dano-meteora",
+      "song": "meteora",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-meteora",
+        "noteStyle": "esperon-meteora-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-meteora-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-meteora-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-meteora-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/shared/images/notes/esperon-meteora-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-meteora-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/shared/images/notes/esperon-meteora-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 48,
+          "first_t": 1091.338,
+          "last_t": 175148.118,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 108,
+          "first_t": 1091.338,
+          "last_t": 175577.687,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 167,
+          "first_t": 441.179,
+          "last_t": 175577.687,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 193.004263
+    },
+    {
+      "mod": "esperon-dano-mi-hogar",
+      "song": "mi-hogar",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-mi-hogar",
+        "noteStyle": "esperon-mi-hogar-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-mi-hogar-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-mi-hogar-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-mi-hogar-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/shared/images/notes/esperon-mi-hogar-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-mi-hogar-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/shared/images/notes/esperon-mi-hogar-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 86,
+          "first_t": 371.519,
+          "last_t": 158592.29,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 193,
+          "first_t": 371.519,
+          "last_t": 158592.29,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 299,
+          "first_t": 371.519,
+          "last_t": 158592.29,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 174.24254
+    },
+    {
+      "mod": "esperon-dano-nubia",
+      "song": "nubia",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-nubia",
+        "noteStyle": "esperon-nubia-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-nubia-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-nubia-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-nubia-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/shared/images/notes/esperon-nubia-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-nubia-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/shared/images/notes/esperon-nubia-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 74,
+          "first_t": 615.329,
+          "last_t": 216003.628,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 167,
+          "first_t": 615.329,
+          "last_t": 216003.628,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 258,
+          "first_t": 615.329,
+          "last_t": 216003.628,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 227.137596
+    },
+    {
+      "mod": "esperon-dano-nuestro-amor-no-es-normal",
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-nuestro-amor-no-es-normal",
+        "noteStyle": "esperon-nuestro-amor-no-es-normal-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-nuestro-amor-no-es-normal-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-nuestro-amor-no-es-normal-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/shared/images/notes/esperon-nuestro-amor-no-es-normal-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 87,
+          "first_t": 1044.898,
+          "last_t": 152439.002,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 198,
+          "first_t": 1044.898,
+          "last_t": 155480.816,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 306,
+          "first_t": 1044.898,
+          "last_t": 155480.816,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 165.929796
+    },
+    {
+      "mod": "esperon-dano-peligrosa",
+      "song": "peligrosa",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-peligrosa",
+        "noteStyle": "esperon-peligrosa-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-peligrosa-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-peligrosa-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-peligrosa-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/shared/images/notes/esperon-peligrosa-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-peligrosa-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/shared/images/notes/esperon-peligrosa-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 131,
+          "first_t": 568.889,
+          "last_t": 226917.007,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 295,
+          "first_t": 568.889,
+          "last_t": 226917.007,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 458,
+          "first_t": 568.889,
+          "last_t": 226917.007,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 237.122177
+    },
+    {
+      "mod": "esperon-dano-rompecabezas",
+      "song": "rompecabezas",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-rompecabezas",
+        "noteStyle": "esperon-rompecabezas-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-rompecabezas-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-rompecabezas-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-rompecabezas-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/shared/images/notes/esperon-rompecabezas-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-rompecabezas-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/shared/images/notes/esperon-rompecabezas-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 69,
+          "first_t": 1544.127,
+          "last_t": 196440.816,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 155,
+          "first_t": 1544.127,
+          "last_t": 196440.816,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 239,
+          "first_t": 1544.127,
+          "last_t": 196440.816,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 215.574059
+    },
+    {
+      "mod": "esperon-dano-solare",
+      "song": "solare",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-solare",
+        "noteStyle": "esperon-solare-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-solare-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-solare-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-solare-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/shared/images/notes/esperon-solare-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-solare-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/shared/images/notes/esperon-solare-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 79,
+          "first_t": 4899.41,
+          "last_t": 217164.626,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 179,
+          "first_t": 4899.41,
+          "last_t": 217164.626,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 277,
+          "first_t": 1985.306,
+          "last_t": 217164.626,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 223.515283
+    },
+    {
+      "mod": "esperon-dano-tristella",
+      "song": "tristella",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-tristella",
+        "noteStyle": "esperon-tristella-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-tristella-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-tristella-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-tristella-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/shared/images/notes/esperon-tristella-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-tristella-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/shared/images/notes/esperon-tristella-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 84,
+          "first_t": 510.839,
+          "last_t": 221762.177,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 191,
+          "first_t": 510.839,
+          "last_t": 221762.177,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 294,
+          "first_t": 510.839,
+          "last_t": 221762.177,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 238.515374
+    },
+    {
+      "mod": "esperon-dano-tu-dealer-de-nostalgia",
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-tu-dealer-de-nostalgia",
+        "noteStyle": "esperon-tu-dealer-de-nostalgia-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-tu-dealer-de-nostalgia-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-tu-dealer-de-nostalgia-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/shared/images/notes/esperon-tu-dealer-de-nostalgia-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 123,
+          "first_t": 551.474,
+          "last_t": 171363.265,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 279,
+          "first_t": 551.474,
+          "last_t": 175879.546,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 432,
+          "first_t": 551.474,
+          "last_t": 175879.546,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 201.224127
+    },
+    {
+      "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-un-poco-bien-un-poco-mal",
+        "noteStyle": "esperon-un-poco-bien-un-poco-mal-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-un-poco-bien-un-poco-mal-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-un-poco-bien-un-poco-mal-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/shared/images/notes/esperon-un-poco-bien-un-poco-mal-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 46,
+          "first_t": 2577.415,
+          "last_t": 204242.721,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 103,
+          "first_t": 2287.166,
+          "last_t": 204242.721,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 160,
+          "first_t": 2182.676,
+          "last_t": 204242.721,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 217.617415
+    },
+    {
+      "mod": "esperon-dano-volver-a-vernos",
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "issues": [],
+      "metadata": {
+        "album": "esperon-volver-a-vernos",
+        "noteStyle": "esperon-volver-a-vernos-notes",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ]
+      },
+      "album": {
+        "json_exists": true,
+        "assets": {
+          "albumArtAsset": {
+            "value": "freeplay/albumRoll/esperon-volver-a-vernos-art",
+            "png_exists": true,
+            "xml_exists": false,
+            "frames": []
+          },
+          "albumTitleAsset": {
+            "value": "freeplay/albumRoll/esperon-volver-a-vernos-title",
+            "png_exists": true,
+            "xml_exists": true,
+            "frames": [
+              "switch0000",
+              "idle0000"
+            ]
+          }
+        }
+      },
+      "note_style": {
+        "note": {
+          "assetPath": "shared:notes/esperon-volver-a-vernos-notes-notes",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/shared/images/notes/esperon-volver-a-vernos-notes-notes",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 4,
+          "prefixes": [
+            "noteLeft",
+            "noteDown",
+            "noteUp",
+            "noteRight"
+          ],
+          "missing_prefixes": []
+        },
+        "noteStrumline": {
+          "assetPath": "shared:notes/esperon-volver-a-vernos-notes-strumline",
+          "resolved_base": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/shared/images/notes/esperon-volver-a-vernos-notes-strumline",
+          "png_exists": true,
+          "xml_exists": true,
+          "frame_count": 12,
+          "prefixes": [
+            "staticLeft0",
+            "pressLeft0",
+            "confirmLeft0",
+            "confirmLeft0",
+            "staticDown0",
+            "pressDown0",
+            "confirmDown0",
+            "confirmDown0",
+            "staticUp0",
+            "pressUp0",
+            "confirmUp0",
+            "confirmUp0",
+            "staticRight0",
+            "pressRight0",
+            "confirmRight0",
+            "confirmRight0"
+          ],
+          "missing_prefixes": []
+        }
+      },
+      "chart": {
+        "easy": {
+          "count": 50,
+          "first_t": 394.739,
+          "last_t": 170689.887,
+          "malformed": 0
+        },
+        "normal": {
+          "count": 113,
+          "first_t": 394.739,
+          "last_t": 170689.887,
+          "malformed": 0
+        },
+        "hard": {
+          "count": 174,
+          "first_t": 359.909,
+          "last_t": 170689.887,
+          "malformed": 0
+        }
+      },
+      "audio_duration_seconds": 186.734875
+    }
+  ]
+}

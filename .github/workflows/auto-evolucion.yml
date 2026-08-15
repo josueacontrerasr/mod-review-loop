@@ -40,14 +40,14 @@ jobs:
       - name: Validar charts candidatos, animaciones vocales, note styles y HUD V2 sin tocar contenido musical
         run: python tools/validate_sync_ui_v2.py .
 
-      - name: Validar contrato runtime V2.3.0 de stages, personajes, note styles, álbumes y dificultades
-        run: python tools/validate_v230_runtime.py .
+      - name: Validar contrato runtime V2.4.0 de stages, personajes, note styles, álbumes y dificultades
+        run: python tools/validate_v240_runtime.py .
 
-      - name: Reconstruir colección V2.3.0 en el runner
-        run: python tools/build_collection_v230.py .
+      - name: Reempaquetar ZIPs y colección V2.4.0 en el runner
+        run: python tools/package_v240_fixed.py
 
-      - name: Validar ZIPs individuales y colección V2.3.0
-        run: python tools/validate_v230_zips.py .
+      - name: Validar ZIPs individuales y colección V2.4.0
+        run: python tools/validate_v240_zips.py
 
       - name: Publicar reportes de la ejecución
         if: always()
@@ -58,7 +58,7 @@ jobs:
             artifacts/reports/**
             artifacts/sync-ui-v2-validation.json
             artifacts/ui-audit/**
-            qa-lab/rebuild-v230/**
+            qa-lab/rebuild-v240/**
             sync-candidates/chart-vocal-comparisons/**
             sync-candidates/chart-vocal-candidate-comparisons/**
             sync-candidates/voice-aligned-charts/**
@@ -74,7 +74,7 @@ jobs:
         run: |
           set -euo pipefail
           git add -- 'Mods .zip terminados' tools/auto_evolution.py
-          # La colección grande se conserva como artifact/release; no bloquea commits por límite de blob.
+          # La colección grande se conserva como artifact/release; no bloquea commits por límite de blob V2.4.0.
           git reset -- 'Mods .zip terminados/Mod-Esperon-Coleccion-V*.zip' 2>/dev/null || true
           if git diff --cached --quiet; then
             echo 'No hay correcciones válidas que versionar.'

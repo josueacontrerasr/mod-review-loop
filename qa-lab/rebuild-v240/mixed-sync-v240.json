@@ -1,0 +1,3234 @@
+{
+  "version": "2.4.0",
+  "status": "PASS",
+  "songs": 20,
+  "difficulties": 60,
+  "method": {
+    "base": "preserve V2.3.0 vocal backbone",
+    "rhythm": "instrumental onset consensus mean/max/median plus independent energy peaks",
+    "vocal": "VAD CPU plus independent onset and verification judges",
+    "rule": "add only rhythm events with at least two onset votes, spacing budgets by difficulty, and never move existing notes or change audio/timeChanges"
+  },
+  "rows": [
+    {
+      "song": "arcoloria",
+      "voice_sha256": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282",
+      "inst_sha256": "c9d6043842dbfb735102809f4d9860263249f2915703c74b2539b09421763437",
+      "vocal_events": 442,
+      "rhythm_events": 864,
+      "vocal_vad_segments": 7,
+      "difficulties": {
+        "easy": {
+          "before": 43,
+          "after": 57,
+          "add": {
+            "input_notes": 43,
+            "rhythm_candidates": 864,
+            "added_rhythm_notes": 14,
+            "output_notes": 57,
+            "min_gap_ms": 360.0,
+            "max_additions": 14
+          },
+          "family_metrics": {
+            "notes": 57,
+            "classified_vocal": 35,
+            "classified_rhythm": 22,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 96.75,
+            "mean_rhythm_error_ms": 254.096
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 57,
+            "at_least_two_within_80": 0.807018,
+            "at_least_three_within_80": 0.77193,
+            "all_four_within_80": 0.561404,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 57,
+            "at_least_two_within_80": 0.736842,
+            "at_least_three_within_80": 0.649123,
+            "all_four_within_80": 0.385965,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 85,
+          "after": 127,
+          "add": {
+            "input_notes": 85,
+            "rhythm_candidates": 864,
+            "added_rhythm_notes": 42,
+            "output_notes": 127,
+            "min_gap_ms": 220.0,
+            "max_additions": 42
+          },
+          "family_metrics": {
+            "notes": 127,
+            "classified_vocal": 70,
+            "classified_rhythm": 57,
+            "vocal_within_80": 0.971429,
+            "rhythm_within_80": 0.982456,
+            "all_supported_by_either_120": 0.984252,
+            "mean_vocal_error_ms": 102.387,
+            "mean_rhythm_error_ms": 169.213
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 127,
+            "at_least_two_within_80": 0.732283,
+            "at_least_three_within_80": 0.661417,
+            "all_four_within_80": 0.488189,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 127,
+            "at_least_two_within_80": 0.755906,
+            "at_least_three_within_80": 0.637795,
+            "all_four_within_80": 0.393701,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 115,
+          "after": 198,
+          "add": {
+            "input_notes": 115,
+            "rhythm_candidates": 864,
+            "added_rhythm_notes": 83,
+            "output_notes": 198,
+            "min_gap_ms": 140.0,
+            "max_additions": 83
+          },
+          "family_metrics": {
+            "notes": 198,
+            "classified_vocal": 99,
+            "classified_rhythm": 99,
+            "vocal_within_80": 0.979798,
+            "rhythm_within_80": 0.989899,
+            "all_supported_by_either_120": 0.989899,
+            "mean_vocal_error_ms": 140.844,
+            "mean_rhythm_error_ms": 650.628
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 198,
+            "at_least_two_within_80": 0.656566,
+            "at_least_three_within_80": 0.570707,
+            "all_four_within_80": 0.449495,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 198,
+            "at_least_two_within_80": 0.727273,
+            "at_least_three_within_80": 0.636364,
+            "all_four_within_80": 0.353535,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/arcoloria/arcoloria-chart-v240.json"
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "voice_sha256": "0ec71bd2381a39212b549071a8ba617fd36753b9b0ea5343757d5e6224d745c1",
+      "inst_sha256": "d7ad308125b558ead8cf26daa7d8890fd5c7da8f88524db2213fba77b71bdf98",
+      "vocal_events": 647,
+      "rhythm_events": 1369,
+      "vocal_vad_segments": 22,
+      "difficulties": {
+        "easy": {
+          "before": 100,
+          "after": 132,
+          "add": {
+            "input_notes": 100,
+            "rhythm_candidates": 1369,
+            "added_rhythm_notes": 32,
+            "output_notes": 132,
+            "min_gap_ms": 360.0,
+            "max_additions": 32
+          },
+          "family_metrics": {
+            "notes": 132,
+            "classified_vocal": 87,
+            "classified_rhythm": 45,
+            "vocal_within_80": 0.988506,
+            "rhythm_within_80": 0.977778,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 863.668,
+            "mean_rhythm_error_ms": 63.987
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 132,
+            "at_least_two_within_80": 0.780303,
+            "at_least_three_within_80": 0.704545,
+            "all_four_within_80": 0.598485,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 132,
+            "at_least_two_within_80": 0.765152,
+            "at_least_three_within_80": 0.742424,
+            "all_four_within_80": 0.530303,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 200,
+          "after": 300,
+          "add": {
+            "input_notes": 200,
+            "rhythm_candidates": 1369,
+            "added_rhythm_notes": 100,
+            "output_notes": 300,
+            "min_gap_ms": 220.0,
+            "max_additions": 100
+          },
+          "family_metrics": {
+            "notes": 300,
+            "classified_vocal": 170,
+            "classified_rhythm": 130,
+            "vocal_within_80": 0.982353,
+            "rhythm_within_80": 0.984615,
+            "all_supported_by_either_120": 0.993333,
+            "mean_vocal_error_ms": 594.915,
+            "mean_rhythm_error_ms": 63.274
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 300,
+            "at_least_two_within_80": 0.723333,
+            "at_least_three_within_80": 0.64,
+            "all_four_within_80": 0.496667,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 300,
+            "at_least_two_within_80": 0.753333,
+            "at_least_three_within_80": 0.743333,
+            "all_four_within_80": 0.563333,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 270,
+          "after": 464,
+          "add": {
+            "input_notes": 270,
+            "rhythm_candidates": 1369,
+            "added_rhythm_notes": 194,
+            "output_notes": 464,
+            "min_gap_ms": 140.0,
+            "max_additions": 194
+          },
+          "family_metrics": {
+            "notes": 464,
+            "classified_vocal": 226,
+            "classified_rhythm": 238,
+            "vocal_within_80": 0.986726,
+            "rhythm_within_80": 0.987395,
+            "all_supported_by_either_120": 0.993534,
+            "mean_vocal_error_ms": 465.275,
+            "mean_rhythm_error_ms": 52.27
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 464,
+            "at_least_two_within_80": 0.665948,
+            "at_least_three_within_80": 0.579741,
+            "all_four_within_80": 0.459052,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 464,
+            "at_least_two_within_80": 0.788793,
+            "at_least_three_within_80": 0.778017,
+            "all_four_within_80": 0.625,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/cortamos-y-volvemos/cortamos-y-volvemos-chart-v240.json"
+    },
+    {
+      "song": "dano",
+      "voice_sha256": "bcef47cacf8685fd1d0f06918bdf577394cb4537771dc9b0bcf9956a0a4cd253",
+      "inst_sha256": "1cd2bca7478ff391d95def339185125e2d5bd2a4bdeb28846610059ebe609824",
+      "vocal_events": 743,
+      "rhythm_events": 1243,
+      "vocal_vad_segments": 14,
+      "difficulties": {
+        "easy": {
+          "before": 110,
+          "after": 145,
+          "add": {
+            "input_notes": 110,
+            "rhythm_candidates": 1243,
+            "added_rhythm_notes": 35,
+            "output_notes": 145,
+            "min_gap_ms": 360.0,
+            "max_additions": 35
+          },
+          "family_metrics": {
+            "notes": 145,
+            "classified_vocal": 93,
+            "classified_rhythm": 52,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 421.883,
+            "mean_rhythm_error_ms": 77.146
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 145,
+            "at_least_two_within_80": 0.82069,
+            "at_least_three_within_80": 0.758621,
+            "all_four_within_80": 0.593103,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 145,
+            "at_least_two_within_80": 0.724138,
+            "at_least_three_within_80": 0.668966,
+            "all_four_within_80": 0.4,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 220,
+          "after": 330,
+          "add": {
+            "input_notes": 220,
+            "rhythm_candidates": 1243,
+            "added_rhythm_notes": 110,
+            "output_notes": 330,
+            "min_gap_ms": 220.0,
+            "max_additions": 110
+          },
+          "family_metrics": {
+            "notes": 330,
+            "classified_vocal": 192,
+            "classified_rhythm": 138,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 0.992754,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 282.298,
+            "mean_rhythm_error_ms": 73.477
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 330,
+            "at_least_two_within_80": 0.775758,
+            "at_least_three_within_80": 0.669697,
+            "all_four_within_80": 0.509091,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 330,
+            "at_least_two_within_80": 0.736364,
+            "at_least_three_within_80": 0.681818,
+            "all_four_within_80": 0.393939,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 297,
+          "after": 511,
+          "add": {
+            "input_notes": 297,
+            "rhythm_candidates": 1243,
+            "added_rhythm_notes": 214,
+            "output_notes": 511,
+            "min_gap_ms": 140.0,
+            "max_additions": 214
+          },
+          "family_metrics": {
+            "notes": 511,
+            "classified_vocal": 267,
+            "classified_rhythm": 244,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 0.995902,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 250.626,
+            "mean_rhythm_error_ms": 72.329
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 511,
+            "at_least_two_within_80": 0.722114,
+            "at_least_three_within_80": 0.598826,
+            "all_four_within_80": 0.479452,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 511,
+            "at_least_two_within_80": 0.751468,
+            "at_least_three_within_80": 0.690802,
+            "all_four_within_80": 0.403131,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/dano/dano-chart-v240.json"
+    },
+    {
+      "song": "dias-magicos",
+      "voice_sha256": "96fd2c6aeccdc860a4e519b7bcb2156d723d75934fc6856c4fa766e238350422",
+      "inst_sha256": "b4ceae0d92b042011f30aeee561ad912cad76457708641ade711e2ff90bb45e8",
+      "vocal_events": 553,
+      "rhythm_events": 1349,
+      "vocal_vad_segments": 9,
+      "difficulties": {
+        "easy": {
+          "before": 95,
+          "after": 125,
+          "add": {
+            "input_notes": 95,
+            "rhythm_candidates": 1349,
+            "added_rhythm_notes": 30,
+            "output_notes": 125,
+            "min_gap_ms": 360.0,
+            "max_additions": 30
+          },
+          "family_metrics": {
+            "notes": 125,
+            "classified_vocal": 88,
+            "classified_rhythm": 37,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 3331.32,
+            "mean_rhythm_error_ms": 110.109
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 125,
+            "at_least_two_within_80": 0.76,
+            "at_least_three_within_80": 0.712,
+            "all_four_within_80": 0.424,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 125,
+            "at_least_two_within_80": 0.728,
+            "at_least_three_within_80": 0.632,
+            "all_four_within_80": 0.472,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 189,
+          "after": 283,
+          "add": {
+            "input_notes": 189,
+            "rhythm_candidates": 1349,
+            "added_rhythm_notes": 94,
+            "output_notes": 283,
+            "min_gap_ms": 220.0,
+            "max_additions": 94
+          },
+          "family_metrics": {
+            "notes": 283,
+            "classified_vocal": 173,
+            "classified_rhythm": 110,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 0.990909,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 1950.251,
+            "mean_rhythm_error_ms": 98.336
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 283,
+            "at_least_two_within_80": 0.724382,
+            "at_least_three_within_80": 0.657244,
+            "all_four_within_80": 0.381625,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 283,
+            "at_least_two_within_80": 0.75265,
+            "at_least_three_within_80": 0.674912,
+            "all_four_within_80": 0.55477,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 255,
+          "after": 439,
+          "add": {
+            "input_notes": 255,
+            "rhythm_candidates": 1349,
+            "added_rhythm_notes": 184,
+            "output_notes": 439,
+            "min_gap_ms": 140.0,
+            "max_additions": 184
+          },
+          "family_metrics": {
+            "notes": 439,
+            "classified_vocal": 230,
+            "classified_rhythm": 209,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 0.995215,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 2076.321,
+            "mean_rhythm_error_ms": 76.113
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 439,
+            "at_least_two_within_80": 0.628702,
+            "at_least_three_within_80": 0.571754,
+            "all_four_within_80": 0.364465,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 439,
+            "at_least_two_within_80": 0.790433,
+            "at_least_three_within_80": 0.728929,
+            "all_four_within_80": 0.610478,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/dias-magicos/dias-magicos-chart-v240.json"
+    },
+    {
+      "song": "eclipsis",
+      "voice_sha256": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98",
+      "inst_sha256": "0ae33be6f978292d671b2446222c9cefa28cf00b61785956793c548121db0af4",
+      "vocal_events": 522,
+      "rhythm_events": 1220,
+      "vocal_vad_segments": 6,
+      "difficulties": {
+        "easy": {
+          "before": 60,
+          "after": 79,
+          "add": {
+            "input_notes": 60,
+            "rhythm_candidates": 1220,
+            "added_rhythm_notes": 19,
+            "output_notes": 79,
+            "min_gap_ms": 360.0,
+            "max_additions": 19
+          },
+          "family_metrics": {
+            "notes": 79,
+            "classified_vocal": 48,
+            "classified_rhythm": 31,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 0.967742,
+            "all_supported_by_either_120": 0.987342,
+            "mean_vocal_error_ms": 63.781,
+            "mean_rhythm_error_ms": 152.252
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 79,
+            "at_least_two_within_80": 0.848101,
+            "at_least_three_within_80": 0.772152,
+            "all_four_within_80": 0.56962,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 79,
+            "at_least_two_within_80": 0.721519,
+            "at_least_three_within_80": 0.56962,
+            "all_four_within_80": 0.367089,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 119,
+          "after": 179,
+          "add": {
+            "input_notes": 119,
+            "rhythm_candidates": 1220,
+            "added_rhythm_notes": 60,
+            "output_notes": 179,
+            "min_gap_ms": 220.0,
+            "max_additions": 60
+          },
+          "family_metrics": {
+            "notes": 179,
+            "classified_vocal": 96,
+            "classified_rhythm": 83,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 0.975904,
+            "all_supported_by_either_120": 0.994413,
+            "mean_vocal_error_ms": 91.193,
+            "mean_rhythm_error_ms": 110.457
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 179,
+            "at_least_two_within_80": 0.776536,
+            "at_least_three_within_80": 0.670391,
+            "all_four_within_80": 0.49162,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 179,
+            "at_least_two_within_80": 0.765363,
+            "at_least_three_within_80": 0.659218,
+            "all_four_within_80": 0.441341,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 161,
+          "after": 277,
+          "add": {
+            "input_notes": 161,
+            "rhythm_candidates": 1220,
+            "added_rhythm_notes": 116,
+            "output_notes": 277,
+            "min_gap_ms": 140.0,
+            "max_additions": 116
+          },
+          "family_metrics": {
+            "notes": 277,
+            "classified_vocal": 135,
+            "classified_rhythm": 142,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 0.985915,
+            "all_supported_by_either_120": 0.99639,
+            "mean_vocal_error_ms": 203.929,
+            "mean_rhythm_error_ms": 151.265
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 277,
+            "at_least_two_within_80": 0.67148,
+            "at_least_three_within_80": 0.592058,
+            "all_four_within_80": 0.469314,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 277,
+            "at_least_two_within_80": 0.743682,
+            "at_least_three_within_80": 0.635379,
+            "all_four_within_80": 0.404332,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/eclipsis/eclipsis-chart-v240.json"
+    },
+    {
+      "song": "fango",
+      "voice_sha256": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595",
+      "inst_sha256": "40a0f3d26913562278893293d0f679b587c9b803be704573eafc79140060e628",
+      "vocal_events": 470,
+      "rhythm_events": 1248,
+      "vocal_vad_segments": 14,
+      "difficulties": {
+        "easy": {
+          "before": 71,
+          "after": 94,
+          "add": {
+            "input_notes": 71,
+            "rhythm_candidates": 1248,
+            "added_rhythm_notes": 23,
+            "output_notes": 94,
+            "min_gap_ms": 360.0,
+            "max_additions": 23
+          },
+          "family_metrics": {
+            "notes": 94,
+            "classified_vocal": 62,
+            "classified_rhythm": 32,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 54.839,
+            "mean_rhythm_error_ms": 64.658
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 94,
+            "at_least_two_within_80": 0.829787,
+            "at_least_three_within_80": 0.787234,
+            "all_four_within_80": 0.617021,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 94,
+            "at_least_two_within_80": 0.723404,
+            "at_least_three_within_80": 0.680851,
+            "all_four_within_80": 0.5,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 141,
+          "after": 211,
+          "add": {
+            "input_notes": 141,
+            "rhythm_candidates": 1248,
+            "added_rhythm_notes": 70,
+            "output_notes": 211,
+            "min_gap_ms": 220.0,
+            "max_additions": 70
+          },
+          "family_metrics": {
+            "notes": 211,
+            "classified_vocal": 120,
+            "classified_rhythm": 91,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 134.423,
+            "mean_rhythm_error_ms": 61.571
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 211,
+            "at_least_two_within_80": 0.720379,
+            "at_least_three_within_80": 0.687204,
+            "all_four_within_80": 0.545024,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 211,
+            "at_least_two_within_80": 0.748815,
+            "at_least_three_within_80": 0.696682,
+            "all_four_within_80": 0.559242,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 190,
+          "after": 327,
+          "add": {
+            "input_notes": 190,
+            "rhythm_candidates": 1248,
+            "added_rhythm_notes": 137,
+            "output_notes": 327,
+            "min_gap_ms": 140.0,
+            "max_additions": 137
+          },
+          "family_metrics": {
+            "notes": 327,
+            "classified_vocal": 168,
+            "classified_rhythm": 159,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 289.806,
+            "mean_rhythm_error_ms": 67.814
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 327,
+            "at_least_two_within_80": 0.617737,
+            "at_least_three_within_80": 0.58104,
+            "all_four_within_80": 0.492355,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 327,
+            "at_least_two_within_80": 0.749235,
+            "at_least_three_within_80": 0.706422,
+            "all_four_within_80": 0.559633,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/fango/fango-chart-v240.json"
+    },
+    {
+      "song": "luma",
+      "voice_sha256": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae",
+      "inst_sha256": "ea04b8654bc702ed1e4db2c2f582dc774026fea9da199d018a97c42c6494f3b9",
+      "vocal_events": 454,
+      "rhythm_events": 1173,
+      "vocal_vad_segments": 6,
+      "difficulties": {
+        "easy": {
+          "before": 48,
+          "after": 63,
+          "add": {
+            "input_notes": 48,
+            "rhythm_candidates": 1173,
+            "added_rhythm_notes": 15,
+            "output_notes": 63,
+            "min_gap_ms": 360.0,
+            "max_additions": 15
+          },
+          "family_metrics": {
+            "notes": 63,
+            "classified_vocal": 39,
+            "classified_rhythm": 24,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 678.447,
+            "mean_rhythm_error_ms": 120.615
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 63,
+            "at_least_two_within_80": 0.730159,
+            "at_least_three_within_80": 0.666667,
+            "all_four_within_80": 0.380952,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 63,
+            "at_least_two_within_80": 0.777778,
+            "at_least_three_within_80": 0.698413,
+            "all_four_within_80": 0.507937,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 96,
+          "after": 144,
+          "add": {
+            "input_notes": 96,
+            "rhythm_candidates": 1173,
+            "added_rhythm_notes": 48,
+            "output_notes": 144,
+            "min_gap_ms": 220.0,
+            "max_additions": 48
+          },
+          "family_metrics": {
+            "notes": 144,
+            "classified_vocal": 81,
+            "classified_rhythm": 63,
+            "vocal_within_80": 0.975309,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 0.986111,
+            "mean_vocal_error_ms": 592.431,
+            "mean_rhythm_error_ms": 107.11
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 144,
+            "at_least_two_within_80": 0.673611,
+            "at_least_three_within_80": 0.597222,
+            "all_four_within_80": 0.395833,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 144,
+            "at_least_two_within_80": 0.777778,
+            "at_least_three_within_80": 0.715278,
+            "all_four_within_80": 0.548611,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 130,
+          "after": 224,
+          "add": {
+            "input_notes": 130,
+            "rhythm_candidates": 1173,
+            "added_rhythm_notes": 94,
+            "output_notes": 224,
+            "min_gap_ms": 140.0,
+            "max_additions": 94
+          },
+          "family_metrics": {
+            "notes": 224,
+            "classified_vocal": 112,
+            "classified_rhythm": 112,
+            "vocal_within_80": 0.982143,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 0.991071,
+            "mean_vocal_error_ms": 437.344,
+            "mean_rhythm_error_ms": 156.061
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 224,
+            "at_least_two_within_80": 0.602679,
+            "at_least_three_within_80": 0.549107,
+            "all_four_within_80": 0.388393,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 224,
+            "at_least_two_within_80": 0.758929,
+            "at_least_three_within_80": 0.700893,
+            "all_four_within_80": 0.504464,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/luma/luma-chart-v240.json"
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "voice_sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29",
+      "inst_sha256": "f4347aa912ef3419bb38edc14e43866223b2ea069071b449dae7d6bde8d0eb6a",
+      "vocal_events": 630,
+      "rhythm_events": 1075,
+      "vocal_vad_segments": 19,
+      "difficulties": {
+        "easy": {
+          "before": 60,
+          "after": 79,
+          "add": {
+            "input_notes": 60,
+            "rhythm_candidates": 1075,
+            "added_rhythm_notes": 19,
+            "output_notes": 79,
+            "min_gap_ms": 360.0,
+            "max_additions": 19
+          },
+          "family_metrics": {
+            "notes": 79,
+            "classified_vocal": 58,
+            "classified_rhythm": 21,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 61.063,
+            "mean_rhythm_error_ms": 511.647
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 79,
+            "at_least_two_within_80": 0.835443,
+            "at_least_three_within_80": 0.78481,
+            "all_four_within_80": 0.64557,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 79,
+            "at_least_two_within_80": 0.658228,
+            "at_least_three_within_80": 0.582278,
+            "all_four_within_80": 0.379747,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 119,
+          "after": 179,
+          "add": {
+            "input_notes": 119,
+            "rhythm_candidates": 1075,
+            "added_rhythm_notes": 60,
+            "output_notes": 179,
+            "min_gap_ms": 220.0,
+            "max_additions": 60
+          },
+          "family_metrics": {
+            "notes": 179,
+            "classified_vocal": 111,
+            "classified_rhythm": 68,
+            "vocal_within_80": 0.990991,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 113.927,
+            "mean_rhythm_error_ms": 390.718
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 179,
+            "at_least_two_within_80": 0.748603,
+            "at_least_three_within_80": 0.670391,
+            "all_four_within_80": 0.541899,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 179,
+            "at_least_two_within_80": 0.72067,
+            "at_least_three_within_80": 0.636872,
+            "all_four_within_80": 0.418994,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 161,
+          "after": 277,
+          "add": {
+            "input_notes": 161,
+            "rhythm_candidates": 1075,
+            "added_rhythm_notes": 116,
+            "output_notes": 277,
+            "min_gap_ms": 140.0,
+            "max_additions": 116
+          },
+          "family_metrics": {
+            "notes": 277,
+            "classified_vocal": 149,
+            "classified_rhythm": 128,
+            "vocal_within_80": 0.993289,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 154.555,
+            "mean_rhythm_error_ms": 371.813
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 277,
+            "at_least_two_within_80": 0.65343,
+            "at_least_three_within_80": 0.577617,
+            "all_four_within_80": 0.483755,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 277,
+            "at_least_two_within_80": 0.747292,
+            "at_least_three_within_80": 0.685921,
+            "all_four_within_80": 0.429603,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/maraton-de-peliculas/maraton-de-peliculas-chart-v240.json"
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "voice_sha256": "c7b009564ad9e319f244ef9068116e900b19a1e6b963ef9ab92b12d895454968",
+      "inst_sha256": "dcdf0c71bae7ad7963915f0197c13249d368e6fde92f471646b9dd463c89bec1",
+      "vocal_events": 332,
+      "rhythm_events": 685,
+      "vocal_vad_segments": 12,
+      "difficulties": {
+        "easy": {
+          "before": 55,
+          "after": 73,
+          "add": {
+            "input_notes": 55,
+            "rhythm_candidates": 685,
+            "added_rhythm_notes": 18,
+            "output_notes": 73,
+            "min_gap_ms": 360.0,
+            "max_additions": 18
+          },
+          "family_metrics": {
+            "notes": 73,
+            "classified_vocal": 44,
+            "classified_rhythm": 29,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 0.965517,
+            "all_supported_by_either_120": 0.986301,
+            "mean_vocal_error_ms": 217.727,
+            "mean_rhythm_error_ms": 169.378
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 73,
+            "at_least_two_within_80": 0.780822,
+            "at_least_three_within_80": 0.712329,
+            "all_four_within_80": 0.506849,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 73,
+            "at_least_two_within_80": 0.684932,
+            "at_least_three_within_80": 0.506849,
+            "all_four_within_80": 0.191781,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 109,
+          "after": 163,
+          "add": {
+            "input_notes": 109,
+            "rhythm_candidates": 685,
+            "added_rhythm_notes": 54,
+            "output_notes": 163,
+            "min_gap_ms": 220.0,
+            "max_additions": 54
+          },
+          "family_metrics": {
+            "notes": 163,
+            "classified_vocal": 90,
+            "classified_rhythm": 73,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 0.972603,
+            "all_supported_by_either_120": 0.993865,
+            "mean_vocal_error_ms": 234.229,
+            "mean_rhythm_error_ms": 143.273
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 163,
+            "at_least_two_within_80": 0.693252,
+            "at_least_three_within_80": 0.638037,
+            "all_four_within_80": 0.435583,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 163,
+            "at_least_two_within_80": 0.705521,
+            "at_least_three_within_80": 0.595092,
+            "all_four_within_80": 0.263804,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 147,
+          "after": 253,
+          "add": {
+            "input_notes": 147,
+            "rhythm_candidates": 685,
+            "added_rhythm_notes": 106,
+            "output_notes": 253,
+            "min_gap_ms": 140.0,
+            "max_additions": 106
+          },
+          "family_metrics": {
+            "notes": 253,
+            "classified_vocal": 126,
+            "classified_rhythm": 127,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 0.984252,
+            "all_supported_by_either_120": 0.996047,
+            "mean_vocal_error_ms": 218.731,
+            "mean_rhythm_error_ms": 135.121
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 253,
+            "at_least_two_within_80": 0.636364,
+            "at_least_three_within_80": 0.581028,
+            "all_four_within_80": 0.426877,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 253,
+            "at_least_two_within_80": 0.731225,
+            "at_least_three_within_80": 0.604743,
+            "all_four_within_80": 0.280632,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart-v240.json"
+    },
+    {
+      "song": "meteora",
+      "voice_sha256": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387",
+      "inst_sha256": "4b18e19fa889a5a1e598e33592eff10aa2f6dd6fc1c07b008cea52ddaf1f3925",
+      "vocal_events": 448,
+      "rhythm_events": 951,
+      "vocal_vad_segments": 8,
+      "difficulties": {
+        "easy": {
+          "before": 36,
+          "after": 48,
+          "add": {
+            "input_notes": 36,
+            "rhythm_candidates": 951,
+            "added_rhythm_notes": 12,
+            "output_notes": 48,
+            "min_gap_ms": 360.0,
+            "max_additions": 12
+          },
+          "family_metrics": {
+            "notes": 48,
+            "classified_vocal": 29,
+            "classified_rhythm": 19,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 86.954,
+            "mean_rhythm_error_ms": 209.705
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 48,
+            "at_least_two_within_80": 0.833333,
+            "at_least_three_within_80": 0.6875,
+            "all_four_within_80": 0.458333,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 48,
+            "at_least_two_within_80": 0.6875,
+            "at_least_three_within_80": 0.625,
+            "all_four_within_80": 0.395833,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 72,
+          "after": 108,
+          "add": {
+            "input_notes": 72,
+            "rhythm_candidates": 951,
+            "added_rhythm_notes": 36,
+            "output_notes": 108,
+            "min_gap_ms": 220.0,
+            "max_additions": 36
+          },
+          "family_metrics": {
+            "notes": 108,
+            "classified_vocal": 59,
+            "classified_rhythm": 49,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 91.697,
+            "mean_rhythm_error_ms": 187.695
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 108,
+            "at_least_two_within_80": 0.768519,
+            "at_least_three_within_80": 0.657407,
+            "all_four_within_80": 0.416667,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 108,
+            "at_least_two_within_80": 0.675926,
+            "at_least_three_within_80": 0.583333,
+            "all_four_within_80": 0.342593,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 97,
+          "after": 167,
+          "add": {
+            "input_notes": 97,
+            "rhythm_candidates": 951,
+            "added_rhythm_notes": 70,
+            "output_notes": 167,
+            "min_gap_ms": 140.0,
+            "max_additions": 70
+          },
+          "family_metrics": {
+            "notes": 167,
+            "classified_vocal": 81,
+            "classified_rhythm": 86,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 132.82,
+            "mean_rhythm_error_ms": 149.852
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 167,
+            "at_least_two_within_80": 0.646707,
+            "at_least_three_within_80": 0.57485,
+            "all_four_within_80": 0.39521,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 167,
+            "at_least_two_within_80": 0.706587,
+            "at_least_three_within_80": 0.616766,
+            "all_four_within_80": 0.359281,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/meteora/meteora-chart-v240.json"
+    },
+    {
+      "song": "mi-hogar",
+      "voice_sha256": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2",
+      "inst_sha256": "8fd9014f4a0e01e2a400fdbe93f2432daa2548a322dd8ffccae54e70681a0fe3",
+      "vocal_events": 327,
+      "rhythm_events": 987,
+      "vocal_vad_segments": 15,
+      "difficulties": {
+        "easy": {
+          "before": 65,
+          "after": 86,
+          "add": {
+            "input_notes": 65,
+            "rhythm_candidates": 987,
+            "added_rhythm_notes": 21,
+            "output_notes": 86,
+            "min_gap_ms": 360.0,
+            "max_additions": 21
+          },
+          "family_metrics": {
+            "notes": 86,
+            "classified_vocal": 54,
+            "classified_rhythm": 32,
+            "vocal_within_80": 0.962963,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 763.356,
+            "mean_rhythm_error_ms": 80.865
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 86,
+            "at_least_two_within_80": 0.732558,
+            "at_least_three_within_80": 0.709302,
+            "all_four_within_80": 0.476744,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 86,
+            "at_least_two_within_80": 0.674419,
+            "at_least_three_within_80": 0.604651,
+            "all_four_within_80": 0.406977,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 129,
+          "after": 193,
+          "add": {
+            "input_notes": 129,
+            "rhythm_candidates": 987,
+            "added_rhythm_notes": 64,
+            "output_notes": 193,
+            "min_gap_ms": 220.0,
+            "max_additions": 64
+          },
+          "family_metrics": {
+            "notes": 193,
+            "classified_vocal": 112,
+            "classified_rhythm": 81,
+            "vocal_within_80": 0.982143,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 635.932,
+            "mean_rhythm_error_ms": 75.104
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 193,
+            "at_least_two_within_80": 0.678756,
+            "at_least_three_within_80": 0.642487,
+            "all_four_within_80": 0.445596,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 193,
+            "at_least_two_within_80": 0.709845,
+            "at_least_three_within_80": 0.637306,
+            "all_four_within_80": 0.419689,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 174,
+          "after": 299,
+          "add": {
+            "input_notes": 174,
+            "rhythm_candidates": 987,
+            "added_rhythm_notes": 125,
+            "output_notes": 299,
+            "min_gap_ms": 140.0,
+            "max_additions": 125
+          },
+          "family_metrics": {
+            "notes": 299,
+            "classified_vocal": 149,
+            "classified_rhythm": 150,
+            "vocal_within_80": 0.979866,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 567.258,
+            "mean_rhythm_error_ms": 61.001
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 299,
+            "at_least_two_within_80": 0.602007,
+            "at_least_three_within_80": 0.568562,
+            "all_four_within_80": 0.431438,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 299,
+            "at_least_two_within_80": 0.755853,
+            "at_least_three_within_80": 0.688963,
+            "all_four_within_80": 0.438127,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/mi-hogar/mi-hogar-chart-v240.json"
+    },
+    {
+      "song": "nubia",
+      "voice_sha256": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43",
+      "inst_sha256": "63a36b6d167b033b8ee2b51d71975d47183e562e1a8f176f134ce129a52caab2",
+      "vocal_events": 463,
+      "rhythm_events": 760,
+      "vocal_vad_segments": 19,
+      "difficulties": {
+        "easy": {
+          "before": 56,
+          "after": 74,
+          "add": {
+            "input_notes": 56,
+            "rhythm_candidates": 760,
+            "added_rhythm_notes": 18,
+            "output_notes": 74,
+            "min_gap_ms": 360.0,
+            "max_additions": 18
+          },
+          "family_metrics": {
+            "notes": 74,
+            "classified_vocal": 50,
+            "classified_rhythm": 24,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 123.003,
+            "mean_rhythm_error_ms": 123.395
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 74,
+            "at_least_two_within_80": 0.756757,
+            "at_least_three_within_80": 0.689189,
+            "all_four_within_80": 0.445946,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 74,
+            "at_least_two_within_80": 0.621622,
+            "at_least_three_within_80": 0.608108,
+            "all_four_within_80": 0.364865,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 111,
+          "after": 167,
+          "add": {
+            "input_notes": 111,
+            "rhythm_candidates": 760,
+            "added_rhythm_notes": 56,
+            "output_notes": 167,
+            "min_gap_ms": 220.0,
+            "max_additions": 56
+          },
+          "family_metrics": {
+            "notes": 167,
+            "classified_vocal": 99,
+            "classified_rhythm": 68,
+            "vocal_within_80": 0.989899,
+            "rhythm_within_80": 0.970588,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 175.088,
+            "mean_rhythm_error_ms": 108.07
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 167,
+            "at_least_two_within_80": 0.670659,
+            "at_least_three_within_80": 0.60479,
+            "all_four_within_80": 0.413174,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 167,
+            "at_least_two_within_80": 0.712575,
+            "at_least_three_within_80": 0.682635,
+            "all_four_within_80": 0.401198,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 150,
+          "after": 258,
+          "add": {
+            "input_notes": 150,
+            "rhythm_candidates": 760,
+            "added_rhythm_notes": 108,
+            "output_notes": 258,
+            "min_gap_ms": 140.0,
+            "max_additions": 108
+          },
+          "family_metrics": {
+            "notes": 258,
+            "classified_vocal": 136,
+            "classified_rhythm": 122,
+            "vocal_within_80": 0.992647,
+            "rhythm_within_80": 0.983607,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 192.825,
+            "mean_rhythm_error_ms": 135.967
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 258,
+            "at_least_two_within_80": 0.624031,
+            "at_least_three_within_80": 0.565891,
+            "all_four_within_80": 0.414729,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 258,
+            "at_least_two_within_80": 0.713178,
+            "at_least_three_within_80": 0.689922,
+            "all_four_within_80": 0.422481,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/nubia/nubia-chart-v240.json"
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "voice_sha256": "20d6a77f8924b647d65e0de5da9a54cf74f0635f1d3de658030a3dc214de303d",
+      "inst_sha256": "bf3372ba6bb1eb04250fee475b93751afc4473d7416fa28a77bbd7b03dae570d",
+      "vocal_events": 459,
+      "rhythm_events": 1041,
+      "vocal_vad_segments": 7,
+      "difficulties": {
+        "easy": {
+          "before": 66,
+          "after": 87,
+          "add": {
+            "input_notes": 66,
+            "rhythm_candidates": 1041,
+            "added_rhythm_notes": 21,
+            "output_notes": 87,
+            "min_gap_ms": 360.0,
+            "max_additions": 21
+          },
+          "family_metrics": {
+            "notes": 87,
+            "classified_vocal": 52,
+            "classified_rhythm": 35,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 0.857143,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 71.862,
+            "mean_rhythm_error_ms": 48.508
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 87,
+            "at_least_two_within_80": 0.83908,
+            "at_least_three_within_80": 0.724138,
+            "all_four_within_80": 0.448276,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 87,
+            "at_least_two_within_80": 0.804598,
+            "at_least_three_within_80": 0.724138,
+            "all_four_within_80": 0.482759,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 132,
+          "after": 198,
+          "add": {
+            "input_notes": 132,
+            "rhythm_candidates": 1041,
+            "added_rhythm_notes": 66,
+            "output_notes": 198,
+            "min_gap_ms": 220.0,
+            "max_additions": 66
+          },
+          "family_metrics": {
+            "notes": 198,
+            "classified_vocal": 106,
+            "classified_rhythm": 92,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 0.923913,
+            "all_supported_by_either_120": 0.994949,
+            "mean_vocal_error_ms": 83.234,
+            "mean_rhythm_error_ms": 38.377
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 198,
+            "at_least_two_within_80": 0.762626,
+            "at_least_three_within_80": 0.661616,
+            "all_four_within_80": 0.40404,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 198,
+            "at_least_two_within_80": 0.833333,
+            "at_least_three_within_80": 0.787879,
+            "all_four_within_80": 0.555556,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 178,
+          "after": 306,
+          "add": {
+            "input_notes": 178,
+            "rhythm_candidates": 1041,
+            "added_rhythm_notes": 128,
+            "output_notes": 306,
+            "min_gap_ms": 140.0,
+            "max_additions": 128
+          },
+          "family_metrics": {
+            "notes": 306,
+            "classified_vocal": 149,
+            "classified_rhythm": 157,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 0.955414,
+            "all_supported_by_either_120": 0.996732,
+            "mean_vocal_error_ms": 101.53,
+            "mean_rhythm_error_ms": 56.646
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 306,
+            "at_least_two_within_80": 0.683007,
+            "at_least_three_within_80": 0.607843,
+            "all_four_within_80": 0.408497,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 306,
+            "at_least_two_within_80": 0.852941,
+            "at_least_three_within_80": 0.800654,
+            "all_four_within_80": 0.591503,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart-v240.json"
+    },
+    {
+      "song": "peligrosa",
+      "voice_sha256": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf",
+      "inst_sha256": "eedc916dbadc5510a2044521a081f476dfba9cb12f5bd2aa08552b819e1eb4a3",
+      "vocal_events": 721,
+      "rhythm_events": 1714,
+      "vocal_vad_segments": 9,
+      "difficulties": {
+        "easy": {
+          "before": 99,
+          "after": 131,
+          "add": {
+            "input_notes": 99,
+            "rhythm_candidates": 1714,
+            "added_rhythm_notes": 32,
+            "output_notes": 131,
+            "min_gap_ms": 360.0,
+            "max_additions": 32
+          },
+          "family_metrics": {
+            "notes": 131,
+            "classified_vocal": 84,
+            "classified_rhythm": 47,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 848.681,
+            "mean_rhythm_error_ms": 106.927
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 131,
+            "at_least_two_within_80": 0.763359,
+            "at_least_three_within_80": 0.70229,
+            "all_four_within_80": 0.473282,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 131,
+            "at_least_two_within_80": 0.778626,
+            "at_least_three_within_80": 0.725191,
+            "all_four_within_80": 0.381679,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 197,
+          "after": 295,
+          "add": {
+            "input_notes": 197,
+            "rhythm_candidates": 1714,
+            "added_rhythm_notes": 98,
+            "output_notes": 295,
+            "min_gap_ms": 220.0,
+            "max_additions": 98
+          },
+          "family_metrics": {
+            "notes": 295,
+            "classified_vocal": 168,
+            "classified_rhythm": 127,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 655.078,
+            "mean_rhythm_error_ms": 96.363
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 295,
+            "at_least_two_within_80": 0.694915,
+            "at_least_three_within_80": 0.620339,
+            "all_four_within_80": 0.444068,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 295,
+            "at_least_two_within_80": 0.833898,
+            "at_least_three_within_80": 0.783051,
+            "all_four_within_80": 0.454237,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 266,
+          "after": 458,
+          "add": {
+            "input_notes": 266,
+            "rhythm_candidates": 1714,
+            "added_rhythm_notes": 192,
+            "output_notes": 458,
+            "min_gap_ms": 140.0,
+            "max_additions": 192
+          },
+          "family_metrics": {
+            "notes": 458,
+            "classified_vocal": 225,
+            "classified_rhythm": 233,
+            "vocal_within_80": 0.995556,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 524.908,
+            "mean_rhythm_error_ms": 73.133
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 458,
+            "at_least_two_within_80": 0.633188,
+            "at_least_three_within_80": 0.565502,
+            "all_four_within_80": 0.427948,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 458,
+            "at_least_two_within_80": 0.853712,
+            "at_least_three_within_80": 0.803493,
+            "all_four_within_80": 0.50655,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/peligrosa/peligrosa-chart-v240.json"
+    },
+    {
+      "song": "rompecabezas",
+      "voice_sha256": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a",
+      "inst_sha256": "bc393a00dbf9aa19df07d4cdc218eb8587fd1770a3b446feba7dd31c0e06c3a4",
+      "vocal_events": 557,
+      "rhythm_events": 927,
+      "vocal_vad_segments": 11,
+      "difficulties": {
+        "easy": {
+          "before": 52,
+          "after": 69,
+          "add": {
+            "input_notes": 52,
+            "rhythm_candidates": 927,
+            "added_rhythm_notes": 17,
+            "output_notes": 69,
+            "min_gap_ms": 360.0,
+            "max_additions": 17
+          },
+          "family_metrics": {
+            "notes": 69,
+            "classified_vocal": 49,
+            "classified_rhythm": 20,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 68.65,
+            "mean_rhythm_error_ms": 173.392
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 69,
+            "at_least_two_within_80": 0.797101,
+            "at_least_three_within_80": 0.73913,
+            "all_four_within_80": 0.463768,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 69,
+            "at_least_two_within_80": 0.652174,
+            "at_least_three_within_80": 0.637681,
+            "all_four_within_80": 0.507246,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 103,
+          "after": 155,
+          "add": {
+            "input_notes": 103,
+            "rhythm_candidates": 927,
+            "added_rhythm_notes": 52,
+            "output_notes": 155,
+            "min_gap_ms": 220.0,
+            "max_additions": 52
+          },
+          "family_metrics": {
+            "notes": 155,
+            "classified_vocal": 96,
+            "classified_rhythm": 59,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 74.641,
+            "mean_rhythm_error_ms": 158.158
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 155,
+            "at_least_two_within_80": 0.754839,
+            "at_least_three_within_80": 0.664516,
+            "all_four_within_80": 0.425806,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 155,
+            "at_least_two_within_80": 0.690323,
+            "at_least_three_within_80": 0.63871,
+            "all_four_within_80": 0.445161,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 139,
+          "after": 239,
+          "add": {
+            "input_notes": 139,
+            "rhythm_candidates": 927,
+            "added_rhythm_notes": 100,
+            "output_notes": 239,
+            "min_gap_ms": 140.0,
+            "max_additions": 100
+          },
+          "family_metrics": {
+            "notes": 239,
+            "classified_vocal": 131,
+            "classified_rhythm": 108,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 97.592,
+            "mean_rhythm_error_ms": 191.637
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 239,
+            "at_least_two_within_80": 0.665272,
+            "at_least_three_within_80": 0.589958,
+            "all_four_within_80": 0.410042,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 239,
+            "at_least_two_within_80": 0.690377,
+            "at_least_three_within_80": 0.635983,
+            "all_four_within_80": 0.430962,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/rompecabezas/rompecabezas-chart-v240.json"
+    },
+    {
+      "song": "solare",
+      "voice_sha256": "a52a6af6ccb47ec8124d2761030dd114572bbf03c7416d82fa6eb6b2afc9edf8",
+      "inst_sha256": "4efc709fbac7b515da7a3f486dc6f87e314b73b1bf1165f95a2117cd896da4bb",
+      "vocal_events": 621,
+      "rhythm_events": 939,
+      "vocal_vad_segments": 5,
+      "difficulties": {
+        "easy": {
+          "before": 60,
+          "after": 79,
+          "add": {
+            "input_notes": 60,
+            "rhythm_candidates": 939,
+            "added_rhythm_notes": 19,
+            "output_notes": 79,
+            "min_gap_ms": 360.0,
+            "max_additions": 19
+          },
+          "family_metrics": {
+            "notes": 79,
+            "classified_vocal": 55,
+            "classified_rhythm": 24,
+            "vocal_within_80": 0.981818,
+            "rhythm_within_80": 0.916667,
+            "all_supported_by_either_120": 0.987342,
+            "mean_vocal_error_ms": 60.034,
+            "mean_rhythm_error_ms": 269.013
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 79,
+            "at_least_two_within_80": 0.822785,
+            "at_least_three_within_80": 0.721519,
+            "all_four_within_80": 0.443038,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 79,
+            "at_least_two_within_80": 0.683544,
+            "at_least_three_within_80": 0.56962,
+            "all_four_within_80": 0.443038,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 119,
+          "after": 179,
+          "add": {
+            "input_notes": 119,
+            "rhythm_candidates": 939,
+            "added_rhythm_notes": 60,
+            "output_notes": 179,
+            "min_gap_ms": 220.0,
+            "max_additions": 60
+          },
+          "family_metrics": {
+            "notes": 179,
+            "classified_vocal": 109,
+            "classified_rhythm": 70,
+            "vocal_within_80": 0.972477,
+            "rhythm_within_80": 0.971429,
+            "all_supported_by_either_120": 0.988827,
+            "mean_vocal_error_ms": 83.281,
+            "mean_rhythm_error_ms": 176.355
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 179,
+            "at_least_two_within_80": 0.731844,
+            "at_least_three_within_80": 0.636872,
+            "all_four_within_80": 0.407821,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 179,
+            "at_least_two_within_80": 0.709497,
+            "at_least_three_within_80": 0.620112,
+            "all_four_within_80": 0.385475,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 161,
+          "after": 277,
+          "add": {
+            "input_notes": 161,
+            "rhythm_candidates": 939,
+            "added_rhythm_notes": 116,
+            "output_notes": 277,
+            "min_gap_ms": 140.0,
+            "max_additions": 116
+          },
+          "family_metrics": {
+            "notes": 277,
+            "classified_vocal": 150,
+            "classified_rhythm": 127,
+            "vocal_within_80": 0.98,
+            "rhythm_within_80": 0.984252,
+            "all_supported_by_either_120": 0.99278,
+            "mean_vocal_error_ms": 299.806,
+            "mean_rhythm_error_ms": 1298.934
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 277,
+            "at_least_two_within_80": 0.628159,
+            "at_least_three_within_80": 0.566787,
+            "all_four_within_80": 0.400722,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 277,
+            "at_least_two_within_80": 0.700361,
+            "at_least_three_within_80": 0.606498,
+            "all_four_within_80": 0.371841,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/solare/solare-chart-v240.json"
+    },
+    {
+      "song": "tristella",
+      "voice_sha256": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198",
+      "inst_sha256": "a73be0c622e3bf6ba03ac4c7f76e0824cec099a3f8c1df4211cee79904418a9e",
+      "vocal_events": 498,
+      "rhythm_events": 1268,
+      "vocal_vad_segments": 12,
+      "difficulties": {
+        "easy": {
+          "before": 64,
+          "after": 84,
+          "add": {
+            "input_notes": 64,
+            "rhythm_candidates": 1268,
+            "added_rhythm_notes": 20,
+            "output_notes": 84,
+            "min_gap_ms": 360.0,
+            "max_additions": 20
+          },
+          "family_metrics": {
+            "notes": 84,
+            "classified_vocal": 54,
+            "classified_rhythm": 30,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 1317.525,
+            "mean_rhythm_error_ms": 65.375
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 84,
+            "at_least_two_within_80": 0.761905,
+            "at_least_three_within_80": 0.75,
+            "all_four_within_80": 0.571429,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 84,
+            "at_least_two_within_80": 0.797619,
+            "at_least_three_within_80": 0.785714,
+            "all_four_within_80": 0.416667,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 127,
+          "after": 191,
+          "add": {
+            "input_notes": 127,
+            "rhythm_candidates": 1268,
+            "added_rhythm_notes": 64,
+            "output_notes": 191,
+            "min_gap_ms": 220.0,
+            "max_additions": 64
+          },
+          "family_metrics": {
+            "notes": 191,
+            "classified_vocal": 110,
+            "classified_rhythm": 81,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 1128.356,
+            "mean_rhythm_error_ms": 57.472
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 191,
+            "at_least_two_within_80": 0.670157,
+            "at_least_three_within_80": 0.659686,
+            "all_four_within_80": 0.497382,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 191,
+            "at_least_two_within_80": 0.837696,
+            "at_least_three_within_80": 0.801047,
+            "all_four_within_80": 0.539267,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 171,
+          "after": 294,
+          "add": {
+            "input_notes": 171,
+            "rhythm_candidates": 1268,
+            "added_rhythm_notes": 123,
+            "output_notes": 294,
+            "min_gap_ms": 140.0,
+            "max_additions": 123
+          },
+          "family_metrics": {
+            "notes": 294,
+            "classified_vocal": 147,
+            "classified_rhythm": 147,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 799.153,
+            "mean_rhythm_error_ms": 57.793
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 294,
+            "at_least_two_within_80": 0.595238,
+            "at_least_three_within_80": 0.578231,
+            "all_four_within_80": 0.44898,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 294,
+            "at_least_two_within_80": 0.85034,
+            "at_least_three_within_80": 0.79932,
+            "all_four_within_80": 0.503401,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/tristella/tristella-chart-v240.json"
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "voice_sha256": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f",
+      "inst_sha256": "e9685a8b77720f30e7f93a39b58ccfa295ba195fbcca2a22ab80765b27dee981",
+      "vocal_events": 559,
+      "rhythm_events": 923,
+      "vocal_vad_segments": 13,
+      "difficulties": {
+        "easy": {
+          "before": 93,
+          "after": 123,
+          "add": {
+            "input_notes": 93,
+            "rhythm_candidates": 923,
+            "added_rhythm_notes": 30,
+            "output_notes": 123,
+            "min_gap_ms": 360.0,
+            "max_additions": 30
+          },
+          "family_metrics": {
+            "notes": 123,
+            "classified_vocal": 87,
+            "classified_rhythm": 36,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 640.909,
+            "mean_rhythm_error_ms": 143.143
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 123,
+            "at_least_two_within_80": 0.756098,
+            "at_least_three_within_80": 0.739837,
+            "all_four_within_80": 0.560976,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 123,
+            "at_least_two_within_80": 0.569106,
+            "at_least_three_within_80": 0.487805,
+            "all_four_within_80": 0.268293,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 186,
+          "after": 279,
+          "add": {
+            "input_notes": 186,
+            "rhythm_candidates": 923,
+            "added_rhythm_notes": 93,
+            "output_notes": 279,
+            "min_gap_ms": 220.0,
+            "max_additions": 93
+          },
+          "family_metrics": {
+            "notes": 279,
+            "classified_vocal": 169,
+            "classified_rhythm": 110,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 325.038,
+            "mean_rhythm_error_ms": 123.757
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 279,
+            "at_least_two_within_80": 0.767025,
+            "at_least_three_within_80": 0.666667,
+            "all_four_within_80": 0.501792,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 279,
+            "at_least_two_within_80": 0.637993,
+            "at_least_three_within_80": 0.569892,
+            "all_four_within_80": 0.354839,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 251,
+          "after": 432,
+          "add": {
+            "input_notes": 251,
+            "rhythm_candidates": 923,
+            "added_rhythm_notes": 181,
+            "output_notes": 432,
+            "min_gap_ms": 140.0,
+            "max_additions": 181
+          },
+          "family_metrics": {
+            "notes": 432,
+            "classified_vocal": 226,
+            "classified_rhythm": 206,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 264.046,
+            "mean_rhythm_error_ms": 138.943
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 432,
+            "at_least_two_within_80": 0.671296,
+            "at_least_three_within_80": 0.599537,
+            "all_four_within_80": 0.474537,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 432,
+            "at_least_two_within_80": 0.6875,
+            "at_least_three_within_80": 0.627315,
+            "all_four_within_80": 0.414352,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart-v240.json"
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "voice_sha256": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229",
+      "inst_sha256": "d062610df6cb868065c3737406437e1a14d817aa13488d07d09922f0d995b220",
+      "vocal_events": 407,
+      "rhythm_events": 871,
+      "vocal_vad_segments": 7,
+      "difficulties": {
+        "easy": {
+          "before": 35,
+          "after": 46,
+          "add": {
+            "input_notes": 35,
+            "rhythm_candidates": 871,
+            "added_rhythm_notes": 11,
+            "output_notes": 46,
+            "min_gap_ms": 360.0,
+            "max_additions": 11
+          },
+          "family_metrics": {
+            "notes": 46,
+            "classified_vocal": 32,
+            "classified_rhythm": 14,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 108.276,
+            "mean_rhythm_error_ms": 103.228
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 46,
+            "at_least_two_within_80": 0.826087,
+            "at_least_three_within_80": 0.73913,
+            "all_four_within_80": 0.630435,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 46,
+            "at_least_two_within_80": 0.73913,
+            "at_least_three_within_80": 0.630435,
+            "all_four_within_80": 0.26087,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 69,
+          "after": 103,
+          "add": {
+            "input_notes": 69,
+            "rhythm_candidates": 871,
+            "added_rhythm_notes": 34,
+            "output_notes": 103,
+            "min_gap_ms": 220.0,
+            "max_additions": 34
+          },
+          "family_metrics": {
+            "notes": 103,
+            "classified_vocal": 63,
+            "classified_rhythm": 40,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 135.825,
+            "mean_rhythm_error_ms": 76.874
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 103,
+            "at_least_two_within_80": 0.728155,
+            "at_least_three_within_80": 0.679612,
+            "all_four_within_80": 0.485437,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 103,
+            "at_least_two_within_80": 0.786408,
+            "at_least_three_within_80": 0.650485,
+            "all_four_within_80": 0.281553,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 93,
+          "after": 160,
+          "add": {
+            "input_notes": 93,
+            "rhythm_candidates": 871,
+            "added_rhythm_notes": 67,
+            "output_notes": 160,
+            "min_gap_ms": 140.0,
+            "max_additions": 67
+          },
+          "family_metrics": {
+            "notes": 160,
+            "classified_vocal": 83,
+            "classified_rhythm": 77,
+            "vocal_within_80": 1.0,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 211.374,
+            "mean_rhythm_error_ms": 64.254
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 160,
+            "at_least_two_within_80": 0.64375,
+            "at_least_three_within_80": 0.58125,
+            "all_four_within_80": 0.4625,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 160,
+            "at_least_two_within_80": 0.79375,
+            "at_least_three_within_80": 0.69375,
+            "all_four_within_80": 0.31875,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart-v240.json"
+    },
+    {
+      "song": "volver-a-vernos",
+      "voice_sha256": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14",
+      "inst_sha256": "e65377e51839e6e7f5d8772f02ffc729746b7923cfa5ebf86813d6a77ce11083",
+      "vocal_events": 513,
+      "rhythm_events": 1107,
+      "vocal_vad_segments": 2,
+      "difficulties": {
+        "easy": {
+          "before": 38,
+          "after": 50,
+          "add": {
+            "input_notes": 38,
+            "rhythm_candidates": 1107,
+            "added_rhythm_notes": 12,
+            "output_notes": 50,
+            "min_gap_ms": 360.0,
+            "max_additions": 12
+          },
+          "family_metrics": {
+            "notes": 50,
+            "classified_vocal": 31,
+            "classified_rhythm": 19,
+            "vocal_within_80": 0.967742,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 62.694,
+            "mean_rhythm_error_ms": 72.795
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 50,
+            "at_least_two_within_80": 0.8,
+            "at_least_three_within_80": 0.74,
+            "all_four_within_80": 0.5,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 50,
+            "at_least_two_within_80": 0.68,
+            "at_least_three_within_80": 0.64,
+            "all_four_within_80": 0.54,
+            "min_support_count": 0
+          }
+        },
+        "normal": {
+          "before": 75,
+          "after": 113,
+          "add": {
+            "input_notes": 75,
+            "rhythm_candidates": 1107,
+            "added_rhythm_notes": 38,
+            "output_notes": 113,
+            "min_gap_ms": 220.0,
+            "max_additions": 38
+          },
+          "family_metrics": {
+            "notes": 113,
+            "classified_vocal": 59,
+            "classified_rhythm": 54,
+            "vocal_within_80": 0.983051,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 100.997,
+            "mean_rhythm_error_ms": 64.523
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 113,
+            "at_least_two_within_80": 0.725664,
+            "at_least_three_within_80": 0.637168,
+            "all_four_within_80": 0.433628,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 113,
+            "at_least_two_within_80": 0.725664,
+            "at_least_three_within_80": 0.699115,
+            "all_four_within_80": 0.637168,
+            "min_support_count": 0
+          }
+        },
+        "hard": {
+          "before": 101,
+          "after": 174,
+          "add": {
+            "input_notes": 101,
+            "rhythm_candidates": 1107,
+            "added_rhythm_notes": 73,
+            "output_notes": 174,
+            "min_gap_ms": 140.0,
+            "max_additions": 73
+          },
+          "family_metrics": {
+            "notes": 174,
+            "classified_vocal": 81,
+            "classified_rhythm": 93,
+            "vocal_within_80": 0.987654,
+            "rhythm_within_80": 1.0,
+            "all_supported_by_either_120": 1.0,
+            "mean_vocal_error_ms": 118.769,
+            "mean_rhythm_error_ms": 63.955
+          },
+          "vocal_multimethod": {
+            "methods": [
+              "vocal_mean",
+              "vocal_max",
+              "vocal_judge",
+              "vocal_verify"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 174,
+            "at_least_two_within_80": 0.672414,
+            "at_least_three_within_80": 0.58046,
+            "all_four_within_80": 0.436782,
+            "min_support_count": 0
+          },
+          "rhythm_multimethod": {
+            "methods": [
+              "rhythm_mean",
+              "rhythm_max",
+              "rhythm_verify",
+              "rhythm_energy"
+            ],
+            "tolerance_ms": 80.0,
+            "notes": 174,
+            "at_least_two_within_80": 0.747126,
+            "at_least_three_within_80": 0.706897,
+            "all_four_within_80": 0.614943,
+            "min_support_count": 0
+          }
+        }
+      },
+      "output_chart": "qa-lab/rebuild-v240/mixed-candidates/volver-a-vernos/volver-a-vernos-chart-v240.json"
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "version": "2.4.0-mixed-chart-promotion",
+  "status": "PASS",
+  "mods": 20,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-arcoloria/data/songs/arcoloria/arcoloria-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/arcoloria-chart-v230.json",
+      "before_sha256": "b716a4d9305f43115512b793163fa39fbb55dce993a4879d6d63e054d3d4771c",
+      "after_sha256": "bc1757a5e1e8c322a05f75f172807c60edc877192c3268281ed596d13450eecc",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 57,
+        "normal": 127,
+        "hard": 198
+      },
+      "early_notes_under_10s": {
+        "easy": 1,
+        "normal": 1,
+        "hard": 14
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-cortamos-y-volvemos/data/songs/cortamos-y-volvemos/cortamos-y-volvemos-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/cortamos-y-volvemos-chart-v230.json",
+      "before_sha256": "ee0cbbd50bb63bd1ac2de02db195475338e2ae74906281c7019e75d64182bb75",
+      "after_sha256": "e453088f8616ef5bf1f0764028f0754f3964fb366f3673930274422c947fadb6",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 132,
+        "normal": 300,
+        "hard": 464
+      },
+      "early_notes_under_10s": {
+        "easy": 19,
+        "normal": 28,
+        "hard": 32
+      }
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-dano/data/songs/dano/dano-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/dano-chart-v230.json",
+      "before_sha256": "2ba84723ff0fcef0ee5ecd332d8fbb5bd6ef682cb2822a5a9feeed7a6dd26431",
+      "after_sha256": "d04a6f1b50a00cd28a41c803358ba8dd7109e708a1b0374be2460d04c0fc1220",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 145,
+        "normal": 330,
+        "hard": 511
+      },
+      "early_notes_under_10s": {
+        "easy": 10,
+        "normal": 14,
+        "hard": 17
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-dias-magicos/data/songs/dias-magicos/dias-magicos-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/dias-magicos-chart-v230.json",
+      "before_sha256": "9958ac6351980628554c717bc960a62df18496c7827a0181154de90c1f646f74",
+      "after_sha256": "8e34c14a5468f115e35d0374342a24e2b891394c4aed161789561da5b637825c",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 125,
+        "normal": 283,
+        "hard": 439
+      },
+      "early_notes_under_10s": {
+        "easy": 21,
+        "normal": 25,
+        "hard": 38
+      }
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-eclipsis/data/songs/eclipsis/eclipsis-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/eclipsis-chart-v230.json",
+      "before_sha256": "77bd0e678b7e1f9728b8c4a6f0eaf49736a9e8c75a3006c4c2e1142afe20794c",
+      "after_sha256": "fa4d5ac3b7f01c404be7fcd01f822a94a11259234b3562e02957ef071c068b00",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 79,
+        "normal": 179,
+        "hard": 277
+      },
+      "early_notes_under_10s": {
+        "easy": 3,
+        "normal": 4,
+        "hard": 13
+      }
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-fango/data/songs/fango/fango-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/fango-chart-v230.json",
+      "before_sha256": "d8783804d14e41268bd5720329dd0ca983ac08bbca0dc803097ce27d2cf9f367",
+      "after_sha256": "94b3da49bee5c124ac18bebbed3630cfc71e9a49cb1a4bb484e2ce246b1f2807",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 94,
+        "normal": 211,
+        "hard": 327
+      },
+      "early_notes_under_10s": {
+        "easy": 8,
+        "normal": 11,
+        "hard": 30
+      }
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-luma/data/songs/luma/luma-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/luma-chart-v230.json",
+      "before_sha256": "5b18b8a91df7d696467d04d53f67475c198195a715af64c1f2cd027bbd11635c",
+      "after_sha256": "6738c4d110e549fefcef479c5290e3727879de9b9e07082c572b2a470429783b",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 63,
+        "normal": 144,
+        "hard": 224
+      },
+      "early_notes_under_10s": {
+        "easy": 15,
+        "normal": 29,
+        "hard": 31
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/maraton-de-peliculas-chart-v230.json",
+      "before_sha256": "58bf338518cf6b00e1c08d9b18e88dfa2b5a86ff3018382c845245f3c8b21525",
+      "after_sha256": "97aceef6099cea1cb650269a6f74286335bd25916a1aad28b5220a93a5978ad9",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 79,
+        "normal": 179,
+        "hard": 277
+      },
+      "early_notes_under_10s": {
+        "easy": 7,
+        "normal": 12,
+        "hard": 21
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/data/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/me-voy-a-morir-si-no-me-besas-ahora-mismo-chart-v230.json",
+      "before_sha256": "aec0783ab16e887cc0fbe8f3357b705aad0a1197466c1293c78ee7353c37ae9d",
+      "after_sha256": "4df50a20dc0a68ab642158a81e712723922be9f61d385a62660697270acb3f06",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 73,
+        "normal": 163,
+        "hard": 253
+      },
+      "early_notes_under_10s": {
+        "easy": 13,
+        "normal": 24,
+        "hard": 30
+      }
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-meteora/data/songs/meteora/meteora-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/meteora-chart-v230.json",
+      "before_sha256": "b22d76de8858ea26e691a0b21b4b017e9dc630af666cf3f7e57bd88369e4e8de",
+      "after_sha256": "89b58d6600784f3c0a1945f9a3eada4735f6c63b037bcb44475d6d1c5cd39fa0",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 48,
+        "normal": 108,
+        "hard": 167
+      },
+      "early_notes_under_10s": {
+        "easy": 12,
+        "normal": 13,
+        "hard": 34
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-mi-hogar/data/songs/mi-hogar/mi-hogar-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/mi-hogar-chart-v230.json",
+      "before_sha256": "2326986407cc16dd433c9405b6c6f81711d1e4fef72f12cfbd103ebeaf6398d5",
+      "after_sha256": "20378a2c7038ffa42e11743007e0f7d42755d96a4f5efa9065fc36f8e8388a9f",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 86,
+        "normal": 193,
+        "hard": 299
+      },
+      "early_notes_under_10s": {
+        "easy": 16,
+        "normal": 23,
+        "hard": 30
+      }
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-nubia/data/songs/nubia/nubia-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/nubia-chart-v230.json",
+      "before_sha256": "0a44679c3411eb7f529b7fd416f106f2efc7573290aef3422d22332754e9c36e",
+      "after_sha256": "0c0190fbbd4624957b1e386aa6c1cd39a112af08f09fb1de3496f00db34dd522",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 74,
+        "normal": 167,
+        "hard": 258
+      },
+      "early_notes_under_10s": {
+        "easy": 1,
+        "normal": 1,
+        "hard": 1
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-nuestro-amor-no-es-normal/data/songs/nuestro-amor-no-es-normal/nuestro-amor-no-es-normal-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/nuestro-amor-no-es-normal-chart-v230.json",
+      "before_sha256": "562d64995c6bb7eb06d2777b5dfb6c0b77abcf09a57daf5aa9256762a45ac48e",
+      "after_sha256": "8fe2bee5cb532c2603aa109cc8526b44c2f984e75c857cb284f131df8b1f08ba",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 87,
+        "normal": 198,
+        "hard": 306
+      },
+      "early_notes_under_10s": {
+        "easy": 8,
+        "normal": 13,
+        "hard": 20
+      }
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-peligrosa/data/songs/peligrosa/peligrosa-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/peligrosa-chart-v230.json",
+      "before_sha256": "96a9358183123e5356aa0169e810355c3ef48e84865658b2d2351f17ea859bd6",
+      "after_sha256": "9df8097e8d20d043e3c8048eb49f1c162f4397807a044c490c87341a84724ef6",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 131,
+        "normal": 295,
+        "hard": 458
+      },
+      "early_notes_under_10s": {
+        "easy": 17,
+        "normal": 27,
+        "hard": 33
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-rompecabezas/data/songs/rompecabezas/rompecabezas-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/rompecabezas-chart-v230.json",
+      "before_sha256": "2ba83b91966492a71123616ad1e34c36d2845ec0cee89b474836c4a7c4c9cc65",
+      "after_sha256": "74eff3c7bac621116d5a877b8af933b944dbb6e617429a946295c2f4a68c8167",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 69,
+        "normal": 155,
+        "hard": 239
+      },
+      "early_notes_under_10s": {
+        "easy": 1,
+        "normal": 1,
+        "hard": 3
+      }
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-solare/data/songs/solare/solare-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/solare-chart-v230.json",
+      "before_sha256": "16cf472aacdb81d1d130d3145c95afc058d5143b56b5ec1c92dc18d58cdd93d9",
+      "after_sha256": "f788e827439c8c97acb0ca6cd5a3061ed2fa9d215f06c3dce2c66aa1bb671b94",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 79,
+        "normal": 179,
+        "hard": 277
+      },
+      "early_notes_under_10s": {
+        "easy": 1,
+        "normal": 1,
+        "hard": 25
+      }
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-tristella/data/songs/tristella/tristella-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/tristella-chart-v230.json",
+      "before_sha256": "1586733f9c921b8f4d1d6f074afab2322e1d36cfd9f862a33b7735c1a18bf084",
+      "after_sha256": "7d6e8346912fde176221250aca9b8b147caa34ebf35386aaa1e39d04392d520d",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 84,
+        "normal": 191,
+        "hard": 294
+      },
+      "early_notes_under_10s": {
+        "easy": 12,
+        "normal": 23,
+        "hard": 23
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-tu-dealer-de-nostalgia/data/songs/tu-dealer-de-nostalgia/tu-dealer-de-nostalgia-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/tu-dealer-de-nostalgia-chart-v230.json",
+      "before_sha256": "507dc427e96566e1bdb01dca5880ec74d9ec7b549f6da02af11285dc849585a0",
+      "after_sha256": "9fd8e3a72082db4272c65de8d2d7b1cac9a48b1d00d6459319b457eca5693116",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 123,
+        "normal": 279,
+        "hard": 432
+      },
+      "early_notes_under_10s": {
+        "easy": 4,
+        "normal": 4,
+        "hard": 15
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-un-poco-bien-un-poco-mal/data/songs/un-poco-bien-un-poco-mal/un-poco-bien-un-poco-mal-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/un-poco-bien-un-poco-mal-chart-v230.json",
+      "before_sha256": "a41322e2112034ffe10b3fda97a19e1ccd1eecc207c0aa442499521274a55940",
+      "after_sha256": "8aea2d85799b7b5b309cc0435101143cf91071e04447f9e7cd1c2b9caf0d7dc3",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 46,
+        "normal": 103,
+        "hard": 160
+      },
+      "early_notes_under_10s": {
+        "easy": 9,
+        "normal": 13,
+        "hard": 21
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "issues": [],
+      "production_chart": "mods/esperon-dano-volver-a-vernos/data/songs/volver-a-vernos/volver-a-vernos-chart.json",
+      "backup_chart": "qa-lab/rebuild-v240/production-charts-before/volver-a-vernos-chart-v230.json",
+      "before_sha256": "25e4e802bb0605bd2c2284d7ad4b9c90e3079d5c84e6f18a9259b238877b3653",
+      "after_sha256": "83c79ea6b2dc9a99c4756e8e92196c8bcf1cbc47c7764eb70960e6715a2f3e4b",
+      "changed": true,
+      "audio_unchanged": true,
+      "vocals_unchanged": true,
+      "time_changes_unchanged": true,
+      "counts": {
+        "easy": 50,
+        "normal": 113,
+        "hard": 174
+      },
+      "early_notes_under_10s": {
+        "easy": 8,
+        "normal": 12,
+        "hard": 36
+      }
+    }
+  ]
+}
