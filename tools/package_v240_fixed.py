@@ -21,13 +21,22 @@ def sha(path):
 def display(song):
     return '-'.join(w.capitalize() for w in song.split('-'))
 
+FIXED_DATE=(2020,1,1,0,0,0)
+
+def write_deterministic(z, name, data):
+    info=zipfile.ZipInfo(name, date_time=FIXED_DATE)
+    info.create_system=3
+    info.external_attr=0o100644 << 16
+    info.compress_type=zipfile.ZIP_DEFLATED
+    z.writestr(info, data)
+
 def package_mod(song):
     mod=ROOT/'mods'/f'{PREFIX}{song}'
     out=DELIVERY/f'Mod-{display(song)}-V2.4.0.zip'
     with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
         for path in sorted(p for p in mod.rglob('*') if p.is_file()):
             rel=path.relative_to(mod.parent)
-            z.write(path,rel.as_posix())
+            write_deterministic(z, rel.as_posix(), path.read_bytes())
     return out
 
 def main():
@@ -39,8 +48,8 @@ def main():
     collection=DELIVERY/'Mod-Esperon-Coleccion-V2.4.0.zip'
     readme='Esperón FNF Mobile V-Slice 0.8.6 V2.4.0\n\nContiene 20 ZIPs individuales. Extrae el ZIP individual elegido directamente dentro de la carpeta mods de FNF Mobile.\n'
     with zipfile.ZipFile(collection,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
-        z.writestr('README-INSTALACION.txt',readme)
-        for p in paths: z.write(p,p.name)
+        write_deterministic(z, 'README-INSTALACION.txt', readme.encode('utf-8'))
+        for p in paths: write_deterministic(z, p.name, p.read_bytes())
     print(json.dumps({'status':'PASS','mods':len(paths),'collection':collection.name,'delivery_zips':len(list(DELIVERY.glob('*.zip'))),'manifest':str(manifest_path)},ensure_ascii=False))
 
 if __name__=='__main__':main()
