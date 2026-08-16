@@ -41,7 +41,7 @@
     ],
     "preserve_original_audio": true,
     "candidate_analysis_only_until_all_gates_pass": true,
-    "chart_generation_mode": "VOCAL_SYLLABLE_ALIGNED_VOWEL_MAPPED_PLAYER_LANES_0_3",
+    "chart_generation_mode": "V272_SYLLABLE_ACCURATE_VOCAL_ONLY_PLAYER_LANES_0_3",
     "instrumental_can_generate_notes": false,
     "internal_initial_anchor_tolerance_ms": 5,
     "internal_initial_section_drift_tolerance_ms": 10
@@ -70,8 +70,8 @@
     "si-te-vas"
   ],
   "release_policy": {
-    "current_mod_version": "2.7.1",
-    "change_summary": "Lanes d=0..3; sincronización RMS-VAD, holds retimed y balanceo de rachas vocálicas; Freeplay AlbumRoll verificado; 21 mods"
+    "current_mod_version": "2.7.2",
+    "change_summary": "V2.7.2 syllable-accurate vocal charts; close attacks preserved as separate player notes; measured holds only; 21 mods"
   },
   "qa_policy": {
     "rounds": 20,
@@ -79,7 +79,7 @@
     "difficulties_per_mod": 3,
     "runtime_zip_must_exclude_evidence": true,
     "no_artificial_version_bumps": true,
-    "playstate_required_chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+    "playstate_required_chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.2 syllable-accurate vocal chart player lanes d=0..3",
     "freeplay_cover_dimensions": [
       512,
       512
@@ -87,26 +87,31 @@
     "complete_delivery_zip": "Esperon-Completo.zip",
     "freeplay_album_art_asset_pattern": "freeplay/albumRoll/<album>-art",
     "freeplay_album_title_requires_png_xml": true,
-    "vocal_hold_threshold_ms": 180
+    "vocal_hold_threshold_ms": 180,
+    "vocal_density_500ms": "observed_only_no_collapse",
+    "vocal_density_1000ms": "observed_only_no_deletion"
   },
   "branch_policy": {
     "main_expected_commit": "91d3a8dcf6fcf7760eb2ea8e70308f100a70c80f",
     "stable_branch_prefix": "f75a74f",
     "no_automatic_merge_or_release_on_divergence": true
   },
-  "mod_version": "2.7.1",
+  "mod_version": "2.7.2",
   "songs_count": 21,
   "mods_per_qa_round": 21,
   "qa_rounds": 20,
   "qa_reviews_expected": 420,
-  "chart_generation_mode": "VOCAL_SYLLABLE_ALIGNED_VOWEL_MAPPED_PLAYER_LANES_0_3",
+  "chart_generation_mode": "V272_SYLLABLE_ACCURATE_VOCAL_ONLY_PLAYER_LANES_0_3",
   "chart_syllable_policy": {
     "one_note_per_syllable": true,
+    "close_syllables_remain_separate": true,
     "interjections_are_separate_notes": true,
-    "holds_from_measured_vocal_duration": true,
+    "holds_from_measured_sustained_vocal_duration": true,
+    "holds_not_synthesized_by_density_reduction": true,
+    "engine_same_lane_collision_ms": 12,
     "low_confidence_requires_manual_review": true
   },
   "complete_delivery_zip": "Esperon-Completo.zip",
   "freeplay_capsule_policy": "LEVEL_TITLE_ASSET_AND_ALBUM_ROLL_VERIFIED",
-  "player_lane_contract": "d=0..3 with vowel mapping A=0,E=2,I=3,O/U=1"
+  "player_lane_contract": "d=0..3 with vowel mapping A=0,E=2,I=3,O/U=1; repeated same-vowel attacks balance lanes"
 }

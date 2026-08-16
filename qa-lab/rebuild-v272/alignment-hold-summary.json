@@ -1,0 +1,348 @@
+{
+  "songs": 21,
+  "totals": {
+    "syllables": 10945,
+    "holds_ge_120": 6492,
+    "holds_ge_180": 5686,
+    "holds_ge_240": 4357,
+    "holds_ge_300": 3205
+  },
+  "rows": [
+    {
+      "song": "arcoloria",
+      "syllables": 449,
+      "holds_ge_120": 336,
+      "holds_ge_180": 305,
+      "holds_ge_240": 245,
+      "holds_ge_300": 196,
+      "median_hold": 250.0,
+      "max_hold": 1770.0,
+      "types": {
+        "sustained_syllable": 337,
+        "syllable": 104,
+        "interjection_hold": 6,
+        "interjection": 2
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "syllables": 647,
+      "holds_ge_120": 302,
+      "holds_ge_180": 253,
+      "holds_ge_240": 180,
+      "holds_ge_300": 115,
+      "median_hold": 0.0,
+      "max_hold": 1410.0,
+      "types": {
+        "sustained_syllable": 307,
+        "syllable": 332,
+        "interjection_hold": 2,
+        "interjection": 6
+      }
+    },
+    {
+      "song": "dano",
+      "syllables": 734,
+      "holds_ge_120": 264,
+      "holds_ge_180": 214,
+      "holds_ge_240": 144,
+      "holds_ge_300": 81,
+      "median_hold": 0.0,
+      "max_hold": 800.0,
+      "types": {
+        "syllable": 437,
+        "sustained_syllable": 264,
+        "interjection": 22,
+        "interjection_hold": 11
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "syllables": 461,
+      "holds_ge_120": 318,
+      "holds_ge_180": 281,
+      "holds_ge_240": 227,
+      "holds_ge_300": 180,
+      "median_hold": 230.0,
+      "max_hold": 1470.0,
+      "types": {
+        "sustained_syllable": 310,
+        "syllable": 135,
+        "interjection_hold": 9,
+        "interjection": 7
+      }
+    },
+    {
+      "song": "eclipsis",
+      "syllables": 612,
+      "holds_ge_120": 411,
+      "holds_ge_180": 376,
+      "holds_ge_240": 293,
+      "holds_ge_300": 216,
+      "median_hold": 230.0,
+      "max_hold": 1360.0,
+      "types": {
+        "sustained_syllable": 404,
+        "interjection_hold": 11,
+        "syllable": 186,
+        "interjection": 11
+      }
+    },
+    {
+      "song": "fango",
+      "syllables": 631,
+      "holds_ge_120": 318,
+      "holds_ge_180": 275,
+      "holds_ge_240": 211,
+      "holds_ge_300": 136,
+      "median_hold": 150.0,
+      "max_hold": 1200.0,
+      "types": {
+        "syllable": 294,
+        "sustained_syllable": 307,
+        "interjection_hold": 21,
+        "interjection": 9
+      }
+    },
+    {
+      "song": "luma",
+      "syllables": 481,
+      "holds_ge_120": 335,
+      "holds_ge_180": 303,
+      "holds_ge_240": 255,
+      "holds_ge_300": 198,
+      "median_hold": 250.0,
+      "max_hold": 1530.0,
+      "types": {
+        "syllable": 135,
+        "sustained_syllable": 329,
+        "interjection_hold": 13,
+        "interjection": 4
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "syllables": 588,
+      "holds_ge_120": 370,
+      "holds_ge_180": 315,
+      "holds_ge_240": 250,
+      "holds_ge_300": 203,
+      "median_hold": 190.0,
+      "max_hold": 1770.0,
+      "types": {
+        "sustained_syllable": 358,
+        "syllable": 202,
+        "interjection": 7,
+        "interjection_hold": 21
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "syllables": 289,
+      "holds_ge_120": 253,
+      "holds_ge_180": 243,
+      "holds_ge_240": 205,
+      "holds_ge_300": 157,
+      "median_hold": 330.0,
+      "max_hold": 1500.0,
+      "types": {
+        "sustained_syllable": 243,
+        "syllable": 29,
+        "interjection_hold": 12,
+        "interjection": 5
+      }
+    },
+    {
+      "song": "meteora",
+      "syllables": 584,
+      "holds_ge_120": 319,
+      "holds_ge_180": 254,
+      "holds_ge_240": 175,
+      "holds_ge_300": 120,
+      "median_hold": 160.0,
+      "max_hold": 1570.0,
+      "types": {
+        "sustained_syllable": 316,
+        "syllable": 233,
+        "interjection_hold": 10,
+        "interjection": 25
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "syllables": 325,
+      "holds_ge_120": 180,
+      "holds_ge_180": 160,
+      "holds_ge_240": 136,
+      "holds_ge_300": 111,
+      "median_hold": 170.0,
+      "max_hold": 1470.0,
+      "types": {
+        "syllable": 136,
+        "sustained_syllable": 184,
+        "interjection_hold": 4,
+        "interjection": 1
+      }
+    },
+    {
+      "song": "nubia",
+      "syllables": 411,
+      "holds_ge_120": 270,
+      "holds_ge_180": 250,
+      "holds_ge_240": 202,
+      "holds_ge_300": 166,
+      "median_hold": 230.0,
+      "max_hold": 1550.0,
+      "types": {
+        "sustained_syllable": 262,
+        "syllable": 128,
+        "interjection_hold": 12,
+        "interjection": 9
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "syllables": 321,
+      "holds_ge_120": 227,
+      "holds_ge_180": 212,
+      "holds_ge_240": 172,
+      "holds_ge_300": 127,
+      "median_hold": 240.0,
+      "max_hold": 1090.0,
+      "types": {
+        "sustained_syllable": 226,
+        "syllable": 88,
+        "interjection": 1,
+        "interjection_hold": 6
+      }
+    },
+    {
+      "song": "peligrosa",
+      "syllables": 666,
+      "holds_ge_120": 342,
+      "holds_ge_180": 301,
+      "holds_ge_240": 205,
+      "holds_ge_300": 132,
+      "median_hold": 150.0,
+      "max_hold": 1490.0,
+      "types": {
+        "sustained_syllable": 332,
+        "syllable": 295,
+        "interjection": 15,
+        "interjection_hold": 24
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "syllables": 591,
+      "holds_ge_120": 366,
+      "holds_ge_180": 321,
+      "holds_ge_240": 248,
+      "holds_ge_300": 174,
+      "median_hold": 200.0,
+      "max_hold": 1420.0,
+      "types": {
+        "sustained_syllable": 363,
+        "syllable": 213,
+        "interjection": 8,
+        "interjection_hold": 7
+      }
+    },
+    {
+      "song": "si-te-vas",
+      "syllables": 483,
+      "holds_ge_120": 294,
+      "holds_ge_180": 261,
+      "holds_ge_240": 200,
+      "holds_ge_300": 144,
+      "median_hold": 190.0,
+      "max_hold": 1580.0,
+      "types": {
+        "sustained_syllable": 285,
+        "syllable": 177,
+        "interjection": 4,
+        "interjection_hold": 17
+      }
+    },
+    {
+      "song": "solare",
+      "syllables": 572,
+      "holds_ge_120": 395,
+      "holds_ge_180": 338,
+      "holds_ge_240": 244,
+      "holds_ge_300": 159,
+      "median_hold": 200.0,
+      "max_hold": 1650.0,
+      "types": {
+        "sustained_syllable": 392,
+        "syllable": 157,
+        "interjection_hold": 13,
+        "interjection": 10
+      }
+    },
+    {
+      "song": "tristella",
+      "syllables": 527,
+      "holds_ge_120": 353,
+      "holds_ge_180": 313,
+      "holds_ge_240": 245,
+      "holds_ge_300": 198,
+      "median_hold": 220.0,
+      "max_hold": 1700.0,
+      "types": {
+        "sustained_syllable": 338,
+        "syllable": 159,
+        "interjection": 10,
+        "interjection_hold": 20
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "syllables": 509,
+      "holds_ge_120": 272,
+      "holds_ge_180": 222,
+      "holds_ge_240": 157,
+      "holds_ge_300": 107,
+      "median_hold": 160.0,
+      "max_hold": 1490.0,
+      "types": {
+        "interjection": 22,
+        "interjection_hold": 32,
+        "syllable": 209,
+        "sustained_syllable": 246
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "syllables": 407,
+      "holds_ge_120": 275,
+      "holds_ge_180": 241,
+      "holds_ge_240": 193,
+      "holds_ge_300": 159,
+      "median_hold": 220.0,
+      "max_hold": 1770.0,
+      "types": {
+        "sustained_syllable": 277,
+        "interjection_hold": 2,
+        "syllable": 125,
+        "interjection": 3
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "syllables": 657,
+      "holds_ge_120": 292,
+      "holds_ge_180": 248,
+      "holds_ge_240": 170,
+      "holds_ge_300": 126,
+      "median_hold": 0.0,
+      "max_hold": 1120.0,
+      "types": {
+        "syllable": 339,
+        "sustained_syllable": 282,
+        "interjection": 14,
+        "interjection_hold": 22
+      }
+    }
+  ]
+}

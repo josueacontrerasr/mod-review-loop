@@ -1,0 +1,332 @@
+{
+  "scope": "WIDE_RESEARCH_V272_SYLLABLE_ACCURATE_VOCAL_CANDIDATES",
+  "created_at": "2026-08-16T01:55:05.678337+00:00",
+  "base_release": "esperon-vslice-086-v2.7.1",
+  "target_version": "2.7.2",
+  "songs": 21,
+  "parallel_workers": 8,
+  "production_untouched": true,
+  "aligned_syllables": 10945,
+  "candidate_notes": {
+    "easy": 6917,
+    "normal": 10945,
+    "hard": 16612
+  },
+  "rows": [
+    {
+      "song": "arcoloria",
+      "aligned_syllables": 449,
+      "original_notes": {
+        "normal": 305,
+        "easy": 273,
+        "hard": 355
+      },
+      "candidate_notes": {
+        "normal": 449,
+        "easy": 322,
+        "hard": 753
+      },
+      "reduction_events": 304
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "aligned_syllables": 647,
+      "original_notes": {
+        "normal": 291,
+        "easy": 266,
+        "hard": 310
+      },
+      "candidate_notes": {
+        "normal": 647,
+        "easy": 368,
+        "hard": 900
+      },
+      "reduction_events": 253
+    },
+    {
+      "song": "dano",
+      "aligned_syllables": 734,
+      "original_notes": {
+        "normal": 266,
+        "easy": 249,
+        "hard": 279
+      },
+      "candidate_notes": {
+        "normal": 734,
+        "easy": 416,
+        "hard": 947
+      },
+      "reduction_events": 213
+    },
+    {
+      "song": "dias-magicos",
+      "aligned_syllables": 461,
+      "original_notes": {
+        "normal": 272,
+        "easy": 251,
+        "hard": 298
+      },
+      "candidate_notes": {
+        "normal": 461,
+        "easy": 306,
+        "hard": 741
+      },
+      "reduction_events": 280
+    },
+    {
+      "song": "eclipsis",
+      "aligned_syllables": 612,
+      "original_notes": {
+        "normal": 355,
+        "easy": 321,
+        "hard": 392
+      },
+      "candidate_notes": {
+        "normal": 612,
+        "easy": 390,
+        "hard": 987
+      },
+      "reduction_events": 375
+    },
+    {
+      "song": "fango",
+      "aligned_syllables": 631,
+      "original_notes": {
+        "normal": 286,
+        "easy": 259,
+        "hard": 308
+      },
+      "candidate_notes": {
+        "normal": 631,
+        "easy": 385,
+        "hard": 905
+      },
+      "reduction_events": 274
+    },
+    {
+      "song": "luma",
+      "aligned_syllables": 481,
+      "original_notes": {
+        "normal": 322,
+        "easy": 287,
+        "hard": 344
+      },
+      "candidate_notes": {
+        "normal": 481,
+        "easy": 324,
+        "hard": 784
+      },
+      "reduction_events": 303
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "aligned_syllables": 588,
+      "original_notes": {
+        "normal": 329,
+        "easy": 293,
+        "hard": 375
+      },
+      "candidate_notes": {
+        "normal": 588,
+        "easy": 376,
+        "hard": 902
+      },
+      "reduction_events": 314
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "aligned_syllables": 289,
+      "original_notes": {
+        "normal": 232,
+        "easy": 203,
+        "hard": 267
+      },
+      "candidate_notes": {
+        "normal": 289,
+        "easy": 212,
+        "hard": 531
+      },
+      "reduction_events": 242
+    },
+    {
+      "song": "meteora",
+      "aligned_syllables": 584,
+      "original_notes": {
+        "normal": 266,
+        "easy": 252,
+        "hard": 295
+      },
+      "candidate_notes": {
+        "normal": 584,
+        "easy": 360,
+        "hard": 837
+      },
+      "reduction_events": 253
+    },
+    {
+      "song": "mi-hogar",
+      "aligned_syllables": 325,
+      "original_notes": {
+        "normal": 187,
+        "easy": 168,
+        "hard": 215
+      },
+      "candidate_notes": {
+        "normal": 325,
+        "easy": 211,
+        "hard": 484
+      },
+      "reduction_events": 159
+    },
+    {
+      "song": "nubia",
+      "aligned_syllables": 411,
+      "original_notes": {
+        "normal": 255,
+        "easy": 228,
+        "hard": 293
+      },
+      "candidate_notes": {
+        "normal": 411,
+        "easy": 268,
+        "hard": 660
+      },
+      "reduction_events": 249
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "aligned_syllables": 321,
+      "original_notes": {
+        "normal": 193,
+        "easy": 170,
+        "hard": 215
+      },
+      "candidate_notes": {
+        "normal": 321,
+        "easy": 211,
+        "hard": 532
+      },
+      "reduction_events": 211
+    },
+    {
+      "song": "peligrosa",
+      "aligned_syllables": 666,
+      "original_notes": {
+        "normal": 320,
+        "easy": 290,
+        "hard": 349
+      },
+      "candidate_notes": {
+        "normal": 666,
+        "easy": 397,
+        "hard": 966
+      },
+      "reduction_events": 300
+    },
+    {
+      "song": "rompecabezas",
+      "aligned_syllables": 591,
+      "original_notes": {
+        "normal": 327,
+        "easy": 288,
+        "hard": 349
+      },
+      "candidate_notes": {
+        "normal": 591,
+        "easy": 369,
+        "hard": 911
+      },
+      "reduction_events": 320
+    },
+    {
+      "song": "si-te-vas",
+      "aligned_syllables": 483,
+      "original_notes": {
+        "normal": 254,
+        "easy": 231,
+        "hard": 299
+      },
+      "candidate_notes": {
+        "normal": 483,
+        "easy": 303,
+        "hard": 743
+      },
+      "reduction_events": 260
+    },
+    {
+      "song": "solare",
+      "aligned_syllables": 572,
+      "original_notes": {
+        "normal": 320,
+        "easy": 295,
+        "hard": 353
+      },
+      "candidate_notes": {
+        "normal": 572,
+        "easy": 355,
+        "hard": 909
+      },
+      "reduction_events": 337
+    },
+    {
+      "song": "tristella",
+      "aligned_syllables": 527,
+      "original_notes": {
+        "normal": 338,
+        "easy": 304,
+        "hard": 369
+      },
+      "candidate_notes": {
+        "normal": 527,
+        "easy": 368,
+        "hard": 839
+      },
+      "reduction_events": 312
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "aligned_syllables": 509,
+      "original_notes": {
+        "normal": 233,
+        "easy": 220,
+        "hard": 258
+      },
+      "candidate_notes": {
+        "normal": 509,
+        "easy": 313,
+        "hard": 730
+      },
+      "reduction_events": 221
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "aligned_syllables": 407,
+      "original_notes": {
+        "normal": 250,
+        "easy": 224,
+        "hard": 296
+      },
+      "candidate_notes": {
+        "normal": 407,
+        "easy": 282,
+        "hard": 647
+      },
+      "reduction_events": 240
+    },
+    {
+      "song": "volver-a-vernos",
+      "aligned_syllables": 657,
+      "original_notes": {
+        "normal": 279,
+        "easy": 259,
+        "hard": 300
+      },
+      "candidate_notes": {
+        "normal": 657,
+        "easy": 381,
+        "hard": 904
+      },
+      "reduction_events": 247
+    }
+  ]
+}
