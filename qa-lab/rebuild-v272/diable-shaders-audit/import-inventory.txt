@@ -1,0 +1,184 @@
+# Diable Shaders import inventory
+
+import StringTools;
+import flixel.FlxCamera;
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.addons.display.FlxBackdrop;
+import flixel.addons.display.FlxTiledSprite;
+import flixel.addons.effects.FlxTrail;
+import flixel.effects.FlxFlicker;
+import flixel.graphics.FlxGraphic;
+import flixel.math.FlxAngle;
+import flixel.math.FlxMath;
+import flixel.math.FlxPoint;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxTimer;
+import flixel.util.FlxTimerManager;
+import funkin.Conductor;
+import funkin.audio.FunkinSound;
+import funkin.graphics.FunkinSprite;
+import funkin.graphics.adobeanimate.FlxAtlasSprite;
+import funkin.graphics.framebuffer.BitmapDataUtil;
+import funkin.graphics.framebuffer.FixedBitmapData;
+import funkin.graphics.shaders.AdjustColorShader;
+import funkin.graphics.shaders.DropShadowShader;
+import funkin.graphics.shaders.GaussianBlurShader;
+import funkin.graphics.shaders.OverlayBlend;
+import funkin.graphics.shaders.RuntimeRainShader;
+import funkin.graphics.shaders.WiggleEffectRuntime;
+import funkin.graphics.shaders.WiggleEffectType;
+import funkin.modding.base.ScriptedFlxAtlasSprite;
+import funkin.modding.base.ScriptedFlxRuntimeShader;
+import funkin.modding.base.ScriptedFlxSpriteGroup;
+import funkin.play.Countdown;
+import funkin.play.PlayState;
+import funkin.play.PlayStatePlaylist;
+import funkin.play.character.CharacterType;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.play.song.Song;
+import funkin.play.stage.Stage;
+import funkin.play.stage.StageProp;
+import funkin.save.Save;
+import funkin.util.Constants;
+import funkin.util.FlxTweenUtil;
+import funkin.util.HapticUtil;
+import funkin.util.MathUtil;
+import openfl.display.BitmapData;
+import openfl.filters.BlurFilter;
+import openfl.filters.ShaderFilter;
+
+# Class declarations
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/songs/stress.hxc:21:class StressSong extends Song
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:11:class LimoRideErectStage extends Stage
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:20:class PhillyBlazinStage extends Stage
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:20:class PhillyStreetsStage extends Stage
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:25:class PhillyStreetsErectStage extends Stage
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/props/TankmanSprite.hxc:10:class TankmanSprite extends FunkinSprite
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolErect.hxc:6:class SchoolErectStage extends Stage
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolEvil.hxc:8:class SchoolEvilStage extends Stage
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolEvilErect.hxc:6:class SchoolEvilErectStage extends Stage
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolPico.hxc:6:class SchoolPicoStage extends Stage
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/tankmanBattlefieldErect.hxc:9:class TankmanBattlefieldErectStage extends Stage
+
+# Sensitive calls
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/songs/stress.hxc:108:  function onSongStart(event:ScriptEvent):Void
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/songs/stress.hxc:110:    super.onSongStart(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/songs/stress.hxc:148:  function onCreate(event:ScriptEvent):Void
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/songs/stress.hxc:150:    super.onCreate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/songs/stress.hxc:160:  function onUpdate(event:UpdateScriptEvent):Void
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/songs/stress.hxc:162:    super.onUpdate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/songs/stress.hxc:243:    FlxG.cameras.insert(rimlightCamera, (FlxG.onMobile) ? -4 : -2, false);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/songs/stress.hxc:272:      FlxG.cameras.remove(rimlightCamera);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/songs/stress.hxc:60:  public override function onCountdownStart(event:CountdownScriptEvent):Void
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/songs/stress.hxc:62:    super.onCountdownStart(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:151:    // This graphic is applied by shader to the background, so it's not included in the default stage function.
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:172:  function onCountdownStart(event:ScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:174:    super.onCountdownStart(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:178:  override function onCreate(event:ScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:180:    super.onCreate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:182:    getNamedProp('limoDancer1').shader = colorShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:183:    getNamedProp('limoDancer2').shader = colorShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:184:    getNamedProp('limoDancer3').shader = colorShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:185:    getNamedProp('limoDancer4').shader = colorShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:186:    getNamedProp('limoDancer5').shader = colorShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:187:    getNamedProp('fastCar').shader = colorShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:189:    colorShader.hue = -30;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:18:  var colorShader:AdjustColorShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:190:    colorShader.saturation = -20;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:191:    colorShader.contrast = 0;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:192:    colorShader.brightness = -30;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:196:   * Apply the shader to the character as it is added.
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:200:    // Apply the shader automatically to each character as it gets added.
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:202:    trace('Applied stage shader to ' + character.characterName);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:203:    character.shader = colorShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:27:    // Apply sky shader.
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:37:    // There's some commented-out shader BS in the original code.
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:41:    colorShader = new AdjustColorShader();
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:67:  function onUpdate(event:UpdateScriptEvent):Void
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:69:    super.onUpdate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:7:import funkin.graphics.shaders.AdjustColorShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:90:  function onBeatHit(event:SongTimeScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:92:    // When overriding onBeatHit, make sure to call super.onBeatHit,
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/limoRideErect.hxc:94:    super.onBeatHit(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:10:import openfl.filters.ShaderFilter;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:124:  public function onNoteHit(event:HitNoteScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:126:    super.onNoteHit(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:18: * This stage includes a partial version of the Philly Streets stage with shaders applied.
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:192:  function onStepHit(event:SongTimeScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:194:    super.onStepHit(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:1:import funkin.graphics.shaders.GaussianBlurShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:29:  // var rainShaderFilter:ShaderFilter;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:31:  override function onCreate(event:ScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:33:    super.onCreate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:42:    // Make it so the rain shader doesn't show over the game over screen
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:48:    // Make it so the rain shader doesn't show over the game over screen
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:7:import funkin.graphics.shaders.RuntimeRainShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:90:  override function onUpdate(event:ScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyBlazin.hxc:92:    super.onUpdate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:106:  override function onCreate(event:ScriptEvent):Void
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:108:    super.onCreate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:119:    switch (PlayState.instance.currentSong.id)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:127:    // set the shader input
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:129:    // FlxG.camera.setFilters([new openfl.filters.BlurFilter(16,16)]);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:149:  override function onDestroy(event:ScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:151:    super.onDestroy();
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:363:  override function onUpdate(event:UpdateScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:365:    super.onUpdate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:381:  function onBeatHit(event:SongTimeScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:383:    super.onBeatHit(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:483:    // Make it so the rain shader doesn't show over the game over screen
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:484:    FlxG.camera.filters = [];
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreets.hxc:490:    // Make it so the rain shader doesn't show over the game over screen
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:115:  override function onCreate(event:ScriptEvent):Void
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:117:    super.onCreate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:127:    // rainShader.puddleMap = Assets.getBitmapData(Paths.image("phillyStreets/puddle"));
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:13:import funkin.graphics.shaders.OverlayBlend;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:146:    colorShader = new AdjustColorShader();
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:147:    colorShader.hue = -5;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:148:    colorShader.saturation = -40;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:149:    colorShader.contrast = -25;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:14:import funkin.graphics.shaders.RuntimeRainShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:150:    colorShader.brightness = -20;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:153:  override function onDestroy(event:ScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:155:    super.onDestroy();
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:15:import funkin.modding.base.ScriptedFlxRuntimeShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:18:import openfl.filters.ShaderFilter;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:22:import funkin.graphics.shaders.AdjustColorShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:29:  var rainShaderStartIntensity:Float;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:30:  var rainShaderEndIntensity:Float;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:369:  override function onUpdate(event:UpdateScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:371:    super.onUpdate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:376:  function onBeatHit(event:SongTimeScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:378:    super.onBeatHit(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:46:  var colorShader:AdjustColorShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:489:    // Make it so the rain shader doesn't show over the game over screen
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:490:    FlxG.camera.filters = [];
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:496:    // Make it so the rain shader doesn't show over the game over screen
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:497:    // FlxG.camera.setFilters([rainShaderFilter]);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:530:    // Apply the shader automatically to each character as it gets added.
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:532:    trace('Applied stage shader to ' + character.characterName);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/phillyStreetsErect.hxc:533:    character.shader = colorShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/props/TankmanSprite.hxc:37:  var tankmanFlicker:FlxFlicker = null;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/props/TankmanSprite.hxc:43:     tankmanFlicker = FlxFlicker.flicker(super, 0.3, 1 / 10, true, true, function(_) {
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/props/TankmanSprite.hxc:44:      tankmanFlicker = FlxFlicker.flicker(super, 0.3, 1 / 20, false, true, function(_) {
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/props/TankmanSprite.hxc:4:import flixel.effects.FlxFlicker;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolErect.hxc:17:    if (PlayState.instance.currentSong.id.toLowerCase() == "roses")
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolErect.hxc:4:import funkin.graphics.shaders.DropShadowShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolEvil.hxc:24:  override function onUpdate(event:UpdateScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolEvil.hxc:26:    super.onUpdate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolEvil.hxc:3:import funkin.graphics.shaders.WiggleEffectRuntime;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolEvil.hxc:4:import funkin.graphics.shaders.WiggleEffectType;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolEvil.hxc:5:import flixel.addons.effects.FlxTrail;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolEvilErect.hxc:26:  override function onUpdate(event:UpdateScriptEvent)
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolEvilErect.hxc:28:    super.onUpdate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolEvilErect.hxc:3:import flixel.addons.effects.FlxTrail;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolPico.hxc:17:    if (PlayState.instance.currentSong.id.toLowerCase() == "roses")
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/schoolPico.hxc:3:import funkin.graphics.shaders.DropShadowShader;
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/tankmanBattlefieldErect.hxc:16:  function onCreate(event:ScriptEvent):Void
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/tankmanBattlefieldErect.hxc:18:    super.onCreate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/tankmanBattlefieldErect.hxc:82:  function onUpdate(event:UpdateScriptEvent):Void
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/tankmanBattlefieldErect.hxc:84:    super.onUpdate(event);
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/tankmanBattlefieldErect.hxc:87:  function onBeatHit(event:SongTimeScriptEvent):Void
+qa-lab/rebuild-v272/diable-shaders-audit/optimods/scripts/stages/tankmanBattlefieldErect.hxc:89:    super.onBeatHit(event);

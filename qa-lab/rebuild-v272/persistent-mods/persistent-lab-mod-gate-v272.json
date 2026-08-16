@@ -1,0 +1,25 @@
+{
+  "scope": "PERSISTENT_LAB_MOD_GATE_V272",
+  "target_version": "0.8.6",
+  "package_name": "me.funkin.fnf",
+  "mod_id": "optimods",
+  "checks": {
+    "original_archive_hash": true,
+    "original_report_hash_matches": true,
+    "normalized_exists": true,
+    "installed_exists": true,
+    "manifest_at_root": true,
+    "api_rule_086": true,
+    "lab_only_flag": true,
+    "uninstall_policy_persistent": true,
+    "outside_esperon_runtime": true,
+    "legacy_character_imports_removed": true,
+    "archive_safe_paths": true,
+    "all_esperon_mods_preserved": true,
+    "optimizer_persistent_in_simulation": true,
+    "optimizer_absent_from_runtime_zips": true
+  },
+  "dangerous_archive_paths": [],
+  "optimizer_runtime_zip_hits": [],
+  "status": "PASS"
+}

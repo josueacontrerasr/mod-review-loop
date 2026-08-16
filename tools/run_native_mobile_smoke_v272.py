@@ -46,8 +46,20 @@ def require_adb(serial: str) -> None:
         raise SystemExit(f"ERROR: el dispositivo {serial!r} no aparece como device en adb devices.")
 
 
+def push_persistent_mod(serial: str, mod: Path) -> dict[str, Any]:
+    result = run_adb(serial, "push", str(mod), f"{REMOTE_MOD_ROOT}/", timeout=300)
+    return {
+        "status": "PASS" if result.returncode == 0 else "ERROR",
+        "step": "push_persistent_lab_mod",
+        "mod": mod.name,
+        "stderr": result.stderr.strip()[-1000:],
+        "stdout": result.stdout.strip()[-1000:],
+    }
+
+
 def push_mod(serial: str, mod: Path) -> dict[str, Any]:
-    clear = run_adb(serial, "shell", "sh", "-c", f"rm -rf '{REMOTE_MOD_ROOT}' && mkdir -p '{REMOTE_MOD_ROOT}'")
+    # Keep the persistent lab optimizer. Only remove the Esperon test mods.
+    clear = run_adb(serial, "shell", "sh", "-c", f"mkdir -p '{REMOTE_MOD_ROOT}' && rm -rf '{REMOTE_MOD_ROOT}'/esperon-dano-*")
     if clear.returncode != 0:
         return {"status": "ERROR", "step": "clear_remote_mods", "stderr": clear.stderr.strip()[-1000:]}
     result = run_adb(serial, "push", str(mod), f"{REMOTE_MOD_ROOT}/", timeout=300)
@@ -97,6 +109,10 @@ def main() -> int:
         shutil.rmtree(output)
     output.mkdir(parents=True, exist_ok=True)
     source_root = root / "mods"
+    persistent_mod = root / "qa-lab" / "rebuild-v272" / "persistent-mods" / "normalized" / "optimods"
+    if not persistent_mod.is_dir():
+        raise SystemExit(f"ERROR: falta el optimizador persistente normalizado: {persistent_mod}")
+
     report: dict[str, Any] = {
         "scope": "NATIVE_ANDROID_SMOKE_V272",
         "executed_at": datetime.now(timezone.utc).isoformat(),
@@ -123,6 +139,18 @@ def main() -> int:
     package_path = run_adb(args.serial, "shell", "pm", "path", PACKAGE)
     report["package_path"] = {"returncode": package_path.returncode, "stdout": package_path.stdout.strip(), "stderr": package_path.stderr.strip()}
     if package_path.returncode != 0 or not package_path.stdout.strip():
+        (output / "report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        return 1
+
+    persistent_push = push_persistent_mod(args.serial, persistent_mod)
+    report["persistent_lab_mod"] = {
+        "local_path": str(persistent_mod),
+        "remote_path": f"{REMOTE_MOD_ROOT}/optimods",
+        "push": persistent_push,
+        "uninstall_policy": "PERSIST_UNTIL_USER_EXPLICITLY_REQUESTS_REMOVAL",
+    }
+    if persistent_push.get("status") != "PASS":
+        report["status"] = "ERRORS_FOUND"
         (output / "report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         return 1
 

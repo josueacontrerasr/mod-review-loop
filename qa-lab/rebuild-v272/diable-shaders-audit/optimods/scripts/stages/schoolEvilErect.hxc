@@ -1,0 +1,38 @@
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+import flixel.addons.effects.FlxTrail;
+import funkin.play.Countdown;
+
+class SchoolEvilErectStage extends Stage
+{
+  function new()
+  {
+    super('schoolEvilErect');
+  }
+
+
+  override function buildStage()
+  {
+    super.buildStage();
+
+
+  }
+
+  override function addCharacter(char:BaseCharacter, charType:CharacterType)
+  {
+    super.addCharacter(char, charType);
+  }
+
+  override function onUpdate(event:UpdateScriptEvent)
+  {
+    super.onUpdate(event);
+
+    {
+    }
+  }
+
+  function kill()
+  {
+    super.kill();
+  }
+}

@@ -23,6 +23,7 @@ SONGS = [
     "tu-dealer-de-nostalgia", "un-poco-bien-un-poco-mal", "volver-a-vernos", "si-te-vas",
 ]
 PACKAGE_NAME = "me.funkin.fnf"
+MOD_ID = "optimods"
 OFFICIAL_RELATIVE_PATH = Path("Android") / "obb" / PACKAGE_NAME / "mods"
 
 
@@ -91,6 +92,15 @@ def main() -> int:
         rows = list(executor.map(lambda pair: copy_one(*pair), jobs))
     rows.sort(key=lambda row: row["mod"])
 
+    persistent_source = root / "qa-lab" / "rebuild-v272" / "persistent-mods" / "normalized" / MOD_ID
+    persistent_destination = destination / MOD_ID
+    persistent_status = "NOT_PRESENT"
+    if persistent_source.is_dir():
+        if persistent_destination.exists():
+            shutil.rmtree(persistent_destination)
+        shutil.copytree(persistent_source, persistent_destination)
+        persistent_status = "PASS" if (persistent_destination / "_polymod_meta.json").is_file() else "ERROR"
+
     push_rows: list[dict[str, Any]] = []
     adb_status = "NOT_REQUESTED"
     remote_root = f"/sdcard/{OFFICIAL_RELATIVE_PATH.as_posix()}"
@@ -117,12 +127,14 @@ def main() -> int:
         "source_root": str(source_root.relative_to(root)) if source_root.is_relative_to(root) else str(source_root),
         "mods_expected": len(SONGS),
         "mods_staged": len(rows),
+        "persistent_lab_mod": MOD_ID,
+        "persistent_lab_mod_status": persistent_status,
         "missing_sources": missing,
         "manifest_root_passed": sum(row["manifest_at_root"] for row in rows),
         "adb_serial": args.adb_serial,
         "adb_status": adb_status,
         "adb_push": push_rows,
-        "status": "PASS" if len(rows) == len(SONGS) and not missing and all(row["status"] == "PASS" for row in rows) and adb_status != "ERROR" else "ERRORS_FOUND",
+        "status": "PASS" if len(rows) == len(SONGS) and not missing and all(row["status"] == "PASS" for row in rows) and persistent_status in ("PASS", "NOT_PRESENT") and adb_status != "ERROR" else "ERRORS_FOUND",
         "rows": rows,
     }
     output = root / "qa-lab" / "rebuild-v272" / "official-android-stage-v272.json"
