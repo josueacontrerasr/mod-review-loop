@@ -7,7 +7,10 @@
     "environment_override": "FNF_VERSION"
   },
   "platform": "official-mobile-vslice",
-  "mobile_simulation_root": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods",
+  "mobile_simulation_root": "qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods",
+  "android_package_name": "me.funkin.fnf",
+  "official_android_mod_root": "/sdcard/Android/obb/me.funkin.fnf/mods",
+  "legacy_mobile_simulation_root": "qa-lab/mobile-sim/storage/emulated/0/Android/data/com.funkin.fnf/files/mods",
   "runtime_mod_root": "mods",
   "delivery_root": "Mods .zip terminados",
   "contracts": {

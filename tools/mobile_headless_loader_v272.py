@@ -255,7 +255,7 @@ def main() -> int:
     parser.add_argument("--workers", type=int, default=4)
     args = parser.parse_args()
     root = args.root.resolve()
-    sim_root = root / "qa-lab" / "mobile-sim" / "storage" / "emulated" / "0" / "Android" / "data" / "com.funkin.fnf" / "files" / "mods"
+    sim_root = root / "qa-lab" / "mobile-sim" / "storage" / "emulated" / "0" / "Android" / "obb" / "me.funkin.fnf" / "mods"
     sim_root.mkdir(parents=True, exist_ok=True)
     jobs = [(root, song, sim_root) for song in SONGS]
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.workers)) as executor:
