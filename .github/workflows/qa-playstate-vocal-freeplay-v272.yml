@@ -1,0 +1,64 @@
+name: QA PlayState Vocal Freeplay V2.7.2
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '*/10 * * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: qa-playstate-vocal-freeplay-v272-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  full-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout exact branch commit
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deterministic validation dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --disable-pip-version-check --no-input pillow
+          ffprobe -version
+      - name: Validate isolated V2.7.2 syllable-accurate vocal candidates
+        run: python3 tools/validate_vocal_sync_candidates_v272.py --candidate-dir qa-lab/rebuild-v272/playstate-fix/vocal-sync-candidates
+      - name: Audit V2.7.2 syllable and close-attack candidate quality
+        run: python3 tools/audit_v272_candidate_quality.py
+      - name: Validate PlayState default variation and 63 difficulties
+        run: python3 tools/resolve_playstate_v272.py . --workers 8 --variations default
+      - name: Validate production vocal-only charts
+        run: python3 tools/validate_production_v272.py . --workers 8
+      - name: Validate V-Slice contracts, Freeplay covers and assets
+        run: python3 tools/validate_v272_contracts_assets.py . --workers 8
+      - name: Diagnose AlbumRegistry Freeplay resolution
+        run: python3 tools/diagnose_freeplay_capsule_v272.py .
+      - name: Validate Freeplay capsule and album assets
+        run: python3 tools/validate_freeplay_capsule_v272.py .
+      - name: Rebuild deterministic ZIPs for CI artifact
+        run: python3 tools/package_esperon_complete_v272.py .
+      - name: Validate Esperon individual and complete ZIPs
+        run: python3 tools/validate_esperon_complete_v272.py . --workers 8
+      - name: Validate Android headless loader
+        run: python3 tools/mobile_headless_loader_v272.py . --workers 8
+      - name: Run 20 rounds x 21 mods QA
+        run: python3 tools/run_qa_v272_20x21.py > qa-lab/rebuild-v272/playstate-fix/qa-20x21-v272-ci.stdout
+      - name: Upload V2.7.2 evidence and ZIPs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: esperon-v272-playstate-vocal-syllable-freeplay-${{ github.run_id }}
+          if-no-files-found: error
+          path: |
+            qa-lab/rebuild-v272/playstate-fix/**
+            Mods .zip terminados/*.zip

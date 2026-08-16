@@ -1,0 +1,2555 @@
+{
+  "songs": 21,
+  "totals": {
+    "syllables": 10945,
+    "v271_normal_notes": 5880,
+    "v272_easy_notes": 6917,
+    "v272_normal_notes": 10945,
+    "v272_hard_notes": 16612,
+    "normal_delta_vs_v271": 5065,
+    "pair_windows_80_500ms": 8803,
+    "pair_windows_kept_separately": 8803
+  },
+  "overall_pair_keep_ratio": 1.0,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "syllables": 449,
+      "v271_normal_notes": 305,
+      "v272_easy_notes": 322,
+      "v272_normal_notes": 449,
+      "v272_hard_notes": 753,
+      "normal_delta_vs_v271": 144,
+      "normal_pair_windows_80_500ms": 311,
+      "normal_pair_windows_kept_separately": 311,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 305,
+      "hard_hold_count": 305,
+      "normal_lane_counts": {
+        "0": 102,
+        "1": 122,
+        "2": 135,
+        "3": 90
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "syllables": 647,
+      "v271_normal_notes": 291,
+      "v272_easy_notes": 368,
+      "v272_normal_notes": 647,
+      "v272_hard_notes": 900,
+      "normal_delta_vs_v271": 356,
+      "normal_pair_windows_80_500ms": 560,
+      "normal_pair_windows_kept_separately": 560,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 253,
+      "hard_hold_count": 253,
+      "normal_lane_counts": {
+        "0": 154,
+        "1": 185,
+        "2": 205,
+        "3": 103
+      }
+    },
+    {
+      "song": "dano",
+      "syllables": 734,
+      "v271_normal_notes": 266,
+      "v272_easy_notes": 416,
+      "v272_normal_notes": 734,
+      "v272_hard_notes": 947,
+      "normal_delta_vs_v271": 468,
+      "normal_pair_windows_80_500ms": 630,
+      "normal_pair_windows_kept_separately": 630,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 214,
+      "hard_hold_count": 214,
+      "normal_lane_counts": {
+        "0": 154,
+        "1": 185,
+        "2": 240,
+        "3": 155
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "syllables": 461,
+      "v271_normal_notes": 272,
+      "v272_easy_notes": 306,
+      "v272_normal_notes": 461,
+      "v272_hard_notes": 741,
+      "normal_delta_vs_v271": 189,
+      "normal_pair_windows_80_500ms": 379,
+      "normal_pair_windows_kept_separately": 379,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 281,
+      "hard_hold_count": 281,
+      "normal_lane_counts": {
+        "0": 94,
+        "1": 140,
+        "2": 126,
+        "3": 101
+      }
+    },
+    {
+      "song": "eclipsis",
+      "syllables": 612,
+      "v271_normal_notes": 355,
+      "v272_easy_notes": 390,
+      "v272_normal_notes": 612,
+      "v272_hard_notes": 987,
+      "normal_delta_vs_v271": 257,
+      "normal_pair_windows_80_500ms": 500,
+      "normal_pair_windows_kept_separately": 500,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 376,
+      "hard_hold_count": 376,
+      "normal_lane_counts": {
+        "0": 125,
+        "1": 169,
+        "2": 169,
+        "3": 149
+      }
+    },
+    {
+      "song": "fango",
+      "syllables": 631,
+      "v271_normal_notes": 286,
+      "v272_easy_notes": 385,
+      "v272_normal_notes": 631,
+      "v272_hard_notes": 905,
+      "normal_delta_vs_v271": 345,
+      "normal_pair_windows_80_500ms": 519,
+      "normal_pair_windows_kept_separately": 519,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 275,
+      "hard_hold_count": 275,
+      "normal_lane_counts": {
+        "0": 170,
+        "1": 164,
+        "2": 172,
+        "3": 125
+      }
+    },
+    {
+      "song": "luma",
+      "syllables": 481,
+      "v271_normal_notes": 322,
+      "v272_easy_notes": 324,
+      "v272_normal_notes": 481,
+      "v272_hard_notes": 784,
+      "normal_delta_vs_v271": 159,
+      "normal_pair_windows_80_500ms": 373,
+      "normal_pair_windows_kept_separately": 373,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 303,
+      "hard_hold_count": 303,
+      "normal_lane_counts": {
+        "0": 131,
+        "1": 132,
+        "2": 132,
+        "3": 86
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "syllables": 588,
+      "v271_normal_notes": 329,
+      "v272_easy_notes": 376,
+      "v272_normal_notes": 588,
+      "v272_hard_notes": 902,
+      "normal_delta_vs_v271": 259,
+      "normal_pair_windows_80_500ms": 443,
+      "normal_pair_windows_kept_separately": 443,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 315,
+      "hard_hold_count": 315,
+      "normal_lane_counts": {
+        "0": 141,
+        "1": 174,
+        "2": 143,
+        "3": 130
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "syllables": 289,
+      "v271_normal_notes": 232,
+      "v272_easy_notes": 212,
+      "v272_normal_notes": 289,
+      "v272_hard_notes": 531,
+      "normal_delta_vs_v271": 57,
+      "normal_pair_windows_80_500ms": 180,
+      "normal_pair_windows_kept_separately": 180,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 243,
+      "hard_hold_count": 243,
+      "normal_lane_counts": {
+        "0": 69,
+        "1": 86,
+        "2": 89,
+        "3": 45
+      }
+    },
+    {
+      "song": "meteora",
+      "syllables": 584,
+      "v271_normal_notes": 266,
+      "v272_easy_notes": 360,
+      "v272_normal_notes": 584,
+      "v272_hard_notes": 837,
+      "normal_delta_vs_v271": 318,
+      "normal_pair_windows_80_500ms": 496,
+      "normal_pair_windows_kept_separately": 496,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 254,
+      "hard_hold_count": 254,
+      "normal_lane_counts": {
+        "0": 134,
+        "1": 164,
+        "2": 165,
+        "3": 121
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "syllables": 325,
+      "v271_normal_notes": 187,
+      "v272_easy_notes": 211,
+      "v272_normal_notes": 325,
+      "v272_hard_notes": 484,
+      "normal_delta_vs_v271": 138,
+      "normal_pair_windows_80_500ms": 251,
+      "normal_pair_windows_kept_separately": 251,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 160,
+      "hard_hold_count": 160,
+      "normal_lane_counts": {
+        "0": 68,
+        "1": 93,
+        "2": 98,
+        "3": 66
+      }
+    },
+    {
+      "song": "nubia",
+      "syllables": 411,
+      "v271_normal_notes": 255,
+      "v272_easy_notes": 268,
+      "v272_normal_notes": 411,
+      "v272_hard_notes": 660,
+      "normal_delta_vs_v271": 156,
+      "normal_pair_windows_80_500ms": 301,
+      "normal_pair_windows_kept_separately": 301,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 250,
+      "hard_hold_count": 250,
+      "normal_lane_counts": {
+        "0": 93,
+        "1": 114,
+        "2": 123,
+        "3": 81
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "syllables": 321,
+      "v271_normal_notes": 193,
+      "v272_easy_notes": 211,
+      "v272_normal_notes": 321,
+      "v272_hard_notes": 532,
+      "normal_delta_vs_v271": 128,
+      "normal_pair_windows_80_500ms": 248,
+      "normal_pair_windows_kept_separately": 248,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 212,
+      "hard_hold_count": 212,
+      "normal_lane_counts": {
+        "0": 75,
+        "1": 102,
+        "2": 99,
+        "3": 45
+      }
+    },
+    {
+      "song": "peligrosa",
+      "syllables": 666,
+      "v271_normal_notes": 320,
+      "v272_easy_notes": 397,
+      "v272_normal_notes": 666,
+      "v272_hard_notes": 966,
+      "normal_delta_vs_v271": 346,
+      "normal_pair_windows_80_500ms": 550,
+      "normal_pair_windows_kept_separately": 550,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 301,
+      "hard_hold_count": 301,
+      "normal_lane_counts": {
+        "0": 166,
+        "1": 190,
+        "2": 190,
+        "3": 120
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "syllables": 591,
+      "v271_normal_notes": 327,
+      "v272_easy_notes": 369,
+      "v272_normal_notes": 591,
+      "v272_hard_notes": 911,
+      "normal_delta_vs_v271": 264,
+      "normal_pair_windows_80_500ms": 495,
+      "normal_pair_windows_kept_separately": 495,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 321,
+      "hard_hold_count": 321,
+      "normal_lane_counts": {
+        "0": 125,
+        "1": 178,
+        "2": 171,
+        "3": 117
+      }
+    },
+    {
+      "song": "si-te-vas",
+      "syllables": 483,
+      "v271_normal_notes": 254,
+      "v272_easy_notes": 303,
+      "v272_normal_notes": 483,
+      "v272_hard_notes": 743,
+      "normal_delta_vs_v271": 229,
+      "normal_pair_windows_80_500ms": 383,
+      "normal_pair_windows_kept_separately": 383,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 261,
+      "hard_hold_count": 261,
+      "normal_lane_counts": {
+        "0": 104,
+        "1": 124,
+        "2": 148,
+        "3": 107
+      }
+    },
+    {
+      "song": "solare",
+      "syllables": 572,
+      "v271_normal_notes": 320,
+      "v272_easy_notes": 355,
+      "v272_normal_notes": 572,
+      "v272_hard_notes": 909,
+      "normal_delta_vs_v271": 252,
+      "normal_pair_windows_80_500ms": 487,
+      "normal_pair_windows_kept_separately": 487,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 338,
+      "hard_hold_count": 338,
+      "normal_lane_counts": {
+        "0": 122,
+        "1": 175,
+        "2": 168,
+        "3": 107
+      }
+    },
+    {
+      "song": "tristella",
+      "syllables": 527,
+      "v271_normal_notes": 338,
+      "v272_easy_notes": 368,
+      "v272_normal_notes": 527,
+      "v272_hard_notes": 839,
+      "normal_delta_vs_v271": 189,
+      "normal_pair_windows_80_500ms": 400,
+      "normal_pair_windows_kept_separately": 400,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 313,
+      "hard_hold_count": 313,
+      "normal_lane_counts": {
+        "0": 115,
+        "1": 138,
+        "2": 155,
+        "3": 119
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "syllables": 509,
+      "v271_normal_notes": 233,
+      "v272_easy_notes": 313,
+      "v272_normal_notes": 509,
+      "v272_hard_notes": 730,
+      "normal_delta_vs_v271": 276,
+      "normal_pair_windows_80_500ms": 428,
+      "normal_pair_windows_kept_separately": 428,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 222,
+      "hard_hold_count": 222,
+      "normal_lane_counts": {
+        "0": 100,
+        "1": 150,
+        "2": 161,
+        "3": 98
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "syllables": 407,
+      "v271_normal_notes": 250,
+      "v272_easy_notes": 282,
+      "v272_normal_notes": 407,
+      "v272_hard_notes": 647,
+      "normal_delta_vs_v271": 157,
+      "normal_pair_windows_80_500ms": 302,
+      "normal_pair_windows_kept_separately": 302,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 241,
+      "hard_hold_count": 241,
+      "normal_lane_counts": {
+        "0": 88,
+        "1": 111,
+        "2": 130,
+        "3": 78
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "syllables": 657,
+      "v271_normal_notes": 279,
+      "v272_easy_notes": 381,
+      "v272_normal_notes": 657,
+      "v272_hard_notes": 904,
+      "normal_delta_vs_v271": 378,
+      "normal_pair_windows_80_500ms": 567,
+      "normal_pair_windows_kept_separately": 567,
+      "normal_pair_keep_ratio": 1.0,
+      "normal_hold_count": 248,
+      "hard_hold_count": 248,
+      "normal_lane_counts": {
+        "0": 125,
+        "1": 212,
+        "2": 206,
+        "3": 114
+      }
+    }
+  ],
+  "missing_close_pairs": [],
+  "missing_close_pair_count": 0,
+  "fal_tan_text_examples": [
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 607,
+      "text": "importan#1/3",
+      "start_ms": 175270.0,
+      "normal272": [
+        {
+          "t": 175270.0,
+          "d": 3
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 608,
+      "text": "importan#2/3",
+      "start_ms": 175490.0,
+      "normal272": [
+        {
+          "t": 175490.0,
+          "d": 1
+        }
+      ],
+      "normal271": [
+        {
+          "t": 175490.0,
+          "d": 1,
+          "l": 170.0
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 609,
+      "text": "importan#3/3",
+      "start_ms": 175720.0,
+      "normal272": [
+        {
+          "t": 175720.0,
+          "d": 0,
+          "l": 550.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 175720.0,
+          "d": 0,
+          "l": 550.0
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 612,
+      "text": "importan#1/3",
+      "start_ms": 176810.0,
+      "normal272": [
+        {
+          "t": 176810.0,
+          "d": 3
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 613,
+      "text": "importan#2/3",
+      "start_ms": 176970.0,
+      "normal272": [
+        {
+          "t": 176970.0,
+          "d": 1
+        }
+      ],
+      "normal271": [
+        {
+          "t": 176970.0,
+          "d": 1,
+          "l": 150.0
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 614,
+      "text": "importan#3/3",
+      "start_ms": 177180.0,
+      "normal272": [
+        {
+          "t": 177180.0,
+          "d": 0,
+          "l": 520.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 177180.0,
+          "d": 0,
+          "l": 520.0
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 617,
+      "text": "importan#1/3",
+      "start_ms": 178250.0,
+      "normal272": [
+        {
+          "t": 178250.0,
+          "d": 3
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 618,
+      "text": "importan#2/3",
+      "start_ms": 178450.0,
+      "normal272": [
+        {
+          "t": 178450.0,
+          "d": 1
+        }
+      ],
+      "normal271": [
+        {
+          "t": 178450.0,
+          "d": 1
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 619,
+      "text": "importan#3/3",
+      "start_ms": 178620.0,
+      "normal272": [
+        {
+          "t": 178620.0,
+          "d": 0,
+          "l": 570.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 178620.0,
+          "d": 0,
+          "l": 570.0
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 625,
+      "text": "importan#1/3",
+      "start_ms": 181020.0,
+      "normal272": [
+        {
+          "t": 181020.0,
+          "d": 3,
+          "l": 330.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 626,
+      "text": "importan#2/3",
+      "start_ms": 181410.0,
+      "normal272": [
+        {
+          "t": 181410.0,
+          "d": 1
+        }
+      ],
+      "normal271": [
+        {
+          "t": 181410.0,
+          "d": 2
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 627,
+      "text": "importan#3/3",
+      "start_ms": 181530.0,
+      "normal272": [
+        {
+          "t": 181530.0,
+          "d": 0,
+          "l": 490.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 181530.0,
+          "d": 2,
+          "l": 490.0
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 630,
+      "text": "importan#1/3",
+      "start_ms": 182360.0,
+      "normal272": [
+        {
+          "t": 182360.0,
+          "d": 3,
+          "l": 400.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 631,
+      "text": "importan#2/3",
+      "start_ms": 182820.0,
+      "normal272": [
+        {
+          "t": 182820.0,
+          "d": 1
+        }
+      ],
+      "normal271": [
+        {
+          "t": 182820.0,
+          "d": 1
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 632,
+      "text": "importan#3/3",
+      "start_ms": 182980.0,
+      "normal272": [
+        {
+          "t": 182980.0,
+          "d": 0,
+          "l": 430.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 182980.0,
+          "d": 0,
+          "l": 430.0
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 635,
+      "text": "importan#1/3",
+      "start_ms": 183750.0,
+      "normal272": [
+        {
+          "t": 183750.0,
+          "d": 3,
+          "l": 290.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 636,
+      "text": "importan#2/3",
+      "start_ms": 184100.0,
+      "normal272": [
+        {
+          "t": 184100.0,
+          "d": 1
+        }
+      ],
+      "normal271": [
+        {
+          "t": 184100.0,
+          "d": 1
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "index": 637,
+      "text": "importan#3/3",
+      "start_ms": 184220.0,
+      "normal272": [
+        {
+          "t": 184220.0,
+          "d": 0,
+          "l": 440.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 184220.0,
+          "d": 0,
+          "l": 440.0
+        }
+      ]
+    },
+    {
+      "song": "dano",
+      "index": 55,
+      "text": "falta#1/2",
+      "start_ms": 22410.0,
+      "normal272": [
+        {
+          "t": 22410.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "dano",
+      "index": 56,
+      "text": "falta#2/2",
+      "start_ms": 22530.0,
+      "normal272": [
+        {
+          "t": 22530.0,
+          "d": 1,
+          "l": 750.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "dano",
+      "index": 172,
+      "text": "falta#1/2",
+      "start_ms": 52640.0,
+      "normal272": [
+        {
+          "t": 52640.0,
+          "d": 0,
+          "l": 220.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "dano",
+      "index": 173,
+      "text": "falta#2/2",
+      "start_ms": 52920.0,
+      "normal272": [
+        {
+          "t": 52920.0,
+          "d": 1,
+          "l": 610.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 52920.0,
+          "d": 1,
+          "l": 610.0
+        }
+      ]
+    },
+    {
+      "song": "dano",
+      "index": 382,
+      "text": "falta#1/2",
+      "start_ms": 103190.0,
+      "normal272": [
+        {
+          "t": 103190.0,
+          "d": 0,
+          "l": 220.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "dano",
+      "index": 383,
+      "text": "falta#2/2",
+      "start_ms": 103470.0,
+      "normal272": [
+        {
+          "t": 103470.0,
+          "d": 1,
+          "l": 650.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 103470.0,
+          "d": 1,
+          "l": 650.0
+        }
+      ]
+    },
+    {
+      "song": "dano",
+      "index": 454,
+      "text": "instante#1/3",
+      "start_ms": 117020.0,
+      "normal272": [
+        {
+          "t": 117020.0,
+          "d": 3
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "dano",
+      "index": 455,
+      "text": "instante#2/3",
+      "start_ms": 117100.0,
+      "normal272": [
+        {
+          "t": 117100.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "dano",
+      "index": 456,
+      "text": "instante#3/3",
+      "start_ms": 117220.0,
+      "normal272": [
+        {
+          "t": 117220.0,
+          "d": 2
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "dano",
+      "index": 696,
+      "text": "falta#1/2",
+      "start_ms": 163850.0,
+      "normal272": [
+        {
+          "t": 163850.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "dano",
+      "index": 697,
+      "text": "falta#2/2",
+      "start_ms": 163920.0,
+      "normal272": [
+        {
+          "t": 163920.0,
+          "d": 1,
+          "l": 180.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "dias-magicos",
+      "index": 33,
+      "text": "fallado#1/3",
+      "start_ms": 42250.0,
+      "normal272": [
+        {
+          "t": 42250.0,
+          "d": 0,
+          "l": 240.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "dias-magicos",
+      "index": 34,
+      "text": "fallado#2/3",
+      "start_ms": 42550.0,
+      "normal272": [
+        {
+          "t": 42550.0,
+          "d": 1
+        }
+      ],
+      "normal271": [
+        {
+          "t": 42550.0,
+          "d": 1,
+          "l": 170.0
+        }
+      ]
+    },
+    {
+      "song": "dias-magicos",
+      "index": 35,
+      "text": "fallado#3/3",
+      "start_ms": 42780.0,
+      "normal272": [
+        {
+          "t": 42780.0,
+          "d": 1,
+          "l": 360.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "dias-magicos",
+      "index": 214,
+      "text": "importante#1/4",
+      "start_ms": 123560.0,
+      "normal272": [
+        {
+          "t": 123560.0,
+          "d": 3
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "dias-magicos",
+      "index": 215,
+      "text": "importante#2/4",
+      "start_ms": 123770.0,
+      "normal272": [
+        {
+          "t": 123770.0,
+          "d": 1
+        }
+      ],
+      "normal271": [
+        {
+          "t": 123770.0,
+          "d": 1,
+          "l": 590.0
+        }
+      ]
+    },
+    {
+      "song": "dias-magicos",
+      "index": 216,
+      "text": "importante#3/4",
+      "start_ms": 123890.0,
+      "normal272": [
+        {
+          "t": 123890.0,
+          "d": 0,
+          "l": 200.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "dias-magicos",
+      "index": 217,
+      "text": "importante#4/4",
+      "start_ms": 124150.0,
+      "normal272": [
+        {
+          "t": 124150.0,
+          "d": 2,
+          "l": 190.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "fango",
+      "index": 243,
+      "text": "evitan#1/3",
+      "start_ms": 96400.0,
+      "normal272": [
+        {
+          "t": 96400.0,
+          "d": 3
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "fango",
+      "index": 244,
+      "text": "evitan#2/3",
+      "start_ms": 96520.0,
+      "normal272": [
+        {
+          "t": 96520.0,
+          "d": 3
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "fango",
+      "index": 245,
+      "text": "evitan#3/3",
+      "start_ms": 96600.0,
+      "normal272": [
+        {
+          "t": 96600.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "fango",
+      "index": 390,
+      "text": "tantas#1/2",
+      "start_ms": 134630.0,
+      "normal272": [
+        {
+          "t": 134630.0,
+          "d": 1
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "fango",
+      "index": 391,
+      "text": "tantas#2/2",
+      "start_ms": 134820.0,
+      "normal272": [
+        {
+          "t": 134820.0,
+          "d": 2
+        }
+      ],
+      "normal271": [
+        {
+          "t": 134820.0,
+          "d": 2,
+          "l": 840.0
+        }
+      ]
+    },
+    {
+      "song": "fango",
+      "index": 430,
+      "text": "circunstancia#1/4",
+      "start_ms": 140920.0,
+      "normal272": [
+        {
+          "t": 140920.0,
+          "d": 3
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "fango",
+      "index": 431,
+      "text": "circunstancia#2/4",
+      "start_ms": 141110.0,
+      "normal272": [
+        {
+          "t": 141110.0,
+          "d": 1,
+          "l": 240.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 141110.0,
+          "d": 1,
+          "l": 690.0
+        }
+      ]
+    },
+    {
+      "song": "fango",
+      "index": 432,
+      "text": "circunstancia#3/4",
+      "start_ms": 141410.0,
+      "normal272": [
+        {
+          "t": 141410.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "fango",
+      "index": 433,
+      "text": "circunstancia#4/4",
+      "start_ms": 141470.0,
+      "normal272": [
+        {
+          "t": 141470.0,
+          "d": 3,
+          "l": 310.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "luma",
+      "index": 172,
+      "text": "instante#1/3",
+      "start_ms": 88800.0,
+      "normal272": [
+        {
+          "t": 88800.0,
+          "d": 3,
+          "l": 290.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 88800.0,
+          "d": 3,
+          "l": 780.0
+        }
+      ]
+    },
+    {
+      "song": "luma",
+      "index": 173,
+      "text": "instante#2/3",
+      "start_ms": 89150.0,
+      "normal272": [
+        {
+          "t": 89150.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "luma",
+      "index": 174,
+      "text": "instante#3/3",
+      "start_ms": 89270.0,
+      "normal272": [
+        {
+          "t": 89270.0,
+          "d": 2,
+          "l": 290.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "index": 85,
+      "text": "tanto#1/2",
+      "start_ms": 45620.0,
+      "normal272": [
+        {
+          "t": 45620.0,
+          "d": 0,
+          "l": 440.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "index": 86,
+      "text": "tanto#2/2",
+      "start_ms": 46120.0,
+      "normal272": [
+        {
+          "t": 46120.0,
+          "d": 1,
+          "l": 510.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 46120.0,
+          "d": 1,
+          "l": 510.0
+        }
+      ]
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "index": 97,
+      "text": "tanta#1/2",
+      "start_ms": 54760.0,
+      "normal272": [
+        {
+          "t": 54760.0,
+          "d": 1
+        }
+      ],
+      "normal271": [
+        {
+          "t": 54760.0,
+          "d": 1
+        }
+      ]
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "index": 98,
+      "text": "tanta#2/2",
+      "start_ms": 54950.0,
+      "normal272": [
+        {
+          "t": 54950.0,
+          "d": 2,
+          "l": 290.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 54950.0,
+          "d": 2,
+          "l": 290.0
+        }
+      ]
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "index": 101,
+      "text": "tan",
+      "start_ms": 56930.0,
+      "normal272": [
+        {
+          "t": 56930.0,
+          "d": 1,
+          "l": 540.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 56930.0,
+          "d": 1,
+          "l": 540.0
+        }
+      ]
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "index": 208,
+      "text": "tan",
+      "start_ms": 144100.0,
+      "normal272": [
+        {
+          "t": 144100.0,
+          "d": 0,
+          "l": 220.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 144100.0,
+          "d": 0,
+          "l": 220.0
+        }
+      ]
+    },
+    {
+      "song": "meteora",
+      "index": 193,
+      "text": "fallo#1/2",
+      "start_ms": 60450.0,
+      "normal272": [
+        {
+          "t": 60450.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "meteora",
+      "index": 194,
+      "text": "fallo#2/2",
+      "start_ms": 60530.0,
+      "normal272": [
+        {
+          "t": 60530.0,
+          "d": 1
+        }
+      ],
+      "normal271": [
+        {
+          "t": 60530.0,
+          "d": 1,
+          "l": 590.0
+        }
+      ]
+    },
+    {
+      "song": "meteora",
+      "index": 280,
+      "text": "preguntando#1/4",
+      "start_ms": 79260.0,
+      "normal272": [
+        {
+          "t": 79260.0,
+          "d": 2
+        }
+      ],
+      "normal271": [
+        {
+          "t": 79260.0,
+          "d": 2,
+          "l": 570.0
+        }
+      ]
+    },
+    {
+      "song": "meteora",
+      "index": 281,
+      "text": "preguntando#2/4",
+      "start_ms": 79370.0,
+      "normal272": [
+        {
+          "t": 79370.0,
+          "d": 1
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "meteora",
+      "index": 282,
+      "text": "preguntando#3/4",
+      "start_ms": 79460.0,
+      "normal272": [
+        {
+          "t": 79460.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "meteora",
+      "index": 283,
+      "text": "preguntando#4/4",
+      "start_ms": 79510.0,
+      "normal272": [
+        {
+          "t": 79510.0,
+          "d": 1,
+          "l": 180.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "meteora",
+      "index": 422,
+      "text": "tantas#1/2",
+      "start_ms": 128800.0,
+      "normal272": [
+        {
+          "t": 128800.0,
+          "d": 0,
+          "l": 290.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "meteora",
+      "index": 423,
+      "text": "tantas#2/2",
+      "start_ms": 129150.0,
+      "normal272": [
+        {
+          "t": 129150.0,
+          "d": 1,
+          "l": 220.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 129150.0,
+          "d": 1,
+          "l": 580.0
+        }
+      ]
+    },
+    {
+      "song": "meteora",
+      "index": 506,
+      "text": "tanta#1/2",
+      "start_ms": 148620.0,
+      "normal272": [
+        {
+          "t": 148620.0,
+          "d": 0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 148620.0,
+          "d": 0,
+          "l": 880.0
+        }
+      ]
+    },
+    {
+      "song": "meteora",
+      "index": 507,
+      "text": "tanta#2/2",
+      "start_ms": 148740.0,
+      "normal272": [
+        {
+          "t": 148740.0,
+          "d": 1
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "mi-hogar",
+      "index": 84,
+      "text": "tan",
+      "start_ms": 55770.0,
+      "normal272": [
+        {
+          "t": 55770.0,
+          "d": 1,
+          "l": 290.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 55770.0,
+          "d": 1,
+          "l": 290.0
+        }
+      ]
+    },
+    {
+      "song": "mi-hogar",
+      "index": 266,
+      "text": "tan",
+      "start_ms": 139900.0,
+      "normal272": [
+        {
+          "t": 139900.0,
+          "d": 0,
+          "l": 790.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 139900.0,
+          "d": 0,
+          "l": 790.0
+        }
+      ]
+    },
+    {
+      "song": "nubia",
+      "index": 11,
+      "text": "tan",
+      "start_ms": 16570.0,
+      "normal272": [
+        {
+          "t": 16570.0,
+          "d": 0,
+          "l": 620.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 16570.0,
+          "d": 0,
+          "l": 620.0
+        }
+      ]
+    },
+    {
+      "song": "nubia",
+      "index": 333,
+      "text": "tan",
+      "start_ms": 154930.0,
+      "normal272": [
+        {
+          "t": 154930.0,
+          "d": 0,
+          "l": 350.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 154930.0,
+          "d": 0,
+          "l": 350.0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "index": 55,
+      "text": "tan",
+      "start_ms": 34560.0,
+      "normal272": [
+        {
+          "t": 34560.0,
+          "d": 0,
+          "l": 630.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 62,
+      "text": "tanto#1/2",
+      "start_ms": 36950.0,
+      "normal272": [
+        {
+          "t": 36950.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 63,
+      "text": "tanto#2/2",
+      "start_ms": 37030.0,
+      "normal272": [
+        {
+          "t": 37030.0,
+          "d": 1,
+          "l": 460.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 71,
+      "text": "tanto#1/2",
+      "start_ms": 39850.0,
+      "normal272": [
+        {
+          "t": 39850.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 72,
+      "text": "tanto#2/2",
+      "start_ms": 39940.0,
+      "normal272": [
+        {
+          "t": 39940.0,
+          "d": 1,
+          "l": 550.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 77,
+      "text": "tanto#1/2",
+      "start_ms": 42400.0,
+      "normal272": [
+        {
+          "t": 42400.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 78,
+      "text": "tanto#2/2",
+      "start_ms": 42460.0,
+      "normal272": [
+        {
+          "t": 42460.0,
+          "d": 1
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 87,
+      "text": "tanto#1/2",
+      "start_ms": 45240.0,
+      "normal272": [
+        {
+          "t": 45240.0,
+          "d": 0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 45240.0,
+          "d": 0,
+          "l": 480.0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "index": 88,
+      "text": "tanto#2/2",
+      "start_ms": 45360.0,
+      "normal272": [
+        {
+          "t": 45360.0,
+          "d": 1
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 113,
+      "text": "tanto#1/2",
+      "start_ms": 54420.0,
+      "normal272": [
+        {
+          "t": 54420.0,
+          "d": 0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 54420.0,
+          "d": 0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "index": 114,
+      "text": "tanto#2/2",
+      "start_ms": 54570.0,
+      "normal272": [
+        {
+          "t": 54570.0,
+          "d": 1,
+          "l": 300.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 181,
+      "text": "tanto#1/2",
+      "start_ms": 68520.0,
+      "normal272": [
+        {
+          "t": 68520.0,
+          "d": 0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 68520.0,
+          "d": 0,
+          "l": 560.0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "index": 182,
+      "text": "tanto#2/2",
+      "start_ms": 68640.0,
+      "normal272": [
+        {
+          "t": 68640.0,
+          "d": 1
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 188,
+      "text": "tanto#1/2",
+      "start_ms": 69600.0,
+      "normal272": [
+        {
+          "t": 69600.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 189,
+      "text": "tanto#2/2",
+      "start_ms": 69720.0,
+      "normal272": [
+        {
+          "t": 69720.0,
+          "d": 1
+        }
+      ],
+      "normal271": [
+        {
+          "t": 69720.0,
+          "d": 1,
+          "l": 480.0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "index": 310,
+      "text": "tanto#1/2",
+      "start_ms": 106760.0,
+      "normal272": [
+        {
+          "t": 106760.0,
+          "d": 0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 106760.0,
+          "d": 0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "index": 311,
+      "text": "tanto#2/2",
+      "start_ms": 106860.0,
+      "normal272": [
+        {
+          "t": 106860.0,
+          "d": 1,
+          "l": 350.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 319,
+      "text": "tanto#1/2",
+      "start_ms": 109670.0,
+      "normal272": [
+        {
+          "t": 109670.0,
+          "d": 0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 109670.0,
+          "d": 0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "index": 320,
+      "text": "tanto#2/2",
+      "start_ms": 109800.0,
+      "normal272": [
+        {
+          "t": 109800.0,
+          "d": 1,
+          "l": 490.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 109800.0,
+          "d": 1,
+          "l": 490.0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "index": 325,
+      "text": "tanto#1/2",
+      "start_ms": 112230.0,
+      "normal272": [
+        {
+          "t": 112230.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 326,
+      "text": "tanto#2/2",
+      "start_ms": 112260.0,
+      "normal272": [
+        {
+          "t": 112260.0,
+          "d": 1
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 335,
+      "text": "tanto#1/2",
+      "start_ms": 115140.0,
+      "normal272": [
+        {
+          "t": 115140.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 336,
+      "text": "tanto#2/2",
+      "start_ms": 115190.0,
+      "normal272": [
+        {
+          "t": 115190.0,
+          "d": 1
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 363,
+      "text": "tanto#1/2",
+      "start_ms": 124230.0,
+      "normal272": [
+        {
+          "t": 124230.0,
+          "d": 0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 124230.0,
+          "d": 0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "index": 364,
+      "text": "tanto#2/2",
+      "start_ms": 124320.0,
+      "normal272": [
+        {
+          "t": 124320.0,
+          "d": 1,
+          "l": 390.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 466,
+      "text": "tanto#1/2",
+      "start_ms": 156930.0,
+      "normal272": [
+        {
+          "t": 156930.0,
+          "d": 0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 156930.0,
+          "d": 0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "index": 467,
+      "text": "tanto#2/2",
+      "start_ms": 157050.0,
+      "normal272": [
+        {
+          "t": 157050.0,
+          "d": 1,
+          "l": 790.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 157050.0,
+          "d": 1,
+          "l": 790.0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "index": 492,
+      "text": "tanto#1/2",
+      "start_ms": 166400.0,
+      "normal272": [
+        {
+          "t": 166400.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 493,
+      "text": "tanto#2/2",
+      "start_ms": 166490.0,
+      "normal272": [
+        {
+          "t": 166490.0,
+          "d": 1,
+          "l": 370.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 501,
+      "text": "tanto#1/2",
+      "start_ms": 169300.0,
+      "normal272": [
+        {
+          "t": 169300.0,
+          "d": 0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 169300.0,
+          "d": 0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "index": 502,
+      "text": "tanto#2/2",
+      "start_ms": 169440.0,
+      "normal272": [
+        {
+          "t": 169440.0,
+          "d": 1,
+          "l": 600.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 169440.0,
+          "d": 1,
+          "l": 600.0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "index": 507,
+      "text": "tanto#1/2",
+      "start_ms": 171860.0,
+      "normal272": [
+        {
+          "t": 171860.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 508,
+      "text": "tanto#2/2",
+      "start_ms": 171910.0,
+      "normal272": [
+        {
+          "t": 171910.0,
+          "d": 1
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 517,
+      "text": "tanto#1/2",
+      "start_ms": 174770.0,
+      "normal272": [
+        {
+          "t": 174770.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 518,
+      "text": "tanto#2/2",
+      "start_ms": 174810.0,
+      "normal272": [
+        {
+          "t": 174810.0,
+          "d": 1
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 545,
+      "text": "tanto#1/2",
+      "start_ms": 183870.0,
+      "normal272": [
+        {
+          "t": 183870.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "rompecabezas",
+      "index": 546,
+      "text": "tanto#2/2",
+      "start_ms": 183940.0,
+      "normal272": [
+        {
+          "t": 183940.0,
+          "d": 1,
+          "l": 400.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "si-te-vas",
+      "index": 122,
+      "text": "tan",
+      "start_ms": 66470.0,
+      "normal272": [
+        {
+          "t": 66470.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "si-te-vas",
+      "index": 186,
+      "text": "tan",
+      "start_ms": 79730.0,
+      "normal272": [
+        {
+          "t": 79730.0,
+          "d": 0,
+          "l": 260.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 79730.0,
+          "d": 1,
+          "l": 260.0
+        }
+      ]
+    },
+    {
+      "song": "solare",
+      "index": 100,
+      "text": "falta#1/2",
+      "start_ms": 40000.0,
+      "normal272": [
+        {
+          "t": 40000.0,
+          "d": 0,
+          "l": 390.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 40000.0,
+          "d": 0,
+          "l": 390.0
+        }
+      ]
+    },
+    {
+      "song": "solare",
+      "index": 101,
+      "text": "falta#2/2",
+      "start_ms": 40450.0,
+      "normal272": [
+        {
+          "t": 40450.0,
+          "d": 1,
+          "l": 450.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 40450.0,
+          "d": 1,
+          "l": 450.0
+        }
+      ]
+    },
+    {
+      "song": "solare",
+      "index": 249,
+      "text": "atormentan#1/4",
+      "start_ms": 107270.0,
+      "normal272": [
+        {
+          "t": 107270.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "solare",
+      "index": 250,
+      "text": "atormentan#2/4",
+      "start_ms": 107490.0,
+      "normal272": [
+        {
+          "t": 107490.0,
+          "d": 1,
+          "l": 270.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 107490.0,
+          "d": 2,
+          "l": 270.0
+        }
+      ]
+    },
+    {
+      "song": "solare",
+      "index": 251,
+      "text": "atormentan#3/4",
+      "start_ms": 107820.0,
+      "normal272": [
+        {
+          "t": 107820.0,
+          "d": 2,
+          "l": 180.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "solare",
+      "index": 252,
+      "text": "atormentan#4/4",
+      "start_ms": 108060.0,
+      "normal272": [
+        {
+          "t": 108060.0,
+          "d": 0,
+          "l": 320.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 108060.0,
+          "d": 1,
+          "l": 320.0
+        }
+      ]
+    },
+    {
+      "song": "solare",
+      "index": 271,
+      "text": "falta#1/2",
+      "start_ms": 115780.0,
+      "normal272": [
+        {
+          "t": 115780.0,
+          "d": 0,
+          "l": 800.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 115780.0,
+          "d": 0,
+          "l": 800.0
+        }
+      ]
+    },
+    {
+      "song": "solare",
+      "index": 272,
+      "text": "falta#2/2",
+      "start_ms": 116640.0,
+      "normal272": [
+        {
+          "t": 116640.0,
+          "d": 1,
+          "l": 910.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 116640.0,
+          "d": 1,
+          "l": 910.0
+        }
+      ]
+    },
+    {
+      "song": "solare",
+      "index": 509,
+      "text": "falta#1/2",
+      "start_ms": 191910.0,
+      "normal272": [
+        {
+          "t": 191910.0,
+          "d": 0,
+          "l": 450.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 191910.0,
+          "d": 0,
+          "l": 450.0
+        }
+      ]
+    },
+    {
+      "song": "solare",
+      "index": 510,
+      "text": "falta#2/2",
+      "start_ms": 192420.0,
+      "normal272": [
+        {
+          "t": 192420.0,
+          "d": 1
+        }
+      ],
+      "normal271": [
+        {
+          "t": 192420.0,
+          "d": 1
+        }
+      ]
+    },
+    {
+      "song": "tristella",
+      "index": 88,
+      "text": "tan",
+      "start_ms": 53270.0,
+      "normal272": [
+        {
+          "t": 53270.0,
+          "d": 0,
+          "l": 510.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 53270.0,
+          "d": 0,
+          "l": 510.0
+        }
+      ]
+    },
+    {
+      "song": "tristella",
+      "index": 247,
+      "text": "tan",
+      "start_ms": 136320.0,
+      "normal272": [
+        {
+          "t": 136320.0,
+          "d": 0,
+          "l": 540.0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 136320.0,
+          "d": 0,
+          "l": 540.0
+        }
+      ]
+    },
+    {
+      "song": "tristella",
+      "index": 309,
+      "text": "tanto#1/2",
+      "start_ms": 157100.0,
+      "normal272": [
+        {
+          "t": 157100.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "tristella",
+      "index": 310,
+      "text": "tanto#2/2",
+      "start_ms": 157220.0,
+      "normal272": [
+        {
+          "t": 157220.0,
+          "d": 1
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "tristella",
+      "index": 487,
+      "text": "tan",
+      "start_ms": 205360.0,
+      "normal272": [
+        {
+          "t": 205360.0,
+          "d": 0,
+          "l": 730.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "index": 71,
+      "text": "tan",
+      "start_ms": 50760.0,
+      "normal272": [
+        {
+          "t": 50760.0,
+          "d": 1
+        }
+      ],
+      "normal271": [
+        {
+          "t": 50760.0,
+          "d": 1,
+          "l": 520.0
+        }
+      ]
+    },
+    {
+      "song": "volver-a-vernos",
+      "index": 8,
+      "text": "tanto#1/2",
+      "start_ms": 1580.0,
+      "normal272": [
+        {
+          "t": 1580.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "volver-a-vernos",
+      "index": 9,
+      "text": "tanto#2/2",
+      "start_ms": 1650.0,
+      "normal272": [
+        {
+          "t": 1650.0,
+          "d": 1,
+          "l": 270.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "volver-a-vernos",
+      "index": 206,
+      "text": "tan",
+      "start_ms": 43750.0,
+      "normal272": [
+        {
+          "t": 43750.0,
+          "d": 0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 43750.0,
+          "d": 0,
+          "l": 520.0
+        }
+      ]
+    },
+    {
+      "song": "volver-a-vernos",
+      "index": 257,
+      "text": "tanto#1/2",
+      "start_ms": 62040.0,
+      "normal272": [
+        {
+          "t": 62040.0,
+          "d": 0,
+          "l": 200.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "volver-a-vernos",
+      "index": 258,
+      "text": "tanto#2/2",
+      "start_ms": 62300.0,
+      "normal272": [
+        {
+          "t": 62300.0,
+          "d": 1,
+          "l": 400.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "volver-a-vernos",
+      "index": 419,
+      "text": "tan",
+      "start_ms": 111570.0,
+      "normal272": [
+        {
+          "t": 111570.0,
+          "d": 0
+        }
+      ],
+      "normal271": [
+        {
+          "t": 111570.0,
+          "d": 0,
+          "l": 670.0
+        }
+      ]
+    },
+    {
+      "song": "volver-a-vernos",
+      "index": 442,
+      "text": "tanto#1/2",
+      "start_ms": 125540.0,
+      "normal272": [
+        {
+          "t": 125540.0,
+          "d": 0,
+          "l": 200.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "volver-a-vernos",
+      "index": 443,
+      "text": "tanto#2/2",
+      "start_ms": 125800.0,
+      "normal272": [
+        {
+          "t": 125800.0,
+          "d": 1,
+          "l": 290.0
+        }
+      ],
+      "normal271": []
+    },
+    {
+      "song": "volver-a-vernos",
+      "index": 641,
+      "text": "tan",
+      "start_ms": 168040.0,
+      "normal272": [
+        {
+          "t": 168040.0,
+          "d": 0
+        }
+      ],
+      "normal271": []
+    }
+  ]
+}
