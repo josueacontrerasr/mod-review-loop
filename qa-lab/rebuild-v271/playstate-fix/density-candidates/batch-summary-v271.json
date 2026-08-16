@@ -1,0 +1,426 @@
+{
+  "scope": "WIDE_RESEARCH_V271_DENSITY_AWARE_CANDIDATES",
+  "created_at": "2026-08-16T00:46:10.991841+00:00",
+  "base_release": "esperon-vslice-086-v2.6.7",
+  "target_version": "2.7.1",
+  "songs": 21,
+  "parallel_workers": 8,
+  "production_untouched": true,
+  "original_notes": {
+    "easy": 8209,
+    "normal": 10945,
+    "hard": 16631
+  },
+  "candidate_notes": {
+    "easy": 5331,
+    "normal": 5880,
+    "hard": 6519
+  },
+  "removed_notes": {
+    "easy": 2878,
+    "normal": 5065,
+    "hard": 10112
+  },
+  "reduction_events": 13296,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "original_notes": {
+        "normal": 449,
+        "easy": 374,
+        "hard": 754
+      },
+      "candidate_notes": {
+        "normal": 305,
+        "easy": 273,
+        "hard": 355
+      },
+      "removed_notes": {
+        "easy": 101,
+        "normal": 144,
+        "hard": 399
+      },
+      "reduction_events": 637
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "original_notes": {
+        "normal": 647,
+        "easy": 439,
+        "hard": 900
+      },
+      "candidate_notes": {
+        "normal": 291,
+        "easy": 266,
+        "hard": 310
+      },
+      "removed_notes": {
+        "easy": 173,
+        "normal": 356,
+        "hard": 590
+      },
+      "reduction_events": 653
+    },
+    {
+      "song": "dano",
+      "original_notes": {
+        "normal": 734,
+        "easy": 479,
+        "hard": 948
+      },
+      "candidate_notes": {
+        "normal": 266,
+        "easy": 249,
+        "hard": 279
+      },
+      "removed_notes": {
+        "easy": 230,
+        "normal": 468,
+        "hard": 669
+      },
+      "reduction_events": 660
+    },
+    {
+      "song": "dias-magicos",
+      "original_notes": {
+        "normal": 461,
+        "easy": 370,
+        "hard": 742
+      },
+      "candidate_notes": {
+        "normal": 272,
+        "easy": 251,
+        "hard": 298
+      },
+      "removed_notes": {
+        "easy": 119,
+        "normal": 189,
+        "hard": 444
+      },
+      "reduction_events": 628
+    },
+    {
+      "song": "eclipsis",
+      "original_notes": {
+        "normal": 612,
+        "easy": 480,
+        "hard": 988
+      },
+      "candidate_notes": {
+        "normal": 355,
+        "easy": 321,
+        "hard": 392
+      },
+      "removed_notes": {
+        "easy": 159,
+        "normal": 257,
+        "hard": 596
+      },
+      "reduction_events": 855
+    },
+    {
+      "song": "fango",
+      "original_notes": {
+        "normal": 631,
+        "easy": 451,
+        "hard": 906
+      },
+      "candidate_notes": {
+        "normal": 286,
+        "easy": 259,
+        "hard": 308
+      },
+      "removed_notes": {
+        "easy": 192,
+        "normal": 345,
+        "hard": 598
+      },
+      "reduction_events": 687
+    },
+    {
+      "song": "luma",
+      "original_notes": {
+        "normal": 481,
+        "easy": 387,
+        "hard": 784
+      },
+      "candidate_notes": {
+        "normal": 322,
+        "easy": 287,
+        "hard": 344
+      },
+      "removed_notes": {
+        "easy": 100,
+        "normal": 159,
+        "hard": 440
+      },
+      "reduction_events": 658
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "original_notes": {
+        "normal": 588,
+        "easy": 443,
+        "hard": 903
+      },
+      "candidate_notes": {
+        "normal": 329,
+        "easy": 293,
+        "hard": 375
+      },
+      "removed_notes": {
+        "easy": 150,
+        "normal": 259,
+        "hard": 528
+      },
+      "reduction_events": 723
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "original_notes": {
+        "normal": 289,
+        "easy": 256,
+        "hard": 532
+      },
+      "candidate_notes": {
+        "normal": 232,
+        "easy": 203,
+        "hard": 267
+      },
+      "removed_notes": {
+        "easy": 53,
+        "normal": 57,
+        "hard": 265
+      },
+      "reduction_events": 457
+    },
+    {
+      "song": "meteora",
+      "original_notes": {
+        "normal": 584,
+        "easy": 410,
+        "hard": 838
+      },
+      "candidate_notes": {
+        "normal": 266,
+        "easy": 252,
+        "hard": 295
+      },
+      "removed_notes": {
+        "easy": 158,
+        "normal": 318,
+        "hard": 543
+      },
+      "reduction_events": 641
+    },
+    {
+      "song": "mi-hogar",
+      "original_notes": {
+        "normal": 325,
+        "easy": 242,
+        "hard": 485
+      },
+      "candidate_notes": {
+        "normal": 187,
+        "easy": 168,
+        "hard": 215
+      },
+      "removed_notes": {
+        "easy": 74,
+        "normal": 138,
+        "hard": 270
+      },
+      "reduction_events": 370
+    },
+    {
+      "song": "nubia",
+      "original_notes": {
+        "normal": 411,
+        "easy": 333,
+        "hard": 661
+      },
+      "candidate_notes": {
+        "normal": 255,
+        "easy": 228,
+        "hard": 293
+      },
+      "removed_notes": {
+        "easy": 105,
+        "normal": 156,
+        "hard": 368
+      },
+      "reduction_events": 551
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "original_notes": {
+        "normal": 321,
+        "easy": 260,
+        "hard": 533
+      },
+      "candidate_notes": {
+        "normal": 193,
+        "easy": 170,
+        "hard": 215
+      },
+      "removed_notes": {
+        "easy": 90,
+        "normal": 128,
+        "hard": 318
+      },
+      "reduction_events": 449
+    },
+    {
+      "song": "peligrosa",
+      "original_notes": {
+        "normal": 666,
+        "easy": 473,
+        "hard": 967
+      },
+      "candidate_notes": {
+        "normal": 320,
+        "easy": 290,
+        "hard": 349
+      },
+      "removed_notes": {
+        "easy": 183,
+        "normal": 346,
+        "hard": 618
+      },
+      "reduction_events": 747
+    },
+    {
+      "song": "rompecabezas",
+      "original_notes": {
+        "normal": 591,
+        "easy": 455,
+        "hard": 912
+      },
+      "candidate_notes": {
+        "normal": 327,
+        "easy": 288,
+        "hard": 349
+      },
+      "removed_notes": {
+        "easy": 167,
+        "normal": 264,
+        "hard": 563
+      },
+      "reduction_events": 746
+    },
+    {
+      "song": "si-te-vas",
+      "original_notes": {
+        "normal": 483,
+        "easy": 365,
+        "hard": 744
+      },
+      "candidate_notes": {
+        "normal": 254,
+        "easy": 231,
+        "hard": 299
+      },
+      "removed_notes": {
+        "easy": 134,
+        "normal": 229,
+        "hard": 445
+      },
+      "reduction_events": 618
+    },
+    {
+      "song": "solare",
+      "original_notes": {
+        "normal": 572,
+        "easy": 445,
+        "hard": 910
+      },
+      "candidate_notes": {
+        "normal": 320,
+        "easy": 295,
+        "hard": 353
+      },
+      "removed_notes": {
+        "easy": 150,
+        "normal": 252,
+        "hard": 557
+      },
+      "reduction_events": 775
+    },
+    {
+      "song": "tristella",
+      "original_notes": {
+        "normal": 527,
+        "easy": 419,
+        "hard": 840
+      },
+      "candidate_notes": {
+        "normal": 338,
+        "easy": 304,
+        "hard": 369
+      },
+      "removed_notes": {
+        "easy": 115,
+        "normal": 189,
+        "hard": 471
+      },
+      "reduction_events": 670
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "original_notes": {
+        "normal": 509,
+        "easy": 367,
+        "hard": 731
+      },
+      "candidate_notes": {
+        "normal": 233,
+        "easy": 220,
+        "hard": 258
+      },
+      "removed_notes": {
+        "easy": 147,
+        "normal": 276,
+        "hard": 473
+      },
+      "reduction_events": 549
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "original_notes": {
+        "normal": 407,
+        "easy": 317,
+        "hard": 648
+      },
+      "candidate_notes": {
+        "normal": 250,
+        "easy": 224,
+        "hard": 296
+      },
+      "removed_notes": {
+        "easy": 93,
+        "normal": 157,
+        "hard": 352
+      },
+      "reduction_events": 553
+    },
+    {
+      "song": "volver-a-vernos",
+      "original_notes": {
+        "normal": 657,
+        "easy": 444,
+        "hard": 905
+      },
+      "candidate_notes": {
+        "normal": 279,
+        "easy": 259,
+        "hard": 300
+      },
+      "removed_notes": {
+        "easy": 185,
+        "normal": 378,
+        "hard": 605
+      },
+      "reduction_events": 669
+    }
+  ]
+}

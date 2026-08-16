@@ -1,0 +1,2856 @@
+{
+  "scope": "FREEPLAY_CAPSULE_AND_ALBUM_GATE_V271",
+  "target_version": "0.8.6",
+  "mod_version": "2.7.1",
+  "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.7.1 Freeplay capsule + album asset contract",
+  "mods": 21,
+  "passed": 21,
+  "status": "PASS",
+  "errors": [],
+  "rows": [
+    {
+      "song": "arcoloria",
+      "mod": "esperon-dano-arcoloria",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-arcoloria",
+          "path": "data/levels/esperon-arcoloria.json",
+          "visible": true,
+          "songs": [
+            "arcoloria"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-arcoloria",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/images/storymenu/esperon-arcoloria.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                200,
+                85,
+                710,
+                160
+              ],
+              "nontransparent": true,
+              "sampled_colors": 676,
+              "sha256": "21a01106b61bec813ef6846fe12fcf07a1e46edd30dcf8473fdd2037a148d223"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/images/storymenu/esperon-arcoloria.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-arcoloria",
+      "album_json": "data/ui/freeplay/albums/esperon-arcoloria.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Arcoloria",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-arcoloria-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-arcoloria-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-arcoloria-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/images/freeplay/albumRoll/esperon-arcoloria-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 3995,
+            "sha256": "a8741bc0b571d69d8240d1f072eac6bfbb849c17a8c8a4029410fd8db6a4655f"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/images/freeplay/albumRoll/esperon-arcoloria-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-arcoloria-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/images/freeplay/albumRoll/esperon-arcoloria-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 481,
+            "sha256": "b354dfca9f93789c69fd483ac2446904f4f128d5962c5bc59d4c56c429cecd6f"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/images/freeplay/albumRoll/esperon-arcoloria-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria/images/freeplay/albumRoll/esperon-arcoloria-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 481,
+          "sha256": "b354dfca9f93789c69fd483ac2446904f4f128d5962c5bc59d4c56c429cecd6f"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-arcoloria-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "mod": "esperon-dano-cortamos-y-volvemos",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-cortamos-y-volvemos",
+          "path": "data/levels/esperon-cortamos-y-volvemos.json",
+          "visible": true,
+          "songs": [
+            "cortamos-y-volvemos"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-cortamos-y-volvemos",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/images/storymenu/esperon-cortamos-y-volvemos.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                48,
+                88,
+                859,
+                150
+              ],
+              "nontransparent": true,
+              "sampled_colors": 910,
+              "sha256": "852ad958a74ab1915fd83ad0e82c5757037cf324efb54d140e5da8c861545d26"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/images/storymenu/esperon-cortamos-y-volvemos.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-cortamos-y-volvemos",
+      "album_json": "data/ui/freeplay/albums/esperon-cortamos-y-volvemos.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Cortamos y Volvemos",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-cortamos-y-volvemos-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-cortamos-y-volvemos-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-cortamos-y-volvemos-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/images/freeplay/albumRoll/esperon-cortamos-y-volvemos-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 2369,
+            "sha256": "465df17455c00eeafefe0a19a50465848ca0f173223c79a990d6eaa023b46bfb"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/images/freeplay/albumRoll/esperon-cortamos-y-volvemos-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-cortamos-y-volvemos-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/images/freeplay/albumRoll/esperon-cortamos-y-volvemos-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 631,
+            "sha256": "c27db30b736f73341c34f4458d97d4afc976242adb2a530458053449b021ab74"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/images/freeplay/albumRoll/esperon-cortamos-y-volvemos-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos/images/freeplay/albumRoll/esperon-cortamos-y-volvemos-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 631,
+          "sha256": "c27db30b736f73341c34f4458d97d4afc976242adb2a530458053449b021ab74"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-cortamos-y-volvemos-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "dano",
+      "mod": "esperon-dano-dano",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-dano",
+          "path": "data/levels/esperon-dano.json",
+          "visible": true,
+          "songs": [
+            "dano"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-dano",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/images/storymenu/esperon-dano.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                328,
+                63,
+                585,
+                153
+              ],
+              "nontransparent": true,
+              "sampled_colors": 394,
+              "sha256": "11b2d612941825282805f35cfea52311fc0238942bf566f55f14a21893bf2982"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/images/storymenu/esperon-dano.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-dano",
+      "album_json": "data/ui/freeplay/albums/esperon-dano.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Daño",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-dano-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-dano-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-dano-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/images/freeplay/albumRoll/esperon-dano-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 1309,
+            "sha256": "99a1c0a80418a530f4f068597d767c41b3bb6ef42ddcec451dbd93075f328096"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/images/freeplay/albumRoll/esperon-dano-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-dano-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/images/freeplay/albumRoll/esperon-dano-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 326,
+            "sha256": "7da3f556664b0ce59013457cd556748ae5544fb1f64c019917e1f766b8bc7a6b"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/images/freeplay/albumRoll/esperon-dano-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano/images/freeplay/albumRoll/esperon-dano-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 326,
+          "sha256": "7da3f556664b0ce59013457cd556748ae5544fb1f64c019917e1f766b8bc7a6b"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-dano-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "mod": "esperon-dano-dias-magicos",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-dias-magicos",
+          "path": "data/levels/esperon-dias-magicos.json",
+          "visible": true,
+          "songs": [
+            "dias-magicos"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-dias-magicos",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/images/storymenu/esperon-dias-magicos.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                137,
+                63,
+                774,
+                153
+              ],
+              "nontransparent": true,
+              "sampled_colors": 863,
+              "sha256": "7314fa79dd1d6e5fd189f9ca443968f1148c0a35d93b107b675dd65a002d6a4e"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/images/storymenu/esperon-dias-magicos.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-dias-magicos",
+      "album_json": "data/ui/freeplay/albums/esperon-dias-magicos.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Días Mágicos",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-dias-magicos-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-dias-magicos-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-dias-magicos-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/images/freeplay/albumRoll/esperon-dias-magicos-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 3615,
+            "sha256": "8bf6b12ce9da844fe753f565f0416e6c8c11ec361d7a554fa227af104e178130"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/images/freeplay/albumRoll/esperon-dias-magicos-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-dias-magicos-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/images/freeplay/albumRoll/esperon-dias-magicos-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 623,
+            "sha256": "bab0934099a0f79a400c2bd146d3030aa4f19e5fd6793115428cc413b3ce00b3"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/images/freeplay/albumRoll/esperon-dias-magicos-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos/images/freeplay/albumRoll/esperon-dias-magicos-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 623,
+          "sha256": "bab0934099a0f79a400c2bd146d3030aa4f19e5fd6793115428cc413b3ce00b3"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-dias-magicos-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "eclipsis",
+      "mod": "esperon-dano-eclipsis",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-eclipsis",
+          "path": "data/levels/esperon-eclipsis.json",
+          "visible": true,
+          "songs": [
+            "eclipsis"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-eclipsis",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/images/storymenu/esperon-eclipsis.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                264,
+                85,
+                647,
+                160
+              ],
+              "nontransparent": true,
+              "sampled_colors": 503,
+              "sha256": "c8cf87b0b6a17abb3ccc77bfc1ab8293a1383b6ff2ab0d954086096a76dd47b7"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/images/storymenu/esperon-eclipsis.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-eclipsis",
+      "album_json": "data/ui/freeplay/albums/esperon-eclipsis.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Eclipsis",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-eclipsis-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-eclipsis-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-eclipsis-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/images/freeplay/albumRoll/esperon-eclipsis-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 3510,
+            "sha256": "0acabf70fec51d12cad91771f871b0209c02fb33a7cab836313f36ea8018d670"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/images/freeplay/albumRoll/esperon-eclipsis-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-eclipsis-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/images/freeplay/albumRoll/esperon-eclipsis-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 459,
+            "sha256": "a28cf54176e39c67b490136cd3125c2671794f887e30270ccb021d2e4c725a03"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/images/freeplay/albumRoll/esperon-eclipsis-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis/images/freeplay/albumRoll/esperon-eclipsis-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 459,
+          "sha256": "a28cf54176e39c67b490136cd3125c2671794f887e30270ccb021d2e4c725a03"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-eclipsis-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "fango",
+      "mod": "esperon-dano-fango",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-fango",
+          "path": "data/levels/esperon-fango.json",
+          "visible": true,
+          "songs": [
+            "fango"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-fango",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/images/storymenu/esperon-fango.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                306,
+                85,
+                605,
+                160
+              ],
+              "nontransparent": true,
+              "sampled_colors": 430,
+              "sha256": "0dff67f0021dd1553adb9d3412cba15b494467347c25341fd11b6879ecceff78"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/images/storymenu/esperon-fango.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-fango",
+      "album_json": "data/ui/freeplay/albums/esperon-fango.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Fango",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-fango-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-fango-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-fango-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/images/freeplay/albumRoll/esperon-fango-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 2004,
+            "sha256": "b9f7227dd0538bba2fcfc6a4041365f16664d44c5fba9334f11aa24d1009fc4c"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/images/freeplay/albumRoll/esperon-fango-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-fango-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/images/freeplay/albumRoll/esperon-fango-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 332,
+            "sha256": "6b6db4ee90f65a8d2c0e2ad70530b702b410e69773aa00a09481e67692d82e06"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/images/freeplay/albumRoll/esperon-fango-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango/images/freeplay/albumRoll/esperon-fango-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 332,
+          "sha256": "6b6db4ee90f65a8d2c0e2ad70530b702b410e69773aa00a09481e67692d82e06"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-fango-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "luma",
+      "mod": "esperon-dano-luma",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-luma",
+          "path": "data/levels/esperon-luma.json",
+          "visible": true,
+          "songs": [
+            "luma"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-luma",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/images/storymenu/esperon-luma.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                332,
+                87,
+                584,
+                161
+              ],
+              "nontransparent": true,
+              "sampled_colors": 325,
+              "sha256": "84467242a785040ddde1fecda0b3b3750ec79089bac6bfa5be06a4403f39b90a"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/images/storymenu/esperon-luma.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-luma",
+      "album_json": "data/ui/freeplay/albums/esperon-luma.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Luma",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-luma-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-luma-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-luma-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/images/freeplay/albumRoll/esperon-luma-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 1538,
+            "sha256": "a1413960fbb2fd6214af49bf82d06877da4a8d6a08e4629f81c7a0a90180284c"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/images/freeplay/albumRoll/esperon-luma-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-luma-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/images/freeplay/albumRoll/esperon-luma-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 326,
+            "sha256": "94227aa3f9a13d4c143b345a41322826e619fe59082cbde4813a5ccd3e45a0ef"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/images/freeplay/albumRoll/esperon-luma-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma/images/freeplay/albumRoll/esperon-luma-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 326,
+          "sha256": "94227aa3f9a13d4c143b345a41322826e619fe59082cbde4813a5ccd3e45a0ef"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-luma-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "mod": "esperon-dano-maraton-de-peliculas",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-maraton-de-peliculas",
+          "path": "data/levels/esperon-maraton-de-peliculas.json",
+          "visible": true,
+          "songs": [
+            "maraton-de-peliculas"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-maraton-de-peliculas",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/images/storymenu/esperon-maraton-de-peliculas.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                48,
+                71,
+                862,
+                144
+              ],
+              "nontransparent": true,
+              "sampled_colors": 899,
+              "sha256": "c7d5143fdc9a815077a019007e1740a4b3d922fbe46c817abc3da36b5f310981"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/images/storymenu/esperon-maraton-de-peliculas.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-maraton-de-peliculas",
+      "album_json": "data/ui/freeplay/albums/esperon-maraton-de-peliculas.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Maratón de Películas",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-maraton-de-peliculas-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-maraton-de-peliculas-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-maraton-de-peliculas-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/images/freeplay/albumRoll/esperon-maraton-de-peliculas-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 2482,
+            "sha256": "43e20c8e1e3c8ef504631dc1e89f711f14e8a6631906107955cf815706023a17"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/images/freeplay/albumRoll/esperon-maraton-de-peliculas-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-maraton-de-peliculas-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/images/freeplay/albumRoll/esperon-maraton-de-peliculas-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 642,
+            "sha256": "eab1313f046b780f73fac869c4cabd7feb24ca6ba06b7d96e4feaa2232e30339"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/images/freeplay/albumRoll/esperon-maraton-de-peliculas-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas/images/freeplay/albumRoll/esperon-maraton-de-peliculas-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 642,
+          "sha256": "eab1313f046b780f73fac869c4cabd7feb24ca6ba06b7d96e4feaa2232e30339"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-maraton-de-peliculas-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+          "path": "data/levels/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.json",
+          "visible": true,
+          "songs": [
+            "me-voy-a-morir-si-no-me-besas-ahora-mismo"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/storymenu/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                20,
+                90,
+                900,
+                140
+              ],
+              "nontransparent": true,
+              "sampled_colors": 808,
+              "sha256": "24a8620d7a32c9b99d798b6c263496de3bfb35134740288155495e807ed582d6"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/storymenu/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "album_json": "data/ui/freeplay/albums/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Me Voy A Morir Si No Me Besas Ahora Mismo",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 1852,
+            "sha256": "af0e1432084694a8933d6f9d765a033f49915c0ef2ec0c449692dd2708cc78df"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 746,
+            "sha256": "a9f2a97a94a61b77e9e1e97a5705655e45b176397b17f1016f65c788472ebc2d"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/images/freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 746,
+          "sha256": "a9f2a97a94a61b77e9e1e97a5705655e45b176397b17f1016f65c788472ebc2d"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "meteora",
+      "mod": "esperon-dano-meteora",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-meteora",
+          "path": "data/levels/esperon-meteora.json",
+          "visible": true,
+          "songs": [
+            "meteora"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-meteora",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/images/storymenu/esperon-meteora.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                246,
+                85,
+                669,
+                160
+              ],
+              "nontransparent": true,
+              "sampled_colors": 564,
+              "sha256": "361f12e910ce15d4a5b43c53061cd2e74e1b8df42be7c05a32c8117e6d6eb483"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/images/storymenu/esperon-meteora.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-meteora",
+      "album_json": "data/ui/freeplay/albums/esperon-meteora.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Meteora",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-meteora-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-meteora-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-meteora-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/images/freeplay/albumRoll/esperon-meteora-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 3096,
+            "sha256": "eca12d5e14af4d53c425b2df4d9ff0cade28c088079168ce567ea16395d17a1e"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/images/freeplay/albumRoll/esperon-meteora-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-meteora-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/images/freeplay/albumRoll/esperon-meteora-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 452,
+            "sha256": "17fc661615cab5aca9a7bb455e885aa10e8a84d30ba781a25872fada81a3119d"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/images/freeplay/albumRoll/esperon-meteora-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora/images/freeplay/albumRoll/esperon-meteora-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 452,
+          "sha256": "17fc661615cab5aca9a7bb455e885aa10e8a84d30ba781a25872fada81a3119d"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-meteora-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "mod": "esperon-dano-mi-hogar",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-mi-hogar",
+          "path": "data/levels/esperon-mi-hogar.json",
+          "visible": true,
+          "songs": [
+            "mi-hogar"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-mi-hogar",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/images/storymenu/esperon-mi-hogar.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                234,
+                85,
+                681,
+                160
+              ],
+              "nontransparent": true,
+              "sampled_colors": 572,
+              "sha256": "5abd294b1fdb7824ea98aed726cf7b79b75ae1eb947d308ad55bfda17607c741"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/images/storymenu/esperon-mi-hogar.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-mi-hogar",
+      "album_json": "data/ui/freeplay/albums/esperon-mi-hogar.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Mi Hogar",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-mi-hogar-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-mi-hogar-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-mi-hogar-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/images/freeplay/albumRoll/esperon-mi-hogar-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 1445,
+            "sha256": "bd64f28802a5e2b099b667e7cb897095fe04fbccd8e21d621b4235385c0586c5"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/images/freeplay/albumRoll/esperon-mi-hogar-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-mi-hogar-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/images/freeplay/albumRoll/esperon-mi-hogar-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 440,
+            "sha256": "9b62359cbfbf287b53e290082866bce314e90e919821d3b7e0deaf56b802015a"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/images/freeplay/albumRoll/esperon-mi-hogar-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar/images/freeplay/albumRoll/esperon-mi-hogar-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 440,
+          "sha256": "9b62359cbfbf287b53e290082866bce314e90e919821d3b7e0deaf56b802015a"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-mi-hogar-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "nubia",
+      "mod": "esperon-dano-nubia",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-nubia",
+          "path": "data/levels/esperon-nubia.json",
+          "visible": true,
+          "songs": [
+            "nubia"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-nubia",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/images/storymenu/esperon-nubia.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                317,
+                87,
+                598,
+                161
+              ],
+              "nontransparent": true,
+              "sampled_colors": 386,
+              "sha256": "0f085373191212e2ab7122320c7edffe0af6f68810d099737890ecd0a8892225"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/images/storymenu/esperon-nubia.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-nubia",
+      "album_json": "data/ui/freeplay/albums/esperon-nubia.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Nubia",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-nubia-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-nubia-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-nubia-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/images/freeplay/albumRoll/esperon-nubia-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 3295,
+            "sha256": "3de6524f86a1aff735ca5249290465ce6f1aef982563625386f9f4c257ead5c7"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/images/freeplay/albumRoll/esperon-nubia-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-nubia-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/images/freeplay/albumRoll/esperon-nubia-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 359,
+            "sha256": "85d20da42f329454f731b9cec4c3024f3eba0e59602188a88a6de8e1856164db"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/images/freeplay/albumRoll/esperon-nubia-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia/images/freeplay/albumRoll/esperon-nubia-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 359,
+          "sha256": "85d20da42f329454f731b9cec4c3024f3eba0e59602188a88a6de8e1856164db"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-nubia-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "mod": "esperon-dano-nuestro-amor-no-es-normal",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-nuestro-amor-no-es-normal",
+          "path": "data/levels/esperon-nuestro-amor-no-es-normal.json",
+          "visible": true,
+          "songs": [
+            "nuestro-amor-no-es-normal"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-nuestro-amor-no-es-normal",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/images/storymenu/esperon-nuestro-amor-no-es-normal.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                70,
+                90,
+                842,
+                140
+              ],
+              "nontransparent": true,
+              "sampled_colors": 708,
+              "sha256": "e021a2a6e61b64fb70347871b47016ce34221c5f353f885d5061c7a2cb186ebf"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/images/storymenu/esperon-nuestro-amor-no-es-normal.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-nuestro-amor-no-es-normal",
+      "album_json": "data/ui/freeplay/albums/esperon-nuestro-amor-no-es-normal.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Nuestro Amor No es Normal",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/images/freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 2378,
+            "sha256": "59722109f7c4fd73cd558ebc54f334db6efc88145dfc97cc770b9ae84f7f5b24"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/images/freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/images/freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 762,
+            "sha256": "799b5f258abcb702dbffc22e4b09c3f315dd673cd5a079f084b514cd880f9ec5"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/images/freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal/images/freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 762,
+          "sha256": "799b5f258abcb702dbffc22e4b09c3f315dd673cd5a079f084b514cd880f9ec5"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-nuestro-amor-no-es-normal-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "peligrosa",
+      "mod": "esperon-dano-peligrosa",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-peligrosa",
+          "path": "data/levels/esperon-peligrosa.json",
+          "visible": true,
+          "songs": [
+            "peligrosa"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-peligrosa",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/images/storymenu/esperon-peligrosa.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                211,
+                85,
+                705,
+                160
+              ],
+              "nontransparent": true,
+              "sampled_colors": 648,
+              "sha256": "7bab7157c27130c572f3fe5b9b59db72cabf2bf7cd1bdb9b985e5c58526894e2"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/images/storymenu/esperon-peligrosa.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-peligrosa",
+      "album_json": "data/ui/freeplay/albums/esperon-peligrosa.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Peligrosa",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-peligrosa-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-peligrosa-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-peligrosa-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/images/freeplay/albumRoll/esperon-peligrosa-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 2935,
+            "sha256": "037fa040618468a237279149df8d1a624398989f2a3b4eb03dd3c4978f217efb"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/images/freeplay/albumRoll/esperon-peligrosa-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-peligrosa-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/images/freeplay/albumRoll/esperon-peligrosa-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 470,
+            "sha256": "549c60d5351bf60d72635604a13d1676fc36c2cf38a6312e36a3a5b9f7d65b97"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/images/freeplay/albumRoll/esperon-peligrosa-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa/images/freeplay/albumRoll/esperon-peligrosa-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 470,
+          "sha256": "549c60d5351bf60d72635604a13d1676fc36c2cf38a6312e36a3a5b9f7d65b97"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-peligrosa-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "mod": "esperon-dano-rompecabezas",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-rompecabezas",
+          "path": "data/levels/esperon-rompecabezas.json",
+          "visible": true,
+          "songs": [
+            "rompecabezas"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-rompecabezas",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/images/storymenu/esperon-rompecabezas.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                103,
+                85,
+                808,
+                160
+              ],
+              "nontransparent": true,
+              "sampled_colors": 881,
+              "sha256": "604e07a780540ba832575b6f0e0e9bf31c432a72b226876f3d86aa99c3723492"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/images/storymenu/esperon-rompecabezas.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-rompecabezas",
+      "album_json": "data/ui/freeplay/albums/esperon-rompecabezas.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Rompecabezas",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-rompecabezas-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-rompecabezas-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-rompecabezas-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/images/freeplay/albumRoll/esperon-rompecabezas-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 3196,
+            "sha256": "e4cbc3ade3ae0ffdd10c28afa784217d5d7e4549f131339ed8b30a0415adf8c9"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/images/freeplay/albumRoll/esperon-rompecabezas-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-rompecabezas-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/images/freeplay/albumRoll/esperon-rompecabezas-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 603,
+            "sha256": "b59b239f271675bf7b9fe5c79093bf32b64e3a957c9aaa540b59bb2edaef1961"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/images/freeplay/albumRoll/esperon-rompecabezas-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas/images/freeplay/albumRoll/esperon-rompecabezas-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 603,
+          "sha256": "b59b239f271675bf7b9fe5c79093bf32b64e3a957c9aaa540b59bb2edaef1961"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-rompecabezas-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "si-te-vas",
+      "mod": "esperon-dano-si-te-vas",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-si-te-vas",
+          "path": "data/levels/esperon-si-te-vas.json",
+          "visible": true,
+          "songs": [
+            "si-te-vas"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-si-te-vas",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-si-te-vas/images/storymenu/esperon-si-te-vas.png",
+              "format": "PNG",
+              "size": [
+                512,
+                256
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                0,
+                0,
+                512,
+                256
+              ],
+              "nontransparent": true,
+              "sampled_colors": 232,
+              "sha256": "5fea26645cb8b51ec0deff185516011758c34541a48d00a6726c063e198218a7"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-si-te-vas/images/storymenu/esperon-si-te-vas.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-si-te-vas",
+      "album_json": "data/ui/freeplay/albums/esperon-si-te-vas.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Si Te Vas",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-si-te-vas-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-si-te-vas-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-si-te-vas-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-si-te-vas/images/freeplay/albumRoll/esperon-si-te-vas-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGB",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 4013,
+            "sha256": "3f9c322dfc81f4ad1944145196b3ceefbe7cba4fce6d8206d1c2909445e02227"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-si-te-vas/images/freeplay/albumRoll/esperon-si-te-vas-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-si-te-vas-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-si-te-vas/images/freeplay/albumRoll/esperon-si-te-vas-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 373,
+            "sha256": "7facf03db1dfd9ff8c0a7886902314e63ad013b0abe77283e516b6e723783fde"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-si-te-vas/images/freeplay/albumRoll/esperon-si-te-vas-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-si-te-vas/images/freeplay/albumRoll/esperon-si-te-vas-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 373,
+          "sha256": "7facf03db1dfd9ff8c0a7886902314e63ad013b0abe77283e516b6e723783fde"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-si-te-vas-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "solare",
+      "mod": "esperon-dano-solare",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-solare",
+          "path": "data/levels/esperon-solare.json",
+          "visible": true,
+          "songs": [
+            "solare"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-solare",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/images/storymenu/esperon-solare.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                283,
+                85,
+                626,
+                160
+              ],
+              "nontransparent": true,
+              "sampled_colors": 477,
+              "sha256": "21eb870fff5ef740260e321bd12283412bee85b12e654fcc5d031644c62f1659"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/images/storymenu/esperon-solare.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-solare",
+      "album_json": "data/ui/freeplay/albums/esperon-solare.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Solare",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-solare-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-solare-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-solare-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/images/freeplay/albumRoll/esperon-solare-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 1890,
+            "sha256": "bae4611d6e61c068b67d28d465c66b1ff25ad6bfd0e509359a9960f6aa15df9b"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/images/freeplay/albumRoll/esperon-solare-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-solare-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/images/freeplay/albumRoll/esperon-solare-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 414,
+            "sha256": "ef8ff6242112809a1379ceb45df5ec3ac87d98f5781aa86424c3387f2b778396"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/images/freeplay/albumRoll/esperon-solare-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare/images/freeplay/albumRoll/esperon-solare-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 414,
+          "sha256": "ef8ff6242112809a1379ceb45df5ec3ac87d98f5781aa86424c3387f2b778396"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-solare-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "tristella",
+      "mod": "esperon-dano-tristella",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-tristella",
+          "path": "data/levels/esperon-tristella.json",
+          "visible": true,
+          "songs": [
+            "tristella"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-tristella",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/images/storymenu/esperon-tristella.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                220,
+                85,
+                689,
+                160
+              ],
+              "nontransparent": true,
+              "sampled_colors": 560,
+              "sha256": "fcf71222cf176796981a439bfdbac40352660f761d836eccb54c0e98d3c10ccb"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/images/storymenu/esperon-tristella.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-tristella",
+      "album_json": "data/ui/freeplay/albums/esperon-tristella.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Tristella",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-tristella-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-tristella-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-tristella-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/images/freeplay/albumRoll/esperon-tristella-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 3538,
+            "sha256": "2c9ee48814717bc861b0fe23003a95930393f025392f7cfd172ea1e36e05a38a"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/images/freeplay/albumRoll/esperon-tristella-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-tristella-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/images/freeplay/albumRoll/esperon-tristella-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 461,
+            "sha256": "e6ff8152158efad624c6963fa1ffe17c12af01b35ed4dbe4a69f8237fbe006bb"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/images/freeplay/albumRoll/esperon-tristella-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella/images/freeplay/albumRoll/esperon-tristella-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 461,
+          "sha256": "e6ff8152158efad624c6963fa1ffe17c12af01b35ed4dbe4a69f8237fbe006bb"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-tristella-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "mod": "esperon-dano-tu-dealer-de-nostalgia",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-tu-dealer-de-nostalgia",
+          "path": "data/levels/esperon-tu-dealer-de-nostalgia.json",
+          "visible": true,
+          "songs": [
+            "tu-dealer-de-nostalgia"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-tu-dealer-de-nostalgia",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/images/storymenu/esperon-tu-dealer-de-nostalgia.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                17,
+                88,
+                893,
+                150
+              ],
+              "nontransparent": true,
+              "sampled_colors": 925,
+              "sha256": "0d1e328cf239f05c4adf4401829b6a47330f0beacb58c609054bcd8cfb2db5dd"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/images/storymenu/esperon-tu-dealer-de-nostalgia.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-tu-dealer-de-nostalgia",
+      "album_json": "data/ui/freeplay/albums/esperon-tu-dealer-de-nostalgia.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Tu Dealer de Nostalgia",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/images/freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 3200,
+            "sha256": "95582ca0c59e3a79df1ce07f1604879fca773150228756ec46fda641d2ca8313"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/images/freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/images/freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 665,
+            "sha256": "1704f866b20dfb128c98b8a227eef6f467c95cf5cbb2ab58f9f0242ca74131f3"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/images/freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia/images/freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 665,
+          "sha256": "1704f866b20dfb128c98b8a227eef6f467c95cf5cbb2ab58f9f0242ca74131f3"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-tu-dealer-de-nostalgia-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-un-poco-bien-un-poco-mal",
+          "path": "data/levels/esperon-un-poco-bien-un-poco-mal.json",
+          "visible": true,
+          "songs": [
+            "un-poco-bien-un-poco-mal"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-un-poco-bien-un-poco-mal",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/images/storymenu/esperon-un-poco-bien-un-poco-mal.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                105,
+                90,
+                807,
+                140
+              ],
+              "nontransparent": true,
+              "sampled_colors": 655,
+              "sha256": "03fd13f5840a8037e6d0b91a844fd7d21c89d69501e05026bd02c922aaa11cac"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/images/storymenu/esperon-un-poco-bien-un-poco-mal.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-un-poco-bien-un-poco-mal",
+      "album_json": "data/ui/freeplay/albums/esperon-un-poco-bien-un-poco-mal.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Un Poco Bien un Poco Mal",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/images/freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 2602,
+            "sha256": "d9c08fea175a4c1a985e798afe96d86d4164ccaa47d0e4184a6acc452af1da8f"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/images/freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/images/freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 729,
+            "sha256": "b153367eb390b379d59fc08f01ba5e945bda6664abc50bed4000bff14965bdf7"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/images/freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal/images/freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 729,
+          "sha256": "b153367eb390b379d59fc08f01ba5e945bda6664abc50bed4000bff14965bdf7"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-un-poco-bien-un-poco-mal-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "mod": "esperon-dano-volver-a-vernos",
+      "level_count": 1,
+      "levels": [
+        {
+          "id": "esperon-volver-a-vernos",
+          "path": "data/levels/esperon-volver-a-vernos.json",
+          "visible": true,
+          "songs": [
+            "volver-a-vernos"
+          ],
+          "titleAsset": {
+            "key": "storymenu/esperon-volver-a-vernos",
+            "png": {
+              "exists": true,
+              "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/images/storymenu/esperon-volver-a-vernos.png",
+              "format": "PNG",
+              "size": [
+                900,
+                220
+              ],
+              "mode": "RGBA",
+              "alpha_bbox": [
+                144,
+                88,
+                762,
+                150
+              ],
+              "nontransparent": true,
+              "sampled_colors": 717,
+              "sha256": "981cc2c8e69c8415e28509b4a33b07b9492b7aa0d4350353d9a28ee7a224036f"
+            },
+            "xml_exists": false,
+            "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/images/storymenu/esperon-volver-a-vernos.xml"
+          }
+        }
+      ],
+      "metadata_album": "esperon-volver-a-vernos",
+      "album_json": "data/ui/freeplay/albums/esperon-volver-a-vernos.json",
+      "album": {
+        "version": "1.0.3",
+        "name": "Volver a Vernos",
+        "artists": [
+          "Esperón"
+        ],
+        "albumArtAsset": "freeplay/albumRoll/esperon-volver-a-vernos-art",
+        "albumTitleAsset": "freeplay/albumRoll/esperon-volver-a-vernos-title",
+        "albumTitleOffsets": [
+          0,
+          0
+        ],
+        "albumTitleAnimations": [],
+        "albumOSTName": "ESPERÓN",
+        "generatedBy": "FNF Mobile V-Slice 0.8.6 V2.6.4 Freeplay album asset contract"
+      },
+      "album_assets": {
+        "albumArtAsset": {
+          "key": "freeplay/albumRoll/esperon-volver-a-vernos-art",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/images/freeplay/albumRoll/esperon-volver-a-vernos-art.png",
+            "format": "PNG",
+            "size": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "nontransparent": true,
+            "sampled_colors": 2946,
+            "sha256": "2a82b5d12b4ba8991b8e4a96da59f1cfac89a4e7a029b7ccef58af102deb0982"
+          },
+          "xml_exists": false,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/images/freeplay/albumRoll/esperon-volver-a-vernos-art.xml"
+        },
+        "albumTitleAsset": {
+          "key": "freeplay/albumRoll/esperon-volver-a-vernos-title",
+          "png": {
+            "exists": true,
+            "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/images/freeplay/albumRoll/esperon-volver-a-vernos-title.png",
+            "format": "PNG",
+            "size": [
+              512,
+              128
+            ],
+            "mode": "RGBA",
+            "alpha_bbox": [
+              0,
+              0,
+              512,
+              128
+            ],
+            "nontransparent": true,
+            "sampled_colors": 688,
+            "sha256": "3da064a0e33d756a36c5807ee70886454462fefc3e6a28e71cd7ddb54339b655"
+          },
+          "xml_exists": true,
+          "xml_path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/images/freeplay/albumRoll/esperon-volver-a-vernos-title.xml"
+        }
+      },
+      "errors": [],
+      "status": "PASS",
+      "album_title_gate": {
+        "png": {
+          "exists": true,
+          "path": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos/images/freeplay/albumRoll/esperon-volver-a-vernos-title.png",
+          "format": "PNG",
+          "size": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_bbox": [
+            0,
+            0,
+            512,
+            128
+          ],
+          "nontransparent": true,
+          "sampled_colors": 688,
+          "sha256": "3da064a0e33d756a36c5807ee70886454462fefc3e6a28e71cd7ddb54339b655"
+        },
+        "xml": "images/freeplay/albumRoll/esperon-volver-a-vernos-title.xml",
+        "frames": [
+          "switch0000",
+          "idle0000"
+        ]
+      }
+    }
+  ],
+  "rules": {
+    "capsule_asset": "data/levels/*.json titleAsset -> images/storymenu/*.png",
+    "album_asset": "playData.album -> data/ui/freeplay/albums/<id>.json -> images/freeplay/albumRoll/*.png",
+    "album_title_frames": [
+      "idle0",
+      "switch0"
+    ],
+    "duplicate_album_art_rejected": true
+  }
+}

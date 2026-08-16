@@ -1,0 +1,371 @@
+{
+  "scope": "PRODUCTION_VOCAL_DENSITY_AWARE_GATE_V271",
+  "executed_at": "2026-08-16T00:53:30.102434+00:00",
+  "target_version": "0.8.6",
+  "mod_version": "2.7.1",
+  "songs": 21,
+  "passed": 21,
+  "status": "PASS",
+  "total_notes_outside_syllable_intervals": 0,
+  "total_unaligned_notes": 0,
+  "total_bad_holds": 0,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "status": "PASS",
+      "counts": {
+        "easy": 273,
+        "normal": 305,
+        "hard": 355
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "status": "PASS",
+      "counts": {
+        "easy": 266,
+        "normal": 291,
+        "hard": 310
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "dano",
+      "status": "PASS",
+      "counts": {
+        "easy": 249,
+        "normal": 266,
+        "hard": 279
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "dias-magicos",
+      "status": "PASS",
+      "counts": {
+        "easy": 251,
+        "normal": 272,
+        "hard": 298
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "eclipsis",
+      "status": "PASS",
+      "counts": {
+        "easy": 321,
+        "normal": 355,
+        "hard": 392
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "fango",
+      "status": "PASS",
+      "counts": {
+        "easy": 259,
+        "normal": 286,
+        "hard": 308
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "luma",
+      "status": "PASS",
+      "counts": {
+        "easy": 287,
+        "normal": 322,
+        "hard": 344
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "status": "PASS",
+      "counts": {
+        "easy": 293,
+        "normal": 329,
+        "hard": 375
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "status": "PASS",
+      "counts": {
+        "easy": 203,
+        "normal": 232,
+        "hard": 267
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "meteora",
+      "status": "PASS",
+      "counts": {
+        "easy": 252,
+        "normal": 266,
+        "hard": 295
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "mi-hogar",
+      "status": "PASS",
+      "counts": {
+        "easy": 168,
+        "normal": 187,
+        "hard": 215
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "nubia",
+      "status": "PASS",
+      "counts": {
+        "easy": 228,
+        "normal": 255,
+        "hard": 293
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "status": "PASS",
+      "counts": {
+        "easy": 170,
+        "normal": 193,
+        "hard": 215
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "peligrosa",
+      "status": "PASS",
+      "counts": {
+        "easy": 290,
+        "normal": 320,
+        "hard": 349
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "rompecabezas",
+      "status": "PASS",
+      "counts": {
+        "easy": 288,
+        "normal": 327,
+        "hard": 349
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "si-te-vas",
+      "status": "PASS",
+      "counts": {
+        "easy": 231,
+        "normal": 254,
+        "hard": 299
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "solare",
+      "status": "PASS",
+      "counts": {
+        "easy": 295,
+        "normal": 320,
+        "hard": 353
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "tristella",
+      "status": "PASS",
+      "counts": {
+        "easy": 304,
+        "normal": 338,
+        "hard": 369
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "status": "PASS",
+      "counts": {
+        "easy": 220,
+        "normal": 233,
+        "hard": 258
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "status": "PASS",
+      "counts": {
+        "easy": 224,
+        "normal": 250,
+        "hard": 296
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    },
+    {
+      "song": "volver-a-vernos",
+      "status": "PASS",
+      "counts": {
+        "easy": 259,
+        "normal": 279,
+        "hard": 300
+      },
+      "outside_syllable_intervals": 0,
+      "unaligned_notes": 0,
+      "bad_holds": 0,
+      "vowel_direction_mismatches": 0,
+      "candidate_metadata_leaked": 0,
+      "bad_player_lanes": 0,
+      "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.1 density-aware vocal clusters, retimed holds and player lanes d=0..3",
+      "errors": []
+    }
+  ]
+}

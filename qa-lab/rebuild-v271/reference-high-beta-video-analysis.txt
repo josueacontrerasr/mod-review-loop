@@ -1,0 +1,48 @@
+Starting video analysis...
+Submitting video analysis task...
+Task submitted (ID: video-analysis-86bd83fc-1090-404d-830b-54a2b0d593af)
+[8s] Status: Analyzing video content with AI...
+[25s] Status: Analysis completed
+[25s] Analysis completed!
+Full analysis result saved to: /home/ubuntu/mod-review-loop-production/video_UCAU5sqvqB4_analysis_20260816_003638.md
+Note: This tool performs AI-based visual and audio analysis, not verbatim transcription. For detailed speech transcription, use `manus-speech-to-text` instead.
+Analysis result:
+
+Esta es una revisión técnica exhaustiva del diseño del chart (mapeo de notas) en relación con el audio para el video proporcionado.
+
+### (A) Identificación del Video/Mod
+*   **Juego:** Friday Night Funkin' (FNF).
+*   **Canción:** "High" (Beta Vocal Cover by DaThugWizard).
+*   **Personajes:** Boyfriend (Derecha) vs. Mommy Mearest (Izquierda).
+*   **Contexto:** Se trata de una versión que utiliza las voces "beta" o alternativas de la canción original de la Semana 4, lo que resulta en un patrón rítmico distinto al original.
+
+### (B) Observaciones Temporales
+*   **00:09 - 00:16:** Inicio de Mommy Mearest. Las flechas están perfectamente sincronizadas con los ataques vocales de tipo "vibrato". Cada cambio de tono en la voz genera una nota nueva.
+*   **00:16 - 00:25:** Respuesta de Boyfriend. Se observa una traslación casi idéntica del patrón de Mommy, manteniendo la fidelidad a la sílaba electrónica.
+*   **00:58 - 01:05:** Sección de "escaleras" (secuencias rápidas Izquierda-Abajo-Arriba-Derecha). Estas coinciden con los glissandos o subidas rápidas de tono en la voz de Mommy Mearest.
+*   **01:13 - 01:28:** Aumento de la complejidad rítmica. Las notas aparecen en síncopa, siguiendo el ritmo entrecortado de la voz beta.
+*   **01:54 - 02:12:** Sección final. El chart se detiene mientras la música instrumental continúa, lo cual es consistente con el mensaje en pantalla "INST WILL BE SHORTER ON RELEASE" (La instrumental será más corta en el lanzamiento).
+
+### (C) Patrón de Densidad
+*   **Ventana de 1000 ms (1 segundo):**
+    *   *Secciones lentas (inicio):* ~3 a 4 notas por segundo.
+    *   *Secciones intensas (01:15):* ~7 a 9 notas por segundo.
+*   **Ventana de 500 ms:**
+    *   En los momentos de "trinos" vocales (01:38), la densidad alcanza picos de 5 notas en medio segundo, exigiendo alta velocidad de reacción.
+*   **Distribución:** El chart utiliza un flujo balanceado, evitando "jacks" (repetición de la misma dirección muy rápida) innecesarios, prefiriendo el movimiento entre las cuatro teclas para simular la melodía.
+
+### (D) Relación Voz versus Instrumental
+*   **Prioridad Vocal:** El mapeo es **100% vocal**. No existe evidencia visual de notas que sigan el bombo (kick) o la caja (snare) de la batería. Si la voz calla, no hay notas, incluso si la base rítmica es fuerte.
+*   **Sincronización:**
+    *   *Evidencia Clara:* Cada nota "Sick!!" coincide con el inicio del transitorio de la voz.
+    *   *Evidencia Ambigua:* En 01:45, hay notas rápidas donde la voz suena procesada (bitcrushed), lo que hace difícil distinguir si cada nota corresponde a una sílaba real o a un adorno del charter.
+    *   *Datos no observables:* No se percibe latencia visual entre la pulsación y el sonido en este metraje.
+
+### (E) Holds (Notas Largas) y Jugabilidad
+*   **Uso de Holds:** Se emplean exclusivamente cuando el cantante sostiene una nota al final de una frase (ej. 00:10, 00:27). La longitud del hold coincide exactamente con la duración del aliento vocal.
+*   **Mecánicas:** No se observan "sustains" con notas internas (notas que deben presionarse mientras se sostiene otra), lo que mantiene el nivel de dificultad en "Normal/Hard" estándar de FNF.
+*   **Simetría:** El chart es altamente simétrico; lo que canta el oponente es replicado casi exactamente por el jugador, lo que refuerza el concepto de "duelo de canto".
+
+### (F) Decisión Incluir/Excluir como Referencia
+*   **Decisión:** **Incluir como referencia de "Vocal Mapping".**
+*   **Razón:** Es un ejemplo excelente de cómo mapear una pista vocal compleja y poco convencional (beta vocals) sin apoyarse en la base instrumental. La precisión de las notas largas y las escaleras rítmicas sirve como estándar para mods que buscan fidelidad melódica absoluta.
