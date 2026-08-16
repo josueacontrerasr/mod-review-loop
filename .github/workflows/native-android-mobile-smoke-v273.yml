@@ -1,0 +1,91 @@
+name: Native Android Mobile Smoke V2.7.3
+
+on:
+  workflow_dispatch:
+    inputs:
+      apk_url:
+        description: "URL HTTPS directa de una APK FNF 0.8.6 obtenida legalmente"
+        required: true
+        type: string
+      apk_sha256:
+        description: "SHA-256 exacto de la APK"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: native-android-mobile-smoke-v273
+  cancel-in-progress: true
+
+jobs:
+  native-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Enable KVM group permissions
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+          test -e /dev/kvm
+
+      - name: Download and verify user-provided APK
+        env:
+          APK_URL: ${{ inputs.apk_url }}
+          APK_SHA256: ${{ inputs.apk_sha256 }}
+        run: |
+          set -euo pipefail
+          case "$APK_URL" in
+            https://*) ;;
+            *) echo "apk_url must use HTTPS" >&2; exit 1 ;;
+          esac
+          test "${#APK_SHA256}" -eq 64
+          printf '%s  %s\n' "$APK_SHA256" /tmp/fnf-0.8.6.apk > /tmp/fnf.sha256
+          curl --fail --location --retry 3 --connect-timeout 20 --max-time 900 --output /tmp/fnf-0.8.6.apk "$APK_URL"
+          sha256sum --check /tmp/fnf.sha256
+          file /tmp/fnf-0.8.6.apk
+
+      - name: Stage official Android mods and persistent lab optimizer
+        run: |
+          set -euo pipefail
+          python3 tools/stage_official_android_mods_v273.py . --workers 4
+          python3 tools/validate_persistent_lab_mod_v273.py .
+
+      - name: Run FNF in accelerated Android Emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          profile: pixel_7_pro
+          cores: 2
+          ram-size: 2048M
+          disk-size: 4096M
+          emulator-options: -no-window -gpu software -no-snapshot -noaudio -no-boot-anim -camera-back none
+          disable-animations: true
+          emulator-boot-timeout: 600
+          pre-emulator-launch-script: |
+            set -euo pipefail
+            emulator -accel-check
+          script: |
+            set -euo pipefail
+            SERIAL="${ANDROID_SERIAL:-emulator-5554}"
+            python3 tools/android_device_health_v273.py --serial "$SERIAL" --timeout-seconds 600 --output qa-lab/rebuild-v273/native-mobile-smoke-v273/device-health-v273.json
+            python3 tools/run_native_mobile_smoke_v273.py . --apk /tmp/fnf-0.8.6.apk --serial "$SERIAL" --package-start-timeout-seconds 90 --boot-wait-seconds 0 --per-mod-wait-seconds 0
+
+      - name: Upload native Android evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: esperon-v273-native-android-smoke-${{ github.run_id }}
+          if-no-files-found: warn
+          path: |
+            qa-lab/rebuild-v273/native-mobile-smoke-v273/**
+            qa-lab/rebuild-v273/native-mobile-smoke-v273/**
+            qa-lab/rebuild-v273/official-android-stage-v273.json
+            qa-lab/rebuild-v273/mobile-loader-v273.json
