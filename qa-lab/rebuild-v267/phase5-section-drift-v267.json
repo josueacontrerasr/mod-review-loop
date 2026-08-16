@@ -1,0 +1,4064 @@
+{
+  "scope": "WIDE_RESEARCH_V267_SECTION_DRIFT_AND_ANCHOR_AUDIT",
+  "created_at": "2026-08-16T00:18:42.555743+00:00",
+  "songs": 21,
+  "parallel_workers": 8,
+  "old_global_median_abs_ms": 100.0,
+  "new_global_median_abs_ms": 0.0,
+  "new_global_p95_abs_ms": 0.0,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "syllables": 449,
+      "sections": {
+        "start": {
+          "count": 112,
+          "old_median_error_ms": 95.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 112,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 112,
+          "old_median_error_ms": 90.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 113,
+          "old_median_error_ms": 70.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 8.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 3510.0,
+          "candidate_start_ms": 3520.0,
+          "audio_onset_ms": 3520.0,
+          "candidate_end_ms": 3770.0,
+          "audio_end_ms": 3825.0,
+          "text": "prefiero#1/3",
+          "duration_ms": 250.0,
+          "hold_ms": 220.0
+        },
+        {
+          "index": 224,
+          "chart_start_ms": 113030.0,
+          "candidate_start_ms": 113000.0,
+          "audio_onset_ms": 113000.0,
+          "candidate_end_ms": 113140.0,
+          "audio_end_ms": 113255.0,
+          "text": "arde#1/2",
+          "duration_ms": 140.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 448,
+          "chart_start_ms": 201670.0,
+          "candidate_start_ms": 201570.0,
+          "audio_onset_ms": 201570.0,
+          "candidate_end_ms": 202040.0,
+          "audio_end_ms": 202040.0,
+          "text": "woooow#2/2",
+          "duration_ms": 470.0,
+          "hold_ms": 440.0
+        }
+      ],
+      "old_global_median_error_ms": 90.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 397,
+          "chart_start_ms": 170840.0,
+          "candidate_start_ms": 170740.0,
+          "audio_onset_ms": 170740.0,
+          "candidate_end_ms": 172540.0,
+          "audio_end_ms": 172640.0,
+          "text": "en",
+          "duration_ms": 1800.0,
+          "hold_ms": 1770.0
+        },
+        {
+          "index": 413,
+          "chart_start_ms": 181890.0,
+          "candidate_start_ms": 181790.0,
+          "audio_onset_ms": 181790.0,
+          "candidate_end_ms": 183250.0,
+          "audio_end_ms": 183290.0,
+          "text": "suave#2/2",
+          "duration_ms": 1460.0,
+          "hold_ms": 1430.0
+        },
+        {
+          "index": 79,
+          "chart_start_ms": 43310.0,
+          "candidate_start_ms": 43210.0,
+          "audio_onset_ms": 43210.0,
+          "candidate_end_ms": 44640.0,
+          "audio_end_ms": 44640.0,
+          "text": "suave#2/2",
+          "duration_ms": 1430.0,
+          "hold_ms": 1400.0
+        },
+        {
+          "index": 136,
+          "chart_start_ms": 75180.0,
+          "candidate_start_ms": 75080.0,
+          "audio_onset_ms": 75080.0,
+          "candidate_end_ms": 76500.0,
+          "audio_end_ms": 76615.0,
+          "text": "y",
+          "duration_ms": 1420.0,
+          "hold_ms": 1390.0
+        },
+        {
+          "index": 12,
+          "chart_start_ms": 7340.0,
+          "candidate_start_ms": 7240.0,
+          "audio_onset_ms": 7240.0,
+          "candidate_end_ms": 8640.0,
+          "audio_end_ms": 8640.0,
+          "text": "feliz#2/2",
+          "duration_ms": 1400.0,
+          "hold_ms": 1370.0
+        },
+        {
+          "index": 27,
+          "chart_start_ms": 15790.0,
+          "candidate_start_ms": 15690.0,
+          "audio_onset_ms": 15690.0,
+          "candidate_end_ms": 17080.0,
+          "audio_end_ms": 17080.0,
+          "text": "ahí#2/2",
+          "duration_ms": 1390.0,
+          "hold_ms": 1360.0
+        },
+        {
+          "index": 239,
+          "chart_start_ms": 121660.0,
+          "candidate_start_ms": 121560.0,
+          "audio_onset_ms": 121560.0,
+          "candidate_end_ms": 122950.0,
+          "audio_end_ms": 122980.0,
+          "text": "suaves#2/2",
+          "duration_ms": 1390.0,
+          "hold_ms": 1360.0
+        },
+        {
+          "index": 226,
+          "chart_start_ms": 113550.0,
+          "candidate_start_ms": 113500.0,
+          "audio_onset_ms": 113500.0,
+          "candidate_end_ms": 114820.0,
+          "audio_end_ms": 114820.0,
+          "text": "caíris#1/2",
+          "duration_ms": 1320.0,
+          "hold_ms": 1290.0
+        },
+        {
+          "index": 433,
+          "chart_start_ms": 192380.0,
+          "candidate_start_ms": 192320.0,
+          "audio_onset_ms": 192320.0,
+          "candidate_end_ms": 193590.0,
+          "audio_end_ms": 193590.0,
+          "text": "flores#2/2",
+          "duration_ms": 1270.0,
+          "hold_ms": 1240.0
+        },
+        {
+          "index": 246,
+          "chart_start_ms": 125010.0,
+          "candidate_start_ms": 124910.0,
+          "audio_onset_ms": 124910.0,
+          "candidate_end_ms": 126170.0,
+          "audio_end_ms": 126170.0,
+          "text": "aire#2/2",
+          "duration_ms": 1260.0,
+          "hold_ms": 1230.0
+        }
+      ]
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "syllables": 647,
+      "sections": {
+        "start": {
+          "count": 161,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 78.0,
+          "new_max_abs_error_ms": 202.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 162,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 162,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 162,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 11780.0,
+          "candidate_start_ms": 11680.0,
+          "audio_onset_ms": 11680.0,
+          "candidate_end_ms": 11910.0,
+          "audio_end_ms": 11935.0,
+          "text": "no",
+          "duration_ms": 230.0,
+          "hold_ms": 200.0
+        },
+        {
+          "index": 323,
+          "chart_start_ms": 91970.0,
+          "candidate_start_ms": 91870.0,
+          "audio_onset_ms": 91870.0,
+          "candidate_end_ms": 92130.0,
+          "audio_end_ms": 92245.0,
+          "text": "llorar#1/2",
+          "duration_ms": 260.0,
+          "hold_ms": 230.0
+        },
+        {
+          "index": 646,
+          "chart_start_ms": 190040.0,
+          "candidate_start_ms": 190040.0,
+          "audio_onset_ms": 190040.0,
+          "candidate_end_ms": 190190.0,
+          "audio_end_ms": 190190.0,
+          "text": "no",
+          "duration_ms": 150.0,
+          "hold_ms": 0.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 158,
+          "chart_start_ms": 53670.0,
+          "candidate_start_ms": 53570.0,
+          "audio_onset_ms": 53570.0,
+          "candidate_end_ms": 55010.0,
+          "audio_end_ms": 55010.0,
+          "text": "ti",
+          "duration_ms": 1440.0,
+          "hold_ms": 1410.0
+        },
+        {
+          "index": 579,
+          "chart_start_ms": 162860.0,
+          "candidate_start_ms": 162860.0,
+          "audio_onset_ms": 162860.0,
+          "candidate_end_ms": 164290.0,
+          "audio_end_ms": 164290.0,
+          "text": "me",
+          "duration_ms": 1430.0,
+          "hold_ms": 1400.0
+        },
+        {
+          "index": 643,
+          "chart_start_ms": 186540.0,
+          "candidate_start_ms": 186440.0,
+          "audio_onset_ms": 186440.0,
+          "candidate_end_ms": 187390.0,
+          "audio_end_ms": 187390.0,
+          "text": "no",
+          "duration_ms": 950.0,
+          "hold_ms": 920.0
+        },
+        {
+          "index": 644,
+          "chart_start_ms": 188780.0,
+          "candidate_start_ms": 188760.0,
+          "audio_onset_ms": 188760.0,
+          "candidate_end_ms": 189710.0,
+          "audio_end_ms": 189745.0,
+          "text": "no",
+          "duration_ms": 950.0,
+          "hold_ms": 920.0
+        },
+        {
+          "index": 534,
+          "chart_start_ms": 149250.0,
+          "candidate_start_ms": 149150.0,
+          "audio_onset_ms": 149150.0,
+          "candidate_end_ms": 149950.0,
+          "audio_end_ms": 150065.0,
+          "text": "cuando#2/2",
+          "duration_ms": 800.0,
+          "hold_ms": 770.0
+        },
+        {
+          "index": 24,
+          "chart_start_ms": 18100.0,
+          "candidate_start_ms": 18000.0,
+          "audio_onset_ms": 18000.0,
+          "candidate_end_ms": 18780.0,
+          "audio_end_ms": 18845.0,
+          "text": "duele#2/2",
+          "duration_ms": 780.0,
+          "hold_ms": 750.0
+        },
+        {
+          "index": 335,
+          "chart_start_ms": 94940.0,
+          "candidate_start_ms": 94840.0,
+          "audio_onset_ms": 94840.0,
+          "candidate_end_ms": 95620.0,
+          "audio_end_ms": 95620.0,
+          "text": "terminar#3/3",
+          "duration_ms": 780.0,
+          "hold_ms": 750.0
+        },
+        {
+          "index": 603,
+          "chart_start_ms": 174150.0,
+          "candidate_start_ms": 174050.0,
+          "audio_onset_ms": 174050.0,
+          "candidate_end_ms": 174810.0,
+          "audio_end_ms": 174865.0,
+          "text": "mi",
+          "duration_ms": 760.0,
+          "hold_ms": 730.0
+        },
+        {
+          "index": 107,
+          "chart_start_ms": 36300.0,
+          "candidate_start_ms": 36200.0,
+          "audio_onset_ms": 36200.0,
+          "candidate_end_ms": 36940.0,
+          "audio_end_ms": 36940.0,
+          "text": "cuando#2/2",
+          "duration_ms": 740.0,
+          "hold_ms": 710.0
+        },
+        {
+          "index": 262,
+          "chart_start_ms": 78470.0,
+          "candidate_start_ms": 78370.0,
+          "audio_onset_ms": 78370.0,
+          "candidate_end_ms": 79110.0,
+          "audio_end_ms": 79175.0,
+          "text": "cometí#3/3",
+          "duration_ms": 740.0,
+          "hold_ms": 710.0
+        }
+      ]
+    },
+    {
+      "song": "dano",
+      "syllables": 734,
+      "sections": {
+        "start": {
+          "count": 183,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 8.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 184,
+          "old_median_error_ms": 80.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 136.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 183,
+          "old_median_error_ms": 90.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 8.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 184,
+          "old_median_error_ms": 70.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 18.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 10770.0,
+          "candidate_start_ms": 10670.0,
+          "audio_onset_ms": 10670.0,
+          "candidate_end_ms": 10810.0,
+          "audio_end_ms": 10875.0,
+          "text": "no",
+          "duration_ms": 140.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 367,
+          "chart_start_ms": 100060.0,
+          "candidate_start_ms": 100040.0,
+          "audio_onset_ms": 100040.0,
+          "candidate_end_ms": 100150.0,
+          "audio_end_ms": 100265.0,
+          "text": "hacerme#1/3",
+          "duration_ms": 110.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 733,
+          "chart_start_ms": 171780.0,
+          "candidate_start_ms": 171680.0,
+          "audio_onset_ms": 171680.0,
+          "candidate_end_ms": 172350.0,
+          "audio_end_ms": 172350.0,
+          "text": "más",
+          "duration_ms": 670.0,
+          "hold_ms": 640.0
+        }
+      ],
+      "old_global_median_error_ms": 90.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 114,
+          "chart_start_ms": 40090.0,
+          "candidate_start_ms": 40090.0,
+          "audio_onset_ms": 40090.0,
+          "candidate_end_ms": 40920.0,
+          "audio_end_ms": 41035.0,
+          "text": "más",
+          "duration_ms": 830.0,
+          "hold_ms": 800.0
+        },
+        {
+          "index": 56,
+          "chart_start_ms": 22625.0,
+          "candidate_start_ms": 22530.0,
+          "audio_onset_ms": 22530.0,
+          "candidate_end_ms": 23310.0,
+          "audio_end_ms": 23350.0,
+          "text": "falta#2/2",
+          "duration_ms": 780.0,
+          "hold_ms": 750.0
+        },
+        {
+          "index": 641,
+          "chart_start_ms": 151360.0,
+          "candidate_start_ms": 151260.0,
+          "audio_onset_ms": 151260.0,
+          "candidate_end_ms": 152040.0,
+          "audio_end_ms": 152120.0,
+          "text": "feliz#2/2",
+          "duration_ms": 780.0,
+          "hold_ms": 750.0
+        },
+        {
+          "index": 184,
+          "chart_start_ms": 55580.0,
+          "candidate_start_ms": 55480.0,
+          "audio_onset_ms": 55480.0,
+          "candidate_end_ms": 56210.0,
+          "audio_end_ms": 56225.0,
+          "text": "pasa#2/2",
+          "duration_ms": 730.0,
+          "hold_ms": 700.0
+        },
+        {
+          "index": 698,
+          "chart_start_ms": 164240.0,
+          "candidate_start_ms": 164160.0,
+          "audio_onset_ms": 164160.0,
+          "candidate_end_ms": 164890.0,
+          "audio_end_ms": 164905.0,
+          "text": "y",
+          "duration_ms": 730.0,
+          "hold_ms": 700.0
+        },
+        {
+          "index": 102,
+          "chart_start_ms": 35290.0,
+          "candidate_start_ms": 35190.0,
+          "audio_onset_ms": 35190.0,
+          "candidate_end_ms": 35900.0,
+          "audio_end_ms": 35900.0,
+          "text": "más",
+          "duration_ms": 710.0,
+          "hold_ms": 680.0
+        },
+        {
+          "index": 108,
+          "chart_start_ms": 37750.0,
+          "candidate_start_ms": 37720.0,
+          "audio_onset_ms": 37720.0,
+          "candidate_end_ms": 38430.0,
+          "audio_end_ms": 38430.0,
+          "text": "más",
+          "duration_ms": 710.0,
+          "hold_ms": 680.0
+        },
+        {
+          "index": 67,
+          "chart_start_ms": 25280.0,
+          "candidate_start_ms": 25180.0,
+          "audio_onset_ms": 25180.0,
+          "candidate_end_ms": 25870.0,
+          "audio_end_ms": 25905.0,
+          "text": "pasa#2/2",
+          "duration_ms": 690.0,
+          "hold_ms": 660.0
+        },
+        {
+          "index": 96,
+          "chart_start_ms": 32810.0,
+          "candidate_start_ms": 32710.0,
+          "audio_onset_ms": 32710.0,
+          "candidate_end_ms": 33400.0,
+          "audio_end_ms": 33400.0,
+          "text": "más",
+          "duration_ms": 690.0,
+          "hold_ms": 660.0
+        },
+        {
+          "index": 383,
+          "chart_start_ms": 103570.0,
+          "candidate_start_ms": 103470.0,
+          "audio_onset_ms": 103470.0,
+          "candidate_end_ms": 104150.0,
+          "audio_end_ms": 104195.0,
+          "text": "falta#2/2",
+          "duration_ms": 680.0,
+          "hold_ms": 650.0
+        }
+      ]
+    },
+    {
+      "song": "dias-magicos",
+      "syllables": 461,
+      "sections": {
+        "start": {
+          "count": 115,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 115,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 115,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 116,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 30030.0,
+          "candidate_start_ms": 30000.0,
+          "audio_onset_ms": 30000.0,
+          "candidate_end_ms": 30340.0,
+          "audio_end_ms": 30455.0,
+          "text": "que",
+          "duration_ms": 340.0,
+          "hold_ms": 310.0
+        },
+        {
+          "index": 230,
+          "chart_start_ms": 130480.0,
+          "candidate_start_ms": 130380.0,
+          "audio_onset_ms": 130380.0,
+          "candidate_end_ms": 130470.0,
+          "audio_end_ms": 130575.0,
+          "text": "así#1/2",
+          "duration_ms": 90.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 460,
+          "chart_start_ms": 223000.0,
+          "candidate_start_ms": 222900.0,
+          "audio_onset_ms": 222900.0,
+          "candidate_end_ms": 223345.0,
+          "audio_end_ms": 223345.0,
+          "text": "corazón#3/3",
+          "duration_ms": 445.0,
+          "hold_ms": 415.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 422,
+          "chart_start_ms": 196580.0,
+          "candidate_start_ms": 196480.0,
+          "audio_onset_ms": 196480.0,
+          "candidate_end_ms": 197980.0,
+          "audio_end_ms": 197980.0,
+          "text": "vayas#2/2",
+          "duration_ms": 1500.0,
+          "hold_ms": 1470.0
+        },
+        {
+          "index": 362,
+          "chart_start_ms": 175200.0,
+          "candidate_start_ms": 175160.0,
+          "audio_onset_ms": 175160.0,
+          "candidate_end_ms": 176570.0,
+          "audio_end_ms": 176570.0,
+          "text": "más",
+          "duration_ms": 1410.0,
+          "hold_ms": 1380.0
+        },
+        {
+          "index": 414,
+          "chart_start_ms": 192020.0,
+          "candidate_start_ms": 192000.0,
+          "audio_onset_ms": 192000.0,
+          "candidate_end_ms": 193310.0,
+          "audio_end_ms": 193355.0,
+          "text": "en",
+          "duration_ms": 1310.0,
+          "hold_ms": 1280.0
+        },
+        {
+          "index": 44,
+          "chart_start_ms": 46500.0,
+          "candidate_start_ms": 46400.0,
+          "audio_onset_ms": 46400.0,
+          "candidate_end_ms": 47660.0,
+          "audio_end_ms": 47660.0,
+          "text": "carcajadas#4/4",
+          "duration_ms": 1260.0,
+          "hold_ms": 1230.0
+        },
+        {
+          "index": 226,
+          "chart_start_ms": 128170.0,
+          "candidate_start_ms": 128070.0,
+          "audio_onset_ms": 128070.0,
+          "candidate_end_ms": 129230.0,
+          "audio_end_ms": 129230.0,
+          "text": "cariño#3/3",
+          "duration_ms": 1160.0,
+          "hold_ms": 1130.0
+        },
+        {
+          "index": 169,
+          "chart_start_ms": 105900.0,
+          "candidate_start_ms": 105800.0,
+          "audio_onset_ms": 105800.0,
+          "candidate_end_ms": 106910.0,
+          "audio_end_ms": 107025.0,
+          "text": "inmalentendidos#3/6",
+          "duration_ms": 1110.0,
+          "hold_ms": 1080.0
+        },
+        {
+          "index": 391,
+          "chart_start_ms": 185130.0,
+          "candidate_start_ms": 185030.0,
+          "audio_onset_ms": 185030.0,
+          "candidate_end_ms": 186070.0,
+          "audio_end_ms": 186070.0,
+          "text": "acaba#3/3",
+          "duration_ms": 1040.0,
+          "hold_ms": 1010.0
+        },
+        {
+          "index": 419,
+          "chart_start_ms": 194500.0,
+          "candidate_start_ms": 194460.0,
+          "audio_onset_ms": 194460.0,
+          "candidate_end_ms": 195440.0,
+          "audio_end_ms": 195555.0,
+          "text": "fuimos#1/2",
+          "duration_ms": 980.0,
+          "hold_ms": 950.0
+        },
+        {
+          "index": 101,
+          "chart_start_ms": 64790.0,
+          "candidate_start_ms": 64710.0,
+          "audio_onset_ms": 64710.0,
+          "candidate_end_ms": 65590.0,
+          "audio_end_ms": 65590.0,
+          "text": "pasamos#3/3",
+          "duration_ms": 880.0,
+          "hold_ms": 850.0
+        },
+        {
+          "index": 218,
+          "chart_start_ms": 124400.0,
+          "candidate_start_ms": 124400.0,
+          "audio_onset_ms": 124400.0,
+          "candidate_end_ms": 125220.0,
+          "audio_end_ms": 125285.0,
+          "text": "y",
+          "duration_ms": 820.0,
+          "hold_ms": 790.0
+        }
+      ]
+    },
+    {
+      "song": "eclipsis",
+      "syllables": 612,
+      "sections": {
+        "start": {
+          "count": 153,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 153,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 153,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 153,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 1270.0,
+          "candidate_start_ms": 1300.0,
+          "audio_onset_ms": 1300.0,
+          "candidate_end_ms": 2260.0,
+          "audio_end_ms": 2375.0,
+          "text": "todas#1/2",
+          "duration_ms": 960.0,
+          "hold_ms": 930.0
+        },
+        {
+          "index": 306,
+          "chart_start_ms": 133530.0,
+          "candidate_start_ms": 133520.0,
+          "audio_onset_ms": 133520.0,
+          "candidate_end_ms": 133800.0,
+          "audio_end_ms": 133915.0,
+          "text": "eclipse#1/3",
+          "duration_ms": 280.0,
+          "hold_ms": 250.0
+        },
+        {
+          "index": 611,
+          "chart_start_ms": 229920.0,
+          "candidate_start_ms": 229820.0,
+          "audio_onset_ms": 229820.0,
+          "candidate_end_ms": 230265.0,
+          "audio_end_ms": 230265.0,
+          "text": "final#2/2",
+          "duration_ms": 445.0,
+          "hold_ms": 415.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 10,
+          "chart_start_ms": 5710.0,
+          "candidate_start_ms": 5700.0,
+          "audio_onset_ms": 5700.0,
+          "candidate_end_ms": 7090.0,
+          "audio_end_ms": 7090.0,
+          "text": "final#2/2",
+          "duration_ms": 1390.0,
+          "hold_ms": 1360.0
+        },
+        {
+          "index": 21,
+          "chart_start_ms": 12460.0,
+          "candidate_start_ms": 12360.0,
+          "audio_onset_ms": 12360.0,
+          "candidate_end_ms": 13740.0,
+          "audio_end_ms": 13740.0,
+          "text": "eternidad#4/4",
+          "duration_ms": 1380.0,
+          "hold_ms": 1350.0
+        },
+        {
+          "index": 65,
+          "chart_start_ms": 33070.0,
+          "candidate_start_ms": 32970.0,
+          "audio_onset_ms": 32970.0,
+          "candidate_end_ms": 34190.0,
+          "audio_end_ms": 34305.0,
+          "text": "y",
+          "duration_ms": 1220.0,
+          "hold_ms": 1190.0
+        },
+        {
+          "index": 499,
+          "chart_start_ms": 184690.0,
+          "candidate_start_ms": 184590.0,
+          "audio_onset_ms": 184590.0,
+          "candidate_end_ms": 185810.0,
+          "audio_end_ms": 185925.0,
+          "text": "y",
+          "duration_ms": 1220.0,
+          "hold_ms": 1190.0
+        },
+        {
+          "index": 538,
+          "chart_start_ms": 200510.0,
+          "candidate_start_ms": 200410.0,
+          "audio_onset_ms": 200410.0,
+          "candidate_end_ms": 201620.0,
+          "audio_end_ms": 201620.0,
+          "text": "amarás#3/3",
+          "duration_ms": 1210.0,
+          "hold_ms": 1180.0
+        },
+        {
+          "index": 159,
+          "chart_start_ms": 70770.0,
+          "candidate_start_ms": 70670.0,
+          "audio_onset_ms": 70670.0,
+          "candidate_end_ms": 71830.0,
+          "audio_end_ms": 71865.0,
+          "text": "hasta#1/2",
+          "duration_ms": 1160.0,
+          "hold_ms": 1130.0
+        },
+        {
+          "index": 599,
+          "chart_start_ms": 223370.0,
+          "candidate_start_ms": 223270.0,
+          "audio_onset_ms": 223270.0,
+          "candidate_end_ms": 224410.0,
+          "audio_end_ms": 224410.0,
+          "text": "amaré#3/3",
+          "duration_ms": 1140.0,
+          "hold_ms": 1110.0
+        },
+        {
+          "index": 524,
+          "chart_start_ms": 194370.0,
+          "candidate_start_ms": 194270.0,
+          "audio_onset_ms": 194270.0,
+          "candidate_end_ms": 195380.0,
+          "audio_end_ms": 195380.0,
+          "text": "separar#3/3",
+          "duration_ms": 1110.0,
+          "hold_ms": 1080.0
+        },
+        {
+          "index": 559,
+          "chart_start_ms": 207580.0,
+          "candidate_start_ms": 207560.0,
+          "audio_onset_ms": 207560.0,
+          "candidate_end_ms": 208670.0,
+          "audio_end_ms": 208785.0,
+          "text": "que",
+          "duration_ms": 1110.0,
+          "hold_ms": 1080.0
+        },
+        {
+          "index": 163,
+          "chart_start_ms": 73520.0,
+          "candidate_start_ms": 73420.0,
+          "audio_onset_ms": 73420.0,
+          "candidate_end_ms": 74470.0,
+          "audio_end_ms": 74470.0,
+          "text": "final#2/2",
+          "duration_ms": 1050.0,
+          "hold_ms": 1020.0
+        }
+      ]
+    },
+    {
+      "song": "fango",
+      "syllables": 631,
+      "sections": {
+        "start": {
+          "count": 157,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 8.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 158,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 158,
+          "old_median_error_ms": 60.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 8.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 158,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 8.0,
+          "new_max_abs_error_ms": 52.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 2020.0,
+          "candidate_start_ms": 1970.0,
+          "audio_onset_ms": 1970.0,
+          "candidate_end_ms": 2070.0,
+          "audio_end_ms": 2105.0,
+          "text": "ya",
+          "duration_ms": 100.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 315,
+          "chart_start_ms": 118880.0,
+          "candidate_start_ms": 118820.0,
+          "audio_onset_ms": 118820.0,
+          "candidate_end_ms": 119220.0,
+          "audio_end_ms": 119335.0,
+          "text": "rescomen#1/3",
+          "duration_ms": 400.0,
+          "hold_ms": 370.0
+        },
+        {
+          "index": 630,
+          "chart_start_ms": 205490.0,
+          "candidate_start_ms": 205390.0,
+          "audio_onset_ms": 205390.0,
+          "candidate_end_ms": 206320.0,
+          "audio_end_ms": 206320.0,
+          "text": "vez",
+          "duration_ms": 930.0,
+          "hold_ms": 900.0
+        }
+      ],
+      "old_global_median_error_ms": 90.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 236,
+          "chart_start_ms": 93380.0,
+          "candidate_start_ms": 93380.0,
+          "audio_onset_ms": 93380.0,
+          "candidate_end_ms": 94610.0,
+          "audio_end_ms": 94665.0,
+          "text": "cotas#1/2",
+          "duration_ms": 1230.0,
+          "hold_ms": 1200.0
+        },
+        {
+          "index": 176,
+          "chart_start_ms": 52410.0,
+          "candidate_start_ms": 52380.0,
+          "audio_onset_ms": 52380.0,
+          "candidate_end_ms": 53460.0,
+          "audio_end_ms": 53460.0,
+          "text": "mi",
+          "duration_ms": 1080.0,
+          "hold_ms": 1050.0
+        },
+        {
+          "index": 54,
+          "chart_start_ms": 14840.0,
+          "candidate_start_ms": 14740.0,
+          "audio_onset_ms": 14740.0,
+          "candidate_end_ms": 15760.0,
+          "audio_end_ms": 15760.0,
+          "text": "mí",
+          "duration_ms": 1020.0,
+          "hold_ms": 990.0
+        },
+        {
+          "index": 505,
+          "chart_start_ms": 173540.0,
+          "candidate_start_ms": 173440.0,
+          "audio_onset_ms": 173440.0,
+          "candidate_end_ms": 174400.0,
+          "audio_end_ms": 174515.0,
+          "text": "morir#2/2",
+          "duration_ms": 960.0,
+          "hold_ms": 930.0
+        },
+        {
+          "index": 347,
+          "chart_start_ms": 126980.0,
+          "candidate_start_ms": 126880.0,
+          "audio_onset_ms": 126880.0,
+          "candidate_end_ms": 127820.0,
+          "audio_end_ms": 127820.0,
+          "text": "mí",
+          "duration_ms": 940.0,
+          "hold_ms": 910.0
+        },
+        {
+          "index": 630,
+          "chart_start_ms": 205490.0,
+          "candidate_start_ms": 205390.0,
+          "audio_onset_ms": 205390.0,
+          "candidate_end_ms": 206320.0,
+          "audio_end_ms": 206320.0,
+          "text": "vez",
+          "duration_ms": 930.0,
+          "hold_ms": 900.0
+        },
+        {
+          "index": 31,
+          "chart_start_ms": 9360.0,
+          "candidate_start_ms": 9260.0,
+          "audio_onset_ms": 9260.0,
+          "candidate_end_ms": 10170.0,
+          "audio_end_ms": 10260.0,
+          "text": "se",
+          "duration_ms": 910.0,
+          "hold_ms": 880.0
+        },
+        {
+          "index": 523,
+          "chart_start_ms": 178580.0,
+          "candidate_start_ms": 178580.0,
+          "audio_onset_ms": 178580.0,
+          "candidate_end_ms": 179470.0,
+          "audio_end_ms": 179585.0,
+          "text": "mí",
+          "duration_ms": 890.0,
+          "hold_ms": 860.0
+        },
+        {
+          "index": 205,
+          "chart_start_ms": 80420.0,
+          "candidate_start_ms": 80390.0,
+          "audio_onset_ms": 80390.0,
+          "candidate_end_ms": 81270.0,
+          "audio_end_ms": 81270.0,
+          "text": "desierto#3/3",
+          "duration_ms": 880.0,
+          "hold_ms": 850.0
+        },
+        {
+          "index": 186,
+          "chart_start_ms": 74340.0,
+          "candidate_start_ms": 74290.0,
+          "audio_onset_ms": 74290.0,
+          "candidate_end_ms": 75150.0,
+          "audio_end_ms": 75150.0,
+          "text": "camaleón#3/3",
+          "duration_ms": 860.0,
+          "hold_ms": 830.0
+        }
+      ]
+    },
+    {
+      "song": "luma",
+      "syllables": 481,
+      "sections": {
+        "start": {
+          "count": 120,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 120,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 120,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 8.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 121,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 14620.0,
+          "candidate_start_ms": 14520.0,
+          "audio_onset_ms": 14520.0,
+          "candidate_end_ms": 14610.0,
+          "audio_end_ms": 14715.0,
+          "text": "novedad#1/3",
+          "duration_ms": 90.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 240,
+          "chart_start_ms": 122180.0,
+          "candidate_start_ms": 122080.0,
+          "audio_onset_ms": 122080.0,
+          "candidate_end_ms": 122550.0,
+          "audio_end_ms": 122665.0,
+          "text": "luna#2/2",
+          "duration_ms": 470.0,
+          "hold_ms": 440.0
+        },
+        {
+          "index": 480,
+          "chart_start_ms": 237330.0,
+          "candidate_start_ms": 237400.0,
+          "audio_onset_ms": 237400.0,
+          "candidate_end_ms": 237550.0,
+          "audio_end_ms": 237550.0,
+          "text": "suscríbete#4/4",
+          "duration_ms": 150.0,
+          "hold_ms": 0.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 26,
+          "chart_start_ms": 25980.0,
+          "candidate_start_ms": 25940.0,
+          "audio_onset_ms": 25940.0,
+          "candidate_end_ms": 27500.0,
+          "audio_end_ms": 27615.0,
+          "text": "cuarto#1/2",
+          "duration_ms": 1560.0,
+          "hold_ms": 1530.0
+        },
+        {
+          "index": 447,
+          "chart_start_ms": 186140.0,
+          "candidate_start_ms": 186040.0,
+          "audio_onset_ms": 186040.0,
+          "candidate_end_ms": 187560.0,
+          "audio_end_ms": 187560.0,
+          "text": "vez",
+          "duration_ms": 1520.0,
+          "hold_ms": 1490.0
+        },
+        {
+          "index": 262,
+          "chart_start_ms": 131870.0,
+          "candidate_start_ms": 131770.0,
+          "audio_onset_ms": 131770.0,
+          "candidate_end_ms": 133240.0,
+          "audio_end_ms": 133240.0,
+          "text": "vez",
+          "duration_ms": 1470.0,
+          "hold_ms": 1440.0
+        },
+        {
+          "index": 215,
+          "chart_start_ms": 108900.0,
+          "candidate_start_ms": 108840.0,
+          "audio_onset_ms": 108840.0,
+          "candidate_end_ms": 110250.0,
+          "audio_end_ms": 110365.0,
+          "text": "que",
+          "duration_ms": 1410.0,
+          "hold_ms": 1380.0
+        },
+        {
+          "index": 188,
+          "chart_start_ms": 94500.0,
+          "candidate_start_ms": 94440.0,
+          "audio_onset_ms": 94440.0,
+          "candidate_end_ms": 95760.0,
+          "audio_end_ms": 95760.0,
+          "text": "bien",
+          "duration_ms": 1320.0,
+          "hold_ms": 1290.0
+        },
+        {
+          "index": 194,
+          "chart_start_ms": 98870.0,
+          "candidate_start_ms": 98770.0,
+          "audio_onset_ms": 98770.0,
+          "candidate_end_ms": 99960.0,
+          "audio_end_ms": 99960.0,
+          "text": "soñaré#3/3",
+          "duration_ms": 1190.0,
+          "hold_ms": 1160.0
+        },
+        {
+          "index": 75,
+          "chart_start_ms": 51540.0,
+          "candidate_start_ms": 51440.0,
+          "audio_onset_ms": 51440.0,
+          "candidate_end_ms": 52480.0,
+          "audio_end_ms": 52480.0,
+          "text": "vez",
+          "duration_ms": 1040.0,
+          "hold_ms": 1010.0
+        },
+        {
+          "index": 35,
+          "chart_start_ms": 32250.0,
+          "candidate_start_ms": 32150.0,
+          "audio_onset_ms": 32150.0,
+          "candidate_end_ms": 33160.0,
+          "audio_end_ms": 33160.0,
+          "text": "corazón#3/3",
+          "duration_ms": 1010.0,
+          "hold_ms": 980.0
+        },
+        {
+          "index": 104,
+          "chart_start_ms": 64070.0,
+          "candidate_start_ms": 63970.0,
+          "audio_onset_ms": 63970.0,
+          "candidate_end_ms": 64860.0,
+          "audio_end_ms": 64860.0,
+          "text": "amé#2/2",
+          "duration_ms": 890.0,
+          "hold_ms": 860.0
+        },
+        {
+          "index": 238,
+          "chart_start_ms": 121020.0,
+          "candidate_start_ms": 120920.0,
+          "audio_onset_ms": 120920.0,
+          "candidate_end_ms": 121810.0,
+          "audio_end_ms": 121925.0,
+          "text": "luna#2/2",
+          "duration_ms": 890.0,
+          "hold_ms": 860.0
+        }
+      ]
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "syllables": 588,
+      "sections": {
+        "start": {
+          "count": 147,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 147,
+          "old_median_error_ms": 90.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 8.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 147,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 147,
+          "old_median_error_ms": 60.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 28.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 720.0,
+          "candidate_start_ms": 620.0,
+          "audio_onset_ms": 620.0,
+          "candidate_end_ms": 880.0,
+          "audio_end_ms": 995.0,
+          "text": "hoy",
+          "duration_ms": 260.0,
+          "hold_ms": 230.0
+        },
+        {
+          "index": 294,
+          "chart_start_ms": 109750.0,
+          "candidate_start_ms": 109650.0,
+          "audio_onset_ms": 109650.0,
+          "candidate_end_ms": 110880.0,
+          "audio_end_ms": 110880.0,
+          "text": "destino#3/3",
+          "duration_ms": 1230.0,
+          "hold_ms": 1200.0
+        },
+        {
+          "index": 587,
+          "chart_start_ms": 227790.0,
+          "candidate_start_ms": 227780.0,
+          "audio_onset_ms": 227780.0,
+          "candidate_end_ms": 228260.0,
+          "audio_end_ms": 228260.0,
+          "text": "suscríbete#4/4",
+          "duration_ms": 480.0,
+          "hold_ms": 450.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 416,
+          "chart_start_ms": 155320.0,
+          "candidate_start_ms": 155220.0,
+          "audio_onset_ms": 155220.0,
+          "candidate_end_ms": 157020.0,
+          "audio_end_ms": 157120.0,
+          "text": "no",
+          "duration_ms": 1800.0,
+          "hold_ms": 1770.0
+        },
+        {
+          "index": 457,
+          "chart_start_ms": 175900.0,
+          "candidate_start_ms": 175820.0,
+          "audio_onset_ms": 175820.0,
+          "candidate_end_ms": 177400.0,
+          "audio_end_ms": 177420.0,
+          "text": "que",
+          "duration_ms": 1580.0,
+          "hold_ms": 1550.0
+        },
+        {
+          "index": 367,
+          "chart_start_ms": 136360.0,
+          "candidate_start_ms": 136260.0,
+          "audio_onset_ms": 136260.0,
+          "candidate_end_ms": 137690.0,
+          "audio_end_ms": 137805.0,
+          "text": "y",
+          "duration_ms": 1430.0,
+          "hold_ms": 1400.0
+        },
+        {
+          "index": 475,
+          "chart_start_ms": 184160.0,
+          "candidate_start_ms": 184060.0,
+          "audio_onset_ms": 184060.0,
+          "candidate_end_ms": 185490.0,
+          "audio_end_ms": 185490.0,
+          "text": "sé",
+          "duration_ms": 1430.0,
+          "hold_ms": 1400.0
+        },
+        {
+          "index": 82,
+          "chart_start_ms": 34490.0,
+          "candidate_start_ms": 34410.0,
+          "audio_onset_ms": 34410.0,
+          "candidate_end_ms": 35770.0,
+          "audio_end_ms": 35770.0,
+          "text": "cubija#3/3",
+          "duration_ms": 1360.0,
+          "hold_ms": 1330.0
+        },
+        {
+          "index": 358,
+          "chart_start_ms": 132550.0,
+          "candidate_start_ms": 132450.0,
+          "audio_onset_ms": 132450.0,
+          "candidate_end_ms": 133760.0,
+          "audio_end_ms": 133760.0,
+          "text": "cobija#3/3",
+          "duration_ms": 1310.0,
+          "hold_ms": 1280.0
+        },
+        {
+          "index": 140,
+          "chart_start_ms": 56380.0,
+          "candidate_start_ms": 56280.0,
+          "audio_onset_ms": 56280.0,
+          "candidate_end_ms": 57560.0,
+          "audio_end_ms": 57560.0,
+          "text": "día",
+          "duration_ms": 1280.0,
+          "hold_ms": 1250.0
+        },
+        {
+          "index": 486,
+          "chart_start_ms": 190140.0,
+          "candidate_start_ms": 190140.0,
+          "audio_onset_ms": 190140.0,
+          "candidate_end_ms": 191420.0,
+          "audio_end_ms": 191420.0,
+          "text": "que",
+          "duration_ms": 1280.0,
+          "hold_ms": 1250.0
+        },
+        {
+          "index": 348,
+          "chart_start_ms": 129280.0,
+          "candidate_start_ms": 129180.0,
+          "audio_onset_ms": 129180.0,
+          "candidate_end_ms": 130440.0,
+          "audio_end_ms": 130500.0,
+          "text": "películas#4/4",
+          "duration_ms": 1260.0,
+          "hold_ms": 1230.0
+        },
+        {
+          "index": 294,
+          "chart_start_ms": 109750.0,
+          "candidate_start_ms": 109650.0,
+          "audio_onset_ms": 109650.0,
+          "candidate_end_ms": 110880.0,
+          "audio_end_ms": 110880.0,
+          "text": "destino#3/3",
+          "duration_ms": 1230.0,
+          "hold_ms": 1200.0
+        }
+      ]
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "syllables": 289,
+      "sections": {
+        "start": {
+          "count": 72,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 72,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 72,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 73,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 4050.0,
+          "candidate_start_ms": 3950.0,
+          "audio_onset_ms": 3950.0,
+          "candidate_end_ms": 4700.0,
+          "audio_end_ms": 4810.0,
+          "text": "me",
+          "duration_ms": 750.0,
+          "hold_ms": 720.0
+        },
+        {
+          "index": 144,
+          "chart_start_ms": 79550.0,
+          "candidate_start_ms": 79450.0,
+          "audio_onset_ms": 79450.0,
+          "candidate_end_ms": 79930.0,
+          "audio_end_ms": 80045.0,
+          "text": "es",
+          "duration_ms": 480.0,
+          "hold_ms": 450.0
+        },
+        {
+          "index": 288,
+          "chart_start_ms": 182300.0,
+          "candidate_start_ms": 182200.0,
+          "audio_onset_ms": 182200.0,
+          "candidate_end_ms": 183000.0,
+          "audio_end_ms": 183000.0,
+          "text": "más",
+          "duration_ms": 800.0,
+          "hold_ms": 770.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 178,
+          "chart_start_ms": 92740.0,
+          "candidate_start_ms": 92740.0,
+          "audio_onset_ms": 92740.0,
+          "candidate_end_ms": 94270.0,
+          "audio_end_ms": 94270.0,
+          "text": "más",
+          "duration_ms": 1530.0,
+          "hold_ms": 1500.0
+        },
+        {
+          "index": 237,
+          "chart_start_ms": 159870.0,
+          "candidate_start_ms": 159770.0,
+          "audio_onset_ms": 159770.0,
+          "candidate_end_ms": 161290.0,
+          "audio_end_ms": 161290.0,
+          "text": "tal",
+          "duration_ms": 1520.0,
+          "hold_ms": 1490.0
+        },
+        {
+          "index": 110,
+          "chart_start_ms": 60990.0,
+          "candidate_start_ms": 60890.0,
+          "audio_onset_ms": 60890.0,
+          "candidate_end_ms": 62300.0,
+          "audio_end_ms": 62300.0,
+          "text": "ser",
+          "duration_ms": 1410.0,
+          "hold_ms": 1380.0
+        },
+        {
+          "index": 67,
+          "chart_start_ms": 32430.0,
+          "candidate_start_ms": 32330.0,
+          "audio_onset_ms": 32330.0,
+          "candidate_end_ms": 33610.0,
+          "audio_end_ms": 33610.0,
+          "text": "más",
+          "duration_ms": 1280.0,
+          "hold_ms": 1250.0
+        },
+        {
+          "index": 87,
+          "chart_start_ms": 46790.0,
+          "candidate_start_ms": 46690.0,
+          "audio_onset_ms": 46690.0,
+          "candidate_end_ms": 47800.0,
+          "audio_end_ms": 47800.0,
+          "text": "bien",
+          "duration_ms": 1110.0,
+          "hold_ms": 1080.0
+        },
+        {
+          "index": 221,
+          "chart_start_ms": 150070.0,
+          "candidate_start_ms": 149970.0,
+          "audio_onset_ms": 149970.0,
+          "candidate_end_ms": 151080.0,
+          "audio_end_ms": 151080.0,
+          "text": "sol",
+          "duration_ms": 1110.0,
+          "hold_ms": 1080.0
+        },
+        {
+          "index": 184,
+          "chart_start_ms": 127030.0,
+          "candidate_start_ms": 126930.0,
+          "audio_onset_ms": 126930.0,
+          "candidate_end_ms": 127990.0,
+          "audio_end_ms": 128105.0,
+          "text": "cuando#2/2",
+          "duration_ms": 1060.0,
+          "hold_ms": 1030.0
+        },
+        {
+          "index": 77,
+          "chart_start_ms": 40590.0,
+          "candidate_start_ms": 40490.0,
+          "audio_onset_ms": 40490.0,
+          "candidate_end_ms": 41510.0,
+          "audio_end_ms": 41510.0,
+          "text": "enteré#3/3",
+          "duration_ms": 1020.0,
+          "hold_ms": 990.0
+        },
+        {
+          "index": 271,
+          "chart_start_ms": 174890.0,
+          "candidate_start_ms": 174790.0,
+          "audio_onset_ms": 174790.0,
+          "candidate_end_ms": 175790.0,
+          "audio_end_ms": 175840.0,
+          "text": "enfermedad#4/4",
+          "duration_ms": 1000.0,
+          "hold_ms": 970.0
+        },
+        {
+          "index": 186,
+          "chart_start_ms": 128700.0,
+          "candidate_start_ms": 128600.0,
+          "audio_onset_ms": 128600.0,
+          "candidate_end_ms": 129570.0,
+          "audio_end_ms": 129685.0,
+          "text": "comenzó#2/3",
+          "duration_ms": 970.0,
+          "hold_ms": 940.0
+        }
+      ]
+    },
+    {
+      "song": "meteora",
+      "syllables": 584,
+      "sections": {
+        "start": {
+          "count": 146,
+          "old_median_error_ms": 90.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 146,
+          "old_median_error_ms": 70.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 146,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 146,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 250.0,
+          "candidate_start_ms": 220.0,
+          "audio_onset_ms": 220.0,
+          "candidate_end_ms": 420.0,
+          "audio_end_ms": 465.0,
+          "text": "estás#1/2",
+          "duration_ms": 200.0,
+          "hold_ms": 170.0
+        },
+        {
+          "index": 292,
+          "chart_start_ms": 81670.0,
+          "candidate_start_ms": 81570.0,
+          "audio_onset_ms": 81570.0,
+          "candidate_end_ms": 81880.0,
+          "audio_end_ms": 81995.0,
+          "text": "elegido#3/4",
+          "duration_ms": 310.0,
+          "hold_ms": 280.0
+        },
+        {
+          "index": 583,
+          "chart_start_ms": 175690.0,
+          "candidate_start_ms": 175590.0,
+          "audio_onset_ms": 175590.0,
+          "candidate_end_ms": 176180.0,
+          "audio_end_ms": 176180.0,
+          "text": "uh",
+          "duration_ms": 590.0,
+          "hold_ms": 560.0
+        }
+      ],
+      "old_global_median_error_ms": 90.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 352,
+          "chart_start_ms": 106840.0,
+          "candidate_start_ms": 106820.0,
+          "audio_onset_ms": 106820.0,
+          "candidate_end_ms": 108420.0,
+          "audio_end_ms": 108420.0,
+          "text": "despidas#3/3",
+          "duration_ms": 1600.0,
+          "hold_ms": 1570.0
+        },
+        {
+          "index": 169,
+          "chart_start_ms": 52180.0,
+          "candidate_start_ms": 52080.0,
+          "audio_onset_ms": 52080.0,
+          "candidate_end_ms": 53430.0,
+          "audio_end_ms": 53430.0,
+          "text": "tenido#3/3",
+          "duration_ms": 1350.0,
+          "hold_ms": 1320.0
+        },
+        {
+          "index": 359,
+          "chart_start_ms": 110600.0,
+          "candidate_start_ms": 110540.0,
+          "audio_onset_ms": 110540.0,
+          "candidate_end_ms": 111850.0,
+          "audio_end_ms": 111870.0,
+          "text": "lo",
+          "duration_ms": 1310.0,
+          "hold_ms": 1280.0
+        },
+        {
+          "index": 107,
+          "chart_start_ms": 32220.0,
+          "candidate_start_ms": 32130.0,
+          "audio_onset_ms": 32130.0,
+          "candidate_end_ms": 33380.0,
+          "audio_end_ms": 33450.0,
+          "text": "conmigo#3/3",
+          "duration_ms": 1250.0,
+          "hold_ms": 1220.0
+        },
+        {
+          "index": 544,
+          "chart_start_ms": 162210.0,
+          "candidate_start_ms": 162110.0,
+          "audio_onset_ms": 162110.0,
+          "candidate_end_ms": 163320.0,
+          "audio_end_ms": 163320.0,
+          "text": "uh",
+          "duration_ms": 1210.0,
+          "hold_ms": 1180.0
+        },
+        {
+          "index": 329,
+          "chart_start_ms": 100320.0,
+          "candidate_start_ms": 100220.0,
+          "audio_onset_ms": 100220.0,
+          "candidate_end_ms": 101400.0,
+          "audio_end_ms": 101515.0,
+          "text": "conmigo#3/3",
+          "duration_ms": 1180.0,
+          "hold_ms": 1150.0
+        },
+        {
+          "index": 521,
+          "chart_start_ms": 154410.0,
+          "candidate_start_ms": 154310.0,
+          "audio_onset_ms": 154310.0,
+          "candidate_end_ms": 155410.0,
+          "audio_end_ms": 155410.0,
+          "text": "conmigo#3/3",
+          "duration_ms": 1100.0,
+          "hold_ms": 1070.0
+        },
+        {
+          "index": 549,
+          "chart_start_ms": 165300.0,
+          "candidate_start_ms": 165200.0,
+          "audio_onset_ms": 165200.0,
+          "candidate_end_ms": 166300.0,
+          "audio_end_ms": 166415.0,
+          "text": "lo",
+          "duration_ms": 1100.0,
+          "hold_ms": 1070.0
+        },
+        {
+          "index": 306,
+          "chart_start_ms": 87880.0,
+          "candidate_start_ms": 87840.0,
+          "audio_onset_ms": 87840.0,
+          "candidate_end_ms": 88900.0,
+          "audio_end_ms": 89015.0,
+          "text": "y",
+          "duration_ms": 1060.0,
+          "hold_ms": 1030.0
+        },
+        {
+          "index": 311,
+          "chart_start_ms": 91600.0,
+          "candidate_start_ms": 91500.0,
+          "audio_onset_ms": 91500.0,
+          "candidate_end_ms": 92490.0,
+          "audio_end_ms": 92575.0,
+          "text": "si",
+          "duration_ms": 990.0,
+          "hold_ms": 960.0
+        }
+      ]
+    },
+    {
+      "song": "mi-hogar",
+      "syllables": 325,
+      "sections": {
+        "start": {
+          "count": 81,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 81,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 81,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 82,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 19810.0,
+          "candidate_start_ms": 19740.0,
+          "audio_onset_ms": 19740.0,
+          "candidate_end_ms": 19850.0,
+          "audio_end_ms": 19865.0,
+          "text": "en",
+          "duration_ms": 110.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 162,
+          "chart_start_ms": 89870.0,
+          "candidate_start_ms": 89810.0,
+          "audio_onset_ms": 89810.0,
+          "candidate_end_ms": 89970.0,
+          "audio_end_ms": 90055.0,
+          "text": "algo#2/2",
+          "duration_ms": 160.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 324,
+          "chart_start_ms": 158750.0,
+          "candidate_start_ms": 158710.0,
+          "audio_onset_ms": 158710.0,
+          "candidate_end_ms": 159300.0,
+          "audio_end_ms": 159300.0,
+          "text": "hogar#2/2",
+          "duration_ms": 590.0,
+          "hold_ms": 560.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 212,
+          "chart_start_ms": 108970.0,
+          "candidate_start_ms": 108870.0,
+          "audio_onset_ms": 108870.0,
+          "candidate_end_ms": 110370.0,
+          "audio_end_ms": 110370.0,
+          "text": "huir",
+          "duration_ms": 1500.0,
+          "hold_ms": 1470.0
+        },
+        {
+          "index": 69,
+          "chart_start_ms": 47250.0,
+          "candidate_start_ms": 47150.0,
+          "audio_onset_ms": 47150.0,
+          "candidate_end_ms": 48560.0,
+          "audio_end_ms": 48560.0,
+          "text": "hogar#2/2",
+          "duration_ms": 1410.0,
+          "hold_ms": 1380.0
+        },
+        {
+          "index": 305,
+          "chart_start_ms": 151590.0,
+          "candidate_start_ms": 151490.0,
+          "audio_onset_ms": 151490.0,
+          "candidate_end_ms": 152870.0,
+          "audio_end_ms": 152885.0,
+          "text": "me",
+          "duration_ms": 1380.0,
+          "hold_ms": 1350.0
+        },
+        {
+          "index": 61,
+          "chart_start_ms": 42600.0,
+          "candidate_start_ms": 42500.0,
+          "audio_onset_ms": 42500.0,
+          "candidate_end_ms": 43860.0,
+          "audio_end_ms": 43860.0,
+          "text": "quedar#2/2",
+          "duration_ms": 1360.0,
+          "hold_ms": 1330.0
+        },
+        {
+          "index": 310,
+          "chart_start_ms": 153970.0,
+          "candidate_start_ms": 153870.0,
+          "audio_onset_ms": 153870.0,
+          "candidate_end_ms": 155160.0,
+          "audio_end_ms": 155230.0,
+          "text": "quedar#2/2",
+          "duration_ms": 1290.0,
+          "hold_ms": 1260.0
+        },
+        {
+          "index": 250,
+          "chart_start_ms": 131500.0,
+          "candidate_start_ms": 131400.0,
+          "audio_onset_ms": 131400.0,
+          "candidate_end_ms": 132660.0,
+          "audio_end_ms": 132660.0,
+          "text": "hogar#2/2",
+          "duration_ms": 1260.0,
+          "hold_ms": 1230.0
+        },
+        {
+          "index": 128,
+          "chart_start_ms": 69900.0,
+          "candidate_start_ms": 69800.0,
+          "audio_onset_ms": 69800.0,
+          "candidate_end_ms": 71040.0,
+          "audio_end_ms": 71110.0,
+          "text": "quedar#2/2",
+          "duration_ms": 1240.0,
+          "hold_ms": 1210.0
+        },
+        {
+          "index": 142,
+          "chart_start_ms": 74720.0,
+          "candidate_start_ms": 74620.0,
+          "audio_onset_ms": 74620.0,
+          "candidate_end_ms": 75680.0,
+          "audio_end_ms": 75680.0,
+          "text": "hogar#2/2",
+          "duration_ms": 1060.0,
+          "hold_ms": 1030.0
+        },
+        {
+          "index": 55,
+          "chart_start_ms": 40030.0,
+          "candidate_start_ms": 39930.0,
+          "audio_onset_ms": 39930.0,
+          "candidate_end_ms": 40960.0,
+          "audio_end_ms": 40960.0,
+          "text": "quedar#2/2",
+          "duration_ms": 1030.0,
+          "hold_ms": 1000.0
+        },
+        {
+          "index": 210,
+          "chart_start_ms": 106880.0,
+          "candidate_start_ms": 106840.0,
+          "audio_onset_ms": 106840.0,
+          "candidate_end_ms": 107870.0,
+          "audio_end_ms": 107870.0,
+          "text": "soñado#3/3",
+          "duration_ms": 1030.0,
+          "hold_ms": 1000.0
+        }
+      ]
+    },
+    {
+      "song": "nubia",
+      "syllables": 411,
+      "sections": {
+        "start": {
+          "count": 102,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 103,
+          "old_median_error_ms": 80.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 103,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 103,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 252.0,
+          "new_max_abs_error_ms": 368.25,
+          "candidate_end_p95_abs_error_ms": 252.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 10020.0,
+          "candidate_start_ms": 9920.0,
+          "audio_onset_ms": 9920.0,
+          "candidate_end_ms": 10500.0,
+          "audio_end_ms": 10595.0,
+          "text": "nunca#1/2",
+          "duration_ms": 580.0,
+          "hold_ms": 550.0
+        },
+        {
+          "index": 205,
+          "chart_start_ms": 96650.0,
+          "candidate_start_ms": 96550.0,
+          "audio_onset_ms": 96550.0,
+          "candidate_end_ms": 96660.0,
+          "audio_end_ms": 96775.0,
+          "text": "tiempo#1/2",
+          "duration_ms": 110.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 410,
+          "chart_start_ms": 217090.0,
+          "candidate_start_ms": 216990.0,
+          "audio_onset_ms": 216990.0,
+          "candidate_end_ms": 217560.0,
+          "audio_end_ms": 217560.0,
+          "text": "tormenta#3/3",
+          "duration_ms": 570.0,
+          "hold_ms": 540.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 362,
+          "chart_start_ms": 188050.0,
+          "candidate_start_ms": 187960.0,
+          "audio_onset_ms": 187960.0,
+          "candidate_end_ms": 189540.0,
+          "audio_end_ms": 189540.0,
+          "text": "sagera#3/3",
+          "duration_ms": 1580.0,
+          "hold_ms": 1550.0
+        },
+        {
+          "index": 27,
+          "chart_start_ms": 27370.0,
+          "candidate_start_ms": 27280.0,
+          "audio_onset_ms": 27280.0,
+          "candidate_end_ms": 28830.0,
+          "audio_end_ms": 28830.0,
+          "text": "fuiste#1/2",
+          "duration_ms": 1550.0,
+          "hold_ms": 1520.0
+        },
+        {
+          "index": 42,
+          "chart_start_ms": 34690.0,
+          "candidate_start_ms": 34590.0,
+          "audio_onset_ms": 34590.0,
+          "candidate_end_ms": 36040.0,
+          "audio_end_ms": 36040.0,
+          "text": "pasajera#4/4",
+          "duration_ms": 1450.0,
+          "hold_ms": 1420.0
+        },
+        {
+          "index": 261,
+          "chart_start_ms": 125660.0,
+          "candidate_start_ms": 125560.0,
+          "audio_onset_ms": 125560.0,
+          "candidate_end_ms": 126950.0,
+          "audio_end_ms": 126950.0,
+          "text": "quedé#2/2",
+          "duration_ms": 1390.0,
+          "hold_ms": 1360.0
+        },
+        {
+          "index": 242,
+          "chart_start_ms": 111490.0,
+          "candidate_start_ms": 111390.0,
+          "audio_onset_ms": 111390.0,
+          "candidate_end_ms": 112770.0,
+          "audio_end_ms": 112770.0,
+          "text": "pasajera#4/4",
+          "duration_ms": 1380.0,
+          "hold_ms": 1350.0
+        },
+        {
+          "index": 273,
+          "chart_start_ms": 130620.0,
+          "candidate_start_ms": 130520.0,
+          "audio_onset_ms": 130520.0,
+          "candidate_end_ms": 131900.0,
+          "audio_end_ms": 131900.0,
+          "text": "turbulencias#4/4",
+          "duration_ms": 1380.0,
+          "hold_ms": 1350.0
+        },
+        {
+          "index": 47,
+          "chart_start_ms": 39510.0,
+          "candidate_start_ms": 39480.0,
+          "audio_onset_ms": 39480.0,
+          "candidate_end_ms": 40830.0,
+          "audio_end_ms": 40885.0,
+          "text": "tornados#1/3",
+          "duration_ms": 1350.0,
+          "hold_ms": 1320.0
+        },
+        {
+          "index": 366,
+          "chart_start_ms": 192880.0,
+          "candidate_start_ms": 192780.0,
+          "audio_onset_ms": 192780.0,
+          "candidate_end_ms": 194110.0,
+          "audio_end_ms": 194110.0,
+          "text": "llover#2/2",
+          "duration_ms": 1330.0,
+          "hold_ms": 1300.0
+        },
+        {
+          "index": 73,
+          "chart_start_ms": 53820.0,
+          "candidate_start_ms": 53720.0,
+          "audio_onset_ms": 53720.0,
+          "candidate_end_ms": 55040.0,
+          "audio_end_ms": 55040.0,
+          "text": "turbulencias#4/4",
+          "duration_ms": 1320.0,
+          "hold_ms": 1290.0
+        },
+        {
+          "index": 29,
+          "chart_start_ms": 28990.0,
+          "candidate_start_ms": 28980.0,
+          "audio_onset_ms": 28980.0,
+          "candidate_end_ms": 30280.0,
+          "audio_end_ms": 30330.0,
+          "text": "tú",
+          "duration_ms": 1300.0,
+          "hold_ms": 1270.0
+        }
+      ]
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "syllables": 321,
+      "sections": {
+        "start": {
+          "count": 80,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 80,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 16.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 80,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 81,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 2960.0,
+          "candidate_start_ms": 2860.0,
+          "audio_onset_ms": 2860.0,
+          "candidate_end_ms": 3190.0,
+          "audio_end_ms": 3255.0,
+          "text": "yo",
+          "duration_ms": 330.0,
+          "hold_ms": 300.0
+        },
+        {
+          "index": 160,
+          "chart_start_ms": 88290.0,
+          "candidate_start_ms": 88190.0,
+          "audio_onset_ms": 88190.0,
+          "candidate_end_ms": 88280.0,
+          "audio_end_ms": 88335.0,
+          "text": "trigresame#3/4",
+          "duration_ms": 90.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 320,
+          "chart_start_ms": 155500.0,
+          "candidate_start_ms": 155400.0,
+          "audio_onset_ms": 155400.0,
+          "candidate_end_ms": 155920.0,
+          "audio_end_ms": 155920.0,
+          "text": "normal#2/2",
+          "duration_ms": 520.0,
+          "hold_ms": 490.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 302,
+          "chart_start_ms": 145930.0,
+          "candidate_start_ms": 145830.0,
+          "audio_onset_ms": 145830.0,
+          "candidate_end_ms": 146950.0,
+          "audio_end_ms": 146950.0,
+          "text": "normal#2/2",
+          "duration_ms": 1120.0,
+          "hold_ms": 1090.0
+        },
+        {
+          "index": 5,
+          "chart_start_ms": 4810.0,
+          "candidate_start_ms": 4710.0,
+          "audio_onset_ms": 4710.0,
+          "candidate_end_ms": 5730.0,
+          "audio_end_ms": 5740.0,
+          "text": "nunca#2/2",
+          "duration_ms": 1020.0,
+          "hold_ms": 990.0
+        },
+        {
+          "index": 257,
+          "chart_start_ms": 123500.0,
+          "candidate_start_ms": 123400.0,
+          "audio_onset_ms": 123400.0,
+          "candidate_end_ms": 124410.0,
+          "audio_end_ms": 124525.0,
+          "text": "alguna#3/3",
+          "duration_ms": 1010.0,
+          "hold_ms": 980.0
+        },
+        {
+          "index": 101,
+          "chart_start_ms": 37210.0,
+          "candidate_start_ms": 37110.0,
+          "audio_onset_ms": 37110.0,
+          "candidate_end_ms": 38110.0,
+          "audio_end_ms": 38110.0,
+          "text": "vuelvas#2/2",
+          "duration_ms": 1000.0,
+          "hold_ms": 970.0
+        },
+        {
+          "index": 284,
+          "chart_start_ms": 136780.0,
+          "candidate_start_ms": 136680.0,
+          "audio_onset_ms": 136680.0,
+          "candidate_end_ms": 137660.0,
+          "audio_end_ms": 137660.0,
+          "text": "normal#2/2",
+          "duration_ms": 980.0,
+          "hold_ms": 950.0
+        },
+        {
+          "index": 120,
+          "chart_start_ms": 47590.0,
+          "candidate_start_ms": 47490.0,
+          "audio_onset_ms": 47490.0,
+          "candidate_end_ms": 48440.0,
+          "audio_end_ms": 48555.0,
+          "text": "alguna#3/3",
+          "duration_ms": 950.0,
+          "hold_ms": 920.0
+        },
+        {
+          "index": 266,
+          "chart_start_ms": 127090.0,
+          "candidate_start_ms": 126990.0,
+          "audio_onset_ms": 126990.0,
+          "candidate_end_ms": 127910.0,
+          "audio_end_ms": 127910.0,
+          "text": "normal#2/2",
+          "duration_ms": 920.0,
+          "hold_ms": 890.0
+        },
+        {
+          "index": 157,
+          "chart_start_ms": 86850.0,
+          "candidate_start_ms": 86750.0,
+          "audio_onset_ms": 86750.0,
+          "candidate_end_ms": 87660.0,
+          "audio_end_ms": 87760.0,
+          "text": "ninguna#3/3",
+          "duration_ms": 910.0,
+          "hold_ms": 880.0
+        },
+        {
+          "index": 122,
+          "chart_start_ms": 75050.0,
+          "candidate_start_ms": 75020.0,
+          "audio_onset_ms": 75020.0,
+          "candidate_end_ms": 75850.0,
+          "audio_end_ms": 75965.0,
+          "text": "no",
+          "duration_ms": 830.0,
+          "hold_ms": 800.0
+        },
+        {
+          "index": 123,
+          "chart_start_ms": 75980.0,
+          "candidate_start_ms": 75880.0,
+          "audio_onset_ms": 75880.0,
+          "candidate_end_ms": 76670.0,
+          "audio_end_ms": 76685.0,
+          "text": "es",
+          "duration_ms": 790.0,
+          "hold_ms": 760.0
+        }
+      ]
+    },
+    {
+      "song": "peligrosa",
+      "syllables": 666,
+      "sections": {
+        "start": {
+          "count": 166,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 167,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 8.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 166,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 167,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 2.0,
+          "new_max_abs_error_ms": 50.25,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 11930.0,
+          "candidate_start_ms": 11830.0,
+          "audio_onset_ms": 11830.0,
+          "candidate_end_ms": 12680.0,
+          "audio_end_ms": 12745.0,
+          "text": "sé",
+          "duration_ms": 850.0,
+          "hold_ms": 820.0
+        },
+        {
+          "index": 333,
+          "chart_start_ms": 109430.0,
+          "candidate_start_ms": 109330.0,
+          "audio_onset_ms": 109330.0,
+          "candidate_end_ms": 109510.0,
+          "audio_end_ms": 109545.0,
+          "text": "voy",
+          "duration_ms": 180.0,
+          "hold_ms": 150.0
+        },
+        {
+          "index": 665,
+          "chart_start_ms": 226640.0,
+          "candidate_start_ms": 226570.0,
+          "audio_onset_ms": 226570.0,
+          "candidate_end_ms": 227180.0,
+          "audio_end_ms": 227180.0,
+          "text": "así#2/2",
+          "duration_ms": 610.0,
+          "hold_ms": 580.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 214,
+          "chart_start_ms": 74970.0,
+          "candidate_start_ms": 74870.0,
+          "audio_onset_ms": 74870.0,
+          "candidate_end_ms": 76390.0,
+          "audio_end_ms": 76390.0,
+          "text": "juntos#2/2",
+          "duration_ms": 1520.0,
+          "hold_ms": 1490.0
+        },
+        {
+          "index": 379,
+          "chart_start_ms": 119740.0,
+          "candidate_start_ms": 119640.0,
+          "audio_onset_ms": 119640.0,
+          "candidate_end_ms": 120920.0,
+          "audio_end_ms": 120920.0,
+          "text": "escapar#3/3",
+          "duration_ms": 1280.0,
+          "hold_ms": 1250.0
+        },
+        {
+          "index": 470,
+          "chart_start_ms": 170160.0,
+          "candidate_start_ms": 170100.0,
+          "audio_onset_ms": 170100.0,
+          "candidate_end_ms": 171380.0,
+          "audio_end_ms": 171445.0,
+          "text": "oh",
+          "duration_ms": 1280.0,
+          "hold_ms": 1250.0
+        },
+        {
+          "index": 158,
+          "chart_start_ms": 59580.0,
+          "candidate_start_ms": 59540.0,
+          "audio_onset_ms": 59540.0,
+          "candidate_end_ms": 60720.0,
+          "audio_end_ms": 60835.0,
+          "text": "peligrosa#2/4",
+          "duration_ms": 1180.0,
+          "hold_ms": 1150.0
+        },
+        {
+          "index": 411,
+          "chart_start_ms": 131950.0,
+          "candidate_start_ms": 131850.0,
+          "audio_onset_ms": 131850.0,
+          "candidate_end_ms": 132990.0,
+          "audio_end_ms": 133105.0,
+          "text": "peligrosa#2/4",
+          "duration_ms": 1140.0,
+          "hold_ms": 1110.0
+        },
+        {
+          "index": 16,
+          "chart_start_ms": 16790.0,
+          "candidate_start_ms": 16690.0,
+          "audio_onset_ms": 16690.0,
+          "candidate_end_ms": 17680.0,
+          "audio_end_ms": 17680.0,
+          "text": "lastimar#3/3",
+          "duration_ms": 990.0,
+          "hold_ms": 960.0
+        },
+        {
+          "index": 454,
+          "chart_start_ms": 142720.0,
+          "candidate_start_ms": 142720.0,
+          "audio_onset_ms": 142720.0,
+          "candidate_end_ms": 143710.0,
+          "audio_end_ms": 143710.0,
+          "text": "oh",
+          "duration_ms": 990.0,
+          "hold_ms": 960.0
+        },
+        {
+          "index": 140,
+          "chart_start_ms": 51750.0,
+          "candidate_start_ms": 51660.0,
+          "audio_onset_ms": 51660.0,
+          "candidate_end_ms": 52640.0,
+          "audio_end_ms": 52755.0,
+          "text": "escapar#2/3",
+          "duration_ms": 980.0,
+          "hold_ms": 950.0
+        },
+        {
+          "index": 395,
+          "chart_start_ms": 126000.0,
+          "candidate_start_ms": 125980.0,
+          "audio_onset_ms": 125980.0,
+          "candidate_end_ms": 126960.0,
+          "audio_end_ms": 127075.0,
+          "text": "peligrosa#1/4",
+          "duration_ms": 980.0,
+          "hold_ms": 950.0
+        },
+        {
+          "index": 467,
+          "chart_start_ms": 164060.0,
+          "candidate_start_ms": 163960.0,
+          "audio_onset_ms": 163960.0,
+          "candidate_end_ms": 164920.0,
+          "audio_end_ms": 164920.0,
+          "text": "oh",
+          "duration_ms": 960.0,
+          "hold_ms": 930.0
+        }
+      ]
+    },
+    {
+      "song": "rompecabezas",
+      "syllables": 591,
+      "sections": {
+        "start": {
+          "count": 147,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 148,
+          "old_median_error_ms": 85.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 148,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 8.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 148,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 13270.0,
+          "candidate_start_ms": 13170.0,
+          "audio_onset_ms": 13170.0,
+          "candidate_end_ms": 13400.0,
+          "audio_end_ms": 13515.0,
+          "text": "hoy",
+          "duration_ms": 230.0,
+          "hold_ms": 200.0
+        },
+        {
+          "index": 295,
+          "chart_start_ms": 101010.0,
+          "candidate_start_ms": 100910.0,
+          "audio_onset_ms": 100910.0,
+          "candidate_end_ms": 101070.0,
+          "audio_end_ms": 101145.0,
+          "text": "hay",
+          "duration_ms": 160.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 590,
+          "chart_start_ms": 199210.0,
+          "candidate_start_ms": 199110.0,
+          "audio_onset_ms": 199110.0,
+          "candidate_end_ms": 199580.0,
+          "audio_end_ms": 199580.0,
+          "text": "especial#3/3",
+          "duration_ms": 470.0,
+          "hold_ms": 440.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 49,
+          "chart_start_ms": 31530.0,
+          "candidate_start_ms": 31430.0,
+          "audio_onset_ms": 31430.0,
+          "candidate_end_ms": 32880.0,
+          "audio_end_ms": 32935.0,
+          "text": "y",
+          "duration_ms": 1450.0,
+          "hold_ms": 1420.0
+        },
+        {
+          "index": 17,
+          "chart_start_ms": 19900.0,
+          "candidate_start_ms": 19900.0,
+          "audio_onset_ms": 19900.0,
+          "candidate_end_ms": 21260.0,
+          "audio_end_ms": 21375.0,
+          "text": "y",
+          "duration_ms": 1360.0,
+          "hold_ms": 1330.0
+        },
+        {
+          "index": 281,
+          "chart_start_ms": 95750.0,
+          "candidate_start_ms": 95740.0,
+          "audio_onset_ms": 95740.0,
+          "candidate_end_ms": 96770.0,
+          "audio_end_ms": 96770.0,
+          "text": "bien",
+          "duration_ms": 1030.0,
+          "hold_ms": 1000.0
+        },
+        {
+          "index": 515,
+          "chart_start_ms": 173580.0,
+          "candidate_start_ms": 173510.0,
+          "audio_onset_ms": 173510.0,
+          "candidate_end_ms": 174510.0,
+          "audio_end_ms": 174510.0,
+          "text": "apariencia#4/4",
+          "duration_ms": 1000.0,
+          "hold_ms": 970.0
+        },
+        {
+          "index": 290,
+          "chart_start_ms": 98660.0,
+          "candidate_start_ms": 98620.0,
+          "audio_onset_ms": 98620.0,
+          "candidate_end_ms": 99610.0,
+          "audio_end_ms": 99610.0,
+          "text": "mal",
+          "duration_ms": 990.0,
+          "hold_ms": 960.0
+        },
+        {
+          "index": 333,
+          "chart_start_ms": 114000.0,
+          "candidate_start_ms": 113900.0,
+          "audio_onset_ms": 113900.0,
+          "candidate_end_ms": 114870.0,
+          "audio_end_ms": 114870.0,
+          "text": "apariencia#4/4",
+          "duration_ms": 970.0,
+          "hold_ms": 940.0
+        },
+        {
+          "index": 41,
+          "chart_start_ms": 28450.0,
+          "candidate_start_ms": 28350.0,
+          "audio_onset_ms": 28350.0,
+          "candidate_end_ms": 29290.0,
+          "audio_end_ms": 29310.0,
+          "text": "peregrinos#4/4",
+          "duration_ms": 940.0,
+          "hold_ms": 910.0
+        },
+        {
+          "index": 566,
+          "chart_start_ms": 191100.0,
+          "candidate_start_ms": 191080.0,
+          "audio_onset_ms": 191080.0,
+          "candidate_end_ms": 192010.0,
+          "audio_end_ms": 192035.0,
+          "text": "que",
+          "duration_ms": 930.0,
+          "hold_ms": 900.0
+        },
+        {
+          "index": 93,
+          "chart_start_ms": 46380.0,
+          "candidate_start_ms": 46340.0,
+          "audio_onset_ms": 46340.0,
+          "candidate_end_ms": 47260.0,
+          "audio_end_ms": 47375.0,
+          "text": "adentro#1/3",
+          "duration_ms": 920.0,
+          "hold_ms": 890.0
+        },
+        {
+          "index": 315,
+          "chart_start_ms": 108200.0,
+          "candidate_start_ms": 108120.0,
+          "audio_onset_ms": 108120.0,
+          "candidate_end_ms": 109020.0,
+          "audio_end_ms": 109100.0,
+          "text": "quieres#3/3",
+          "duration_ms": 900.0,
+          "hold_ms": 870.0
+        }
+      ]
+    },
+    {
+      "song": "si-te-vas",
+      "syllables": 483,
+      "sections": {
+        "start": {
+          "count": 120,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 121,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 8.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 121,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 121,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 750.0,
+          "candidate_start_ms": 650.0,
+          "audio_onset_ms": 650.0,
+          "candidate_end_ms": 830.0,
+          "audio_end_ms": 945.0,
+          "text": "si",
+          "duration_ms": 180.0,
+          "hold_ms": 150.0
+        },
+        {
+          "index": 241,
+          "chart_start_ms": 100880.0,
+          "candidate_start_ms": 100780.0,
+          "audio_onset_ms": 100780.0,
+          "candidate_end_ms": 101540.0,
+          "audio_end_ms": 101540.0,
+          "text": "lejos#2/2",
+          "duration_ms": 760.0,
+          "hold_ms": 730.0
+        },
+        {
+          "index": 482,
+          "chart_start_ms": 213830.0,
+          "candidate_start_ms": 213730.0,
+          "audio_onset_ms": 213730.0,
+          "candidate_end_ms": 214260.0,
+          "audio_end_ms": 214260.0,
+          "text": "mira#2/2",
+          "duration_ms": 530.0,
+          "hold_ms": 500.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 459,
+          "chart_start_ms": 190120.0,
+          "candidate_start_ms": 190020.0,
+          "audio_onset_ms": 190020.0,
+          "candidate_end_ms": 191630.0,
+          "audio_end_ms": 191630.0,
+          "text": "sí",
+          "duration_ms": 1610.0,
+          "hold_ms": 1580.0
+        },
+        {
+          "index": 380,
+          "chart_start_ms": 154140.0,
+          "candidate_start_ms": 154040.0,
+          "audio_onset_ms": 154040.0,
+          "candidate_end_ms": 155610.0,
+          "audio_end_ms": 155640.0,
+          "text": "si",
+          "duration_ms": 1570.0,
+          "hold_ms": 1540.0
+        },
+        {
+          "index": 452,
+          "chart_start_ms": 183400.0,
+          "candidate_start_ms": 183300.0,
+          "audio_onset_ms": 183300.0,
+          "candidate_end_ms": 184770.0,
+          "audio_end_ms": 184785.0,
+          "text": "sí",
+          "duration_ms": 1470.0,
+          "hold_ms": 1440.0
+        },
+        {
+          "index": 274,
+          "chart_start_ms": 114700.0,
+          "candidate_start_ms": 114700.0,
+          "audio_onset_ms": 114700.0,
+          "candidate_end_ms": 116100.0,
+          "audio_end_ms": 116100.0,
+          "text": "ti",
+          "duration_ms": 1400.0,
+          "hold_ms": 1370.0
+        },
+        {
+          "index": 477,
+          "chart_start_ms": 201800.0,
+          "candidate_start_ms": 201700.0,
+          "audio_onset_ms": 201700.0,
+          "candidate_end_ms": 203100.0,
+          "audio_end_ms": 203100.0,
+          "text": "sí",
+          "duration_ms": 1400.0,
+          "hold_ms": 1370.0
+        },
+        {
+          "index": 454,
+          "chart_start_ms": 185360.0,
+          "candidate_start_ms": 185360.0,
+          "audio_onset_ms": 185360.0,
+          "candidate_end_ms": 186750.0,
+          "audio_end_ms": 186825.0,
+          "text": "sí",
+          "duration_ms": 1390.0,
+          "hold_ms": 1360.0
+        },
+        {
+          "index": 203,
+          "chart_start_ms": 85600.0,
+          "candidate_start_ms": 85540.0,
+          "audio_onset_ms": 85540.0,
+          "candidate_end_ms": 86870.0,
+          "audio_end_ms": 86870.0,
+          "text": "yo",
+          "duration_ms": 1330.0,
+          "hold_ms": 1300.0
+        },
+        {
+          "index": 473,
+          "chart_start_ms": 197360.0,
+          "candidate_start_ms": 197260.0,
+          "audio_onset_ms": 197260.0,
+          "candidate_end_ms": 198460.0,
+          "audio_end_ms": 198460.0,
+          "text": "sí",
+          "duration_ms": 1200.0,
+          "hold_ms": 1170.0
+        },
+        {
+          "index": 217,
+          "chart_start_ms": 91220.0,
+          "candidate_start_ms": 91140.0,
+          "audio_onset_ms": 91140.0,
+          "candidate_end_ms": 92310.0,
+          "audio_end_ms": 92345.0,
+          "text": "ya",
+          "duration_ms": 1170.0,
+          "hold_ms": 1140.0
+        },
+        {
+          "index": 2,
+          "chart_start_ms": 1150.0,
+          "candidate_start_ms": 1050.0,
+          "audio_onset_ms": 1050.0,
+          "candidate_end_ms": 2190.0,
+          "audio_end_ms": 2190.0,
+          "text": "vas",
+          "duration_ms": 1140.0,
+          "hold_ms": 1110.0
+        }
+      ]
+    },
+    {
+      "song": "solare",
+      "syllables": 572,
+      "sections": {
+        "start": {
+          "count": 143,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 143,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 143,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 143,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 2070.0,
+          "candidate_start_ms": 1990.0,
+          "audio_onset_ms": 1990.0,
+          "candidate_end_ms": 2270.0,
+          "audio_end_ms": 2385.0,
+          "text": "el",
+          "duration_ms": 280.0,
+          "hold_ms": 250.0
+        },
+        {
+          "index": 286,
+          "chart_start_ms": 122520.0,
+          "candidate_start_ms": 122420.0,
+          "audio_onset_ms": 122420.0,
+          "candidate_end_ms": 122630.0,
+          "audio_end_ms": 122745.0,
+          "text": "calor#1/2",
+          "duration_ms": 210.0,
+          "hold_ms": 180.0
+        },
+        {
+          "index": 571,
+          "chart_start_ms": 216860.0,
+          "candidate_start_ms": 216760.0,
+          "audio_onset_ms": 216760.0,
+          "candidate_end_ms": 217520.0,
+          "audio_end_ms": 217520.0,
+          "text": "quido#2/2",
+          "duration_ms": 760.0,
+          "hold_ms": 730.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 520,
+          "chart_start_ms": 195480.0,
+          "candidate_start_ms": 195480.0,
+          "audio_onset_ms": 195480.0,
+          "candidate_end_ms": 197160.0,
+          "audio_end_ms": 197190.0,
+          "text": "frío",
+          "duration_ms": 1680.0,
+          "hold_ms": 1650.0
+        },
+        {
+          "index": 91,
+          "chart_start_ms": 36940.0,
+          "candidate_start_ms": 36840.0,
+          "audio_onset_ms": 36840.0,
+          "candidate_end_ms": 38170.0,
+          "audio_end_ms": 38210.0,
+          "text": "solecito#4/4",
+          "duration_ms": 1330.0,
+          "hold_ms": 1300.0
+        },
+        {
+          "index": 263,
+          "chart_start_ms": 113150.0,
+          "candidate_start_ms": 113050.0,
+          "audio_onset_ms": 113050.0,
+          "candidate_end_ms": 114370.0,
+          "audio_end_ms": 114485.0,
+          "text": "no",
+          "duration_ms": 1320.0,
+          "hold_ms": 1290.0
+        },
+        {
+          "index": 124,
+          "chart_start_ms": 52300.0,
+          "candidate_start_ms": 52200.0,
+          "audio_onset_ms": 52200.0,
+          "candidate_end_ms": 53420.0,
+          "audio_end_ms": 53420.0,
+          "text": "solcito#3/3",
+          "duration_ms": 1220.0,
+          "hold_ms": 1190.0
+        },
+        {
+          "index": 500,
+          "chart_start_ms": 188720.0,
+          "candidate_start_ms": 188620.0,
+          "audio_onset_ms": 188620.0,
+          "candidate_end_ms": 189780.0,
+          "audio_end_ms": 189780.0,
+          "text": "solecito#4/4",
+          "duration_ms": 1160.0,
+          "hold_ms": 1130.0
+        },
+        {
+          "index": 511,
+          "chart_start_ms": 192590.0,
+          "candidate_start_ms": 192540.0,
+          "audio_onset_ms": 192540.0,
+          "candidate_end_ms": 193680.0,
+          "audio_end_ms": 193795.0,
+          "text": "neste#1/2",
+          "duration_ms": 1140.0,
+          "hold_ms": 1110.0
+        },
+        {
+          "index": 160,
+          "chart_start_ms": 65330.0,
+          "candidate_start_ms": 65230.0,
+          "audio_onset_ms": 65230.0,
+          "candidate_end_ms": 66350.0,
+          "audio_end_ms": 66350.0,
+          "text": "pido#2/2",
+          "duration_ms": 1120.0,
+          "hold_ms": 1090.0
+        },
+        {
+          "index": 535,
+          "chart_start_ms": 203910.0,
+          "candidate_start_ms": 203900.0,
+          "audio_onset_ms": 203900.0,
+          "candidate_end_ms": 204990.0,
+          "audio_end_ms": 205105.0,
+          "text": "solecido#4/4",
+          "duration_ms": 1090.0,
+          "hold_ms": 1060.0
+        },
+        {
+          "index": 297,
+          "chart_start_ms": 128130.0,
+          "candidate_start_ms": 128120.0,
+          "audio_onset_ms": 128120.0,
+          "candidate_end_ms": 129190.0,
+          "audio_end_ms": 129305.0,
+          "text": "dame#1/2",
+          "duration_ms": 1070.0,
+          "hold_ms": 1040.0
+        },
+        {
+          "index": 146,
+          "chart_start_ms": 60000.0,
+          "candidate_start_ms": 59900.0,
+          "audio_onset_ms": 59900.0,
+          "candidate_end_ms": 60960.0,
+          "audio_end_ms": 60960.0,
+          "text": "cariño#3/3",
+          "duration_ms": 1060.0,
+          "hold_ms": 1030.0
+        }
+      ]
+    },
+    {
+      "song": "tristella",
+      "syllables": 527,
+      "sections": {
+        "start": {
+          "count": 131,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 132,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 132,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 132,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 13580.0,
+          "candidate_start_ms": 13490.0,
+          "audio_onset_ms": 13490.0,
+          "candidate_end_ms": 13720.0,
+          "audio_end_ms": 13835.0,
+          "text": "tal",
+          "duration_ms": 230.0,
+          "hold_ms": 200.0
+        },
+        {
+          "index": 263,
+          "chart_start_ms": 143410.0,
+          "candidate_start_ms": 143310.0,
+          "audio_onset_ms": 143310.0,
+          "candidate_end_ms": 143790.0,
+          "audio_end_ms": 143905.0,
+          "text": "acariciar#2/4",
+          "duration_ms": 480.0,
+          "hold_ms": 450.0
+        },
+        {
+          "index": 526,
+          "chart_start_ms": 221780.0,
+          "candidate_start_ms": 221680.0,
+          "audio_onset_ms": 221680.0,
+          "candidate_end_ms": 222125.0,
+          "audio_end_ms": 222125.0,
+          "text": "conmigo#3/3",
+          "duration_ms": 445.0,
+          "hold_ms": 415.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 12,
+          "chart_start_ms": 17530.0,
+          "candidate_start_ms": 17500.0,
+          "audio_onset_ms": 17500.0,
+          "candidate_end_ms": 19230.0,
+          "audio_end_ms": 19230.0,
+          "text": "luz",
+          "duration_ms": 1730.0,
+          "hold_ms": 1700.0
+        },
+        {
+          "index": 217,
+          "chart_start_ms": 121480.0,
+          "candidate_start_ms": 121480.0,
+          "audio_onset_ms": 121480.0,
+          "candidate_end_ms": 123030.0,
+          "audio_end_ms": 123030.0,
+          "text": "luz",
+          "duration_ms": 1550.0,
+          "hold_ms": 1520.0
+        },
+        {
+          "index": 212,
+          "chart_start_ms": 118720.0,
+          "candidate_start_ms": 118620.0,
+          "audio_onset_ms": 118620.0,
+          "candidate_end_ms": 120100.0,
+          "audio_end_ms": 120120.0,
+          "text": "recuerdo#3/3",
+          "duration_ms": 1480.0,
+          "hold_ms": 1450.0
+        },
+        {
+          "index": 457,
+          "chart_start_ms": 190780.0,
+          "candidate_start_ms": 190720.0,
+          "audio_onset_ms": 190720.0,
+          "candidate_end_ms": 192200.0,
+          "audio_end_ms": 192200.0,
+          "text": "luz",
+          "duration_ms": 1480.0,
+          "hold_ms": 1450.0
+        },
+        {
+          "index": 452,
+          "chart_start_ms": 187950.0,
+          "candidate_start_ms": 187850.0,
+          "audio_onset_ms": 187850.0,
+          "candidate_end_ms": 189220.0,
+          "audio_end_ms": 189220.0,
+          "text": "recuerdo#3/3",
+          "duration_ms": 1370.0,
+          "hold_ms": 1340.0
+        },
+        {
+          "index": 163,
+          "chart_start_ms": 94300.0,
+          "candidate_start_ms": 94200.0,
+          "audio_onset_ms": 94200.0,
+          "candidate_end_ms": 95550.0,
+          "audio_end_ms": 95550.0,
+          "text": "ido#2/2",
+          "duration_ms": 1350.0,
+          "hold_ms": 1320.0
+        },
+        {
+          "index": 205,
+          "chart_start_ms": 114750.0,
+          "candidate_start_ms": 114650.0,
+          "audio_onset_ms": 114650.0,
+          "candidate_end_ms": 116000.0,
+          "audio_end_ms": 116000.0,
+          "text": "tú",
+          "duration_ms": 1350.0,
+          "hold_ms": 1320.0
+        },
+        {
+          "index": 39,
+          "chart_start_ms": 31830.0,
+          "candidate_start_ms": 31730.0,
+          "audio_onset_ms": 31730.0,
+          "candidate_end_ms": 33070.0,
+          "audio_end_ms": 33070.0,
+          "text": "azul#2/2",
+          "duration_ms": 1340.0,
+          "hold_ms": 1310.0
+        },
+        {
+          "index": 199,
+          "chart_start_ms": 111370.0,
+          "candidate_start_ms": 111270.0,
+          "audio_onset_ms": 111270.0,
+          "candidate_end_ms": 112520.0,
+          "audio_end_ms": 112520.0,
+          "text": "tú",
+          "duration_ms": 1250.0,
+          "hold_ms": 1220.0
+        },
+        {
+          "index": 154,
+          "chart_start_ms": 91000.0,
+          "candidate_start_ms": 90960.0,
+          "audio_onset_ms": 90960.0,
+          "candidate_end_ms": 92190.0,
+          "audio_end_ms": 92215.0,
+          "text": "y",
+          "duration_ms": 1230.0,
+          "hold_ms": 1200.0
+        }
+      ]
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "syllables": 509,
+      "sections": {
+        "start": {
+          "count": 127,
+          "old_median_error_ms": 95.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 127,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 127,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 128,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 8.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 26520.0,
+          "candidate_start_ms": 26420.0,
+          "audio_onset_ms": 26420.0,
+          "candidate_end_ms": 26510.0,
+          "audio_end_ms": 26565.0,
+          "text": "oh",
+          "duration_ms": 90.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 254,
+          "chart_start_ms": 100050.0,
+          "candidate_start_ms": 99950.0,
+          "audio_onset_ms": 99950.0,
+          "candidate_end_ms": 100570.0,
+          "audio_end_ms": 100570.0,
+          "text": "despidiendo#4/4",
+          "duration_ms": 620.0,
+          "hold_ms": 590.0
+        },
+        {
+          "index": 508,
+          "chart_start_ms": 171440.0,
+          "candidate_start_ms": 171340.0,
+          "audio_onset_ms": 171340.0,
+          "candidate_end_ms": 172100.0,
+          "audio_end_ms": 172100.0,
+          "text": "ti",
+          "duration_ms": 760.0,
+          "hold_ms": 730.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 449,
+          "chart_start_ms": 150390.0,
+          "candidate_start_ms": 150290.0,
+          "audio_onset_ms": 150290.0,
+          "candidate_end_ms": 151810.0,
+          "audio_end_ms": 151810.0,
+          "text": "no",
+          "duration_ms": 1520.0,
+          "hold_ms": 1490.0
+        },
+        {
+          "index": 482,
+          "chart_start_ms": 162930.0,
+          "candidate_start_ms": 162830.0,
+          "audio_onset_ms": 162830.0,
+          "candidate_end_ms": 164140.0,
+          "audio_end_ms": 164255.0,
+          "text": "querido#2/3",
+          "duration_ms": 1310.0,
+          "hold_ms": 1280.0
+        },
+        {
+          "index": 273,
+          "chart_start_ms": 106050.0,
+          "candidate_start_ms": 105950.0,
+          "audio_onset_ms": 105950.0,
+          "candidate_end_ms": 107220.0,
+          "audio_end_ms": 107220.0,
+          "text": "oh",
+          "duration_ms": 1270.0,
+          "hold_ms": 1240.0
+        },
+        {
+          "index": 173,
+          "chart_start_ms": 75360.0,
+          "candidate_start_ms": 75260.0,
+          "audio_onset_ms": 75260.0,
+          "candidate_end_ms": 76450.0,
+          "audio_end_ms": 76450.0,
+          "text": "quería#2/2",
+          "duration_ms": 1190.0,
+          "hold_ms": 1160.0
+        },
+        {
+          "index": 497,
+          "chart_start_ms": 167790.0,
+          "candidate_start_ms": 167690.0,
+          "audio_onset_ms": 167690.0,
+          "candidate_end_ms": 168860.0,
+          "audio_end_ms": 168860.0,
+          "text": "no",
+          "duration_ms": 1170.0,
+          "hold_ms": 1140.0
+        },
+        {
+          "index": 80,
+          "chart_start_ms": 52740.0,
+          "candidate_start_ms": 52640.0,
+          "audio_onset_ms": 52640.0,
+          "candidate_end_ms": 53650.0,
+          "audio_end_ms": 53650.0,
+          "text": "tequila#3/3",
+          "duration_ms": 1010.0,
+          "hold_ms": 980.0
+        },
+        {
+          "index": 52,
+          "chart_start_ms": 45570.0,
+          "candidate_start_ms": 45510.0,
+          "audio_onset_ms": 45510.0,
+          "candidate_end_ms": 46480.0,
+          "audio_end_ms": 46480.0,
+          "text": "oh",
+          "duration_ms": 970.0,
+          "hold_ms": 940.0
+        },
+        {
+          "index": 310,
+          "chart_start_ms": 119060.0,
+          "candidate_start_ms": 118960.0,
+          "audio_onset_ms": 118960.0,
+          "candidate_end_ms": 119910.0,
+          "audio_end_ms": 119960.0,
+          "text": "oh",
+          "duration_ms": 950.0,
+          "hold_ms": 920.0
+        },
+        {
+          "index": 36,
+          "chart_start_ms": 39730.0,
+          "candidate_start_ms": 39630.0,
+          "audio_onset_ms": 39630.0,
+          "candidate_end_ms": 40540.0,
+          "audio_end_ms": 40540.0,
+          "text": "oh",
+          "duration_ms": 910.0,
+          "hold_ms": 880.0
+        },
+        {
+          "index": 474,
+          "chart_start_ms": 159430.0,
+          "candidate_start_ms": 159330.0,
+          "audio_onset_ms": 159330.0,
+          "candidate_end_ms": 160190.0,
+          "audio_end_ms": 160260.0,
+          "text": "fui",
+          "duration_ms": 860.0,
+          "hold_ms": 830.0
+        }
+      ]
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "syllables": 407,
+      "sections": {
+        "start": {
+          "count": 101,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 102,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 102,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 102,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 1550.0,
+          "candidate_start_ms": 1490.0,
+          "audio_onset_ms": 1490.0,
+          "candidate_end_ms": 1900.0,
+          "audio_end_ms": 2015.0,
+          "text": "es",
+          "duration_ms": 410.0,
+          "hold_ms": 380.0
+        },
+        {
+          "index": 203,
+          "chart_start_ms": 94220.0,
+          "candidate_start_ms": 94120.0,
+          "audio_onset_ms": 94120.0,
+          "candidate_end_ms": 94210.0,
+          "audio_end_ms": 94265.0,
+          "text": "que",
+          "duration_ms": 90.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 406,
+          "chart_start_ms": 206570.0,
+          "candidate_start_ms": 206470.0,
+          "audio_onset_ms": 206470.0,
+          "candidate_end_ms": 206915.0,
+          "audio_end_ms": 206915.0,
+          "text": "continuar#3/3",
+          "duration_ms": 445.0,
+          "hold_ms": 415.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 85,
+          "chart_start_ms": 53540.0,
+          "candidate_start_ms": 53440.0,
+          "audio_onset_ms": 53440.0,
+          "candidate_end_ms": 55240.0,
+          "audio_end_ms": 55300.0,
+          "text": "a",
+          "duration_ms": 1800.0,
+          "hold_ms": 1770.0
+        },
+        {
+          "index": 61,
+          "chart_start_ms": 37310.0,
+          "candidate_start_ms": 37210.0,
+          "audio_onset_ms": 37210.0,
+          "candidate_end_ms": 38940.0,
+          "audio_end_ms": 38940.0,
+          "text": "borrando#3/3",
+          "duration_ms": 1730.0,
+          "hold_ms": 1700.0
+        },
+        {
+          "index": 371,
+          "chart_start_ms": 184450.0,
+          "candidate_start_ms": 184350.0,
+          "audio_onset_ms": 184350.0,
+          "candidate_end_ms": 186040.0,
+          "audio_end_ms": 186040.0,
+          "text": "verás#2/2",
+          "duration_ms": 1690.0,
+          "hold_ms": 1660.0
+        },
+        {
+          "index": 253,
+          "chart_start_ms": 109330.0,
+          "candidate_start_ms": 109230.0,
+          "audio_onset_ms": 109230.0,
+          "candidate_end_ms": 110820.0,
+          "audio_end_ms": 110820.0,
+          "text": "ya",
+          "duration_ms": 1590.0,
+          "hold_ms": 1560.0
+        },
+        {
+          "index": 87,
+          "chart_start_ms": 55890.0,
+          "candidate_start_ms": 55790.0,
+          "audio_onset_ms": 55790.0,
+          "candidate_end_ms": 57310.0,
+          "audio_end_ms": 57310.0,
+          "text": "de",
+          "duration_ms": 1520.0,
+          "hold_ms": 1490.0
+        },
+        {
+          "index": 88,
+          "chart_start_ms": 58530.0,
+          "candidate_start_ms": 58430.0,
+          "audio_onset_ms": 58430.0,
+          "candidate_end_ms": 59950.0,
+          "audio_end_ms": 59950.0,
+          "text": "más",
+          "duration_ms": 1520.0,
+          "hold_ms": 1490.0
+        },
+        {
+          "index": 276,
+          "chart_start_ms": 127470.0,
+          "candidate_start_ms": 127370.0,
+          "audio_onset_ms": 127370.0,
+          "candidate_end_ms": 128890.0,
+          "audio_end_ms": 128890.0,
+          "text": "más",
+          "duration_ms": 1520.0,
+          "hold_ms": 1490.0
+        },
+        {
+          "index": 392,
+          "chart_start_ms": 198580.0,
+          "candidate_start_ms": 198480.0,
+          "audio_onset_ms": 198480.0,
+          "candidate_end_ms": 200000.0,
+          "audio_end_ms": 200000.0,
+          "text": "más",
+          "duration_ms": 1520.0,
+          "hold_ms": 1490.0
+        },
+        {
+          "index": 391,
+          "chart_start_ms": 195700.0,
+          "candidate_start_ms": 195640.0,
+          "audio_onset_ms": 195640.0,
+          "candidate_end_ms": 197120.0,
+          "audio_end_ms": 197120.0,
+          "text": "de",
+          "duration_ms": 1480.0,
+          "hold_ms": 1450.0
+        },
+        {
+          "index": 365,
+          "chart_start_ms": 177040.0,
+          "candidate_start_ms": 176970.0,
+          "audio_onset_ms": 176970.0,
+          "candidate_end_ms": 178430.0,
+          "audio_end_ms": 178430.0,
+          "text": "borrando#3/3",
+          "duration_ms": 1460.0,
+          "hold_ms": 1430.0
+        }
+      ]
+    },
+    {
+      "song": "volver-a-vernos",
+      "syllables": 657,
+      "sections": {
+        "start": {
+          "count": 164,
+          "old_median_error_ms": 90.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "early_middle": {
+          "count": 164,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 8.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "late_middle": {
+          "count": 164,
+          "old_median_error_ms": 100.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 0.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        },
+        "end": {
+          "count": 165,
+          "old_median_error_ms": 80.0,
+          "old_p95_abs_error_ms": 100.0,
+          "new_median_error_ms": 0.0,
+          "new_p95_abs_error_ms": 0.0,
+          "new_max_abs_error_ms": 8.0,
+          "candidate_end_p95_abs_error_ms": 115.0
+        }
+      },
+      "samples": [
+        {
+          "index": 0,
+          "chart_start_ms": 380.0,
+          "candidate_start_ms": 350.0,
+          "audio_onset_ms": 350.0,
+          "candidate_end_ms": 460.0,
+          "audio_end_ms": 545.0,
+          "text": "te",
+          "duration_ms": 110.0,
+          "hold_ms": 0.0
+        },
+        {
+          "index": 328,
+          "chart_start_ms": 86700.0,
+          "candidate_start_ms": 86660.0,
+          "audio_onset_ms": 86660.0,
+          "candidate_end_ms": 87120.0,
+          "audio_end_ms": 87235.0,
+          "text": "pero#2/2",
+          "duration_ms": 460.0,
+          "hold_ms": 430.0
+        },
+        {
+          "index": 656,
+          "chart_start_ms": 170890.0,
+          "candidate_start_ms": 170790.0,
+          "audio_onset_ms": 170790.0,
+          "candidate_end_ms": 171235.0,
+          "audio_end_ms": 171235.0,
+          "text": "detenerlo#4/4",
+          "duration_ms": 445.0,
+          "hold_ms": 415.0
+        }
+      ],
+      "old_global_median_error_ms": 100.0,
+      "new_global_median_error_ms": 0.0,
+      "new_global_p95_abs_error_ms": 0.0,
+      "new_end_p95_abs_error_ms": 115.0,
+      "long_hold_samples": [
+        {
+          "index": 585,
+          "chart_start_ms": 155740.0,
+          "candidate_start_ms": 155640.0,
+          "audio_onset_ms": 155640.0,
+          "candidate_end_ms": 156790.0,
+          "audio_end_ms": 156790.0,
+          "text": "hablarnos#3/3",
+          "duration_ms": 1150.0,
+          "hold_ms": 1120.0
+        },
+        {
+          "index": 274,
+          "chart_start_ms": 68280.0,
+          "candidate_start_ms": 68180.0,
+          "audio_onset_ms": 68180.0,
+          "candidate_end_ms": 69150.0,
+          "audio_end_ms": 69150.0,
+          "text": "me",
+          "duration_ms": 970.0,
+          "hold_ms": 940.0
+        },
+        {
+          "index": 133,
+          "chart_start_ms": 24340.0,
+          "candidate_start_ms": 24240.0,
+          "audio_onset_ms": 24240.0,
+          "candidate_end_ms": 25160.0,
+          "audio_end_ms": 25160.0,
+          "text": "a",
+          "duration_ms": 920.0,
+          "hold_ms": 890.0
+        },
+        {
+          "index": 566,
+          "chart_start_ms": 149050.0,
+          "candidate_start_ms": 149020.0,
+          "audio_onset_ms": 149020.0,
+          "candidate_end_ms": 149940.0,
+          "audio_end_ms": 150055.0,
+          "text": "vernos#1/2",
+          "duration_ms": 920.0,
+          "hold_ms": 890.0
+        },
+        {
+          "index": 237,
+          "chart_start_ms": 53630.0,
+          "candidate_start_ms": 53530.0,
+          "audio_onset_ms": 53530.0,
+          "candidate_end_ms": 54440.0,
+          "audio_end_ms": 54555.0,
+          "text": "sabías#1/2",
+          "duration_ms": 910.0,
+          "hold_ms": 880.0
+        },
+        {
+          "index": 366,
+          "chart_start_ms": 99250.0,
+          "candidate_start_ms": 99150.0,
+          "audio_onset_ms": 99150.0,
+          "candidate_end_ms": 100060.0,
+          "audio_end_ms": 100060.0,
+          "text": "hablarnos#3/3",
+          "duration_ms": 910.0,
+          "hold_ms": 880.0
+        },
+        {
+          "index": 250,
+          "chart_start_ms": 59780.0,
+          "candidate_start_ms": 59680.0,
+          "audio_onset_ms": 59680.0,
+          "candidate_end_ms": 60570.0,
+          "audio_end_ms": 60660.0,
+          "text": "querías#2/2",
+          "duration_ms": 890.0,
+          "hold_ms": 860.0
+        },
+        {
+          "index": 224,
+          "chart_start_ms": 48410.0,
+          "candidate_start_ms": 48310.0,
+          "audio_onset_ms": 48310.0,
+          "candidate_end_ms": 49180.0,
+          "audio_end_ms": 49295.0,
+          "text": "querías#2/2",
+          "duration_ms": 870.0,
+          "hold_ms": 840.0
+        },
+        {
+          "index": 567,
+          "chart_start_ms": 150070.0,
+          "candidate_start_ms": 149970.0,
+          "audio_onset_ms": 149970.0,
+          "candidate_end_ms": 150830.0,
+          "audio_end_ms": 150830.0,
+          "text": "vernos#2/2",
+          "duration_ms": 860.0,
+          "hold_ms": 830.0
+        },
+        {
+          "index": 246,
+          "chart_start_ms": 57600.0,
+          "candidate_start_ms": 57500.0,
+          "audio_onset_ms": 57500.0,
+          "candidate_end_ms": 58320.0,
+          "audio_end_ms": 58320.0,
+          "text": "ti",
+          "duration_ms": 820.0,
+          "hold_ms": 790.0
+        }
+      ]
+    }
+  ]
+}

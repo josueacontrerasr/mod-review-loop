@@ -1,0 +1,2678 @@
+{
+  "scope": "WIDE_RESEARCH_V266_BASELINE_FOR_V267",
+  "created_at": "2026-08-16T00:11:38.804962+00:00",
+  "base_release": "esperon-vslice-086-v2.6.6",
+  "target_version": "2.6.7",
+  "songs": 21,
+  "parallel_workers": 8,
+  "production_untouched": true,
+  "rows": [
+    {
+      "song": "arcoloria",
+      "mod": "esperon-dano-arcoloria",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-arcoloria/songs/arcoloria/Voices-esperon-arcoloria.ogg",
+          "sha256": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282",
+          "duration_ms": 212834.104,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-arcoloria/songs/arcoloria/Inst.ogg",
+          "sha256": "c9d6043842dbfb735102809f4d9860263249f2915703c74b2539b09421763437",
+          "duration_ms": 212834.104,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 101.333,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 267,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 138,
+            "hold_max_ms": 1345.0,
+            "hold_p95_ms": 968.0,
+            "same_lane_max_run": 4,
+            "same_lane_run_p95": 2.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 449,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 202,
+            "hold_max_ms": 1345.0,
+            "hold_p95_ms": 872.5,
+            "same_lane_max_run": 4,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 617,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 202,
+            "hold_max_ms": 1345.0,
+            "hold_p95_ms": 872.5,
+            "same_lane_max_run": 6,
+            "same_lane_run_p95": 4.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 213.5,
+            "max_nearest_syllable_error_ms": 672.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282",
+        "duration_ms": 212834.125,
+        "syllables": 449,
+        "holds": 202
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "mod": "esperon-dano-cortamos-y-volvemos",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-cortamos-y-volvemos/songs/cortamos-y-volvemos/Voices-esperon-cortamos-y-volvemos.ogg",
+          "sha256": "0ec71bd2381a39212b549071a8ba617fd36753b9b0ea5343757d5e6224d745c1",
+          "duration_ms": 207818.594,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-cortamos-y-volvemos/songs/cortamos-y-volvemos/Inst.ogg",
+          "sha256": "d7ad308125b558ead8cf26daa7d8890fd5c7da8f88524db2213fba77b71bdf98",
+          "duration_ms": 207818.594,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 172.266,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 357,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 106,
+            "hold_max_ms": 1215.0,
+            "hold_p95_ms": 462.5,
+            "same_lane_max_run": 6,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.5
+          },
+          "normal": {
+            "notes": 647,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 152,
+            "hold_max_ms": 1215.0,
+            "hold_p95_ms": 428.5,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 1.0
+          },
+          "hard": {
+            "notes": 745,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 152,
+            "hold_max_ms": 1215.0,
+            "hold_p95_ms": 428.5,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 122.5,
+            "max_nearest_syllable_error_ms": 607.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "0ec71bd2381a39212b549071a8ba617fd36753b9b0ea5343757d5e6224d745c1",
+        "duration_ms": 207818.625,
+        "syllables": 647,
+        "holds": 152
+      }
+    },
+    {
+      "song": "dano",
+      "mod": "esperon-dano-dano",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-dano/songs/dano/Voices-esperon-dano.ogg",
+          "sha256": "bcef47cacf8685fd1d0f06918bdf577394cb4537771dc9b0bcf9956a0a4cd253",
+          "duration_ms": 206425.397,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-dano/songs/dano/Inst.ogg",
+          "sha256": "1cd2bca7478ff391d95def339185125e2d5bd2a4bdeb28846610059ebe609824",
+          "duration_ms": 206425.397,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 126.048,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 423,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 110,
+            "hold_max_ms": 890.0,
+            "hold_p95_ms": 420.5,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.5
+          },
+          "normal": {
+            "notes": 734,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 146,
+            "hold_max_ms": 890.0,
+            "hold_p95_ms": 386.25,
+            "same_lane_max_run": 6,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 1.5
+          },
+          "hard": {
+            "notes": 828,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 146,
+            "hold_max_ms": 890.0,
+            "hold_p95_ms": 386.25,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 4.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 125.75,
+            "max_nearest_syllable_error_ms": 445.0
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "bcef47cacf8685fd1d0f06918bdf577394cb4537771dc9b0bcf9956a0a4cd253",
+        "duration_ms": 206425.438,
+        "syllables": 734,
+        "holds": 146
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "mod": "esperon-dano-dias-magicos",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-dias-magicos/songs/dias-magicos/Voices-esperon-dias-magicos.ogg",
+          "sha256": "96fd2c6aeccdc860a4e519b7bcb2156d723d75934fc6856c4fa766e238350422",
+          "duration_ms": 243623.764,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-dias-magicos/songs/dias-magicos/Inst.ogg",
+          "sha256": "b4ceae0d92b042011f30aeee561ad912cad76457708641ade711e2ff90bb45e8",
+          "duration_ms": 243623.764,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 139.675,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 275,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 106,
+            "hold_max_ms": 1065.0,
+            "hold_p95_ms": 667.5,
+            "same_lane_max_run": 5,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 461,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 143,
+            "hold_max_ms": 1065.0,
+            "hold_p95_ms": 602.0,
+            "same_lane_max_run": 5,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 568,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 143,
+            "hold_max_ms": 1065.0,
+            "hold_p95_ms": 602.0,
+            "same_lane_max_run": 9,
+            "same_lane_run_p95": 5.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 159.0,
+            "max_nearest_syllable_error_ms": 532.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "96fd2c6aeccdc860a4e519b7bcb2156d723d75934fc6856c4fa766e238350422",
+        "duration_ms": 243623.812,
+        "syllables": 461,
+        "holds": 143
+      }
+    },
+    {
+      "song": "eclipsis",
+      "mod": "esperon-dano-eclipsis",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-eclipsis/songs/eclipsis/Voices-esperon-eclipsis.ogg",
+          "sha256": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98",
+          "duration_ms": 257091.338,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-eclipsis/songs/eclipsis/Inst.ogg",
+          "sha256": "0ae33be6f978292d671b2446222c9cefa28cf00b61785956793c548121db0af4",
+          "duration_ms": 257091.338,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 109.957,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 356,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 132,
+            "hold_max_ms": 1265.0,
+            "hold_p95_ms": 713.0,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 612,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 175,
+            "hold_max_ms": 1265.0,
+            "hold_p95_ms": 612.0,
+            "same_lane_max_run": 5,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 745,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 175,
+            "hold_max_ms": 1265.0,
+            "hold_p95_ms": 612.0,
+            "same_lane_max_run": 9,
+            "same_lane_run_p95": 4.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 152.5,
+            "max_nearest_syllable_error_ms": 632.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98",
+        "duration_ms": 257091.375,
+        "syllables": 612,
+        "holds": 175
+      }
+    },
+    {
+      "song": "fango",
+      "mod": "esperon-dano-fango",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-fango/songs/fango/Voices-esperon-fango.ogg",
+          "sha256": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595",
+          "duration_ms": 210697.868,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-fango/songs/fango/Inst.ogg",
+          "sha256": "40a0f3d26913562278893293d0f679b587c9b803be704573eafc79140060e628",
+          "duration_ms": 210697.868,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 90.666,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 364,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 107,
+            "hold_max_ms": 1165.0,
+            "hold_p95_ms": 712.0,
+            "same_lane_max_run": 5,
+            "same_lane_run_p95": 4.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 631,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 143,
+            "hold_max_ms": 1165.0,
+            "hold_p95_ms": 592.0,
+            "same_lane_max_run": 6,
+            "same_lane_run_p95": 3.35,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 732,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 143,
+            "hold_max_ms": 1165.0,
+            "hold_p95_ms": 592.0,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 4.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 132.5,
+            "max_nearest_syllable_error_ms": 582.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595",
+        "duration_ms": 210697.875,
+        "syllables": 631,
+        "holds": 143
+      }
+    },
+    {
+      "song": "luma",
+      "mod": "esperon-dano-luma",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-luma/songs/luma/Voices-esperon-luma.ogg",
+          "sha256": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae",
+          "duration_ms": 238004.535,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-luma/songs/luma/Inst.ogg",
+          "sha256": "ea04b8654bc702ed1e4db2c2f582dc774026fea9da199d018a97c42c6494f3b9",
+          "duration_ms": 238004.535,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 71.777,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 292,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 125,
+            "hold_max_ms": 1035.0,
+            "hold_p95_ms": 497.0,
+            "same_lane_max_run": 5,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 481,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 171,
+            "hold_max_ms": 1035.0,
+            "hold_p95_ms": 460.0,
+            "same_lane_max_run": 6,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 618,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 171,
+            "hold_max_ms": 1035.0,
+            "hold_p95_ms": 460.0,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 162.5,
+            "max_nearest_syllable_error_ms": 517.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae",
+        "duration_ms": 238004.562,
+        "syllables": 481,
+        "holds": 171
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "mod": "esperon-dano-maraton-de-peliculas",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-maraton-de-peliculas/songs/maraton-de-peliculas/Voices-esperon-maraton-de-peliculas.ogg",
+          "sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29",
+          "duration_ms": 231270.748,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-maraton-de-peliculas/songs/maraton-de-peliculas/Inst.ogg",
+          "sha256": "f4347aa912ef3419bb38edc14e43866223b2ea069071b449dae7d6bde8d0eb6a",
+          "duration_ms": 231270.748,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 135.999,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 354,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 135,
+            "hold_max_ms": 1135.0,
+            "hold_p95_ms": 894.0,
+            "same_lane_max_run": 4,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 588,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 184,
+            "hold_max_ms": 1135.0,
+            "hold_p95_ms": 815.0,
+            "same_lane_max_run": 5,
+            "same_lane_run_p95": 2.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 734,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 184,
+            "hold_max_ms": 1135.0,
+            "hold_p95_ms": 815.0,
+            "same_lane_max_run": 6,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 210.125,
+            "max_nearest_syllable_error_ms": 567.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29",
+        "duration_ms": 231270.75,
+        "syllables": 588,
+        "holds": 184
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg",
+          "sha256": "c7b009564ad9e319f244ef9068116e900b19a1e6b963ef9ab92b12d895454968",
+          "duration_ms": 190589.388,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Inst.ogg",
+          "sha256": "dcdf0c71bae7ad7963915f0197c13249d368e6fde92f471646b9dd463c89bec1",
+          "duration_ms": 190589.388,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 101.333,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 178,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 103,
+            "hold_max_ms": 1385.0,
+            "hold_p95_ms": 552.0,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 289,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 136,
+            "hold_max_ms": 1385.0,
+            "hold_p95_ms": 510.0,
+            "same_lane_max_run": 6,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 399,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 136,
+            "hold_max_ms": 1385.0,
+            "hold_p95_ms": 510.0,
+            "same_lane_max_run": 8,
+            "same_lane_run_p95": 4.45,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 188.0,
+            "max_nearest_syllable_error_ms": 692.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "c7b009564ad9e319f244ef9068116e900b19a1e6b963ef9ab92b12d895454968",
+        "duration_ms": 190589.438,
+        "syllables": 289,
+        "holds": 136
+      }
+    },
+    {
+      "song": "meteora",
+      "mod": "esperon-dano-meteora",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-meteora/songs/meteora/Voices-esperon-meteora.ogg",
+          "sha256": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387",
+          "duration_ms": 193004.263,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-meteora/songs/meteora/Inst.ogg",
+          "sha256": "4b18e19fa889a5a1e598e33592eff10aa2f6dd6fc1c07b008cea52ddaf1f3925",
+          "duration_ms": 193004.263,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 139.675,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 346,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 116,
+            "hold_max_ms": 1245.0,
+            "hold_p95_ms": 692.5,
+            "same_lane_max_run": 6,
+            "same_lane_run_p95": 2.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 584,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 150,
+            "hold_max_ms": 1245.0,
+            "hold_p95_ms": 613.5,
+            "same_lane_max_run": 6,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 702,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 150,
+            "hold_max_ms": 1245.0,
+            "hold_p95_ms": 613.5,
+            "same_lane_max_run": 8,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 127.5,
+            "max_nearest_syllable_error_ms": 622.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387",
+        "duration_ms": 193004.312,
+        "syllables": 584,
+        "holds": 150
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "mod": "esperon-dano-mi-hogar",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-mi-hogar/songs/mi-hogar/Voices-esperon-mi-hogar.ogg",
+          "sha256": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2",
+          "duration_ms": 174242.54,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-mi-hogar/songs/mi-hogar/Inst.ogg",
+          "sha256": "8fd9014f4a0e01e2a400fdbe93f2432daa2548a322dd8ffccae54e70681a0fe3",
+          "duration_ms": 174242.54,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 97.509,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 199,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 79,
+            "hold_max_ms": 1025.0,
+            "hold_p95_ms": 857.0,
+            "same_lane_max_run": 4,
+            "same_lane_run_p95": 2.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 325,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 94,
+            "hold_max_ms": 1025.0,
+            "hold_p95_ms": 855.0,
+            "same_lane_max_run": 4,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 408,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 94,
+            "hold_max_ms": 1025.0,
+            "hold_p95_ms": 855.0,
+            "same_lane_max_run": 5,
+            "same_lane_run_p95": 4.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 238.75,
+            "max_nearest_syllable_error_ms": 512.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2",
+        "duration_ms": 174242.562,
+        "syllables": 325,
+        "holds": 94
+      }
+    },
+    {
+      "song": "nubia",
+      "mod": "esperon-dano-nubia",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-nubia/songs/nubia/Voices-esperon-nubia.ogg",
+          "sha256": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43",
+          "duration_ms": 227137.596,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-nubia/songs/nubia/Inst.ogg",
+          "sha256": "63a36b6d167b033b8ee2b51d71975d47183e562e1a8f176f134ce129a52caab2",
+          "duration_ms": 227137.596,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 151.999,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 249,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 114,
+            "hold_max_ms": 1155.0,
+            "hold_p95_ms": 948.5,
+            "same_lane_max_run": 4,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 1.0
+          },
+          "normal": {
+            "notes": 411,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 161,
+            "hold_max_ms": 1155.0,
+            "hold_p95_ms": 895.0,
+            "same_lane_max_run": 6,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 2.5
+          },
+          "hard": {
+            "notes": 533,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 161,
+            "hold_max_ms": 1155.0,
+            "hold_p95_ms": 895.0,
+            "same_lane_max_run": 8,
+            "same_lane_run_p95": 4.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 234.0,
+            "max_nearest_syllable_error_ms": 577.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43",
+        "duration_ms": 227137.625,
+        "syllables": 411,
+        "holds": 161
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "mod": "esperon-dano-nuestro-amor-no-es-normal",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-nuestro-amor-no-es-normal/songs/nuestro-amor-no-es-normal/Voices-esperon-nuestro-amor-no-es-normal.ogg",
+          "sha256": "20d6a77f8924b647d65e0de5da9a54cf74f0635f1d3de658030a3dc214de303d",
+          "duration_ms": 165929.796,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-nuestro-amor-no-es-normal/songs/nuestro-amor-no-es-normal/Inst.ogg",
+          "sha256": "bf3372ba6bb1eb04250fee475b93751afc4473d7416fa28a77bbd7b03dae570d",
+          "duration_ms": 165929.796,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 101.333,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 189,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 83,
+            "hold_max_ms": 885.0,
+            "hold_p95_ms": 593.0,
+            "same_lane_max_run": 5,
+            "same_lane_run_p95": 2.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 321,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 114,
+            "hold_max_ms": 885.0,
+            "hold_p95_ms": 568.5,
+            "same_lane_max_run": 5,
+            "same_lane_run_p95": 2.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 404,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 114,
+            "hold_max_ms": 885.0,
+            "hold_p95_ms": 568.5,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 162.5,
+            "max_nearest_syllable_error_ms": 442.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "20d6a77f8924b647d65e0de5da9a54cf74f0635f1d3de658030a3dc214de303d",
+        "duration_ms": 165929.812,
+        "syllables": 321,
+        "holds": 114
+      }
+    },
+    {
+      "song": "peligrosa",
+      "mod": "esperon-dano-peligrosa",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-peligrosa/songs/peligrosa/Voices-esperon-peligrosa.ogg",
+          "sha256": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf",
+          "duration_ms": 237122.177,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-peligrosa/songs/peligrosa/Inst.ogg",
+          "sha256": "eedc916dbadc5510a2044521a081f476dfba9cb12f5bd2aa08552b819e1eb4a3",
+          "duration_ms": 237122.177,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 92.285,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 381,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 127,
+            "hold_max_ms": 1095.0,
+            "hold_p95_ms": 666.5,
+            "same_lane_max_run": 19,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 666,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 170,
+            "hold_max_ms": 1095.0,
+            "hold_p95_ms": 571.5,
+            "same_lane_max_run": 20,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 787,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 170,
+            "hold_max_ms": 1095.0,
+            "hold_p95_ms": 571.5,
+            "same_lane_max_run": 26,
+            "same_lane_run_p95": 4.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 137.5,
+            "max_nearest_syllable_error_ms": 547.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf",
+        "duration_ms": 237122.188,
+        "syllables": 666,
+        "holds": 170
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "mod": "esperon-dano-rompecabezas",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-rompecabezas/songs/rompecabezas/Voices-esperon-rompecabezas.ogg",
+          "sha256": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a",
+          "duration_ms": 215574.059,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-rompecabezas/songs/rompecabezas/Inst.ogg",
+          "sha256": "bc393a00dbf9aa19df07d4cdc218eb8587fd1770a3b446feba7dd31c0e06c3a4",
+          "duration_ms": 215574.059,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 109.957,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 348,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 148,
+            "hold_max_ms": 745.0,
+            "hold_p95_ms": 591.5,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 591,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 196,
+            "hold_max_ms": 745.0,
+            "hold_p95_ms": 535.0,
+            "same_lane_max_run": 12,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 745,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 196,
+            "hold_max_ms": 745.0,
+            "hold_p95_ms": 535.0,
+            "same_lane_max_run": 16,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 159.5,
+            "max_nearest_syllable_error_ms": 372.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a",
+        "duration_ms": 215574.062,
+        "syllables": 591,
+        "holds": 196
+      }
+    },
+    {
+      "song": "si-te-vas",
+      "mod": "esperon-dano-si-te-vas",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-si-te-vas/songs/si-te-vas/Voices-esperon-si-te-vas.ogg",
+          "sha256": "1c1a49176ab37dce792218b8a1c8cf7971a9ab3b6b8ffda9a201c2b32cfa984c",
+          "duration_ms": 225372.88,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-si-te-vas/songs/si-te-vas/Inst.ogg",
+          "sha256": "a689de61bf4e48f478713880d1ac9dd22912d6987145d976dfa9c4bb471100ef",
+          "duration_ms": 225372.88,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.2 Si Te Vas stem-separated vocal-only pipeline",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 90.666,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 285,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 103,
+            "hold_max_ms": 1295.0,
+            "hold_p95_ms": 989.0,
+            "same_lane_max_run": 21,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 483,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 134,
+            "hold_max_ms": 1295.0,
+            "hold_p95_ms": 767.0,
+            "same_lane_max_run": 29,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 578,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 134,
+            "hold_max_ms": 1295.0,
+            "hold_p95_ms": 767.0,
+            "same_lane_max_run": 43,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 172.5,
+            "max_nearest_syllable_error_ms": 647.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "1c1a49176ab37dce792218b8a1c8cf7971a9ab3b6b8ffda9a201c2b32cfa984c",
+        "duration_ms": 225372.938,
+        "syllables": 483,
+        "holds": 134
+      }
+    },
+    {
+      "song": "solare",
+      "mod": "esperon-dano-solare",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-solare/songs/solare/Voices-esperon-solare.ogg",
+          "sha256": "a52a6af6ccb47ec8124d2761030dd114572bbf03c7416d82fa6eb6b2afc9edf8",
+          "duration_ms": 223515.283,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-solare/songs/solare/Inst.ogg",
+          "sha256": "4efc709fbac7b515da7a3f486dc6f87e314b73b1bf1165f95a2117cd896da4bb",
+          "duration_ms": 223515.283,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 95.703,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 339,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 147,
+            "hold_max_ms": 1375.0,
+            "hold_p95_ms": 725.0,
+            "same_lane_max_run": 4,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 572,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 225,
+            "hold_max_ms": 1375.0,
+            "hold_p95_ms": 589.0,
+            "same_lane_max_run": 6,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 736,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 225,
+            "hold_max_ms": 1375.0,
+            "hold_p95_ms": 589.0,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 4.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 192.5,
+            "max_nearest_syllable_error_ms": 687.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "a52a6af6ccb47ec8124d2761030dd114572bbf03c7416d82fa6eb6b2afc9edf8",
+        "duration_ms": 223515.312,
+        "syllables": 572,
+        "holds": 225
+      }
+    },
+    {
+      "song": "tristella",
+      "mod": "esperon-dano-tristella",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-tristella/songs/tristella/Voices-esperon-tristella.ogg",
+          "sha256": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198",
+          "duration_ms": 238515.374,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-tristella/songs/tristella/Inst.ogg",
+          "sha256": "a73be0c622e3bf6ba03ac4c7f76e0824cec099a3f8c1df4211cee79904418a9e",
+          "duration_ms": 238515.374,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 69.837,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 325,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 133,
+            "hold_max_ms": 1385.0,
+            "hold_p95_ms": 909.0,
+            "same_lane_max_run": 5,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 527,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 172,
+            "hold_max_ms": 1385.0,
+            "hold_p95_ms": 778.5,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 2.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 665,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 172,
+            "hold_max_ms": 1385.0,
+            "hold_p95_ms": 778.5,
+            "same_lane_max_run": 12,
+            "same_lane_run_p95": 4.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 176.5,
+            "max_nearest_syllable_error_ms": 692.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198",
+        "duration_ms": 238515.375,
+        "syllables": 527,
+        "holds": 172
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "mod": "esperon-dano-tu-dealer-de-nostalgia",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-tu-dealer-de-nostalgia/songs/tu-dealer-de-nostalgia/Voices-esperon-tu-dealer-de-nostalgia.ogg",
+          "sha256": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f",
+          "duration_ms": 201224.127,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-tu-dealer-de-nostalgia/songs/tu-dealer-de-nostalgia/Inst.ogg",
+          "sha256": "e9685a8b77720f30e7f93a39b58ccfa295ba195fbcca2a22ab80765b27dee981",
+          "duration_ms": 201224.127,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 161.499,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 303,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 96,
+            "hold_max_ms": 755.0,
+            "hold_p95_ms": 532.5,
+            "same_lane_max_run": 10,
+            "same_lane_run_p95": 4.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 509,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 125,
+            "hold_max_ms": 755.0,
+            "hold_p95_ms": 510.334,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 600,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 125,
+            "hold_max_ms": 755.0,
+            "hold_p95_ms": 510.334,
+            "same_lane_max_run": 10,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 132.5,
+            "max_nearest_syllable_error_ms": 377.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f",
+        "duration_ms": 201224.188,
+        "syllables": 509,
+        "holds": 125
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-un-poco-bien-un-poco-mal/songs/un-poco-bien-un-poco-mal/Voices-esperon-un-poco-bien-un-poco-mal.ogg",
+          "sha256": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229",
+          "duration_ms": 217617.415,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-un-poco-bien-un-poco-mal/songs/un-poco-bien-un-poco-mal/Inst.ogg",
+          "sha256": "d062610df6cb868065c3737406437e1a14d817aa13488d07d09922f0d995b220",
+          "duration_ms": 217617.415,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 93.963,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 250,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 116,
+            "hold_max_ms": 1325.0,
+            "hold_p95_ms": 762.5,
+            "same_lane_max_run": 5,
+            "same_lane_run_p95": 2.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 407,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 147,
+            "hold_max_ms": 1325.0,
+            "hold_p95_ms": 690.5,
+            "same_lane_max_run": 5,
+            "same_lane_run_p95": 2.65,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 522,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 147,
+            "hold_max_ms": 1325.0,
+            "hold_p95_ms": 690.5,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 4.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 197.5,
+            "max_nearest_syllable_error_ms": 662.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229",
+        "duration_ms": 217617.438,
+        "syllables": 407,
+        "holds": 147
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "mod": "esperon-dano-volver-a-vernos",
+      "audio": {
+        "voice": {
+          "path": "mods/esperon-dano-volver-a-vernos/songs/volver-a-vernos/Voices-esperon-volver-a-vernos.ogg",
+          "sha256": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14",
+          "duration_ms": 186734.875,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        "instrumental": {
+          "path": "mods/esperon-dano-volver-a-vernos/songs/volver-a-vernos/Inst.ogg",
+          "sha256": "e65377e51839e6e7f5d8772f02ffc729746b7923cfa5ebf86813d6a77ce11083",
+          "duration_ms": 186734.875,
+          "codec": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      },
+      "metadata": {
+        "version": "2.2.4",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.3.0 audio-synced charts and cover-derived visual pack",
+        "timeChanges": [
+          {
+            "t": 0,
+            "b": 0,
+            "bpm": 166.709,
+            "bt": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        ],
+        "instrumentalOffset": null,
+        "vocalOffset": null
+      },
+      "chart": {
+        "version": "2.0.0",
+        "generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+        "scrollSpeed": {
+          "easy": 0.9,
+          "normal": 1.0,
+          "hard": 1.12
+        },
+        "difficulties": {
+          "easy": {
+            "notes": 374,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 111,
+            "hold_max_ms": 715.0,
+            "hold_p95_ms": 490.0,
+            "same_lane_max_run": 5,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "normal": {
+            "notes": 657,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 153,
+            "hold_max_ms": 715.0,
+            "hold_p95_ms": 457.0,
+            "same_lane_max_run": 6,
+            "same_lane_run_p95": 3.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 0.0,
+            "max_nearest_syllable_error_ms": 0.0
+          },
+          "hard": {
+            "notes": 761,
+            "lanes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "duplicates_t_d": 0,
+            "order_violations": 0,
+            "outside_audio": 0,
+            "holds": 153,
+            "hold_max_ms": 715.0,
+            "hold_p95_ms": 457.0,
+            "same_lane_max_run": 7,
+            "same_lane_run_p95": 4.0,
+            "vocal_outside_interval": 0,
+            "unaligned_to_syllable": 0,
+            "bad_holds": 0,
+            "median_nearest_syllable_error_ms": 0.0,
+            "p95_nearest_syllable_error_ms": 117.5,
+            "max_nearest_syllable_error_ms": 357.5
+          }
+        }
+      },
+      "alignment": {
+        "voice_sha256": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14",
+        "duration_ms": 186734.938,
+        "syllables": 657,
+        "holds": 153
+      }
+    }
+  ]
+}
