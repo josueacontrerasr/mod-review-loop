@@ -1,0 +1,581 @@
+{
+  "scope": "WIDE_RESEARCH_V267_RMS_VAD_RETIMED_BALANCED_CANDIDATES",
+  "created_at": "2026-08-16T00:18:35.176013+00:00",
+  "base_release": "esperon-vslice-086-v2.6.6",
+  "target_version": "2.6.7",
+  "songs": 21,
+  "parallel_workers": 8,
+  "old_holds": 3293,
+  "new_holds": 6492,
+  "repetition_balance_notes": 2823,
+  "reports": [
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "arcoloria",
+      "voice": "mods/esperon-dano-arcoloria/songs/arcoloria/Voices-esperon-arcoloria.ogg",
+      "voice_sha256": "d2e2bc08701eb0c1706596c253d53db20dc787d4c48a3f35c5704431b8040282",
+      "syllables": 449,
+      "old_hold_count": 202,
+      "new_hold_count": 336,
+      "hold_count_delta": 134,
+      "repetition_balance_notes": 112,
+      "start_shift_median_ms": -90.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 374,
+        "normal": 449,
+        "hard": 754
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "cortamos-y-volvemos",
+      "voice": "mods/esperon-dano-cortamos-y-volvemos/songs/cortamos-y-volvemos/Voices-esperon-cortamos-y-volvemos.ogg",
+      "voice_sha256": "0ec71bd2381a39212b549071a8ba617fd36753b9b0ea5343757d5e6224d745c1",
+      "syllables": 647,
+      "old_hold_count": 152,
+      "new_hold_count": 302,
+      "hold_count_delta": 150,
+      "repetition_balance_notes": 146,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 439,
+        "normal": 647,
+        "hard": 900
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "dano",
+      "voice": "mods/esperon-dano-dano/songs/dano/Voices-esperon-dano.ogg",
+      "voice_sha256": "bcef47cacf8685fd1d0f06918bdf577394cb4537771dc9b0bcf9956a0a4cd253",
+      "syllables": 734,
+      "old_hold_count": 146,
+      "new_hold_count": 264,
+      "hold_count_delta": 118,
+      "repetition_balance_notes": 225,
+      "start_shift_median_ms": -90.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 479,
+        "normal": 734,
+        "hard": 948
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "dias-magicos",
+      "voice": "mods/esperon-dano-dias-magicos/songs/dias-magicos/Voices-esperon-dias-magicos.ogg",
+      "voice_sha256": "96fd2c6aeccdc860a4e519b7bcb2156d723d75934fc6856c4fa766e238350422",
+      "syllables": 461,
+      "old_hold_count": 143,
+      "new_hold_count": 318,
+      "hold_count_delta": 175,
+      "repetition_balance_notes": 151,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 370,
+        "normal": 461,
+        "hard": 742
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "eclipsis",
+      "voice": "mods/esperon-dano-eclipsis/songs/eclipsis/Voices-esperon-eclipsis.ogg",
+      "voice_sha256": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98",
+      "syllables": 612,
+      "old_hold_count": 175,
+      "new_hold_count": 411,
+      "hold_count_delta": 236,
+      "repetition_balance_notes": 185,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 480,
+        "normal": 612,
+        "hard": 988
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "fango",
+      "voice": "mods/esperon-dano-fango/songs/fango/Voices-esperon-fango.ogg",
+      "voice_sha256": "6654a9bd98e3588d37a3faf89d1b18cb313c501ed9417bb9c61cba6e53f44595",
+      "syllables": 631,
+      "old_hold_count": 143,
+      "new_hold_count": 318,
+      "hold_count_delta": 175,
+      "repetition_balance_notes": 188,
+      "start_shift_median_ms": -90.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 451,
+        "normal": 631,
+        "hard": 906
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "luma",
+      "voice": "mods/esperon-dano-luma/songs/luma/Voices-esperon-luma.ogg",
+      "voice_sha256": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae",
+      "syllables": 481,
+      "old_hold_count": 171,
+      "new_hold_count": 335,
+      "hold_count_delta": 164,
+      "repetition_balance_notes": 106,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 387,
+        "normal": 481,
+        "hard": 784
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "maraton-de-peliculas",
+      "voice": "mods/esperon-dano-maraton-de-peliculas/songs/maraton-de-peliculas/Voices-esperon-maraton-de-peliculas.ogg",
+      "voice_sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29",
+      "syllables": 588,
+      "old_hold_count": 184,
+      "new_hold_count": 370,
+      "hold_count_delta": 186,
+      "repetition_balance_notes": 126,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 443,
+        "normal": 588,
+        "hard": 903
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "voice": "mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo/songs/me-voy-a-morir-si-no-me-besas-ahora-mismo/Voices-esperon-me-voy-a-morir-si-no-me-besas-ahora-mismo.ogg",
+      "voice_sha256": "c7b009564ad9e319f244ef9068116e900b19a1e6b963ef9ab92b12d895454968",
+      "syllables": 289,
+      "old_hold_count": 136,
+      "new_hold_count": 253,
+      "hold_count_delta": 117,
+      "repetition_balance_notes": 77,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 256,
+        "normal": 289,
+        "hard": 532
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "meteora",
+      "voice": "mods/esperon-dano-meteora/songs/meteora/Voices-esperon-meteora.ogg",
+      "voice_sha256": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387",
+      "syllables": 584,
+      "old_hold_count": 150,
+      "new_hold_count": 319,
+      "hold_count_delta": 169,
+      "repetition_balance_notes": 134,
+      "start_shift_median_ms": -90.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 410,
+        "normal": 584,
+        "hard": 838
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "mi-hogar",
+      "voice": "mods/esperon-dano-mi-hogar/songs/mi-hogar/Voices-esperon-mi-hogar.ogg",
+      "voice_sha256": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2",
+      "syllables": 325,
+      "old_hold_count": 94,
+      "new_hold_count": 180,
+      "hold_count_delta": 86,
+      "repetition_balance_notes": 96,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 242,
+        "normal": 325,
+        "hard": 485
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "nubia",
+      "voice": "mods/esperon-dano-nubia/songs/nubia/Voices-esperon-nubia.ogg",
+      "voice_sha256": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43",
+      "syllables": 411,
+      "old_hold_count": 161,
+      "new_hold_count": 270,
+      "hold_count_delta": 109,
+      "repetition_balance_notes": 112,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 333,
+        "normal": 411,
+        "hard": 661
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "nuestro-amor-no-es-normal",
+      "voice": "mods/esperon-dano-nuestro-amor-no-es-normal/songs/nuestro-amor-no-es-normal/Voices-esperon-nuestro-amor-no-es-normal.ogg",
+      "voice_sha256": "20d6a77f8924b647d65e0de5da9a54cf74f0635f1d3de658030a3dc214de303d",
+      "syllables": 321,
+      "old_hold_count": 114,
+      "new_hold_count": 227,
+      "hold_count_delta": 113,
+      "repetition_balance_notes": 56,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 260,
+        "normal": 321,
+        "hard": 533
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "peligrosa",
+      "voice": "mods/esperon-dano-peligrosa/songs/peligrosa/Voices-esperon-peligrosa.ogg",
+      "voice_sha256": "84320681677a74d57b6b41c1841a5a187a753b1a28885b04e3791e63b9a3dfcf",
+      "syllables": 666,
+      "old_hold_count": 170,
+      "new_hold_count": 342,
+      "hold_count_delta": 172,
+      "repetition_balance_notes": 166,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 473,
+        "normal": 666,
+        "hard": 967
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "rompecabezas",
+      "voice": "mods/esperon-dano-rompecabezas/songs/rompecabezas/Voices-esperon-rompecabezas.ogg",
+      "voice_sha256": "29740069e4b301802cc5670d26e7197f7e02d0d30c8208565c0097a527f2df1a",
+      "syllables": 591,
+      "old_hold_count": 196,
+      "new_hold_count": 366,
+      "hold_count_delta": 170,
+      "repetition_balance_notes": 137,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 455,
+        "normal": 591,
+        "hard": 912
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "si-te-vas",
+      "voice": "mods/esperon-dano-si-te-vas/songs/si-te-vas/Voices-esperon-si-te-vas.ogg",
+      "voice_sha256": "1c1a49176ab37dce792218b8a1c8cf7971a9ab3b6b8ffda9a201c2b32cfa984c",
+      "syllables": 483,
+      "old_hold_count": 134,
+      "new_hold_count": 294,
+      "hold_count_delta": 160,
+      "repetition_balance_notes": 139,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 365,
+        "normal": 483,
+        "hard": 744
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "solare",
+      "voice": "mods/esperon-dano-solare/songs/solare/Voices-esperon-solare.ogg",
+      "voice_sha256": "a52a6af6ccb47ec8124d2761030dd114572bbf03c7416d82fa6eb6b2afc9edf8",
+      "syllables": 572,
+      "old_hold_count": 225,
+      "new_hold_count": 395,
+      "hold_count_delta": 170,
+      "repetition_balance_notes": 132,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 445,
+        "normal": 572,
+        "hard": 910
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "tristella",
+      "voice": "mods/esperon-dano-tristella/songs/tristella/Voices-esperon-tristella.ogg",
+      "voice_sha256": "6bb0d57f014acb3cf0d9780d4ff237979fe1eb5886a55320829187908c22b198",
+      "syllables": 527,
+      "old_hold_count": 172,
+      "new_hold_count": 353,
+      "hold_count_delta": 181,
+      "repetition_balance_notes": 132,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 419,
+        "normal": 527,
+        "hard": 840
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "tu-dealer-de-nostalgia",
+      "voice": "mods/esperon-dano-tu-dealer-de-nostalgia/songs/tu-dealer-de-nostalgia/Voices-esperon-tu-dealer-de-nostalgia.ogg",
+      "voice_sha256": "b2d06d61368b0d4898b6d5c11012253f78d36ed5eea2e603cc2729c5cd72a13f",
+      "syllables": 509,
+      "old_hold_count": 125,
+      "new_hold_count": 272,
+      "hold_count_delta": 147,
+      "repetition_balance_notes": 128,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 367,
+        "normal": 509,
+        "hard": 731
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "un-poco-bien-un-poco-mal",
+      "voice": "mods/esperon-dano-un-poco-bien-un-poco-mal/songs/un-poco-bien-un-poco-mal/Voices-esperon-un-poco-bien-un-poco-mal.ogg",
+      "voice_sha256": "7388a64004026394b9e61e9c61d106fd07b6f14ddb30889c9bc06e882d3ab229",
+      "syllables": 407,
+      "old_hold_count": 147,
+      "new_hold_count": 275,
+      "hold_count_delta": 128,
+      "repetition_balance_notes": 92,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 317,
+        "normal": 407,
+        "hard": 648
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    },
+    {
+      "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "song": "volver-a-vernos",
+      "voice": "mods/esperon-dano-volver-a-vernos/songs/volver-a-vernos/Voices-esperon-volver-a-vernos.ogg",
+      "voice_sha256": "c543075e51e71ecf3443c52d567e13fb20537ea98badef8c91e466798cd44b14",
+      "syllables": 657,
+      "old_hold_count": 153,
+      "new_hold_count": 292,
+      "hold_count_delta": 139,
+      "repetition_balance_notes": 183,
+      "start_shift_median_ms": -100.0,
+      "start_shift_p95_abs_ms": 100.0,
+      "notes": {
+        "easy": 444,
+        "normal": 657,
+        "hard": 905
+      },
+      "policy": [
+        "Player notes use d=0..3.",
+        "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+        "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+        "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+        "Hard subdivisions inherit their parent direction and vocal interval.",
+        "Production is not modified by this candidate build."
+      ]
+    }
+  ],
+  "production_untouched": true
+}

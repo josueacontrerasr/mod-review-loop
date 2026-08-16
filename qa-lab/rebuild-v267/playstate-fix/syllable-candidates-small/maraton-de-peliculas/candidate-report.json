@@ -1,0 +1,27 @@
+{
+  "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "maraton-de-peliculas",
+  "voice": "mods/esperon-dano-maraton-de-peliculas/songs/maraton-de-peliculas/Voices-esperon-maraton-de-peliculas.ogg",
+  "voice_sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29",
+  "syllables": 588,
+  "old_hold_count": 184,
+  "new_hold_count": 370,
+  "hold_count_delta": 186,
+  "repetition_balance_notes": 126,
+  "start_shift_median_ms": -100.0,
+  "start_shift_p95_abs_ms": 100.0,
+  "notes": {
+    "easy": 443,
+    "normal": 588,
+    "hard": 903
+  },
+  "policy": [
+    "Player notes use d=0..3.",
+    "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+    "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+    "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+    "Hard subdivisions inherit their parent direction and vocal interval.",
+    "Production is not modified by this candidate build."
+  ]
+}

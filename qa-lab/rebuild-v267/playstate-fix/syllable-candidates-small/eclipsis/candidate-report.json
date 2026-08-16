@@ -1,0 +1,27 @@
+{
+  "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "eclipsis",
+  "voice": "mods/esperon-dano-eclipsis/songs/eclipsis/Voices-esperon-eclipsis.ogg",
+  "voice_sha256": "e88fc4e0491245492c62622242dfdd16c2802a7b3ad97c1bc1b15d7944610e98",
+  "syllables": 612,
+  "old_hold_count": 175,
+  "new_hold_count": 411,
+  "hold_count_delta": 236,
+  "repetition_balance_notes": 185,
+  "start_shift_median_ms": -100.0,
+  "start_shift_p95_abs_ms": 100.0,
+  "notes": {
+    "easy": 480,
+    "normal": 612,
+    "hard": 988
+  },
+  "policy": [
+    "Player notes use d=0..3.",
+    "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+    "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+    "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+    "Hard subdivisions inherit their parent direction and vocal interval.",
+    "Production is not modified by this candidate build."
+  ]
+}

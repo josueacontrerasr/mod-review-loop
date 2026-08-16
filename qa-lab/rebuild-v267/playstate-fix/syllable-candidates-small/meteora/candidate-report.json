@@ -1,0 +1,27 @@
+{
+  "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "meteora",
+  "voice": "mods/esperon-dano-meteora/songs/meteora/Voices-esperon-meteora.ogg",
+  "voice_sha256": "806f1c6633f8ab94204efc60d84f6b827264322b3f098b57dc7c2559feaa4387",
+  "syllables": 584,
+  "old_hold_count": 150,
+  "new_hold_count": 319,
+  "hold_count_delta": 169,
+  "repetition_balance_notes": 134,
+  "start_shift_median_ms": -90.0,
+  "start_shift_p95_abs_ms": 100.0,
+  "notes": {
+    "easy": 410,
+    "normal": 584,
+    "hard": 838
+  },
+  "policy": [
+    "Player notes use d=0..3.",
+    "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+    "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+    "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+    "Hard subdivisions inherit their parent direction and vocal interval.",
+    "Production is not modified by this candidate build."
+  ]
+}

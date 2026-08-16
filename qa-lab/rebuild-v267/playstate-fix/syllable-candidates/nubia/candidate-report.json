@@ -1,0 +1,27 @@
+{
+  "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "nubia",
+  "voice": "mods/esperon-dano-nubia/songs/nubia/Voices-esperon-nubia.ogg",
+  "voice_sha256": "0d28bbf27e9732379f7d0f41b93c0bc566bcf24686888e244d7735e550dc3f43",
+  "syllables": 411,
+  "old_hold_count": 161,
+  "new_hold_count": 270,
+  "hold_count_delta": 109,
+  "repetition_balance_notes": 112,
+  "start_shift_median_ms": -100.0,
+  "start_shift_p95_abs_ms": 100.0,
+  "notes": {
+    "easy": 333,
+    "normal": 411,
+    "hard": 661
+  },
+  "policy": [
+    "Player notes use d=0..3.",
+    "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+    "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+    "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+    "Hard subdivisions inherit their parent direction and vocal interval.",
+    "Production is not modified by this candidate build."
+  ]
+}

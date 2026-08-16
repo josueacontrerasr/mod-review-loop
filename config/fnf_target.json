@@ -70,8 +70,8 @@
     "si-te-vas"
   ],
   "release_policy": {
-    "current_mod_version": "2.6.6",
-    "change_summary": "Lanes de jugador d=0..3; Freeplay con álbum PNG/XML oficial; charts silábicos con mapeo A=0/E=2/I=3/O-U=1, cola RMS y holds proporcionales; 21 mods"
+    "current_mod_version": "2.6.7",
+    "change_summary": "Lanes d=0..3; sincronización RMS-VAD, holds retimed y balanceo de rachas vocálicas; Freeplay AlbumRoll verificado; 21 mods"
   },
   "qa_policy": {
     "rounds": 20,
@@ -79,7 +79,7 @@
     "difficulties_per_mod": 3,
     "runtime_zip_must_exclude_evidence": true,
     "no_artificial_version_bumps": true,
-    "playstate_required_chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.6 vocal syllable vowel-mapped player lanes d=0..3",
+    "playstate_required_chart_generatedBy": "Friday Night Funkin' - 0.8.6; V2.6.7 vocal RMS-VAD retimed holds and repetition-balanced player lanes d=0..3",
     "freeplay_cover_dimensions": [
       512,
       512
@@ -94,7 +94,7 @@
     "stable_branch_prefix": "f75a74f",
     "no_automatic_merge_or_release_on_divergence": true
   },
-  "mod_version": "2.6.6",
+  "mod_version": "2.6.7",
   "songs_count": 21,
   "mods_per_qa_round": 21,
   "qa_rounds": 20,

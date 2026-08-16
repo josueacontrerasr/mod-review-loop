@@ -1,0 +1,27 @@
+{
+  "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "luma",
+  "voice": "mods/esperon-dano-luma/songs/luma/Voices-esperon-luma.ogg",
+  "voice_sha256": "d912e530728766282bb8607e2155b55722094c9a16d04ec825a5be92c52921ae",
+  "syllables": 481,
+  "old_hold_count": 171,
+  "new_hold_count": 335,
+  "hold_count_delta": 164,
+  "repetition_balance_notes": 106,
+  "start_shift_median_ms": -100.0,
+  "start_shift_p95_abs_ms": 100.0,
+  "notes": {
+    "easy": 387,
+    "normal": 481,
+    "hard": 784
+  },
+  "policy": [
+    "Player notes use d=0..3.",
+    "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+    "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+    "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+    "Hard subdivisions inherit their parent direction and vocal interval.",
+    "Production is not modified by this candidate build."
+  ]
+}

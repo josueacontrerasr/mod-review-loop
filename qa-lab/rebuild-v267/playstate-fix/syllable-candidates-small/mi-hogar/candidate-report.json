@@ -1,0 +1,27 @@
+{
+  "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "mi-hogar",
+  "voice": "mods/esperon-dano-mi-hogar/songs/mi-hogar/Voices-esperon-mi-hogar.ogg",
+  "voice_sha256": "b3f16c35f6af1120c7cf240f0f4bdd6bd568a8095a9f1e3a4e229b00b2d0fdb2",
+  "syllables": 325,
+  "old_hold_count": 94,
+  "new_hold_count": 180,
+  "hold_count_delta": 86,
+  "repetition_balance_notes": 96,
+  "start_shift_median_ms": -100.0,
+  "start_shift_p95_abs_ms": 100.0,
+  "notes": {
+    "easy": 242,
+    "normal": 325,
+    "hard": 485
+  },
+  "policy": [
+    "Player notes use d=0..3.",
+    "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+    "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+    "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+    "Hard subdivisions inherit their parent direction and vocal interval.",
+    "Production is not modified by this candidate build."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "scope": "VOCAL_SYLLABLE_RMS_VAD_RETIMED_VOWEL_BALANCED_CANDIDATE_V267",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "si-te-vas",
+  "voice": "mods/esperon-dano-si-te-vas/songs/si-te-vas/Voices-esperon-si-te-vas.ogg",
+  "voice_sha256": "1c1a49176ab37dce792218b8a1c8cf7971a9ab3b6b8ffda9a201c2b32cfa984c",
+  "syllables": 483,
+  "old_hold_count": 134,
+  "new_hold_count": 294,
+  "hold_count_delta": 160,
+  "repetition_balance_notes": 139,
+  "start_shift_median_ms": -100.0,
+  "start_shift_p95_abs_ms": 100.0,
+  "notes": {
+    "easy": 365,
+    "normal": 483,
+    "hard": 744
+  },
+  "policy": [
+    "Player notes use d=0..3.",
+    "A=0, E=2, I=3, O/U=1 as primary direction mapping.",
+    "Repeated same-vowel attacks use deterministic repetition balance after the first attack.",
+    "Holds use RMS-VAD end evidence, 30 ms release margin and next-attack boundary.",
+    "Hard subdivisions inherit their parent direction and vocal interval.",
+    "Production is not modified by this candidate build."
+  ]
+}
