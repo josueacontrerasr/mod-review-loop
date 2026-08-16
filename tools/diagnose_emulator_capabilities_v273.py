@@ -65,7 +65,7 @@ def main() -> int:
         "commands": commands,
         "repo": {"root": str(ROOT), "branch": run("git", "-C", str(ROOT), "branch", "--show-current"), "head": run("git", "-C", str(ROOT), "rev-parse", "HEAD")},
     }
-    out = ROOT / "qa-lab" / "rebuild-v272" / "emulator-v273" / "capability-baseline.json"
+    out = ROOT / "qa-lab" / "rebuild-v273" / "emulator-v273" / "capability-baseline.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"output": str(out), "kvm": result["virtualization"]["kvm_exists"], "vmx_or_svm": result["virtualization"]["vmx_or_svm_visible"], "adb": result["paths"]["adb"], "avd": AVD_NAME}, ensure_ascii=False))

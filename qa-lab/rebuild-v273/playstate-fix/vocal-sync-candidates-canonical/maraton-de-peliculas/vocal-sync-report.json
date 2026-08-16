@@ -1,0 +1,1927 @@
+{
+  "scope": "V273_CALIBRATED_VOCAL_ONSET_CANDIDATE",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "song": "maraton-de-peliculas",
+  "base_chart": "mods/esperon-dano-maraton-de-peliculas/data/songs/maraton-de-peliculas/maraton-de-peliculas-chart.json",
+  "alignment_source": "qa-lab/rebuild-v272/playstate-fix/vocal-sync-candidates-canonical/maraton-de-peliculas/syllable-alignment.json",
+  "voice_sha256": "d7ec0d7df3a3ec85acf774b6076252c0c0432a05d6ff8aabedd24bf0338cee29",
+  "generatedBy": "Friday Night Funkin' - 0.8.6; V2.7.3 calibrated vocal onsets, syllable-accurate holds and player lanes d=0..3",
+  "original_notes": {
+    "normal": 588,
+    "easy": 376,
+    "hard": 902
+  },
+  "candidate_notes": {
+    "normal": 588,
+    "easy": 376,
+    "hard": 902
+  },
+  "removed_notes": {
+    "easy": 0,
+    "normal": 0,
+    "hard": 0
+  },
+  "aligned_syllables": 588,
+  "direction_balance_changes": 126,
+  "reductions": {
+    "normal": [],
+    "easy": [],
+    "hard": [
+      {
+        "base_t": 620.0,
+        "subdivision_t": 735.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 910.0,
+        "subdivision_t": 1095.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 1590.0,
+        "subdivision_t": 1810.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 2340.0,
+        "subdivision_t": 2725.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 4390.0,
+        "subdivision_t": 4555.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 5160.0,
+        "subdivision_t": 5300.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 5500.0,
+        "subdivision_t": 5590.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 5910.0,
+        "subdivision_t": 6190.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 6650.0,
+        "subdivision_t": 6915.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 7470.0,
+        "subdivision_t": 7560.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 7710.0,
+        "subdivision_t": 7845.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 8040.0,
+        "subdivision_t": 8370.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 8940.0,
+        "subdivision_t": 9135.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 9580.0,
+        "subdivision_t": 9820.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 10660.0,
+        "subdivision_t": 10800.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 11000.0,
+        "subdivision_t": 11275.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 11760.0,
+        "subdivision_t": 11895.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 12160.0,
+        "subdivision_t": 12335.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 12570.0,
+        "subdivision_t": 12730.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 13070.0,
+        "subdivision_t": 13515.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 14810.0,
+        "subdivision_t": 15110.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 15680.0,
+        "subdivision_t": 15810.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 16000.0,
+        "subdivision_t": 16140.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 16340.0,
+        "subdivision_t": 16800.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 18360.0,
+        "subdivision_t": 18470.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 18640.0,
+        "subdivision_t": 18735.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 18890.0,
+        "subdivision_t": 19050.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 19470.0,
+        "subdivision_t": 19605.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 19800.0,
+        "subdivision_t": 20170.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 20600.0,
+        "subdivision_t": 20855.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 21170.0,
+        "subdivision_t": 21340.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 21690.0,
+        "subdivision_t": 22200.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 23000.0,
+        "subdivision_t": 23190.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 23640.0,
+        "subdivision_t": 24085.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 24590.0,
+        "subdivision_t": 24745.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 24960.0,
+        "subdivision_t": 25065.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 25230.0,
+        "subdivision_t": 25320.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 25470.0,
+        "subdivision_t": 25685.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 25960.0,
+        "subdivision_t": 26055.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 26410.0,
+        "subdivision_t": 26635.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 26920.0,
+        "subdivision_t": 27360.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 29310.0,
+        "subdivision_t": 29440.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 29630.0,
+        "subdivision_t": 29735.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 29900.0,
+        "subdivision_t": 30060.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 30280.0,
+        "subdivision_t": 30575.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 30930.0,
+        "subdivision_t": 31230.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 31590.0,
+        "subdivision_t": 31700.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 31870.0,
+        "subdivision_t": 32075.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 32340.0,
+        "subdivision_t": 32445.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 32730.0,
+        "subdivision_t": 32860.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 33840.0,
+        "subdivision_t": 34095.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 34410.0,
+        "subdivision_t": 35075.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 37080.0,
+        "subdivision_t": 37455.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 37890.0,
+        "subdivision_t": 38130.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 39380.0,
+        "subdivision_t": 39475.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 40360.0,
+        "subdivision_t": 40530.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 40940.0,
+        "subdivision_t": 41110.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 41340.0,
+        "subdivision_t": 41895.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 42510.0,
+        "subdivision_t": 42785.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 43310.0,
+        "subdivision_t": 43465.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 43680.0,
+        "subdivision_t": 43780.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 43940.0,
+        "subdivision_t": 44050.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 44220.0,
+        "subdivision_t": 44535.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 44910.0,
+        "subdivision_t": 45175.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 45660.0,
+        "subdivision_t": 45990.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 46800.0,
+        "subdivision_t": 46895.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 47260.0,
+        "subdivision_t": 47370.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 47540.0,
+        "subdivision_t": 47785.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 48090.0,
+        "subdivision_t": 48390.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 48750.0,
+        "subdivision_t": 48935.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 49180.0,
+        "subdivision_t": 49505.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 49890.0,
+        "subdivision_t": 49980.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 50720.0,
+        "subdivision_t": 50840.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 51020.0,
+        "subdivision_t": 51160.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 51360.0,
+        "subdivision_t": 51550.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 51800.0,
+        "subdivision_t": 51990.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 52240.0,
+        "subdivision_t": 52660.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 54050.0,
+        "subdivision_t": 54160.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 54480.0,
+        "subdivision_t": 54595.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 55170.0,
+        "subdivision_t": 55305.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 55500.0,
+        "subdivision_t": 55590.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 55740.0,
+        "subdivision_t": 55980.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 56280.0,
+        "subdivision_t": 56905.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 65310.0,
+        "subdivision_t": 65505.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 66270.0,
+        "subdivision_t": 66535.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 67070.0,
+        "subdivision_t": 67280.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 67680.0,
+        "subdivision_t": 67800.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 67980.0,
+        "subdivision_t": 68265.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 68830.0,
+        "subdivision_t": 69110.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 69450.0,
+        "subdivision_t": 69590.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 70010.0,
+        "subdivision_t": 70290.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 71380.0,
+        "subdivision_t": 71530.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 71740.0,
+        "subdivision_t": 72075.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 72470.0,
+        "subdivision_t": 72675.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 72940.0,
+        "subdivision_t": 73120.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 73360.0,
+        "subdivision_t": 73450.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 73600.0,
+        "subdivision_t": 73790.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 74190.0,
+        "subdivision_t": 74375.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 74620.0,
+        "subdivision_t": 74740.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 75260.0,
+        "subdivision_t": 75355.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 75720.0,
+        "subdivision_t": 76025.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 76390.0,
+        "subdivision_t": 76495.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 76660.0,
+        "subdivision_t": 76890.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 77180.0,
+        "subdivision_t": 77380.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 77640.0,
+        "subdivision_t": 77765.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 78120.0,
+        "subdivision_t": 78210.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 79120.0,
+        "subdivision_t": 79475.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 79890.0,
+        "subdivision_t": 80080.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 80470.0,
+        "subdivision_t": 80585.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 81150.0,
+        "subdivision_t": 81375.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 81710.0,
+        "subdivision_t": 82220.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 83380.0,
+        "subdivision_t": 83475.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 83630.0,
+        "subdivision_t": 83735.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 84460.0,
+        "subdivision_t": 84585.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 84860.0,
+        "subdivision_t": 85010.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 85220.0,
+        "subdivision_t": 85540.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 86220.0,
+        "subdivision_t": 86335.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 87280.0,
+        "subdivision_t": 87420.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 87840.0,
+        "subdivision_t": 87995.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 88540.0,
+        "subdivision_t": 88665.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 88970.0,
+        "subdivision_t": 89120.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 89330.0,
+        "subdivision_t": 89435.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 89600.0,
+        "subdivision_t": 89710.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 90040.0,
+        "subdivision_t": 90220.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 90840.0,
+        "subdivision_t": 91065.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 91440.0,
+        "subdivision_t": 91540.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 91820.0,
+        "subdivision_t": 91955.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 92510.0,
+        "subdivision_t": 92670.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 92890.0,
+        "subdivision_t": 93075.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 93760.0,
+        "subdivision_t": 93880.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 94180.0,
+        "subdivision_t": 94345.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 95520.0,
+        "subdivision_t": 95700.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 96010.0,
+        "subdivision_t": 96135.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 96530.0,
+        "subdivision_t": 96625.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 96970.0,
+        "subdivision_t": 97105.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 97300.0,
+        "subdivision_t": 97450.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 97660.0,
+        "subdivision_t": 97835.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 98820.0,
+        "subdivision_t": 98980.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 99330.0,
+        "subdivision_t": 99450.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 99630.0,
+        "subdivision_t": 99810.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 100280.0,
+        "subdivision_t": 100440.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 100660.0,
+        "subdivision_t": 100750.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 100900.0,
+        "subdivision_t": 101120.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 101400.0,
+        "subdivision_t": 101620.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 101900.0,
+        "subdivision_t": 102145.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 102450.0,
+        "subdivision_t": 102545.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 103230.0,
+        "subdivision_t": 103395.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 103620.0,
+        "subdivision_t": 103895.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 104230.0,
+        "subdivision_t": 104335.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 104500.0,
+        "subdivision_t": 104640.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 105520.0,
+        "subdivision_t": 105665.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 105870.0,
+        "subdivision_t": 106020.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 106460.0,
+        "subdivision_t": 106565.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 106730.0,
+        "subdivision_t": 106855.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 107200.0,
+        "subdivision_t": 107335.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 107610.0,
+        "subdivision_t": 107960.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 108370.0,
+        "subdivision_t": 108560.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 109020.0,
+        "subdivision_t": 109165.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 109370.0,
+        "subdivision_t": 109480.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 109650.0,
+        "subdivision_t": 110250.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 111860.0,
+        "subdivision_t": 112010.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 112630.0,
+        "subdivision_t": 112965.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 113360.0,
+        "subdivision_t": 113580.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 113860.0,
+        "subdivision_t": 114185.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 114900.0,
+        "subdivision_t": 115140.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 115440.0,
+        "subdivision_t": 115610.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 115840.0,
+        "subdivision_t": 116125.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 116470.0,
+        "subdivision_t": 116575.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 116920.0,
+        "subdivision_t": 117065.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 117270.0,
+        "subdivision_t": 117465.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 117720.0,
+        "subdivision_t": 117950.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 118240.0,
+        "subdivision_t": 118350.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 118520.0,
+        "subdivision_t": 118615.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 119160.0,
+        "subdivision_t": 119280.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 119580.0,
+        "subdivision_t": 119720.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 120040.0,
+        "subdivision_t": 120220.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 120460.0,
+        "subdivision_t": 120560.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 120720.0,
+        "subdivision_t": 120870.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 121080.0,
+        "subdivision_t": 121170.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 121320.0,
+        "subdivision_t": 121445.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 121650.0,
+        "subdivision_t": 121990.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 122390.0,
+        "subdivision_t": 122580.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 122830.0,
+        "subdivision_t": 123005.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 123440.0,
+        "subdivision_t": 123595.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 123810.0,
+        "subdivision_t": 124120.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 124490.0,
+        "subdivision_t": 124945.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 125460.0,
+        "subdivision_t": 125645.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 125890.0,
+        "subdivision_t": 126065.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 126300.0,
+        "subdivision_t": 126400.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 126560.0,
+        "subdivision_t": 126660.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 127640.0,
+        "subdivision_t": 127825.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 128070.0,
+        "subdivision_t": 128165.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 128320.0,
+        "subdivision_t": 128550.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 129180.0,
+        "subdivision_t": 129795.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 130780.0,
+        "subdivision_t": 130915.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 131770.0,
+        "subdivision_t": 131930.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 132150.0,
+        "subdivision_t": 132270.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 132450.0,
+        "subdivision_t": 133090.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 134680.0,
+        "subdivision_t": 134770.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 134920.0,
+        "subdivision_t": 135100.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 135340.0,
+        "subdivision_t": 135555.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 135890.0,
+        "subdivision_t": 136045.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 136260.0,
+        "subdivision_t": 136960.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 138340.0,
+        "subdivision_t": 138430.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 138580.0,
+        "subdivision_t": 138760.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 139000.0,
+        "subdivision_t": 139185.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 139430.0,
+        "subdivision_t": 139910.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 141490.0,
+        "subdivision_t": 141595.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 141760.0,
+        "subdivision_t": 141900.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 142100.0,
+        "subdivision_t": 142190.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 142340.0,
+        "subdivision_t": 142605.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 143280.0,
+        "subdivision_t": 143850.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 144940.0,
+        "subdivision_t": 145035.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 145380.0,
+        "subdivision_t": 145485.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 145760.0,
+        "subdivision_t": 145960.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 146220.0,
+        "subdivision_t": 146495.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 146830.0,
+        "subdivision_t": 146965.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 147160.0,
+        "subdivision_t": 147680.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 148960.0,
+        "subdivision_t": 149165.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 149430.0,
+        "subdivision_t": 149630.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 150060.0,
+        "subdivision_t": 150645.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 152120.0,
+        "subdivision_t": 152255.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 152570.0,
+        "subdivision_t": 152695.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 152880.0,
+        "subdivision_t": 152985.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 153150.0,
+        "subdivision_t": 153295.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 153640.0,
+        "subdivision_t": 153880.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 154380.0,
+        "subdivision_t": 154770.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 155220.0,
+        "subdivision_t": 156105.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 157460.0,
+        "subdivision_t": 157635.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 157870.0,
+        "subdivision_t": 158110.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 158600.0,
+        "subdivision_t": 159010.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 159660.0,
+        "subdivision_t": 159760.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 160040.0,
+        "subdivision_t": 160255.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 160590.0,
+        "subdivision_t": 160765.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 161180.0,
+        "subdivision_t": 161370.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 161620.0,
+        "subdivision_t": 161750.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 161940.0,
+        "subdivision_t": 162495.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 163110.0,
+        "subdivision_t": 163260.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 163470.0,
+        "subdivision_t": 163725.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 164040.0,
+        "subdivision_t": 164200.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 164420.0,
+        "subdivision_t": 164540.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 164720.0,
+        "subdivision_t": 164895.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 165130.0,
+        "subdivision_t": 165430.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 165880.0,
+        "subdivision_t": 165990.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 166160.0,
+        "subdivision_t": 166265.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 166430.0,
+        "subdivision_t": 166620.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 166870.0,
+        "subdivision_t": 167165.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 167520.0,
+        "subdivision_t": 167675.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 167890.0,
+        "subdivision_t": 168040.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 168320.0,
+        "subdivision_t": 168460.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 168660.0,
+        "subdivision_t": 169115.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 171040.0,
+        "subdivision_t": 171205.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 171430.0,
+        "subdivision_t": 171625.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 171880.0,
+        "subdivision_t": 172135.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 172620.0,
+        "subdivision_t": 173015.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 173470.0,
+        "subdivision_t": 173630.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 173970.0,
+        "subdivision_t": 174145.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 174500.0,
+        "subdivision_t": 174710.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 175200.0,
+        "subdivision_t": 175390.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 175820.0,
+        "subdivision_t": 176595.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 177650.0,
+        "subdivision_t": 177835.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 178080.0,
+        "subdivision_t": 178350.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 179100.0,
+        "subdivision_t": 179425.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 179920.0,
+        "subdivision_t": 180010.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 180280.0,
+        "subdivision_t": 180565.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 180910.0,
+        "subdivision_t": 181195.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 181970.0,
+        "subdivision_t": 182145.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 182380.0,
+        "subdivision_t": 182500.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 182800.0,
+        "subdivision_t": 183400.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 184060.0,
+        "subdivision_t": 184760.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 185900.0,
+        "subdivision_t": 186135.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 186720.0,
+        "subdivision_t": 187105.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 187980.0,
+        "subdivision_t": 188215.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 188510.0,
+        "subdivision_t": 188725.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 189000.0,
+        "subdivision_t": 189220.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 189500.0,
+        "subdivision_t": 189665.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 189890.0,
+        "subdivision_t": 189985.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 190140.0,
+        "subdivision_t": 190765.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 191580.0,
+        "subdivision_t": 191875.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 192230.0,
+        "subdivision_t": 192440.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 192830.0,
+        "subdivision_t": 192945.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 193120.0,
+        "subdivision_t": 193450.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 193940.0,
+        "subdivision_t": 194030.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 194180.0,
+        "subdivision_t": 194290.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 194460.0,
+        "subdivision_t": 194660.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 194920.0,
+        "subdivision_t": 195205.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 195760.0,
+        "subdivision_t": 195950.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 196320.0,
+        "subdivision_t": 196470.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 196680.0,
+        "subdivision_t": 197140.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 200780.0,
+        "subdivision_t": 200880.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 201160.0,
+        "subdivision_t": 201330.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 202540.0,
+        "subdivision_t": 202650.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 203660.0,
+        "subdivision_t": 203770.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 205140.0,
+        "subdivision_t": 205235.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 205750.0,
+        "subdivision_t": 205890.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 206090.0,
+        "subdivision_t": 206225.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 206490.0,
+        "subdivision_t": 206735.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 207040.0,
+        "subdivision_t": 207290.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 207600.0,
+        "subdivision_t": 207825.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 208920.0,
+        "subdivision_t": 209080.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 209550.0,
+        "subdivision_t": 209705.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 209920.0,
+        "subdivision_t": 210090.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 210380.0,
+        "subdivision_t": 210640.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 211010.0,
+        "subdivision_t": 211275.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 211960.0,
+        "subdivision_t": 212085.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 212360.0,
+        "subdivision_t": 212610.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 213580.0,
+        "subdivision_t": 214180.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 214840.0,
+        "subdivision_t": 214930.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 215300.0,
+        "subdivision_t": 215625.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 217200.0,
+        "subdivision_t": 217355.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 219630.0,
+        "subdivision_t": 219830.0,
+        "d": 2,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 220090.0,
+        "subdivision_t": 220255.0,
+        "d": 1,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 220600.0,
+        "subdivision_t": 220775.0,
+        "d": 3,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      },
+      {
+        "base_t": 227040.0,
+        "subdivision_t": 227275.0,
+        "d": 0,
+        "reason": "hard_subdivision_inside_isolated_measured_vocal_hold"
+      }
+    ]
+  },
+  "total_reduction_events": 314,
+  "candidate_policy": {
+    "dense_500_ms": "not collapsed; two or three Spanish syllables in 500ms remain separate attacks",
+    "dense_1000_ms": "observed only; all measured vocal attacks are preserved",
+    "engine_collision_ms": 12.0,
+    "holds": "only alignment kinds sustained_syllable/interjection_hold with measured hold >= 180ms, bounded by vocal end and next attack",
+    "hard_subdivisions": "added only inside measured holds >= 180ms and rechecked for collision",
+    "player_lanes": "d=0..3",
+    "production_untouched": true
+  },
+  "production_untouched": true
+}

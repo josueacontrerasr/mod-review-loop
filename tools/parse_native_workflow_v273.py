@@ -10,7 +10,7 @@ except ImportError as exc:
     raise SystemExit(f"PyYAML unavailable: {exc}")
 
 root = Path(__file__).resolve().parents[1]
-path = root / ".github/workflows/native-android-mobile-smoke-v272.yml"
+path = root / ".github/workflows/native-android-mobile-smoke-v273.yml"
 data = yaml.safe_load(path.read_text(encoding="utf-8"))
 if not isinstance(data, dict) or "jobs" not in data or "native-smoke" not in data["jobs"]:
     raise SystemExit("workflow structure missing jobs.native-smoke")
