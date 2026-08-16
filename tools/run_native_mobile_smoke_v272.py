@@ -72,6 +72,48 @@ def push_mod(serial: str, mod: Path) -> dict[str, Any]:
     }
 
 
+def wait_for_package_ready(serial: str, timeout_seconds: int = 60) -> dict[str, Any]:
+    started = time.monotonic()
+    polls: list[dict[str, str]] = []
+    while time.monotonic() - started < timeout_seconds:
+        pid = run_adb(serial, "shell", "pidof", PACKAGE, timeout=30)
+        activity = run_adb(serial, "shell", "dumpsys", "activity", "activities", timeout=30)
+        row = {"pid": pid.stdout.strip(), "activity_has_package": PACKAGE in activity.stdout}
+        polls.append({k: str(v) for k, v in row.items()})
+        if pid.returncode == 0 and pid.stdout.strip() and row["activity_has_package"]:
+            return {"status": "PASS", "elapsed_seconds": round(time.monotonic() - started, 2), "polls": polls[-12:], **row}
+        time.sleep(2)
+    return {"status": "ERROR", "elapsed_seconds": round(time.monotonic() - started, 2), "polls": polls[-12:], "error": "package_not_ready"}
+
+
+def capture_ui(serial: str, output: Path, label: str) -> dict[str, Any]:
+    xml_remote = "/sdcard/window-v273.xml"
+    xml_local = output / f"{label}.ui.xml"
+    dump = run_adb(serial, "shell", "uiautomator", "dump", xml_remote, timeout=60)
+    pulled = run_adb(serial, "pull", xml_remote, str(xml_local), timeout=60)
+    return {
+        "ui_dump": str(xml_local),
+        "dump_stdout": dump.stdout[-1000:],
+        "dump_stderr": dump.stderr[-1000:],
+        "status": "PASS" if dump.returncode == 0 and pulled.returncode == 0 and xml_local.exists() else "ERROR",
+    }
+
+
+def capture_performance(serial: str, output: Path, label: str) -> dict[str, Any]:
+    mem_path = output / f"{label}.meminfo.txt"
+    gfx_path = output / f"{label}.gfxinfo.txt"
+    mem = run_adb(serial, "shell", "dumpsys", "meminfo", PACKAGE, timeout=60)
+    gfx = run_adb(serial, "shell", "dumpsys", "gfxinfo", PACKAGE, timeout=60)
+    mem_path.write_text(mem.stdout, encoding="utf-8")
+    gfx_path.write_text(gfx.stdout, encoding="utf-8")
+    return {
+        "meminfo": str(mem_path),
+        "gfxinfo": str(gfx_path),
+        "meminfo_status": "PASS" if mem.returncode == 0 else "ERROR",
+        "gfxinfo_status": "PASS" if gfx.returncode == 0 else "ERROR",
+    }
+
+
 def capture(serial: str, output: Path, label: str) -> dict[str, Any]:
     output.mkdir(parents=True, exist_ok=True)
     screenshot = output / f"{label}.png"
@@ -80,12 +122,16 @@ def capture(serial: str, output: Path, label: str) -> dict[str, Any]:
     logs = run_adb(serial, "logcat", "-d", "-t", "300", timeout=60)
     logcat.write_text(logs.stdout, encoding="utf-8")
     crash_lines = [line for line in logs.stdout.splitlines() if CRASH_RE.search(line)]
+    ui = capture_ui(serial, output, label)
+    perf = capture_performance(serial, output, label)
     return {
         "screenshot": str(screenshot),
         "logcat": str(logcat),
         "screenshot_status": "PASS" if shot.returncode == 0 and screenshot.stat().st_size > 0 else "ERROR",
         "crash_signals": crash_lines[-20:],
-        "status": "ERROR" if crash_lines else ("PASS" if shot.returncode == 0 else "ERROR"),
+        "ui": ui,
+        "performance": perf,
+        "status": "ERROR" if crash_lines else ("PASS" if shot.returncode == 0 and ui["status"] == "PASS" else "ERROR"),
     }
 
 
@@ -94,8 +140,9 @@ def main() -> int:
     parser.add_argument("root", type=Path, nargs="?", default=Path("."))
     parser.add_argument("--apk", type=Path, required=True, help="APK proporcionada por el usuario o compilada de fuente")
     parser.add_argument("--serial", default="emulator-5554")
-    parser.add_argument("--boot-wait-seconds", type=int, default=12)
-    parser.add_argument("--per-mod-wait-seconds", type=int, default=8)
+    parser.add_argument("--boot-wait-seconds", type=int, default=12, help="Legacy minimum wait retained for compatibility")
+    parser.add_argument("--per-mod-wait-seconds", type=int, default=8, help="Legacy minimum wait retained for compatibility")
+    parser.add_argument("--package-start-timeout-seconds", type=int, default=60)
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -123,8 +170,8 @@ def main() -> int:
         "remote_mod_root": REMOTE_MOD_ROOT,
         "status": "ERRORS_FOUND",
         "limitations": [
-            "Confirma instalación, arranque, transferencia de mod, screenshot y señales de crash.",
-            "No confirma por sí solo que un usuario haya abierto Freeplay y PlayState correctamente; se requiere inspección visual o automatización UI específica del build.",
+            "Confirma instalación, arranque por proceso, transferencia de mod, screenshot, UI dump, memoria, gfxinfo y señales de crash.",
+            "Todavía no navega automáticamente por Freeplay/Story/PlayState; los dumps UI quedan como evidencia para construir selectores específicos del build.",
             "La latencia táctil individual requiere calibración/playtest humano.",
         ],
         "mods": [],
@@ -155,9 +202,9 @@ def main() -> int:
         return 1
 
     run_adb(args.serial, "shell", "am", "force-stop", PACKAGE)
-    launch = run_adb(args.serial, "shell", "monkey", "-p", PACKAGE, "1", timeout=120)
+    launch = run_adb(args.serial, "shell", "monkey", "-p", PACKAGE, "-c", "android.intent.category.LAUNCHER", "1", timeout=120)
     report["initial_launch"] = {"returncode": launch.returncode, "stdout": launch.stdout[-2000:], "stderr": launch.stderr[-2000:]}
-    time.sleep(max(0, args.boot_wait_seconds))
+    report["initial_ready"] = wait_for_package_ready(args.serial, args.package_start_timeout_seconds)
     report["initial_capture"] = capture(args.serial, output, "00_initial")
 
     for index, song in enumerate(SONGS, start=1):
@@ -173,11 +220,11 @@ def main() -> int:
             report["mods"].append(row)
             continue
         run_adb(args.serial, "shell", "am", "force-stop", PACKAGE)
-        launch = run_adb(args.serial, "shell", "monkey", "-p", PACKAGE, "1", timeout=120)
+        launch = run_adb(args.serial, "shell", "monkey", "-p", PACKAGE, "-c", "android.intent.category.LAUNCHER", "1", timeout=120)
         row["launch"] = {"returncode": launch.returncode, "stdout": launch.stdout[-1000:], "stderr": launch.stderr[-1000:]}
-        time.sleep(max(0, args.per_mod_wait_seconds))
+        row["ready"] = wait_for_package_ready(args.serial, args.package_start_timeout_seconds)
         row["capture"] = capture(args.serial, output, f"{index:02d}_{song}")
-        row["status"] = "PASS" if row["launch"]["returncode"] == 0 and row["capture"]["status"] == "PASS" else "ERROR"
+        row["status"] = "PASS" if row["launch"]["returncode"] == 0 and row["ready"]["status"] == "PASS" and row["capture"]["status"] == "PASS" else "ERROR"
         report["mods"].append(row)
 
     report["passed"] = sum(row.get("status") == "PASS" for row in report["mods"])

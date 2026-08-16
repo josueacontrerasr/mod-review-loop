@@ -73,3 +73,37 @@ Fuente primaria del módulo de shaders: https://github.com/FunkinCrew/Funkin/blo
 ## Prueba real dentro del sandbox
 
 Se instaló el Android SDK oficial con `platform-tools`, `emulator`, plataforma Android 35 e imagen `google_apis;x86_64`. Se creó el AVD `fnf-vslice-086`. El sandbox no expone `/dev/kvm` ni flags de virtualización del CPU; el arranque con `-accel off` y GPU desactivada inició QEMU, pero no alcanzó `sys.boot_completed=1` dentro de un tiempo razonable y terminó cerrándose tras un arranque por software prolongado. Durante el intento el sandbox reportó presión de memoria, por lo que el proceso y los componentes temporales se detuvieron para evitar un OOM. Conclusión: el emulador nativo sí se puede preparar conceptualmente, pero este entorno concreto no es capaz de ejecutar de forma fiable un Android interactivo sin KVM. El staging persistente y los gates de archivos sí continúan funcionando.
+
+## Investigación V2.7.3: aceleración y gráficos del Android Emulator
+
+La documentación oficial consultada el 16 de agosto de 2026 distingue dos aceleraciones: gráfica para renderizado y VM para ejecución. Recomienda `-gpu auto` en la mayoría de equipos; `host` suele ofrecer mayor rendimiento, mientras que `software`, `swiftshader`, `lavapipe` y `swangle` son alternativas cuando la GPU/driver no es compatible. La documentación marca `swiftshader_indirect` como obsoleto en versiones recientes del emulador, por lo que el workflow debe migrar a un modo vigente y registrar el renderizador real. También confirma que la aceleración VM depende de un hipervisor y extensiones de virtualización del procesador; la ausencia de `/dev/kvm` y de flags `vmx/svm` del sandbox impide una mejora interna basada en KVM.
+
+Fuente primaria: https://developer.android.com/studio/run/emulator-acceleration
+
+## Investigación V2.7.3: automatización UI
+
+La documentación oficial de UI Automator 2.4 recomienda la API moderna para nuevas pruebas. Sus puntos útiles para FNF son: pruebas desde fuera del proceso de la app, búsqueda por predicados de texto/ID/estado, `onElement`/`onElements`/`onElementOrNull`, esperas condicionales, `waitForStable`, `waitForAppToBeVisible`, manejo de ventanas múltiples, watchers para diálogos inesperados, ciclo de vida de la app, screenshots y `ResultsReporter`. Esto es preferible a depender solo de coordenadas, aunque la interfaz de FNF puede no exponer todos los elementos como nodos accesibles; por eso el plan debe mantener un fallback calibrado por resolución.
+
+Fuente primaria: https://developer.android.com/training/testing/other-components/ui-automator
+
+## Investigación V2.7.3: rendimiento, trazas y CI
+
+La documentación oficial de rendimiento recomienda Perfetto para ver la actividad de todo el dispositivo con tiempos precisos, Memory Profiler para asignaciones y Simpleperf para CPU. Para recorridos automatizados, `dumpsys gfxinfo` permite recoger timing de frames; los percentiles altos son más útiles que un simple conteo de frames janky. La documentación de Macrobenchmark expone `StartupTimingMetric`, `FrameTimingMetric` y `TraceSectionMetric`; `FrameTimingMetric` ofrece `frameOverrunMs` y percentiles P50/P90/P95/P99 en Android 12+, por lo que el laboratorio debería registrar al menos P95/P99 cuando el APK pueda ejecutarse.
+
+La documentación del comando `emulator` confirma que `-accel-check` debe formar parte del diagnóstico; `-accel on` falla si KVM no está disponible; `-accel off` es principalmente de depuración y no es una solución de rendimiento. También recomienda separar `-no-snapshot`, `-no-snapshot-load` y `-no-snapshot-save` según se quiera una imagen limpia o reutilizar Quick Boot. La imagen x86_64 y la aceleración VM son fundamentales para rendimiento; el AVD conserva aplicaciones/estado en su disco de datos, así que `-wipe-data` debe evitarse en las campañas que preservan `optimods`.
+
+La acción open source `ReactiveCircus/android-emulator-runner` automatiza SDK, AVD, arranque, espera de boot y script de pruebas. Documenta que KVM y aceleración gráfica son independientes, que el caché de AVD puede reducir el arranque, y que los runners Linux acelerados son preferibles para CI. También permite controlar API, target, arquitectura, perfil, núcleos, RAM, disco, timeout, opciones del emulador y scripts previos al lanzamiento. Es una solución externa al sandbox, útil para la capa nativa de CI pero no evidencia de ejecución interna.
+
+Fuentes primarias:
+- https://developer.android.com/topic/performance/measuring-performance
+- https://developer.android.com/topic/performance/benchmarking/macrobenchmark-metrics
+- https://developer.android.com/studio/run/emulator-commandline
+- https://github.com/ReactiveCircus/android-emulator-runner
+
+## Investigación V2.7.3: alternativas gratuitas
+
+Waydroid ofrece integración Android sobre Linux y puede ser útil en una computadora Linux con soporte de contenedores/gráficos, pero su instalación depende de la distribución, namespaces, kernel y aceleración del host; no es una solución fiable para este sandbox sin `/dev/kvm` ni un entorno gráfico persistente. Android-x86 en VirtualBox documenta explícitamente que para rendimiento óptimo se necesita VT-x/AMD-V y recomienda alrededor de 2 GB de RAM y 8 GB de disco; por tanto, añade otra capa de virtualización y no resuelve la ausencia de virtualización anidada aquí. Estas opciones quedan como alternativas de computadora local, no como reemplazo interno inmediato.
+
+Fuentes consultadas:
+- https://docs.waydro.id/usage/install-on-desktops
+- https://www.android-x86.org/documentation/virtualbox.html

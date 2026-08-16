@@ -1,0 +1,75 @@
+{
+  "scope": "EMULATOR_CAPABILITY_BASELINE_V273",
+  "collected_at": "2026-08-16T03:35:00.561257+00:00",
+  "host": {
+    "platform": "Linux-6.1.102-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "python": "3.12.3"
+  },
+  "virtualization": {
+    "kvm_exists": false,
+    "kvm_readable": false,
+    "cpu_virtualization_flags": [
+      "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves arat umip pku ospke avx512_vnni md_clear flush_l1d arch_capabilities"
+    ],
+    "vmx_or_svm_visible": false
+  },
+  "memory": {
+    "returncode": 0,
+    "stdout": "total        used        free      shared  buff/cache   available\nMem:      4132876288  1528336384  1243344896    11452416  1846362112  2604539904\nSwap:     2147479552   193916928  1953562624",
+    "stderr": ""
+  },
+  "disk": {
+    "returncode": 0,
+    "stdout": "Filesystem       1B-blocks        Used  Available Use% Mounted on\n/dev/root      42385690624 33134157824 9234755584  79% /",
+    "stderr": ""
+  },
+  "sdk_root": "/home/ubuntu/android-sdk",
+  "paths": {
+    "sdkmanager": true,
+    "avdmanager": true,
+    "emulator": true,
+    "adb": true
+  },
+  "avd_name": "fnf-vslice-086",
+  "commands": {
+    "sdkmanager_version": {
+      "returncode": 0,
+      "stdout": "12.0",
+      "stderr": ""
+    },
+    "avd_list": {
+      "returncode": 0,
+      "stdout": "Available Android Virtual Devices:\n    Name: fnf-vslice-086\n  Device: pixel_7_pro (Google)\n    Path: /home/ubuntu/.android/avd/fnf-vslice-086.avd\n  Target: Google APIs (Google Inc.)\n          Based on: Android API 35 Tag/ABI: google_apis/x86_64\n  Sdcard: 512 MB",
+      "stderr": ""
+    },
+    "emulator_version": {
+      "returncode": 0,
+      "stdout": "Android emulator version 37.1.11.0 (build_id 15917651) (CL:N/A)\nCopyright (C) 2006-2024 The Android Open Source Project and many others.\nThis program is a derivative of the QEMU CPU emulator (www.qemu.org).\n\n  This software is licensed under the terms of the GNU General Public\n  License version 2, as published by the Free Software Foundation, and\n  may be copied, distributed, and modified under those terms.\n\n  This program is distributed in the hope that it will be useful,\n  but WITHOUT ANY WARRANTY; without even the implied warranty of\n  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n  GNU General Public License for more details.",
+      "stderr": ""
+    },
+    "adb_devices": {
+      "returncode": 0,
+      "stdout": "List of devices attached",
+      "stderr": ""
+    },
+    "gpu_tools": {
+      "glxinfo": "/usr/bin/glxinfo",
+      "vulkaninfo": "/usr/bin/vulkaninfo",
+      "Xvfb": "/usr/bin/Xvfb"
+    }
+  },
+  "repo": {
+    "root": "/home/ubuntu/mod-review-loop-production",
+    "branch": {
+      "returncode": 0,
+      "stdout": "auto/fnf-vocal-sync-v272",
+      "stderr": ""
+    },
+    "head": {
+      "returncode": 0,
+      "stdout": "3d08bd3eac0fd8d702dbb8538c7761733bb20673",
+      "stderr": ""
+    }
+  }
+}

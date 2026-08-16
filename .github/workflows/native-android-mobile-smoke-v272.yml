@@ -66,15 +66,17 @@ jobs:
           cores: 2
           ram-size: 2048M
           disk-size: 4096M
-          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
+          emulator-options: -no-window -gpu software -no-snapshot -noaudio -no-boot-anim -camera-back none
           disable-animations: true
           emulator-boot-timeout: 600
+          pre-emulator-launch-script: |
+            set -euo pipefail
+            emulator -accel-check
           script: |
             set -euo pipefail
-            adb wait-for-device
-            adb shell getprop sys.boot_completed | grep -m1 '^1$'
             SERIAL="${ANDROID_SERIAL:-emulator-5554}"
-            python3 tools/run_native_mobile_smoke_v272.py . --apk /tmp/fnf-0.8.6.apk --serial "$SERIAL" --boot-wait-seconds 15 --per-mod-wait-seconds 8
+            python3 tools/android_device_health_v273.py --serial "$SERIAL" --timeout-seconds 600 --output qa-lab/rebuild-v272/native-mobile-smoke-v273/device-health-v273.json
+            python3 tools/run_native_mobile_smoke_v272.py . --apk /tmp/fnf-0.8.6.apk --serial "$SERIAL" --package-start-timeout-seconds 90 --boot-wait-seconds 0 --per-mod-wait-seconds 0
 
       - name: Upload native Android evidence
         if: always()
@@ -84,5 +86,6 @@ jobs:
           if-no-files-found: warn
           path: |
             qa-lab/rebuild-v272/native-mobile-smoke-v272/**
+            qa-lab/rebuild-v272/native-mobile-smoke-v273/**
             qa-lab/rebuild-v272/official-android-stage-v272.json
             qa-lab/rebuild-v272/mobile-loader-v272.json
