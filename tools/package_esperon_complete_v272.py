@@ -66,10 +66,10 @@ def main() -> int:
     rows = []
     for song, mod in zip(SONGS, mods):
         title = "-".join(word.capitalize() for word in song.split("-"))
-        output = delivery / f"Mod-{title}-V{VERSION}.zip"
+        output = delivery / f"Esperon-{title}-V{VERSION}.zip"
         rows.append(make_zip(output, [mod]))
-    complete = make_zip(delivery / "Esperon-Completo.zip", mods)
-    manifest = {"scope": "ESPERON_COMPLETE_PACKAGE_V272", "executed_at": datetime.now(timezone.utc).isoformat(), "mod_version": VERSION, "songs": len(SONGS), "individual_zips": len(rows), "complete_zip": complete, "individual": rows, "delivery_entries": sorted(path.name for path in delivery.iterdir()), "status": "PASS" if len(rows) == 21 and complete["folders"] == [mod.name for mod in mods] else "ERRORS_FOUND", "policy": "Delivery contains only final ZIPs; runtime ZIPs exclude reports and text artifacts."}
+    complete = make_zip(delivery / f"Esperon-Completo-V{VERSION}.zip", mods)
+    manifest = {"scope": "ESPERON_COMPLETE_PACKAGE_V272", "executed_at": datetime.now(timezone.utc).isoformat(), "mod_version": VERSION, "songs": len(SONGS), "individual_zips": len(rows), "complete_zip": complete, "individual": rows, "delivery_entries": sorted(path.name for path in delivery.iterdir()), "status": "PASS" if len(rows) == 21 and complete["folders"] == [mod.name for mod in mods] else "ERRORS_FOUND", "policy": "Delivery contains only final ZIPs named Esperon-<song>-V<version>.zip plus Esperon-Completo-V<version>.zip; runtime ZIPs exclude reports and text artifacts."}
     output = root / "qa-lab" / "rebuild-v272" / "playstate-fix" / "package-manifest-v272.json"
     output.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"songs": manifest["songs"], "individual_zips": manifest["individual_zips"], "complete_zip": complete["path"], "complete_file_count": complete["file_count"], "delivery_entries": len(manifest["delivery_entries"]), "status": manifest["status"], "output": str(output)}, ensure_ascii=False))
