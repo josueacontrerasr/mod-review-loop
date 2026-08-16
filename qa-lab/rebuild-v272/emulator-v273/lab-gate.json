@@ -1,0 +1,18 @@
+{
+  "scope": "EMULATOR_LAB_V273_GATE",
+  "checks": {
+    "required_files": true,
+    "workflow_dispatch": true,
+    "kvm_check": true,
+    "current_gpu_mode": true,
+    "health_check": true,
+    "persistent_gate": true,
+    "package_start_timeout": true,
+    "ui_dump_implemented": true,
+    "gfxinfo_implemented": true,
+    "persistent_policy_documented": true,
+    "no_optimizer_runtime_hit": true
+  },
+  "zip_hits": [],
+  "status": "PASS"
+}
