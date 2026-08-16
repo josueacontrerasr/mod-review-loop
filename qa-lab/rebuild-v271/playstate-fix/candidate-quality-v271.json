@@ -1,0 +1,6374 @@
+{
+  "scope": "WIDE_RESEARCH_V271_CANDIDATE_QUALITY",
+  "created_at": "2026-08-16T00:46:18.282648+00:00",
+  "songs": 21,
+  "parallel_workers": 8,
+  "status": "PASS",
+  "warning_song_count": 0,
+  "warnings": [],
+  "rows": [
+    {
+      "song": "arcoloria",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 273,
+          "base_notes": 374,
+          "change": {
+            "added": 60,
+            "removed": 161,
+            "unchanged": 213
+          },
+          "holds": 170,
+          "hold_ratio": 0.6227,
+          "hold_max_ms": 1770.0,
+          "hold_p95_ms": 1240.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 7140.0,
+            "end_ms": 7640.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 9870.0,
+            "end_ms": 10870.0
+          },
+          "lane_counts": {
+            "0": 62,
+            "1": 68,
+            "2": 85,
+            "3": 58
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 433,
+          "syllables": 449,
+          "coverage_ratio": 0.9644,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 3520.0,
+                "d": 2,
+                "l": 830.0
+              },
+              {
+                "t": 4390.0,
+                "d": 2
+              },
+              {
+                "t": 4900.0,
+                "d": 2
+              }
+            ],
+            "middle": [
+              {
+                "t": 106420.0,
+                "d": 1
+              },
+              {
+                "t": 106730.0,
+                "d": 2,
+                "l": 880.0
+              },
+              {
+                "t": 109620.0,
+                "d": 2
+              }
+            ],
+            "last": [
+              {
+                "t": 199500.0,
+                "d": 2,
+                "l": 650.0
+              },
+              {
+                "t": 200740.0,
+                "d": 1,
+                "l": 770.0
+              },
+              {
+                "t": 201570.0,
+                "d": 2,
+                "l": 440.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 7140.0,
+              "end_ms": 7640.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 9870.0,
+              "end_ms": 10870.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 305,
+          "base_notes": 449,
+          "change": {
+            "added": 39,
+            "removed": 183,
+            "unchanged": 266
+          },
+          "holds": 273,
+          "hold_ratio": 0.8951,
+          "hold_max_ms": 1770.0,
+          "hold_p95_ms": 1160.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 4900.0,
+            "end_ms": 5400.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 4390.0,
+            "end_ms": 5390.0
+          },
+          "lane_counts": {
+            "0": 69,
+            "1": 75,
+            "2": 94,
+            "3": 67
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 449,
+          "syllables": 449,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 3520.0,
+                "d": 2,
+                "l": 830.0
+              },
+              {
+                "t": 4390.0,
+                "d": 2,
+                "l": 300.0
+              },
+              {
+                "t": 4900.0,
+                "d": 2,
+                "l": 390.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 102870.0,
+                "d": 2,
+                "l": 180.0
+              },
+              {
+                "t": 103110.0,
+                "d": 3,
+                "l": 1090.0
+              },
+              {
+                "t": 104360.0,
+                "d": 3,
+                "l": 230.0
+              }
+            ],
+            "last": [
+              {
+                "t": 199500.0,
+                "d": 2,
+                "l": 650.0
+              },
+              {
+                "t": 200740.0,
+                "d": 1,
+                "l": 770.0
+              },
+              {
+                "t": 201570.0,
+                "d": 2,
+                "l": 440.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 4900.0,
+              "end_ms": 5400.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 4390.0,
+              "end_ms": 5390.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 355,
+          "base_notes": 754,
+          "change": {
+            "added": 89,
+            "removed": 488,
+            "unchanged": 266
+          },
+          "holds": 273,
+          "hold_ratio": 0.769,
+          "hold_max_ms": 1770.0,
+          "hold_p95_ms": 1160.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 4900.0,
+            "end_ms": 5400.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 4390.0,
+            "end_ms": 5390.0
+          },
+          "lane_counts": {
+            "0": 79,
+            "1": 93,
+            "2": 104,
+            "3": 79
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 449,
+          "syllables": 449,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 3520.0,
+                "d": 2,
+                "l": 830.0
+              },
+              {
+                "t": 4390.0,
+                "d": 2,
+                "l": 300.0
+              },
+              {
+                "t": 4900.0,
+                "d": 2,
+                "l": 390.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 103110.0,
+                "d": 3,
+                "l": 1090.0
+              },
+              {
+                "t": 103655.0,
+                "d": 0
+              },
+              {
+                "t": 104360.0,
+                "d": 3,
+                "l": 230.0
+              }
+            ],
+            "last": [
+              {
+                "t": 199825.0,
+                "d": 3
+              },
+              {
+                "t": 200740.0,
+                "d": 1,
+                "l": 770.0
+              },
+              {
+                "t": 201570.0,
+                "d": 2,
+                "l": 440.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 4900.0,
+              "end_ms": 5400.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 4390.0,
+              "end_ms": 5390.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 266,
+          "base_notes": 439,
+          "change": {
+            "added": 74,
+            "removed": 247,
+            "unchanged": 192
+          },
+          "holds": 198,
+          "hold_ratio": 0.7444,
+          "hold_max_ms": 1700.0,
+          "hold_p95_ms": 840.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 19390.0,
+            "end_ms": 19890.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 18810.0,
+            "end_ms": 19810.0
+          },
+          "lane_counts": {
+            "0": 79,
+            "1": 81,
+            "2": 64,
+            "3": 42
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 645,
+          "syllables": 647,
+          "coverage_ratio": 0.9969,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 11680.0,
+                "d": 1
+              },
+              {
+                "t": 12460.0,
+                "d": 2,
+                "l": 560.0
+              },
+              {
+                "t": 13080.0,
+                "d": 1,
+                "l": 540.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 100720.0,
+                "d": 0,
+                "l": 440.0
+              },
+              {
+                "t": 102140.0,
+                "d": 0
+              },
+              {
+                "t": 102590.0,
+                "d": 1,
+                "l": 580.0
+              }
+            ],
+            "last": [
+              {
+                "t": 188760.0,
+                "d": 3,
+                "l": 920.0
+              },
+              {
+                "t": 189740.0,
+                "d": 0
+              },
+              {
+                "t": 190040.0,
+                "d": 1
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 19390.0,
+              "end_ms": 19890.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 18810.0,
+              "end_ms": 19810.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 291,
+          "base_notes": 647,
+          "change": {
+            "added": 8,
+            "removed": 364,
+            "unchanged": 283
+          },
+          "holds": 265,
+          "hold_ratio": 0.9107,
+          "hold_max_ms": 1700.0,
+          "hold_p95_ms": 820.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 12290.0,
+            "end_ms": 12790.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 11680.0,
+            "end_ms": 12680.0
+          },
+          "lane_counts": {
+            "0": 82,
+            "1": 89,
+            "2": 76,
+            "3": 44
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 647,
+          "syllables": 647,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 11680.0,
+                "d": 1,
+                "l": 200.0
+              },
+              {
+                "t": 12290.0,
+                "d": 2
+              },
+              {
+                "t": 12460.0,
+                "d": 2,
+                "l": 560.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 99760.0,
+                "d": 0,
+                "l": 700.0
+              },
+              {
+                "t": 100500.0,
+                "d": 1,
+                "l": 160.0
+              },
+              {
+                "t": 100720.0,
+                "d": 0,
+                "l": 440.0
+              }
+            ],
+            "last": [
+              {
+                "t": 188760.0,
+                "d": 3,
+                "l": 920.0
+              },
+              {
+                "t": 189740.0,
+                "d": 0,
+                "l": 240.0
+              },
+              {
+                "t": 190040.0,
+                "d": 1
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 12290.0,
+              "end_ms": 12790.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 11680.0,
+              "end_ms": 12680.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 310,
+          "base_notes": 900,
+          "change": {
+            "added": 29,
+            "removed": 619,
+            "unchanged": 281
+          },
+          "holds": 264,
+          "hold_ratio": 0.8516,
+          "hold_max_ms": 1700.0,
+          "hold_p95_ms": 820.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 12290.0,
+            "end_ms": 12790.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 11680.0,
+            "end_ms": 12680.0
+          },
+          "lane_counts": {
+            "0": 84,
+            "1": 99,
+            "2": 81,
+            "3": 46
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 647,
+          "syllables": 647,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 11680.0,
+                "d": 1,
+                "l": 200.0
+              },
+              {
+                "t": 12290.0,
+                "d": 2
+              },
+              {
+                "t": 12460.0,
+                "d": 2,
+                "l": 560.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 102020.0,
+                "d": 2
+              },
+              {
+                "t": 102140.0,
+                "d": 0,
+                "l": 390.0
+              },
+              {
+                "t": 102590.0,
+                "d": 1,
+                "l": 580.0
+              }
+            ],
+            "last": [
+              {
+                "t": 189220.0,
+                "d": 0
+              },
+              {
+                "t": 189740.0,
+                "d": 0,
+                "l": 240.0
+              },
+              {
+                "t": 190040.0,
+                "d": 1
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 12290.0,
+              "end_ms": 12790.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 11680.0,
+              "end_ms": 12680.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "dano",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 249,
+          "base_notes": 479,
+          "change": {
+            "added": 87,
+            "removed": 317,
+            "unchanged": 162
+          },
+          "holds": 205,
+          "hold_ratio": 0.8233,
+          "hold_max_ms": 1160.0,
+          "hold_p95_ms": 820.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 12900.0,
+            "end_ms": 13400.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 12230.0,
+            "end_ms": 13230.0
+          },
+          "lane_counts": {
+            "0": 45,
+            "1": 66,
+            "2": 97,
+            "3": 41
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 728,
+          "syllables": 734,
+          "coverage_ratio": 0.9918,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 10670.0,
+                "d": 1,
+                "l": 470.0
+              },
+              {
+                "t": 11180.0,
+                "d": 2,
+                "l": 490.0
+              },
+              {
+                "t": 11710.0,
+                "d": 2
+              }
+            ],
+            "middle": [
+              {
+                "t": 96540.0,
+                "d": 2,
+                "l": 600.0
+              },
+              {
+                "t": 97180.0,
+                "d": 1,
+                "l": 620.0
+              },
+              {
+                "t": 97840.0,
+                "d": 2,
+                "l": 520.0
+              }
+            ],
+            "last": [
+              {
+                "t": 170910.0,
+                "d": 2,
+                "l": 540.0
+              },
+              {
+                "t": 171490.0,
+                "d": 2
+              },
+              {
+                "t": 171680.0,
+                "d": 0,
+                "l": 640.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 12900.0,
+              "end_ms": 13400.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 12230.0,
+              "end_ms": 13230.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 266,
+          "base_notes": 734,
+          "change": {
+            "added": 22,
+            "removed": 490,
+            "unchanged": 244
+          },
+          "holds": 241,
+          "hold_ratio": 0.906,
+          "hold_max_ms": 1160.0,
+          "hold_p95_ms": 810.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 12900.0,
+            "end_ms": 13400.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 12230.0,
+            "end_ms": 13230.0
+          },
+          "lane_counts": {
+            "0": 48,
+            "1": 70,
+            "2": 103,
+            "3": 45
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 734,
+          "syllables": 734,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 10670.0,
+                "d": 1,
+                "l": 470.0
+              },
+              {
+                "t": 11180.0,
+                "d": 2,
+                "l": 490.0
+              },
+              {
+                "t": 11710.0,
+                "d": 2
+              }
+            ],
+            "middle": [
+              {
+                "t": 97180.0,
+                "d": 1,
+                "l": 620.0
+              },
+              {
+                "t": 97840.0,
+                "d": 2,
+                "l": 520.0
+              },
+              {
+                "t": 98400.0,
+                "d": 1,
+                "l": 580.0
+              }
+            ],
+            "last": [
+              {
+                "t": 170910.0,
+                "d": 2,
+                "l": 540.0
+              },
+              {
+                "t": 171490.0,
+                "d": 2
+              },
+              {
+                "t": 171680.0,
+                "d": 0,
+                "l": 640.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 12900.0,
+              "end_ms": 13400.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 12230.0,
+              "end_ms": 13230.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 279,
+          "base_notes": 948,
+          "change": {
+            "added": 34,
+            "removed": 703,
+            "unchanged": 245
+          },
+          "holds": 241,
+          "hold_ratio": 0.8638,
+          "hold_max_ms": 1160.0,
+          "hold_p95_ms": 810.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 12900.0,
+            "end_ms": 13400.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 12230.0,
+            "end_ms": 13230.0
+          },
+          "lane_counts": {
+            "0": 50,
+            "1": 71,
+            "2": 108,
+            "3": 50
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 734,
+          "syllables": 734,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 10670.0,
+                "d": 1,
+                "l": 470.0
+              },
+              {
+                "t": 11180.0,
+                "d": 2,
+                "l": 490.0
+              },
+              {
+                "t": 11710.0,
+                "d": 2
+              }
+            ],
+            "middle": [
+              {
+                "t": 94140.0,
+                "d": 2,
+                "l": 480.0
+              },
+              {
+                "t": 94660.0,
+                "d": 1,
+                "l": 570.0
+              },
+              {
+                "t": 95270.0,
+                "d": 0,
+                "l": 630.0
+              }
+            ],
+            "last": [
+              {
+                "t": 170910.0,
+                "d": 2,
+                "l": 540.0
+              },
+              {
+                "t": 171490.0,
+                "d": 2
+              },
+              {
+                "t": 171680.0,
+                "d": 0,
+                "l": 640.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 12900.0,
+              "end_ms": 13400.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 12230.0,
+              "end_ms": 13230.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "dias-magicos",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 251,
+          "base_notes": 370,
+          "change": {
+            "added": 73,
+            "removed": 192,
+            "unchanged": 178
+          },
+          "holds": 147,
+          "hold_ratio": 0.5857,
+          "hold_max_ms": 1470.0,
+          "hold_p95_ms": 1070.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 30000.0,
+            "end_ms": 30500.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 30000.0,
+            "end_ms": 31000.0
+          },
+          "lane_counts": {
+            "0": 57,
+            "1": 67,
+            "2": 70,
+            "3": 57
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 447,
+          "syllables": 461,
+          "coverage_ratio": 0.9696,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 30000.0,
+                "d": 1
+              },
+              {
+                "t": 30370.0,
+                "d": 0
+              },
+              {
+                "t": 30800.0,
+                "d": 2
+              }
+            ],
+            "middle": [
+              {
+                "t": 123060.0,
+                "d": 1,
+                "l": 670.0
+              },
+              {
+                "t": 123770.0,
+                "d": 1,
+                "l": 590.0
+              },
+              {
+                "t": 124400.0,
+                "d": 2,
+                "l": 790.0
+              }
+            ],
+            "last": [
+              {
+                "t": 220970.0,
+                "d": 2
+              },
+              {
+                "t": 221430.0,
+                "d": 1,
+                "l": 970.0
+              },
+              {
+                "t": 222440.0,
+                "d": 1,
+                "l": 895.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 30000.0,
+              "end_ms": 30500.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 30000.0,
+              "end_ms": 31000.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 272,
+          "base_notes": 461,
+          "change": {
+            "added": 41,
+            "removed": 230,
+            "unchanged": 231
+          },
+          "holds": 237,
+          "hold_ratio": 0.8713,
+          "hold_max_ms": 1470.0,
+          "hold_p95_ms": 1010.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 30000.0,
+            "end_ms": 30500.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 30000.0,
+            "end_ms": 31000.0
+          },
+          "lane_counts": {
+            "0": 59,
+            "1": 73,
+            "2": 75,
+            "3": 65
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 461,
+          "syllables": 461,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 30000.0,
+                "d": 1,
+                "l": 310.0
+              },
+              {
+                "t": 30370.0,
+                "d": 0,
+                "l": 370.0
+              },
+              {
+                "t": 30800.0,
+                "d": 2,
+                "l": 320.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 121940.0,
+                "d": 0,
+                "l": 1080.0
+              },
+              {
+                "t": 123060.0,
+                "d": 1,
+                "l": 670.0
+              },
+              {
+                "t": 123770.0,
+                "d": 1,
+                "l": 590.0
+              }
+            ],
+            "last": [
+              {
+                "t": 220970.0,
+                "d": 2,
+                "l": 400.0
+              },
+              {
+                "t": 221430.0,
+                "d": 1,
+                "l": 970.0
+              },
+              {
+                "t": 222440.0,
+                "d": 1,
+                "l": 895.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 30000.0,
+              "end_ms": 30500.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 30000.0,
+              "end_ms": 31000.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 298,
+          "base_notes": 742,
+          "change": {
+            "added": 66,
+            "removed": 510,
+            "unchanged": 232
+          },
+          "holds": 234,
+          "hold_ratio": 0.7852,
+          "hold_max_ms": 1470.0,
+          "hold_p95_ms": 1010.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 30000.0,
+            "end_ms": 30500.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 30000.0,
+            "end_ms": 31000.0
+          },
+          "lane_counts": {
+            "0": 57,
+            "1": 81,
+            "2": 84,
+            "3": 76
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 461,
+          "syllables": 461,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 30000.0,
+                "d": 1,
+                "l": 310.0
+              },
+              {
+                "t": 30370.0,
+                "d": 0,
+                "l": 370.0
+              },
+              {
+                "t": 30800.0,
+                "d": 2,
+                "l": 320.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 122480.0,
+                "d": 1
+              },
+              {
+                "t": 123060.0,
+                "d": 1,
+                "l": 670.0
+              },
+              {
+                "t": 123770.0,
+                "d": 1,
+                "l": 590.0
+              }
+            ],
+            "last": [
+              {
+                "t": 221430.0,
+                "d": 1,
+                "l": 970.0
+              },
+              {
+                "t": 221915.0,
+                "d": 2
+              },
+              {
+                "t": 222440.0,
+                "d": 1,
+                "l": 895.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 30000.0,
+              "end_ms": 30500.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 30000.0,
+              "end_ms": 31000.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "eclipsis",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 321,
+          "base_notes": 480,
+          "change": {
+            "added": 91,
+            "removed": 250,
+            "unchanged": 230
+          },
+          "holds": 191,
+          "hold_ratio": 0.595,
+          "hold_max_ms": 1670.0,
+          "hold_p95_ms": 1140.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 2800.0,
+            "end_ms": 3300.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 2290.0,
+            "end_ms": 3290.0
+          },
+          "lane_counts": {
+            "0": 74,
+            "1": 95,
+            "2": 80,
+            "3": 72
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 594,
+          "syllables": 612,
+          "coverage_ratio": 0.9706,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 1300.0,
+                "d": 1,
+                "l": 930.0
+              },
+              {
+                "t": 2290.0,
+                "d": 0,
+                "l": 450.0
+              },
+              {
+                "t": 2800.0,
+                "d": 1
+              }
+            ],
+            "middle": [
+              {
+                "t": 125390.0,
+                "d": 3,
+                "l": 690.0
+              },
+              {
+                "t": 126120.0,
+                "d": 1,
+                "l": 730.0
+              },
+              {
+                "t": 126910.0,
+                "d": 0
+              }
+            ],
+            "last": [
+              {
+                "t": 228490.0,
+                "d": 2,
+                "l": 440.0
+              },
+              {
+                "t": 228990.0,
+                "d": 3,
+                "l": 770.0
+              },
+              {
+                "t": 229820.0,
+                "d": 0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 2800.0,
+              "end_ms": 3300.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 2290.0,
+              "end_ms": 3290.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 355,
+          "base_notes": 612,
+          "change": {
+            "added": 57,
+            "removed": 314,
+            "unchanged": 298
+          },
+          "holds": 318,
+          "hold_ratio": 0.8958,
+          "hold_max_ms": 1670.0,
+          "hold_p95_ms": 1020.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 2800.0,
+            "end_ms": 3300.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 2290.0,
+            "end_ms": 3290.0
+          },
+          "lane_counts": {
+            "0": 83,
+            "1": 101,
+            "2": 90,
+            "3": 81
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 610,
+          "syllables": 612,
+          "coverage_ratio": 0.9967,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 1300.0,
+                "d": 1,
+                "l": 930.0
+              },
+              {
+                "t": 2290.0,
+                "d": 0,
+                "l": 450.0
+              },
+              {
+                "t": 2800.0,
+                "d": 1,
+                "l": 240.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 123970.0,
+                "d": 2,
+                "l": 350.0
+              },
+              {
+                "t": 124380.0,
+                "d": 1,
+                "l": 950.0
+              },
+              {
+                "t": 125390.0,
+                "d": 3,
+                "l": 690.0
+              }
+            ],
+            "last": [
+              {
+                "t": 228490.0,
+                "d": 2,
+                "l": 440.0
+              },
+              {
+                "t": 228990.0,
+                "d": 3,
+                "l": 770.0
+              },
+              {
+                "t": 229820.0,
+                "d": 0,
+                "l": 415.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 2800.0,
+              "end_ms": 3300.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 2290.0,
+              "end_ms": 3290.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 392,
+          "base_notes": 988,
+          "change": {
+            "added": 93,
+            "removed": 689,
+            "unchanged": 299
+          },
+          "holds": 317,
+          "hold_ratio": 0.8087,
+          "hold_max_ms": 1670.0,
+          "hold_p95_ms": 1020.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 1300.0,
+            "end_ms": 1800.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 1300.0,
+            "end_ms": 2300.0
+          },
+          "lane_counts": {
+            "0": 86,
+            "1": 109,
+            "2": 102,
+            "3": 95
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 610,
+          "syllables": 612,
+          "coverage_ratio": 0.9967,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 1300.0,
+                "d": 1,
+                "l": 930.0
+              },
+              {
+                "t": 1765.0,
+                "d": 2
+              },
+              {
+                "t": 2290.0,
+                "d": 0,
+                "l": 450.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 124855.0,
+                "d": 2
+              },
+              {
+                "t": 125390.0,
+                "d": 3,
+                "l": 690.0
+              },
+              {
+                "t": 126120.0,
+                "d": 1,
+                "l": 730.0
+              }
+            ],
+            "last": [
+              {
+                "t": 228490.0,
+                "d": 2,
+                "l": 440.0
+              },
+              {
+                "t": 228990.0,
+                "d": 3,
+                "l": 770.0
+              },
+              {
+                "t": 229820.0,
+                "d": 0,
+                "l": 415.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 1300.0,
+              "end_ms": 1800.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 1300.0,
+              "end_ms": 2300.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "fango",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 259,
+          "base_notes": 451,
+          "change": {
+            "added": 82,
+            "removed": 274,
+            "unchanged": 177
+          },
+          "holds": 184,
+          "hold_ratio": 0.7104,
+          "hold_max_ms": 1310.0,
+          "hold_p95_ms": 920.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 12140.0,
+            "end_ms": 12640.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 12140.0,
+            "end_ms": 13140.0
+          },
+          "lane_counts": {
+            "0": 64,
+            "1": 72,
+            "2": 76,
+            "3": 47
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 624,
+          "syllables": 631,
+          "coverage_ratio": 0.9889,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 1970.0,
+                "d": 0,
+                "l": 570.0
+              },
+              {
+                "t": 2580.0,
+                "d": 2,
+                "l": 650.0
+              },
+              {
+                "t": 3270.0,
+                "d": 2,
+                "l": 1050.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 109810.0,
+                "d": 0,
+                "l": 570.0
+              },
+              {
+                "t": 110420.0,
+                "d": 0
+              },
+              {
+                "t": 110540.0,
+                "d": 1,
+                "l": 640.0
+              }
+            ],
+            "last": [
+              {
+                "t": 204840.0,
+                "d": 2
+              },
+              {
+                "t": 205240.0,
+                "d": 3
+              },
+              {
+                "t": 205390.0,
+                "d": 2,
+                "l": 900.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 12140.0,
+              "end_ms": 12640.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 12140.0,
+              "end_ms": 13140.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 286,
+          "base_notes": 631,
+          "change": {
+            "added": 34,
+            "removed": 379,
+            "unchanged": 252
+          },
+          "holds": 254,
+          "hold_ratio": 0.8881,
+          "hold_max_ms": 1310.0,
+          "hold_p95_ms": 900.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 7960.0,
+            "end_ms": 8460.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 7960.0,
+            "end_ms": 8960.0
+          },
+          "lane_counts": {
+            "0": 71,
+            "1": 81,
+            "2": 81,
+            "3": 53
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 631,
+          "syllables": 631,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 1970.0,
+                "d": 0,
+                "l": 570.0
+              },
+              {
+                "t": 2580.0,
+                "d": 2,
+                "l": 650.0
+              },
+              {
+                "t": 3270.0,
+                "d": 2,
+                "l": 1050.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 107990.0,
+                "d": 0,
+                "l": 650.0
+              },
+              {
+                "t": 108680.0,
+                "d": 1,
+                "l": 530.0
+              },
+              {
+                "t": 109270.0,
+                "d": 2,
+                "l": 500.0
+              }
+            ],
+            "last": [
+              {
+                "t": 204840.0,
+                "d": 2,
+                "l": 340.0
+              },
+              {
+                "t": 205240.0,
+                "d": 3
+              },
+              {
+                "t": 205390.0,
+                "d": 2,
+                "l": 900.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 7960.0,
+              "end_ms": 8460.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 7960.0,
+              "end_ms": 8960.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 308,
+          "base_notes": 906,
+          "change": {
+            "added": 53,
+            "removed": 651,
+            "unchanged": 255
+          },
+          "holds": 253,
+          "hold_ratio": 0.8214,
+          "hold_max_ms": 1310.0,
+          "hold_p95_ms": 900.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 7960.0,
+            "end_ms": 8460.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 7960.0,
+            "end_ms": 8960.0
+          },
+          "lane_counts": {
+            "0": 77,
+            "1": 89,
+            "2": 86,
+            "3": 56
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 631,
+          "syllables": 631,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 1970.0,
+                "d": 0,
+                "l": 570.0
+              },
+              {
+                "t": 2580.0,
+                "d": 2,
+                "l": 650.0
+              },
+              {
+                "t": 3270.0,
+                "d": 2,
+                "l": 1050.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 106220.0,
+                "d": 3
+              },
+              {
+                "t": 106820.0,
+                "d": 2,
+                "l": 340.0
+              },
+              {
+                "t": 107220.0,
+                "d": 2,
+                "l": 730.0
+              }
+            ],
+            "last": [
+              {
+                "t": 204840.0,
+                "d": 2,
+                "l": 340.0
+              },
+              {
+                "t": 205240.0,
+                "d": 3
+              },
+              {
+                "t": 205390.0,
+                "d": 2,
+                "l": 900.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 7960.0,
+              "end_ms": 8460.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 7960.0,
+              "end_ms": 8960.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "luma",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 287,
+          "base_notes": 387,
+          "change": {
+            "added": 72,
+            "removed": 172,
+            "unchanged": 215
+          },
+          "holds": 159,
+          "hold_ratio": 0.554,
+          "hold_max_ms": 1530.0,
+          "hold_p95_ms": 1090.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 14520.0,
+            "end_ms": 15020.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 14520.0,
+            "end_ms": 15520.0
+          },
+          "lane_counts": {
+            "0": 80,
+            "1": 83,
+            "2": 75,
+            "3": 49
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 464,
+          "syllables": 481,
+          "coverage_ratio": 0.9647,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 14520.0,
+                "d": 1
+              },
+              {
+                "t": 14640.0,
+                "d": 2
+              },
+              {
+                "t": 15110.0,
+                "d": 0
+              }
+            ],
+            "middle": [
+              {
+                "t": 110900.0,
+                "d": 1
+              },
+              {
+                "t": 111340.0,
+                "d": 0,
+                "l": 840.0
+              },
+              {
+                "t": 112240.0,
+                "d": 2,
+                "l": 620.0
+              }
+            ],
+            "last": [
+              {
+                "t": 198410.0,
+                "d": 0
+              },
+              {
+                "t": 199280.0,
+                "d": 3,
+                "l": 790.0
+              },
+              {
+                "t": 237170.0,
+                "d": 3
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 14520.0,
+              "end_ms": 15020.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 14520.0,
+              "end_ms": 15520.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 322,
+          "base_notes": 481,
+          "change": {
+            "added": 43,
+            "removed": 202,
+            "unchanged": 279
+          },
+          "holds": 283,
+          "hold_ratio": 0.8789,
+          "hold_max_ms": 1530.0,
+          "hold_p95_ms": 860.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 14520.0,
+            "end_ms": 15020.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 14520.0,
+            "end_ms": 15520.0
+          },
+          "lane_counts": {
+            "0": 87,
+            "1": 99,
+            "2": 83,
+            "3": 53
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 480,
+          "syllables": 481,
+          "coverage_ratio": 0.9979,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 14520.0,
+                "d": 1
+              },
+              {
+                "t": 14640.0,
+                "d": 2,
+                "l": 410.0
+              },
+              {
+                "t": 15110.0,
+                "d": 0,
+                "l": 320.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 110280.0,
+                "d": 2,
+                "l": 230.0
+              },
+              {
+                "t": 110570.0,
+                "d": 2,
+                "l": 270.0
+              },
+              {
+                "t": 110900.0,
+                "d": 1,
+                "l": 380.0
+              }
+            ],
+            "last": [
+              {
+                "t": 236520.0,
+                "d": 2
+              },
+              {
+                "t": 237170.0,
+                "d": 3
+              },
+              {
+                "t": 237400.0,
+                "d": 1
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 14520.0,
+              "end_ms": 15020.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 14520.0,
+              "end_ms": 15520.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 344,
+          "base_notes": 784,
+          "change": {
+            "added": 68,
+            "removed": 508,
+            "unchanged": 276
+          },
+          "holds": 280,
+          "hold_ratio": 0.814,
+          "hold_max_ms": 1530.0,
+          "hold_p95_ms": 860.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 15110.0,
+            "end_ms": 15610.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 14520.0,
+            "end_ms": 15520.0
+          },
+          "lane_counts": {
+            "0": 87,
+            "1": 104,
+            "2": 91,
+            "3": 62
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 480,
+          "syllables": 481,
+          "coverage_ratio": 0.9979,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 14520.0,
+                "d": 1
+              },
+              {
+                "t": 15110.0,
+                "d": 1,
+                "l": 320.0
+              },
+              {
+                "t": 15270.0,
+                "d": 3
+              }
+            ],
+            "middle": [
+              {
+                "t": 107715.0,
+                "d": 3
+              },
+              {
+                "t": 108670.0,
+                "d": 3
+              },
+              {
+                "t": 108840.0,
+                "d": 1,
+                "l": 1380.0
+              }
+            ],
+            "last": [
+              {
+                "t": 236520.0,
+                "d": 2
+              },
+              {
+                "t": 237170.0,
+                "d": 3
+              },
+              {
+                "t": 237400.0,
+                "d": 1
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 15110.0,
+              "end_ms": 15610.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 14520.0,
+              "end_ms": 15520.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 293,
+          "base_notes": 443,
+          "change": {
+            "added": 76,
+            "removed": 226,
+            "unchanged": 217
+          },
+          "holds": 194,
+          "hold_ratio": 0.6621,
+          "hold_max_ms": 1770.0,
+          "hold_p95_ms": 1280.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 620.0,
+            "end_ms": 1120.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 620.0,
+            "end_ms": 1620.0
+          },
+          "lane_counts": {
+            "0": 71,
+            "1": 75,
+            "2": 63,
+            "3": 84
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 576,
+          "syllables": 588,
+          "coverage_ratio": 0.9796,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 620.0,
+                "d": 1
+              },
+              {
+                "t": 910.0,
+                "d": 2
+              },
+              {
+                "t": 1340.0,
+                "d": 3,
+                "l": 710.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 111400.0,
+                "d": 2,
+                "l": 780.0
+              },
+              {
+                "t": 112220.0,
+                "d": 0,
+                "l": 1100.0
+              },
+              {
+                "t": 113360.0,
+                "d": 0,
+                "l": 440.0
+              }
+            ],
+            "last": [
+              {
+                "t": 220600.0,
+                "d": 2
+              },
+              {
+                "t": 227040.0,
+                "d": 3,
+                "l": 470.0
+              },
+              {
+                "t": 227780.0,
+                "d": 3,
+                "l": 450.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 620.0,
+              "end_ms": 1120.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 620.0,
+              "end_ms": 1620.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 329,
+          "base_notes": 588,
+          "change": {
+            "added": 28,
+            "removed": 287,
+            "unchanged": 301
+          },
+          "holds": 294,
+          "hold_ratio": 0.8936,
+          "hold_max_ms": 1770.0,
+          "hold_p95_ms": 1170.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 620.0,
+            "end_ms": 1120.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 620.0,
+            "end_ms": 1620.0
+          },
+          "lane_counts": {
+            "0": 78,
+            "1": 90,
+            "2": 75,
+            "3": 86
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 587,
+          "syllables": 588,
+          "coverage_ratio": 0.9983,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 620.0,
+                "d": 1,
+                "l": 230.0
+              },
+              {
+                "t": 910.0,
+                "d": 2,
+                "l": 370.0
+              },
+              {
+                "t": 1340.0,
+                "d": 3,
+                "l": 710.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 109650.0,
+                "d": 1,
+                "l": 1200.0
+              },
+              {
+                "t": 111400.0,
+                "d": 2,
+                "l": 780.0
+              },
+              {
+                "t": 112220.0,
+                "d": 0,
+                "l": 1100.0
+              }
+            ],
+            "last": [
+              {
+                "t": 227040.0,
+                "d": 3,
+                "l": 470.0
+              },
+              {
+                "t": 227570.0,
+                "d": 2
+              },
+              {
+                "t": 227780.0,
+                "d": 3,
+                "l": 450.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 620.0,
+              "end_ms": 1120.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 620.0,
+              "end_ms": 1620.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 375,
+          "base_notes": 903,
+          "change": {
+            "added": 75,
+            "removed": 603,
+            "unchanged": 300
+          },
+          "holds": 293,
+          "hold_ratio": 0.7813,
+          "hold_max_ms": 1770.0,
+          "hold_p95_ms": 1170.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 620.0,
+            "end_ms": 1120.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 620.0,
+            "end_ms": 1620.0
+          },
+          "lane_counts": {
+            "0": 91,
+            "1": 106,
+            "2": 86,
+            "3": 92
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 587,
+          "syllables": 588,
+          "coverage_ratio": 0.9983,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 620.0,
+                "d": 1,
+                "l": 230.0
+              },
+              {
+                "t": 910.0,
+                "d": 2,
+                "l": 370.0
+              },
+              {
+                "t": 1340.0,
+                "d": 3,
+                "l": 710.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 113360.0,
+                "d": 0,
+                "l": 440.0
+              },
+              {
+                "t": 113860.0,
+                "d": 2,
+                "l": 650.0
+              },
+              {
+                "t": 114185.0,
+                "d": 3
+              }
+            ],
+            "last": [
+              {
+                "t": 227040.0,
+                "d": 3,
+                "l": 470.0
+              },
+              {
+                "t": 227570.0,
+                "d": 2
+              },
+              {
+                "t": 227780.0,
+                "d": 3,
+                "l": 450.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 620.0,
+              "end_ms": 1120.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 620.0,
+              "end_ms": 1620.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 203,
+          "base_notes": 256,
+          "change": {
+            "added": 32,
+            "removed": 85,
+            "unchanged": 171
+          },
+          "holds": 125,
+          "hold_ratio": 0.6158,
+          "hold_max_ms": 1500.0,
+          "hold_p95_ms": 1130.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 7130.0,
+            "end_ms": 7630.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 7130.0,
+            "end_ms": 8130.0
+          },
+          "lane_counts": {
+            "0": 40,
+            "1": 66,
+            "2": 58,
+            "3": 39
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 279,
+          "syllables": 289,
+          "coverage_ratio": 0.9654,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 3950.0,
+                "d": 2,
+                "l": 720.0
+              },
+              {
+                "t": 5020.0,
+                "d": 0,
+                "l": 550.0
+              },
+              {
+                "t": 5750.0,
+                "d": 3,
+                "l": 790.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 80620.0,
+                "d": 1
+              },
+              {
+                "t": 80920.0,
+                "d": 3
+              },
+              {
+                "t": 81360.0,
+                "d": 2
+              }
+            ],
+            "last": [
+              {
+                "t": 180720.0,
+                "d": 3,
+                "l": 1000.0
+              },
+              {
+                "t": 181760.0,
+                "d": 1
+              },
+              {
+                "t": 182200.0,
+                "d": 0,
+                "l": 770.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 7130.0,
+              "end_ms": 7630.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 7130.0,
+              "end_ms": 8130.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 232,
+          "base_notes": 289,
+          "change": {
+            "added": 31,
+            "removed": 88,
+            "unchanged": 201
+          },
+          "holds": 215,
+          "hold_ratio": 0.9267,
+          "hold_max_ms": 1500.0,
+          "hold_p95_ms": 1080.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 4730.0,
+            "end_ms": 5230.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 4730.0,
+            "end_ms": 5730.0
+          },
+          "lane_counts": {
+            "0": 47,
+            "1": 74,
+            "2": 69,
+            "3": 42
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 289,
+          "syllables": 289,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 3950.0,
+                "d": 2,
+                "l": 720.0
+              },
+              {
+                "t": 4730.0,
+                "d": 1,
+                "l": 230.0
+              },
+              {
+                "t": 5020.0,
+                "d": 0,
+                "l": 550.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 78750.0,
+                "d": 1,
+                "l": 640.0
+              },
+              {
+                "t": 79450.0,
+                "d": 2,
+                "l": 450.0
+              },
+              {
+                "t": 79960.0,
+                "d": 0,
+                "l": 170.0
+              }
+            ],
+            "last": [
+              {
+                "t": 180720.0,
+                "d": 3,
+                "l": 1000.0
+              },
+              {
+                "t": 181760.0,
+                "d": 1,
+                "l": 380.0
+              },
+              {
+                "t": 182200.0,
+                "d": 0,
+                "l": 770.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 4730.0,
+              "end_ms": 5230.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 4730.0,
+              "end_ms": 5730.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 267,
+          "base_notes": 532,
+          "change": {
+            "added": 64,
+            "removed": 329,
+            "unchanged": 203
+          },
+          "holds": 215,
+          "hold_ratio": 0.8052,
+          "hold_max_ms": 1500.0,
+          "hold_p95_ms": 1080.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 4730.0,
+            "end_ms": 5230.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 4730.0,
+            "end_ms": 5730.0
+          },
+          "lane_counts": {
+            "0": 51,
+            "1": 80,
+            "2": 84,
+            "3": 52
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 289,
+          "syllables": 289,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 3950.0,
+                "d": 2,
+                "l": 720.0
+              },
+              {
+                "t": 4730.0,
+                "d": 1,
+                "l": 230.0
+              },
+              {
+                "t": 5020.0,
+                "d": 0,
+                "l": 550.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 79450.0,
+                "d": 2,
+                "l": 450.0
+              },
+              {
+                "t": 79960.0,
+                "d": 0,
+                "l": 170.0
+              },
+              {
+                "t": 80620.0,
+                "d": 1,
+                "l": 240.0
+              }
+            ],
+            "last": [
+              {
+                "t": 181220.0,
+                "d": 0
+              },
+              {
+                "t": 181760.0,
+                "d": 1,
+                "l": 380.0
+              },
+              {
+                "t": 182200.0,
+                "d": 0,
+                "l": 770.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 4730.0,
+              "end_ms": 5230.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 4730.0,
+              "end_ms": 5730.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "meteora",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 252,
+          "base_notes": 410,
+          "change": {
+            "added": 66,
+            "removed": 224,
+            "unchanged": 186
+          },
+          "holds": 186,
+          "hold_ratio": 0.7381,
+          "hold_max_ms": 1800.0,
+          "hold_p95_ms": 1070.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 7880.0,
+            "end_ms": 8380.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 8980.0,
+            "end_ms": 9980.0
+          },
+          "lane_counts": {
+            "0": 57,
+            "1": 73,
+            "2": 77,
+            "3": 45
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 578,
+          "syllables": 584,
+          "coverage_ratio": 0.9897,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 220.0,
+                "d": 2,
+                "l": 570.0
+              },
+              {
+                "t": 830.0,
+                "d": 2,
+                "l": 590.0
+              },
+              {
+                "t": 1460.0,
+                "d": 3,
+                "l": 640.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 87490.0,
+                "d": 0
+              },
+              {
+                "t": 87840.0,
+                "d": 2,
+                "l": 1030.0
+              },
+              {
+                "t": 88930.0,
+                "d": 1
+              }
+            ],
+            "last": [
+              {
+                "t": 173620.0,
+                "d": 1,
+                "l": 580.0
+              },
+              {
+                "t": 174240.0,
+                "d": 2,
+                "l": 810.0
+              },
+              {
+                "t": 175590.0,
+                "d": 2,
+                "l": 560.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 7880.0,
+              "end_ms": 8380.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 8980.0,
+              "end_ms": 9980.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 266,
+          "base_notes": 584,
+          "change": {
+            "added": 14,
+            "removed": 332,
+            "unchanged": 252
+          },
+          "holds": 252,
+          "hold_ratio": 0.9474,
+          "hold_max_ms": 1800.0,
+          "hold_p95_ms": 990.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 7710.0,
+            "end_ms": 8210.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 7010.0,
+            "end_ms": 8010.0
+          },
+          "lane_counts": {
+            "0": 62,
+            "1": 77,
+            "2": 79,
+            "3": 48
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 583,
+          "syllables": 584,
+          "coverage_ratio": 0.9983,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 220.0,
+                "d": 2,
+                "l": 570.0
+              },
+              {
+                "t": 830.0,
+                "d": 2,
+                "l": 590.0
+              },
+              {
+                "t": 1460.0,
+                "d": 3,
+                "l": 640.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 87840.0,
+                "d": 2,
+                "l": 1030.0
+              },
+              {
+                "t": 88930.0,
+                "d": 1,
+                "l": 410.0
+              },
+              {
+                "t": 89400.0,
+                "d": 0,
+                "l": 580.0
+              }
+            ],
+            "last": [
+              {
+                "t": 173620.0,
+                "d": 1,
+                "l": 580.0
+              },
+              {
+                "t": 174240.0,
+                "d": 2,
+                "l": 810.0
+              },
+              {
+                "t": 175590.0,
+                "d": 2,
+                "l": 560.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 7710.0,
+              "end_ms": 8210.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 7010.0,
+              "end_ms": 8010.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 295,
+          "base_notes": 838,
+          "change": {
+            "added": 46,
+            "removed": 589,
+            "unchanged": 249
+          },
+          "holds": 250,
+          "hold_ratio": 0.8475,
+          "hold_max_ms": 1800.0,
+          "hold_p95_ms": 990.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 4040.0,
+            "end_ms": 4540.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 7010.0,
+            "end_ms": 8010.0
+          },
+          "lane_counts": {
+            "0": 70,
+            "1": 80,
+            "2": 90,
+            "3": 55
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 583,
+          "syllables": 584,
+          "coverage_ratio": 0.9983,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 220.0,
+                "d": 2,
+                "l": 570.0
+              },
+              {
+                "t": 830.0,
+                "d": 2,
+                "l": 590.0
+              },
+              {
+                "t": 1460.0,
+                "d": 3,
+                "l": 640.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 88930.0,
+                "d": 1,
+                "l": 410.0
+              },
+              {
+                "t": 89400.0,
+                "d": 0,
+                "l": 580.0
+              },
+              {
+                "t": 90040.0,
+                "d": 1,
+                "l": 750.0
+              }
+            ],
+            "last": [
+              {
+                "t": 174240.0,
+                "d": 2,
+                "l": 810.0
+              },
+              {
+                "t": 174645.0,
+                "d": 3
+              },
+              {
+                "t": 175590.0,
+                "d": 2,
+                "l": 560.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 4040.0,
+              "end_ms": 4540.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 7010.0,
+              "end_ms": 8010.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "mi-hogar",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 168,
+          "base_notes": 242,
+          "change": {
+            "added": 34,
+            "removed": 108,
+            "unchanged": 134
+          },
+          "holds": 123,
+          "hold_ratio": 0.7321,
+          "hold_max_ms": 1770.0,
+          "hold_p95_ms": 1330.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 20270.0,
+            "end_ms": 20770.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 25320.0,
+            "end_ms": 26320.0
+          },
+          "lane_counts": {
+            "0": 34,
+            "1": 42,
+            "2": 54,
+            "3": 38
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 324,
+          "syllables": 325,
+          "coverage_ratio": 0.9969,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 19740.0,
+                "d": 2,
+                "l": 490.0
+              },
+              {
+                "t": 20270.0,
+                "d": 3,
+                "l": 440.0
+              },
+              {
+                "t": 20770.0,
+                "d": 2,
+                "l": 800.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 93580.0,
+                "d": 3,
+                "l": 750.0
+              },
+              {
+                "t": 94370.0,
+                "d": 0,
+                "l": 480.0
+              },
+              {
+                "t": 95100.0,
+                "d": 1
+              }
+            ],
+            "last": [
+              {
+                "t": 157080.0,
+                "d": 2,
+                "l": 440.0
+              },
+              {
+                "t": 157580.0,
+                "d": 3,
+                "l": 660.0
+              },
+              {
+                "t": 158280.0,
+                "d": 3,
+                "l": 1010.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 20270.0,
+              "end_ms": 20770.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 25320.0,
+              "end_ms": 26320.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 187,
+          "base_notes": 325,
+          "change": {
+            "added": 4,
+            "removed": 142,
+            "unchanged": 183
+          },
+          "holds": 168,
+          "hold_ratio": 0.8984,
+          "hold_max_ms": 1770.0,
+          "hold_p95_ms": 1210.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 20270.0,
+            "end_ms": 20770.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 24670.0,
+            "end_ms": 25670.0
+          },
+          "lane_counts": {
+            "0": 41,
+            "1": 46,
+            "2": 57,
+            "3": 43
+          },
+          "same_lane_max_run": 2,
+          "covered_syllables": 325,
+          "syllables": 325,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 19740.0,
+                "d": 2,
+                "l": 490.0
+              },
+              {
+                "t": 20270.0,
+                "d": 3,
+                "l": 440.0
+              },
+              {
+                "t": 20770.0,
+                "d": 2,
+                "l": 800.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 91610.0,
+                "d": 1,
+                "l": 730.0
+              },
+              {
+                "t": 93580.0,
+                "d": 3,
+                "l": 750.0
+              },
+              {
+                "t": 94370.0,
+                "d": 0,
+                "l": 480.0
+              }
+            ],
+            "last": [
+              {
+                "t": 157080.0,
+                "d": 2,
+                "l": 440.0
+              },
+              {
+                "t": 157580.0,
+                "d": 3,
+                "l": 660.0
+              },
+              {
+                "t": 158280.0,
+                "d": 3,
+                "l": 1010.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 20270.0,
+              "end_ms": 20770.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 24670.0,
+              "end_ms": 25670.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 215,
+          "base_notes": 485,
+          "change": {
+            "added": 35,
+            "removed": 305,
+            "unchanged": 180
+          },
+          "holds": 166,
+          "hold_ratio": 0.7721,
+          "hold_max_ms": 1770.0,
+          "hold_p95_ms": 1210.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 20270.0,
+            "end_ms": 20770.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 22490.0,
+            "end_ms": 23490.0
+          },
+          "lane_counts": {
+            "0": 54,
+            "1": 49,
+            "2": 67,
+            "3": 45
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 325,
+          "syllables": 325,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 19740.0,
+                "d": 2,
+                "l": 490.0
+              },
+              {
+                "t": 20270.0,
+                "d": 3,
+                "l": 440.0
+              },
+              {
+                "t": 20770.0,
+                "d": 2,
+                "l": 800.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 93580.0,
+                "d": 3,
+                "l": 750.0
+              },
+              {
+                "t": 94370.0,
+                "d": 0,
+                "l": 480.0
+              },
+              {
+                "t": 94890.0,
+                "d": 3,
+                "l": 150.0
+              }
+            ],
+            "last": [
+              {
+                "t": 157080.0,
+                "d": 2,
+                "l": 440.0
+              },
+              {
+                "t": 157580.0,
+                "d": 3,
+                "l": 660.0
+              },
+              {
+                "t": 158280.0,
+                "d": 3,
+                "l": 1010.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 20270.0,
+              "end_ms": 20770.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 22490.0,
+              "end_ms": 23490.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "nubia",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 228,
+          "base_notes": 333,
+          "change": {
+            "added": 44,
+            "removed": 149,
+            "unchanged": 184
+          },
+          "holds": 136,
+          "hold_ratio": 0.5965,
+          "hold_max_ms": 1610.0,
+          "hold_p95_ms": 1340.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 12170.0,
+            "end_ms": 12670.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 12170.0,
+            "end_ms": 13170.0
+          },
+          "lane_counts": {
+            "0": 49,
+            "1": 65,
+            "2": 64,
+            "3": 50
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 398,
+          "syllables": 411,
+          "coverage_ratio": 0.9684,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 9920.0,
+                "d": 1,
+                "l": 550.0
+              },
+              {
+                "t": 10740.0,
+                "d": 2,
+                "l": 590.0
+              },
+              {
+                "t": 11390.0,
+                "d": 1,
+                "l": 720.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 94560.0,
+                "d": 1,
+                "l": 590.0
+              },
+              {
+                "t": 95190.0,
+                "d": 2,
+                "l": 550.0
+              },
+              {
+                "t": 95780.0,
+                "d": 0
+              }
+            ],
+            "last": [
+              {
+                "t": 216350.0,
+                "d": 1
+              },
+              {
+                "t": 216630.0,
+                "d": 2
+              },
+              {
+                "t": 216990.0,
+                "d": 0,
+                "l": 540.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 12170.0,
+              "end_ms": 12670.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 12170.0,
+              "end_ms": 13170.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 255,
+          "base_notes": 411,
+          "change": {
+            "added": 35,
+            "removed": 191,
+            "unchanged": 220
+          },
+          "holds": 221,
+          "hold_ratio": 0.8667,
+          "hold_max_ms": 1610.0,
+          "hold_p95_ms": 1270.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 10530.0,
+            "end_ms": 11030.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 9920.0,
+            "end_ms": 10920.0
+          },
+          "lane_counts": {
+            "0": 56,
+            "1": 71,
+            "2": 75,
+            "3": 53
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 410,
+          "syllables": 411,
+          "coverage_ratio": 0.9976,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 9920.0,
+                "d": 1,
+                "l": 550.0
+              },
+              {
+                "t": 10530.0,
+                "d": 0,
+                "l": 150.0
+              },
+              {
+                "t": 10740.0,
+                "d": 2,
+                "l": 590.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 95780.0,
+                "d": 0,
+                "l": 310.0
+              },
+              {
+                "t": 96150.0,
+                "d": 1,
+                "l": 340.0
+              },
+              {
+                "t": 96550.0,
+                "d": 3,
+                "l": 1340.0
+              }
+            ],
+            "last": [
+              {
+                "t": 216350.0,
+                "d": 1,
+                "l": 220.0
+              },
+              {
+                "t": 216630.0,
+                "d": 2,
+                "l": 300.0
+              },
+              {
+                "t": 216990.0,
+                "d": 0,
+                "l": 540.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 10530.0,
+              "end_ms": 11030.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 9920.0,
+              "end_ms": 10920.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 293,
+          "base_notes": 661,
+          "change": {
+            "added": 69,
+            "removed": 437,
+            "unchanged": 224
+          },
+          "holds": 221,
+          "hold_ratio": 0.7543,
+          "hold_max_ms": 1610.0,
+          "hold_p95_ms": 1270.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 10530.0,
+            "end_ms": 11030.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 9920.0,
+            "end_ms": 10920.0
+          },
+          "lane_counts": {
+            "0": 61,
+            "1": 83,
+            "2": 84,
+            "3": 65
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 410,
+          "syllables": 411,
+          "coverage_ratio": 0.9976,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 9920.0,
+                "d": 1,
+                "l": 550.0
+              },
+              {
+                "t": 10530.0,
+                "d": 0,
+                "l": 150.0
+              },
+              {
+                "t": 10740.0,
+                "d": 2,
+                "l": 590.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 96550.0,
+                "d": 3,
+                "l": 1340.0
+              },
+              {
+                "t": 97220.0,
+                "d": 0
+              },
+              {
+                "t": 98210.0,
+                "d": 2,
+                "l": 670.0
+              }
+            ],
+            "last": [
+              {
+                "t": 216350.0,
+                "d": 1,
+                "l": 220.0
+              },
+              {
+                "t": 216630.0,
+                "d": 2,
+                "l": 300.0
+              },
+              {
+                "t": 216990.0,
+                "d": 0,
+                "l": 540.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 10530.0,
+              "end_ms": 11030.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 9920.0,
+              "end_ms": 10920.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 170,
+          "base_notes": 260,
+          "change": {
+            "added": 41,
+            "removed": 131,
+            "unchanged": 129
+          },
+          "holds": 115,
+          "hold_ratio": 0.6765,
+          "hold_max_ms": 1500.0,
+          "hold_p95_ms": 970.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 4030.0,
+            "end_ms": 4530.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 4030.0,
+            "end_ms": 5030.0
+          },
+          "lane_counts": {
+            "0": 43,
+            "1": 53,
+            "2": 50,
+            "3": 24
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 312,
+          "syllables": 321,
+          "coverage_ratio": 0.972,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 2860.0,
+                "d": 1
+              },
+              {
+                "t": 4030.0,
+                "d": 3
+              },
+              {
+                "t": 4140.0,
+                "d": 3,
+                "l": 510.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 86750.0,
+                "d": 0,
+                "l": 880.0
+              },
+              {
+                "t": 87690.0,
+                "d": 3,
+                "l": 580.0
+              },
+              {
+                "t": 88310.0,
+                "d": 2,
+                "l": 570.0
+              }
+            ],
+            "last": [
+              {
+                "t": 154240.0,
+                "d": 1,
+                "l": 440.0
+              },
+              {
+                "t": 154740.0,
+                "d": 2,
+                "l": 620.0
+              },
+              {
+                "t": 155400.0,
+                "d": 0,
+                "l": 490.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 4030.0,
+              "end_ms": 4530.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 4030.0,
+              "end_ms": 5030.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 193,
+          "base_notes": 321,
+          "change": {
+            "added": 27,
+            "removed": 155,
+            "unchanged": 166
+          },
+          "holds": 179,
+          "hold_ratio": 0.9275,
+          "hold_max_ms": 1500.0,
+          "hold_p95_ms": 940.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 2860.0,
+            "end_ms": 3360.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 3220.0,
+            "end_ms": 4220.0
+          },
+          "lane_counts": {
+            "0": 46,
+            "1": 61,
+            "2": 56,
+            "3": 30
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 321,
+          "syllables": 321,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 2860.0,
+                "d": 1,
+                "l": 300.0
+              },
+              {
+                "t": 3220.0,
+                "d": 2
+              },
+              {
+                "t": 4030.0,
+                "d": 3
+              }
+            ],
+            "middle": [
+              {
+                "t": 86750.0,
+                "d": 0,
+                "l": 880.0
+              },
+              {
+                "t": 87690.0,
+                "d": 3,
+                "l": 580.0
+              },
+              {
+                "t": 88310.0,
+                "d": 2,
+                "l": 570.0
+              }
+            ],
+            "last": [
+              {
+                "t": 154240.0,
+                "d": 1,
+                "l": 440.0
+              },
+              {
+                "t": 154740.0,
+                "d": 2,
+                "l": 620.0
+              },
+              {
+                "t": 155400.0,
+                "d": 0,
+                "l": 490.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 2860.0,
+              "end_ms": 3360.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 3220.0,
+              "end_ms": 4220.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 215,
+          "base_notes": 533,
+          "change": {
+            "added": 45,
+            "removed": 363,
+            "unchanged": 170
+          },
+          "holds": 179,
+          "hold_ratio": 0.8326,
+          "hold_max_ms": 1500.0,
+          "hold_p95_ms": 940.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 2860.0,
+            "end_ms": 3360.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 3220.0,
+            "end_ms": 4220.0
+          },
+          "lane_counts": {
+            "0": 50,
+            "1": 68,
+            "2": 63,
+            "3": 34
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 321,
+          "syllables": 321,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 2860.0,
+                "d": 1,
+                "l": 300.0
+              },
+              {
+                "t": 3220.0,
+                "d": 2
+              },
+              {
+                "t": 4030.0,
+                "d": 3
+              }
+            ],
+            "middle": [
+              {
+                "t": 86750.0,
+                "d": 0,
+                "l": 880.0
+              },
+              {
+                "t": 87190.0,
+                "d": 1
+              },
+              {
+                "t": 87690.0,
+                "d": 3,
+                "l": 580.0
+              }
+            ],
+            "last": [
+              {
+                "t": 154240.0,
+                "d": 1,
+                "l": 440.0
+              },
+              {
+                "t": 154740.0,
+                "d": 2,
+                "l": 620.0
+              },
+              {
+                "t": 155400.0,
+                "d": 0,
+                "l": 490.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 2860.0,
+              "end_ms": 3360.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 3220.0,
+              "end_ms": 4220.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "peligrosa",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 290,
+          "base_notes": 473,
+          "change": {
+            "added": 81,
+            "removed": 264,
+            "unchanged": 209
+          },
+          "holds": 194,
+          "hold_ratio": 0.669,
+          "hold_max_ms": 1490.0,
+          "hold_p95_ms": 1070.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 14190.0,
+            "end_ms": 14690.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 13560.0,
+            "end_ms": 14560.0
+          },
+          "lane_counts": {
+            "0": 69,
+            "1": 86,
+            "2": 76,
+            "3": 59
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 648,
+          "syllables": 666,
+          "coverage_ratio": 0.973,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 11830.0,
+                "d": 2,
+                "l": 820.0
+              },
+              {
+                "t": 12710.0,
+                "d": 1,
+                "l": 810.0
+              },
+              {
+                "t": 13560.0,
+                "d": 1
+              }
+            ],
+            "middle": [
+              {
+                "t": 104740.0,
+                "d": 1,
+                "l": 500.0
+              },
+              {
+                "t": 105280.0,
+                "d": 0
+              },
+              {
+                "t": 105710.0,
+                "d": 1,
+                "l": 930.0
+              }
+            ],
+            "last": [
+              {
+                "t": 225300.0,
+                "d": 2
+              },
+              {
+                "t": 225900.0,
+                "d": 1
+              },
+              {
+                "t": 226140.0,
+                "d": 3,
+                "l": 1030.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 14190.0,
+              "end_ms": 14690.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 13560.0,
+              "end_ms": 14560.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 320,
+          "base_notes": 666,
+          "change": {
+            "added": 36,
+            "removed": 382,
+            "unchanged": 284
+          },
+          "holds": 294,
+          "hold_ratio": 0.9187,
+          "hold_max_ms": 1490.0,
+          "hold_p95_ms": 960.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 14190.0,
+            "end_ms": 14690.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 13560.0,
+            "end_ms": 14560.0
+          },
+          "lane_counts": {
+            "0": 78,
+            "1": 92,
+            "2": 87,
+            "3": 63
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 662,
+          "syllables": 666,
+          "coverage_ratio": 0.994,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 11830.0,
+                "d": 2,
+                "l": 820.0
+              },
+              {
+                "t": 12710.0,
+                "d": 1,
+                "l": 810.0
+              },
+              {
+                "t": 13560.0,
+                "d": 1,
+                "l": 340.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 105710.0,
+                "d": 1,
+                "l": 930.0
+              },
+              {
+                "t": 106680.0,
+                "d": 3,
+                "l": 540.0
+              },
+              {
+                "t": 107260.0,
+                "d": 2
+              }
+            ],
+            "last": [
+              {
+                "t": 225300.0,
+                "d": 2,
+                "l": 260.0
+              },
+              {
+                "t": 225900.0,
+                "d": 1,
+                "l": 180.0
+              },
+              {
+                "t": 226140.0,
+                "d": 3,
+                "l": 1030.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 14190.0,
+              "end_ms": 14690.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 13560.0,
+              "end_ms": 14560.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 349,
+          "base_notes": 967,
+          "change": {
+            "added": 70,
+            "removed": 688,
+            "unchanged": 279
+          },
+          "holds": 291,
+          "hold_ratio": 0.8338,
+          "hold_max_ms": 1490.0,
+          "hold_p95_ms": 960.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 14190.0,
+            "end_ms": 14690.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 13560.0,
+            "end_ms": 14560.0
+          },
+          "lane_counts": {
+            "0": 82,
+            "1": 102,
+            "2": 94,
+            "3": 71
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 662,
+          "syllables": 666,
+          "coverage_ratio": 0.994,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 11830.0,
+                "d": 2,
+                "l": 820.0
+              },
+              {
+                "t": 12710.0,
+                "d": 1,
+                "l": 810.0
+              },
+              {
+                "t": 13560.0,
+                "d": 1,
+                "l": 340.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 106175.0,
+                "d": 2
+              },
+              {
+                "t": 106680.0,
+                "d": 3,
+                "l": 540.0
+              },
+              {
+                "t": 107260.0,
+                "d": 2
+              }
+            ],
+            "last": [
+              {
+                "t": 225300.0,
+                "d": 2,
+                "l": 260.0
+              },
+              {
+                "t": 225900.0,
+                "d": 1,
+                "l": 180.0
+              },
+              {
+                "t": 226140.0,
+                "d": 3,
+                "l": 1030.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 14190.0,
+              "end_ms": 14690.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 13560.0,
+              "end_ms": 14560.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "rompecabezas",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 288,
+          "base_notes": 455,
+          "change": {
+            "added": 74,
+            "removed": 241,
+            "unchanged": 214
+          },
+          "holds": 187,
+          "hold_ratio": 0.6493,
+          "hold_max_ms": 1420.0,
+          "hold_p95_ms": 970.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 13730.0,
+            "end_ms": 14230.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 13170.0,
+            "end_ms": 14170.0
+          },
+          "lane_counts": {
+            "0": 57,
+            "1": 92,
+            "2": 81,
+            "3": 58
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 581,
+          "syllables": 591,
+          "coverage_ratio": 0.9831,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 13170.0,
+                "d": 1
+              },
+              {
+                "t": 13730.0,
+                "d": 0
+              },
+              {
+                "t": 14140.0,
+                "d": 1,
+                "l": 500.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 107690.0,
+                "d": 3,
+                "l": 1320.0
+              },
+              {
+                "t": 109050.0,
+                "d": 3,
+                "l": 580.0
+              },
+              {
+                "t": 109670.0,
+                "d": 0
+              }
+            ],
+            "last": [
+              {
+                "t": 197320.0,
+                "d": 2,
+                "l": 880.0
+              },
+              {
+                "t": 198240.0,
+                "d": 1
+              },
+              {
+                "t": 198620.0,
+                "d": 2,
+                "l": 950.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 13730.0,
+              "end_ms": 14230.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 13170.0,
+              "end_ms": 14170.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 327,
+          "base_notes": 591,
+          "change": {
+            "added": 44,
+            "removed": 308,
+            "unchanged": 283
+          },
+          "holds": 295,
+          "hold_ratio": 0.9021,
+          "hold_max_ms": 1420.0,
+          "hold_p95_ms": 940.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 13730.0,
+            "end_ms": 14230.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 13170.0,
+            "end_ms": 14170.0
+          },
+          "lane_counts": {
+            "0": 68,
+            "1": 104,
+            "2": 85,
+            "3": 70
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 591,
+          "syllables": 591,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 13170.0,
+                "d": 1,
+                "l": 200.0
+              },
+              {
+                "t": 13730.0,
+                "d": 0,
+                "l": 350.0
+              },
+              {
+                "t": 14140.0,
+                "d": 1,
+                "l": 500.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 104640.0,
+                "d": 3,
+                "l": 530.0
+              },
+              {
+                "t": 105960.0,
+                "d": 3,
+                "l": 760.0
+              },
+              {
+                "t": 106760.0,
+                "d": 0
+              }
+            ],
+            "last": [
+              {
+                "t": 197320.0,
+                "d": 2,
+                "l": 880.0
+              },
+              {
+                "t": 198240.0,
+                "d": 1,
+                "l": 320.0
+              },
+              {
+                "t": 198620.0,
+                "d": 2,
+                "l": 950.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 13730.0,
+              "end_ms": 14230.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 13170.0,
+              "end_ms": 14170.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 349,
+          "base_notes": 912,
+          "change": {
+            "added": 71,
+            "removed": 634,
+            "unchanged": 278
+          },
+          "holds": 291,
+          "hold_ratio": 0.8338,
+          "hold_max_ms": 1420.0,
+          "hold_p95_ms": 940.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 13730.0,
+            "end_ms": 14230.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 13170.0,
+            "end_ms": 14170.0
+          },
+          "lane_counts": {
+            "0": 72,
+            "1": 106,
+            "2": 97,
+            "3": 74
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 591,
+          "syllables": 591,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 13170.0,
+                "d": 1,
+                "l": 200.0
+              },
+              {
+                "t": 13730.0,
+                "d": 0,
+                "l": 350.0
+              },
+              {
+                "t": 14140.0,
+                "d": 1,
+                "l": 500.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 104270.0,
+                "d": 1,
+                "l": 310.0
+              },
+              {
+                "t": 104640.0,
+                "d": 3,
+                "l": 530.0
+              },
+              {
+                "t": 104905.0,
+                "d": 0
+              }
+            ],
+            "last": [
+              {
+                "t": 197320.0,
+                "d": 2,
+                "l": 880.0
+              },
+              {
+                "t": 198240.0,
+                "d": 1,
+                "l": 320.0
+              },
+              {
+                "t": 198620.0,
+                "d": 2,
+                "l": 950.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 13730.0,
+              "end_ms": 14230.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 13170.0,
+              "end_ms": 14170.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "si-te-vas",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 231,
+          "base_notes": 365,
+          "change": {
+            "added": 64,
+            "removed": 198,
+            "unchanged": 167
+          },
+          "holds": 160,
+          "hold_ratio": 0.6926,
+          "hold_max_ms": 1750.0,
+          "hold_p95_ms": 1370.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 2900.0,
+            "end_ms": 3400.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 2900.0,
+            "end_ms": 3900.0
+          },
+          "lane_counts": {
+            "0": 49,
+            "1": 55,
+            "2": 70,
+            "3": 57
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 472,
+          "syllables": 483,
+          "coverage_ratio": 0.9772,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 650.0,
+                "d": 3,
+                "l": 1530.0
+              },
+              {
+                "t": 2900.0,
+                "d": 2
+              },
+              {
+                "t": 3240.0,
+                "d": 0
+              }
+            ],
+            "middle": [
+              {
+                "t": 104980.0,
+                "d": 3,
+                "l": 790.0
+              },
+              {
+                "t": 107280.0,
+                "d": 2,
+                "l": 570.0
+              },
+              {
+                "t": 107890.0,
+                "d": 1
+              }
+            ],
+            "last": [
+              {
+                "t": 201700.0,
+                "d": 1,
+                "l": 1370.0
+              },
+              {
+                "t": 212880.0,
+                "d": 3,
+                "l": 420.0
+              },
+              {
+                "t": 213360.0,
+                "d": 0,
+                "l": 890.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 2900.0,
+              "end_ms": 3400.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 2900.0,
+              "end_ms": 3900.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 254,
+          "base_notes": 483,
+          "change": {
+            "added": 31,
+            "removed": 260,
+            "unchanged": 223
+          },
+          "holds": 231,
+          "hold_ratio": 0.9094,
+          "hold_max_ms": 1750.0,
+          "hold_p95_ms": 1170.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 2900.0,
+            "end_ms": 3400.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 2320.0,
+            "end_ms": 3320.0
+          },
+          "lane_counts": {
+            "0": 54,
+            "1": 60,
+            "2": 77,
+            "3": 63
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 482,
+          "syllables": 483,
+          "coverage_ratio": 0.9979,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 650.0,
+                "d": 3,
+                "l": 1530.0
+              },
+              {
+                "t": 2320.0,
+                "d": 2
+              },
+              {
+                "t": 2900.0,
+                "d": 2,
+                "l": 280.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 107890.0,
+                "d": 1,
+                "l": 310.0
+              },
+              {
+                "t": 108260.0,
+                "d": 2,
+                "l": 860.0
+              },
+              {
+                "t": 109160.0,
+                "d": 2,
+                "l": 790.0
+              }
+            ],
+            "last": [
+              {
+                "t": 210500.0,
+                "d": 2
+              },
+              {
+                "t": 212880.0,
+                "d": 3,
+                "l": 420.0
+              },
+              {
+                "t": 213360.0,
+                "d": 0,
+                "l": 890.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 2900.0,
+              "end_ms": 3400.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 2320.0,
+              "end_ms": 3320.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 299,
+          "base_notes": 744,
+          "change": {
+            "added": 77,
+            "removed": 522,
+            "unchanged": 222
+          },
+          "holds": 229,
+          "hold_ratio": 0.7659,
+          "hold_max_ms": 1750.0,
+          "hold_p95_ms": 1170.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 3640.0,
+            "end_ms": 4140.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 2900.0,
+            "end_ms": 3900.0
+          },
+          "lane_counts": {
+            "0": 68,
+            "1": 69,
+            "2": 91,
+            "3": 71
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 482,
+          "syllables": 483,
+          "coverage_ratio": 0.9979,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 650.0,
+                "d": 3,
+                "l": 1530.0
+              },
+              {
+                "t": 1415.0,
+                "d": 0
+              },
+              {
+                "t": 2320.0,
+                "d": 2
+              }
+            ],
+            "middle": [
+              {
+                "t": 107890.0,
+                "d": 1,
+                "l": 310.0
+              },
+              {
+                "t": 108260.0,
+                "d": 2,
+                "l": 860.0
+              },
+              {
+                "t": 109160.0,
+                "d": 2,
+                "l": 790.0
+              }
+            ],
+            "last": [
+              {
+                "t": 210500.0,
+                "d": 2
+              },
+              {
+                "t": 212880.0,
+                "d": 3,
+                "l": 420.0
+              },
+              {
+                "t": 213360.0,
+                "d": 0,
+                "l": 890.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 3640.0,
+              "end_ms": 4140.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 2900.0,
+              "end_ms": 3900.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "solare",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 295,
+          "base_notes": 445,
+          "change": {
+            "added": 79,
+            "removed": 229,
+            "unchanged": 216
+          },
+          "holds": 178,
+          "hold_ratio": 0.6034,
+          "hold_max_ms": 1800.0,
+          "hold_p95_ms": 1110.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 2630.0,
+            "end_ms": 3130.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 1990.0,
+            "end_ms": 2990.0
+          },
+          "lane_counts": {
+            "0": 59,
+            "1": 88,
+            "2": 88,
+            "3": 60
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 565,
+          "syllables": 572,
+          "coverage_ratio": 0.9878,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 1990.0,
+                "d": 2
+              },
+              {
+                "t": 2630.0,
+                "d": 2
+              },
+              {
+                "t": 2960.0,
+                "d": 0
+              }
+            ],
+            "middle": [
+              {
+                "t": 114400.0,
+                "d": 0,
+                "l": 770.0
+              },
+              {
+                "t": 115210.0,
+                "d": 2,
+                "l": 530.0
+              },
+              {
+                "t": 115780.0,
+                "d": 0,
+                "l": 800.0
+              }
+            ],
+            "last": [
+              {
+                "t": 216080.0,
+                "d": 1
+              },
+              {
+                "t": 216440.0,
+                "d": 2
+              },
+              {
+                "t": 216760.0,
+                "d": 3,
+                "l": 730.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 2630.0,
+              "end_ms": 3130.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 1990.0,
+              "end_ms": 2990.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 320,
+          "base_notes": 572,
+          "change": {
+            "added": 35,
+            "removed": 287,
+            "unchanged": 285
+          },
+          "holds": 301,
+          "hold_ratio": 0.9406,
+          "hold_max_ms": 1800.0,
+          "hold_p95_ms": 940.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 2630.0,
+            "end_ms": 3130.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 1990.0,
+            "end_ms": 2990.0
+          },
+          "lane_counts": {
+            "0": 68,
+            "1": 94,
+            "2": 95,
+            "3": 63
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 572,
+          "syllables": 572,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 1990.0,
+                "d": 2,
+                "l": 250.0
+              },
+              {
+                "t": 2630.0,
+                "d": 2,
+                "l": 270.0
+              },
+              {
+                "t": 2960.0,
+                "d": 0,
+                "l": 230.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 112180.0,
+                "d": 3,
+                "l": 300.0
+              },
+              {
+                "t": 112540.0,
+                "d": 1,
+                "l": 450.0
+              },
+              {
+                "t": 113050.0,
+                "d": 2,
+                "l": 1290.0
+              }
+            ],
+            "last": [
+              {
+                "t": 216080.0,
+                "d": 1,
+                "l": 300.0
+              },
+              {
+                "t": 216440.0,
+                "d": 2,
+                "l": 260.0
+              },
+              {
+                "t": 216760.0,
+                "d": 3,
+                "l": 730.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 2630.0,
+              "end_ms": 3130.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 1990.0,
+              "end_ms": 2990.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 353,
+          "base_notes": 910,
+          "change": {
+            "added": 65,
+            "removed": 622,
+            "unchanged": 288
+          },
+          "holds": 299,
+          "hold_ratio": 0.847,
+          "hold_max_ms": 1800.0,
+          "hold_p95_ms": 940.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 2630.0,
+            "end_ms": 3130.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 1990.0,
+            "end_ms": 2990.0
+          },
+          "lane_counts": {
+            "0": 70,
+            "1": 99,
+            "2": 113,
+            "3": 71
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 572,
+          "syllables": 572,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 1990.0,
+                "d": 2,
+                "l": 250.0
+              },
+              {
+                "t": 2630.0,
+                "d": 3,
+                "l": 270.0
+              },
+              {
+                "t": 2960.0,
+                "d": 2,
+                "l": 230.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 112540.0,
+                "d": 1,
+                "l": 450.0
+              },
+              {
+                "t": 113050.0,
+                "d": 2,
+                "l": 1290.0
+              },
+              {
+                "t": 113695.0,
+                "d": 3
+              }
+            ],
+            "last": [
+              {
+                "t": 216080.0,
+                "d": 1,
+                "l": 300.0
+              },
+              {
+                "t": 216440.0,
+                "d": 2,
+                "l": 260.0
+              },
+              {
+                "t": 216760.0,
+                "d": 3,
+                "l": 730.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 2630.0,
+              "end_ms": 3130.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 1990.0,
+              "end_ms": 2990.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "tristella",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 304,
+          "base_notes": 419,
+          "change": {
+            "added": 60,
+            "removed": 175,
+            "unchanged": 244
+          },
+          "holds": 184,
+          "hold_ratio": 0.6053,
+          "hold_max_ms": 1740.0,
+          "hold_p95_ms": 1190.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 15160.0,
+            "end_ms": 15660.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 15160.0,
+            "end_ms": 16160.0
+          },
+          "lane_counts": {
+            "0": 60,
+            "1": 81,
+            "2": 97,
+            "3": 66
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 517,
+          "syllables": 527,
+          "coverage_ratio": 0.981,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 13490.0,
+                "d": 0
+              },
+              {
+                "t": 14300.0,
+                "d": 2,
+                "l": 580.0
+              },
+              {
+                "t": 15160.0,
+                "d": 3,
+                "l": 420.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 125700.0,
+                "d": 1,
+                "l": 670.0
+              },
+              {
+                "t": 126500.0,
+                "d": 2,
+                "l": 900.0
+              },
+              {
+                "t": 127440.0,
+                "d": 2
+              }
+            ],
+            "last": [
+              {
+                "t": 220580.0,
+                "d": 1,
+                "l": 520.0
+              },
+              {
+                "t": 221160.0,
+                "d": 3,
+                "l": 460.0
+              },
+              {
+                "t": 221680.0,
+                "d": 1
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 15160.0,
+              "end_ms": 15660.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 15160.0,
+              "end_ms": 16160.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 338,
+          "base_notes": 527,
+          "change": {
+            "added": 32,
+            "removed": 221,
+            "unchanged": 306
+          },
+          "holds": 307,
+          "hold_ratio": 0.9083,
+          "hold_max_ms": 1740.0,
+          "hold_p95_ms": 1120.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 14020.0,
+            "end_ms": 14520.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 13490.0,
+            "end_ms": 14490.0
+          },
+          "lane_counts": {
+            "0": 71,
+            "1": 89,
+            "2": 102,
+            "3": 76
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 527,
+          "syllables": 527,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 13490.0,
+                "d": 0,
+                "l": 200.0
+              },
+              {
+                "t": 14020.0,
+                "d": 0,
+                "l": 220.0
+              },
+              {
+                "t": 14300.0,
+                "d": 2,
+                "l": 580.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 125000.0,
+                "d": 3,
+                "l": 330.0
+              },
+              {
+                "t": 125390.0,
+                "d": 0,
+                "l": 250.0
+              },
+              {
+                "t": 125700.0,
+                "d": 1,
+                "l": 670.0
+              }
+            ],
+            "last": [
+              {
+                "t": 220580.0,
+                "d": 1,
+                "l": 520.0
+              },
+              {
+                "t": 221160.0,
+                "d": 3,
+                "l": 460.0
+              },
+              {
+                "t": 221680.0,
+                "d": 1,
+                "l": 415.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 14020.0,
+              "end_ms": 14520.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 13490.0,
+              "end_ms": 14490.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 369,
+          "base_notes": 840,
+          "change": {
+            "added": 62,
+            "removed": 533,
+            "unchanged": 307
+          },
+          "holds": 307,
+          "hold_ratio": 0.832,
+          "hold_max_ms": 1740.0,
+          "hold_p95_ms": 1120.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 14020.0,
+            "end_ms": 14520.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 13490.0,
+            "end_ms": 14490.0
+          },
+          "lane_counts": {
+            "0": 80,
+            "1": 90,
+            "2": 112,
+            "3": 87
+          },
+          "same_lane_max_run": 3,
+          "covered_syllables": 527,
+          "syllables": 527,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 13490.0,
+                "d": 0,
+                "l": 200.0
+              },
+              {
+                "t": 14020.0,
+                "d": 0,
+                "l": 220.0
+              },
+              {
+                "t": 14300.0,
+                "d": 2,
+                "l": 580.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 124110.0,
+                "d": 0,
+                "l": 300.0
+              },
+              {
+                "t": 124470.0,
+                "d": 2,
+                "l": 470.0
+              },
+              {
+                "t": 125000.0,
+                "d": 3,
+                "l": 330.0
+              }
+            ],
+            "last": [
+              {
+                "t": 220580.0,
+                "d": 1,
+                "l": 520.0
+              },
+              {
+                "t": 221160.0,
+                "d": 3,
+                "l": 460.0
+              },
+              {
+                "t": 221680.0,
+                "d": 1,
+                "l": 415.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 14020.0,
+              "end_ms": 14520.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 13490.0,
+              "end_ms": 14490.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 220,
+          "base_notes": 367,
+          "change": {
+            "added": 56,
+            "removed": 203,
+            "unchanged": 164
+          },
+          "holds": 165,
+          "hold_ratio": 0.75,
+          "hold_max_ms": 1490.0,
+          "hold_p95_ms": 1050.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 26420.0,
+            "end_ms": 26920.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 26420.0,
+            "end_ms": 27420.0
+          },
+          "lane_counts": {
+            "0": 33,
+            "1": 56,
+            "2": 84,
+            "3": 47
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 507,
+          "syllables": 509,
+          "coverage_ratio": 0.9961,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 26420.0,
+                "d": 1
+              },
+              {
+                "t": 26540.0,
+                "d": 2,
+                "l": 600.0
+              },
+              {
+                "t": 27200.0,
+                "d": 3
+              }
+            ],
+            "middle": [
+              {
+                "t": 94150.0,
+                "d": 2,
+                "l": 770.0
+              },
+              {
+                "t": 94960.0,
+                "d": 0,
+                "l": 600.0
+              },
+              {
+                "t": 95600.0,
+                "d": 0,
+                "l": 740.0
+              }
+            ],
+            "last": [
+              {
+                "t": 170060.0,
+                "d": 1,
+                "l": 500.0
+              },
+              {
+                "t": 170600.0,
+                "d": 3,
+                "l": 700.0
+              },
+              {
+                "t": 171340.0,
+                "d": 3,
+                "l": 730.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 26420.0,
+              "end_ms": 26920.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 26420.0,
+              "end_ms": 27420.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 233,
+          "base_notes": 509,
+          "change": {
+            "added": 8,
+            "removed": 284,
+            "unchanged": 225
+          },
+          "holds": 219,
+          "hold_ratio": 0.9399,
+          "hold_max_ms": 1490.0,
+          "hold_p95_ms": 940.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 26420.0,
+            "end_ms": 26920.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 26420.0,
+            "end_ms": 27420.0
+          },
+          "lane_counts": {
+            "0": 36,
+            "1": 59,
+            "2": 88,
+            "3": 50
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 509,
+          "syllables": 509,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 26420.0,
+                "d": 1
+              },
+              {
+                "t": 26540.0,
+                "d": 2,
+                "l": 600.0
+              },
+              {
+                "t": 27200.0,
+                "d": 3,
+                "l": 340.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 94150.0,
+                "d": 2,
+                "l": 770.0
+              },
+              {
+                "t": 94960.0,
+                "d": 0,
+                "l": 600.0
+              },
+              {
+                "t": 95600.0,
+                "d": 0,
+                "l": 740.0
+              }
+            ],
+            "last": [
+              {
+                "t": 170060.0,
+                "d": 1,
+                "l": 500.0
+              },
+              {
+                "t": 170600.0,
+                "d": 3,
+                "l": 700.0
+              },
+              {
+                "t": 171340.0,
+                "d": 3,
+                "l": 730.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 26420.0,
+              "end_ms": 26920.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 26420.0,
+              "end_ms": 27420.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 258,
+          "base_notes": 731,
+          "change": {
+            "added": 33,
+            "removed": 506,
+            "unchanged": 225
+          },
+          "holds": 219,
+          "hold_ratio": 0.8488,
+          "hold_max_ms": 1490.0,
+          "hold_p95_ms": 940.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 26420.0,
+            "end_ms": 26920.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 26420.0,
+            "end_ms": 27420.0
+          },
+          "lane_counts": {
+            "0": 45,
+            "1": 60,
+            "2": 94,
+            "3": 59
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 509,
+          "syllables": 509,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 26420.0,
+                "d": 1
+              },
+              {
+                "t": 26540.0,
+                "d": 2,
+                "l": 600.0
+              },
+              {
+                "t": 27200.0,
+                "d": 3,
+                "l": 340.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 94960.0,
+                "d": 0,
+                "l": 600.0
+              },
+              {
+                "t": 95600.0,
+                "d": 0,
+                "l": 740.0
+              },
+              {
+                "t": 96380.0,
+                "d": 1
+              }
+            ],
+            "last": [
+              {
+                "t": 170060.0,
+                "d": 1,
+                "l": 500.0
+              },
+              {
+                "t": 170600.0,
+                "d": 3,
+                "l": 700.0
+              },
+              {
+                "t": 171340.0,
+                "d": 3,
+                "l": 730.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 26420.0,
+              "end_ms": 26920.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 26420.0,
+              "end_ms": 27420.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 224,
+          "base_notes": 317,
+          "change": {
+            "added": 53,
+            "removed": 146,
+            "unchanged": 171
+          },
+          "holds": 152,
+          "hold_ratio": 0.6786,
+          "hold_max_ms": 1770.0,
+          "hold_p95_ms": 1490.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 1490.0,
+            "end_ms": 1990.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 1490.0,
+            "end_ms": 2490.0
+          },
+          "lane_counts": {
+            "0": 54,
+            "1": 63,
+            "2": 70,
+            "3": 37
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 400,
+          "syllables": 407,
+          "coverage_ratio": 0.9828,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 1490.0,
+                "d": 2
+              },
+              {
+                "t": 1930.0,
+                "d": 0,
+                "l": 510.0
+              },
+              {
+                "t": 2480.0,
+                "d": 0,
+                "l": 510.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 99780.0,
+                "d": 2,
+                "l": 660.0
+              },
+              {
+                "t": 100770.0,
+                "d": 2
+              },
+              {
+                "t": 101000.0,
+                "d": 1,
+                "l": 530.0
+              }
+            ],
+            "last": [
+              {
+                "t": 205060.0,
+                "d": 3,
+                "l": 600.0
+              },
+              {
+                "t": 205720.0,
+                "d": 3,
+                "l": 690.0
+              },
+              {
+                "t": 206470.0,
+                "d": 1
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 1490.0,
+              "end_ms": 1990.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 1490.0,
+              "end_ms": 2490.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 250,
+          "base_notes": 407,
+          "change": {
+            "added": 27,
+            "removed": 184,
+            "unchanged": 223
+          },
+          "holds": 229,
+          "hold_ratio": 0.916,
+          "hold_max_ms": 1770.0,
+          "hold_p95_ms": 1390.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 1490.0,
+            "end_ms": 1990.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 1490.0,
+            "end_ms": 2490.0
+          },
+          "lane_counts": {
+            "0": 63,
+            "1": 70,
+            "2": 77,
+            "3": 40
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 407,
+          "syllables": 407,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 1490.0,
+                "d": 2,
+                "l": 380.0
+              },
+              {
+                "t": 1930.0,
+                "d": 0,
+                "l": 510.0
+              },
+              {
+                "t": 2480.0,
+                "d": 0,
+                "l": 510.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 100770.0,
+                "d": 2,
+                "l": 170.0
+              },
+              {
+                "t": 101000.0,
+                "d": 1,
+                "l": 530.0
+              },
+              {
+                "t": 101590.0,
+                "d": 0,
+                "l": 500.0
+              }
+            ],
+            "last": [
+              {
+                "t": 205060.0,
+                "d": 3,
+                "l": 600.0
+              },
+              {
+                "t": 205720.0,
+                "d": 3,
+                "l": 690.0
+              },
+              {
+                "t": 206470.0,
+                "d": 1,
+                "l": 415.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 1490.0,
+              "end_ms": 1990.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 1490.0,
+              "end_ms": 2490.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 296,
+          "base_notes": 648,
+          "change": {
+            "added": 76,
+            "removed": 428,
+            "unchanged": 220
+          },
+          "holds": 226,
+          "hold_ratio": 0.7635,
+          "hold_max_ms": 1770.0,
+          "hold_p95_ms": 1390.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 1490.0,
+            "end_ms": 1990.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 1490.0,
+            "end_ms": 2490.0
+          },
+          "lane_counts": {
+            "0": 78,
+            "1": 86,
+            "2": 78,
+            "3": 54
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 407,
+          "syllables": 407,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 1490.0,
+                "d": 2,
+                "l": 380.0
+              },
+              {
+                "t": 1930.0,
+                "d": 0,
+                "l": 510.0
+              },
+              {
+                "t": 2480.0,
+                "d": 0,
+                "l": 510.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 101590.0,
+                "d": 0,
+                "l": 500.0
+              },
+              {
+                "t": 102300.0,
+                "d": 1
+              },
+              {
+                "t": 102950.0,
+                "d": 0,
+                "l": 370.0
+              }
+            ],
+            "last": [
+              {
+                "t": 205060.0,
+                "d": 3,
+                "l": 600.0
+              },
+              {
+                "t": 205720.0,
+                "d": 3,
+                "l": 690.0
+              },
+              {
+                "t": 206470.0,
+                "d": 1,
+                "l": 415.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 1490.0,
+              "end_ms": 1990.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 1490.0,
+              "end_ms": 2490.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "song": "volver-a-vernos",
+      "warnings": [],
+      "difficulties": {
+        "easy": {
+          "notes": 259,
+          "base_notes": 444,
+          "change": {
+            "added": 87,
+            "removed": 272,
+            "unchanged": 172
+          },
+          "holds": 187,
+          "hold_ratio": 0.722,
+          "hold_max_ms": 1350.0,
+          "hold_p95_ms": 960.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 2270.0,
+            "end_ms": 2770.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 2270.0,
+            "end_ms": 3270.0
+          },
+          "lane_counts": {
+            "0": 48,
+            "1": 71,
+            "2": 95,
+            "3": 45
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 656,
+          "syllables": 657,
+          "coverage_ratio": 0.9985,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 350.0,
+                "d": 2,
+                "l": 670.0
+              },
+              {
+                "t": 1180.0,
+                "d": 2,
+                "l": 760.0
+              },
+              {
+                "t": 2270.0,
+                "d": 1
+              }
+            ],
+            "middle": [
+              {
+                "t": 79720.0,
+                "d": 3,
+                "l": 480.0
+              },
+              {
+                "t": 80540.0,
+                "d": 2,
+                "l": 420.0
+              },
+              {
+                "t": 81020.0,
+                "d": 3,
+                "l": 770.0
+              }
+            ],
+            "last": [
+              {
+                "t": 169660.0,
+                "d": 2,
+                "l": 670.0
+              },
+              {
+                "t": 170370.0,
+                "d": 1
+              },
+              {
+                "t": 170790.0,
+                "d": 1
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 2270.0,
+              "end_ms": 2770.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 2270.0,
+              "end_ms": 3270.0
+            }
+          }
+        },
+        "normal": {
+          "notes": 279,
+          "base_notes": 657,
+          "change": {
+            "added": 26,
+            "removed": 404,
+            "unchanged": 253
+          },
+          "holds": 260,
+          "hold_ratio": 0.9319,
+          "hold_max_ms": 1350.0,
+          "hold_p95_ms": 940.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 1060.0,
+            "end_ms": 1560.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 350.0,
+            "end_ms": 1350.0
+          },
+          "lane_counts": {
+            "0": 53,
+            "1": 76,
+            "2": 103,
+            "3": 47
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 657,
+          "syllables": 657,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 350.0,
+                "d": 2,
+                "l": 670.0
+              },
+              {
+                "t": 1060.0,
+                "d": 0
+              },
+              {
+                "t": 1180.0,
+                "d": 2,
+                "l": 760.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 78490.0,
+                "d": 3,
+                "l": 330.0
+              },
+              {
+                "t": 78880.0,
+                "d": 0,
+                "l": 800.0
+              },
+              {
+                "t": 79720.0,
+                "d": 3,
+                "l": 480.0
+              }
+            ],
+            "last": [
+              {
+                "t": 169660.0,
+                "d": 2,
+                "l": 670.0
+              },
+              {
+                "t": 170370.0,
+                "d": 1,
+                "l": 360.0
+              },
+              {
+                "t": 170790.0,
+                "d": 1,
+                "l": 415.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 1060.0,
+              "end_ms": 1560.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 350.0,
+              "end_ms": 1350.0
+            }
+          }
+        },
+        "hard": {
+          "notes": 300,
+          "base_notes": 905,
+          "change": {
+            "added": 47,
+            "removed": 652,
+            "unchanged": 253
+          },
+          "holds": 260,
+          "hold_ratio": 0.8667,
+          "hold_max_ms": 1350.0,
+          "hold_p95_ms": 940.0,
+          "max_notes_500ms": {
+            "raw_notes": 2,
+            "start_ms": 1060.0,
+            "end_ms": 1560.0
+          },
+          "max_notes_1000ms": {
+            "raw_notes": 3,
+            "start_ms": 350.0,
+            "end_ms": 1350.0
+          },
+          "lane_counts": {
+            "0": 56,
+            "1": 81,
+            "2": 106,
+            "3": 57
+          },
+          "same_lane_max_run": 4,
+          "covered_syllables": 657,
+          "syllables": 657,
+          "coverage_ratio": 1.0,
+          "nearest_syllable_error": {
+            "median_ms": 0.0,
+            "p95_ms": 0.0,
+            "max_ms": 0.0
+          },
+          "samples": {
+            "first": [
+              {
+                "t": 350.0,
+                "d": 2,
+                "l": 670.0
+              },
+              {
+                "t": 1060.0,
+                "d": 0
+              },
+              {
+                "t": 1180.0,
+                "d": 2,
+                "l": 760.0
+              }
+            ],
+            "middle": [
+              {
+                "t": 78180.0,
+                "d": 2,
+                "l": 250.0
+              },
+              {
+                "t": 78490.0,
+                "d": 3,
+                "l": 330.0
+              },
+              {
+                "t": 78880.0,
+                "d": 0,
+                "l": 800.0
+              }
+            ],
+            "last": [
+              {
+                "t": 169660.0,
+                "d": 2,
+                "l": 670.0
+              },
+              {
+                "t": 170370.0,
+                "d": 1,
+                "l": 360.0
+              },
+              {
+                "t": 170790.0,
+                "d": 1,
+                "l": 415.0
+              }
+            ],
+            "densest_500ms": {
+              "raw_notes": 2,
+              "start_ms": 1060.0,
+              "end_ms": 1560.0
+            },
+            "densest_1000ms": {
+              "raw_notes": 3,
+              "start_ms": 350.0,
+              "end_ms": 1350.0
+            }
+          }
+        }
+      }
+    }
+  ]
+}

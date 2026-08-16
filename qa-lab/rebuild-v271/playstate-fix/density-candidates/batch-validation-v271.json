@@ -1,0 +1,1212 @@
+{
+  "scope": "V271_DENSITY_AWARE_VOCAL_CANDIDATE_VALIDATION",
+  "status": "PASS",
+  "songs": 21,
+  "errors": [],
+  "rows": [
+    {
+      "song": "arcoloria",
+      "difficulties": {
+        "easy": {
+          "notes": 273,
+          "attack_groups": 273,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 170,
+          "hold_max_ms": 1770.0,
+          "covered_syllables": 394,
+          "syllables": 449,
+          "coverage_ratio": 0.8775,
+          "lane_counts": {
+            "0": 62,
+            "1": 68,
+            "2": 85,
+            "3": 58
+          }
+        },
+        "normal": {
+          "notes": 305,
+          "attack_groups": 305,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 273,
+          "hold_max_ms": 1770.0,
+          "covered_syllables": 426,
+          "syllables": 449,
+          "coverage_ratio": 0.9488,
+          "lane_counts": {
+            "0": 69,
+            "1": 75,
+            "2": 94,
+            "3": 67
+          }
+        },
+        "hard": {
+          "notes": 355,
+          "attack_groups": 355,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 273,
+          "hold_max_ms": 1770.0,
+          "covered_syllables": 426,
+          "syllables": 449,
+          "coverage_ratio": 0.9488,
+          "lane_counts": {
+            "0": 79,
+            "1": 93,
+            "2": 104,
+            "3": 79
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "cortamos-y-volvemos",
+      "difficulties": {
+        "easy": {
+          "notes": 266,
+          "attack_groups": 266,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 198,
+          "hold_max_ms": 1700.0,
+          "covered_syllables": 618,
+          "syllables": 647,
+          "coverage_ratio": 0.9552,
+          "lane_counts": {
+            "0": 79,
+            "1": 81,
+            "2": 64,
+            "3": 42
+          }
+        },
+        "normal": {
+          "notes": 291,
+          "attack_groups": 291,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 265,
+          "hold_max_ms": 1700.0,
+          "covered_syllables": 643,
+          "syllables": 647,
+          "coverage_ratio": 0.9938,
+          "lane_counts": {
+            "0": 82,
+            "1": 89,
+            "2": 76,
+            "3": 44
+          }
+        },
+        "hard": {
+          "notes": 310,
+          "attack_groups": 310,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 264,
+          "hold_max_ms": 1700.0,
+          "covered_syllables": 642,
+          "syllables": 647,
+          "coverage_ratio": 0.9923,
+          "lane_counts": {
+            "0": 84,
+            "1": 99,
+            "2": 81,
+            "3": 46
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "dano",
+      "difficulties": {
+        "easy": {
+          "notes": 249,
+          "attack_groups": 249,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 205,
+          "hold_max_ms": 1160.0,
+          "covered_syllables": 708,
+          "syllables": 734,
+          "coverage_ratio": 0.9646,
+          "lane_counts": {
+            "0": 45,
+            "1": 66,
+            "2": 97,
+            "3": 41
+          }
+        },
+        "normal": {
+          "notes": 266,
+          "attack_groups": 266,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 241,
+          "hold_max_ms": 1160.0,
+          "covered_syllables": 723,
+          "syllables": 734,
+          "coverage_ratio": 0.985,
+          "lane_counts": {
+            "0": 48,
+            "1": 70,
+            "2": 103,
+            "3": 45
+          }
+        },
+        "hard": {
+          "notes": 279,
+          "attack_groups": 279,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 241,
+          "hold_max_ms": 1160.0,
+          "covered_syllables": 723,
+          "syllables": 734,
+          "coverage_ratio": 0.985,
+          "lane_counts": {
+            "0": 50,
+            "1": 71,
+            "2": 108,
+            "3": 50
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "dias-magicos",
+      "difficulties": {
+        "easy": {
+          "notes": 251,
+          "attack_groups": 251,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 147,
+          "hold_max_ms": 1470.0,
+          "covered_syllables": 417,
+          "syllables": 461,
+          "coverage_ratio": 0.9046,
+          "lane_counts": {
+            "0": 57,
+            "1": 67,
+            "2": 70,
+            "3": 57
+          }
+        },
+        "normal": {
+          "notes": 272,
+          "attack_groups": 272,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 237,
+          "hold_max_ms": 1470.0,
+          "covered_syllables": 438,
+          "syllables": 461,
+          "coverage_ratio": 0.9501,
+          "lane_counts": {
+            "0": 59,
+            "1": 73,
+            "2": 75,
+            "3": 65
+          }
+        },
+        "hard": {
+          "notes": 298,
+          "attack_groups": 298,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 234,
+          "hold_max_ms": 1470.0,
+          "covered_syllables": 435,
+          "syllables": 461,
+          "coverage_ratio": 0.9436,
+          "lane_counts": {
+            "0": 57,
+            "1": 81,
+            "2": 84,
+            "3": 76
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "eclipsis",
+      "difficulties": {
+        "easy": {
+          "notes": 321,
+          "attack_groups": 321,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 191,
+          "hold_max_ms": 1670.0,
+          "covered_syllables": 548,
+          "syllables": 612,
+          "coverage_ratio": 0.8954,
+          "lane_counts": {
+            "0": 74,
+            "1": 95,
+            "2": 80,
+            "3": 72
+          }
+        },
+        "normal": {
+          "notes": 355,
+          "attack_groups": 355,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 318,
+          "hold_max_ms": 1670.0,
+          "covered_syllables": 581,
+          "syllables": 612,
+          "coverage_ratio": 0.9493,
+          "lane_counts": {
+            "0": 83,
+            "1": 101,
+            "2": 90,
+            "3": 81
+          }
+        },
+        "hard": {
+          "notes": 392,
+          "attack_groups": 392,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 317,
+          "hold_max_ms": 1670.0,
+          "covered_syllables": 580,
+          "syllables": 612,
+          "coverage_ratio": 0.9477,
+          "lane_counts": {
+            "0": 86,
+            "1": 109,
+            "2": 102,
+            "3": 95
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "fango",
+      "difficulties": {
+        "easy": {
+          "notes": 259,
+          "attack_groups": 259,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 184,
+          "hold_max_ms": 1310.0,
+          "covered_syllables": 588,
+          "syllables": 631,
+          "coverage_ratio": 0.9319,
+          "lane_counts": {
+            "0": 64,
+            "1": 72,
+            "2": 76,
+            "3": 47
+          }
+        },
+        "normal": {
+          "notes": 286,
+          "attack_groups": 286,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 254,
+          "hold_max_ms": 1310.0,
+          "covered_syllables": 615,
+          "syllables": 631,
+          "coverage_ratio": 0.9746,
+          "lane_counts": {
+            "0": 71,
+            "1": 81,
+            "2": 81,
+            "3": 53
+          }
+        },
+        "hard": {
+          "notes": 308,
+          "attack_groups": 308,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 253,
+          "hold_max_ms": 1310.0,
+          "covered_syllables": 614,
+          "syllables": 631,
+          "coverage_ratio": 0.9731,
+          "lane_counts": {
+            "0": 77,
+            "1": 89,
+            "2": 86,
+            "3": 56
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "luma",
+      "difficulties": {
+        "easy": {
+          "notes": 287,
+          "attack_groups": 287,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 159,
+          "hold_max_ms": 1530.0,
+          "covered_syllables": 421,
+          "syllables": 481,
+          "coverage_ratio": 0.8753,
+          "lane_counts": {
+            "0": 80,
+            "1": 83,
+            "2": 75,
+            "3": 49
+          }
+        },
+        "normal": {
+          "notes": 322,
+          "attack_groups": 322,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 283,
+          "hold_max_ms": 1530.0,
+          "covered_syllables": 456,
+          "syllables": 481,
+          "coverage_ratio": 0.948,
+          "lane_counts": {
+            "0": 87,
+            "1": 99,
+            "2": 83,
+            "3": 53
+          }
+        },
+        "hard": {
+          "notes": 344,
+          "attack_groups": 344,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 280,
+          "hold_max_ms": 1530.0,
+          "covered_syllables": 453,
+          "syllables": 481,
+          "coverage_ratio": 0.9418,
+          "lane_counts": {
+            "0": 87,
+            "1": 104,
+            "2": 91,
+            "3": 62
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "maraton-de-peliculas",
+      "difficulties": {
+        "easy": {
+          "notes": 293,
+          "attack_groups": 293,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 194,
+          "hold_max_ms": 1770.0,
+          "covered_syllables": 537,
+          "syllables": 588,
+          "coverage_ratio": 0.9133,
+          "lane_counts": {
+            "0": 71,
+            "1": 75,
+            "2": 63,
+            "3": 84
+          }
+        },
+        "normal": {
+          "notes": 329,
+          "attack_groups": 329,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 294,
+          "hold_max_ms": 1770.0,
+          "covered_syllables": 573,
+          "syllables": 588,
+          "coverage_ratio": 0.9745,
+          "lane_counts": {
+            "0": 78,
+            "1": 90,
+            "2": 75,
+            "3": 86
+          }
+        },
+        "hard": {
+          "notes": 375,
+          "attack_groups": 375,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 293,
+          "hold_max_ms": 1770.0,
+          "covered_syllables": 573,
+          "syllables": 588,
+          "coverage_ratio": 0.9745,
+          "lane_counts": {
+            "0": 91,
+            "1": 106,
+            "2": 86,
+            "3": 92
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "difficulties": {
+        "easy": {
+          "notes": 203,
+          "attack_groups": 203,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 125,
+          "hold_max_ms": 1500.0,
+          "covered_syllables": 242,
+          "syllables": 289,
+          "coverage_ratio": 0.8374,
+          "lane_counts": {
+            "0": 40,
+            "1": 66,
+            "2": 58,
+            "3": 39
+          }
+        },
+        "normal": {
+          "notes": 232,
+          "attack_groups": 232,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 215,
+          "hold_max_ms": 1500.0,
+          "covered_syllables": 271,
+          "syllables": 289,
+          "coverage_ratio": 0.9377,
+          "lane_counts": {
+            "0": 47,
+            "1": 74,
+            "2": 69,
+            "3": 42
+          }
+        },
+        "hard": {
+          "notes": 267,
+          "attack_groups": 267,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 215,
+          "hold_max_ms": 1500.0,
+          "covered_syllables": 271,
+          "syllables": 289,
+          "coverage_ratio": 0.9377,
+          "lane_counts": {
+            "0": 51,
+            "1": 80,
+            "2": 84,
+            "3": 52
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "meteora",
+      "difficulties": {
+        "easy": {
+          "notes": 252,
+          "attack_groups": 252,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 186,
+          "hold_max_ms": 1800.0,
+          "covered_syllables": 563,
+          "syllables": 584,
+          "coverage_ratio": 0.964,
+          "lane_counts": {
+            "0": 57,
+            "1": 73,
+            "2": 77,
+            "3": 45
+          }
+        },
+        "normal": {
+          "notes": 266,
+          "attack_groups": 266,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 252,
+          "hold_max_ms": 1800.0,
+          "covered_syllables": 577,
+          "syllables": 584,
+          "coverage_ratio": 0.988,
+          "lane_counts": {
+            "0": 62,
+            "1": 77,
+            "2": 79,
+            "3": 48
+          }
+        },
+        "hard": {
+          "notes": 295,
+          "attack_groups": 295,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 250,
+          "hold_max_ms": 1800.0,
+          "covered_syllables": 575,
+          "syllables": 584,
+          "coverage_ratio": 0.9846,
+          "lane_counts": {
+            "0": 70,
+            "1": 80,
+            "2": 90,
+            "3": 55
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "mi-hogar",
+      "difficulties": {
+        "easy": {
+          "notes": 168,
+          "attack_groups": 168,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 123,
+          "hold_max_ms": 1770.0,
+          "covered_syllables": 304,
+          "syllables": 325,
+          "coverage_ratio": 0.9354,
+          "lane_counts": {
+            "0": 34,
+            "1": 42,
+            "2": 54,
+            "3": 38
+          }
+        },
+        "normal": {
+          "notes": 187,
+          "attack_groups": 187,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 168,
+          "hold_max_ms": 1770.0,
+          "covered_syllables": 323,
+          "syllables": 325,
+          "coverage_ratio": 0.9938,
+          "lane_counts": {
+            "0": 41,
+            "1": 46,
+            "2": 57,
+            "3": 43
+          }
+        },
+        "hard": {
+          "notes": 215,
+          "attack_groups": 215,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 166,
+          "hold_max_ms": 1770.0,
+          "covered_syllables": 321,
+          "syllables": 325,
+          "coverage_ratio": 0.9877,
+          "lane_counts": {
+            "0": 54,
+            "1": 49,
+            "2": 67,
+            "3": 45
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "nubia",
+      "difficulties": {
+        "easy": {
+          "notes": 228,
+          "attack_groups": 228,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 136,
+          "hold_max_ms": 1610.0,
+          "covered_syllables": 365,
+          "syllables": 411,
+          "coverage_ratio": 0.8881,
+          "lane_counts": {
+            "0": 49,
+            "1": 65,
+            "2": 64,
+            "3": 50
+          }
+        },
+        "normal": {
+          "notes": 255,
+          "attack_groups": 255,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 221,
+          "hold_max_ms": 1610.0,
+          "covered_syllables": 392,
+          "syllables": 411,
+          "coverage_ratio": 0.9538,
+          "lane_counts": {
+            "0": 56,
+            "1": 71,
+            "2": 75,
+            "3": 53
+          }
+        },
+        "hard": {
+          "notes": 293,
+          "attack_groups": 293,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 221,
+          "hold_max_ms": 1610.0,
+          "covered_syllables": 392,
+          "syllables": 411,
+          "coverage_ratio": 0.9538,
+          "lane_counts": {
+            "0": 61,
+            "1": 83,
+            "2": 84,
+            "3": 65
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "nuestro-amor-no-es-normal",
+      "difficulties": {
+        "easy": {
+          "notes": 170,
+          "attack_groups": 170,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 115,
+          "hold_max_ms": 1500.0,
+          "covered_syllables": 284,
+          "syllables": 321,
+          "coverage_ratio": 0.8847,
+          "lane_counts": {
+            "0": 43,
+            "1": 53,
+            "2": 50,
+            "3": 24
+          }
+        },
+        "normal": {
+          "notes": 193,
+          "attack_groups": 193,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 179,
+          "hold_max_ms": 1500.0,
+          "covered_syllables": 307,
+          "syllables": 321,
+          "coverage_ratio": 0.9564,
+          "lane_counts": {
+            "0": 46,
+            "1": 61,
+            "2": 56,
+            "3": 30
+          }
+        },
+        "hard": {
+          "notes": 215,
+          "attack_groups": 215,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 179,
+          "hold_max_ms": 1500.0,
+          "covered_syllables": 307,
+          "syllables": 321,
+          "coverage_ratio": 0.9564,
+          "lane_counts": {
+            "0": 50,
+            "1": 68,
+            "2": 63,
+            "3": 34
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "peligrosa",
+      "difficulties": {
+        "easy": {
+          "notes": 290,
+          "attack_groups": 290,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 194,
+          "hold_max_ms": 1490.0,
+          "covered_syllables": 613,
+          "syllables": 666,
+          "coverage_ratio": 0.9204,
+          "lane_counts": {
+            "0": 69,
+            "1": 86,
+            "2": 76,
+            "3": 59
+          }
+        },
+        "normal": {
+          "notes": 320,
+          "attack_groups": 320,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 294,
+          "hold_max_ms": 1490.0,
+          "covered_syllables": 643,
+          "syllables": 666,
+          "coverage_ratio": 0.9655,
+          "lane_counts": {
+            "0": 78,
+            "1": 92,
+            "2": 87,
+            "3": 63
+          }
+        },
+        "hard": {
+          "notes": 349,
+          "attack_groups": 349,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 291,
+          "hold_max_ms": 1490.0,
+          "covered_syllables": 640,
+          "syllables": 666,
+          "coverage_ratio": 0.961,
+          "lane_counts": {
+            "0": 82,
+            "1": 102,
+            "2": 94,
+            "3": 71
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "rompecabezas",
+      "difficulties": {
+        "easy": {
+          "notes": 288,
+          "attack_groups": 288,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 187,
+          "hold_max_ms": 1420.0,
+          "covered_syllables": 529,
+          "syllables": 591,
+          "coverage_ratio": 0.8951,
+          "lane_counts": {
+            "0": 57,
+            "1": 92,
+            "2": 81,
+            "3": 58
+          }
+        },
+        "normal": {
+          "notes": 327,
+          "attack_groups": 327,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 295,
+          "hold_max_ms": 1420.0,
+          "covered_syllables": 567,
+          "syllables": 591,
+          "coverage_ratio": 0.9594,
+          "lane_counts": {
+            "0": 68,
+            "1": 104,
+            "2": 85,
+            "3": 70
+          }
+        },
+        "hard": {
+          "notes": 349,
+          "attack_groups": 349,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 291,
+          "hold_max_ms": 1420.0,
+          "covered_syllables": 563,
+          "syllables": 591,
+          "coverage_ratio": 0.9526,
+          "lane_counts": {
+            "0": 72,
+            "1": 106,
+            "2": 97,
+            "3": 74
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "si-te-vas",
+      "difficulties": {
+        "easy": {
+          "notes": 231,
+          "attack_groups": 231,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 160,
+          "hold_max_ms": 1750.0,
+          "covered_syllables": 443,
+          "syllables": 483,
+          "coverage_ratio": 0.9172,
+          "lane_counts": {
+            "0": 49,
+            "1": 55,
+            "2": 70,
+            "3": 57
+          }
+        },
+        "normal": {
+          "notes": 254,
+          "attack_groups": 254,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 231,
+          "hold_max_ms": 1750.0,
+          "covered_syllables": 466,
+          "syllables": 483,
+          "coverage_ratio": 0.9648,
+          "lane_counts": {
+            "0": 54,
+            "1": 60,
+            "2": 77,
+            "3": 63
+          }
+        },
+        "hard": {
+          "notes": 299,
+          "attack_groups": 299,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 229,
+          "hold_max_ms": 1750.0,
+          "covered_syllables": 464,
+          "syllables": 483,
+          "coverage_ratio": 0.9607,
+          "lane_counts": {
+            "0": 68,
+            "1": 69,
+            "2": 91,
+            "3": 71
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "solare",
+      "difficulties": {
+        "easy": {
+          "notes": 295,
+          "attack_groups": 295,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 178,
+          "hold_max_ms": 1800.0,
+          "covered_syllables": 525,
+          "syllables": 572,
+          "coverage_ratio": 0.9178,
+          "lane_counts": {
+            "0": 59,
+            "1": 88,
+            "2": 88,
+            "3": 60
+          }
+        },
+        "normal": {
+          "notes": 320,
+          "attack_groups": 320,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 301,
+          "hold_max_ms": 1800.0,
+          "covered_syllables": 550,
+          "syllables": 572,
+          "coverage_ratio": 0.9615,
+          "lane_counts": {
+            "0": 68,
+            "1": 94,
+            "2": 95,
+            "3": 63
+          }
+        },
+        "hard": {
+          "notes": 353,
+          "attack_groups": 353,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 299,
+          "hold_max_ms": 1800.0,
+          "covered_syllables": 548,
+          "syllables": 572,
+          "coverage_ratio": 0.958,
+          "lane_counts": {
+            "0": 70,
+            "1": 99,
+            "2": 113,
+            "3": 71
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "tristella",
+      "difficulties": {
+        "easy": {
+          "notes": 304,
+          "attack_groups": 304,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 184,
+          "hold_max_ms": 1740.0,
+          "covered_syllables": 475,
+          "syllables": 527,
+          "coverage_ratio": 0.9013,
+          "lane_counts": {
+            "0": 60,
+            "1": 81,
+            "2": 97,
+            "3": 66
+          }
+        },
+        "normal": {
+          "notes": 338,
+          "attack_groups": 338,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 307,
+          "hold_max_ms": 1740.0,
+          "covered_syllables": 509,
+          "syllables": 527,
+          "coverage_ratio": 0.9658,
+          "lane_counts": {
+            "0": 71,
+            "1": 89,
+            "2": 102,
+            "3": 76
+          }
+        },
+        "hard": {
+          "notes": 369,
+          "attack_groups": 369,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 307,
+          "hold_max_ms": 1740.0,
+          "covered_syllables": 509,
+          "syllables": 527,
+          "coverage_ratio": 0.9658,
+          "lane_counts": {
+            "0": 80,
+            "1": 90,
+            "2": 112,
+            "3": 87
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "tu-dealer-de-nostalgia",
+      "difficulties": {
+        "easy": {
+          "notes": 220,
+          "attack_groups": 220,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 165,
+          "hold_max_ms": 1490.0,
+          "covered_syllables": 492,
+          "syllables": 509,
+          "coverage_ratio": 0.9666,
+          "lane_counts": {
+            "0": 33,
+            "1": 56,
+            "2": 84,
+            "3": 47
+          }
+        },
+        "normal": {
+          "notes": 233,
+          "attack_groups": 233,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 219,
+          "hold_max_ms": 1490.0,
+          "covered_syllables": 505,
+          "syllables": 509,
+          "coverage_ratio": 0.9921,
+          "lane_counts": {
+            "0": 36,
+            "1": 59,
+            "2": 88,
+            "3": 50
+          }
+        },
+        "hard": {
+          "notes": 258,
+          "attack_groups": 258,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 219,
+          "hold_max_ms": 1490.0,
+          "covered_syllables": 505,
+          "syllables": 509,
+          "coverage_ratio": 0.9921,
+          "lane_counts": {
+            "0": 45,
+            "1": 60,
+            "2": 94,
+            "3": 59
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "un-poco-bien-un-poco-mal",
+      "difficulties": {
+        "easy": {
+          "notes": 224,
+          "attack_groups": 224,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 152,
+          "hold_max_ms": 1770.0,
+          "covered_syllables": 369,
+          "syllables": 407,
+          "coverage_ratio": 0.9066,
+          "lane_counts": {
+            "0": 54,
+            "1": 63,
+            "2": 70,
+            "3": 37
+          }
+        },
+        "normal": {
+          "notes": 250,
+          "attack_groups": 250,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 229,
+          "hold_max_ms": 1770.0,
+          "covered_syllables": 395,
+          "syllables": 407,
+          "coverage_ratio": 0.9705,
+          "lane_counts": {
+            "0": 63,
+            "1": 70,
+            "2": 77,
+            "3": 40
+          }
+        },
+        "hard": {
+          "notes": 296,
+          "attack_groups": 296,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 226,
+          "hold_max_ms": 1770.0,
+          "covered_syllables": 392,
+          "syllables": 407,
+          "coverage_ratio": 0.9631,
+          "lane_counts": {
+            "0": 78,
+            "1": 86,
+            "2": 78,
+            "3": 54
+          }
+        }
+      },
+      "errors": 0
+    },
+    {
+      "song": "volver-a-vernos",
+      "difficulties": {
+        "easy": {
+          "notes": 259,
+          "attack_groups": 259,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 187,
+          "hold_max_ms": 1350.0,
+          "covered_syllables": 624,
+          "syllables": 657,
+          "coverage_ratio": 0.9498,
+          "lane_counts": {
+            "0": 48,
+            "1": 71,
+            "2": 95,
+            "3": 45
+          }
+        },
+        "normal": {
+          "notes": 279,
+          "attack_groups": 279,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 260,
+          "hold_max_ms": 1350.0,
+          "covered_syllables": 644,
+          "syllables": 657,
+          "coverage_ratio": 0.9802,
+          "lane_counts": {
+            "0": 53,
+            "1": 76,
+            "2": 103,
+            "3": 47
+          }
+        },
+        "hard": {
+          "notes": 300,
+          "attack_groups": 300,
+          "clusters_gt2_in_500ms": 0,
+          "clusters_gt3_in_1000ms": 0,
+          "holds": 260,
+          "hold_max_ms": 1350.0,
+          "covered_syllables": 644,
+          "syllables": 657,
+          "coverage_ratio": 0.9802,
+          "lane_counts": {
+            "0": 56,
+            "1": 81,
+            "2": 106,
+            "3": 57
+          }
+        }
+      },
+      "errors": 0
+    }
+  ],
+  "rules": {
+    "player_lanes": "0..3",
+    "max_clusters_gt2_in_500ms": 0,
+    "max_clusters_gt3_in_1000ms": 0,
+    "max_hold_ms": 1800.0,
+    "difficulty_progression": "easy<normal<hard"
+  }
+}
