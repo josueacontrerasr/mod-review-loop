@@ -22,7 +22,9 @@ concurrency:
 jobs:
   # El pipeline histórico de candidatos queda excluido de las ramas V2.6.2 y V2.6.3.
   candidates:
-    if: github.ref_name != 'main' && github.ref_name != 'auto/si-te-vas-v262' && github.ref_name != 'auto/syllable-sync-v263'
+    # Este pipeline histórico no se ejecuta en la rama V2.7.2; el workflow
+    # qa-playstate-vocal-freeplay-v272.yml valida sus candidatos vocales reales.
+    if: github.ref_name != 'main' && github.ref_name != 'auto/si-te-vas-v262' && github.ref_name != 'auto/syllable-sync-v263' && github.ref_name != 'auto/fnf-vocal-sync-v272'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
