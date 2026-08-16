@@ -34,7 +34,7 @@ config["chart_syllable_policy"] = {
     "engine_same_lane_collision_ms": 12,
     "low_confidence_requires_manual_review": True,
 }
-config["complete_delivery_zip"] = "Esperon-Completo.zip"
+config["complete_delivery_zip"] = f"Esperon-Completo-V{VERSION}.zip"
 config["freeplay_capsule_policy"] = "LEVEL_TITLE_ASSET_AND_ALBUM_ROLL_VERIFIED"
 config["player_lane_contract"] = "d=0..3 with vowel mapping A=0,E=2,I=3,O/U=1; repeated same-vowel attacks balance lanes"
 contracts = config.setdefault("contracts", {})

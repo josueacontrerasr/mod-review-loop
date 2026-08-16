@@ -56,13 +56,14 @@ def main() -> int:
     parser = argparse.ArgumentParser(); parser.add_argument("root", type=Path, nargs="?", default=Path(".")); parser.add_argument("--workers", type=int, default=8); args = parser.parse_args()
     root = args.root.resolve(); delivery = root / "Mods .zip terminados"
     zips = sorted(delivery.glob("*.zip"))
-    expected = {"Esperon-Completo.zip"} | {f"Mod-{'-'.join(word.capitalize() for word in song.split('-'))}-V2.7.2.zip" for song in SONGS}
+    expected = {"Esperon-Completo-V2.7.2.zip"} | {f"Esperon-{'-'.join(word.capitalize() for word in song.split('-'))}-V2.7.2.zip" for song in SONGS}
     errors: list[str] = []
     actual = {path.name for path in zips}
     if actual != expected: errors.append(f"delivery_names:missing={sorted(expected-actual)},extra={sorted(actual-expected)}")
-    individual_paths = [path for path in zips if path.name != "Esperon-Completo.zip"]
+    individual_paths = [path for path in zips if path.name != "Esperon-Completo-V2.7.2.zip"]
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool: individual = list(pool.map(lambda path: inspect(path, 1), individual_paths))
-    complete = inspect(delivery / "Esperon-Completo.zip", 21) if (delivery / "Esperon-Completo.zip").is_file() else {"status": "ERRORS_FOUND", "errors": ["complete_missing"]}
+    complete_path = delivery / "Esperon-Completo-V2.7.2.zip"
+    complete = inspect(complete_path, 21) if complete_path.is_file() else {"status": "ERRORS_FOUND", "errors": ["complete_missing"]}
     if complete.get("status") != "PASS": errors.extend(complete.get("errors", []))
     payload = {"scope": "ESPERON_COMPLETE_ZIP_GATE_V272", "executed_at": datetime.now(timezone.utc).isoformat(), "mod_version": "2.7.2", "individual_zips": len(individual), "individual_passed": sum(row["status"] == "PASS" for row in individual), "complete": complete, "delivery_zip_count": len(zips), "status": "PASS" if not errors and len(individual) == 21 and all(row["status"] == "PASS" for row in individual) else "ERRORS_FOUND", "errors": errors, "individual": sorted(individual, key=lambda row: row["zip"])}
     output = root / "qa-lab" / "rebuild-v272" / "playstate-fix" / "zip-gate-v272.json"; output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

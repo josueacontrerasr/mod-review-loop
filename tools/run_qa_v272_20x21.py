@@ -61,7 +61,7 @@ def one(root: Path, song: str, round_no: int) -> dict:
         script = next((path for path in (mod / "scripts").glob("*.hxc")), None)
         if script is None or "import funkin.modding.module.Module" not in script.read_text(encoding="utf-8") or "extends Module" not in script.read_text(encoding="utf-8"): issues.append("hscript_module")
     except Exception as exc: issues.append(f"contract:{exc}")
-    archive_name = f"Mod-{'-'.join(word.capitalize() for word in song.split('-'))}-V2.7.2.zip"; archive = root / "Mods .zip terminados" / archive_name
+    archive_name = f"Esperon-{'-'.join(word.capitalize() for word in song.split('-'))}-V2.7.2.zip"; archive = root / "Mods .zip terminados" / archive_name
     try:
         with zipfile.ZipFile(archive) as package:
             if package.testzip() is not None: issues.append("zip_crc")
@@ -74,7 +74,7 @@ def main() -> int:
     for round_no in range(1, 21):
         with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor: rows = list(executor.map(lambda song: one(root, song, round_no), SONGS))
         status = "PASS" if all(row["status"] == "PASS" for row in rows) else "ERROR"; rounds.append({"round": round_no, "status": status, "mods": rows}); print(json.dumps({"round": round_no, "status": status, "files": sum(row["files"] for row in rows)}, ensure_ascii=False), flush=True)
-    complete = root / "Mods .zip terminados" / "Esperon-Completo.zip"
+    complete = root / "Mods .zip terminados" / "Esperon-Completo-V2.7.2.zip"
     complete_status = "PASS"
     try:
         with zipfile.ZipFile(complete) as package:
