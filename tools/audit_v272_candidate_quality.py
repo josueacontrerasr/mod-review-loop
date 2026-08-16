@@ -2,7 +2,7 @@ import json
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path('/home/ubuntu/mod-review-loop-production')
+ROOT = Path(__file__).resolve().parents[1]
 SONGS = [
     'arcoloria', 'cortamos-y-volvemos', 'dano', 'dias-magicos', 'eclipsis', 'fango', 'luma',
     'maraton-de-peliculas', 'me-voy-a-morir-si-no-me-besas-ahora-mismo', 'meteora', 'mi-hogar',
