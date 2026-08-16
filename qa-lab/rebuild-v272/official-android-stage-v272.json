@@ -1,0 +1,229 @@
+{
+  "scope": "OFFICIAL_ANDROID_MOD_STAGE_V272",
+  "executed_at": "2026-08-16T02:33:52.968092+00:00",
+  "target_version": "0.8.6",
+  "package_name": "me.funkin.fnf",
+  "official_android_path": "/sdcard/Android/obb/me.funkin.fnf/mods",
+  "simulated_root": "qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods",
+  "source_root": "mods",
+  "mods_expected": 21,
+  "mods_staged": 21,
+  "missing_sources": [],
+  "manifest_root_passed": 21,
+  "adb_serial": null,
+  "adb_status": "NOT_REQUESTED",
+  "adb_push": [],
+  "status": "PASS",
+  "rows": [
+    {
+      "mod": "esperon-dano-arcoloria",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-arcoloria",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-arcoloria",
+      "manifest_at_root": true,
+      "song_directories": [
+        "arcoloria"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-cortamos-y-volvemos",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-cortamos-y-volvemos",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-cortamos-y-volvemos",
+      "manifest_at_root": true,
+      "song_directories": [
+        "cortamos-y-volvemos"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-dano",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dano",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-dano",
+      "manifest_at_root": true,
+      "song_directories": [
+        "dano"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-dias-magicos",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-dias-magicos",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-dias-magicos",
+      "manifest_at_root": true,
+      "song_directories": [
+        "dias-magicos"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-eclipsis",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-eclipsis",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-eclipsis",
+      "manifest_at_root": true,
+      "song_directories": [
+        "eclipsis"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-fango",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-fango",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-fango",
+      "manifest_at_root": true,
+      "song_directories": [
+        "fango"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-luma",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-luma",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-luma",
+      "manifest_at_root": true,
+      "song_directories": [
+        "luma"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-maraton-de-peliculas",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-maraton-de-peliculas",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-maraton-de-peliculas",
+      "manifest_at_root": true,
+      "song_directories": [
+        "maraton-de-peliculas"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-me-voy-a-morir-si-no-me-besas-ahora-mismo",
+      "manifest_at_root": true,
+      "song_directories": [
+        "me-voy-a-morir-si-no-me-besas-ahora-mismo"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-meteora",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-meteora",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-meteora",
+      "manifest_at_root": true,
+      "song_directories": [
+        "meteora"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-mi-hogar",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-mi-hogar",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-mi-hogar",
+      "manifest_at_root": true,
+      "song_directories": [
+        "mi-hogar"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-nubia",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nubia",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-nubia",
+      "manifest_at_root": true,
+      "song_directories": [
+        "nubia"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-nuestro-amor-no-es-normal",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-nuestro-amor-no-es-normal",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-nuestro-amor-no-es-normal",
+      "manifest_at_root": true,
+      "song_directories": [
+        "nuestro-amor-no-es-normal"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-peligrosa",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-peligrosa",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-peligrosa",
+      "manifest_at_root": true,
+      "song_directories": [
+        "peligrosa"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-rompecabezas",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-rompecabezas",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-rompecabezas",
+      "manifest_at_root": true,
+      "song_directories": [
+        "rompecabezas"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-si-te-vas",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-si-te-vas",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-si-te-vas",
+      "manifest_at_root": true,
+      "song_directories": [
+        "si-te-vas"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-solare",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-solare",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-solare",
+      "manifest_at_root": true,
+      "song_directories": [
+        "solare"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-tristella",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tristella",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-tristella",
+      "manifest_at_root": true,
+      "song_directories": [
+        "tristella"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-tu-dealer-de-nostalgia",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-tu-dealer-de-nostalgia",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-tu-dealer-de-nostalgia",
+      "manifest_at_root": true,
+      "song_directories": [
+        "tu-dealer-de-nostalgia"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-un-poco-bien-un-poco-mal",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-un-poco-bien-un-poco-mal",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-un-poco-bien-un-poco-mal",
+      "manifest_at_root": true,
+      "song_directories": [
+        "un-poco-bien-un-poco-mal"
+      ],
+      "status": "PASS"
+    },
+    {
+      "mod": "esperon-dano-volver-a-vernos",
+      "source": "/home/ubuntu/mod-review-loop-production/mods/esperon-dano-volver-a-vernos",
+      "destination": "/home/ubuntu/mod-review-loop-production/qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/esperon-dano-volver-a-vernos",
+      "manifest_at_root": true,
+      "song_directories": [
+        "volver-a-vernos"
+      ],
+      "status": "PASS"
+    }
+  ]
+}
