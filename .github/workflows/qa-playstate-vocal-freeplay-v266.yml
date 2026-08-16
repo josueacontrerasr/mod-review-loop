@@ -2,8 +2,6 @@ name: QA PlayState Vocal Freeplay V2.6.6
 
 on:
   workflow_dispatch:
-  pull_request:
-    branches: [ main ]
   schedule:
     - cron: '*/10 * * * *'
 
