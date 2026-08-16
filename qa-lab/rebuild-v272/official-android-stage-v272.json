@@ -1,6 +1,6 @@
 {
   "scope": "OFFICIAL_ANDROID_MOD_STAGE_V272",
-  "executed_at": "2026-08-16T02:33:52.968092+00:00",
+  "executed_at": "2026-08-16T02:53:12.730501+00:00",
   "target_version": "0.8.6",
   "package_name": "me.funkin.fnf",
   "official_android_path": "/sdcard/Android/obb/me.funkin.fnf/mods",
@@ -8,6 +8,8 @@
   "source_root": "mods",
   "mods_expected": 21,
   "mods_staged": 21,
+  "persistent_lab_mod": "optimods",
+  "persistent_lab_mod_status": "PASS",
   "missing_sources": [],
   "manifest_root_passed": 21,
   "adb_serial": null,

@@ -1,0 +1,367 @@
+{
+  "tag": "v0.8.6",
+  "source_root": "/tmp/funkin-086-source/source",
+  "imports": [
+    {
+      "import": "StringTools",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.FlxCamera",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.FlxG",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.FlxSprite",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.addons.display.FlxBackdrop",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.addons.display.FlxTiledSprite",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.addons.effects.FlxTrail",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.effects.FlxFlicker",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.graphics.FlxGraphic",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.math.FlxAngle",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.math.FlxMath",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.math.FlxPoint",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.tweens.FlxEase",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.tweens.FlxTween",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.util.FlxTimer",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "flixel.util.FlxTimerManager",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "funkin.Conductor",
+      "source_match": [
+        "funkin/Conductor.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.audio.FunkinSound",
+      "source_match": [
+        "funkin/audio/FunkinSound.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.graphics.FunkinSprite",
+      "source_match": [
+        "funkin/graphics/FunkinSprite.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.graphics.adobeanimate.FlxAtlasSprite",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "funkin.graphics.framebuffer.BitmapDataUtil",
+      "source_match": [
+        "funkin/graphics/framebuffer/BitmapDataUtil.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.graphics.framebuffer.FixedBitmapData",
+      "source_match": [
+        "funkin/graphics/framebuffer/FixedBitmapData.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.graphics.shaders.AdjustColorShader",
+      "source_match": [
+        "funkin/graphics/shaders/AdjustColorShader.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.graphics.shaders.DropShadowShader",
+      "source_match": [
+        "funkin/graphics/shaders/DropShadowShader.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.graphics.shaders.GaussianBlurShader",
+      "source_match": [
+        "funkin/graphics/shaders/GaussianBlurShader.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.graphics.shaders.OverlayBlend",
+      "source_match": [
+        "funkin/graphics/shaders/OverlayBlend.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.graphics.shaders.RuntimeRainShader",
+      "source_match": [
+        "funkin/graphics/shaders/RuntimeRainShader.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.graphics.shaders.WiggleEffectRuntime",
+      "source_match": [
+        "funkin/graphics/shaders/WiggleEffectRuntime.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.graphics.shaders.WiggleEffectType",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "funkin.modding.base.ScriptedFlxAtlasSprite",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "funkin.modding.base.ScriptedFlxRuntimeShader",
+      "source_match": [
+        "funkin/modding/base/ScriptedFlxRuntimeShader.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.modding.base.ScriptedFlxSpriteGroup",
+      "source_match": [
+        "funkin/modding/base/ScriptedFlxSpriteGroup.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.play.Countdown",
+      "source_match": [
+        "funkin/play/Countdown.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.play.PlayState",
+      "source_match": [
+        "funkin/play/PlayState.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.play.PlayStatePlaylist",
+      "source_match": [
+        "funkin/play/PlayStatePlaylist.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.play.character.CharacterType",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "funkin.play.cutscene.VideoCutscene",
+      "source_match": [
+        "funkin/play/cutscene/VideoCutscene.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.play.song.Song",
+      "source_match": [
+        "funkin/play/song/Song.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.play.stage.Stage",
+      "source_match": [
+        "funkin/play/stage/Stage.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.play.stage.StageProp",
+      "source_match": [
+        "funkin/play/stage/StageProp.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.save.Save",
+      "source_match": [
+        "funkin/save/Save.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.util.Constants",
+      "source_match": [
+        "funkin/util/Constants.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.util.FlxTweenUtil",
+      "source_match": [
+        "funkin/util/FlxTweenUtil.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.util.HapticUtil",
+      "source_match": [
+        "funkin/util/HapticUtil.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "funkin.util.MathUtil",
+      "source_match": [
+        "funkin/util/MathUtil.hx"
+      ],
+      "status": "PRESENT_IN_SOURCE"
+    },
+    {
+      "import": "openfl.display.BitmapData",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "openfl.filters.BlurFilter",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    },
+    {
+      "import": "openfl.filters.ShaderFilter",
+      "source_match": [],
+      "status": "NOT_IN_SOURCE_ROOT"
+    }
+  ],
+  "classes": [
+    {
+      "class": "LimoRideErectStage",
+      "name_present_in_source": false
+    },
+    {
+      "class": "PhillyBlazinStage",
+      "name_present_in_source": false
+    },
+    {
+      "class": "PhillyStreetsErectStage",
+      "name_present_in_source": false
+    },
+    {
+      "class": "PhillyStreetsStage",
+      "name_present_in_source": false
+    },
+    {
+      "class": "SchoolErectStage",
+      "name_present_in_source": false
+    },
+    {
+      "class": "SchoolEvilErectStage",
+      "name_present_in_source": false
+    },
+    {
+      "class": "SchoolEvilStage",
+      "name_present_in_source": false
+    },
+    {
+      "class": "SchoolPicoStage",
+      "name_present_in_source": false
+    },
+    {
+      "class": "StressSong",
+      "name_present_in_source": false
+    },
+    {
+      "class": "TankmanBattlefieldErectStage",
+      "name_present_in_source": false
+    },
+    {
+      "class": "TankmanSprite",
+      "name_present_in_source": false
+    }
+  ],
+  "missing_source_imports": [
+    "StringTools",
+    "flixel.FlxCamera",
+    "flixel.FlxG",
+    "flixel.FlxSprite",
+    "flixel.addons.display.FlxBackdrop",
+    "flixel.addons.display.FlxTiledSprite",
+    "flixel.addons.effects.FlxTrail",
+    "flixel.effects.FlxFlicker",
+    "flixel.graphics.FlxGraphic",
+    "flixel.math.FlxAngle",
+    "flixel.math.FlxMath",
+    "flixel.math.FlxPoint",
+    "flixel.tweens.FlxEase",
+    "flixel.tweens.FlxTween",
+    "flixel.util.FlxTimer",
+    "flixel.util.FlxTimerManager",
+    "funkin.graphics.adobeanimate.FlxAtlasSprite",
+    "funkin.graphics.shaders.WiggleEffectType",
+    "funkin.modding.base.ScriptedFlxAtlasSprite",
+    "funkin.play.character.CharacterType",
+    "openfl.display.BitmapData",
+    "openfl.filters.BlurFilter",
+    "openfl.filters.ShaderFilter"
+  ]
+}

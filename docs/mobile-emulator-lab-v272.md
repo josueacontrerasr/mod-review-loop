@@ -6,6 +6,8 @@ Este laboratorio reproduce la parte verificable del flujo móvil: arranque de un
 
 La ruta oficial documentada por FNF v0.8.6 es `/sdcard/Android/obb/me.funkin.fnf/mods`. La carpeta de cada mod debe quedar directamente dentro de `mods/` y contener `_polymod_meta.json` en su raíz. El paquete de la aplicación oficial es `me.funkin.fnf`.
 
+El laboratorio mantiene además `optimods` como mod persistente de diagnóstico. El ZIP original se conserva por su SHA-256 y la copia instalada se adapta mínimamente a la regla de API 0.8.x; no se elimina cuando se regeneran los 21 mods Esperón y no se incorpora a sus ZIPs de distribución. Solo se retirará si el usuario lo solicita explícitamente.
+
 ## Comparación de alternativas
 
 | Alternativa | Qué reproduce | Coste directo | Viabilidad para este proyecto | Limitación principal |
@@ -26,7 +28,8 @@ La prueba nativa requiere una APK universal o instalable de FNF 0.8.6. La págin
 
 ## Flujo automatizado
 
-El workflow crea un AVD x86_64 con Android API 35, habilita KVM, desactiva animaciones, inicia el emulador sin ventana y espera a que ADB lo marque como `device`. Después instala la APK, confirma que existe el paquete `me.funkin.fnf`, limpia `/sdcard/Android/obb/me.funkin.fnf/mods`, transfiere cada uno de los 21 mods, fuerza el cierre y arranque del juego, captura una pantalla y guarda los últimos mensajes de logcat. Cada mod obtiene un reporte individual; cualquier señal de `FATAL EXCEPTION`, `ANR` o muerte del proceso hace fallar el smoke test.
+El workflow crea un AVD x86_64 con Android API 35, habilita KVM, desactiva animaciones, inicia el emulador sin ventana y espera a que ADB lo marque como `device`. Después instala la APK, confirma que existe el paquete `me.funkin.fnf`, conserva `optimods`, limpia únicamente los directorios de prueba `esperon-dano-*`, transfiere cada uno de los 21 mods, fuerza el cierre y arranque del juego, captura una pantalla y guarda los últimos mensajes de logcat.
+ Cada mod obtiene un reporte individual; cualquier señal de `FATAL EXCEPTION`, `ANR` o muerte del proceso hace fallar el smoke test.
 
 Este procedimiento verifica **instalación, resolución del paquete, transferencia, arranque y ausencia de crash inmediato**. No declara que el usuario haya recorrido Freeplay, Story Mode o PlayState si la build no expone una interfaz automatizable para esas pantallas. Esas áreas requieren una segunda capa de automatización UI con coordenadas/árbol de accesibilidad ajustados al build o una inspección visual dirigida. La sincronización perceptual y la calibración de input siguen necesitando Audio Sync Test y un playtest; la latencia personal no debe convertirse en un cambio del chart.
 
@@ -58,7 +61,7 @@ Para una inspección manual, se puede instalar la APK desde la interfaz del emul
 
 ## Límites actuales y decisión técnica
 
-No es correcto afirmar que el sandbox actual ya tiene un teléfono Android funcional: solo tiene una simulación de sistema de archivos. La prueba local ejecutada sí confirmó que los 21 mods pueden stagedarse con `_polymod_meta.json` en la raíz, pero no ejecutó un APK. La prueba nativa real queda preparada en el repositorio y será ejecutable gratis en GitHub Actions cuando exista una APK legalmente disponible o cuando se habilite una build reproducible desde fuente.
+No es correcto afirmar que el sandbox actual ya tiene un teléfono Android funcional. Se llegó a instalar el SDK oficial y crear el AVD `fnf-vslice-086`, pero el arranque por software sin KVM no alcanzó `sys.boot_completed=1` de forma fiable y provocó presión de memoria; el proceso se detuvo para proteger el entorno. Por tanto, el sandbox conserva una simulación de sistema de archivos y los gates estáticos, pero no debe presentarse como un Android interactivo operativo. La prueba local confirmó que los 21 mods pueden stagedarse con `_polymod_meta.json` en la raíz. La prueba nativa queda preparada en el repositorio y será ejecutable en un anfitrión con KVM, como GitHub Actions o una computadora local compatible, cuando exista una APK legalmente disponible o una build reproducible desde fuente.
 
 ### Referencias
 

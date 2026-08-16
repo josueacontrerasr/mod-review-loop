@@ -1,0 +1,33 @@
+{
+  "scope": "PERSISTENT_LAB_MOD_V272",
+  "executed_at": "2026-08-16T02:43:23.860426+00:00",
+  "target_version": "0.8.6",
+  "package_name": "me.funkin.fnf",
+  "mod_id": "optimods",
+  "source_archive": "qa-lab/rebuild-v272/persistent-mods/source/diable_shaders_78cc3.zip",
+  "source_archive_sha256": "f33ac62838eee9a74b19b27b6703071d98e24b68067026eb7608601ea323a09e",
+  "source_archive_members": 22,
+  "normalized_path": "qa-lab/rebuild-v272/persistent-mods/normalized/optimods",
+  "installed_simulation_path": "qa-lab/mobile-sim/storage/emulated/0/Android/obb/me.funkin.fnf/mods/optimods",
+  "official_android_path": "/sdcard/Android/obb/me.funkin.fnf/mods/optimods",
+  "api_version_original": "0.7.0",
+  "api_version_installed": "0.8.6",
+  "compatibility_replacements": [
+    {
+      "file": "scripts/stages/schoolErect.hxc",
+      "change": "CharacterType import updated for v0.8.6"
+    },
+    {
+      "file": "scripts/stages/schoolPico.hxc",
+      "change": "CharacterType import updated for v0.8.6"
+    },
+    {
+      "file": "scripts/stages/tankmanBattlefieldErect.hxc",
+      "change": "CharacterType import updated for v0.8.6"
+    }
+  ],
+  "manifest_at_root": true,
+  "uninstall_policy": "PERSIST_UNTIL_USER_EXPLICITLY_REQUESTS_REMOVAL",
+  "excluded_from_esperon_runtime_zips": true,
+  "status": "PASS"
+}

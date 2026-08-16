@@ -50,6 +50,12 @@ jobs:
           sha256sum --check /tmp/fnf.sha256
           file /tmp/fnf-0.8.6.apk
 
+      - name: Stage official Android mods and persistent lab optimizer
+        run: |
+          set -euo pipefail
+          python3 tools/stage_official_android_mods_v272.py . --workers 4
+          python3 tools/validate_persistent_lab_mod_v272.py .
+
       - name: Run FNF in accelerated Android Emulator
         uses: reactivecircus/android-emulator-runner@v2
         with:

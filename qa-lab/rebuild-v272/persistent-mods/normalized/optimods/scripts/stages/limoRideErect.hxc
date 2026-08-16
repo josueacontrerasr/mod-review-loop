@@ -1,0 +1,205 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.util.FlxTimer;
+import funkin.audio.FunkinSound;
+import funkin.play.stage.Stage;
+import funkin.play.PlayState;
+import funkin.graphics.shaders.AdjustColorShader;
+import flixel.addons.display.FlxBackdrop;
+import funkin.util.HapticUtil;
+
+class LimoRideErectStage extends Stage
+{
+  function new()
+  {
+    super('limoRideErect');
+  }
+
+  var colorShader:AdjustColorShader;
+
+  var shootingStarBeat:Int = 0;
+  var shootingStarOffset:Int = 2;
+
+  function buildStage()
+  {
+    super.buildStage();
+
+    // Apply sky shader.
+    var limoSunset:FlxSprite = getNamedProp('limoSunset');
+    if (limoSunset == null)
+    {
+      trace('[WARN] Could not retrieve limoSunset');
+    }
+    else
+    {
+    }
+
+    // There's some commented-out shader BS in the original code.
+    // I don't know what it's for, but it's not used in the game.
+    // If you want to re-add it, go find it in version control.
+
+    colorShader = new AdjustColorShader();
+
+
+    PlayState.instance.currentStage.refresh(); // Apply z-index.
+
+
+    PlayState.instance.currentStage.refresh(); // Apply z-index.
+
+
+    PlayState.instance.currentStage.refresh(); // Apply z-index.
+
+
+    PlayState.instance.currentStage.refresh(); // Apply z-index.
+
+
+    PlayState.instance.currentStage.refresh(); // Apply z-index.
+
+    getNamedProp('shootingStar').blend = 0;
+
+    resetFastCar();
+  }
+
+  var _timer:Float = 0;
+
+  var doCarHaptics:Bool = false;
+
+  function onUpdate(event:UpdateScriptEvent):Void
+  {
+    super.onUpdate(event);
+
+    _timer += event.elapsed;
+
+    if (doCarHaptics)
+    {
+      HapticUtil.vibrate(0, 0.05, 0.25, 0);
+    }
+  }
+
+  function doShootingStar(beat:Int):Void
+  {
+    getNamedProp('shootingStar').x = FlxG.random.int(50, 900);
+    getNamedProp('shootingStar').y = FlxG.random.int(-10, 20);
+    getNamedProp('shootingStar').flipX = FlxG.random.bool(50);
+    getNamedProp('shootingStar').animation.play('shooting star');
+
+    shootingStarBeat = beat;
+    shootingStarOffset = FlxG.random.int(4, 8);
+  }
+
+  function onBeatHit(event:SongTimeScriptEvent)
+  {
+    // When overriding onBeatHit, make sure to call super.onBeatHit,
+    // otherwise boppers will not work.
+    super.onBeatHit(event);
+
+    if (FlxG.random.bool(10) && fastCarCanDrive) fastCarDrive();
+
+    if (FlxG.random.bool(10) && event.beat > (shootingStarBeat + shootingStarOffset))
+    {
+      doShootingStar(event.beat);
+    }
+  }
+
+  var fastCarCanDrive:Bool = false;
+
+  function resetFastCar():Void
+  {
+    var fastCar = getNamedProp('fastCar');
+
+    if (fastCar == null) return;
+
+    // Props are inactive by default.
+    // Set active to true so position is calculated based on velocity.
+    fastCar.active = true;
+
+    fastCar.x = -12600;
+    fastCar.y = FlxG.random.int(140, 250);
+    fastCar.velocity.x = 0;
+    fastCarCanDrive = true;
+  }
+
+  function fastCarDrive():Void
+  {
+    FunkinSound.playOnce(Paths.soundRandom('carPass', 0, 1), 0.7);
+
+    var fastCar = getNamedProp('fastCar');
+    fastCar.velocity.x = (FlxG.random.int(170, 220) / FlxG.elapsed) * 3;
+    fastCarCanDrive = false;
+
+    new FlxTimer().start(1, function(tmr:FlxTimer) {
+      doCarHaptics = true;
+
+      new FlxTimer().start(0.4, function(tmr:FlxTimer) {
+        doCarHaptics = false;
+      });
+    });
+
+    new FlxTimer().start(2, function(tmr:FlxTimer) {
+      resetFastCar();
+    });
+  }
+
+  /**
+   * If your stage uses additional assets not specified in the JSON,
+   * make sure to specify them like this, or they won't get cached in the loading screen.
+   */
+  function fetchAssetPaths():Array<String>
+  {
+    var results:Array<String> = super.fetchAssetPaths();
+
+    // This graphic is applied by shader to the background, so it's not included in the default stage function.
+    results.push(Paths.sound('carPass0'));
+    results.push(Paths.sound('carPass1'));
+
+    return results;
+  }
+
+  /**
+   * Make sure the fast car is reset when the song restarts.
+   */
+  function onSongRetry(event:ScriptEvent)
+  {
+    super.onSongRetry(event);
+    resetFastCar();
+    shootingStarBeat = 0;
+    shootingStarOffset = 2;
+  }
+
+  /**
+   * Make sure the fast car is reset when the song restarts.
+   */
+  function onCountdownStart(event:ScriptEvent)
+  {
+    super.onCountdownStart(event);
+    resetFastCar();
+  }
+
+  override function onCreate(event:ScriptEvent)
+  {
+    super.onCreate(event);
+
+    getNamedProp('limoDancer1').shader = colorShader;
+    getNamedProp('limoDancer2').shader = colorShader;
+    getNamedProp('limoDancer3').shader = colorShader;
+    getNamedProp('limoDancer4').shader = colorShader;
+    getNamedProp('limoDancer5').shader = colorShader;
+    getNamedProp('fastCar').shader = colorShader;
+
+    colorShader.hue = -30;
+    colorShader.saturation = -20;
+    colorShader.contrast = 0;
+    colorShader.brightness = -30;
+  }
+
+  /**
+   * Apply the shader to the character as it is added.
+   */
+  override function addCharacter(character:BaseCharacter, charType:CharacterType):Void
+  {
+    // Apply the shader automatically to each character as it gets added.
+    super.addCharacter(character, charType);
+    trace('Applied stage shader to ' + character.characterName);
+    character.shader = colorShader;
+  }
+}

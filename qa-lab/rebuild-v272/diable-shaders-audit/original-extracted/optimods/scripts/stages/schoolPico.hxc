@@ -1,0 +1,26 @@
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+import funkin.graphics.shaders.DropShadowShader;
+import funkin.play.character.CharacterType;
+
+class SchoolPicoStage extends Stage
+{
+  function new()
+  {
+    super('schoolPico');
+  }
+
+  function buildStage()
+  {
+    super.buildStage();
+
+    if (PlayState.instance.currentSong.id.toLowerCase() == "roses")
+    {
+      getNamedProp('freaks').idleSuffix = '-scared';
+    }
+    else
+    {
+      getNamedProp('freaks').idleSuffix = '';
+    }
+  }
+}
